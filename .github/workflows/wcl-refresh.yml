@@ -1,0 +1,15 @@
+name: Refresh WCL GitHub snapshots
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/45 * * * *"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call refresh endpoint
+        run: |
+          curl -fsS -X POST "${{ vars.WCL_REFRESH_URL }}" \
+            -H "x-refresh-secret: ${{ secrets.WCL_REFRESH_SECRET }}"
