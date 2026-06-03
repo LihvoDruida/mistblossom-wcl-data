@@ -89,6 +89,9 @@ interface RefreshMembersOptions {
   maxFightsPerRun?: number;
   maxQueriesPerRun?: number;
   requestDelayMs?: number;
+  minFightDurationMs?: number;
+  targetNewPullsPerMember?: number;
+  scannedAt?: string;
 }
 
 interface RefreshMembersResult {
@@ -96,6 +99,10 @@ interface RefreshMembersResult {
   reportsScanned: number;
   fightsScanned: number;
   wclQueriesUsed: number;
+  newPullsBySlug: Record<string, number>;
+  scannedSlugs: string[];
+  changedSlugs: string[];
+  budgetStopped: boolean;
   warnings: string[];
 }
 
@@ -120,6 +127,8 @@ export async function refreshWclGithubSnapshots(): Promise<{
     maxFightsPerRun: env.maxFightsPerRun,
     maxQueriesPerRun: env.maxWclQueriesPerRun,
     requestDelayMs: env.wclRequestDelayMs,
+    minFightDurationMs: env.minFightDurationMs,
+    targetNewPullsPerMember: env.targetNewPullsPerMember,
   });
 
   return {
@@ -154,6 +163,10 @@ export async function refreshWclGithubSnapshotsForMembers(
       reportsScanned: 0,
       fightsScanned: 0,
       wclQueriesUsed: 0,
+      newPullsBySlug: {},
+      scannedSlugs: [],
+      changedSlugs: [],
+      budgetStopped: false,
       warnings: ["No guild members selected for this incremental refresh batch."],
     };
   }
@@ -176,7 +189,20 @@ export async function refreshWclGithubSnapshotsForMembers(
   });
 
   const maxFightsPerRun = Math.max(1, Math.floor(options.maxFightsPerRun ?? env.maxFightsPerRun));
+  const minFightDurationMs = Math.max(0, Math.floor(options.minFightDurationMs ?? env.minFightDurationMs));
+  const targetNewPullsPerMember = Math.max(1, Math.floor(options.targetNewPullsPerMember ?? env.targetNewPullsPerMember));
+  const scannedAt = options.scannedAt ?? new Date().toISOString();
+  const initialPullKeysByMemberKey = new Map<string, Set<string>>();
+  const newPullsByMemberKey = new Map<string, number>();
+
+  for (const member of uniqueMembers) {
+    const key = memberKey(member.name, member.realmSlug, member.region);
+    initialPullKeysByMemberKey.set(key, new Set((pullsByMemberKey.get(key) ?? []).map((pull) => pull.key)));
+    newPullsByMemberKey.set(key, 0);
+  }
+
   let fightsScanned = 0;
+  let budgetStopped = false;
   let stopScanning = false;
 
   for (const report of reports) {
@@ -188,6 +214,7 @@ export async function refreshWclGithubSnapshotsForMembers(
       fullReport = reportDetails.reportData.report;
     } catch (error) {
       if (isWclBudgetError(error)) {
+        budgetStopped = true;
         warnings.push(`Stopped before report ${report.code}: ${errorMessage(error)}`);
         break;
       }
@@ -203,11 +230,21 @@ export async function refreshWclGithubSnapshotsForMembers(
     const actorsByName = buildActorsByName(fullReport.masterData?.actors ?? [], env.wclGuildRegion);
     const fights = (fullReport.fights ?? [])
       .filter((fight) => fight.startTime < fight.endTime)
+      .filter((fight) => fight.kill || fight.endTime - fight.startTime >= minFightDurationMs)
       .sort((a, b) => b.startTime - a.startTime);
 
     for (const fight of fights) {
       if (fightsScanned >= maxFightsPerRun) {
         stopScanning = true;
+        break;
+      }
+
+      if (!wcl.canRunQueries(3)) {
+        budgetStopped = true;
+        stopScanning = true;
+        warnings.push(
+          `Stopped before ${report.code} fight ${fight.id}: local WCL query budget would be exceeded. Used ${wcl.getQueryCount()}/${wcl.getMaxQueryBudget() ?? "unlimited"}.`,
+        );
         break;
       }
 
@@ -223,6 +260,7 @@ export async function refreshWclGithubSnapshotsForMembers(
         deaths = await loadDeathsSafe(wcl, report.code, fight.startTime, fight.endTime, warnings);
       } catch (error) {
         if (isWclBudgetError(error)) {
+          budgetStopped = true;
           warnings.push(`Stopped at ${report.code} fight ${fight.id}: ${errorMessage(error)}`);
           stopScanning = true;
           break;
@@ -375,31 +413,62 @@ export async function refreshWclGithubSnapshotsForMembers(
               normalizedKeys,
               role,
               primaryKind: primary.primaryKind,
+              rateSources: {
+                damage: damageRate.source,
+                healing: healingRate.source,
+              },
             },
           },
         };
 
+        const initialKeys = initialPullKeysByMemberKey.get(key) ?? new Set<string>();
+        if (!initialKeys.has(pull.key)) {
+          newPullsByMemberKey.set(key, (newPullsByMemberKey.get(key) ?? 0) + 1);
+        }
+
         pullsByMemberKey.get(key)?.push(pull);
+      }
+
+      if (allMembersReachedTarget(newPullsByMemberKey, targetNewPullsPerMember)) {
+        stopScanning = true;
+        break;
       }
     }
   }
 
-  const snapshots = uniqueMembers.map((member) =>
-    buildMemberSnapshot(
+  const newPullsBySlug: Record<string, number> = {};
+  const snapshots = uniqueMembers.map((member) => {
+    const key = memberKey(member.name, member.realmSlug, member.region);
+    const slug = characterSlug(member.name, member.realmSlug, member.region);
+    const previous = options.existingSnapshots?.get(slug);
+    const newPulls = newPullsByMemberKey.get(key) ?? 0;
+    newPullsBySlug[slug] = newPulls;
+
+    return buildMemberSnapshot(
       member,
-      dedupePulls(pullsByMemberKey.get(memberKey(member.name, member.realmSlug, member.region)) ?? []),
+      dedupePulls(pullsByMemberKey.get(key) ?? []),
       reports.length,
       fightsScanned,
       env.recentAvgWindow,
       env.maxPullsPerMember,
-    ),
-  );
+      {
+        previous,
+        scannedAt,
+        newPullsInLastScan: newPulls,
+        scanReason: budgetStopped ? "budget-stop" : "scheduled",
+      },
+    );
+  });
 
   return {
     snapshots,
     reportsScanned: reports.length,
     fightsScanned,
     wclQueriesUsed: wcl.getQueryCount(),
+    newPullsBySlug,
+    scannedSlugs: snapshots.map((snapshot) => snapshot.character.slug),
+    changedSlugs: snapshots.filter((snapshot) => (snapshot.source.newPullsInLastScan ?? 0) > 0).map((snapshot) => snapshot.character.slug),
+    budgetStopped,
     warnings,
   };
 }
@@ -760,6 +829,14 @@ function dedupeMembers(members: GuildMemberInput[]): GuildMemberInput[] {
   }
 
   return [...map.values()];
+}
+
+function allMembersReachedTarget(newPullsByMemberKey: Map<string, number>, target: number): boolean {
+  if (!newPullsByMemberKey.size) return false;
+  for (const count of newPullsByMemberKey.values()) {
+    if (count < target) return false;
+  }
+  return true;
 }
 
 function dedupePulls(pulls: MemberPullSnapshot[]): MemberPullSnapshot[] {

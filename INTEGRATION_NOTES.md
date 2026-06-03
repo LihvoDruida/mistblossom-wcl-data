@@ -104,3 +104,24 @@ wclRaw.processing
 ```
 
 Це не повний dump усього report table, бо він буде занадто важкий для GitHub Pages. Зберігається саме matched оригінальна WCL-відповідь для конкретного персонажа + дані обробки. Цього достатньо, щоб дебажити неправильний DPS/HPS, роль, смерть або зіставлення персонажа.
+
+## Budget-aware refresh notes
+
+The hourly job now treats Warcraft Logs as a limited budget, not as an unlimited database. It does not attempt to refresh the whole guild every hour. Instead, it chooses a small batch from the roster, scans recent report fights within a hard query cap, then writes a queue state file so the next run knows who is fresh, stale, missing, scanned, or changed.
+
+Important distinction:
+
+- `scannedMembers` means the character was inspected this run.
+- `changedMembers` means the scan found at least one new pull for that character.
+
+This prevents false “no work done” states when there are no new logs while still keeping the queue moving.
+
+The dashboard should prefer these files:
+
+```txt
+api/wcl/index.json              full guild index + analytics
+api/wcl/analytics.json          guild-only analytics block
+api/wcl/job/state.json          queue state/freshness
+api/wcl/job/latest.json         last job diagnostics
+api/wcl/member/{slug}.json      full character snapshot
+```

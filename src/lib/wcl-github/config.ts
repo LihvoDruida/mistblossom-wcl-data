@@ -20,10 +20,14 @@ export interface WclGithubStaticConfig {
       memberBatchSize: number;
       /** Preferred freshness window. If everyone is fresh, the oldest snapshots still rotate hourly. */
       minMemberRefreshAgeHours: number;
-      /** Hard cap for detailed fight scans in one run. */
+      /** Hard cap for detailed fight scans in one hourly run. */
       maxFightsPerRun: number;
-      /** Hard cap for Warcraft Logs GraphQL queries in one run. */
+      /** Hard cap for Warcraft Logs GraphQL queries in one hourly run. Keep this conservative. */
       maxQueriesPerRun: number;
+      /** Ignore ultra-short accidental pulls; real wipes/kills still remain in queue through later runs. */
+      minFightDurationMs: number;
+      /** Stop a run early when every selected member received this many new pulls. */
+      targetNewPullsPerMember: number;
       /** Small pause between Warcraft Logs GraphQL requests to avoid bursts. */
       requestDelayMs: number;
     };
@@ -71,9 +75,11 @@ export const WCL_GITHUB_CONFIG: WclGithubStaticConfig = {
       recentAvgWindow: 3,
       memberBatchSize: 8,
       minMemberRefreshAgeHours: 12,
-      maxFightsPerRun: 10,
-      maxQueriesPerRun: 45,
-      requestDelayMs: 650,
+      maxFightsPerRun: 8,
+      maxQueriesPerRun: 28,
+      minFightDurationMs: 30_000,
+      targetNewPullsPerMember: 1,
+      requestDelayMs: 1_200,
     },
   },
   battleNet: {

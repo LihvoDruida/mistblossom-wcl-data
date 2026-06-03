@@ -19,9 +19,11 @@ Default safe limits live in `src/lib/wcl-github/config.ts`:
 ```ts
 memberBatchSize: 8,
 minMemberRefreshAgeHours: 12,
-maxFightsPerRun: 10,
-maxQueriesPerRun: 45,
-requestDelayMs: 650,
+maxFightsPerRun: 8,
+maxQueriesPerRun: 28,
+minFightDurationMs: 30_000,
+targetNewPullsPerMember: 1,
+requestDelayMs: 1_200,
 ```
 
 
@@ -307,3 +309,73 @@ api/wcl
 ## NPM registry note
 
 The workflow uses the public npm registry through `.npmrc` and installs dependencies with `npm ci`. Do not commit a lockfile that contains private/internal registry URLs.
+
+## v1.3.0 — budget-aware hourly refresh and guild analytics
+
+This version is designed for safe hourly GitHub Actions runs:
+
+- scans only a rotating batch of roster members every hour;
+- keeps a strict local WCL query budget per run;
+- stops early when every selected member has received the configured number of new pulls;
+- skips accidental micro-pulls shorter than `minFightDurationMs`;
+- stores `lastScannedAt`, `lastChangedAt`, `lastPullAt`, and `newPullsInLastScan` per character;
+- separates `scannedMembers` from `changedMembers`, so the queue can move even when no new logs exist;
+- keeps WCL raw matched rows for DPS/HPS audit without dumping huge full tables.
+
+Default conservative limits live in `src/lib/wcl-github/config.ts`:
+
+```ts
+memberBatchSize: 8,
+minMemberRefreshAgeHours: 12,
+maxFightsPerRun: 8,
+maxQueriesPerRun: 28,
+minFightDurationMs: 30_000,
+targetNewPullsPerMember: 1,
+requestDelayMs: 1_200,
+```
+
+New API-like JSON outputs:
+
+```txt
+api/wcl/analytics.json
+api/wcl/bosses.json
+api/wcl/classes.json
+api/wcl/top/damage.json
+api/wcl/top/healing.json
+api/wcl/top/attention.json
+api/wcl/job/state.json
+api/wcl/job/latest.json
+api/wcl/health.json
+```
+
+`api/wcl/analytics.json` includes guild-level calculations:
+
+- distinct fight count, kill/wipe rate, average raid deaths;
+- average team DPS/HPS by unique fight;
+- role analytics for damage/healers/unknown;
+- top recent DPS/HPS performers;
+- high death-risk and zero-death recent lists;
+- stability, consistency, reliability scores;
+- boss summaries by encounter/difficulty;
+- class summaries;
+- freshness coverage for the rolling queue.
+
+For manual Actions runs you can override:
+
+```txt
+batch_size
+max_fights
+max_queries
+min_fight_duration_ms
+target_new_pulls
+```
+
+Use low manual values when WCL points are already high, for example:
+
+```txt
+batch_size = 5
+max_fights = 5
+max_queries = 18
+min_fight_duration_ms = 30000
+target_new_pulls = 1
+```

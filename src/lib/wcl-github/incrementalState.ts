@@ -64,6 +64,13 @@ function migrateSnapshot(snapshot: MemberSnapshot): MemberSnapshot {
     ...migrated,
     // Preserve age for the rolling queue. Rebuilding stats must not make old snapshots look new.
     updatedAt: snapshot.updatedAt || migrated.updatedAt,
+    source: {
+      ...migrated.source,
+      ...snapshot.source,
+      lastScannedAt: snapshot.source?.lastScannedAt ?? snapshot.updatedAt ?? migrated.source.lastScannedAt,
+      lastChangedAt: snapshot.source?.lastChangedAt,
+      lastPullAt: snapshot.source?.lastPullAt ?? migrated.pulls[0]?.startedAt,
+    },
   };
 }
 
@@ -80,6 +87,23 @@ function normalizeLegacyPull(pull: MemberPullSnapshot): MemberPullSnapshot {
   return {
     ...pull,
     role,
+    deaths: {
+      character: pull.deaths?.character ?? 0,
+      raid: pull.deaths?.raid ?? 0,
+    },
+    source: {
+      damageTotal: pull.source?.damageTotal ?? 0,
+      healingTotal: pull.source?.healingTotal ?? 0,
+      damageActiveTimeMs: pull.source?.damageActiveTimeMs,
+      healingActiveTimeMs: pull.source?.healingActiveTimeMs,
+      damageTotalTimeMs: pull.source?.damageTotalTimeMs,
+      healingTotalTimeMs: pull.source?.healingTotalTimeMs,
+      damageEntryId: pull.source?.damageEntryId,
+      healingEntryId: pull.source?.healingEntryId,
+      damageItemLevel: pull.source?.damageItemLevel,
+      healingItemLevel: pull.source?.healingItemLevel,
+      matchedBy: pull.source?.matchedBy,
+    },
     metric: {
       dps,
       hps,
@@ -132,7 +156,7 @@ export function selectMembersForIncrementalRefresh(
       continue;
     }
 
-    const updatedAtMs = Date.parse(snapshot.updatedAt);
+    const updatedAtMs = Date.parse(snapshot.source?.lastScannedAt ?? snapshot.updatedAt);
     const ageMs = Number.isFinite(updatedAtMs) ? now.getTime() - updatedAtMs : Number.POSITIVE_INFINITY;
     if (ageMs >= minAgeMs) stale.push(member);
     else fresh.push(member);
@@ -182,6 +206,7 @@ export function buildIncrementalRefreshState(args: {
   snapshots: Map<string, MemberSnapshot>;
   selectedSlugs: string[];
   updatedSlugs: string[];
+  scannedSlugs: string[];
   pendingSlugs: string[];
   skippedFreshSlugs: string[];
   missingSnapshotSlugs: string[];
@@ -190,6 +215,7 @@ export function buildIncrementalRefreshState(args: {
 }): IncrementalRefreshState {
   const selected = new Set(args.selectedSlugs);
   const pending = new Set(args.pendingSlugs);
+  const scanned = new Set(args.scannedSlugs);
   const skippedFresh = new Set(args.skippedFreshSlugs);
   const missing = new Set(args.missingSnapshotSlugs);
   const updated = new Set(args.updatedSlugs);
@@ -199,8 +225,9 @@ export function buildIncrementalRefreshState(args: {
     const slug = characterSlug(member.name, member.realmSlug, member.region);
     const snapshot = args.snapshots.get(slug);
     const lastUpdatedAt = snapshot?.updatedAt;
-    const nextEligibleAt = lastUpdatedAt
-      ? new Date(Date.parse(lastUpdatedAt) + args.limits.minMemberRefreshAgeHours * 60 * 60 * 1000).toISOString()
+    const lastScannedAt = snapshot?.source?.lastScannedAt ?? snapshot?.updatedAt;
+    const nextEligibleAt = lastScannedAt
+      ? new Date(Date.parse(lastScannedAt) + args.limits.minMemberRefreshAgeHours * 60 * 60 * 1000).toISOString()
       : undefined;
 
     return {
@@ -211,13 +238,16 @@ export function buildIncrementalRefreshState(args: {
       rank: member.rank,
       className: member.className,
       lastUpdatedAt,
+      lastScannedAt,
       nextEligibleAt,
       pullsStored: snapshot?.stats.pullsStored ?? 0,
       kills: snapshot?.stats.kills ?? 0,
       wipes: snapshot?.stats.wipes ?? 0,
       status: updated.has(slug)
         ? "updated"
-        : pending.has(slug)
+        : scanned.has(slug)
+          ? "scanned"
+          : pending.has(slug)
           ? "pending"
           : rotatedFresh.has(slug)
             ? "rotated"
@@ -232,14 +262,15 @@ export function buildIncrementalRefreshState(args: {
   });
 
   return {
-    schemaVersion: 2,
+    schemaVersion: 3,
     updatedAt: args.updatedAt,
     guild: args.guild,
-    strategy: "incremental-hourly-rolling-members",
+    strategy: "incremental-hourly-budget-aware",
     limits: args.limits,
     batch: {
       selected: args.selectedSlugs,
       updated: args.updatedSlugs,
+      scanned: args.scannedSlugs,
       pending: args.pendingSlugs,
       skippedFresh: args.skippedFreshSlugs,
       missingSnapshots: args.missingSnapshotSlugs,
@@ -250,6 +281,7 @@ export function buildIncrementalRefreshState(args: {
       withSnapshots: members.filter((member) => Boolean(member.lastUpdatedAt)).length,
       pending: args.pendingSlugs.length,
       skippedFresh: args.skippedFreshSlugs.length,
+      coveragePercent: members.length ? Math.round((members.filter((member) => Boolean(member.lastScannedAt)).length / members.length) * 10000) / 100 : 0,
     },
     members,
   };
@@ -319,8 +351,10 @@ function snapshotAgeSort(
 ): number {
   const slugA = characterSlug(a.name, a.realmSlug, a.region);
   const slugB = characterSlug(b.name, b.realmSlug, b.region);
-  const timeA = Date.parse(existingSnapshots.get(slugA)?.updatedAt ?? "1970-01-01T00:00:00.000Z");
-  const timeB = Date.parse(existingSnapshots.get(slugB)?.updatedAt ?? "1970-01-01T00:00:00.000Z");
+  const snapshotA = existingSnapshots.get(slugA);
+  const snapshotB = existingSnapshots.get(slugB);
+  const timeA = Date.parse(snapshotA?.source?.lastScannedAt ?? snapshotA?.updatedAt ?? "1970-01-01T00:00:00.000Z");
+  const timeB = Date.parse(snapshotB?.source?.lastScannedAt ?? snapshotB?.updatedAt ?? "1970-01-01T00:00:00.000Z");
   if (timeA !== timeB) return timeA - timeB;
   return compareMembers(a, b);
 }

@@ -15,6 +15,14 @@ on:
         description: "Maximum WCL GraphQL queries in this run. Empty = config default."
         required: false
         type: string
+      min_fight_duration_ms:
+        description: "Skip accidental micro-pulls shorter than this duration. Empty = config default."
+        required: false
+        type: string
+      target_new_pulls:
+        description: "Stop early after every selected member gets this many new pulls. Empty = config default."
+        required: false
+        type: string
   schedule:
     - cron: "7 * * * *"
 
@@ -55,6 +63,8 @@ jobs:
           WCL_MEMBER_BATCH_SIZE: ${{ inputs.batch_size }}
           WCL_MAX_FIGHTS_PER_RUN: ${{ inputs.max_fights }}
           WCL_MAX_QUERIES_PER_RUN: ${{ inputs.max_queries }}
+          WCL_MIN_FIGHT_DURATION_MS: ${{ inputs.min_fight_duration_ms }}
+          WCL_TARGET_NEW_PULLS_PER_MEMBER: ${{ inputs.target_new_pulls }}
         run: npm run wcl:refresh
 
       - name: Commit generated JSON API

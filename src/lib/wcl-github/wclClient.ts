@@ -28,6 +28,20 @@ export class WclClient {
     return this.queryCount;
   }
 
+  getMaxQueryBudget(): number | undefined {
+    return this.options.maxQueriesPerRun;
+  }
+
+  getRemainingQueryBudget(): number {
+    const maxQueries = this.options.maxQueriesPerRun;
+    if (!maxQueries) return Number.POSITIVE_INFINITY;
+    return Math.max(0, maxQueries - this.queryCount);
+  }
+
+  canRunQueries(count: number): boolean {
+    return this.getRemainingQueryBudget() >= count;
+  }
+
   async query<T>(query: string, variables: Record<string, unknown> = {}): Promise<T> {
     await this.beforeGraphQlQuery();
     const accessToken = await this.getAccessToken();

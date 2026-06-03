@@ -68,6 +68,12 @@ export interface WclTableEntry {
   hps?: number;
   DPS?: number;
   HPS?: number;
+  amount?: number;
+  damage?: number;
+  healing?: number;
+  totalHealing?: number;
+  effectiveHealing?: number;
+  effectiveDamage?: number;
   [key: string]: unknown;
 }
 
@@ -159,6 +165,10 @@ export interface RawWclPullSnapshot {
     normalizedKeys: string[];
     role: PullRoleInfo;
     primaryKind: PrimaryMetricKind;
+    rateSources?: {
+      damage?: MetricRateSource;
+      healing?: MetricRateSource;
+    };
   };
 }
 
@@ -247,6 +257,14 @@ export interface RoleMetricSummary {
   worstPullKey?: string;
 }
 
+export interface MemberTrendSummary {
+  direction: "up" | "down" | "flat" | "unknown";
+  recentAvg: number;
+  previousAvg: number;
+  delta: number;
+  deltaPercent: number;
+}
+
 export interface MemberStats {
   pullsStored: number;
   kills: number;
@@ -258,8 +276,13 @@ export interface MemberStats {
   deathsPerPull: number;
   stabilityPercent: number;
   consistencyPercent: number;
+  performanceScore: number;
+  survivalScore: number;
+  reliabilityScore: number;
   recent3: NumericWindowSummary;
+  previous3: NumericWindowSummary;
   last10: Last10Summary;
+  trend: MemberTrendSummary;
   byRole: {
     healer: RoleMetricSummary;
     damage: RoleMetricSummary;
@@ -271,11 +294,13 @@ export interface MemberStats {
     pullsWithRoleInferred: number;
     pullsWithDeaths: number;
     primaryKindCounts: Record<PrimaryMetricKind, number>;
+    confidenceAvg: number;
+    matchedPullPercent: number;
   };
 }
 
 export interface MemberSnapshot {
-  schemaVersion: 1 | 2;
+  schemaVersion: 1 | 2 | 3;
   updatedAt: string;
   character: {
     name: string;
@@ -292,6 +317,11 @@ export interface MemberSnapshot {
     reportsScanned: number;
     fightsScanned: number;
     generatedBy: "wcl-github-api";
+    lastScannedAt?: string;
+    lastChangedAt?: string;
+    lastPullAt?: string;
+    newPullsInLastScan?: number;
+    scanReason?: "scheduled" | "manual" | "budget-stop" | "no-data";
   };
 }
 
@@ -303,6 +333,8 @@ export interface GuildIndexEntry {
   className?: string;
   rank?: number;
   updatedAt: string;
+  lastScannedAt?: string;
+  lastPullAt?: string;
   pullsStored: number;
   kills: number;
   wipes: number;
@@ -314,11 +346,114 @@ export interface GuildIndexEntry {
   maxHpsLast10: number;
   deathsPerPull: number;
   stabilityPercent: number;
+  consistencyPercent: number;
+  performanceScore: number;
+  survivalScore: number;
+  reliabilityScore: number;
+  trendDirection: MemberTrendSummary["direction"];
+  trendDeltaPercent: number;
   primaryKindCounts: Record<PrimaryMetricKind, number>;
 }
 
+export interface GuildTopMemberEntry {
+  slug: string;
+  name: string;
+  className?: string;
+  rank?: number;
+  value: number;
+  secondary?: number;
+}
+
+export interface GuildRoleAnalytics {
+  members: number;
+  pulls: number;
+  avgRecent: number;
+  medianRecent: number;
+  bestRecent: number;
+  maxLast10: number;
+  deathsPerPull: number;
+  topRecent: GuildTopMemberEntry[];
+}
+
+export interface GuildBossAnalytics {
+  key: string;
+  bossName: string;
+  encounterId?: number | null;
+  difficulty?: number | null;
+  difficultyName: string;
+  pulls: number;
+  kills: number;
+  wipes: number;
+  killRate: number;
+  avgDurationMs: number;
+  avgRaidDeaths: number;
+  avgTeamDps: number;
+  avgTeamHps: number;
+  bestTeamDps: number;
+  bestTeamHps: number;
+  lastPullAt?: string;
+}
+
+export interface GuildClassAnalytics {
+  className: string;
+  members: number;
+  withData: number;
+  avgPrimaryRecent3: number;
+  avgDpsRecent3: number;
+  avgHpsRecent3: number;
+  deathsPerPull: number;
+  avgReliabilityScore: number;
+}
+
+export interface GuildAnalyticsSnapshot {
+  overview: {
+    members: number;
+    membersWithData: number;
+    pullsStored: number;
+    distinctFights: number;
+    kills: number;
+    wipes: number;
+    killRate: number;
+    avgFightDurationMs: number;
+    avgRaidDeaths: number;
+    avgTeamDps: number;
+    avgTeamHps: number;
+    avgPerformanceScore: number;
+    avgSurvivalScore: number;
+    avgReliabilityScore: number;
+  };
+  roles: {
+    damage: GuildRoleAnalytics;
+    healer: GuildRoleAnalytics;
+    unknown: GuildRoleAnalytics;
+  };
+  deaths: {
+    totalCharacterDeaths: number;
+    deathsPerPull: number;
+    highDeathRisk: GuildTopMemberEntry[];
+    zeroDeathRecent: GuildTopMemberEntry[];
+  };
+  consistency: {
+    avgStabilityPercent: number;
+    avgConsistencyPercent: number;
+    mostStable: GuildTopMemberEntry[];
+    needsAttention: GuildTopMemberEntry[];
+  };
+  freshness: {
+    updatedWithin1h: number;
+    updatedWithin6h: number;
+    updatedWithin12h: number;
+    updatedWithin24h: number;
+    oldestScannedAt?: string;
+    newestScannedAt?: string;
+    staleMembers: GuildTopMemberEntry[];
+  };
+  bosses: GuildBossAnalytics[];
+  classes: GuildClassAnalytics[];
+}
+
 export interface GuildIndexSnapshot {
-  schemaVersion: 1 | 2;
+  schemaVersion: 1 | 2 | 3;
   updatedAt: string;
   guild: {
     name: string;
@@ -332,7 +467,10 @@ export interface GuildIndexSnapshot {
     healerPulls: number;
     damagePulls: number;
     unknownPulls: number;
+    distinctFights: number;
+    membersWithData: number;
   };
+  analytics: GuildAnalyticsSnapshot;
   members: GuildIndexEntry[];
 }
 
@@ -344,22 +482,23 @@ export interface RefreshStateMember {
   rank?: number;
   className?: string;
   lastUpdatedAt?: string;
+  lastScannedAt?: string;
   nextEligibleAt?: string;
   pullsStored: number;
   kills: number;
   wipes: number;
-  status: "updated" | "pending" | "fresh" | "missing" | "stale" | "rotated";
+  status: "updated" | "scanned" | "pending" | "fresh" | "missing" | "stale" | "rotated";
 }
 
 export interface IncrementalRefreshState {
-  schemaVersion: 1 | 2;
+  schemaVersion: 1 | 2 | 3;
   updatedAt: string;
   guild: {
     name: string;
     realmSlug: string;
     region: Region;
   };
-  strategy: "incremental-member-batches" | "incremental-hourly-rolling-members";
+  strategy: "incremental-member-batches" | "incremental-hourly-rolling-members" | "incremental-hourly-budget-aware";
   limits: {
     memberBatchSize: number;
     minMemberRefreshAgeHours: number;
@@ -368,10 +507,13 @@ export interface IncrementalRefreshState {
     requestDelayMs: number;
     maxPullsPerMember: number;
     recentAvgWindow: number;
+    minFightDurationMs?: number;
+    targetNewPullsPerMember?: number;
   };
   batch: {
     selected: string[];
     updated: string[];
+    scanned: string[];
     pending: string[];
     skippedFresh: string[];
     missingSnapshots: string[];
@@ -382,6 +524,7 @@ export interface IncrementalRefreshState {
     withSnapshots: number;
     pending: number;
     skippedFresh: number;
+    coveragePercent: number;
   };
   members: RefreshStateMember[];
 }

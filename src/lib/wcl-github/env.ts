@@ -34,6 +34,8 @@ export interface WclGithubEnv {
   minMemberRefreshAgeHours: number;
   maxFightsPerRun: number;
   maxWclQueriesPerRun: number;
+  minFightDurationMs: number;
+  targetNewPullsPerMember: number;
   wclRequestDelayMs: number;
 }
 
@@ -132,7 +134,9 @@ export function getWclGithubEnv(): WclGithubEnv {
       168,
     ),
     maxFightsPerRun: clampInt(envNumberOverride("WCL_MAX_FIGHTS_PER_RUN", cfg.wcl.scan.maxFightsPerRun), 1, 60),
-    maxWclQueriesPerRun: clampInt(envNumberOverride("WCL_MAX_QUERIES_PER_RUN", cfg.wcl.scan.maxQueriesPerRun), 5, 200),
-    wclRequestDelayMs: clampInt(envNumberOverride("WCL_REQUEST_DELAY_MS", cfg.wcl.scan.requestDelayMs), 0, 5000),
+    maxWclQueriesPerRun: clampInt(envNumberOverride("WCL_MAX_QUERIES_PER_RUN", cfg.wcl.scan.maxQueriesPerRun), 5, 120),
+    minFightDurationMs: clampInt(envNumberOverride("WCL_MIN_FIGHT_DURATION_MS", cfg.wcl.scan.minFightDurationMs), 0, 180_000),
+    targetNewPullsPerMember: clampInt(envNumberOverride("WCL_TARGET_NEW_PULLS_PER_MEMBER", cfg.wcl.scan.targetNewPullsPerMember), 1, 10),
+    wclRequestDelayMs: clampInt(envNumberOverride("WCL_REQUEST_DELAY_MS", cfg.wcl.scan.requestDelayMs), 0, 10000),
   };
 }

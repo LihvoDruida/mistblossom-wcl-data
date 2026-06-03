@@ -51,9 +51,11 @@ Default limits are in `src/lib/wcl-github/config.ts`:
 ```ts
 memberBatchSize: 8,
 minMemberRefreshAgeHours: 12,
-maxFightsPerRun: 10,
-maxQueriesPerRun: 45,
-requestDelayMs: 650,
+maxFightsPerRun: 8,
+maxQueriesPerRun: 28,
+minFightDurationMs: 30_000,
+targetNewPullsPerMember: 1,
+requestDelayMs: 1_200,
 reportLimit: 8,
 maxReportPages: 1,
 maxPullsPerMember: 10,
@@ -67,9 +69,11 @@ These defaults are intentionally conservative for a 3,600 points/hour Warcraft L
 Actions → Refresh WCL GitHub snapshots → Run workflow:
 
 ```txt
-batch_size = 12
-max_fights = 15
-max_queries = 60
+batch_size = 5
+max_fights = 5
+max_queries = 18
+min_fight_duration_ms = 30000
+target_new_pulls = 1
 ```
 
 Leave fields empty to use config defaults.
@@ -99,3 +103,33 @@ api/wcl/member/{character-slug}.json
 `roster-status.json` and `job/state.json` show which members were updated, pending, skipped as fresh, rotated as fresh, or still missing snapshots.
 
 Each member pull also includes `wclRaw`, which stores the matched original Warcraft Logs damage/healing rows, matched death events, and the processing decision used for DPS/HPS and role detection.
+
+## Hourly safe refresh tuning
+
+The workflow is now budget-aware. Leave the defaults unless WCL rate usage is still too high:
+
+```txt
+max_queries = 28
+max_fights = 8
+batch_size = 8
+min_fight_duration_ms = 30000
+target_new_pulls = 1
+```
+
+When testing manually from Actions, start smaller:
+
+```txt
+batch_size = 3
+max_fights = 3
+max_queries = 12
+```
+
+The job writes diagnostics here:
+
+```txt
+api/wcl/health.json
+api/wcl/job/latest.json
+api/wcl/job/state.json
+```
+
+Use `changedMembers` to see who received new pulls and `scannedMembers` to see who was inspected by the rolling queue.

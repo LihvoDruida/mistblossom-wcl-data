@@ -56,8 +56,12 @@ async function main(): Promise<void> {
   let reportsScanned = 0;
   let fightsScanned = 0;
   let wclQueriesUsed = 0;
-  let updatedSnapshots = 0;
+  let scannedSnapshots = 0;
+  let changedSnapshots = 0;
+  let budgetStopped = false;
+  const scannedSlugs: string[] = [];
   const updatedSlugs: string[] = [];
+  let newPullsBySlug: Record<string, number> = {};
 
   if (selection.selected.length > 0) {
     try {
@@ -66,12 +70,17 @@ async function main(): Promise<void> {
         maxFightsPerRun: env.maxFightsPerRun,
         maxQueriesPerRun: env.maxWclQueriesPerRun,
         requestDelayMs: env.wclRequestDelayMs,
+        minFightDurationMs: env.minFightDurationMs,
+        targetNewPullsPerMember: env.targetNewPullsPerMember,
+        scannedAt: updatedAt,
       });
 
       reportsScanned = result.reportsScanned;
       fightsScanned = result.fightsScanned;
       wclQueriesUsed = result.wclQueriesUsed;
       warnings.push(...result.warnings);
+      budgetStopped = result.budgetStopped;
+      newPullsBySlug = result.newPullsBySlug;
 
       for (const snapshot of result.snapshots) {
         existingSnapshots.set(snapshot.character.slug, snapshot);
@@ -79,8 +88,12 @@ async function main(): Promise<void> {
           memberPath(env.githubDataPrefix, snapshot.character.region, snapshot.character.realmSlug, snapshot.character.name),
           snapshot,
         );
-        updatedSnapshots += 1;
-        updatedSlugs.push(snapshot.character.slug);
+        scannedSnapshots += 1;
+        scannedSlugs.push(snapshot.character.slug);
+        if ((snapshot.source.newPullsInLastScan ?? 0) > 0) {
+          changedSnapshots += 1;
+          updatedSlugs.push(snapshot.character.slug);
+        }
       }
     } catch (error) {
       if (!isWclBudgetError(error)) throw error;
@@ -115,6 +128,7 @@ async function main(): Promise<void> {
     snapshots: existingSnapshots,
     selectedSlugs: selection.selectedSlugs,
     updatedSlugs,
+    scannedSlugs,
     pendingSlugs: selection.pendingSlugs,
     skippedFreshSlugs: selection.skippedFreshSlugs,
     missingSnapshotSlugs: selection.missingSnapshotSlugs,
@@ -127,6 +141,8 @@ async function main(): Promise<void> {
       requestDelayMs: env.wclRequestDelayMs,
       maxPullsPerMember: env.maxPullsPerMember,
       recentAvgWindow: env.recentAvgWindow,
+      minFightDurationMs: env.minFightDurationMs,
+      targetNewPullsPerMember: env.targetNewPullsPerMember,
     },
   });
 
@@ -134,15 +150,18 @@ async function main(): Promise<void> {
     ok: true,
     updatedAt,
     generatedInside: "github-actions",
-    mode: "incremental-hourly-rolling-members",
+    mode: "incremental-hourly-budget-aware",
     rosterMembers: roster.length,
     selectedMembers: selection.selectedSlugs.length,
-    updatedMembers: updatedSnapshots,
+    scannedMembers: scannedSnapshots,
+    changedMembers: changedSnapshots,
     existingSnapshots: allCurrentSnapshots.length,
     reportsScanned,
     fightsScanned,
     wclQueriesUsed,
     wclQueriesRemaining: Math.max(0, env.maxWclQueriesPerRun - wclQueriesUsed),
+    budgetStopped,
+    newPullsBySlug,
     limits: state.limits,
     batch: state.batch,
     warnings,
@@ -153,6 +172,11 @@ async function main(): Promise<void> {
       memberPattern: "api/wcl/member/{character-slug}.json",
       latestJob: "api/wcl/job/latest.json",
       refreshState: "api/wcl/job/state.json",
+      analytics: "api/wcl/analytics.json",
+      bosses: "api/wcl/bosses.json",
+      topDamage: "api/wcl/top/damage.json",
+      topHealing: "api/wcl/top/healing.json",
+      attention: "api/wcl/top/attention.json",
     },
   };
 
@@ -169,18 +193,28 @@ async function main(): Promise<void> {
   await writeJson("api/wcl/roster-status.json", state.members);
   await writeJson("api/wcl/job/latest.json", latestJob);
   await writeJson("api/wcl/job/state.json", state);
+  await writeJson("api/wcl/analytics.json", index.analytics);
+  await writeJson("api/wcl/bosses.json", index.analytics.bosses);
+  await writeJson("api/wcl/classes.json", index.analytics.classes);
+  await mkdir("api/wcl/top", { recursive: true });
+  await writeJson("api/wcl/top/damage.json", index.analytics.roles.damage.topRecent);
+  await writeJson("api/wcl/top/healing.json", index.analytics.roles.healer.topRecent);
+  await writeJson("api/wcl/top/attention.json", index.analytics.consistency.needsAttention);
   await writeJson("api/wcl/health.json", {
     ok: true,
     updatedAt,
-    mode: "incremental-hourly-rolling-members",
+    mode: "incremental-hourly-budget-aware",
     rosterMembers: roster.length,
     selectedMembers: selection.selectedSlugs.length,
-    updatedMembers: updatedSnapshots,
+    scannedMembers: scannedSnapshots,
+    changedMembers: changedSnapshots,
     existingSnapshots: allCurrentSnapshots.length,
     reportsScanned,
     fightsScanned,
     wclQueriesUsed,
     wclQueriesRemaining: Math.max(0, env.maxWclQueriesPerRun - wclQueriesUsed),
+    budgetStopped,
+    guildAnalytics: index.analytics.overview,
     warnings,
   });
 
@@ -189,15 +223,17 @@ async function main(): Promise<void> {
       {
         ok: true,
         updatedAt,
-        mode: "incremental-hourly-rolling-members",
+        mode: "incremental-hourly-budget-aware",
         rosterMembers: roster.length,
         selectedMembers: selection.selectedSlugs.length,
-        updatedMembers: updatedSnapshots,
+        scannedMembers: scannedSnapshots,
+    changedMembers: changedSnapshots,
         existingSnapshots: allCurrentSnapshots.length,
         reportsScanned,
         fightsScanned,
         wclQueriesUsed,
         wclQueriesRemaining: Math.max(0, env.maxWclQueriesPerRun - wclQueriesUsed),
+        budgetStopped,
         rotatedFreshMembers: selection.rotatedFreshSlugs.length,
         pendingMembers: selection.pendingSlugs.length,
         skippedFreshMembers: selection.skippedFreshSlugs.length,
