@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.364Z",
+  "updatedAt": "2026-06-03T18:02:50.602Z",
   "character": {
     "name": "Redray",
     "realmSlug": "terokkar",
@@ -102,11 +102,11 @@
   },
   "pulls": [],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.364Z",
+    "lastScannedAt": "2026-06-03T18:02:50.602Z",
     "newPullsInLastScan": 0,
-    "scanReason": "no-data"
+    "scanReason": "scheduled"
   }
 }

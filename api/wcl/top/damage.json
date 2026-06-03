@@ -14,6 +14,13 @@
     "secondary": 0
   },
   {
+    "slug": "rozbiynik-tarren-mill-eu",
+    "name": "Rozbiynik",
+    "rank": 3,
+    "value": 92205,
+    "secondary": 0
+  },
+  {
     "slug": "elderwizard-terokkar-eu",
     "name": "Elderwizard",
     "rank": 3,
@@ -60,13 +67,6 @@
     "name": "Mafik",
     "rank": 1,
     "value": 81853.9,
-    "secondary": 0
-  },
-  {
-    "slug": "rozbiynik-tarren-mill-eu",
-    "name": "Rozbiynik",
-    "rank": 3,
-    "value": 80947.27,
     "secondary": 0
   },
   {

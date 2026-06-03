@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-06-03T04:24:46.364Z",
+  "schemaVersion": 3,
+  "updatedAt": "2026-06-03T18:02:50.602Z",
   "character": {
     "name": "Rozbiynik",
     "realmSlug": "tarren-mill",
@@ -11,34 +11,242 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 1,
-    "wipes": 9,
-    "killRate": 0.1,
-    "wipeRate": 0.9,
+    "kills": 2,
+    "wipes": 8,
+    "killRate": 0.2,
+    "wipeRate": 0.8,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 186,
+    "totalRaidDeaths": 167,
     "deathsPerPull": 0,
-    "stabilityPercent": 42.95,
+    "stabilityPercent": 48.92,
     "consistencyPercent": 37.76,
+    "performanceScore": 40.35,
+    "survivalScore": 100,
+    "reliabilityScore": 60.29,
     "recent3": {
-      "avgDps": 80947.27,
-      "avgHps": 7648.8,
-      "avgPrimary": 80947.27,
-      "avgDurationMs": 213419,
+      "sampleSize": 3,
+      "avgDps": 92205,
+      "avgHps": 0,
+      "avgPrimary": 92205,
+      "avgDurationMs": 245455,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 87387.94,
+      "avgHps": 0,
+      "avgPrimary": 87387.94,
+      "avgDurationMs": 209719,
       "avgDeaths": 0
     },
     "last10": {
+      "sampleSize": 10,
       "maxDps": 188469.8,
       "minDps": 71170.17,
-      "maxHps": 16738.4,
-      "minHps": 7462.06,
+      "maxHps": 0,
+      "minHps": 0,
       "maxPrimary": 188469.8,
       "minPrimary": 71170.17,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
+    },
+    "trend": {
+      "direction": "up",
+      "recentAvg": 92205,
+      "previousAvg": 87387.94,
+      "delta": 4817.06,
+      "deltaPercent": 5.51
+    },
+    "byRole": {
+      "healer": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      },
+      "damage": {
+        "pulls": 10,
+        "kills": 2,
+        "wipes": 8,
+        "avgRecent": 92205,
+        "maxLast10": 188469.8,
+        "minLast10": 71170.17,
+        "deathsPerPull": 0,
+        "bestPullKey": "8dAPQCWGNMLBjrRg:26:Rozbiynik:tarren-mill:eu",
+        "worstPullKey": "8dAPQCWGNMLBjrRg:31:Rozbiynik:tarren-mill:eu"
+      },
+      "unknown": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      }
+    },
+    "dataQuality": {
+      "pullsWithMatchedDamage": 10,
+      "pullsWithMatchedHealing": 10,
+      "pullsWithRoleInferred": 6,
+      "pullsWithDeaths": 0,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      },
+      "confidenceAvg": 0.54,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "rCkJzhm1PDqtNBw3:7:Rozbiynik:tarren-mill:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T17:58:09.482Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=7",
+      "status": "KILL",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T17:42:20.872Z",
+      "durationMs": 293935,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 286.3999938964844,
+      "actor": {
+        "id": 111,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 120954.27,
+        "hps": 8932.85,
+        "primary": 120954.27,
+        "primaryKind": "dps",
+        "fightDps": 120954.27,
+        "fightHps": 8932.85,
+        "activeDps": 121563.04,
+        "activeHps": 8984.17,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 1
+      },
+      "source": {
+        "damageTotal": 35552692,
+        "healingTotal": 2625677,
+        "damageActiveTimeMs": 292463,
+        "healingActiveTimeMs": 292256,
+        "damageTotalTimeMs": 293935,
+        "healingTotalTimeMs": 293935,
+        "damageEntryId": 111,
+        "healingEntryId": 111,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780509489482
+        },
+        "fight": {
+          "id": 7,
+          "name": "Imperator Averzian",
+          "encounterID": 3176,
+          "difficulty": 5,
+          "kill": true,
+          "startTime": 962705,
+          "endTime": 1256640,
+          "bossPercentage": 0.01,
+          "fightPercentage": 0.01,
+          "averageItemLevel": 286.3999938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 293935,
+            "matchedBy": "actor-id:111",
+            "matchedEntry": {
+              "id": 111,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 35552692,
+              "activeTime": 292463,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 293935,
+            "matchedBy": "actor-id:111",
+            "matchedEntry": {
+              "id": 111,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 2625677,
+              "activeTime": 292256,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 1,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 111,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "8dAPQCWGNMLBjrRg:32:Rozbiynik:tarren-mill:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
@@ -68,11 +276,24 @@
         "type": "Player",
         "subType": "Rogue"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 84490.55,
         "hps": 7462.06,
         "primary": 84490.55,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 84490.55,
+        "fightHps": 7462.06,
+        "activeDps": 108161.82,
+        "activeHps": 8148.97,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -90,6 +311,84 @@
         "damageItemLevel": 288,
         "healingItemLevel": 288,
         "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 32,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 12687748,
+          "endTime": 12903731,
+          "bossPercentage": 57.68,
+          "fightPercentage": 57.68,
+          "averageItemLevel": 284.75
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 215983,
+            "matchedBy": "actor-id:107",
+            "matchedEntry": {
+              "id": 107,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 18248522,
+              "activeTime": 168715,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 215983,
+            "matchedBy": "actor-id:107",
+            "matchedEntry": {
+              "id": 107,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1611678,
+              "activeTime": 197777,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 107,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
       }
     },
     {
@@ -121,11 +420,24 @@
         "type": "Player",
         "subType": "Rogue"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 71170.17,
         "hps": 7918.15,
         "primary": 71170.17,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 71170.17,
+        "fightHps": 7918.15,
+        "activeDps": 106666.23,
+        "activeHps": 9370.49,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -143,6 +455,84 @@
         "damageItemLevel": 288,
         "healingItemLevel": 288,
         "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 31,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 12358901,
+          "endTime": 12585347,
+          "bossPercentage": 57.65,
+          "fightPercentage": 57.65,
+          "averageItemLevel": 284.75
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 226446,
+            "matchedBy": "actor-id:107",
+            "matchedEntry": {
+              "id": 107,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 16116201,
+              "activeTime": 151090,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 226446,
+            "matchedBy": "actor-id:107",
+            "matchedEntry": {
+              "id": 107,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1793034,
+              "activeTime": 191349,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 107,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
       }
     },
     {
@@ -174,11 +564,24 @@
         "type": "Player",
         "subType": "Rogue"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 87181.1,
         "hps": 7566.19,
         "primary": 87181.1,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 87181.1,
+        "fightHps": 7566.19,
+        "activeDps": 113761.66,
+        "activeHps": 7646.67,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -196,6 +599,84 @@
         "damageItemLevel": 288,
         "healingItemLevel": 288,
         "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 30,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 12019043,
+          "endTime": 12216872,
+          "bossPercentage": 58.27,
+          "fightPercentage": 58.27,
+          "averageItemLevel": 284.75
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 197829,
+            "matchedBy": "actor-id:107",
+            "matchedEntry": {
+              "id": 107,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 17246950,
+              "activeTime": 151606,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 197829,
+            "matchedBy": "actor-id:107",
+            "matchedEntry": {
+              "id": 107,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1496812,
+              "activeTime": 195747,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 107,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
       }
     },
     {
@@ -227,11 +708,24 @@
         "type": "Player",
         "subType": "Rogue"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 87890.54,
         "hps": 9014.56,
         "primary": 87890.54,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 87890.54,
+        "fightHps": 9014.56,
+        "activeDps": 110244.29,
+        "activeHps": 9447.29,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -249,6 +743,84 @@
         "damageItemLevel": 288,
         "healingItemLevel": 288,
         "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 29,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 11654930,
+          "endTime": 11877088,
+          "bossPercentage": 56.82,
+          "fightPercentage": 56.82,
+          "averageItemLevel": 284.75
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 222158,
+            "matchedBy": "actor-id:107",
+            "matchedEntry": {
+              "id": 107,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 19525586,
+              "activeTime": 177112,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 222158,
+            "matchedBy": "actor-id:107",
+            "matchedEntry": {
+              "id": 107,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 2002656,
+              "activeTime": 211982,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 107,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
       }
     },
     {
@@ -280,11 +852,24 @@
         "type": "Player",
         "subType": "Rogue"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 87092.17,
         "hps": 9640.61,
         "primary": 87092.17,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 87092.17,
+        "fightHps": 9640.61,
+        "activeDps": 98974.68,
+        "activeHps": 9772.12,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -302,6 +887,84 @@
         "damageItemLevel": 288,
         "healingItemLevel": 288,
         "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 28,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 11013236,
+          "endTime": 11222405,
+          "bossPercentage": 58.86,
+          "fightPercentage": 58.86,
+          "averageItemLevel": 284.75
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 209169,
+            "matchedBy": "actor-id:107",
+            "matchedEntry": {
+              "id": 107,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 18216982,
+              "activeTime": 184057,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 209169,
+            "matchedBy": "actor-id:107",
+            "matchedEntry": {
+              "id": 107,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 2016516,
+              "activeTime": 206354,
+              "itemLevel": 288,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 107,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
       }
     },
     {
@@ -337,7 +1000,13 @@
         "dps": 94107.39,
         "hps": 7648,
         "primary": 94107.39,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 94107.39,
+        "fightHps": 7648,
+        "activeDps": 94107.39,
+        "activeHps": 7648,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -355,6 +1024,11 @@
         "damageItemLevel": 288,
         "healingItemLevel": 288,
         "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -390,7 +1064,13 @@
         "dps": 188469.8,
         "hps": 14638.05,
         "primary": 188469.8,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 188469.8,
+        "fightHps": 14638.05,
+        "activeDps": 188469.8,
+        "activeHps": 14638.05,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -408,6 +1088,11 @@
         "damageItemLevel": 288,
         "healingItemLevel": 288,
         "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -443,7 +1128,13 @@
         "dps": 171395.57,
         "hps": 16738.4,
         "primary": 171395.57,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 171395.57,
+        "fightHps": 16738.4,
+        "activeDps": 171395.57,
+        "activeHps": 16738.4,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -461,6 +1152,11 @@
         "damageItemLevel": 288,
         "healingItemLevel": 288,
         "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -496,7 +1192,13 @@
         "dps": 112439.94,
         "hps": 8117.89,
         "primary": 112439.94,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 112439.94,
+        "fightHps": 8117.89,
+        "activeDps": 112439.94,
+        "activeHps": 8117.89,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -514,65 +1216,21 @@
         "damageItemLevel": 288,
         "healingItemLevel": 288,
         "matchedBy": "damage:actor-id:107,healing:actor-id:107"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:20:Rozbiynik:tarren-mill:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
       },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T18:57:55.893Z",
-      "durationMs": 285958,
-      "bossPercentage": 27.56,
-      "fightPercentage": 27.56,
-      "averageItemLevel": 284.8500061035156,
-      "actor": {
-        "id": 107,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "metric": {
-        "dps": 99531.79,
-        "hps": 9506.49,
-        "primary": 99531.79,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 28461913,
-        "healingTotal": 2718457,
-        "damageActiveTimeMs": 280700,
-        "healingActiveTimeMs": 281122,
-        "damageTotalTimeMs": 285958,
-        "healingTotalTimeMs": 285958,
-        "damageEntryId": 107,
-        "healingEntryId": 107,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "reportsScanned": 8,
+    "fightsScanned": 8,
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T18:02:50.602Z",
+    "lastPullAt": "2026-06-03T17:42:20.872Z",
+    "newPullsInLastScan": 1,
+    "scanReason": "scheduled"
   }
 }
