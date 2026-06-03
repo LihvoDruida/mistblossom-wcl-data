@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.364Z",
+  "updatedAt": "2026-06-03T23:51:26.151Z",
   "character": {
     "name": "Yokusir",
     "realmSlug": "terokkar",
@@ -297,12 +297,12 @@
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.364Z",
+    "lastScannedAt": "2026-06-03T23:51:26.151Z",
     "lastPullAt": "2026-05-29T18:46:12.334Z",
-    "newPullsInLastScan": 3,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }
