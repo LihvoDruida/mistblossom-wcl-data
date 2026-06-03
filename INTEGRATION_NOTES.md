@@ -78,7 +78,7 @@ Battle.net roster не дає надійний role/spec для конкретн
 Поточний cron:
 
 ```txt
-*/45 * * * *
+7 * * * *
 ```
 
-Для WCL цього достатньо. Частіше запускати без сенсу: Warcraft Logs може оновлювати дані із затримкою, а зайві запити тільки збільшують шанс rate limit.
+Запуск щогодини безпечний, бо кожен run оновлює лише `memberBatchSize` персонажів, має `maxFightsPerRun`, `maxQueriesPerRun` і послідовні WCL-запити з `requestDelayMs`.

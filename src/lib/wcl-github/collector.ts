@@ -9,7 +9,7 @@ import type {
   WclTableEntry,
 } from "./types";
 import { getWclGithubEnv } from "./env";
-import { memberKey, memberPath, indexPath, latestJobPath } from "./slug";
+import { characterSlug, memberKey, memberPath, indexPath, latestJobPath } from "./slug";
 import { buildGuildIndex, buildMemberSnapshot, calculatePerSecond, choosePrimaryMetric, difficultyName } from "./stats";
 import {
   GUILD_REPORTS_QUERY,
@@ -17,6 +17,7 @@ import {
   REPORT_FIGHTS_QUERY,
   REPORT_TABLE_QUERY,
   WclClient,
+  isWclBudgetError,
 } from "./wclClient";
 import { GithubJsonStore } from "./githubJsonStore";
 import { loadGuildMembersFromBattleNet } from "./battleNetRoster";
@@ -81,6 +82,21 @@ interface DeathEventsResponse {
   };
 }
 
+interface RefreshMembersOptions {
+  existingSnapshots?: Map<string, MemberSnapshot>;
+  maxFightsPerRun?: number;
+  maxQueriesPerRun?: number;
+  requestDelayMs?: number;
+}
+
+interface RefreshMembersResult {
+  snapshots: MemberSnapshot[];
+  reportsScanned: number;
+  fightsScanned: number;
+  wclQueriesUsed: number;
+  warnings: string[];
+}
+
 export async function refreshWclGithubSnapshots(): Promise<{
   snapshots: MemberSnapshot[];
   reportsScanned: number;
@@ -88,7 +104,6 @@ export async function refreshWclGithubSnapshots(): Promise<{
   warnings: string[];
 }> {
   const env = getWclGithubEnv();
-  const warnings: string[] = [];
 
   const members = await loadGuildMembersFromBattleNet({
     clientId: env.battleNetClientId,
@@ -99,16 +114,55 @@ export async function refreshWclGithubSnapshots(): Promise<{
     guildNameSlug: env.battleNetGuildNameSlug,
   });
 
+  const result = await refreshWclGithubSnapshotsForMembers(members, {
+    maxFightsPerRun: env.maxFightsPerRun,
+    maxQueriesPerRun: env.maxWclQueriesPerRun,
+    requestDelayMs: env.wclRequestDelayMs,
+  });
+
+  return {
+    snapshots: result.snapshots,
+    reportsScanned: result.reportsScanned,
+    fightsScanned: result.fightsScanned,
+    warnings: result.warnings,
+  };
+}
+
+export async function refreshWclGithubSnapshotsForMembers(
+  members: GuildMemberInput[],
+  options: RefreshMembersOptions = {},
+): Promise<RefreshMembersResult> {
+  const env = getWclGithubEnv();
+  const warnings: string[] = [];
+
   const uniqueMembers = dedupeMembers(members);
   const memberMap = new Map(uniqueMembers.map((member) => [memberKey(member.name, member.realmSlug, member.region), member]));
   const pullsByMemberKey = new Map<string, MemberPullSnapshot[]>();
-  for (const member of uniqueMembers) pullsByMemberKey.set(memberKey(member.name, member.realmSlug, member.region), []);
+
+  for (const member of uniqueMembers) {
+    const key = memberKey(member.name, member.realmSlug, member.region);
+    const slug = characterSlug(member.name, member.realmSlug, member.region);
+    const existing = options.existingSnapshots?.get(slug);
+    pullsByMemberKey.set(key, existing?.pulls ?? []);
+  }
+
+  if (!uniqueMembers.length) {
+    return {
+      snapshots: [],
+      reportsScanned: 0,
+      fightsScanned: 0,
+      wclQueriesUsed: 0,
+      warnings: ["No guild members selected for this incremental refresh batch."],
+    };
+  }
 
   const wcl = new WclClient({
     clientId: env.wclClientId,
     clientSecret: env.wclClientSecret,
     tokenUrl: env.wclTokenUrl,
     graphqlUrl: env.wclGraphqlUrl,
+    maxQueriesPerRun: options.maxQueriesPerRun ?? env.maxWclQueriesPerRun,
+    minDelayMs: options.requestDelayMs ?? env.wclRequestDelayMs,
   });
 
   const reports = await loadGuildReports(wcl, {
@@ -119,11 +173,26 @@ export async function refreshWclGithubSnapshots(): Promise<{
     maxPages: env.wclMaxReportPages,
   });
 
+  const maxFightsPerRun = Math.max(1, Math.floor(options.maxFightsPerRun ?? env.maxFightsPerRun));
   let fightsScanned = 0;
+  let stopScanning = false;
 
   for (const report of reports) {
-    const reportDetails = await wcl.query<ReportFightsResponse>(REPORT_FIGHTS_QUERY, { code: report.code });
-    const fullReport = reportDetails.reportData.report;
+    if (stopScanning || fightsScanned >= maxFightsPerRun) break;
+
+    let fullReport: ReportFightsResponse["reportData"]["report"] | null = null;
+    try {
+      const reportDetails = await wcl.query<ReportFightsResponse>(REPORT_FIGHTS_QUERY, { code: report.code });
+      fullReport = reportDetails.reportData.report;
+    } catch (error) {
+      if (isWclBudgetError(error)) {
+        warnings.push(`Stopped before report ${report.code}: ${errorMessage(error)}`);
+        break;
+      }
+      warnings.push(`WCL report details failed for ${report.code}: ${errorMessage(error)}`);
+      continue;
+    }
+
     if (!fullReport) {
       warnings.push(`WCL report not found: ${report.code}`);
       continue;
@@ -135,13 +204,30 @@ export async function refreshWclGithubSnapshots(): Promise<{
       .sort((a, b) => b.startTime - a.startTime);
 
     for (const fight of fights) {
+      if (fightsScanned >= maxFightsPerRun) {
+        stopScanning = true;
+        break;
+      }
+
       fightsScanned += 1;
 
-      const [damageTable, healingTable, deaths] = await Promise.all([
-        loadTableSafe(wcl, report.code, "DamageDone", fight.startTime, fight.endTime, warnings),
-        loadTableSafe(wcl, report.code, "Healing", fight.startTime, fight.endTime, warnings),
-        loadDeathsSafe(wcl, report.code, fight.startTime, fight.endTime, warnings),
-      ]);
+      let damageTable: NormalizedReportTable;
+      let healingTable: NormalizedReportTable;
+      let deaths: DeathEntry[];
+
+      try {
+        damageTable = await loadTableSafe(wcl, report.code, "DamageDone", fight.startTime, fight.endTime, warnings);
+        healingTable = await loadTableSafe(wcl, report.code, "Healing", fight.startTime, fight.endTime, warnings);
+        deaths = await loadDeathsSafe(wcl, report.code, fight.startTime, fight.endTime, warnings);
+      } catch (error) {
+        if (isWclBudgetError(error)) {
+          warnings.push(`Stopped at ${report.code} fight ${fight.id}: ${errorMessage(error)}`);
+          stopScanning = true;
+          break;
+        }
+        warnings.push(`WCL fight scan failed for ${report.code} fight ${fight.id}: ${errorMessage(error)}`);
+        continue;
+      }
 
       const damageIndex = buildTableIndex(damageTable.entries, env.wclGuildRegion);
       const healingIndex = buildTableIndex(healingTable.entries, env.wclGuildRegion);
@@ -224,9 +310,10 @@ export async function refreshWclGithubSnapshots(): Promise<{
             healingEntryId: numericOptional(healing?.id),
             damageItemLevel: numericOptional(damage?.itemLevel),
             healingItemLevel: numericOptional(healing?.itemLevel),
-            matchedBy: [damageLookup.matchedBy && `damage:${damageLookup.matchedBy}`, healingLookup.matchedBy && `healing:${healingLookup.matchedBy}`]
-              .filter(Boolean)
-              .join(",") || undefined,
+            matchedBy:
+              [damageLookup.matchedBy && `damage:${damageLookup.matchedBy}`, healingLookup.matchedBy && `healing:${healingLookup.matchedBy}`]
+                .filter(Boolean)
+                .join(",") || undefined,
           },
         };
 
@@ -250,9 +337,11 @@ export async function refreshWclGithubSnapshots(): Promise<{
     snapshots,
     reportsScanned: reports.length,
     fightsScanned,
+    wclQueriesUsed: wcl.getQueryCount(),
     warnings,
   };
 }
+
 
 export async function refreshAndWriteWclGithubSnapshots() {
   const env = getWclGithubEnv();
@@ -372,6 +461,7 @@ async function loadTableSafe(
 
     return normalizeReportTable(response.reportData.report?.table);
   } catch (error) {
+    if (isWclBudgetError(error)) throw error;
     warnings.push(`WCL ${dataType} table failed for ${code} ${startTime}-${endTime}: ${errorMessage(error)}`);
     return { entries: [], rawEntryCount: 0 };
   }
@@ -393,6 +483,7 @@ async function loadDeathsSafe(
 
     return response.reportData.report?.events?.data ?? [];
   } catch (error) {
+    if (isWclBudgetError(error)) throw error;
     warnings.push(`WCL deaths failed for ${code} ${startTime}-${endTime}: ${errorMessage(error)}`);
     return [];
   }

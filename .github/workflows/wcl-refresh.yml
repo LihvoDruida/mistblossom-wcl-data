@@ -2,8 +2,21 @@ name: Refresh WCL GitHub snapshots
 
 on:
   workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "How many roster members to refresh in this run. Empty = config default."
+        required: false
+        type: string
+      max_fights:
+        description: "Maximum detailed WCL fights to scan in this run. Empty = config default."
+        required: false
+        type: string
+      max_queries:
+        description: "Maximum WCL GraphQL queries in this run. Empty = config default."
+        required: false
+        type: string
   schedule:
-    - cron: "*/45 * * * *"
+    - cron: "7 * * * *"
 
 permissions:
   contents: write
@@ -18,27 +31,27 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
       - name: Install dependencies
         run: npm ci --prefer-online --no-audit --fund=false
 
-      - name: Check Battle.net roster
-        env:
-          BATTLENET_CLIENT_ID: ${{ secrets.BATTLENET_CLIENT_ID }}
-          BATTLENET_CLIENT_SECRET: ${{ secrets.BATTLENET_CLIENT_SECRET }}
-        run: npm run bnet:check
-
-      - name: Refresh WCL snapshots inside GitHub
+      - name: Refresh incremental WCL snapshots inside GitHub
         env:
           WCL_CLIENT_ID: ${{ secrets.WCL_CLIENT_ID }}
           WCL_CLIENT_SECRET: ${{ secrets.WCL_CLIENT_SECRET }}
           BATTLENET_CLIENT_ID: ${{ secrets.BATTLENET_CLIENT_ID }}
           BATTLENET_CLIENT_SECRET: ${{ secrets.BATTLENET_CLIENT_SECRET }}
+          WCL_MEMBER_BATCH_SIZE: ${{ inputs.batch_size }}
+          WCL_MAX_FIGHTS_PER_RUN: ${{ inputs.max_fights }}
+          WCL_MAX_QUERIES_PER_RUN: ${{ inputs.max_queries }}
         run: npm run wcl:refresh
 
       - name: Commit generated JSON API
@@ -54,5 +67,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore(wcl): refresh guild snapshots"
+          git commit -m "chore(wcl): refresh incremental guild snapshots"
           git push

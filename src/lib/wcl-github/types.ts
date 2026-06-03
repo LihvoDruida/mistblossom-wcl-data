@@ -216,6 +216,55 @@ export interface GuildIndexSnapshot {
   members: GuildIndexEntry[];
 }
 
+export interface RefreshStateMember {
+  slug: string;
+  name: string;
+  realmSlug: string;
+  region: Region;
+  rank?: number;
+  className?: string;
+  lastUpdatedAt?: string;
+  nextEligibleAt?: string;
+  pullsStored: number;
+  kills: number;
+  wipes: number;
+  status: "updated" | "pending" | "fresh" | "missing" | "stale";
+}
+
+export interface IncrementalRefreshState {
+  schemaVersion: 1;
+  updatedAt: string;
+  guild: {
+    name: string;
+    realmSlug: string;
+    region: Region;
+  };
+  strategy: "incremental-member-batches";
+  limits: {
+    memberBatchSize: number;
+    minMemberRefreshAgeHours: number;
+    maxFightsPerRun: number;
+    maxQueriesPerRun: number;
+    requestDelayMs: number;
+    maxPullsPerMember: number;
+    recentAvgWindow: number;
+  };
+  batch: {
+    selected: string[];
+    updated: string[];
+    pending: string[];
+    skippedFresh: string[];
+    missingSnapshots: string[];
+  };
+  roster: {
+    total: number;
+    withSnapshots: number;
+    pending: number;
+    skippedFresh: number;
+  };
+  members: RefreshStateMember[];
+}
+
 export interface RefreshResult {
   ok: boolean;
   updatedAt: string;

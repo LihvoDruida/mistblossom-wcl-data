@@ -30,6 +30,11 @@ export interface WclGithubEnv {
   wclMaxReportPages: number;
   maxPullsPerMember: number;
   recentAvgWindow: number;
+  memberBatchSize: number;
+  minMemberRefreshAgeHours: number;
+  maxFightsPerRun: number;
+  maxWclQueriesPerRun: number;
+  wclRequestDelayMs: number;
 }
 
 function requiredSecret(name: string): string {
@@ -75,6 +80,10 @@ function clampPullLimit(value: number): number {
   return Math.max(1, Math.min(10, Math.floor(value)));
 }
 
+function clampInt(value: number, min: number, max: number): number {
+  return Math.max(min, Math.min(max, Math.floor(value)));
+}
+
 export function getWclGithubEnv(): WclGithubEnv {
   const cfg = WCL_GITHUB_CONFIG;
 
@@ -112,9 +121,18 @@ export function getWclGithubEnv(): WclGithubEnv {
     wclGuildName: envOverride("WCL_GUILD_NAME", cfg.wcl.guild.name, "wcl.guild.name"),
     wclGuildRealmSlug: envOverride("WCL_GUILD_REALM_SLUG", cfg.wcl.guild.realmSlug, "wcl.guild.realmSlug").toLowerCase(),
     wclGuildRegion: envOverride("WCL_GUILD_REGION", cfg.wcl.guild.region, "wcl.guild.region").toLowerCase(),
-    wclReportLimit: envNumberOverride("WCL_REPORT_LIMIT", cfg.wcl.scan.reportLimit),
-    wclMaxReportPages: envNumberOverride("WCL_MAX_REPORT_PAGES", cfg.wcl.scan.maxReportPages),
+    wclReportLimit: clampInt(envNumberOverride("WCL_REPORT_LIMIT", cfg.wcl.scan.reportLimit), 1, 25),
+    wclMaxReportPages: clampInt(envNumberOverride("WCL_MAX_REPORT_PAGES", cfg.wcl.scan.maxReportPages), 1, 5),
     maxPullsPerMember: clampPullLimit(envNumberOverride("WCL_MAX_PULLS_PER_MEMBER", cfg.wcl.scan.maxPullsPerMember)),
-    recentAvgWindow: envNumberOverride("WCL_RECENT_AVG_WINDOW", cfg.wcl.scan.recentAvgWindow),
+    recentAvgWindow: clampInt(envNumberOverride("WCL_RECENT_AVG_WINDOW", cfg.wcl.scan.recentAvgWindow), 1, 10),
+    memberBatchSize: clampInt(envNumberOverride("WCL_MEMBER_BATCH_SIZE", cfg.wcl.scan.memberBatchSize), 1, 50),
+    minMemberRefreshAgeHours: clampInt(
+      envNumberOverride("WCL_MIN_MEMBER_REFRESH_AGE_HOURS", cfg.wcl.scan.minMemberRefreshAgeHours),
+      1,
+      168,
+    ),
+    maxFightsPerRun: clampInt(envNumberOverride("WCL_MAX_FIGHTS_PER_RUN", cfg.wcl.scan.maxFightsPerRun), 1, 60),
+    maxWclQueriesPerRun: clampInt(envNumberOverride("WCL_MAX_QUERIES_PER_RUN", cfg.wcl.scan.maxQueriesPerRun), 5, 200),
+    wclRequestDelayMs: clampInt(envNumberOverride("WCL_REQUEST_DELAY_MS", cfg.wcl.scan.requestDelayMs), 0, 5000),
   };
 }

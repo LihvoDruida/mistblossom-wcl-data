@@ -1,20 +1,10 @@
-# GitHub setup checklist
+# GitHub-only WCL data store setup
 
-## 1. Secrets
+This repository refreshes Warcraft Logs snapshots inside GitHub Actions and publishes static JSON files that can be consumed like an API through GitHub Pages.
 
-Repository:
+## Required GitHub Actions secrets
 
-```txt
-LihvoDruida/mistblossom-wcl-data
-```
-
-Path:
-
-```txt
-Settings → Secrets and variables → Actions → Secrets
-```
-
-Add:
+Repository → Settings → Secrets and variables → Actions → Secrets:
 
 ```env
 WCL_CLIENT_ID=
@@ -23,45 +13,11 @@ BATTLENET_CLIENT_ID=
 BATTLENET_CLIENT_SECRET=
 ```
 
-Do not add:
+Do not add `GITHUB_TOKEN`. The workflow uses GitHub Actions built-in token with `permissions: contents: write`.
 
-```env
-GITHUB_TOKEN=
-WCL_DATA_REPO_TOKEN=
-WCL_REFRESH_SECRET=
-WCL_REFRESH_URL=
-```
+## GitHub Pages
 
-## 2. Actions permissions
-
-Path:
-
-```txt
-Settings → Actions → General → Workflow permissions
-```
-
-Set:
-
-```txt
-Read and write permissions
-```
-
-The workflow also contains:
-
-```yaml
-permissions:
-  contents: write
-```
-
-## 3. Enable GitHub Pages
-
-Path:
-
-```txt
-Settings → Pages → Build and deployment
-```
-
-Set:
+Repository → Settings → Pages:
 
 ```txt
 Source: Deploy from a branch
@@ -69,68 +25,75 @@ Branch: main
 Folder: /root
 ```
 
-Save.
-
-## 4. Optional local Battle.net check
-
-Перед повним запуском можеш перевірити тільки roster:
-
-```bash
-npm ci
-BATTLENET_CLIENT_ID=... BATTLENET_CLIENT_SECRET=... npm run bnet:check
-```
-
-Якщо буде `Battle.net roster request failed 404`, перевір `battleNet.guildRealmSlug` і `battleNet.guildNameSlug` у `src/lib/wcl-github/config.ts`.
-
-## 5. Run refresh
-
-Path:
-
-```txt
-Actions → Refresh WCL GitHub snapshots → Run workflow
-```
-
-After success, check these files:
-
-```txt
-data/wcl/index.json
-data/wcl/jobs/latest.json
-api/wcl/index.json
-api/wcl/members.json
-api/wcl/job/latest.json
-```
-
-## 6. API-like URLs
-
-GitHub Pages:
+API-like URLs:
 
 ```txt
 https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/index.json
 https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/members.json
-https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/member/{slug}.json
+https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/roster-status.json
+https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/member/{character-slug}.json
 https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/job/latest.json
+https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/job/state.json
+https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/health.json
 ```
 
-Raw fallback:
+## Incremental refresh strategy
+
+The workflow does not refresh the full roster every run. Every hour it selects a small batch of members:
+
+1. Members without snapshots first.
+2. Then members whose snapshots are older than `minMemberRefreshAgeHours`.
+3. Fresh members are skipped.
+4. Existing JSON snapshots are merged with newly found pulls, so every member keeps the latest 10 pulls.
+
+Default limits are in `src/lib/wcl-github/config.ts`:
+
+```ts
+memberBatchSize: 8,
+minMemberRefreshAgeHours: 12,
+maxFightsPerRun: 10,
+maxQueriesPerRun: 45,
+requestDelayMs: 350,
+reportLimit: 8,
+maxReportPages: 1,
+maxPullsPerMember: 10,
+recentAvgWindow: 3,
+```
+
+These defaults are intentionally conservative for a 3,600 points/hour Warcraft Logs limit.
+
+## Manual run overrides
+
+Actions → Refresh WCL GitHub snapshots → Run workflow:
 
 ```txt
-https://raw.githubusercontent.com/LihvoDruida/mistblossom-wcl-data/main/api/wcl/index.json
+batch_size = 12
+max_fights = 15
+max_queries = 60
 ```
 
-## 7. Optional external refresh through GitHub API
+Leave fields empty to use config defaults.
 
-Use GitHub workflow dispatch API. It requires a GitHub token with permission to run Actions.
+## Generated state files
 
-```bash
-curl -X POST \
-  "https://api.github.com/repos/LihvoDruida/mistblossom-wcl-data/actions/workflows/wcl-refresh.yml/dispatches" \
-  -H "Accept: application/vnd.github+json" \
-  -H "Authorization: Bearer YOUR_GITHUB_PAT_WITH_ACTIONS_WRITE" \
-  -H "X-GitHub-Api-Version: 2022-11-28" \
-  -d '{"ref":"main"}'
+Persistent data:
+
+```txt
+data/wcl/index.json
+data/wcl/jobs/latest.json
+data/wcl/jobs/refresh-state.json
+data/wcl/members/eu/terokkar/{character}.json
 ```
 
+Public API copy:
 
-## NPM registry note
+```txt
+api/wcl/index.json
+api/wcl/members.json
+api/wcl/roster-status.json
+api/wcl/job/latest.json
+api/wcl/job/state.json
+api/wcl/member/{character-slug}.json
+```
 
-The workflow uses the public npm registry through `.npmrc` and installs dependencies with `npm ci`. Do not commit a lockfile that contains private/internal registry URLs.
+`roster-status.json` and `job/state.json` show which members were updated, pending, skipped as fresh, or still missing snapshots.

@@ -1,3 +1,43 @@
+# Mistblossom WCL GitHub API Store
+
+This repository runs a conservative incremental Warcraft Logs refresh inside GitHub Actions and exposes the generated JSON as a static API through GitHub Pages.
+
+## What changed in v1.1.0
+
+The refresh is now incremental and hourly:
+
+- only a configured batch of roster members is refreshed per run;
+- members with no snapshot are handled first;
+- fresh members are skipped until their refresh age expires;
+- WCL GraphQL calls are capped per run;
+- detailed fight scans are capped per run;
+- WCL requests are sequential with a small delay to avoid bursts;
+- `api/wcl/roster-status.json` and `api/wcl/job/state.json` show updated / pending / fresh / missing members.
+
+Default safe limits live in `src/lib/wcl-github/config.ts`:
+
+```ts
+memberBatchSize: 8,
+minMemberRefreshAgeHours: 12,
+maxFightsPerRun: 10,
+maxQueriesPerRun: 45,
+requestDelayMs: 350,
+```
+
+Public JSON endpoints after GitHub Pages is enabled:
+
+```txt
+/api/wcl/index.json
+/api/wcl/members.json
+/api/wcl/roster-status.json
+/api/wcl/member/{slug}.json
+/api/wcl/job/latest.json
+/api/wcl/job/state.json
+/api/wcl/health.json
+```
+
+---
+
 # Mistblossom WCL Data API
 
 GitHub-only механізм збору Warcraft Logs статистики для гільдії. Він працює без `admin.lihvodruida.pp.ua/api/wcl-github/refresh`:
@@ -87,10 +127,10 @@ Actions → Refresh WCL GitHub snapshots → Run workflow
 Також є cron:
 
 ```txt
-*/45 * * * *
+7 * * * *
 ```
 
-Тобто оновлення кожні 45 хвилин.
+Тобто інкрементальне оновлення щогодини, але не всієї гільдії одразу, а тільки частини roster за batch-чергою.
 
 ## GitHub permissions
 

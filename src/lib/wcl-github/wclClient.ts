@@ -1,5 +1,17 @@
+export const WCL_QUERY_BUDGET_ERROR = "WCL_QUERY_BUDGET_EXCEEDED";
+
+export function isWclBudgetError(error: unknown): boolean {
+  return error instanceof Error && error.message.includes(WCL_QUERY_BUDGET_ERROR);
+}
+
+function sleep(ms: number): Promise<void> {
+  return ms > 0 ? new Promise((resolve) => setTimeout(resolve, ms)) : Promise.resolve();
+}
+
 export class WclClient {
   private token: { accessToken: string; expiresAt: number } | null = null;
+  private queryCount = 0;
+  private lastQueryAt = 0;
 
   constructor(
     private readonly options: {
@@ -7,10 +19,17 @@ export class WclClient {
       clientSecret: string;
       tokenUrl: string;
       graphqlUrl: string;
+      maxQueriesPerRun?: number;
+      minDelayMs?: number;
     },
   ) {}
 
+  getQueryCount(): number {
+    return this.queryCount;
+  }
+
   async query<T>(query: string, variables: Record<string, unknown> = {}): Promise<T> {
+    await this.beforeGraphQlQuery();
     const accessToken = await this.getAccessToken();
 
     const response = await fetch(this.options.graphqlUrl, {
@@ -19,7 +38,7 @@ export class WclClient {
         Authorization: `Bearer ${accessToken}`,
         "Content-Type": "application/json",
         Accept: "application/json",
-        "User-Agent": "wcl-github-api-mechanism",
+        "User-Agent": "wcl-github-incremental-snapshots",
       },
       body: JSON.stringify({ query, variables }),
       cache: "no-store",
@@ -27,7 +46,7 @@ export class WclClient {
 
     if (response.status === 429) {
       const retryAfter = response.headers.get("retry-after");
-      throw new Error(`Warcraft Logs rate limit reached. Retry-After: ${retryAfter ?? "unknown"}`);
+      throw new Error(`${WCL_QUERY_BUDGET_ERROR}: Warcraft Logs rate limit reached. Retry-After: ${retryAfter ?? "unknown"}`);
     }
 
     if (!response.ok) {
@@ -47,6 +66,22 @@ export class WclClient {
     return json.data;
   }
 
+  private async beforeGraphQlQuery(): Promise<void> {
+    const maxQueries = this.options.maxQueriesPerRun;
+    if (maxQueries && this.queryCount >= maxQueries) {
+      throw new Error(`${WCL_QUERY_BUDGET_ERROR}: local per-run query budget reached (${this.queryCount}/${maxQueries})`);
+    }
+
+    const delayMs = Math.max(0, Math.floor(this.options.minDelayMs ?? 0));
+    const elapsed = Date.now() - this.lastQueryAt;
+    if (delayMs > 0 && this.lastQueryAt > 0 && elapsed < delayMs) {
+      await sleep(delayMs - elapsed);
+    }
+
+    this.queryCount += 1;
+    this.lastQueryAt = Date.now();
+  }
+
   private async getAccessToken(): Promise<string> {
     const now = Date.now();
     if (this.token && this.token.expiresAt > now + 60_000) {
@@ -61,7 +96,7 @@ export class WclClient {
         Authorization: `Basic ${basic}`,
         "Content-Type": "application/x-www-form-urlencoded",
         Accept: "application/json",
-        "User-Agent": "wcl-github-api-mechanism",
+        "User-Agent": "wcl-github-incremental-snapshots",
       },
       body: new URLSearchParams({ grant_type: "client_credentials" }),
       cache: "no-store",

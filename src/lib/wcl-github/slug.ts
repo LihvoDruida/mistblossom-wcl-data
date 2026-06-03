@@ -35,3 +35,7 @@ export function indexPath(prefix: string): string {
 export function latestJobPath(prefix: string): string {
   return `${prefix}/jobs/latest.json`;
 }
+
+export function refreshStatePath(prefix: string): string {
+  return `${prefix}/jobs/refresh-state.json`;
+}
