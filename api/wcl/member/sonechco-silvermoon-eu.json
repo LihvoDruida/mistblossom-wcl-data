@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.368Z",
   "character": {
     "name": "Sonechco",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 66.12,
     "consistencyPercent": 58.71,
+    "performanceScore": 55.04,
+    "survivalScore": 100,
+    "reliabilityScore": 60.27,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 32972.19,
       "avgHps": 0,
       "avgPrimary": 32972.19,
       "avgDurationMs": 276478,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 38391.22,
+      "avgHps": 0,
+      "avgPrimary": 38391.22,
+      "avgDurationMs": 160366,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 29280.15,
       "maxDurationMs": 348627,
       "minDurationMs": 97007
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 32972.19,
+      "previousAvg": 38391.22,
+      "delta": -5419.03,
+      "deltaPercent": -14.12
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.368Z",
+    "lastPullAt": "2026-04-05T19:06:02.427Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

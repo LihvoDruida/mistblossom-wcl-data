@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.370Z",
   "character": {
     "name": "Лилая",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 45.87,
     "consistencyPercent": 7.39,
+    "performanceScore": 33.08,
+    "survivalScore": 100,
+    "reliabilityScore": 48.19,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 36044.17,
       "avgHps": 4090.73,
       "avgPrimary": 25393.02,
       "avgDurationMs": 108612,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 52426.18,
+      "avgHps": 0,
+      "avgPrimary": 52426.18,
+      "avgDurationMs": 286885,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 4090.73,
       "maxDurationMs": 354042,
       "minDurationMs": 29005
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 25393.02,
+      "previousAvg": 52426.18,
+      "delta": -27033.16,
+      "deltaPercent": -51.56
     },
     "byRole": {
       "healer": {
@@ -81,7 +99,9 @@
         "dps": 9,
         "hps": 1,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -726,6 +746,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.370Z",
+    "lastPullAt": "2026-04-22T19:27:46.928Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

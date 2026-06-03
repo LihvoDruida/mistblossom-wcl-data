@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.365Z",
   "character": {
     "name": "Vurush",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 63.66,
     "consistencyPercent": 58.03,
+    "performanceScore": 57.52,
+    "survivalScore": 100,
+    "reliabilityScore": 61.64,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 67117.94,
       "avgHps": 0,
       "avgPrimary": 67117.94,
       "avgDurationMs": 357679,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 88714.52,
+      "avgHps": 0,
+      "avgPrimary": 88714.52,
+      "avgDurationMs": 113905,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 61185.96,
       "maxDurationMs": 394729,
       "minDurationMs": 81840
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 67117.94,
+      "previousAvg": 88714.52,
+      "delta": -21596.58,
+      "deltaPercent": -24.34
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.365Z",
+    "lastPullAt": "2026-05-15T19:23:56.829Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

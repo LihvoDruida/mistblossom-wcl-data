@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.365Z",
   "character": {
     "name": "Arthasright",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 49.38,
     "consistencyPercent": 37.26,
+    "performanceScore": 38.47,
+    "survivalScore": 100,
+    "reliabilityScore": 51.16,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 88820.74,
       "avgHps": 0,
       "avgPrimary": 88820.74,
       "avgDurationMs": 213419,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 77616.39,
+      "avgHps": 0,
+      "avgPrimary": 77616.39,
+      "avgDurationMs": 200282,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 67011.01,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
+    },
+    "trend": {
+      "direction": "up",
+      "recentAvg": 88820.74,
+      "previousAvg": 77616.39,
+      "delta": 11204.35,
+      "deltaPercent": 14.44
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.365Z",
+    "lastPullAt": "2026-05-29T20:06:06.764Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

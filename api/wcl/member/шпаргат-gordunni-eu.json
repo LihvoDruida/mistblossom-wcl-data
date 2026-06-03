@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.371Z",
   "character": {
     "name": "Шпаргат",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 50.17,
     "consistencyPercent": 29,
+    "performanceScore": 34.84,
+    "survivalScore": 100,
+    "reliabilityScore": 49.16,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 27567.22,
       "avgHps": 0,
       "avgPrimary": 27567.22,
       "avgDurationMs": 310552,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 40902.94,
+      "avgHps": 0,
+      "avgPrimary": 40902.94,
+      "avgDurationMs": 329183,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 15936.55,
       "maxDurationMs": 376490,
       "minDurationMs": 55939
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 27567.22,
+      "previousAvg": 40902.94,
+      "delta": -13335.72,
+      "deltaPercent": -32.6
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.371Z",
+    "lastPullAt": "2026-05-28T19:16:20.906Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

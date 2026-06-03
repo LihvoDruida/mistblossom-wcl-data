@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.368Z",
   "character": {
     "name": "Пандашоманко",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 95.2,
     "consistencyPercent": 79.38,
+    "performanceScore": 72.21,
+    "survivalScore": 100,
+    "reliabilityScore": 69.72,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
       "avgHps": 97502.94,
       "avgPrimary": 97502.94,
       "avgDurationMs": 426578,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 0,
+      "avgHps": 95349.87,
+      "avgPrimary": 95349.87,
+      "avgDurationMs": 298163,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 81297.68,
       "maxDurationMs": 543654,
       "minDurationMs": 64027
+    },
+    "trend": {
+      "direction": "flat",
+      "recentAvg": 97502.94,
+      "previousAvg": 95349.87,
+      "delta": 2153.07,
+      "deltaPercent": 2.26
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 0,
         "hps": 10,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -700,6 +720,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.368Z",
+    "lastPullAt": "2026-05-17T19:09:27.100Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

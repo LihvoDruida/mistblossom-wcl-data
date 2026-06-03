@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.369Z",
   "character": {
     "name": "Моннал",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 65.95,
     "consistencyPercent": 59.32,
+    "performanceScore": 53.1,
+    "survivalScore": 100,
+    "reliabilityScore": 59.21,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 26714.36,
       "avgHps": 0,
       "avgPrimary": 26714.36,
       "avgDurationMs": 213419,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 29363.9,
+      "avgHps": 0,
+      "avgPrimary": 29363.9,
+      "avgDurationMs": 200282,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 24026.71,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 26714.36,
+      "previousAvg": 29363.9,
+      "delta": -2649.54,
+      "deltaPercent": -9.02
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.369Z",
+    "lastPullAt": "2026-05-29T20:06:06.764Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

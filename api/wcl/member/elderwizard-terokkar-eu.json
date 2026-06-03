@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.364Z",
   "character": {
     "name": "Elderwizard",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 78.06,
     "consistencyPercent": 59.4,
+    "performanceScore": 59.78,
+    "survivalScore": 100,
+    "reliabilityScore": 62.88,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 91081.48,
       "avgHps": 0,
       "avgPrimary": 91081.48,
       "avgDurationMs": 113905,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 95831.92,
+      "avgHps": 0,
+      "avgPrimary": 95831.92,
+      "avgDurationMs": 133074,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 69304.73,
       "maxDurationMs": 397835,
       "minDurationMs": 81840
+    },
+    "trend": {
+      "direction": "flat",
+      "recentAvg": 91081.48,
+      "previousAvg": 95831.92,
+      "delta": -4750.44,
+      "deltaPercent": -4.96
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.364Z",
+    "lastPullAt": "2026-04-29T20:28:20.858Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

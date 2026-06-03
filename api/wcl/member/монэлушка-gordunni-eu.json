@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.369Z",
   "character": {
     "name": "Монэлушка",
@@ -20,7 +20,18 @@
     "deathsPerPull": 0,
     "stabilityPercent": 0,
     "consistencyPercent": 0,
+    "performanceScore": 0,
+    "survivalScore": 100,
+    "reliabilityScore": 30,
     "recent3": {
+      "sampleSize": 0,
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 0,
+      "avgDeaths": 0
+    },
+    "previous3": {
       "sampleSize": 0,
       "avgDps": 0,
       "avgHps": 0,
@@ -38,6 +49,13 @@
       "minPrimary": 0,
       "maxDurationMs": 0,
       "minDurationMs": 0
+    },
+    "trend": {
+      "direction": "unknown",
+      "recentAvg": 0,
+      "previousAvg": 0,
+      "delta": 0,
+      "deltaPercent": 0
     },
     "byRole": {
       "healer": {
@@ -77,13 +95,18 @@
         "dps": 0,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 0
     }
   },
   "pulls": [],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.369Z",
+    "newPullsInLastScan": 0,
+    "scanReason": "no-data"
   }
 }

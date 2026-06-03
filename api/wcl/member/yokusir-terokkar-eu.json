@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.364Z",
   "character": {
     "name": "Yokusir",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 73.81,
     "consistencyPercent": 57.18,
+    "performanceScore": 54.89,
+    "survivalScore": 100,
+    "reliabilityScore": 60.19,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 40126.1,
       "avgHps": 0,
       "avgPrimary": 40126.1,
       "avgDurationMs": 276499,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 0,
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 0,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 31085.52,
       "maxDurationMs": 356948,
       "minDurationMs": 235959
+    },
+    "trend": {
+      "direction": "unknown",
+      "recentAvg": 40126.1,
+      "previousAvg": 0,
+      "delta": 40126.1,
+      "deltaPercent": 0
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 3,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -279,6 +299,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.364Z",
+    "lastPullAt": "2026-05-29T18:46:12.334Z",
+    "newPullsInLastScan": 3,
+    "scanReason": "scheduled"
   }
 }

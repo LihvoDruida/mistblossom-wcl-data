@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.367Z",
   "character": {
     "name": "Yokuha",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 53.1,
     "consistencyPercent": 12.03,
+    "performanceScore": 32.21,
+    "survivalScore": 100,
+    "reliabilityScore": 47.72,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 24326.98,
       "avgHps": 0,
       "avgPrimary": 24326.98,
       "avgDurationMs": 209015,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 35608.46,
+      "avgHps": 0,
+      "avgPrimary": 35608.46,
+      "avgDurationMs": 159341,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 5512.57,
       "maxDurationMs": 220822,
       "minDurationMs": 61569
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 24326.98,
+      "previousAvg": 35608.46,
+      "delta": -11281.48,
+      "deltaPercent": -31.68
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.367Z",
+    "lastPullAt": "2026-04-18T18:59:09.146Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

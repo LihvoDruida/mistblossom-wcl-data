@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.372Z",
   "character": {
     "name": "Шриладо",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 81.34,
     "consistencyPercent": 60.04,
+    "performanceScore": 61.75,
+    "survivalScore": 100,
+    "reliabilityScore": 63.96,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
       "avgHps": 103494.21,
       "avgPrimary": 103494.21,
       "avgDurationMs": 213419,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 0,
+      "avgHps": 95526.94,
+      "avgPrimary": 95526.94,
+      "avgDurationMs": 200282,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 76388.45,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
+    },
+    "trend": {
+      "direction": "up",
+      "recentAvg": 103494.21,
+      "previousAvg": 95526.94,
+      "delta": 7967.27,
+      "deltaPercent": 8.34
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 0,
         "hps": 10,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -724,6 +744,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.372Z",
+    "lastPullAt": "2026-05-29T20:06:06.764Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.372Z",
   "character": {
     "name": "Марлая",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 37.19,
     "consistencyPercent": 32.46,
+    "performanceScore": 28.57,
+    "survivalScore": 100,
+    "reliabilityScore": 45.71,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 37682.57,
       "avgHps": 0,
       "avgPrimary": 37682.57,
       "avgDurationMs": 353689,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 54345.67,
+      "avgHps": 0,
+      "avgPrimary": 54345.67,
+      "avgDurationMs": 350883,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 32894.88,
       "maxDurationMs": 376490,
       "minDurationMs": 234569
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 37682.57,
+      "previousAvg": 54345.67,
+      "delta": -16663.1,
+      "deltaPercent": -30.66
     },
     "byRole": {
       "healer": {
@@ -81,7 +99,9 @@
         "dps": 6,
         "hps": 4,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -729,6 +749,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.372Z",
+    "lastPullAt": "2026-05-28T19:35:31.820Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

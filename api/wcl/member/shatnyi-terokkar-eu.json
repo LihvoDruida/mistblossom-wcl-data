@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.364Z",
   "character": {
     "name": "Shatnyi",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 63.97,
     "consistencyPercent": 32.19,
+    "performanceScore": 43.23,
+    "survivalScore": 100,
+    "reliabilityScore": 53.78,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 20401.29,
       "avgHps": 16083.27,
       "avgPrimary": 18961.95,
       "avgDurationMs": 110060,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 23369.29,
+      "avgHps": 0,
+      "avgPrimary": 23369.29,
+      "avgDurationMs": 261765,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 9542.41,
       "maxDurationMs": 375348,
       "minDurationMs": 56474
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 18961.95,
+      "previousAvg": 23369.29,
+      "delta": -4407.34,
+      "deltaPercent": -18.86
     },
     "byRole": {
       "healer": {
@@ -81,7 +99,9 @@
         "dps": 8,
         "hps": 2,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -729,6 +749,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.364Z",
+    "lastPullAt": "2026-05-24T18:55:47.471Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

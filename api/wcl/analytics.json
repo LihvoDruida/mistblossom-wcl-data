@@ -1,0 +1,968 @@
+{
+  "overview": {
+    "members": 159,
+    "membersWithData": 58,
+    "pullsStored": 561,
+    "distinctFights": 209,
+    "kills": 22,
+    "wipes": 187,
+    "killRate": 0.1053,
+    "avgFightDurationMs": 201889,
+    "avgRaidDeaths": 16.91,
+    "avgTeamDps": 136863.39,
+    "avgTeamHps": 34896.8,
+    "avgPerformanceScore": 16.99,
+    "avgSurvivalScore": 100,
+    "avgReliabilityScore": 39.48
+  },
+  "roles": {
+    "damage": {
+      "members": 52,
+      "pulls": 466,
+      "avgRecent": 53871.43,
+      "medianRecent": 51219.68,
+      "bestRecent": 99012.96,
+      "maxLast10": 188469.8,
+      "deathsPerPull": 0,
+      "topRecent": [
+        {
+          "slug": "silpo-ravencrest-eu",
+          "name": "Silpo",
+          "rank": 4,
+          "value": 99012.96,
+          "secondary": 0
+        },
+        {
+          "slug": "kokosik-silvermoon-eu",
+          "name": "Kokosik",
+          "rank": 3,
+          "value": 93820.18,
+          "secondary": 0
+        },
+        {
+          "slug": "elderwizard-terokkar-eu",
+          "name": "Elderwizard",
+          "rank": 3,
+          "value": 91081.48,
+          "secondary": 0
+        },
+        {
+          "slug": "arthasright-tarren-mill-eu",
+          "name": "Arthasright",
+          "rank": 4,
+          "value": 88820.74,
+          "secondary": 0
+        },
+        {
+          "slug": "oxydenis-silvermoon-eu",
+          "name": "Oxydenis",
+          "rank": 3,
+          "value": 87936.57,
+          "secondary": 0
+        },
+        {
+          "slug": "мавпита-gordunni-eu",
+          "name": "Мавпита",
+          "rank": 1,
+          "value": 87339.48,
+          "secondary": 0
+        },
+        {
+          "slug": "marmozetroly-tarren-mill-eu",
+          "name": "Marmozetroly",
+          "rank": 4,
+          "value": 87175.59,
+          "secondary": 0
+        },
+        {
+          "slug": "булкрит-gordunni-eu",
+          "name": "Булкрит",
+          "rank": 1,
+          "value": 83198.53,
+          "secondary": 0
+        },
+        {
+          "slug": "mafik-terokkar-eu",
+          "name": "Mafik",
+          "rank": 1,
+          "value": 81853.9,
+          "secondary": 0
+        },
+        {
+          "slug": "rozbiynik-tarren-mill-eu",
+          "name": "Rozbiynik",
+          "rank": 3,
+          "value": 80947.27,
+          "secondary": 0
+        },
+        {
+          "slug": "skirvir-turalyon-eu",
+          "name": "Skirvir",
+          "rank": 3,
+          "value": 76673.75,
+          "secondary": 0
+        },
+        {
+          "slug": "графдекот-gordunni-eu",
+          "name": "Графдекот",
+          "rank": 3,
+          "value": 75837.08,
+          "secondary": 0
+        }
+      ]
+    },
+    "healer": {
+      "members": 18,
+      "pulls": 95,
+      "avgRecent": 49236.45,
+      "medianRecent": 15202.1,
+      "bestRecent": 119054.83,
+      "maxLast10": 138241.95,
+      "deathsPerPull": 0,
+      "topRecent": [
+        {
+          "slug": "дарадуда-gordunni-eu",
+          "name": "Дарадуда",
+          "rank": 4,
+          "value": 119054.83,
+          "secondary": 0
+        },
+        {
+          "slug": "древесная-blackscar-eu",
+          "name": "Древесная",
+          "rank": 3,
+          "value": 118154.41,
+          "secondary": 0
+        },
+        {
+          "slug": "yokum-terokkar-eu",
+          "name": "Yokum",
+          "rank": 4,
+          "value": 110164.78,
+          "secondary": 0
+        },
+        {
+          "slug": "шриладо-gordunni-eu",
+          "name": "Шриладо",
+          "rank": 1,
+          "value": 103494.21,
+          "secondary": 0
+        },
+        {
+          "slug": "марлая-gordunni-eu",
+          "name": "Марлая",
+          "rank": 3,
+          "value": 101212.71,
+          "secondary": 0
+        },
+        {
+          "slug": "пандашоманко-eversong-eu",
+          "name": "Пандашоманко",
+          "rank": 3,
+          "value": 97502.94,
+          "secondary": 0
+        },
+        {
+          "slug": "lightass-terokkar-eu",
+          "name": "Lightass",
+          "rank": 1,
+          "value": 87836.99,
+          "secondary": 0
+        },
+        {
+          "slug": "bullimonk-tarren-mill-eu",
+          "name": "Bullimonk",
+          "rank": 3,
+          "value": 70822.61,
+          "secondary": 0
+        },
+        {
+          "slug": "дедика-eversong-eu",
+          "name": "Дедика",
+          "rank": 3,
+          "value": 16323.57,
+          "secondary": 0
+        },
+        {
+          "slug": "therion-doomhammer-eu",
+          "name": "Thérion",
+          "rank": 3,
+          "value": 14080.63,
+          "secondary": 0
+        },
+        {
+          "slug": "севатар-lich-king-eu",
+          "name": "Севатар",
+          "rank": 3,
+          "value": 13387.48,
+          "secondary": 0
+        },
+        {
+          "slug": "shatnyi-terokkar-eu",
+          "name": "Shatnyi",
+          "rank": 4,
+          "value": 12812.84,
+          "secondary": 0
+        }
+      ]
+    },
+    "unknown": {
+      "members": 0,
+      "pulls": 0,
+      "avgRecent": 0,
+      "medianRecent": 0,
+      "bestRecent": 0,
+      "maxLast10": 0,
+      "deathsPerPull": 0,
+      "topRecent": []
+    }
+  },
+  "deaths": {
+    "totalCharacterDeaths": 0,
+    "deathsPerPull": 0,
+    "highDeathRisk": [
+      {
+        "slug": "khayen-terokkar-eu",
+        "name": "Khayen",
+        "rank": 0,
+        "value": 0,
+        "secondary": 100
+      },
+      {
+        "slug": "forchun-silvermoon-eu",
+        "name": "Forchun",
+        "rank": 1,
+        "value": 0,
+        "secondary": 100
+      },
+      {
+        "slug": "frrtiix-draenor-eu",
+        "name": "Frrtiix",
+        "rank": 1,
+        "value": 0,
+        "secondary": 100
+      },
+      {
+        "slug": "lightass-terokkar-eu",
+        "name": "Lightass",
+        "rank": 1,
+        "value": 0,
+        "secondary": 100
+      },
+      {
+        "slug": "lishiyburn-ragnaros-eu",
+        "name": "Lishiyburn",
+        "rank": 1,
+        "value": 0,
+        "secondary": 100
+      },
+      {
+        "slug": "mafik-terokkar-eu",
+        "name": "Mafik",
+        "rank": 1,
+        "value": 0,
+        "secondary": 100
+      },
+      {
+        "slug": "булкрит-gordunni-eu",
+        "name": "Булкрит",
+        "rank": 1,
+        "value": 0,
+        "secondary": 100
+      },
+      {
+        "slug": "мавпита-gordunni-eu",
+        "name": "Мавпита",
+        "rank": 1,
+        "value": 0,
+        "secondary": 100
+      },
+      {
+        "slug": "пизнаика-gordunni-eu",
+        "name": "Пизнайка",
+        "rank": 1,
+        "value": 0,
+        "secondary": 100
+      },
+      {
+        "slug": "тузольд-gordunni-eu",
+        "name": "Тузольд",
+        "rank": 1,
+        "value": 0,
+        "secondary": 100
+      },
+      {
+        "slug": "шриладо-gordunni-eu",
+        "name": "Шриладо",
+        "rank": 1,
+        "value": 0,
+        "secondary": 100
+      },
+      {
+        "slug": "molfar-terokkar-eu",
+        "name": "Mólfár",
+        "rank": 2,
+        "value": 0,
+        "secondary": 100
+      }
+    ],
+    "zeroDeathRecent": [
+      {
+        "slug": "пандашоманко-eversong-eu",
+        "name": "Пандашоманко",
+        "rank": 3,
+        "value": 69.72,
+        "secondary": 97502.94
+      },
+      {
+        "slug": "кхаарн-lich-king-eu",
+        "name": "Кхаарн",
+        "rank": 3,
+        "value": 69.24,
+        "secondary": 47495.17
+      },
+      {
+        "slug": "древесная-blackscar-eu",
+        "name": "Древесная",
+        "rank": 3,
+        "value": 68.79,
+        "secondary": 118154.41
+      },
+      {
+        "slug": "клеосса-eversong-eu",
+        "name": "Клеосса",
+        "rank": 3,
+        "value": 67.75,
+        "secondary": 36752.61
+      },
+      {
+        "slug": "illidonson-draenor-eu",
+        "name": "Illidonson",
+        "rank": 3,
+        "value": 65.5,
+        "secondary": 63660.8
+      },
+      {
+        "slug": "адвокатправа-gordunni-eu",
+        "name": "Адвокатправа",
+        "rank": 4,
+        "value": 65.01,
+        "secondary": 70288.4
+      },
+      {
+        "slug": "yokum-terokkar-eu",
+        "name": "Yokum",
+        "rank": 4,
+        "value": 64.45,
+        "secondary": 110164.78
+      },
+      {
+        "slug": "дарадуда-gordunni-eu",
+        "name": "Дарадуда",
+        "rank": 4,
+        "value": 64.26,
+        "secondary": 119054.83
+      },
+      {
+        "slug": "шриладо-gordunni-eu",
+        "name": "Шриладо",
+        "rank": 1,
+        "value": 63.96,
+        "secondary": 103494.21
+      },
+      {
+        "slug": "elderwizard-terokkar-eu",
+        "name": "Elderwizard",
+        "rank": 3,
+        "value": 62.88,
+        "secondary": 91081.48
+      },
+      {
+        "slug": "lishiyburn-ragnaros-eu",
+        "name": "Lishiyburn",
+        "rank": 1,
+        "value": 62.15,
+        "secondary": 46906.83
+      },
+      {
+        "slug": "molfar-terokkar-eu",
+        "name": "Mólfár",
+        "rank": 2,
+        "value": 61.74,
+        "secondary": 70147.4
+      }
+    ]
+  },
+  "consistency": {
+    "avgStabilityPercent": 64.61,
+    "avgConsistencyPercent": 36.84,
+    "mostStable": [
+      {
+        "slug": "пандашоманко-eversong-eu",
+        "name": "Пандашоманко",
+        "rank": 3,
+        "value": 69.72,
+        "secondary": 95.2
+      },
+      {
+        "slug": "кхаарн-lich-king-eu",
+        "name": "Кхаарн",
+        "rank": 3,
+        "value": 69.24,
+        "secondary": 90.65
+      },
+      {
+        "slug": "древесная-blackscar-eu",
+        "name": "Древесная",
+        "rank": 3,
+        "value": 68.79,
+        "secondary": 91.47
+      },
+      {
+        "slug": "клеосса-eversong-eu",
+        "name": "Клеосса",
+        "rank": 3,
+        "value": 67.75,
+        "secondary": 94.94
+      },
+      {
+        "slug": "illidonson-draenor-eu",
+        "name": "Illidonson",
+        "rank": 3,
+        "value": 65.5,
+        "secondary": 97.47
+      },
+      {
+        "slug": "адвокатправа-gordunni-eu",
+        "name": "Адвокатправа",
+        "rank": 4,
+        "value": 65.01,
+        "secondary": 81.45
+      },
+      {
+        "slug": "yokum-terokkar-eu",
+        "name": "Yokum",
+        "rank": 4,
+        "value": 64.45,
+        "secondary": 79.69
+      },
+      {
+        "slug": "дарадуда-gordunni-eu",
+        "name": "Дарадуда",
+        "rank": 4,
+        "value": 64.26,
+        "secondary": 88.04
+      },
+      {
+        "slug": "шриладо-gordunni-eu",
+        "name": "Шриладо",
+        "rank": 1,
+        "value": 63.96,
+        "secondary": 81.34
+      },
+      {
+        "slug": "elderwizard-terokkar-eu",
+        "name": "Elderwizard",
+        "rank": 3,
+        "value": 62.88,
+        "secondary": 78.06
+      },
+      {
+        "slug": "lishiyburn-ragnaros-eu",
+        "name": "Lishiyburn",
+        "rank": 1,
+        "value": 62.15,
+        "secondary": 80.17
+      },
+      {
+        "slug": "molfar-terokkar-eu",
+        "name": "Mólfár",
+        "rank": 2,
+        "value": 61.74,
+        "secondary": 87.2
+      }
+    ],
+    "needsAttention": [
+      {
+        "slug": "bylik-tarren-mill-eu",
+        "name": "Bylik",
+        "rank": 3,
+        "value": 62.06,
+        "secondary": 0
+      },
+      {
+        "slug": "khayen-terokkar-eu",
+        "name": "Khayen",
+        "rank": 0,
+        "value": 56.22,
+        "secondary": 0
+      },
+      {
+        "slug": "frrtiix-draenor-eu",
+        "name": "Frrtiix",
+        "rank": 1,
+        "value": 56.21,
+        "secondary": 0
+      },
+      {
+        "slug": "silpo-ravencrest-eu",
+        "name": "Silpo",
+        "rank": 4,
+        "value": 55.39,
+        "secondary": 0
+      },
+      {
+        "slug": "oxydenis-silvermoon-eu",
+        "name": "Oxydenis",
+        "rank": 3,
+        "value": 55.08,
+        "secondary": 0
+      },
+      {
+        "slug": "марлая-gordunni-eu",
+        "name": "Марлая",
+        "rank": 3,
+        "value": 54.29,
+        "secondary": 0
+      },
+      {
+        "slug": "yokuha-terokkar-eu",
+        "name": "Yokuha",
+        "rank": 3,
+        "value": 52.28,
+        "secondary": 0
+      },
+      {
+        "slug": "krekor-tarren-mill-eu",
+        "name": "Krekor",
+        "rank": 4,
+        "value": 52.04,
+        "secondary": 0
+      },
+      {
+        "slug": "лилая-grom-eu",
+        "name": "Лилая",
+        "rank": 3,
+        "value": 51.81,
+        "secondary": 0
+      },
+      {
+        "slug": "therion-doomhammer-eu",
+        "name": "Thérion",
+        "rank": 3,
+        "value": 51.76,
+        "secondary": 0
+      },
+      {
+        "slug": "mafik-terokkar-eu",
+        "name": "Mafik",
+        "rank": 1,
+        "value": 51.65,
+        "secondary": 0
+      },
+      {
+        "slug": "шпаргат-gordunni-eu",
+        "name": "Шпаргат",
+        "rank": 4,
+        "value": 50.84,
+        "secondary": 0
+      }
+    ]
+  },
+  "freshness": {
+    "updatedWithin1h": 8,
+    "updatedWithin6h": 16,
+    "updatedWithin12h": 159,
+    "updatedWithin24h": 159,
+    "oldestScannedAt": "2026-06-03T04:24:46.364Z",
+    "newestScannedAt": "2026-06-03T15:52:06.726Z",
+    "staleMembers": [
+      {
+        "slug": "khayen-terokkar-eu",
+        "name": "Khayen",
+        "rank": 0,
+        "value": 11.46,
+        "secondary": 10
+      },
+      {
+        "slug": "azuriel-terokkar-eu",
+        "name": "Azuriel",
+        "rank": 1,
+        "value": 11.46,
+        "secondary": 0
+      },
+      {
+        "slug": "forchun-silvermoon-eu",
+        "name": "Forchun",
+        "rank": 1,
+        "value": 11.46,
+        "secondary": 10
+      },
+      {
+        "slug": "frrtiix-draenor-eu",
+        "name": "Frrtiix",
+        "rank": 1,
+        "value": 11.46,
+        "secondary": 10
+      },
+      {
+        "slug": "ironbelly-silvermoon-eu",
+        "name": "Ironbelly",
+        "rank": 1,
+        "value": 11.46,
+        "secondary": 0
+      },
+      {
+        "slug": "kashin-terokkar-eu",
+        "name": "Kashin",
+        "rank": 1,
+        "value": 11.46,
+        "secondary": 0
+      },
+      {
+        "slug": "krouli-terokkar-eu",
+        "name": "Krouli",
+        "rank": 1,
+        "value": 11.46,
+        "secondary": 0
+      },
+      {
+        "slug": "lightass-terokkar-eu",
+        "name": "Lightass",
+        "rank": 1,
+        "value": 11.46,
+        "secondary": 10
+      },
+      {
+        "slug": "lishiy-ragnaros-eu",
+        "name": "Lishiy",
+        "rank": 1,
+        "value": 11.46,
+        "secondary": 0
+      },
+      {
+        "slug": "lishiyburn-ragnaros-eu",
+        "name": "Lishiyburn",
+        "rank": 1,
+        "value": 11.46,
+        "secondary": 10
+      },
+      {
+        "slug": "mafik-terokkar-eu",
+        "name": "Mafik",
+        "rank": 1,
+        "value": 11.46,
+        "secondary": 10
+      },
+      {
+        "slug": "odeskiy-tarren-mill-eu",
+        "name": "Odeskiy",
+        "rank": 1,
+        "value": 11.46,
+        "secondary": 0
+      }
+    ]
+  },
+  "bosses": [
+    {
+      "key": "3306:Mythic",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "pulls": 12,
+      "kills": 0,
+      "wipes": 12,
+      "killRate": 0,
+      "avgDurationMs": 135709,
+      "avgRaidDeaths": 19.58,
+      "avgTeamDps": 628020.82,
+      "avgTeamHps": 297130.89,
+      "bestTeamDps": 1434389.04,
+      "bestTeamHps": 465140.66,
+      "lastPullAt": "2026-05-29T20:06:06.764Z"
+    },
+    {
+      "key": "3177:Mythic",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "pulls": 29,
+      "kills": 1,
+      "wipes": 28,
+      "killRate": 0.0345,
+      "avgDurationMs": 233474,
+      "avgRaidDeaths": 20,
+      "avgTeamDps": 157274.74,
+      "avgTeamHps": 42991.51,
+      "bestTeamDps": 906055.26,
+      "bestTeamHps": 461938.04,
+      "lastPullAt": "2026-05-29T19:04:24.189Z"
+    },
+    {
+      "key": "3176:Mythic",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "pulls": 19,
+      "kills": 1,
+      "wipes": 18,
+      "killRate": 0.0526,
+      "avgDurationMs": 224779,
+      "avgRaidDeaths": 15.68,
+      "avgTeamDps": 90575.36,
+      "avgTeamHps": 1348.72,
+      "bestTeamDps": 115933.42,
+      "bestTeamHps": 16083.27,
+      "lastPullAt": "2026-05-27T18:14:56.051Z"
+    },
+    {
+      "key": "3181:Heroic",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "pulls": 26,
+      "kills": 0,
+      "wipes": 26,
+      "killRate": 0,
+      "avgDurationMs": 194607,
+      "avgRaidDeaths": 16.73,
+      "avgTeamDps": 102540.9,
+      "avgTeamHps": 36410.1,
+      "bestTeamDps": 177360.27,
+      "bestTeamHps": 102417.3,
+      "lastPullAt": "2026-05-17T19:09:27.100Z"
+    },
+    {
+      "key": "3182:Heroic",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "pulls": 36,
+      "kills": 1,
+      "wipes": 35,
+      "killRate": 0.0278,
+      "avgDurationMs": 175340,
+      "avgRaidDeaths": 19.53,
+      "avgTeamDps": 87895.88,
+      "avgTeamHps": 17064.59,
+      "bestTeamDps": 206616.76,
+      "bestTeamHps": 84512.88,
+      "lastPullAt": "2026-05-17T17:34:07.976Z"
+    },
+    {
+      "key": "3180:Heroic",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "pulls": 17,
+      "kills": 2,
+      "wipes": 15,
+      "killRate": 0.1176,
+      "avgDurationMs": 159630,
+      "avgRaidDeaths": 15.76,
+      "avgTeamDps": 191593.65,
+      "avgTeamHps": 828.27,
+      "bestTeamDps": 479760.72,
+      "bestTeamHps": 14080.63,
+      "lastPullAt": "2026-05-16T18:49:36.914Z"
+    },
+    {
+      "key": "3181:Normal",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "pulls": 1,
+      "kills": 1,
+      "wipes": 0,
+      "killRate": 1,
+      "avgDurationMs": 387076,
+      "avgRaidDeaths": 3,
+      "avgTeamDps": 61185.96,
+      "avgTeamHps": 0,
+      "bestTeamDps": 61185.96,
+      "bestTeamHps": 0,
+      "lastPullAt": "2026-05-15T19:23:56.829Z"
+    },
+    {
+      "key": "3180:Normal",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "pulls": 1,
+      "kills": 1,
+      "wipes": 0,
+      "killRate": 1,
+      "avgDurationMs": 291232,
+      "avgRaidDeaths": 5,
+      "avgTeamDps": 74094.93,
+      "avgTeamHps": 0,
+      "bestTeamDps": 74094.93,
+      "bestTeamHps": 0,
+      "lastPullAt": "2026-05-15T19:13:08.702Z"
+    },
+    {
+      "key": "3178:Normal",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "pulls": 1,
+      "kills": 1,
+      "wipes": 0,
+      "killRate": 1,
+      "avgDurationMs": 394729,
+      "avgRaidDeaths": 3,
+      "avgTeamDps": 66072.94,
+      "avgTeamHps": 0,
+      "bestTeamDps": 66072.94,
+      "bestTeamHps": 0,
+      "lastPullAt": "2026-05-15T19:02:37.487Z"
+    },
+    {
+      "key": "3306:Heroic",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "pulls": 4,
+      "kills": 1,
+      "wipes": 3,
+      "killRate": 0.25,
+      "avgDurationMs": 172128,
+      "avgRaidDeaths": 14.5,
+      "avgTeamDps": 34840.4,
+      "avgTeamHps": 0,
+      "bestTeamDps": 63478.99,
+      "bestTeamHps": 0,
+      "lastPullAt": "2026-05-15T17:47:05.903Z"
+    },
+    {
+      "key": "3178:Heroic",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "pulls": 25,
+      "kills": 2,
+      "wipes": 23,
+      "killRate": 0.08,
+      "avgDurationMs": 208551,
+      "avgRaidDeaths": 18.72,
+      "avgTeamDps": 131502.61,
+      "avgTeamHps": 27207.38,
+      "bestTeamDps": 426892.27,
+      "bestTeamHps": 101236.45,
+      "lastPullAt": "2026-05-09T18:31:27.289Z"
+    },
+    {
+      "key": "3179:Heroic",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "pulls": 6,
+      "kills": 4,
+      "wipes": 2,
+      "killRate": 0.6667,
+      "avgDurationMs": 262530,
+      "avgRaidDeaths": 8.5,
+      "avgTeamDps": 64491.31,
+      "avgTeamHps": 15379.77,
+      "bestTeamDps": 110907.28,
+      "bestTeamHps": 92278.6,
+      "lastPullAt": "2026-05-09T18:06:00.355Z"
+    },
+    {
+      "key": "3177:Heroic",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "pulls": 11,
+      "kills": 4,
+      "wipes": 7,
+      "killRate": 0.3636,
+      "avgDurationMs": 230010,
+      "avgRaidDeaths": 13.55,
+      "avgTeamDps": 58649.92,
+      "avgTeamHps": 9813.69,
+      "bestTeamDps": 126035.72,
+      "bestTeamHps": 89980.73,
+      "lastPullAt": "2026-05-09T17:53:55.305Z"
+    },
+    {
+      "key": "3176:Heroic",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "pulls": 4,
+      "kills": 1,
+      "wipes": 3,
+      "killRate": 0.25,
+      "avgDurationMs": 180670,
+      "avgRaidDeaths": 13.75,
+      "avgTeamDps": 88111.99,
+      "avgTeamHps": 0,
+      "bestTeamDps": 134524.07,
+      "bestTeamHps": 0,
+      "lastPullAt": "2026-05-09T17:21:06.711Z"
+    },
+    {
+      "key": "3183:Normal",
+      "bossName": "Midnight Falls",
+      "encounterId": 3183,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "pulls": 3,
+      "kills": 1,
+      "wipes": 2,
+      "killRate": 0.3333,
+      "avgDurationMs": 276478,
+      "avgRaidDeaths": 6.67,
+      "avgTeamDps": 56581.82,
+      "avgTeamHps": 0,
+      "bestTeamDps": 67457.36,
+      "bestTeamHps": 0,
+      "lastPullAt": "2026-04-05T19:06:02.427Z"
+    },
+    {
+      "key": "3182:Normal",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "pulls": 14,
+      "kills": 1,
+      "wipes": 13,
+      "killRate": 0.0714,
+      "avgDurationMs": 200451,
+      "avgRaidDeaths": 14.57,
+      "avgTeamDps": 36880.09,
+      "avgTeamHps": 0,
+      "bestTeamDps": 71411.8,
+      "bestTeamHps": 0,
+      "lastPullAt": "2026-04-05T18:46:45.370Z"
+    }
+  ],
+  "classes": [
+    {
+      "className": "Unknown",
+      "members": 159,
+      "withData": 58,
+      "avgPrimaryRecent3": 20953.6,
+      "avgDpsRecent3": 16904.28,
+      "avgHpsRecent3": 4853.41,
+      "deathsPerPull": 0,
+      "avgReliabilityScore": 39.48
+    }
+  ]
+}

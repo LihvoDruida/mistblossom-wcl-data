@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.368Z",
   "character": {
     "name": "Нежнаяпулька",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 70.67,
     "consistencyPercent": 54.49,
+    "performanceScore": 52.49,
+    "survivalScore": 100,
+    "reliabilityScore": 58.87,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 42691.44,
       "avgHps": 0,
       "avgPrimary": 42691.44,
       "avgDurationMs": 173128,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 55141.89,
+      "avgHps": 0,
+      "avgPrimary": 55141.89,
+      "avgDurationMs": 222870,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 32918.04,
       "maxDurationMs": 244303,
       "minDurationMs": 113961
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 42691.44,
+      "previousAvg": 55141.89,
+      "delta": -12450.45,
+      "deltaPercent": -22.58
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.368Z",
+    "lastPullAt": "2026-05-01T19:03:40.900Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

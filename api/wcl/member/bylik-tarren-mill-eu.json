@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 2,
-  "updatedAt": "2026-06-03T04:24:46.364Z",
+  "schemaVersion": 3,
+  "updatedAt": "2026-06-03T15:52:06.726Z",
   "character": {
     "name": "Bylik",
     "realmSlug": "tarren-mill",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 21.74,
     "consistencyPercent": 1.94,
+    "performanceScore": 14.44,
+    "survivalScore": 100,
+    "reliabilityScore": 37.94,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 46845.52,
       "avgHps": 2867.14,
       "avgPrimary": 32186.06,
       "avgDurationMs": 87262,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 103144.47,
+      "avgHps": 0,
+      "avgPrimary": 103144.47,
+      "avgDurationMs": 244381,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 2867.14,
       "maxDurationMs": 304370,
       "minDurationMs": 27878
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 32186.06,
+      "previousAvg": 103144.47,
+      "delta": -70958.41,
+      "deltaPercent": -68.8
     },
     "byRole": {
       "healer": {
@@ -81,7 +99,9 @@
         "dps": 9,
         "hps": 1,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -724,8 +744,12 @@
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "reportsScanned": 8,
+    "fightsScanned": 8,
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T15:52:06.726Z",
+    "lastPullAt": "2026-05-16T20:09:47.034Z",
+    "newPullsInLastScan": 0,
+    "scanReason": "scheduled"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.366Z",
   "character": {
     "name": "Skirvir",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 62.02,
     "consistencyPercent": 24.05,
+    "performanceScore": 42.12,
+    "survivalScore": 100,
+    "reliabilityScore": 53.17,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 76673.75,
       "avgHps": 0,
       "avgPrimary": 76673.75,
       "avgDurationMs": 213419,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 80687.36,
+      "avgHps": 0,
+      "avgPrimary": 80687.36,
+      "avgDurationMs": 200282,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 29738.51,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
+    },
+    "trend": {
+      "direction": "flat",
+      "recentAvg": 76673.75,
+      "previousAvg": 80687.36,
+      "delta": -4013.61,
+      "deltaPercent": -4.97
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.366Z",
+    "lastPullAt": "2026-05-29T20:06:06.764Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

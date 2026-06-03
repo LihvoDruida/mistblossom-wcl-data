@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.367Z",
   "character": {
     "name": "Lishiyburn",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 80.17,
     "consistencyPercent": 41.48,
+    "performanceScore": 58.46,
+    "survivalScore": 100,
+    "reliabilityScore": 62.15,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 46906.83,
       "avgHps": 0,
       "avgPrimary": 46906.83,
       "avgDurationMs": 177551,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 45132.77,
+      "avgHps": 0,
+      "avgPrimary": 45132.77,
+      "avgDurationMs": 296033,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 24272.47,
       "maxDurationMs": 398108,
       "minDurationMs": 75997
+    },
+    "trend": {
+      "direction": "flat",
+      "recentAvg": 46906.83,
+      "previousAvg": 45132.77,
+      "delta": 1774.06,
+      "deltaPercent": 3.93
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.367Z",
+    "lastPullAt": "2026-04-10T19:52:42.330Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

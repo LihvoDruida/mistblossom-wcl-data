@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.365Z",
   "character": {
     "name": "Lightass",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 86.76,
     "consistencyPercent": 5.69,
+    "performanceScore": 55.14,
+    "survivalScore": 100,
+    "reliabilityScore": 60.33,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
       "avgHps": 87836.99,
       "avgPrimary": 87836.99,
       "avgDurationMs": 275888,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 0,
+      "avgHps": 88159.21,
+      "avgPrimary": 88159.21,
+      "avgDurationMs": 311813,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 5757.19,
       "maxDurationMs": 407490,
       "minDurationMs": 31568
+    },
+    "trend": {
+      "direction": "flat",
+      "recentAvg": 87836.99,
+      "previousAvg": 88159.21,
+      "delta": -322.22,
+      "deltaPercent": -0.37
     },
     "byRole": {
       "healer": {
@@ -81,7 +99,9 @@
         "dps": 1,
         "hps": 9,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -729,6 +749,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.365Z",
+    "lastPullAt": "2026-04-29T19:26:05.889Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

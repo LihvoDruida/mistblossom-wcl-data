@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.371Z",
   "character": {
     "name": "Адвокатправа",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 81.45,
     "consistencyPercent": 75.46,
+    "performanceScore": 63.66,
+    "survivalScore": 100,
+    "reliabilityScore": 65.01,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 70288.4,
       "avgHps": 0,
       "avgPrimary": 70288.4,
       "avgDurationMs": 110060,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 83714.57,
+      "avgHps": 0,
+      "avgPrimary": 83714.57,
+      "avgDurationMs": 261765,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 65112.86,
       "maxDurationMs": 375348,
       "minDurationMs": 56474
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 70288.4,
+      "previousAvg": 83714.57,
+      "delta": -13426.17,
+      "deltaPercent": -16.04
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.371Z",
+    "lastPullAt": "2026-05-24T18:55:47.471Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

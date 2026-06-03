@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.370Z",
   "character": {
     "name": "Тузольд",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 66.71,
     "consistencyPercent": 37.29,
+    "performanceScore": 46.01,
+    "survivalScore": 100,
+    "reliabilityScore": 55.31,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 60662.06,
       "avgHps": 0,
       "avgPrimary": 60662.06,
       "avgDurationMs": 156513,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 64542.97,
+      "avgHps": 0,
+      "avgPrimary": 64542.97,
+      "avgDurationMs": 235851,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 33914.12,
       "maxDurationMs": 244303,
       "minDurationMs": 71050
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 60662.06,
+      "previousAvg": 64542.97,
+      "delta": -3880.91,
+      "deltaPercent": -6.01
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.370Z",
+    "lastPullAt": "2026-05-09T17:21:06.711Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

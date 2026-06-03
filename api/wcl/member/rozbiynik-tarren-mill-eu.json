@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.364Z",
   "character": {
     "name": "Rozbiynik",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 42.95,
     "consistencyPercent": 37.76,
+    "performanceScore": 35.06,
+    "survivalScore": 100,
+    "reliabilityScore": 49.28,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 80947.27,
       "avgHps": 0,
       "avgPrimary": 80947.27,
       "avgDurationMs": 213419,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 89696.7,
+      "avgHps": 0,
+      "avgPrimary": 89696.7,
+      "avgDurationMs": 200282,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 71170.17,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 80947.27,
+      "previousAvg": 89696.7,
+      "delta": -8749.43,
+      "deltaPercent": -9.75
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.364Z",
+    "lastPullAt": "2026-05-29T20:06:06.764Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

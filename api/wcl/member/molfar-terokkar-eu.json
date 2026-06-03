@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.367Z",
   "character": {
     "name": "Mólfár",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 87.2,
     "consistencyPercent": 38.98,
+    "performanceScore": 57.71,
+    "survivalScore": 100,
+    "reliabilityScore": 61.74,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 70147.4,
       "avgHps": 0,
       "avgPrimary": 70147.4,
       "avgDurationMs": 145253,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 49346.97,
+      "avgHps": 0,
+      "avgPrimary": 49346.97,
+      "avgDurationMs": 152602,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 31360.38,
       "maxDurationMs": 243002,
       "minDurationMs": 90279
+    },
+    "trend": {
+      "direction": "up",
+      "recentAvg": 70147.4,
+      "previousAvg": 49346.97,
+      "delta": 20800.43,
+      "deltaPercent": 42.15
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 8,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -599,6 +619,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.367Z",
+    "lastPullAt": "2026-04-05T18:12:43.110Z",
+    "newPullsInLastScan": 8,
+    "scanReason": "scheduled"
   }
 }

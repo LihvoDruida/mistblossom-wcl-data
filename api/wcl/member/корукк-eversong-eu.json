@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.370Z",
   "character": {
     "name": "Корукк",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 71.79,
     "consistencyPercent": 10.45,
+    "performanceScore": 42.1,
+    "survivalScore": 100,
+    "reliabilityScore": 53.16,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 75075.6,
       "avgHps": 0,
       "avgPrimary": 75075.6,
       "avgDurationMs": 279401,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 84447.61,
+      "avgHps": 0,
+      "avgPrimary": 84447.61,
+      "avgDurationMs": 169499,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 10923.85,
       "maxDurationMs": 441210,
       "minDurationMs": 56849
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 75075.6,
+      "previousAvg": 84447.61,
+      "delta": -9372.01,
+      "deltaPercent": -11.1
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -724,6 +744,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.370Z",
+    "lastPullAt": "2026-05-27T17:53:50.471Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

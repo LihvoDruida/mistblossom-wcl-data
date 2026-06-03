@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.368Z",
   "character": {
     "name": "Forchun",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 67.54,
     "consistencyPercent": 50.66,
+    "performanceScore": 51.81,
+    "survivalScore": 100,
+    "reliabilityScore": 58.5,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 40330.46,
       "avgHps": 0,
       "avgPrimary": 40330.46,
       "avgDurationMs": 213419,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 35147.55,
+      "avgHps": 0,
+      "avgPrimary": 35147.55,
+      "avgDurationMs": 200282,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 30246.76,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
+    },
+    "trend": {
+      "direction": "up",
+      "recentAvg": 40330.46,
+      "previousAvg": 35147.55,
+      "delta": 5182.91,
+      "deltaPercent": 14.75
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.368Z",
+    "lastPullAt": "2026-05-29T20:06:06.764Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

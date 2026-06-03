@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.369Z",
   "character": {
     "name": "Графдекот",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 66.84,
     "consistencyPercent": 41.53,
+    "performanceScore": 47.14,
+    "survivalScore": 100,
+    "reliabilityScore": 55.93,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 75837.08,
       "avgHps": 0,
       "avgPrimary": 75837.08,
       "avgDurationMs": 426578,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 90068.44,
+      "avgHps": 0,
+      "avgPrimary": 90068.44,
+      "avgDurationMs": 298163,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 47126.78,
       "maxDurationMs": 543654,
       "minDurationMs": 64027
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 75837.08,
+      "previousAvg": 90068.44,
+      "delta": -14231.36,
+      "deltaPercent": -15.8
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.369Z",
+    "lastPullAt": "2026-05-17T19:09:27.100Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

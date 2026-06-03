@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.370Z",
   "character": {
     "name": "Севатар",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 76.64,
     "consistencyPercent": 20.33,
+    "performanceScore": 53.23,
+    "survivalScore": 100,
+    "reliabilityScore": 59.28,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 50471.1,
       "avgHps": 0,
       "avgPrimary": 50471.1,
       "avgDurationMs": 252047,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 62274.77,
+      "avgHps": 13387.48,
+      "avgPrimary": 45979.01,
+      "avgDurationMs": 151694,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 13387.48,
       "maxDurationMs": 354042,
       "minDurationMs": 29005
+    },
+    "trend": {
+      "direction": "up",
+      "recentAvg": 50471.1,
+      "previousAvg": 45979.01,
+      "delta": 4492.09,
+      "deltaPercent": 9.77
     },
     "byRole": {
       "healer": {
@@ -81,7 +99,9 @@
         "dps": 9,
         "hps": 1,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -726,6 +746,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.370Z",
+    "lastPullAt": "2026-04-22T18:36:35.480Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

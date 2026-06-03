@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.365Z",
   "character": {
     "name": "Marmozetroly",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 54.42,
     "consistencyPercent": 44.26,
+    "performanceScore": 41,
+    "survivalScore": 100,
+    "reliabilityScore": 52.55,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 87175.59,
       "avgHps": 0,
       "avgPrimary": 87175.59,
       "avgDurationMs": 289977,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 137486.97,
+      "avgHps": 0,
+      "avgPrimary": 137486.97,
+      "avgDurationMs": 76276,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 70897.56,
       "maxDurationMs": 376490,
       "minDurationMs": 55939
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 87175.59,
+      "previousAvg": 137486.97,
+      "delta": -50311.38,
+      "deltaPercent": -36.59
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.365Z",
+    "lastPullAt": "2026-05-28T18:43:34.534Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

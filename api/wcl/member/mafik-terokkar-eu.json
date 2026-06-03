@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.365Z",
   "character": {
     "name": "Mafik",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 46.62,
     "consistencyPercent": 22.93,
+    "performanceScore": 33.37,
+    "survivalScore": 100,
+    "reliabilityScore": 48.35,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 81853.9,
       "avgHps": 0,
       "avgPrimary": 81853.9,
       "avgDurationMs": 213419,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 67367.66,
+      "avgHps": 0,
+      "avgPrimary": 67367.66,
+      "avgDurationMs": 200282,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 40259.61,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
+    },
+    "trend": {
+      "direction": "up",
+      "recentAvg": 81853.9,
+      "previousAvg": 67367.66,
+      "delta": 14486.24,
+      "deltaPercent": 21.5
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.365Z",
+    "lastPullAt": "2026-05-29T20:06:06.764Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

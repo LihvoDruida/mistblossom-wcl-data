@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.366Z",
   "character": {
     "name": "Otito",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 63.65,
     "consistencyPercent": 43.47,
+    "performanceScore": 45.88,
+    "survivalScore": 100,
+    "reliabilityScore": 55.23,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 41911.55,
       "avgHps": 0,
       "avgPrimary": 41911.55,
       "avgDurationMs": 426578,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 58903.27,
+      "avgHps": 0,
+      "avgPrimary": 58903.27,
+      "avgDurationMs": 298163,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 28620.03,
       "maxDurationMs": 543654,
       "minDurationMs": 64027
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 41911.55,
+      "previousAvg": 58903.27,
+      "delta": -16991.72,
+      "deltaPercent": -28.85
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.366Z",
+    "lastPullAt": "2026-05-17T19:09:27.100Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }

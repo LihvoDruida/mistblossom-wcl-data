@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.370Z",
   "character": {
     "name": "Галазард",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 57,
     "consistencyPercent": 16.83,
+    "performanceScore": 39.56,
+    "survivalScore": 100,
+    "reliabilityScore": 51.76,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 20982.24,
       "avgHps": 4582.35,
       "avgPrimary": 15515.61,
       "avgDurationMs": 84914,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 2,
+      "avgDps": 25975.92,
+      "avgHps": 0,
+      "avgPrimary": 25975.92,
+      "avgDurationMs": 221510,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 4582.35,
       "maxDurationMs": 317297,
       "minDurationMs": 29005
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 15515.61,
+      "previousAvg": 25975.92,
+      "delta": -10460.31,
+      "deltaPercent": -40.27
     },
     "byRole": {
       "healer": {
@@ -81,7 +99,9 @@
         "dps": 4,
         "hps": 1,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -406,6 +426,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.370Z",
+    "lastPullAt": "2026-04-22T18:20:38.878Z",
+    "newPullsInLastScan": 5,
+    "scanReason": "scheduled"
   }
 }

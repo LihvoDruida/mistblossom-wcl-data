@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "updatedAt": "2026-06-03T04:24:46.368Z",
   "character": {
     "name": "ßøßk",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 68.37,
     "consistencyPercent": 42.23,
+    "performanceScore": 48.16,
+    "survivalScore": 100,
+    "reliabilityScore": 56.49,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 51968.25,
       "avgHps": 0,
       "avgPrimary": 51968.25,
       "avgDurationMs": 155353,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 59798.08,
+      "avgHps": 0,
+      "avgPrimary": 59798.08,
+      "avgDurationMs": 144297,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 32100.6,
       "maxDurationMs": 202839,
       "minDurationMs": 86196
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 51968.25,
+      "previousAvg": 59798.08,
+      "delta": -7829.83,
+      "deltaPercent": -13.09
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 10,
         "hps": 0,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -727,6 +747,10 @@
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-03T04:24:46.368Z",
+    "lastPullAt": "2026-04-11T18:44:31.978Z",
+    "newPullsInLastScan": 10,
+    "scanReason": "scheduled"
   }
 }
