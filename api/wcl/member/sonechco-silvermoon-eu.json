@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-03T00:22:47.562Z",
+  "character": {
+    "name": "Sonechco",
+    "realmSlug": "silvermoon",
+    "region": "eu",
+    "slug": "sonechco-silvermoon-eu",
+    "rank": 2,
+    "roleHint": "unknown"
+  },
+  "stats": {
+    "pullsStored": 10,
+    "kills": 2,
+    "wipes": 8,
+    "killRate": 0.2,
+    "wipeRate": 0.8,
+    "totalCharacterDeaths": 0,
+    "totalRaidDeaths": 113,
+    "deathsPerPull": 0,
+    "stabilityPercent": 0,
+    "consistencyPercent": 0,
+    "recent3": {
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 276478,
+      "avgDeaths": 0
+    },
+    "last10": {
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 0,
+      "minPrimary": 0,
+      "maxDurationMs": 348627,
+      "minDurationMs": 97007
+    }
+  },
+  "pulls": [
+    {
+      "key": "HrdpqvTVL3b6nfCF:16:Sonechco:silvermoon:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=16",
+      "status": "KILL",
+      "bossName": "Midnight Falls",
+      "encounterId": 3183,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T19:06:02.427Z",
+      "durationMs": 320595,
+      "bossPercentage": 0.36,
+      "fightPercentage": 0,
+      "averageItemLevel": 263.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 0
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:15:Sonechco:silvermoon:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=15",
+      "status": "WIPE",
+      "bossName": "Midnight Falls",
+      "encounterId": 3183,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:58:37.649Z",
+      "durationMs": 348627,
+      "bossPercentage": 7.43,
+      "fightPercentage": 7.43,
+      "averageItemLevel": 263.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 10
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:14:Sonechco:silvermoon:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=14",
+      "status": "WIPE",
+      "bossName": "Midnight Falls",
+      "encounterId": 3183,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:55:08.232Z",
+      "durationMs": 160211,
+      "bossPercentage": 65.94,
+      "fightPercentage": 65.94,
+      "averageItemLevel": 263.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 10
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:13:Sonechco:silvermoon:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=13",
+      "status": "KILL",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:46:45.370Z",
+      "durationMs": 127972,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "averageItemLevel": 263.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 0
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:12:Sonechco:silvermoon:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=12",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:41:49.691Z",
+      "durationMs": 163905,
+      "bossPercentage": 34.8,
+      "fightPercentage": 26.4,
+      "averageItemLevel": 263.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 11
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:11:Sonechco:silvermoon:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=11",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:35:28.392Z",
+      "durationMs": 189220,
+      "bossPercentage": 45.08,
+      "fightPercentage": 53.83,
+      "averageItemLevel": 263.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 11
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:10:Sonechco:silvermoon:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=10",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:30:44.882Z",
+      "durationMs": 179769,
+      "bossPercentage": 36.72,
+      "fightPercentage": 51.41,
+      "averageItemLevel": 263.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 12
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:8:Sonechco:silvermoon:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=8",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T18:12:43.110Z",
+      "durationMs": 108304,
+      "bossPercentage": 76.57,
+      "fightPercentage": 76.57,
+      "averageItemLevel": 262.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:7:Sonechco:silvermoon:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=7",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T18:05:30.193Z",
+      "durationMs": 97007,
+      "bossPercentage": 77.33,
+      "fightPercentage": 77.33,
+      "averageItemLevel": 262.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:6:Sonechco:silvermoon:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=6",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:58:47.065Z",
+      "durationMs": 230447,
+      "bossPercentage": 61.79,
+      "fightPercentage": 61.79,
+      "averageItemLevel": 262.75,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    }
+  ],
+  "source": {
+    "reportsScanned": 24,
+    "fightsScanned": 309,
+    "generatedBy": "wcl-github-api"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-03T00:22:47.561Z",
+  "character": {
+    "name": "Yokuha",
+    "realmSlug": "terokkar",
+    "region": "eu",
+    "slug": "yokuha-terokkar-eu",
+    "rank": 3,
+    "roleHint": "unknown"
+  },
+  "stats": {
+    "pullsStored": 10,
+    "kills": 0,
+    "wipes": 10,
+    "killRate": 0,
+    "wipeRate": 1,
+    "totalCharacterDeaths": 0,
+    "totalRaidDeaths": 205,
+    "deathsPerPull": 0,
+    "stabilityPercent": 0,
+    "consistencyPercent": 0,
+    "recent3": {
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 209015,
+      "avgDeaths": 0
+    },
+    "last10": {
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 0,
+      "minPrimary": 0,
+      "maxDurationMs": 220822,
+      "minDurationMs": 61569
+    }
+  },
+  "pulls": [
+    {
+      "key": "jy63H8ZCtfJaG29g:16:Yokuha:terokkar:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=16",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:59:09.146Z",
+      "durationMs": 192659,
+      "bossPercentage": 75.12,
+      "fightPercentage": 47.85,
+      "averageItemLevel": 271.6000061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:15:Yokuha:terokkar:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=15",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:48:48.089Z",
+      "durationMs": 220822,
+      "bossPercentage": 56.39,
+      "fightPercentage": 40.36,
+      "averageItemLevel": 272.1499938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:14:Yokuha:terokkar:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=14",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:42:49.489Z",
+      "durationMs": 213563,
+      "bossPercentage": 45.18,
+      "fightPercentage": 45.09,
+      "averageItemLevel": 272.1499938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:13:Yokuha:terokkar:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=13",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:34:09.192Z",
+      "durationMs": 202137,
+      "bossPercentage": 68.29,
+      "fightPercentage": 37.52,
+      "averageItemLevel": 272,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:12:Yokuha:terokkar:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=12",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:29:10.621Z",
+      "durationMs": 80582,
+      "bossPercentage": 27.39,
+      "fightPercentage": 100,
+      "averageItemLevel": 272,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:11:Yokuha:terokkar:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=11",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:22:54.415Z",
+      "durationMs": 195303,
+      "bossPercentage": 68.86,
+      "fightPercentage": 56.7,
+      "averageItemLevel": 272,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:10:Yokuha:terokkar:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=10",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:14:00.204Z",
+      "durationMs": 168958,
+      "bossPercentage": 96.96,
+      "fightPercentage": 70.44,
+      "averageItemLevel": 271.8999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:9:Yokuha:terokkar:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=9",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:10:10.861Z",
+      "durationMs": 68223,
+      "bossPercentage": 40.06,
+      "fightPercentage": 100,
+      "averageItemLevel": 272,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:8:Yokuha:terokkar:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=8",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:03:30.770Z",
+      "durationMs": 190127,
+      "bossPercentage": 62.87,
+      "fightPercentage": 45.83,
+      "averageItemLevel": 272,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:7:Yokuha:terokkar:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=7",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T17:59:18.217Z",
+      "durationMs": 61569,
+      "bossPercentage": 38.14,
+      "fightPercentage": 100,
+      "averageItemLevel": 271.70001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    }
+  ],
+  "source": {
+    "reportsScanned": 24,
+    "fightsScanned": 309,
+    "generatedBy": "wcl-github-api"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-03T00:22:47.561Z",
+  "character": {
+    "name": "Pyatochka",
+    "realmSlug": "terokkar",
+    "region": "eu",
+    "slug": "pyatochka-terokkar-eu",
+    "rank": 4,
+    "roleHint": "unknown"
+  },
+  "stats": {
+    "pullsStored": 10,
+    "kills": 3,
+    "wipes": 7,
+    "killRate": 0.3,
+    "wipeRate": 0.7,
+    "totalCharacterDeaths": 0,
+    "totalRaidDeaths": 153,
+    "deathsPerPull": 0,
+    "stabilityPercent": 0,
+    "consistencyPercent": 0,
+    "recent3": {
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 168192,
+      "avgDeaths": 0
+    },
+    "last10": {
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 0,
+      "minPrimary": 0,
+      "maxDurationMs": 432510,
+      "minDurationMs": 96687
+    }
+  },
+  "pulls": [
+    {
+      "key": "kXv1mMLg9xdhz4P3:38:Pyatochka:terokkar:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "fightId": 38,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=38",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T19:39:37.808Z",
+      "durationMs": 150610,
+      "bossPercentage": 62.97,
+      "fightPercentage": 62.97,
+      "averageItemLevel": 275.1000061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "kXv1mMLg9xdhz4P3:37:Pyatochka:terokkar:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "fightId": 37,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=37",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T19:33:08.011Z",
+      "durationMs": 153835,
+      "bossPercentage": 58.91,
+      "fightPercentage": 58.91,
+      "averageItemLevel": 276.3500061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "kXv1mMLg9xdhz4P3:36:Pyatochka:terokkar:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "fightId": 36,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=36",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T19:27:34.131Z",
+      "durationMs": 200131,
+      "bossPercentage": 49.32,
+      "fightPercentage": 49.32,
+      "averageItemLevel": 276.3500061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "kXv1mMLg9xdhz4P3:33:Pyatochka:terokkar:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "fightId": 33,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=33",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T19:10:04.400Z",
+      "durationMs": 96687,
+      "bossPercentage": 76.83,
+      "fightPercentage": 76.83,
+      "averageItemLevel": 274.3500061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "kXv1mMLg9xdhz4P3:32:Pyatochka:terokkar:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=32",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T18:55:38.056Z",
+      "durationMs": 123724,
+      "bossPercentage": 69.12,
+      "fightPercentage": 69.12,
+      "averageItemLevel": 274.3500061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "kXv1mMLg9xdhz4P3:28:Pyatochka:terokkar:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=28",
+      "status": "KILL",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T18:31:27.289Z",
+      "durationMs": 432510,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 274.45001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 6
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "kXv1mMLg9xdhz4P3:27:Pyatochka:terokkar:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=27",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T18:23:47.354Z",
+      "durationMs": 261882,
+      "bossPercentage": 52.06,
+      "fightPercentage": 52.06,
+      "averageItemLevel": 274.25,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "kXv1mMLg9xdhz4P3:25:Pyatochka:terokkar:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=25",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T18:19:46.205Z",
+      "durationMs": 100749,
+      "bossPercentage": 74.62,
+      "fightPercentage": 74.62,
+      "averageItemLevel": 274.25,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "kXv1mMLg9xdhz4P3:22:Pyatochka:terokkar:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=22",
+      "status": "KILL",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T18:06:00.355Z",
+      "durationMs": 341733,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 274.25,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 3
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "kXv1mMLg9xdhz4P3:17:Pyatochka:terokkar:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=17",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T17:53:55.305Z",
+      "durationMs": 257635,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 276.04998779296875,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 2
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    }
+  ],
+  "source": {
+    "reportsScanned": 24,
+    "fightsScanned": 309,
+    "generatedBy": "wcl-github-api"
+  }
+}

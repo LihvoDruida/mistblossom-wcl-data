@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-03T00:22:47.562Z",
+  "character": {
+    "name": "ßøßk",
+    "realmSlug": "silvermoon",
+    "region": "eu",
+    "slug": "k-silvermoon-eu",
+    "rank": 3,
+    "roleHint": "unknown"
+  },
+  "stats": {
+    "pullsStored": 10,
+    "kills": 0,
+    "wipes": 10,
+    "killRate": 0,
+    "wipeRate": 1,
+    "totalCharacterDeaths": 0,
+    "totalRaidDeaths": 208,
+    "deathsPerPull": 0,
+    "stabilityPercent": 0,
+    "consistencyPercent": 0,
+    "recent3": {
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 176099,
+      "avgDeaths": 0
+    },
+    "last10": {
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 0,
+      "minPrimary": 0,
+      "maxDurationMs": 215492,
+      "minDurationMs": 86196
+    }
+  },
+  "pulls": [
+    {
+      "key": "hz8c1pdF6mRaynGT:26:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=26",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T19:31:04.589Z",
+      "durationMs": 131248,
+      "bossPercentage": 99.86,
+      "fightPercentage": 89.73,
+      "averageItemLevel": 268.45001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:25:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=25",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T19:21:41.236Z",
+      "durationMs": 215492,
+      "bossPercentage": 42.35,
+      "fightPercentage": 48.42,
+      "averageItemLevel": 268.6499938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:24:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=24",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T19:14:52.593Z",
+      "durationMs": 181556,
+      "bossPercentage": 63.41,
+      "fightPercentage": 53.09,
+      "averageItemLevel": 268.1000061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:23:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=23",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T19:10:26.826Z",
+      "durationMs": 113158,
+      "bossPercentage": 4.32,
+      "fightPercentage": 100,
+      "averageItemLevel": 268.25,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:22:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=22",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T19:05:13.401Z",
+      "durationMs": 137390,
+      "bossPercentage": 99.74,
+      "fightPercentage": 95.8,
+      "averageItemLevel": 268.5,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:21:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=21",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T18:56:12.378Z",
+      "durationMs": 200364,
+      "bossPercentage": 64.97,
+      "fightPercentage": 50.89,
+      "averageItemLevel": 268.1499938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:20:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=20",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T18:44:31.978Z",
+      "durationMs": 202839,
+      "bossPercentage": 39.95,
+      "fightPercentage": 55.74,
+      "averageItemLevel": 268.5,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:19:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=19",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T18:38:16.684Z",
+      "durationMs": 177023,
+      "bossPercentage": 82.27,
+      "fightPercentage": 59.64,
+      "averageItemLevel": 268.5,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:14:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=14",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T18:30:58.088Z",
+      "durationMs": 86196,
+      "bossPercentage": 39.13,
+      "fightPercentage": 100,
+      "averageItemLevel": 268.79998779296875,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:13:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=13",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T18:24:44.942Z",
+      "durationMs": 97593,
+      "bossPercentage": 18.58,
+      "fightPercentage": 100,
+      "averageItemLevel": 268.20001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    }
+  ],
+  "source": {
+    "reportsScanned": 24,
+    "fightsScanned": 309,
+    "generatedBy": "wcl-github-api"
+  }
+}

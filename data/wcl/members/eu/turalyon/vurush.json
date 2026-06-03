@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-03T00:22:47.560Z",
+  "character": {
+    "name": "Vurush",
+    "realmSlug": "turalyon",
+    "region": "eu",
+    "slug": "vurush-turalyon-eu",
+    "rank": 3,
+    "roleHint": "unknown"
+  },
+  "stats": {
+    "pullsStored": 10,
+    "kills": 8,
+    "wipes": 2,
+    "killRate": 0.8,
+    "wipeRate": 0.2,
+    "totalCharacterDeaths": 0,
+    "totalRaidDeaths": 35,
+    "deathsPerPull": 0,
+    "stabilityPercent": 0,
+    "consistencyPercent": 0,
+    "recent3": {
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 181997,
+      "avgDeaths": 0
+    },
+    "last10": {
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 0,
+      "minPrimary": 0,
+      "maxDurationMs": 394729,
+      "minDurationMs": 102900
+    }
+  },
+  "pulls": [
+    {
+      "key": "T83jH1d9CRwWKZ4P:39:Vurush:turalyon:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "fightId": 39,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=39",
+      "status": "KILL",
+      "bossName": "Midnight Falls",
+      "encounterId": 3183,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-05-15T19:55:09.604Z",
+      "durationMs": 286493,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0,
+      "averageItemLevel": 274.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 2
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:38:Vurush:turalyon:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "fightId": 38,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=38",
+      "status": "WIPE",
+      "bossName": "Midnight Falls",
+      "encounterId": 3183,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-05-15T19:51:33.005Z",
+      "durationMs": 156599,
+      "bossPercentage": 64.35,
+      "fightPercentage": 64.35,
+      "averageItemLevel": 274.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 11
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:33:Vurush:turalyon:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "fightId": 33,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=33",
+      "status": "KILL",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-05-15T19:46:53.985Z",
+      "durationMs": 102900,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "averageItemLevel": 274.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 0
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:30:Vurush:turalyon:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=30",
+      "status": "KILL",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-05-15T19:23:56.829Z",
+      "durationMs": 387076,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0,
+      "averageItemLevel": 271.5,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 3
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:28:Vurush:turalyon:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=28",
+      "status": "KILL",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-05-15T19:13:08.702Z",
+      "durationMs": 291232,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 271.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 5
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:25:Vurush:turalyon:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=25",
+      "status": "KILL",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-05-15T19:02:37.487Z",
+      "durationMs": 394729,
+      "bossPercentage": 0.02,
+      "fightPercentage": 0.02,
+      "averageItemLevel": 271.3999938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 3
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:24:Vurush:turalyon:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=24",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-05-15T18:53:57.856Z",
+      "durationMs": 124229,
+      "bossPercentage": 67.73,
+      "fightPercentage": 67.73,
+      "averageItemLevel": 271.70001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 10
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:18:Vurush:turalyon:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=18",
+      "status": "KILL",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-05-15T18:35:20.584Z",
+      "durationMs": 185074,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 275.29998779296875,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 0
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:14:Vurush:turalyon:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=14",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-05-15T18:28:04.505Z",
+      "durationMs": 161954,
+      "bossPercentage": 0.18,
+      "fightPercentage": 0.18,
+      "averageItemLevel": 275.29998779296875,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 1
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:9:Vurush:turalyon:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=9",
+      "status": "KILL",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-05-15T18:20:47.528Z",
+      "durationMs": 162448,
+      "bossPercentage": 0.11,
+      "fightPercentage": 0.11,
+      "averageItemLevel": 275.29998779296875,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 0
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    }
+  ],
+  "source": {
+    "reportsScanned": 24,
+    "fightsScanned": 309,
+    "generatedBy": "wcl-github-api"
+  }
+}
