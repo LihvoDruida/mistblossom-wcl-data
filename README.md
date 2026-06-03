@@ -8,7 +8,7 @@ GitHub Actions → Battle.net roster + Warcraft Logs → JSON у цьому repo
 
 ## Що робить
 
-- Бере roster гільдії з Battle.net Profile API.
+- Бере roster гільдії з Battle.net через endpoint `/data/wow/guild/{realmSlug}/{guildNameSlug}/roster?namespace=profile-{region}`.
 - Бере останні guild reports з Warcraft Logs GraphQL API.
 - Інспектує encounter pulls: `KILL` / `WIPE`.
 - Для кожного члена гільдії зберігає до 10 останніх пулів.
@@ -38,6 +38,26 @@ BATTLENET_CLIENT_SECRET=
 `WCL_DATA_REPO_TOKEN` більше не потрібен для GitHub-only режиму. Запис у repo робить вбудований `GITHUB_TOKEN` всередині GitHub Actions, через permission `contents: write`.
 
 `WCL_REFRESH_SECRET` теж не потрібен, бо refresh більше не відкритий як публічний endpoint.
+
+
+## Швидка перевірка Battle.net roster
+
+Перед повним WCL refresh можна окремо перевірити, чи Battle.net бачить гільдію:
+
+```bash
+BATTLENET_CLIENT_ID=... \
+BATTLENET_CLIENT_SECRET=... \
+npm run bnet:check
+```
+
+Якщо тут `404`, проблема не у WCL. Перевір у `src/lib/wcl-github/config.ts`:
+
+```txt
+battleNet.guildRealmSlug
+battleNet.guildNameSlug
+```
+
+Для Retail правильний шлях Battle.net roster іде через `/data/wow/guild/.../roster`, а не через `/profile/wow/guild/.../roster`.
 
 ## GitHub Actions
 
@@ -204,6 +224,14 @@ WCL_CLIENT_SECRET=... \
 BATTLENET_CLIENT_ID=... \
 BATTLENET_CLIENT_SECRET=... \
 npm run wcl:refresh
+```
+
+Окремий smoke-test Battle.net roster:
+
+```bash
+BATTLENET_CLIENT_ID=... \
+BATTLENET_CLIENT_SECRET=... \
+npm run bnet:check
 ```
 
 Після запуску зʼявляться/оновляться папки:

@@ -71,7 +71,18 @@ Folder: /root
 
 Save.
 
-## 4. Run refresh
+## 4. Optional local Battle.net check
+
+Перед повним запуском можеш перевірити тільки roster:
+
+```bash
+npm ci
+BATTLENET_CLIENT_ID=... BATTLENET_CLIENT_SECRET=... npm run bnet:check
+```
+
+Якщо буде `Battle.net roster request failed 404`, перевір `battleNet.guildRealmSlug` і `battleNet.guildNameSlug` у `src/lib/wcl-github/config.ts`.
+
+## 5. Run refresh
 
 Path:
 
@@ -89,7 +100,7 @@ api/wcl/members.json
 api/wcl/job/latest.json
 ```
 
-## 5. API-like URLs
+## 6. API-like URLs
 
 GitHub Pages:
 
@@ -106,7 +117,7 @@ Raw fallback:
 https://raw.githubusercontent.com/LihvoDruida/mistblossom-wcl-data/main/api/wcl/index.json
 ```
 
-## 6. Optional external refresh through GitHub API
+## 7. Optional external refresh through GitHub API
 
 Use GitHub workflow dispatch API. It requires a GitHub token with permission to run Actions.
 

@@ -1,11 +1,13 @@
 {
   "name": "mistblossom-wcl-data",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "wcl:refresh": "tsx scripts/wcl-github-refresh.ts",
-    "wcl:check": "tsx --tsconfig tsconfig.github.json scripts/wcl-github-refresh.ts"
+    "wcl:check": "tsx --tsconfig tsconfig.github.json scripts/wcl-github-refresh.ts",
+    "bnet:check": "tsx scripts/check-battlenet-roster.ts",
+    "typecheck": "tsc -p tsconfig.github.json"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

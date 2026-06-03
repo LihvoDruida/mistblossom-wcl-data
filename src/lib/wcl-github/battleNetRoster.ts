@@ -13,24 +13,44 @@ export async function loadGuildMembersFromBattleNet(options: {
   const token = await getBattleNetToken(options.clientId, options.clientSecret, options.region);
   const region = options.region.toLowerCase();
   const namespace = `profile-${region}`;
+  const realmSlug = normalizeSlug(options.realmSlug);
+  const guildNameSlug = normalizeSlug(options.guildNameSlug);
+
+  /**
+   * Battle.net guild roster is a Profile API resource, but Blizzard exposes it under /data.
+   * Correct retail endpoint:
+   *   /data/wow/guild/{realmSlug}/{guildNameSlug}/roster?namespace=profile-{region}
+   *
+   * The older /profile/wow/guild/... shape returns 404 for valid retail guilds.
+   */
   const url =
-    `https://${region}.api.blizzard.com/profile/wow/guild/` +
-    `${encodeURIComponent(options.realmSlug.toLowerCase())}/` +
-    `${encodeURIComponent(options.guildNameSlug.toLowerCase())}/roster` +
+    `https://${region}.api.blizzard.com/data/wow/guild/` +
+    `${encodeURIComponent(realmSlug)}/` +
+    `${encodeURIComponent(guildNameSlug)}/roster` +
     `?namespace=${encodeURIComponent(namespace)}&locale=${encodeURIComponent(options.locale)}`;
 
   const response = await fetch(url, {
     headers: {
       Authorization: `Bearer ${token}`,
       Accept: "application/json",
+      Region: region,
       "Battlenet-Namespace": namespace,
-      "User-Agent": "wcl-github-api-mechanism",
+      "User-Agent": "mistblossom-wcl-data/1.0 (+https://github.com/LihvoDruida/mistblossom-wcl-data)",
     },
     cache: "no-store",
   });
 
   if (!response.ok) {
-    throw new Error(`Battle.net roster request failed ${response.status}: ${await response.text()}`);
+    const body = await safeReadText(response);
+    throw new Error(
+      [
+        `Battle.net roster request failed ${response.status}.`,
+        `Endpoint: ${url}`,
+        `Configured guild: ${options.guildNameSlug} @ ${options.realmSlug} (${region})`,
+        `Check battleNet.guildRealmSlug and battleNet.guildNameSlug in src/lib/wcl-github/config.ts.`,
+        body ? `Response: ${body}` : "Response body is empty.",
+      ].join("\n"),
+    );
   }
 
   const json = (await response.json()) as {
@@ -53,7 +73,7 @@ export async function loadGuildMembersFromBattleNet(options: {
 
     members.push({
       name: character.name,
-      realmSlug: character.realm?.slug || options.realmSlug,
+      realmSlug: character.realm?.slug || realmSlug,
       region,
       rank: member.rank,
       className: character.playable_class?.name,
@@ -81,7 +101,7 @@ async function getBattleNetToken(clientId: string, clientSecret: string, region:
       Authorization: `Basic ${basic}`,
       "Content-Type": "application/x-www-form-urlencoded",
       Accept: "application/json",
-      "User-Agent": "wcl-github-api-mechanism",
+      "User-Agent": "mistblossom-wcl-data/1.0 (+https://github.com/LihvoDruida/mistblossom-wcl-data)",
     },
     body: new URLSearchParams({ grant_type: "client_credentials" }),
     cache: "no-store",
@@ -100,4 +120,16 @@ async function getBattleNetToken(clientId: string, clientSecret: string, region:
   };
 
   return battleNetTokenCache.accessToken;
+}
+
+function normalizeSlug(value: string): string {
+  return value.trim().toLowerCase();
+}
+
+async function safeReadText(response: Response): Promise<string> {
+  try {
+    return await response.text();
+  } catch {
+    return "";
+  }
 }

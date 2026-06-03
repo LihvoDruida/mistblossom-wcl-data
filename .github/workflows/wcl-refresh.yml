@@ -27,6 +27,12 @@ jobs:
       - name: Install dependencies
         run: npm ci --prefer-online --no-audit --fund=false
 
+      - name: Check Battle.net roster
+        env:
+          BATTLENET_CLIENT_ID: ${{ secrets.BATTLENET_CLIENT_ID }}
+          BATTLENET_CLIENT_SECRET: ${{ secrets.BATTLENET_CLIENT_SECRET }}
+        run: npm run bnet:check
+
       - name: Refresh WCL snapshots inside GitHub
         env:
           WCL_CLIENT_ID: ${{ secrets.WCL_CLIENT_ID }}
