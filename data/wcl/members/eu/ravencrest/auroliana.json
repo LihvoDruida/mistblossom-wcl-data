@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-03T00:22:47.558Z",
+  "character": {
+    "name": "Auroliana",
+    "realmSlug": "ravencrest",
+    "region": "eu",
+    "slug": "auroliana-ravencrest-eu",
+    "rank": 4,
+    "roleHint": "unknown"
+  },
+  "stats": {
+    "pullsStored": 10,
+    "kills": 1,
+    "wipes": 9,
+    "killRate": 0.1,
+    "wipeRate": 0.9,
+    "totalCharacterDeaths": 0,
+    "totalRaidDeaths": 186,
+    "deathsPerPull": 0,
+    "stabilityPercent": 0,
+    "consistencyPercent": 0,
+    "recent3": {
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 213419,
+      "avgDeaths": 0
+    },
+    "last10": {
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 0,
+      "minPrimary": 0,
+      "maxDurationMs": 335868,
+      "minDurationMs": 50176
+    }
+  },
+  "pulls": [
+    {
+      "key": "8dAPQCWGNMLBjrRg:32:Auroliana:ravencrest:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T20:06:06.764Z",
+      "durationMs": 215983,
+      "bossPercentage": 57.68,
+      "fightPercentage": 57.68,
+      "averageItemLevel": 284.75,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:31:Auroliana:ravencrest:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "fightId": 31,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T20:00:37.917Z",
+      "durationMs": 226446,
+      "bossPercentage": 57.65,
+      "fightPercentage": 57.65,
+      "averageItemLevel": 284.75,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:30:Auroliana:ravencrest:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:54:58.059Z",
+      "durationMs": 197829,
+      "bossPercentage": 58.27,
+      "fightPercentage": 58.27,
+      "averageItemLevel": 284.75,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:29:Auroliana:ravencrest:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "fightId": 29,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:48:53.946Z",
+      "durationMs": 222158,
+      "bossPercentage": 56.82,
+      "fightPercentage": 56.82,
+      "averageItemLevel": 284.75,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:28:Auroliana:ravencrest:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:38:12.252Z",
+      "durationMs": 209169,
+      "bossPercentage": 58.86,
+      "fightPercentage": 58.86,
+      "averageItemLevel": 284.75,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:27:Auroliana:ravencrest:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:29:44.846Z",
+      "durationMs": 169519,
+      "bossPercentage": 62.33,
+      "fightPercentage": 62.33,
+      "averageItemLevel": 284.70001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:26:Auroliana:ravencrest:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:27:07.695Z",
+      "durationMs": 50885,
+      "bossPercentage": 80.53,
+      "fightPercentage": 80.53,
+      "averageItemLevel": 284.70001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:25:Auroliana:ravencrest:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:23:53.731Z",
+      "durationMs": 50176,
+      "bossPercentage": 79.76,
+      "fightPercentage": 79.76,
+      "averageItemLevel": 284.70001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:21:Auroliana:ravencrest:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:04:24.189Z",
+      "durationMs": 335868,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 284.8500061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 3
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:20:Auroliana:ravencrest:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T18:57:55.893Z",
+      "durationMs": 285958,
+      "bossPercentage": 27.56,
+      "fightPercentage": 27.56,
+      "averageItemLevel": 284.8500061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    }
+  ],
+  "source": {
+    "reportsScanned": 24,
+    "fightsScanned": 309,
+    "generatedBy": "wcl-github-api"
+  }
+}

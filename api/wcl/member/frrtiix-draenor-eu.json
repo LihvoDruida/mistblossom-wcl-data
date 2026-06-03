@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-03T00:22:47.560Z",
+  "character": {
+    "name": "Frrtiix",
+    "realmSlug": "draenor",
+    "region": "eu",
+    "slug": "frrtiix-draenor-eu",
+    "rank": 1,
+    "roleHint": "unknown"
+  },
+  "stats": {
+    "pullsStored": 10,
+    "kills": 0,
+    "wipes": 10,
+    "killRate": 0,
+    "wipeRate": 1,
+    "totalCharacterDeaths": 0,
+    "totalRaidDeaths": 150,
+    "deathsPerPull": 0,
+    "stabilityPercent": 0,
+    "consistencyPercent": 0,
+    "recent3": {
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 426578,
+      "avgDeaths": 0
+    },
+    "last10": {
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 0,
+      "minPrimary": 0,
+      "maxDurationMs": 543654,
+      "minDurationMs": 64027
+    }
+  },
+  "pulls": [
+    {
+      "key": "4Zng3fprDXvGjb1V:18:Frrtiix:draenor:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=18",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T19:09:27.100Z",
+      "durationMs": 291403,
+      "bossPercentage": 22.18,
+      "fightPercentage": 35.54,
+      "averageItemLevel": 280.78570556640625,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:17:Frrtiix:draenor:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=17",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:56:24.188Z",
+      "durationMs": 543654,
+      "bossPercentage": 30.26,
+      "fightPercentage": 8.47,
+      "averageItemLevel": 280.78570556640625,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:16:Frrtiix:draenor:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=16",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:35:38.267Z",
+      "durationMs": 444676,
+      "bossPercentage": 27.83,
+      "fightPercentage": 7.79,
+      "averageItemLevel": 280.71429443359375,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 14
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:15:Frrtiix:draenor:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=15",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:29:59.322Z",
+      "durationMs": 168201,
+      "bossPercentage": 99.93,
+      "fightPercentage": 61.97,
+      "averageItemLevel": 280.71429443359375,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:14:Frrtiix:draenor:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=14",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:23:32.414Z",
+      "durationMs": 263926,
+      "bossPercentage": 51.89,
+      "fightPercentage": 45.64,
+      "averageItemLevel": 280.71429443359375,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:13:Frrtiix:draenor:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=13",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:14:24.461Z",
+      "durationMs": 462361,
+      "bossPercentage": 37.61,
+      "fightPercentage": 10.53,
+      "averageItemLevel": 280.71429443359375,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:12:Frrtiix:draenor:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=12",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:12:17.451Z",
+      "durationMs": 64027,
+      "bossPercentage": 65.47,
+      "fightPercentage": 86.87,
+      "averageItemLevel": 280.71429443359375,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 14
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:11:Frrtiix:draenor:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=11",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:08:04.750Z",
+      "durationMs": 127574,
+      "bossPercentage": 32.96,
+      "fightPercentage": 74.52,
+      "averageItemLevel": 280.71429443359375,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 14
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:10:Frrtiix:draenor:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=10",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:02:32.617Z",
+      "durationMs": 242881,
+      "bossPercentage": 57.99,
+      "fightPercentage": 47.71,
+      "averageItemLevel": 280.71429443359375,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:9:Frrtiix:draenor:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=9",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T17:57:19.007Z",
+      "durationMs": 242761,
+      "bossPercentage": 61.85,
+      "fightPercentage": 49.02,
+      "averageItemLevel": 280.71429443359375,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    }
+  ],
+  "source": {
+    "reportsScanned": 24,
+    "fightsScanned": 309,
+    "generatedBy": "wcl-github-api"
+  }
+}

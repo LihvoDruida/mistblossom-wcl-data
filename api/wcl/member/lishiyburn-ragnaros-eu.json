@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-03T00:22:47.562Z",
+  "character": {
+    "name": "Lishiyburn",
+    "realmSlug": "ragnaros",
+    "region": "eu",
+    "slug": "lishiyburn-ragnaros-eu",
+    "rank": 1,
+    "roleHint": "unknown"
+  },
+  "stats": {
+    "pullsStored": 10,
+    "kills": 2,
+    "wipes": 8,
+    "killRate": 0.2,
+    "wipeRate": 0.8,
+    "totalCharacterDeaths": 0,
+    "totalRaidDeaths": 165,
+    "deathsPerPull": 0,
+    "stabilityPercent": 0,
+    "consistencyPercent": 0,
+    "recent3": {
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 177551,
+      "avgDeaths": 0
+    },
+    "last10": {
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 0,
+      "minPrimary": 0,
+      "maxDurationMs": 398108,
+      "minDurationMs": 75997
+    }
+  },
+  "pulls": [
+    {
+      "key": "rvpaDMhHzwxAB8Qg:17:Lishiyburn:ragnaros:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=17",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T19:52:42.330Z",
+      "durationMs": 172231,
+      "bossPercentage": 73.32,
+      "fightPercentage": 73.32,
+      "averageItemLevel": 264.70001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "rvpaDMhHzwxAB8Qg:16:Lishiyburn:ragnaros:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=16",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T19:48:01.776Z",
+      "durationMs": 130134,
+      "bossPercentage": 73.73,
+      "fightPercentage": 73.73,
+      "averageItemLevel": 264.3500061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "rvpaDMhHzwxAB8Qg:15:Lishiyburn:ragnaros:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=15",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T19:41:02.753Z",
+      "durationMs": 230287,
+      "bossPercentage": 66.37,
+      "fightPercentage": 66.37,
+      "averageItemLevel": 264.1000061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "rvpaDMhHzwxAB8Qg:12:Lishiyburn:ragnaros:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=12",
+      "status": "KILL",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T19:22:04.002Z",
+      "durationMs": 398108,
+      "bossPercentage": 0.11,
+      "fightPercentage": 0.11,
+      "averageItemLevel": 265.1000061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 2
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "rvpaDMhHzwxAB8Qg:11:Lishiyburn:ragnaros:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=11",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T19:17:14.487Z",
+      "durationMs": 154596,
+      "bossPercentage": 57.21,
+      "fightPercentage": 57.21,
+      "averageItemLevel": 265.1000061035156,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "rvpaDMhHzwxAB8Qg:6:Lishiyburn:ragnaros:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=6",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T19:05:01.690Z",
+      "durationMs": 335396,
+      "bossPercentage": 0.14,
+      "fightPercentage": 0.14,
+      "averageItemLevel": 265.20001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 4
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "rvpaDMhHzwxAB8Qg:5:Lishiyburn:ragnaros:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "fightId": 5,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=5",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T18:55:27.671Z",
+      "durationMs": 298277,
+      "bossPercentage": 25.55,
+      "fightPercentage": 25.55,
+      "averageItemLevel": 265.1499938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "rvpaDMhHzwxAB8Qg:4:Lishiyburn:ragnaros:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "fightId": 4,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=4",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T18:51:55.353Z",
+      "durationMs": 75997,
+      "bossPercentage": 78.98,
+      "fightPercentage": 78.98,
+      "averageItemLevel": 265.1499938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "rvpaDMhHzwxAB8Qg:3:Lishiyburn:ragnaros:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "fightId": 3,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=3",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T18:38:03.257Z",
+      "durationMs": 376984,
+      "bossPercentage": 0.26,
+      "fightPercentage": 0.26,
+      "averageItemLevel": 265.1499938964844,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "rvpaDMhHzwxAB8Qg:2:Lishiyburn:ragnaros:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "fightId": 2,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=2",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T18:28:37.609Z",
+      "durationMs": 375174,
+      "bossPercentage": 17.82,
+      "fightPercentage": 17.82,
+      "averageItemLevel": 264.70001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    }
+  ],
+  "source": {
+    "reportsScanned": 24,
+    "fightsScanned": 309,
+    "generatedBy": "wcl-github-api"
+  }
+}

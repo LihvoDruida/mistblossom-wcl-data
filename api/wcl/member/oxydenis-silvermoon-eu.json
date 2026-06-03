@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "character": {
+    "name": "Oxydenis",
+    "realmSlug": "silvermoon",
+    "region": "eu",
+    "slug": "oxydenis-silvermoon-eu",
+    "rank": 3,
+    "roleHint": "unknown"
+  },
+  "stats": {
+    "pullsStored": 10,
+    "kills": 0,
+    "wipes": 10,
+    "killRate": 0,
+    "wipeRate": 1,
+    "totalCharacterDeaths": 0,
+    "totalRaidDeaths": 221,
+    "deathsPerPull": 0,
+    "stabilityPercent": 0,
+    "consistencyPercent": 0,
+    "recent3": {
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 156003,
+      "avgDeaths": 0
+    },
+    "last10": {
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 0,
+      "minPrimary": 0,
+      "maxDurationMs": 197390,
+      "minDurationMs": 32791
+    }
+  },
+  "pulls": [
+    {
+      "key": "1K8hqtcZvRg4QAaD:25:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=25",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T19:26:10.591Z",
+      "durationMs": 197390,
+      "bossPercentage": 74.88,
+      "fightPercentage": 17.92,
+      "averageItemLevel": 278,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 27
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:23:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=23",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T19:12:57.692Z",
+      "durationMs": 175892,
+      "bossPercentage": 96.97,
+      "fightPercentage": 57.94,
+      "averageItemLevel": 277.8518371582031,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 28
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:22:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=22",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T19:02:08.211Z",
+      "durationMs": 94728,
+      "bossPercentage": 0.88,
+      "fightPercentage": 100,
+      "averageItemLevel": 278.1153869628906,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 25
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:21:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=21",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T18:56:04.051Z",
+      "durationMs": 144442,
+      "bossPercentage": 97,
+      "fightPercentage": 31.11,
+      "averageItemLevel": 278.0799865722656,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 26
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:18:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=18",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T18:26:07.701Z",
+      "durationMs": 32791,
+      "bossPercentage": 99.53,
+      "fightPercentage": 99.82,
+      "averageItemLevel": 277.5,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 18
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:17:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=17",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T18:23:35.223Z",
+      "durationMs": 118471,
+      "bossPercentage": 52.71,
+      "fightPercentage": 82.02,
+      "averageItemLevel": 277.5789489746094,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:16:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=16",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T18:18:49.756Z",
+      "durationMs": 149168,
+      "bossPercentage": 5.94,
+      "fightPercentage": 64.25,
+      "averageItemLevel": 277.5789489746094,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:15:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=15",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T18:10:31.691Z",
+      "durationMs": 156688,
+      "bossPercentage": 23.15,
+      "fightPercentage": 70.79,
+      "averageItemLevel": 278.3157958984375,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:14:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=14",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T18:05:41.436Z",
+      "durationMs": 150335,
+      "bossPercentage": 0.83,
+      "fightPercentage": 62.31,
+      "averageItemLevel": 278.3157958984375,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:13:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=13",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T18:00:51.405Z",
+      "durationMs": 141868,
+      "bossPercentage": 27.71,
+      "fightPercentage": 72.52,
+      "averageItemLevel": 278.1666564941406,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    }
+  ],
+  "source": {
+    "reportsScanned": 24,
+    "fightsScanned": 309,
+    "generatedBy": "wcl-github-api"
+  }
+}

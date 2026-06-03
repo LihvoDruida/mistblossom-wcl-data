@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "generatedInside": "github-actions",
+  "members": 159,
+  "reportsScanned": 24,
+  "fightsScanned": 309,
+  "writtenFiles": 323,
+  "warnings": [],
+  "api": {
+    "index": "api/wcl/index.json",
+    "members": "api/wcl/members.json",
+    "memberPattern": "api/wcl/member/{character-slug}.json",
+    "latestJob": "api/wcl/job/latest.json"
+  }
+}

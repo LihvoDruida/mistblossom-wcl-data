@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-03T00:22:47.559Z",
+  "character": {
+    "name": "Elderwizard",
+    "realmSlug": "terokkar",
+    "region": "eu",
+    "slug": "elderwizard-terokkar-eu",
+    "rank": 3,
+    "roleHint": "unknown"
+  },
+  "stats": {
+    "pullsStored": 10,
+    "kills": 1,
+    "wipes": 9,
+    "killRate": 0.1,
+    "wipeRate": 0.9,
+    "totalCharacterDeaths": 0,
+    "totalRaidDeaths": 133,
+    "deathsPerPull": 0,
+    "stabilityPercent": 0,
+    "consistencyPercent": 0,
+    "recent3": {
+      "avgDps": 0,
+      "avgHps": 0,
+      "avgPrimary": 0,
+      "avgDurationMs": 113905,
+      "avgDeaths": 0
+    },
+    "last10": {
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 0,
+      "minPrimary": 0,
+      "maxDurationMs": 397835,
+      "minDurationMs": 81840
+    }
+  },
+  "pulls": [
+    {
+      "key": "vzQAWB8Kw3ykjR1a:36:Elderwizard:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "fightId": 36,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=36",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:28:20.858Z",
+      "durationMs": 130409,
+      "bossPercentage": 71.54,
+      "fightPercentage": 71.54,
+      "averageItemLevel": 274.20001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 10
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:35:Elderwizard:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "fightId": 35,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=35",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:24:08.713Z",
+      "durationMs": 109205,
+      "bossPercentage": 81.3,
+      "fightPercentage": 81.3,
+      "averageItemLevel": 274.20001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 9
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:33:Elderwizard:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "fightId": 33,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=33",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:19:19.595Z",
+      "durationMs": 102102,
+      "bossPercentage": 77.88,
+      "fightPercentage": 77.88,
+      "averageItemLevel": 272.8571472167969,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 13
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:32:Elderwizard:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=32",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:15:56.254Z",
+      "durationMs": 81840,
+      "bossPercentage": 78.7,
+      "fightPercentage": 78.7,
+      "averageItemLevel": 272.8571472167969,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 4
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:31:Elderwizard:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "fightId": 31,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=31",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:08:57.577Z",
+      "durationMs": 174763,
+      "bossPercentage": 53.91,
+      "fightPercentage": 53.91,
+      "averageItemLevel": 274,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:30:Elderwizard:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=30",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:58:22.554Z",
+      "durationMs": 142619,
+      "bossPercentage": 67.34,
+      "fightPercentage": 67.34,
+      "averageItemLevel": 274.54998779296875,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:27:Elderwizard:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=27",
+      "status": "KILL",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:26:05.889Z",
+      "durationMs": 369450,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 274.95001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 2
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:26:Elderwizard:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=26",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:16:12.660Z",
+      "durationMs": 256845,
+      "bossPercentage": 42.44,
+      "fightPercentage": 42.44,
+      "averageItemLevel": 274.95001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:25:Elderwizard:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=25",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:11:16.661Z",
+      "durationMs": 201370,
+      "bossPercentage": 54.39,
+      "fightPercentage": 54.39,
+      "averageItemLevel": 274.95001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 18
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:24:Elderwizard:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=24",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:03:03.542Z",
+      "durationMs": 397835,
+      "bossPercentage": 2.51,
+      "fightPercentage": 2.51,
+      "averageItemLevel": 274.95001220703125,
+      "metric": {
+        "dps": 0,
+        "hps": 0,
+        "primary": 0,
+        "primaryKind": "unknown"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 0
+      }
+    }
+  ],
+  "source": {
+    "reportsScanned": 24,
+    "fightsScanned": 309,
+    "generatedBy": "wcl-github-api"
+  }
+}
