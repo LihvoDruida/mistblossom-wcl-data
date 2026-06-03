@@ -25,7 +25,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci --prefer-online --no-audit --fund=false
 
       - name: Refresh WCL snapshots inside GitHub
         env:

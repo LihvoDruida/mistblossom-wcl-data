@@ -212,3 +212,8 @@ npm run wcl:refresh
 data/wcl
 api/wcl
 ```
+
+
+## NPM registry note
+
+The workflow uses the public npm registry through `.npmrc` and installs dependencies with `npm ci`. Do not commit a lockfile that contains private/internal registry URLs.
