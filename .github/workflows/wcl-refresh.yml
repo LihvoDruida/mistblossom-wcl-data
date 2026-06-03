@@ -5,11 +5,48 @@ on:
   schedule:
     - cron: "*/45 * * * *"
 
+permissions:
+  contents: write
+
+concurrency:
+  group: wcl-guild-refresh
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - name: Call refresh endpoint
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Refresh WCL snapshots inside GitHub
+        env:
+          WCL_CLIENT_ID: ${{ secrets.WCL_CLIENT_ID }}
+          WCL_CLIENT_SECRET: ${{ secrets.WCL_CLIENT_SECRET }}
+          BATTLENET_CLIENT_ID: ${{ secrets.BATTLENET_CLIENT_ID }}
+          BATTLENET_CLIENT_SECRET: ${{ secrets.BATTLENET_CLIENT_SECRET }}
+        run: npm run wcl:refresh
+
+      - name: Commit generated JSON API
         run: |
-          curl -fsS -X POST "${{ vars.WCL_REFRESH_URL }}" \
-            -H "x-refresh-secret: ${{ secrets.WCL_REFRESH_SECRET }}"
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A data/wcl api/wcl .nojekyll
+
+          if git diff --cached --quiet; then
+            echo "No WCL JSON changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(wcl): refresh guild snapshots"
+          git push

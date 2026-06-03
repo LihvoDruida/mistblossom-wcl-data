@@ -6,6 +6,10 @@ import type { GuildIndexSnapshot, MemberSnapshot } from "./types";
 export function createStoreFromEnv(): GithubJsonStore {
   const env = getWclGithubEnv();
 
+  if (!env.githubToken) {
+    throw new Error("Missing required secret environment variable: WCL_DATA_REPO_TOKEN");
+  }
+
   return new GithubJsonStore({
     token: env.githubToken,
     owner: env.githubOwner,

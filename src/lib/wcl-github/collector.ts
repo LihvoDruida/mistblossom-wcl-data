@@ -215,6 +215,10 @@ export async function refreshAndWriteWclGithubSnapshots() {
   const env = getWclGithubEnv();
   const { snapshots, reportsScanned, fightsScanned, warnings } = await refreshWclGithubSnapshots();
 
+  if (!env.githubToken) {
+    throw new Error("Missing required secret environment variable: WCL_DATA_REPO_TOKEN");
+  }
+
   const store = new GithubJsonStore({
     token: env.githubToken,
     owner: env.githubOwner,

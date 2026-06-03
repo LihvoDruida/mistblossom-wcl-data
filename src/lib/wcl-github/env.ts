@@ -13,7 +13,7 @@ export interface WclGithubEnv {
   battleNetGuildRealmSlug: string;
   battleNetGuildNameSlug: string;
 
-  githubToken: string;
+  githubToken?: string;
   githubOwner: string;
   githubRepo: string;
   githubBranch: string;
@@ -21,7 +21,7 @@ export interface WclGithubEnv {
   githubCommitterName: string;
   githubCommitterEmail: string;
 
-  refreshSecret: string;
+  refreshSecret?: string;
 
   wclGuildName: string;
   wclGuildRealmSlug: string;
@@ -38,6 +38,11 @@ function requiredSecret(name: string): string {
     throw new Error(`Missing required secret environment variable: ${name}`);
   }
   return value;
+}
+
+function optionalSecret(name: string): string | undefined {
+  const value = process.env[name]?.trim();
+  return value || undefined;
 }
 
 function configValue(value: string, path: string): string {
@@ -94,7 +99,7 @@ export function getWclGithubEnv(): WclGithubEnv {
       "battleNet.guildNameSlug",
     ).toLowerCase(),
 
-    githubToken: requiredSecret("WCL_DATA_REPO_TOKEN"),
+    githubToken: optionalSecret("WCL_DATA_REPO_TOKEN"),
     githubOwner: envOverride("WCL_DATA_REPO_OWNER", cfg.github.owner, "github.owner"),
     githubRepo: envOverride("WCL_DATA_REPO_NAME", cfg.github.repo, "github.repo"),
     githubBranch: envOverride("WCL_DATA_REPO_BRANCH", cfg.github.branch, "github.branch"),
@@ -102,7 +107,7 @@ export function getWclGithubEnv(): WclGithubEnv {
     githubCommitterName: envOverride("WCL_DATA_COMMITTER_NAME", cfg.github.committerName, "github.committerName"),
     githubCommitterEmail: envOverride("WCL_DATA_COMMITTER_EMAIL", cfg.github.committerEmail, "github.committerEmail"),
 
-    refreshSecret: requiredSecret("WCL_REFRESH_SECRET"),
+    refreshSecret: optionalSecret("WCL_REFRESH_SECRET"),
 
     wclGuildName: envOverride("WCL_GUILD_NAME", cfg.wcl.guild.name, "wcl.guild.name"),
     wclGuildRealmSlug: envOverride("WCL_GUILD_REALM_SLUG", cfg.wcl.guild.realmSlug, "wcl.guild.realmSlug").toLowerCase(),

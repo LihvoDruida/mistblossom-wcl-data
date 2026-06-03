@@ -7,6 +7,10 @@ export const dynamic = "force-dynamic";
 export async function POST(request: Request) {
   try {
     const env = getWclGithubEnv();
+    if (!env.refreshSecret) {
+      return Response.json({ ok: false, error: "Missing WCL_REFRESH_SECRET" }, { status: 500 });
+    }
+
     const providedSecret = request.headers.get("x-refresh-secret") || new URL(request.url).searchParams.get("secret");
 
     if (!providedSecret || providedSecret !== env.refreshSecret) {

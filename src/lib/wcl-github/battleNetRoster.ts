@@ -45,23 +45,25 @@ export async function loadGuildMembersFromBattleNet(options: {
     }>;
   };
 
-  return (json.members ?? [])
-    .map((member) => {
-      const character = member.character;
-      if (!character?.name) return null;
+  const members: GuildMemberInput[] = [];
 
-      return {
-        name: character.name,
-        realmSlug: character.realm?.slug || options.realmSlug,
-        region,
-        rank: member.rank,
-        className: character.playable_class?.name,
-        level: character.level,
-        roleHint: "unknown" as const,
-        source: "battle-net" as const,
-      };
-    })
-    .filter((member): member is GuildMemberInput => Boolean(member));
+  for (const member of json.members ?? []) {
+    const character = member.character;
+    if (!character?.name) continue;
+
+    members.push({
+      name: character.name,
+      realmSlug: character.realm?.slug || options.realmSlug,
+      region,
+      rank: member.rank,
+      className: character.playable_class?.name,
+      level: character.level,
+      roleHint: "unknown",
+      source: "battle-net",
+    });
+  }
+
+  return members;
 }
 
 async function getBattleNetToken(clientId: string, clientSecret: string, region: string): Promise<string> {

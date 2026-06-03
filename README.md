@@ -1,11 +1,15 @@
-# WCL GitHub API Mechanism
+# Mistblossom WCL Data API
 
-Окремий механізм збору Warcraft Logs статистики для гільдії з Battle.net roster та збереженням snapshot-даних у GitHub repository JSON.
+GitHub-only механізм збору Warcraft Logs статистики для гільдії. Він працює без `admin.lihvodruida.pp.ua/api/wcl-github/refresh`:
+
+```txt
+GitHub Actions → Battle.net roster + Warcraft Logs → JSON у цьому repo → API-like static JSON endpoints
+```
 
 ## Що робить
 
 - Бере roster гільдії з Battle.net Profile API.
-- Бере останні звіти гільдії з Warcraft Logs GraphQL API.
+- Бере останні guild reports з Warcraft Logs GraphQL API.
 - Інспектує encounter pulls: `KILL` / `WIPE`.
 - Для кожного члена гільдії зберігає до 10 останніх пулів.
 - Рахує:
@@ -13,96 +17,116 @@
   - максимум за останні 10;
   - мінімум за останні 10;
   - kill/wipe rate;
-  - середню тривалість;
-  - смерті персонажа;
-  - смерті рейду;
-  - стабільність/консистентність.
-- Записує дані в GitHub як JSON:
-  - `data/wcl/members/{region}/{realm}/{character}.json`
-  - `data/wcl/index.json`
-  - `data/wcl/jobs/latest.json`
+  - deaths персонажа;
+  - raid deaths у пулі;
+  - deaths per pull;
+  - stability / consistency.
+- Записує нормалізовані JSON-снапшоти у repo.
+- Дублює зручні файли в `api/wcl/*`, щоб до них можна було звертатися як до API.
 
-## Важливо
+## GitHub Secrets
 
-GitHub — це не база реального часу. Цей механізм зроблений як snapshot/cache storage. Не запускай refresh одночасно з кількох місць, бо GitHub Contents API може повернути `409 Conflict`.
-
-## Мінімальна інтеграція в Next.js App Router
-
-Скопіюй:
-
-```txt
-src/lib/wcl-github/*
-src/app/api/wcl-github/*
-```
-
-Після цього доступні API:
-
-```txt
-POST /api/wcl-github/refresh
-GET  /api/wcl-github/index
-GET  /api/wcl-github/member/{slug}
-```
-
-Refresh захищений секретом:
-
-```bash
-curl -X POST "https://your-domain/api/wcl-github/refresh" \
-  -H "x-refresh-secret: $WCL_REFRESH_SECRET"
-```
-
-## Конфіг і секрети
-
-Нечутливі параметри винесені в окремий файл:
-
-```txt
-src/lib/wcl-github/config.ts
-```
-
-Там зберігаються:
-
-```txt
-BATTLENET_REGION=eu
-BATTLENET_LOCALE=en_GB
-BATTLENET_GUILD_REALM_SLUG=terokkar
-BATTLENET_GUILD_NAME_SLUG=mistblossom-vanguard
-WCL_DATA_REPO_OWNER=LihvoDruida
-WCL_DATA_REPO_NAME=mistblossom-wcl-data
-WCL_DATA_REPO_BRANCH=main
-WCL_DATA_PREFIX=data/wcl
-WCL_GUILD_NAME=Mistblossom Vanguard
-WCL_GUILD_REALM_SLUG=terokkar
-WCL_GUILD_REGION=eu
-WCL_REPORT_LIMIT=12
-WCL_MAX_REPORT_PAGES=2
-WCL_MAX_PULLS_PER_MEMBER=10
-WCL_RECENT_AVG_WINDOW=3
-```
-
-У `.env` / Vercel Secrets залишаються:
+У repo `LihvoDruida/mistblossom-wcl-data` додай тільки ці secrets:
 
 ```env
 WCL_CLIENT_ID=
 WCL_CLIENT_SECRET=
 BATTLENET_CLIENT_ID=
 BATTLENET_CLIENT_SECRET=
-WCL_DATA_REPO_TOKEN=
-WCL_REFRESH_SECRET=
 ```
 
-`WCL_CLIENT_ID` і `BATTLENET_CLIENT_ID` залишені в secrets за твоєю вимогою.
+`WCL_DATA_REPO_TOKEN` більше не потрібен для GitHub-only режиму. Запис у repo робить вбудований `GITHUB_TOKEN` всередині GitHub Actions, через permission `contents: write`.
 
-`WCL_MAX_PULLS_PER_MEMBER` у конфігу за замовчуванням = `10`. Не став `1`, бо тоді ламається сенс механіки: максимум/мінімум за останні 10 пулів рахуватися не буде.
+`WCL_REFRESH_SECRET` теж не потрібен, бо refresh більше не відкритий як публічний endpoint.
 
-Дивись `.env.example` і `src/lib/wcl-github/config.ts`.
+## GitHub Actions
 
-## Рекомендований cron
+Workflow лежить тут:
 
-- Для Vercel Cron або GitHub Actions: кожні 30-60 хвилин.
-- Для ручного запуску після рейду: кнопка в адмін-панелі.
-- Для live raid — обережно, WCL може оновлювати логи із затримкою.
-- Для GitHub Actions URL refresh-endpoint краще тримати в GitHub Variables, а `WCL_REFRESH_SECRET` — у GitHub Secrets.
+```txt
+.github/workflows/wcl-refresh.yml
+```
 
-## Формат member snapshot
+Він запускається:
+
+```txt
+Actions → Refresh WCL GitHub snapshots → Run workflow
+```
+
+Також є cron:
+
+```txt
+*/45 * * * *
+```
+
+Тобто оновлення кожні 45 хвилин.
+
+## GitHub permissions
+
+У repo перевір:
+
+```txt
+Settings → Actions → General → Workflow permissions
+```
+
+Має бути дозволено писати в repo. У workflow також уже задано:
+
+```yaml
+permissions:
+  contents: write
+```
+
+## GitHub Pages для API-like доступу
+
+Щоб отримати красиві URL, увімкни GitHub Pages:
+
+```txt
+Settings → Pages → Build and deployment
+Source: Deploy from a branch
+Branch: main
+Folder: /root
+Save
+```
+
+Після першого успішного workflow будуть доступні endpoint-и:
+
+```txt
+https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/index.json
+https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/members.json
+https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/member/{character-slug}.json
+https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/job/latest.json
+https://lihvodruida.github.io/mistblossom-wcl-data/api/wcl/health.json
+```
+
+Якщо Pages ще не увімкнений, можна читати raw JSON напряму:
+
+```txt
+https://raw.githubusercontent.com/LihvoDruida/mistblossom-wcl-data/main/api/wcl/index.json
+https://raw.githubusercontent.com/LihvoDruida/mistblossom-wcl-data/main/api/wcl/members.json
+https://raw.githubusercontent.com/LihvoDruida/mistblossom-wcl-data/main/api/wcl/member/{character-slug}.json
+```
+
+## Формат збереження
+
+Канонічне сховище:
+
+```txt
+data/wcl/index.json
+data/wcl/jobs/latest.json
+data/wcl/members/eu/terokkar/{character}.json
+```
+
+API-like дзеркало:
+
+```txt
+api/wcl/index.json
+api/wcl/members.json
+api/wcl/member/{character-slug}.json
+api/wcl/job/latest.json
+api/wcl/health.json
+```
+
+## Приклад member snapshot
 
 ```json
 {
@@ -137,4 +161,54 @@ WCL_REFRESH_SECRET=
   },
   "pulls": []
 }
+```
+
+## Ручний запуск через GitHub API
+
+Якщо треба запускати refresh не з UI GitHub, а як API-запит, використовуй GitHub workflow dispatch API:
+
+```bash
+curl -X POST \
+  "https://api.github.com/repos/LihvoDruida/mistblossom-wcl-data/actions/workflows/wcl-refresh.yml/dispatches" \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer YOUR_GITHUB_PAT_WITH_ACTIONS_WRITE" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  -d '{"ref":"main"}'
+```
+
+Це не публічний refresh endpoint. Це правильно: WCL/Battle.net secrets не мають бути доступні через відкритий URL.
+
+## Конфіг
+
+Нечутливі параметри лежать тут:
+
+```txt
+src/lib/wcl-github/config.ts
+```
+
+Вже заповнено під:
+
+```txt
+GitHub repo: LihvoDruida/mistblossom-wcl-data
+Guild: Mistblossom Vanguard, EU-Terokkar
+Battle.net guild slug: mistblossom-vanguard
+Data prefix: data/wcl
+```
+
+## Локальний запуск
+
+```bash
+npm install
+WCL_CLIENT_ID=... \
+WCL_CLIENT_SECRET=... \
+BATTLENET_CLIENT_ID=... \
+BATTLENET_CLIENT_SECRET=... \
+npm run wcl:refresh
+```
+
+Після запуску зʼявляться/оновляться папки:
+
+```txt
+data/wcl
+api/wcl
 ```
