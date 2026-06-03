@@ -174,12 +174,12 @@
     "realmSlug": "ravencrest",
     "region": "eu",
     "rank": 1,
-    "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.363Z",
+    "lastUpdatedAt": "2026-06-03T14:44:44.528Z",
+    "nextEligibleAt": "2026-06-04T02:44:44.528Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "updated"
   },
   {
     "slug": "thortun-silvermoon-eu",
@@ -343,12 +343,12 @@
     "realmSlug": "ravencrest",
     "region": "eu",
     "rank": 3,
-    "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.363Z",
+    "lastUpdatedAt": "2026-06-03T14:44:44.528Z",
+    "nextEligibleAt": "2026-06-04T02:44:44.528Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "updated"
   },
   {
     "slug": "bernstorff-kazzak-eu",
@@ -408,12 +408,12 @@
     "realmSlug": "tarren-mill",
     "region": "eu",
     "rank": 3,
-    "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.363Z",
+    "lastUpdatedAt": "2026-06-03T14:44:44.528Z",
+    "nextEligibleAt": "2026-06-04T02:44:44.528Z",
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "fresh"
+    "status": "updated"
   },
   {
     "slug": "bylik-tarren-mill-eu",
@@ -928,12 +928,12 @@
     "realmSlug": "galakrond",
     "region": "eu",
     "rank": 3,
-    "lastUpdatedAt": "2026-06-03T04:24:46.362Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.362Z",
+    "lastUpdatedAt": "2026-06-03T14:44:44.528Z",
+    "nextEligibleAt": "2026-06-04T02:44:44.528Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "updated"
   },
   {
     "slug": "галазард-eversong-eu",
@@ -1253,12 +1253,12 @@
     "realmSlug": "howling-fjord",
     "region": "eu",
     "rank": 3,
-    "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.363Z",
+    "lastUpdatedAt": "2026-06-03T14:44:44.528Z",
+    "nextEligibleAt": "2026-06-04T02:44:44.528Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "updated"
   },
   {
     "slug": "щпикачечка-gordunni-eu",
@@ -1292,12 +1292,12 @@
     "realmSlug": "ravencrest",
     "region": "eu",
     "rank": 4,
-    "lastUpdatedAt": "2026-06-03T04:24:46.362Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.362Z",
+    "lastUpdatedAt": "2026-06-03T14:44:44.528Z",
+    "nextEligibleAt": "2026-06-04T02:44:44.528Z",
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "fresh"
+    "status": "updated"
   },
   {
     "slug": "bloemfontain-silvermoon-eu",
@@ -1435,12 +1435,12 @@
     "realmSlug": "ravencrest",
     "region": "eu",
     "rank": 4,
-    "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.363Z",
+    "lastUpdatedAt": "2026-06-03T14:44:44.528Z",
+    "nextEligibleAt": "2026-06-04T02:44:44.528Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "updated"
   },
   {
     "slug": "juz-silvermoon-eu",
@@ -1591,12 +1591,12 @@
     "realmSlug": "ravencrest",
     "region": "eu",
     "rank": 4,
-    "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.363Z",
+    "lastUpdatedAt": "2026-06-03T14:44:44.528Z",
+    "nextEligibleAt": "2026-06-04T02:44:44.528Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "updated"
   },
   {
     "slug": "otito-draenor-eu",

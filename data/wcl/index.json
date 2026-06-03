@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-06-03T12:47:37.468Z",
+  "schemaVersion": 2,
+  "updatedAt": "2026-06-03T14:44:44.534Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -8,8 +8,11 @@
   },
   "totals": {
     "members": 159,
-    "reportsScanned": 0,
-    "fightsScanned": 0
+    "reportsScanned": 8,
+    "fightsScanned": 10,
+    "healerPulls": 87,
+    "damagePulls": 474,
+    "unknownPulls": 0
   },
   "members": [
     {
@@ -24,8 +27,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 46199.33,
       "maxPrimaryLast10": 132225.53,
+      "avgDpsRecent3": 46199.33,
+      "maxDpsLast10": 132225.53,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 34.94
+      "stabilityPercent": 34.94,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "azuriel-terokkar-eu",
@@ -39,8 +51,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "characternuk-terokkar-eu",
@@ -54,8 +75,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "forchun-silvermoon-eu",
@@ -69,8 +99,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 40330.46,
       "maxPrimaryLast10": 59710.42,
+      "avgDpsRecent3": 40330.46,
+      "maxDpsLast10": 59710.42,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 67.54
+      "stabilityPercent": 67.54,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "frrtiix-draenor-eu",
@@ -84,8 +123,17 @@
       "wipes": 8,
       "avgPrimaryRecent3": 45516.33,
       "maxPrimaryLast10": 120922.22,
+      "avgDpsRecent3": 45516.33,
+      "maxDpsLast10": 120922.22,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 37.64
+      "stabilityPercent": 37.64,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "ironbelly-silvermoon-eu",
@@ -99,8 +147,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "kashin-terokkar-eu",
@@ -114,8 +171,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "krouli-terokkar-eu",
@@ -129,8 +195,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "lightass-terokkar-eu",
@@ -144,8 +219,17 @@
       "wipes": 7,
       "avgPrimaryRecent3": 87836.99,
       "maxPrimaryLast10": 101236.45,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 5757.19,
+      "avgHpsRecent3": 87836.99,
+      "maxHpsLast10": 101236.45,
       "deathsPerPull": 0,
-      "stabilityPercent": 86.76
+      "stabilityPercent": 86.76,
+      "primaryKindCounts": {
+        "dps": 1,
+        "hps": 9,
+        "unknown": 0
+      }
     },
     {
       "slug": "lishiy-ragnaros-eu",
@@ -159,8 +243,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "lishiyburn-ragnaros-eu",
@@ -174,8 +267,17 @@
       "wipes": 8,
       "avgPrimaryRecent3": 46906.83,
       "maxPrimaryLast10": 58510.27,
+      "avgDpsRecent3": 46906.83,
+      "maxDpsLast10": 58510.27,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 80.17
+      "stabilityPercent": 80.17,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "mafik-terokkar-eu",
@@ -189,8 +291,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 81853.9,
       "maxPrimaryLast10": 175573.53,
+      "avgDpsRecent3": 81853.9,
+      "maxDpsLast10": 175573.53,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 46.62
+      "stabilityPercent": 46.62,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "odeskiy-tarren-mill-eu",
@@ -204,8 +315,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "senig-r-ravencrest-eu",
@@ -213,14 +333,23 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "updatedAt": "2026-06-03T14:44:44.528Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "thortun-silvermoon-eu",
@@ -234,8 +363,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "булкрит-gordunni-eu",
@@ -249,8 +387,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 83198.53,
       "maxPrimaryLast10": 148975.61,
+      "avgDpsRecent3": 83198.53,
+      "maxDpsLast10": 148975.61,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 55.85
+      "stabilityPercent": 55.85,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "мавпита-gordunni-eu",
@@ -264,8 +411,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 87339.48,
       "maxPrimaryLast10": 104197.76,
+      "avgDpsRecent3": 87339.48,
+      "maxDpsLast10": 104197.76,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 83.82
+      "stabilityPercent": 83.82,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "мистип-gordunni-eu",
@@ -279,8 +435,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "пизнаика-gordunni-eu",
@@ -294,8 +459,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 58962.88,
       "maxPrimaryLast10": 66121.49,
+      "avgDpsRecent3": 58962.88,
+      "maxDpsLast10": 66121.49,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 89.17
+      "stabilityPercent": 89.17,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "тузольд-gordunni-eu",
@@ -309,8 +483,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 60662.06,
       "maxPrimaryLast10": 90936.54,
+      "avgDpsRecent3": 60662.06,
+      "maxDpsLast10": 90936.54,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 66.71
+      "stabilityPercent": 66.71,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "шриладо-gordunni-eu",
@@ -324,8 +507,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 103494.21,
       "maxPrimaryLast10": 127235.58,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 103494.21,
+      "maxHpsLast10": 127235.58,
       "deathsPerPull": 0,
-      "stabilityPercent": 81.34
+      "stabilityPercent": 81.34,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 10,
+        "unknown": 0
+      }
     },
     {
       "slug": "molfar-terokkar-eu",
@@ -339,8 +531,17 @@
       "wipes": 8,
       "avgPrimaryRecent3": 70147.4,
       "maxPrimaryLast10": 80443.67,
+      "avgDpsRecent3": 70147.4,
+      "maxDpsLast10": 80443.67,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 87.2
+      "stabilityPercent": 87.2,
+      "primaryKindCounts": {
+        "dps": 8,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "sonechco-silvermoon-eu",
@@ -354,8 +555,17 @@
       "wipes": 8,
       "avgPrimaryRecent3": 32972.19,
       "maxPrimaryLast10": 49870.04,
+      "avgDpsRecent3": 32972.19,
+      "maxDpsLast10": 49870.04,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 66.12
+      "stabilityPercent": 66.12,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "zanzithor-tarren-mill-eu",
@@ -369,8 +579,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 68240.01,
       "maxPrimaryLast10": 110139.47,
+      "avgDpsRecent3": 68240.01,
+      "maxDpsLast10": 110139.47,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 4677.47,
       "deathsPerPull": 0,
-      "stabilityPercent": 61.96
+      "stabilityPercent": 61.96,
+      "primaryKindCounts": {
+        "dps": 9,
+        "hps": 1,
+        "unknown": 0
+      }
     },
     {
       "slug": "allune-terokkar-eu",
@@ -384,8 +603,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "asasinas-terokkar-eu",
@@ -399,8 +627,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "berkinzee-ravencrest-eu",
@@ -408,14 +645,23 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "updatedAt": "2026-06-03T14:44:44.528Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "bernstorff-kazzak-eu",
@@ -429,8 +675,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "bierdestroer-silvermoon-eu",
@@ -444,8 +699,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "blackberry-terokkar-eu",
@@ -459,8 +723,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "blackdaddy-tarren-mill-eu",
@@ -474,8 +747,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "bullimonk-tarren-mill-eu",
@@ -483,14 +765,23 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "updatedAt": "2026-06-03T14:44:44.528Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
       "avgPrimaryRecent3": 70822.61,
       "maxPrimaryLast10": 84512.88,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 70822.61,
+      "maxHpsLast10": 84512.88,
       "deathsPerPull": 0,
-      "stabilityPercent": 83.8
+      "stabilityPercent": 83.8,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 10,
+        "unknown": 0
+      }
     },
     {
       "slug": "bylik-tarren-mill-eu",
@@ -504,8 +795,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 32186.06,
       "maxPrimaryLast10": 148027.34,
+      "avgDpsRecent3": 46845.52,
+      "maxDpsLast10": 148027.34,
+      "avgHpsRecent3": 2867.14,
+      "maxHpsLast10": 2867.14,
       "deathsPerPull": 0,
-      "stabilityPercent": 21.74
+      "stabilityPercent": 21.74,
+      "primaryKindCounts": {
+        "dps": 9,
+        "hps": 1,
+        "unknown": 0
+      }
     },
     {
       "slug": "darthkenobi-tarren-mill-eu",
@@ -519,8 +819,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "duszi-terokkar-eu",
@@ -534,8 +843,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "elderwizard-terokkar-eu",
@@ -549,8 +867,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 91081.48,
       "maxPrimaryLast10": 116678.94,
+      "avgDpsRecent3": 91081.48,
+      "maxDpsLast10": 116678.94,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 78.06
+      "stabilityPercent": 78.06,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "es-terokkar-eu",
@@ -564,8 +891,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "hexxoffender-silvermoon-eu",
@@ -579,8 +915,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "hopeblood-doomhammer-eu",
@@ -594,8 +939,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "icebloomi-tarren-mill-eu",
@@ -609,8 +963,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "illidonson-draenor-eu",
@@ -624,8 +987,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 63660.8,
       "maxPrimaryLast10": 65313.51,
+      "avgDpsRecent3": 63660.8,
+      "maxDpsLast10": 65313.51,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 97.47
+      "stabilityPercent": 97.47,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "kavunchyk-terokkar-eu",
@@ -639,8 +1011,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "kensshi-silvermoon-eu",
@@ -654,8 +1035,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "kokosik-silvermoon-eu",
@@ -669,8 +1059,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 93820.18,
       "maxPrimaryLast10": 123755.8,
+      "avgDpsRecent3": 93820.18,
+      "maxDpsLast10": 123755.8,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 75.81
+      "stabilityPercent": 75.81,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "komatoznic-tarren-mill-eu",
@@ -684,8 +1083,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "lishiystabb-terokkar-eu",
@@ -699,8 +1107,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "mexamer-silvermoon-eu",
@@ -714,8 +1131,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "monkania-terokkar-eu",
@@ -729,8 +1155,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "ohhchetos-kazzak-eu",
@@ -744,8 +1179,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "oxydenis-silvermoon-eu",
@@ -759,8 +1203,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 73848.62,
       "maxPrimaryLast10": 161690.54,
+      "avgDpsRecent3": 110750.91,
+      "maxDpsLast10": 161690.54,
+      "avgHpsRecent3": 44.04,
+      "maxHpsLast10": 44.04,
       "deathsPerPull": 0,
-      "stabilityPercent": 45.67
+      "stabilityPercent": 45.67,
+      "primaryKindCounts": {
+        "dps": 9,
+        "hps": 1,
+        "unknown": 0
+      }
     },
     {
       "slug": "plaguenjoyer-silvermoon-eu",
@@ -774,8 +1227,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "prayddh-terokkar-eu",
@@ -789,8 +1251,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "pwndy-urface-silvermoon-eu",
@@ -804,8 +1275,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "ragnar-k-burning-legion-eu",
@@ -819,8 +1299,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "redray-terokkar-eu",
@@ -834,8 +1323,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "rozbiynik-tarren-mill-eu",
@@ -849,8 +1347,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 80947.27,
       "maxPrimaryLast10": 188469.8,
+      "avgDpsRecent3": 80947.27,
+      "maxDpsLast10": 188469.8,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 42.95
+      "stabilityPercent": 42.95,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "shennai-ravencrest-eu",
@@ -864,8 +1371,17 @@
       "wipes": 7,
       "avgPrimaryRecent3": 26902.58,
       "maxPrimaryLast10": 36093.68,
+      "avgDpsRecent3": 26902.58,
+      "maxDpsLast10": 36093.68,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 74.54
+      "stabilityPercent": 74.54,
+      "primaryKindCounts": {
+        "dps": 7,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "skirvir-turalyon-eu",
@@ -879,8 +1395,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 76673.75,
       "maxPrimaryLast10": 123630.26,
+      "avgDpsRecent3": 76673.75,
+      "maxDpsLast10": 123630.26,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 62.02
+      "stabilityPercent": 62.02,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "sneydilio-doomhammer-eu",
@@ -894,8 +1419,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "k-silvermoon-eu",
@@ -909,8 +1443,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 51968.25,
       "maxPrimaryLast10": 76007.62,
+      "avgDpsRecent3": 51968.25,
+      "maxDpsLast10": 76007.62,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 68.37
+      "stabilityPercent": 68.37,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "straponeero-tarren-mill-eu",
@@ -924,8 +1467,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "technoihor-silvermoon-eu",
@@ -939,8 +1491,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "therion-doomhammer-eu",
@@ -954,8 +1515,17 @@
       "wipes": 7,
       "avgPrimaryRecent3": 16478.67,
       "maxPrimaryLast10": 46151.22,
+      "avgDpsRecent3": 17677.69,
+      "maxDpsLast10": 46151.22,
+      "avgHpsRecent3": 14080.63,
+      "maxHpsLast10": 14080.63,
       "deathsPerPull": 0,
-      "stabilityPercent": 35.71
+      "stabilityPercent": 35.71,
+      "primaryKindCounts": {
+        "dps": 9,
+        "hps": 1,
+        "unknown": 0
+      }
     },
     {
       "slug": "travka-terokkar-eu",
@@ -969,8 +1539,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "vertyxa-silvermoon-eu",
@@ -984,8 +1563,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "vi-n-silvermoon-eu",
@@ -999,8 +1587,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "vurush-turalyon-eu",
@@ -1014,8 +1611,17 @@
       "wipes": 6,
       "avgPrimaryRecent3": 67117.94,
       "maxPrimaryLast10": 105434.76,
+      "avgDpsRecent3": 67117.94,
+      "maxDpsLast10": 105434.76,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 63.66
+      "stabilityPercent": 63.66,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "yokuha-terokkar-eu",
@@ -1029,8 +1635,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 24326.98,
       "maxPrimaryLast10": 45811.35,
+      "avgDpsRecent3": 24326.98,
+      "maxDpsLast10": 45811.35,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 53.1
+      "stabilityPercent": 53.1,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "алак-goldrinn-eu",
@@ -1044,8 +1659,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "альянсс-gordunni-eu",
@@ -1059,8 +1683,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "амарак-gordunni-eu",
@@ -1074,8 +1707,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "бреинор-galakrond-eu",
@@ -1083,14 +1725,23 @@
       "realmSlug": "galakrond",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.362Z",
+      "updatedAt": "2026-06-03T14:44:44.528Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "галазард-eversong-eu",
@@ -1104,8 +1755,17 @@
       "wipes": 4,
       "avgPrimaryRecent3": 15515.61,
       "maxPrimaryLast10": 27220.02,
+      "avgDpsRecent3": 20982.24,
+      "maxDpsLast10": 27220.02,
+      "avgHpsRecent3": 4582.35,
+      "maxHpsLast10": 4582.35,
       "deathsPerPull": 0,
-      "stabilityPercent": 57
+      "stabilityPercent": 57,
+      "primaryKindCounts": {
+        "dps": 4,
+        "hps": 1,
+        "unknown": 0
+      }
     },
     {
       "slug": "графдекот-gordunni-eu",
@@ -1119,8 +1779,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 75837.08,
       "maxPrimaryLast10": 113466.91,
+      "avgDpsRecent3": 75837.08,
+      "maxDpsLast10": 113466.91,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 66.84
+      "stabilityPercent": 66.84,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "дедика-eversong-eu",
@@ -1134,8 +1803,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 13801.07,
       "maxPrimaryLast10": 22607.19,
+      "avgDpsRecent3": 11817.9,
+      "maxDpsLast10": 17609.14,
+      "avgHpsRecent3": 17767.41,
+      "maxHpsLast10": 22607.19,
       "deathsPerPull": 0,
-      "stabilityPercent": 61.05
+      "stabilityPercent": 61.05,
+      "primaryKindCounts": {
+        "dps": 5,
+        "hps": 5,
+        "unknown": 0
+      }
     },
     {
       "slug": "древесная-blackscar-eu",
@@ -1149,8 +1827,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 118154.41,
       "maxPrimaryLast10": 129175.1,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 118154.41,
+      "maxHpsLast10": 129175.1,
       "deathsPerPull": 0,
-      "stabilityPercent": 91.47
+      "stabilityPercent": 91.47,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 10,
+        "unknown": 0
+      }
     },
     {
       "slug": "душа-blackscar-eu",
@@ -1164,8 +1851,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "дятелэлуны-soulflayer-eu",
@@ -1179,8 +1875,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "зермонг-gordunni-eu",
@@ -1194,8 +1899,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "зулпот-howling-fjord-eu",
@@ -1209,8 +1923,17 @@
       "wipes": 8,
       "avgPrimaryRecent3": 66418.25,
       "maxPrimaryLast10": 85881.63,
+      "avgDpsRecent3": 66418.25,
+      "maxDpsLast10": 85881.63,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 77.34
+      "stabilityPercent": 77.34,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "кеенди-gordunni-eu",
@@ -1224,8 +1947,17 @@
       "wipes": 8,
       "avgPrimaryRecent3": 23609.64,
       "maxPrimaryLast10": 32335.65,
+      "avgDpsRecent3": 23609.64,
+      "maxDpsLast10": 32335.65,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 73.01
+      "stabilityPercent": 73.01,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "кибароу-soulflayer-eu",
@@ -1239,8 +1971,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "клеосса-eversong-eu",
@@ -1254,8 +1995,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 36752.61,
       "maxPrimaryLast10": 38709.72,
+      "avgDpsRecent3": 36752.61,
+      "maxDpsLast10": 38709.72,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 94.94
+      "stabilityPercent": 94.94,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "корукк-eversong-eu",
@@ -1269,8 +2019,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 75075.6,
       "maxPrimaryLast10": 104574.89,
+      "avgDpsRecent3": 75075.6,
+      "maxDpsLast10": 104574.89,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 71.79
+      "stabilityPercent": 71.79,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "котто-gordunni-eu",
@@ -1284,8 +2043,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "кумбар-gordunni-eu",
@@ -1299,8 +2067,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "кхаарн-lich-king-eu",
@@ -1314,8 +2091,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 47495.17,
       "maxPrimaryLast10": 52396,
+      "avgDpsRecent3": 47495.17,
+      "maxDpsLast10": 52396,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 90.65
+      "stabilityPercent": 90.65,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "лилая-grom-eu",
@@ -1329,8 +2115,17 @@
       "wipes": 7,
       "avgPrimaryRecent3": 25393.02,
       "maxPrimaryLast10": 55360.4,
+      "avgDpsRecent3": 36044.17,
+      "maxDpsLast10": 55360.4,
+      "avgHpsRecent3": 4090.73,
+      "maxHpsLast10": 4090.73,
       "deathsPerPull": 0,
-      "stabilityPercent": 45.87
+      "stabilityPercent": 45.87,
+      "primaryKindCounts": {
+        "dps": 9,
+        "hps": 1,
+        "unknown": 0
+      }
     },
     {
       "slug": "марлая-gordunni-eu",
@@ -1344,8 +2139,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 37682.57,
       "maxPrimaryLast10": 101328.42,
+      "avgDpsRecent3": 37682.57,
+      "maxDpsLast10": 65071.07,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 101328.42,
       "deathsPerPull": 0,
-      "stabilityPercent": 37.19
+      "stabilityPercent": 37.19,
+      "primaryKindCounts": {
+        "dps": 6,
+        "hps": 4,
+        "unknown": 0
+      }
     },
     {
       "slug": "мелиодас-gordunni-eu",
@@ -1359,8 +2163,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "моннал-gordunni-eu",
@@ -1374,8 +2187,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 26714.36,
       "maxPrimaryLast10": 40505.46,
+      "avgDpsRecent3": 26714.36,
+      "maxDpsLast10": 40505.46,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 65.95
+      "stabilityPercent": 65.95,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "нежнаяпулька-eversong-eu",
@@ -1389,8 +2211,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 42691.44,
       "maxPrimaryLast10": 60408.17,
+      "avgDpsRecent3": 42691.44,
+      "maxDpsLast10": 60408.17,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 70.67
+      "stabilityPercent": 70.67,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "нежныилок-eversong-eu",
@@ -1404,8 +2235,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "пандашоманко-eversong-eu",
@@ -1419,8 +2259,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 97502.94,
       "maxPrimaryLast10": 102417.3,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 97502.94,
+      "maxHpsLast10": 102417.3,
       "deathsPerPull": 0,
-      "stabilityPercent": 95.2
+      "stabilityPercent": 95.2,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 10,
+        "unknown": 0
+      }
     },
     {
       "slug": "поливалочки-gordunni-eu",
@@ -1434,8 +2283,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "севатар-lich-king-eu",
@@ -1449,8 +2307,17 @@
       "wipes": 7,
       "avgPrimaryRecent3": 50471.1,
       "maxPrimaryLast10": 65853.19,
+      "avgDpsRecent3": 50471.1,
+      "maxDpsLast10": 65853.19,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 13387.48,
       "deathsPerPull": 0,
-      "stabilityPercent": 76.64
+      "stabilityPercent": 76.64,
+      "primaryKindCounts": {
+        "dps": 9,
+        "hps": 1,
+        "unknown": 0
+      }
     },
     {
       "slug": "скяльди-howling-fjord-eu",
@@ -1458,14 +2325,23 @@
       "realmSlug": "howling-fjord",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "updatedAt": "2026-06-03T14:44:44.528Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "щпикачечка-gordunni-eu",
@@ -1479,8 +2355,17 @@
       "wipes": 8,
       "avgPrimaryRecent3": 29878.27,
       "maxPrimaryLast10": 44981.38,
+      "avgDpsRecent3": 29878.27,
+      "maxDpsLast10": 44981.38,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 66.42
+      "stabilityPercent": 66.42,
+      "primaryKindCounts": {
+        "dps": 8,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "arthasright-tarren-mill-eu",
@@ -1494,8 +2379,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 88820.74,
       "maxPrimaryLast10": 179870.64,
+      "avgDpsRecent3": 88820.74,
+      "maxDpsLast10": 179870.64,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 49.38
+      "stabilityPercent": 49.38,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "auroliana-ravencrest-eu",
@@ -1503,14 +2397,23 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.362Z",
+      "updatedAt": "2026-06-03T14:44:44.528Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
       "avgPrimaryRecent3": 66386.4,
       "maxPrimaryLast10": 155201.36,
+      "avgDpsRecent3": 66386.4,
+      "maxDpsLast10": 155201.36,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 42.77
+      "stabilityPercent": 42.77,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "bloemfontain-silvermoon-eu",
@@ -1524,8 +2427,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "bureviy-doomhammer-eu",
@@ -1539,8 +2451,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 59765.57,
       "maxPrimaryLast10": 94941.71,
+      "avgDpsRecent3": 59765.57,
+      "maxDpsLast10": 94941.71,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 62.95
+      "stabilityPercent": 62.95,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "darkleaf-burning-steppes-eu",
@@ -1554,8 +2475,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "daslight-terokkar-eu",
@@ -1569,8 +2499,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "demhunt-terokkar-eu",
@@ -1584,8 +2523,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "freddiedredd-silvermoon-eu",
@@ -1599,8 +2547,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "gaplik-silvermoon-eu",
@@ -1614,8 +2571,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "hlorygole-silvermoon-eu",
@@ -1629,8 +2595,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "inika-silvermoon-eu",
@@ -1644,8 +2619,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "ionax-draenor-eu",
@@ -1659,8 +2643,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "jakeyo-ravencrest-eu",
@@ -1668,14 +2661,23 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "updatedAt": "2026-06-03T14:44:44.528Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "juz-silvermoon-eu",
@@ -1689,8 +2691,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "kaijuro-silvermoon-eu",
@@ -1704,8 +2715,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "katsyt-terokkar-eu",
@@ -1719,8 +2739,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "krekor-tarren-mill-eu",
@@ -1734,8 +2763,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 44548.47,
       "maxPrimaryLast10": 101616.78,
+      "avgDpsRecent3": 44548.47,
+      "maxDpsLast10": 101616.78,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 43.84
+      "stabilityPercent": 43.84,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "marmozetroly-tarren-mill-eu",
@@ -1749,8 +2787,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 87175.59,
       "maxPrimaryLast10": 160183.09,
+      "avgDpsRecent3": 87175.59,
+      "maxDpsLast10": 160183.09,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 54.42
+      "stabilityPercent": 54.42,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "mavika-doomhammer-eu",
@@ -1764,8 +2811,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "medvedich-silvermoon-eu",
@@ -1779,8 +2835,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "mercury-tarren-mill-eu",
@@ -1794,8 +2859,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "mistery-draenor-eu",
@@ -1809,8 +2883,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "nanyy-silvermoon-eu",
@@ -1824,8 +2907,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "nebatur-terokkar-eu",
@@ -1839,8 +2931,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "nwlck-ravencrest-eu",
@@ -1848,14 +2949,23 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "updatedAt": "2026-06-03T14:44:44.528Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "otito-draenor-eu",
@@ -1869,8 +2979,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 41911.55,
       "maxPrimaryLast10": 65842.54,
+      "avgDpsRecent3": 41911.55,
+      "maxDpsLast10": 65842.54,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 63.65
+      "stabilityPercent": 63.65,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "panharanir-kazzak-eu",
@@ -1884,8 +3003,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "ponziani-kazzak-eu",
@@ -1899,8 +3027,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "pyatochka-terokkar-eu",
@@ -1914,8 +3051,17 @@
       "wipes": 7,
       "avgPrimaryRecent3": 30759.5,
       "maxPrimaryLast10": 60690.55,
+      "avgDpsRecent3": 30759.5,
+      "maxDpsLast10": 60690.55,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 50.68
+      "stabilityPercent": 50.68,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "ragnarosh-terokkar-eu",
@@ -1929,8 +3075,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "regin-doomhammer-eu",
@@ -1944,8 +3099,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "riney-doomhammer-eu",
@@ -1959,8 +3123,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "rolemodel-burning-legion-eu",
@@ -1974,8 +3147,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "sandora-doomhammer-eu",
@@ -1989,8 +3171,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "sangvyn-tarren-mill-eu",
@@ -2004,8 +3195,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "shatnyi-terokkar-eu",
@@ -2019,8 +3219,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 18961.95,
       "maxPrimaryLast10": 29641.94,
+      "avgDpsRecent3": 20401.29,
+      "maxDpsLast10": 29641.94,
+      "avgHpsRecent3": 16083.27,
+      "maxHpsLast10": 16083.27,
       "deathsPerPull": 0,
-      "stabilityPercent": 63.97
+      "stabilityPercent": 63.97,
+      "primaryKindCounts": {
+        "dps": 8,
+        "hps": 2,
+        "unknown": 0
+      }
     },
     {
       "slug": "shatnyideath-terokkar-eu",
@@ -2034,8 +3243,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "silpo-ravencrest-eu",
@@ -2049,8 +3267,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 76626.54,
       "maxPrimaryLast10": 149941.31,
+      "avgDpsRecent3": 76626.54,
+      "maxDpsLast10": 149941.31,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 51.1
+      "stabilityPercent": 51.1,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "slavasalu-silvermoon-eu",
@@ -2064,8 +3291,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "teasick-kazzak-eu",
@@ -2079,8 +3315,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "threataan-silvermoon-eu",
@@ -2094,8 +3339,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "twigsnapper-doomhammer-eu",
@@ -2109,8 +3363,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "umbrak-terokkar-eu",
@@ -2124,8 +3387,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "umbramind-terokkar-eu",
@@ -2139,8 +3411,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "valemor-silvermoon-eu",
@@ -2154,8 +3435,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "yokum-terokkar-eu",
@@ -2169,8 +3459,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 110164.78,
       "maxPrimaryLast10": 138241.95,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 110164.78,
+      "maxHpsLast10": 138241.95,
       "deathsPerPull": 0,
-      "stabilityPercent": 79.69
+      "stabilityPercent": 79.69,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 10,
+        "unknown": 0
+      }
     },
     {
       "slug": "yokusir-terokkar-eu",
@@ -2184,8 +3483,17 @@
       "wipes": 3,
       "avgPrimaryRecent3": 40126.1,
       "maxPrimaryLast10": 54366.8,
+      "avgDpsRecent3": 40126.1,
+      "maxDpsLast10": 54366.8,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 73.81
+      "stabilityPercent": 73.81,
+      "primaryKindCounts": {
+        "dps": 3,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "zanzimon-tarren-mill-eu",
@@ -2199,8 +3507,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "адвокатправа-gordunni-eu",
@@ -2214,8 +3531,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 70288.4,
       "maxPrimaryLast10": 86291.48,
+      "avgDpsRecent3": 70288.4,
+      "maxDpsLast10": 86291.48,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 81.45
+      "stabilityPercent": 81.45,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "бабаияи-eversong-eu",
@@ -2229,8 +3555,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "базрог-gordunni-eu",
@@ -2244,8 +3579,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "бафометище-eversong-eu",
@@ -2259,8 +3603,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "дарадуда-gordunni-eu",
@@ -2274,8 +3627,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 119054.83,
       "maxPrimaryLast10": 135221.19,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 119054.83,
+      "maxHpsLast10": 135221.19,
       "deathsPerPull": 0,
-      "stabilityPercent": 88.04
+      "stabilityPercent": 88.04,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 10,
+        "unknown": 0
+      }
     },
     {
       "slug": "коксбульдог-howling-fjord-eu",
@@ -2289,8 +3651,17 @@
       "wipes": 9,
       "avgPrimaryRecent3": 54456.79,
       "maxPrimaryLast10": 115800.47,
+      "avgDpsRecent3": 54456.79,
+      "maxDpsLast10": 115800.47,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 47.03
+      "stabilityPercent": 47.03,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "корбус-gordunni-eu",
@@ -2304,8 +3675,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "монэлушка-gordunni-eu",
@@ -2319,8 +3699,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "реила-gordunni-eu",
@@ -2334,8 +3723,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "рокталл-soulflayer-eu",
@@ -2349,8 +3747,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "сетария-galakrond-eu",
@@ -2364,8 +3771,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "товстопуз-gordunni-eu",
@@ -2379,8 +3795,17 @@
       "wipes": 0,
       "avgPrimaryRecent3": 0,
       "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "stabilityPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     },
     {
       "slug": "шпаргат-gordunni-eu",
@@ -2394,8 +3819,17 @@
       "wipes": 10,
       "avgPrimaryRecent3": 27567.22,
       "maxPrimaryLast10": 54949.34,
+      "avgDpsRecent3": 27567.22,
+      "maxDpsLast10": 54949.34,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 50.17
+      "stabilityPercent": 50.17,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     }
   ]
 }

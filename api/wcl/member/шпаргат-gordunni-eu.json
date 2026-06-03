@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "updatedAt": "2026-06-03T04:24:46.371Z",
   "character": {
     "name": "Шпаргат",
@@ -21,21 +21,65 @@
     "stabilityPercent": 50.17,
     "consistencyPercent": 29,
     "recent3": {
+      "sampleSize": 3,
       "avgDps": 27567.22,
-      "avgHps": 4132.36,
+      "avgHps": 0,
       "avgPrimary": 27567.22,
       "avgDurationMs": 310552,
       "avgDeaths": 0
     },
     "last10": {
+      "sampleSize": 10,
       "maxDps": 54949.34,
       "minDps": 15936.55,
-      "maxHps": 8161.09,
-      "minHps": 2117.99,
+      "maxHps": 0,
+      "minHps": 0,
       "maxPrimary": 54949.34,
       "minPrimary": 15936.55,
       "maxDurationMs": 376490,
       "minDurationMs": 55939
+    },
+    "byRole": {
+      "healer": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      },
+      "damage": {
+        "pulls": 10,
+        "kills": 0,
+        "wipes": 10,
+        "avgRecent": 27567.22,
+        "maxLast10": 54949.34,
+        "minLast10": 15936.55,
+        "deathsPerPull": 0,
+        "bestPullKey": "v9g64fGF7BZNXJx3:10:Шпаргат:gordunni:eu",
+        "worstPullKey": "xMVazpchm1G7LHCB:15:Шпаргат:gordunni:eu"
+      },
+      "unknown": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      }
+    },
+    "dataQuality": {
+      "pullsWithMatchedDamage": 10,
+      "pullsWithMatchedHealing": 10,
+      "pullsWithRoleInferred": 0,
+      "pullsWithDeaths": 0,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     }
   },
   "pulls": [
@@ -72,7 +116,13 @@
         "dps": 15936.55,
         "hps": 2117.99,
         "primary": 15936.55,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 15936.55,
+        "fightHps": 2117.99,
+        "activeDps": 15936.55,
+        "activeHps": 2117.99,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -90,6 +140,11 @@
         "damageItemLevel": 281,
         "healingItemLevel": 281,
         "matchedBy": "damage:actor-id:25,healing:actor-id:25"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -125,7 +180,13 @@
         "dps": 15936.55,
         "hps": 2117.99,
         "primary": 15936.55,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 15936.55,
+        "fightHps": 2117.99,
+        "activeDps": 15936.55,
+        "activeHps": 2117.99,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -143,6 +204,11 @@
         "damageItemLevel": 281,
         "healingItemLevel": 281,
         "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -178,7 +244,13 @@
         "dps": 50828.55,
         "hps": 8161.09,
         "primary": 50828.55,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 50828.55,
+        "fightHps": 8161.09,
+        "activeDps": 50828.55,
+        "activeHps": 8161.09,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -196,6 +268,11 @@
         "damageItemLevel": 281,
         "healingItemLevel": 281,
         "matchedBy": "damage:actor-id:25,healing:actor-id:25"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -231,7 +308,13 @@
         "dps": 50828.55,
         "hps": 8161.09,
         "primary": 50828.55,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 50828.55,
+        "fightHps": 8161.09,
+        "activeDps": 50828.55,
+        "activeHps": 8161.09,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -249,6 +332,11 @@
         "damageItemLevel": 281,
         "healingItemLevel": 281,
         "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -284,7 +372,13 @@
         "dps": 35940.14,
         "hps": 4968.46,
         "primary": 35940.14,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 35940.14,
+        "fightHps": 4968.46,
+        "activeDps": 35940.14,
+        "activeHps": 4968.46,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -302,6 +396,11 @@
         "damageItemLevel": 281,
         "healingItemLevel": 281,
         "matchedBy": "damage:actor-id:25,healing:actor-id:25"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -337,7 +436,13 @@
         "dps": 35940.14,
         "hps": 4968.46,
         "primary": 35940.14,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 35940.14,
+        "fightHps": 4968.46,
+        "activeDps": 35940.14,
+        "activeHps": 4968.46,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -355,6 +460,11 @@
         "damageItemLevel": 281,
         "healingItemLevel": 281,
         "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -390,7 +500,13 @@
         "dps": 51501.86,
         "hps": 5804.11,
         "primary": 51501.86,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 51501.86,
+        "fightHps": 5804.11,
+        "activeDps": 51501.86,
+        "activeHps": 5804.11,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -408,6 +524,11 @@
         "damageItemLevel": 281,
         "healingItemLevel": 281,
         "matchedBy": "damage:actor-id:25,healing:actor-id:25"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -443,7 +564,13 @@
         "dps": 51501.86,
         "hps": 5804.11,
         "primary": 51501.86,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 51501.86,
+        "fightHps": 5804.11,
+        "activeDps": 51501.86,
+        "activeHps": 5804.11,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -461,6 +588,11 @@
         "damageItemLevel": 281,
         "healingItemLevel": 281,
         "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -496,7 +628,13 @@
         "dps": 54949.34,
         "hps": 5451.12,
         "primary": 54949.34,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 54949.34,
+        "fightHps": 5451.12,
+        "activeDps": 54949.34,
+        "activeHps": 5451.12,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -514,6 +652,11 @@
         "damageItemLevel": 281,
         "healingItemLevel": 281,
         "matchedBy": "damage:actor-id:25,healing:actor-id:25"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -549,7 +692,13 @@
         "dps": 54949.34,
         "hps": 5451.12,
         "primary": 54949.34,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 54949.34,
+        "fightHps": 5451.12,
+        "activeDps": 54949.34,
+        "activeHps": 5451.12,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -567,6 +716,11 @@
         "damageItemLevel": 281,
         "healingItemLevel": 281,
         "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "updatedAt": "2026-06-03T04:24:46.364Z",
   "character": {
     "name": "Asasinas",
@@ -21,6 +21,7 @@
     "stabilityPercent": 0,
     "consistencyPercent": 0,
     "recent3": {
+      "sampleSize": 0,
       "avgDps": 0,
       "avgHps": 0,
       "avgPrimary": 0,
@@ -28,6 +29,7 @@
       "avgDeaths": 0
     },
     "last10": {
+      "sampleSize": 0,
       "maxDps": 0,
       "minDps": 0,
       "maxHps": 0,
@@ -36,6 +38,46 @@
       "minPrimary": 0,
       "maxDurationMs": 0,
       "minDurationMs": 0
+    },
+    "byRole": {
+      "healer": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      },
+      "damage": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      },
+      "unknown": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      }
+    },
+    "dataQuality": {
+      "pullsWithMatchedDamage": 0,
+      "pullsWithMatchedHealing": 0,
+      "pullsWithRoleInferred": 0,
+      "pullsWithDeaths": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
     }
   },
   "pulls": [],

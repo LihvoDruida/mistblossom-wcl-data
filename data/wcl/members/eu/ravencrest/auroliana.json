@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-06-03T04:24:46.362Z",
+  "schemaVersion": 2,
+  "updatedAt": "2026-06-03T14:44:44.528Z",
   "character": {
     "name": "Auroliana",
     "realmSlug": "ravencrest",
@@ -21,21 +21,65 @@
     "stabilityPercent": 42.77,
     "consistencyPercent": 40.42,
     "recent3": {
+      "sampleSize": 3,
       "avgDps": 66386.4,
-      "avgHps": 2488.92,
+      "avgHps": 0,
       "avgPrimary": 66386.4,
       "avgDurationMs": 213419,
       "avgDeaths": 0
     },
     "last10": {
+      "sampleSize": 10,
       "maxDps": 155201.36,
       "minDps": 62727.18,
-      "maxHps": 19639.81,
-      "minHps": 1932.81,
+      "maxHps": 0,
+      "minHps": 0,
       "maxPrimary": 155201.36,
       "minPrimary": 62727.18,
       "maxDurationMs": 226446,
       "minDurationMs": 50176
+    },
+    "byRole": {
+      "healer": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      },
+      "damage": {
+        "pulls": 10,
+        "kills": 0,
+        "wipes": 10,
+        "avgRecent": 66386.4,
+        "maxLast10": 155201.36,
+        "minLast10": 62727.18,
+        "deathsPerPull": 0,
+        "bestPullKey": "8dAPQCWGNMLBjrRg:26:Auroliana:ravencrest:eu",
+        "worstPullKey": "8dAPQCWGNMLBjrRg:28:Auroliana:ravencrest:eu"
+      },
+      "unknown": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      }
+    },
+    "dataQuality": {
+      "pullsWithMatchedDamage": 10,
+      "pullsWithMatchedHealing": 10,
+      "pullsWithRoleInferred": 8,
+      "pullsWithDeaths": 0,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      }
     }
   },
   "pulls": [
@@ -68,11 +112,24 @@
         "type": "Player",
         "subType": "Evoker"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Evoker-Augmentation",
+        "className": "Evoker",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 65766.17,
         "hps": 2509.87,
         "primary": 65766.17,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 65766.17,
+        "fightHps": 2509.87,
+        "activeDps": 72473.89,
+        "activeHps": 3565.8,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -90,6 +147,80 @@
         "damageItemLevel": 285,
         "healingItemLevel": 285,
         "matchedBy": "damage:actor-id:276,healing:actor-id:276"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 32,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 12687748,
+          "endTime": 12903731,
+          "bossPercentage": 57.68,
+          "fightPercentage": 57.68,
+          "averageItemLevel": 284.75
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 215983,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 14204375,
+              "activeTime": 195993,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 215983,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 542090,
+              "activeTime": 152025,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 276,
+          "matchedActorName": "Auroliana",
+          "normalizedKeys": [
+            "auroliana:ravencrest:eu",
+            "auroliana::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Evoker-Augmentation",
+            "className": "Evoker",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps"
+        }
       }
     },
     {
@@ -121,11 +252,24 @@
         "type": "Player",
         "subType": "Evoker"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Evoker-Augmentation",
+        "className": "Evoker",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 66030.52,
         "hps": 1932.81,
         "primary": 66030.52,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 66030.52,
+        "fightHps": 1932.81,
+        "activeDps": 85921.67,
+        "activeHps": 2587.25,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -143,6 +287,80 @@
         "damageItemLevel": 285,
         "healingItemLevel": 285,
         "matchedBy": "damage:actor-id:276,healing:actor-id:276"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 31,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 12358901,
+          "endTime": 12585347,
+          "bossPercentage": 57.65,
+          "fightPercentage": 57.65,
+          "averageItemLevel": 284.75
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 226446,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 14952346,
+              "activeTime": 174023,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 226446,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 437677,
+              "activeTime": 169167,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 276,
+          "matchedActorName": "Auroliana",
+          "normalizedKeys": [
+            "auroliana:ravencrest:eu",
+            "auroliana::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Evoker-Augmentation",
+            "className": "Evoker",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps"
+        }
       }
     },
     {
@@ -174,11 +392,24 @@
         "type": "Player",
         "subType": "Evoker"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Evoker-Augmentation",
+        "className": "Evoker",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 67362.51,
         "hps": 3024.09,
         "primary": 67362.51,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 67362.51,
+        "fightHps": 3024.09,
+        "activeDps": 72967.82,
+        "activeHps": 5005.17,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -196,6 +427,80 @@
         "damageItemLevel": 285,
         "healingItemLevel": 285,
         "matchedBy": "damage:actor-id:276,healing:actor-id:276"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 30,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 12019043,
+          "endTime": 12216872,
+          "bossPercentage": 58.27,
+          "fightPercentage": 58.27,
+          "averageItemLevel": 284.75
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 197829,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 13326258,
+              "activeTime": 182632,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 197829,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 598253,
+              "activeTime": 119527,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 276,
+          "matchedActorName": "Auroliana",
+          "normalizedKeys": [
+            "auroliana:ravencrest:eu",
+            "auroliana::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Evoker-Augmentation",
+            "className": "Evoker",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps"
+        }
       }
     },
     {
@@ -227,11 +532,24 @@
         "type": "Player",
         "subType": "Evoker"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Evoker-Augmentation",
+        "className": "Evoker",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 66396.71,
         "hps": 4962.69,
         "primary": 66396.71,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 66396.71,
+        "fightHps": 4962.69,
+        "activeDps": 67240.86,
+        "activeHps": 5614.75,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -249,6 +567,80 @@
         "damageItemLevel": 285,
         "healingItemLevel": 285,
         "matchedBy": "damage:actor-id:276,healing:actor-id:276"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 29,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 11654930,
+          "endTime": 11877088,
+          "bossPercentage": 56.82,
+          "fightPercentage": 56.82,
+          "averageItemLevel": 284.75
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 222158,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 14750560,
+              "activeTime": 219369,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 222158,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 1102502,
+              "activeTime": 196358,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 276,
+          "matchedActorName": "Auroliana",
+          "normalizedKeys": [
+            "auroliana:ravencrest:eu",
+            "auroliana::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Evoker-Augmentation",
+            "className": "Evoker",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps"
+        }
       }
     },
     {
@@ -280,11 +672,24 @@
         "type": "Player",
         "subType": "Evoker"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Evoker-Augmentation",
+        "className": "Evoker",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 62727.18,
         "hps": 4387.29,
         "primary": 62727.18,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 62727.18,
+        "fightHps": 4387.29,
+        "activeDps": 65358.79,
+        "activeHps": 5267.85,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -302,6 +707,80 @@
         "damageItemLevel": 285,
         "healingItemLevel": 285,
         "matchedBy": "damage:actor-id:276,healing:actor-id:276"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 28,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 11013236,
+          "endTime": 11222405,
+          "bossPercentage": 58.86,
+          "fightPercentage": 58.86,
+          "averageItemLevel": 284.75
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 209169,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 13120582,
+              "activeTime": 200747,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 209169,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 917685,
+              "activeTime": 174205,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 276,
+          "matchedActorName": "Auroliana",
+          "normalizedKeys": [
+            "auroliana:ravencrest:eu",
+            "auroliana::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Evoker-Augmentation",
+            "className": "Evoker",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps"
+        }
       }
     },
     {
@@ -333,11 +812,24 @@
         "type": "Player",
         "subType": "Evoker"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Evoker-Augmentation",
+        "className": "Evoker",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 81875.45,
         "hps": 4912.71,
         "primary": 81875.45,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 81875.45,
+        "fightHps": 4912.71,
+        "activeDps": 104057.85,
+        "activeHps": 6702.38,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -355,6 +847,80 @@
         "damageItemLevel": 285,
         "healingItemLevel": 285,
         "matchedBy": "damage:actor-id:276,healing:actor-id:276"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 27,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 10505830,
+          "endTime": 10675349,
+          "bossPercentage": 62.33,
+          "fightPercentage": 62.33,
+          "averageItemLevel": 284.70001220703125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 169519,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 13879444,
+              "activeTime": 133382,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 169519,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 832797,
+              "activeTime": 124254,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 276,
+          "matchedActorName": "Auroliana",
+          "normalizedKeys": [
+            "auroliana:ravencrest:eu",
+            "auroliana::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Evoker-Augmentation",
+            "className": "Evoker",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps"
+        }
       }
     },
     {
@@ -386,11 +952,24 @@
         "type": "Player",
         "subType": "Evoker"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Evoker-Augmentation",
+        "className": "Evoker",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 155201.36,
         "hps": 18143.64,
         "primary": 155201.36,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 155201.36,
+        "fightHps": 18143.64,
+        "activeDps": 164976.42,
+        "activeHps": 20145.3,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -408,6 +987,80 @@
         "damageItemLevel": 285,
         "healingItemLevel": 285,
         "matchedBy": "damage:actor-id:276,healing:actor-id:276"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 26,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 10348679,
+          "endTime": 10399564,
+          "bossPercentage": 80.53,
+          "fightPercentage": 80.53,
+          "averageItemLevel": 284.70001220703125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 50885,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 7897421,
+              "activeTime": 47870,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 50885,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 923239,
+              "activeTime": 45829,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 276,
+          "matchedActorName": "Auroliana",
+          "normalizedKeys": [
+            "auroliana:ravencrest:eu",
+            "auroliana::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Evoker-Augmentation",
+            "className": "Evoker",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps"
+        }
       }
     },
     {
@@ -439,11 +1092,24 @@
         "type": "Player",
         "subType": "Evoker"
       },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Evoker-Augmentation",
+        "className": "Evoker",
+        "confidence": 0.9
+      },
       "metric": {
         "dps": 119560.55,
         "hps": 19639.81,
         "primary": 119560.55,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 119560.55,
+        "fightHps": 19639.81,
+        "activeDps": 129589.14,
+        "activeHps": 23828.97,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
       },
       "deaths": {
         "character": 0,
@@ -461,6 +1127,80 @@
         "damageItemLevel": 285,
         "healingItemLevel": 285,
         "matchedBy": "damage:actor-id:276,healing:actor-id:276"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "8dAPQCWGNMLBjrRg",
+          "title": "VS / DR / MQD",
+          "startTime": 1780072479016,
+          "endTime": 1780085415076
+        },
+        "fight": {
+          "id": 25,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 10154715,
+          "endTime": 10204891,
+          "bossPercentage": 79.76,
+          "fightPercentage": 79.76,
+          "averageItemLevel": 284.70001220703125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 50176,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 5999070,
+              "activeTime": 46293,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 50176,
+            "matchedBy": "actor-id:276",
+            "matchedEntry": {
+              "id": 276,
+              "name": "Auroliana",
+              "type": "Evoker",
+              "icon": "Evoker-Augmentation",
+              "total": 985447,
+              "activeTime": 41355,
+              "itemLevel": 285,
+              "guid": 172225796
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 276,
+          "matchedActorName": "Auroliana",
+          "normalizedKeys": [
+            "auroliana:ravencrest:eu",
+            "auroliana::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Evoker-Augmentation",
+            "className": "Evoker",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps"
+        }
       }
     },
     {
@@ -496,7 +1236,13 @@
         "dps": 74485.84,
         "hps": 4889.19,
         "primary": 74485.84,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 74485.84,
+        "fightHps": 4889.19,
+        "activeDps": 74485.84,
+        "activeHps": 4889.19,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -514,6 +1260,11 @@
         "damageItemLevel": 284,
         "healingItemLevel": 284,
         "matchedBy": "damage:actor-id:121,healing:actor-id:121"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -549,7 +1300,13 @@
         "dps": 67840.68,
         "hps": 9162.4,
         "primary": 67840.68,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 67840.68,
+        "fightHps": 9162.4,
+        "activeDps": 67840.68,
+        "activeHps": 9162.4,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -567,12 +1324,17 @@
         "damageItemLevel": 284,
         "healingItemLevel": 284,
         "matchedBy": "damage:actor-id:121,healing:actor-id:121"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 10,
     "generatedBy": "wcl-github-api"
   }
 }

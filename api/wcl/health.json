@@ -1,15 +1,14 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-03T12:47:35.504Z",
-  "mode": "incremental-member-batches",
+  "updatedAt": "2026-06-03T14:44:20.882Z",
+  "mode": "incremental-hourly-rolling-members",
   "rosterMembers": 159,
-  "selectedMembers": 0,
-  "updatedMembers": 0,
+  "selectedMembers": 8,
+  "updatedMembers": 8,
   "existingSnapshots": 159,
-  "reportsScanned": 0,
-  "fightsScanned": 0,
-  "wclQueriesUsed": 0,
-  "warnings": [
-    "No members were eligible for refresh. Lower WCL_MIN_MEMBER_REFRESH_AGE_HOURS or run after the next eligibility window if you need a forced scan."
-  ]
+  "reportsScanned": 8,
+  "fightsScanned": 10,
+  "wclQueriesUsed": 32,
+  "wclQueriesRemaining": 13,
+  "warnings": []
 }
