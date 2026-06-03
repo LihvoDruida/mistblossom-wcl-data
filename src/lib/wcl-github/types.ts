@@ -48,12 +48,17 @@ export interface WclActor {
 export interface WclTableEntry {
   id?: number;
   name?: string;
+  server?: string;
   total?: number;
   totalTime?: number;
   activeTime?: number;
   itemLevel?: number;
   guid?: number;
   type?: string;
+  icon?: string;
+  spec?: string;
+  rank?: number;
+  deaths?: number;
   [key: string]: unknown;
 }
 
@@ -77,6 +82,13 @@ export interface PullMetric {
 export interface MemberPullSnapshot {
   key: string;
   reportCode: string;
+  reportTitle?: string;
+  reportStartedAt?: string;
+  reportEndedAt?: string | null;
+  zone?: {
+    id?: number;
+    name?: string;
+  };
   fightId: number;
   url: string;
   status: PullStatus;
@@ -89,6 +101,13 @@ export interface MemberPullSnapshot {
   bossPercentage?: number | null;
   fightPercentage?: number | null;
   averageItemLevel?: number | null;
+  actor?: {
+    id?: number;
+    name?: string;
+    server?: string;
+    type?: string;
+    subType?: string;
+  };
   metric: PullMetric;
   deaths: {
     character: number;
@@ -99,6 +118,13 @@ export interface MemberPullSnapshot {
     healingTotal: number;
     damageActiveTimeMs?: number;
     healingActiveTimeMs?: number;
+    damageTotalTimeMs?: number;
+    healingTotalTimeMs?: number;
+    damageEntryId?: number;
+    healingEntryId?: number;
+    damageItemLevel?: number;
+    healingItemLevel?: number;
+    matchedBy?: string;
   };
 }
 

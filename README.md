@@ -24,6 +24,17 @@ GitHub Actions → Battle.net roster + Warcraft Logs → JSON у цьому repo
 - Записує нормалізовані JSON-снапшоти у repo.
 - Дублює зручні файли в `api/wcl/*`, щоб до них можна було звертатися як до API.
 
+
+## Виправлення DPS/HPS
+
+У версії `1.0.2` збір WCL-таблиць став стійкішим:
+
+- підтримується реальна форма відповіді `table.data.entries`, а не тільки верхній рівень `table.entries`;
+- персонаж зіставляється не лише за `name-realm`, а й за `actor.id` з `masterData.actors`;
+- якщо Warcraft Logs повертає імʼя без realm, використовується fallback `name + region`;
+- порожні actor-only пули без damage/healing/death більше не записуються як `0 DPS / 0 HPS`;
+- у кожному pull додано `actor`, `reportTitle`, `reportStartedAt`, `zone`, `source.damageTotalTimeMs`, `source.healingTotalTimeMs`, `source.matchedBy`.
+
 ## GitHub Secrets
 
 У repo `LihvoDruida/mistblossom-wcl-data` додай тільки ці secrets:

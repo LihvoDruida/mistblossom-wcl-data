@@ -1,7 +1,7 @@
 {
   "name": "mistblossom-wcl-data",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "wcl:refresh": "tsx scripts/wcl-github-refresh.ts",
