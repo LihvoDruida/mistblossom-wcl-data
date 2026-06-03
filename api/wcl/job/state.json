@@ -1,15 +1,193 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T07:42:34.388Z",
+  "updatedAt": "2026-06-03T07:42:32.079Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
     "region": "eu"
   },
-  "totals": {
-    "members": 159,
-    "reportsScanned": 0,
-    "fightsScanned": 0
+  "strategy": "incremental-member-batches",
+  "limits": {
+    "memberBatchSize": 8,
+    "minMemberRefreshAgeHours": 12,
+    "maxFightsPerRun": 10,
+    "maxQueriesPerRun": 45,
+    "requestDelayMs": 350,
+    "maxPullsPerMember": 10,
+    "recentAvgWindow": 3
+  },
+  "batch": {
+    "selected": [],
+    "updated": [],
+    "pending": [],
+    "skippedFresh": [
+      "khayen-terokkar-eu",
+      "azuriel-terokkar-eu",
+      "characternuk-terokkar-eu",
+      "forchun-silvermoon-eu",
+      "frrtiix-draenor-eu",
+      "ironbelly-silvermoon-eu",
+      "kashin-terokkar-eu",
+      "krouli-terokkar-eu",
+      "lightass-terokkar-eu",
+      "lishiy-ragnaros-eu",
+      "lishiyburn-ragnaros-eu",
+      "mafik-terokkar-eu",
+      "odeskiy-tarren-mill-eu",
+      "senig-r-ravencrest-eu",
+      "thortun-silvermoon-eu",
+      "булкрит-gordunni-eu",
+      "мавпита-gordunni-eu",
+      "мистип-gordunni-eu",
+      "пизнаика-gordunni-eu",
+      "тузольд-gordunni-eu",
+      "шриладо-gordunni-eu",
+      "molfar-terokkar-eu",
+      "sonechco-silvermoon-eu",
+      "zanzithor-tarren-mill-eu",
+      "allune-terokkar-eu",
+      "asasinas-terokkar-eu",
+      "berkinzee-ravencrest-eu",
+      "bernstorff-kazzak-eu",
+      "bierdestroer-silvermoon-eu",
+      "blackberry-terokkar-eu",
+      "blackdaddy-tarren-mill-eu",
+      "bullimonk-tarren-mill-eu",
+      "bylik-tarren-mill-eu",
+      "darthkenobi-tarren-mill-eu",
+      "duszi-terokkar-eu",
+      "elderwizard-terokkar-eu",
+      "es-terokkar-eu",
+      "hexxoffender-silvermoon-eu",
+      "hopeblood-doomhammer-eu",
+      "icebloomi-tarren-mill-eu",
+      "illidonson-draenor-eu",
+      "k-silvermoon-eu",
+      "kavunchyk-terokkar-eu",
+      "kensshi-silvermoon-eu",
+      "kokosik-silvermoon-eu",
+      "komatoznic-tarren-mill-eu",
+      "lishiystabb-terokkar-eu",
+      "mexamer-silvermoon-eu",
+      "monkania-terokkar-eu",
+      "ohhchetos-kazzak-eu",
+      "oxydenis-silvermoon-eu",
+      "plaguenjoyer-silvermoon-eu",
+      "prayddh-terokkar-eu",
+      "pwndy-urface-silvermoon-eu",
+      "ragnar-k-burning-legion-eu",
+      "redray-terokkar-eu",
+      "rozbiynik-tarren-mill-eu",
+      "shennai-ravencrest-eu",
+      "skirvir-turalyon-eu",
+      "sneydilio-doomhammer-eu",
+      "straponeero-tarren-mill-eu",
+      "technoihor-silvermoon-eu",
+      "therion-doomhammer-eu",
+      "travka-terokkar-eu",
+      "vertyxa-silvermoon-eu",
+      "vi-n-silvermoon-eu",
+      "vurush-turalyon-eu",
+      "yokuha-terokkar-eu",
+      "алак-goldrinn-eu",
+      "альянсс-gordunni-eu",
+      "амарак-gordunni-eu",
+      "бреинор-galakrond-eu",
+      "галазард-eversong-eu",
+      "графдекот-gordunni-eu",
+      "дедика-eversong-eu",
+      "древесная-blackscar-eu",
+      "душа-blackscar-eu",
+      "дятелэлуны-soulflayer-eu",
+      "зермонг-gordunni-eu",
+      "зулпот-howling-fjord-eu",
+      "кеенди-gordunni-eu",
+      "кибароу-soulflayer-eu",
+      "клеосса-eversong-eu",
+      "корукк-eversong-eu",
+      "котто-gordunni-eu",
+      "кумбар-gordunni-eu",
+      "кхаарн-lich-king-eu",
+      "лилая-grom-eu",
+      "марлая-gordunni-eu",
+      "мелиодас-gordunni-eu",
+      "моннал-gordunni-eu",
+      "нежнаяпулька-eversong-eu",
+      "нежныилок-eversong-eu",
+      "пандашоманко-eversong-eu",
+      "поливалочки-gordunni-eu",
+      "севатар-lich-king-eu",
+      "скяльди-howling-fjord-eu",
+      "щпикачечка-gordunni-eu",
+      "arthasright-tarren-mill-eu",
+      "auroliana-ravencrest-eu",
+      "bloemfontain-silvermoon-eu",
+      "bureviy-doomhammer-eu",
+      "darkleaf-burning-steppes-eu",
+      "daslight-terokkar-eu",
+      "demhunt-terokkar-eu",
+      "freddiedredd-silvermoon-eu",
+      "gaplik-silvermoon-eu",
+      "hlorygole-silvermoon-eu",
+      "inika-silvermoon-eu",
+      "ionax-draenor-eu",
+      "jakeyo-ravencrest-eu",
+      "juz-silvermoon-eu",
+      "kaijuro-silvermoon-eu",
+      "katsyt-terokkar-eu",
+      "krekor-tarren-mill-eu",
+      "marmozetroly-tarren-mill-eu",
+      "mavika-doomhammer-eu",
+      "medvedich-silvermoon-eu",
+      "mercury-tarren-mill-eu",
+      "mistery-draenor-eu",
+      "nanyy-silvermoon-eu",
+      "nebatur-terokkar-eu",
+      "nwlck-ravencrest-eu",
+      "otito-draenor-eu",
+      "panharanir-kazzak-eu",
+      "ponziani-kazzak-eu",
+      "pyatochka-terokkar-eu",
+      "ragnarosh-terokkar-eu",
+      "regin-doomhammer-eu",
+      "riney-doomhammer-eu",
+      "rolemodel-burning-legion-eu",
+      "sandora-doomhammer-eu",
+      "sangvyn-tarren-mill-eu",
+      "shatnyi-terokkar-eu",
+      "shatnyideath-terokkar-eu",
+      "silpo-ravencrest-eu",
+      "slavasalu-silvermoon-eu",
+      "teasick-kazzak-eu",
+      "threataan-silvermoon-eu",
+      "twigsnapper-doomhammer-eu",
+      "umbrak-terokkar-eu",
+      "umbramind-terokkar-eu",
+      "valemor-silvermoon-eu",
+      "yokum-terokkar-eu",
+      "yokusir-terokkar-eu",
+      "zanzimon-tarren-mill-eu",
+      "адвокатправа-gordunni-eu",
+      "бабаияи-eversong-eu",
+      "базрог-gordunni-eu",
+      "бафометище-eversong-eu",
+      "дарадуда-gordunni-eu",
+      "коксбульдог-howling-fjord-eu",
+      "корбус-gordunni-eu",
+      "монэлушка-gordunni-eu",
+      "реила-gordunni-eu",
+      "рокталл-soulflayer-eu",
+      "сетария-galakrond-eu",
+      "товстопуз-gordunni-eu",
+      "шпаргат-gordunni-eu"
+    ],
+    "missingSnapshots": []
+  },
+  "roster": {
+    "total": 159,
+    "withSnapshots": 159,
+    "pending": 0,
+    "skippedFresh": 159
   },
   "members": [
     {
@@ -18,14 +196,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 0,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 46199.33,
-      "maxPrimaryLast10": 132225.53,
-      "deathsPerPull": 0,
-      "stabilityPercent": 34.94
+      "status": "fresh"
     },
     {
       "slug": "azuriel-terokkar-eu",
@@ -33,14 +209,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "characternuk-terokkar-eu",
@@ -48,14 +222,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "forchun-silvermoon-eu",
@@ -63,14 +235,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 40330.46,
-      "maxPrimaryLast10": 59710.42,
-      "deathsPerPull": 0,
-      "stabilityPercent": 67.54
+      "status": "fresh"
     },
     {
       "slug": "frrtiix-draenor-eu",
@@ -78,14 +248,12 @@
       "realmSlug": "draenor",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 10,
       "kills": 2,
       "wipes": 8,
-      "avgPrimaryRecent3": 45516.33,
-      "maxPrimaryLast10": 120922.22,
-      "deathsPerPull": 0,
-      "stabilityPercent": 37.64
+      "status": "fresh"
     },
     {
       "slug": "ironbelly-silvermoon-eu",
@@ -93,14 +261,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "kashin-terokkar-eu",
@@ -108,14 +274,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "krouli-terokkar-eu",
@@ -123,14 +287,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "lightass-terokkar-eu",
@@ -138,14 +300,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 10,
       "kills": 3,
       "wipes": 7,
-      "avgPrimaryRecent3": 87836.99,
-      "maxPrimaryLast10": 101236.45,
-      "deathsPerPull": 0,
-      "stabilityPercent": 86.76
+      "status": "fresh"
     },
     {
       "slug": "lishiy-ragnaros-eu",
@@ -153,14 +313,12 @@
       "realmSlug": "ragnaros",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "lishiyburn-ragnaros-eu",
@@ -168,14 +326,12 @@
       "realmSlug": "ragnaros",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 10,
       "kills": 2,
       "wipes": 8,
-      "avgPrimaryRecent3": 46906.83,
-      "maxPrimaryLast10": 58510.27,
-      "deathsPerPull": 0,
-      "stabilityPercent": 80.17
+      "status": "fresh"
     },
     {
       "slug": "mafik-terokkar-eu",
@@ -183,14 +339,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 81853.9,
-      "maxPrimaryLast10": 175573.53,
-      "deathsPerPull": 0,
-      "stabilityPercent": 46.62
+      "status": "fresh"
     },
     {
       "slug": "odeskiy-tarren-mill-eu",
@@ -198,14 +352,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "senig-r-ravencrest-eu",
@@ -213,14 +365,12 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.363Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "thortun-silvermoon-eu",
@@ -228,14 +378,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "булкрит-gordunni-eu",
@@ -243,14 +391,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.369Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.369Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.369Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 83198.53,
-      "maxPrimaryLast10": 148975.61,
-      "deathsPerPull": 0,
-      "stabilityPercent": 55.85
+      "status": "fresh"
     },
     {
       "slug": "мавпита-gordunni-eu",
@@ -258,14 +404,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.372Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.372Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 87339.48,
-      "maxPrimaryLast10": 104197.76,
-      "deathsPerPull": 0,
-      "stabilityPercent": 83.82
+      "status": "fresh"
     },
     {
       "slug": "мистип-gordunni-eu",
@@ -273,14 +417,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.372Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.372Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "пизнаика-gordunni-eu",
@@ -288,14 +430,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 58962.88,
-      "maxPrimaryLast10": 66121.49,
-      "deathsPerPull": 0,
-      "stabilityPercent": 89.17
+      "status": "fresh"
     },
     {
       "slug": "тузольд-gordunni-eu",
@@ -303,14 +443,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 60662.06,
-      "maxPrimaryLast10": 90936.54,
-      "deathsPerPull": 0,
-      "stabilityPercent": 66.71
+      "status": "fresh"
     },
     {
       "slug": "шриладо-gordunni-eu",
@@ -318,14 +456,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-03T04:24:46.372Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.372Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 103494.21,
-      "maxPrimaryLast10": 127235.58,
-      "deathsPerPull": 0,
-      "stabilityPercent": 81.34
+      "status": "fresh"
     },
     {
       "slug": "molfar-terokkar-eu",
@@ -333,14 +469,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 2,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 8,
       "kills": 0,
       "wipes": 8,
-      "avgPrimaryRecent3": 70147.4,
-      "maxPrimaryLast10": 80443.67,
-      "deathsPerPull": 0,
-      "stabilityPercent": 87.2
+      "status": "fresh"
     },
     {
       "slug": "sonechco-silvermoon-eu",
@@ -348,14 +482,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 2,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 10,
       "kills": 2,
       "wipes": 8,
-      "avgPrimaryRecent3": 32972.19,
-      "maxPrimaryLast10": 49870.04,
-      "deathsPerPull": 0,
-      "stabilityPercent": 66.12
+      "status": "fresh"
     },
     {
       "slug": "zanzithor-tarren-mill-eu",
@@ -363,14 +495,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 2,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 68240.01,
-      "maxPrimaryLast10": 110139.47,
-      "deathsPerPull": 0,
-      "stabilityPercent": 61.96
+      "status": "fresh"
     },
     {
       "slug": "allune-terokkar-eu",
@@ -378,14 +508,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "asasinas-terokkar-eu",
@@ -393,14 +521,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "berkinzee-ravencrest-eu",
@@ -408,14 +534,12 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.363Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "bernstorff-kazzak-eu",
@@ -423,14 +547,12 @@
       "realmSlug": "kazzak",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "bierdestroer-silvermoon-eu",
@@ -438,14 +560,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "blackberry-terokkar-eu",
@@ -453,14 +573,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "blackdaddy-tarren-mill-eu",
@@ -468,14 +586,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "bullimonk-tarren-mill-eu",
@@ -483,14 +599,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.363Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 70822.61,
-      "maxPrimaryLast10": 84512.88,
-      "deathsPerPull": 0,
-      "stabilityPercent": 83.8
+      "status": "fresh"
     },
     {
       "slug": "bylik-tarren-mill-eu",
@@ -498,14 +612,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 32186.06,
-      "maxPrimaryLast10": 148027.34,
-      "deathsPerPull": 0,
-      "stabilityPercent": 21.74
+      "status": "fresh"
     },
     {
       "slug": "darthkenobi-tarren-mill-eu",
@@ -513,14 +625,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "duszi-terokkar-eu",
@@ -528,14 +638,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "elderwizard-terokkar-eu",
@@ -543,14 +651,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 91081.48,
-      "maxPrimaryLast10": 116678.94,
-      "deathsPerPull": 0,
-      "stabilityPercent": 78.06
+      "status": "fresh"
     },
     {
       "slug": "es-terokkar-eu",
@@ -558,14 +664,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "hexxoffender-silvermoon-eu",
@@ -573,14 +677,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "hopeblood-doomhammer-eu",
@@ -588,14 +690,12 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "icebloomi-tarren-mill-eu",
@@ -603,14 +703,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "illidonson-draenor-eu",
@@ -618,284 +716,12 @@
       "realmSlug": "draenor",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 63660.8,
-      "maxPrimaryLast10": 65313.51,
-      "deathsPerPull": 0,
-      "stabilityPercent": 97.47
-    },
-    {
-      "slug": "kavunchyk-terokkar-eu",
-      "name": "Kavunchyk",
-      "realmSlug": "terokkar",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "kensshi-silvermoon-eu",
-      "name": "Kensshi",
-      "realmSlug": "silvermoon",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "kokosik-silvermoon-eu",
-      "name": "Kokosik",
-      "realmSlug": "silvermoon",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
-      "pullsStored": 10,
-      "kills": 1,
-      "wipes": 9,
-      "avgPrimaryRecent3": 93820.18,
-      "maxPrimaryLast10": 123755.8,
-      "deathsPerPull": 0,
-      "stabilityPercent": 75.81
-    },
-    {
-      "slug": "komatoznic-tarren-mill-eu",
-      "name": "Komatoznic",
-      "realmSlug": "tarren-mill",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "lishiystabb-terokkar-eu",
-      "name": "Lishiystabb",
-      "realmSlug": "terokkar",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "mexamer-silvermoon-eu",
-      "name": "Mexamer",
-      "realmSlug": "silvermoon",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "monkania-terokkar-eu",
-      "name": "Monkania",
-      "realmSlug": "terokkar",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "ohhchetos-kazzak-eu",
-      "name": "Ohhchetos",
-      "realmSlug": "kazzak",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "oxydenis-silvermoon-eu",
-      "name": "Oxydenis",
-      "realmSlug": "silvermoon",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
-      "pullsStored": 10,
-      "kills": 1,
-      "wipes": 9,
-      "avgPrimaryRecent3": 73848.62,
-      "maxPrimaryLast10": 161690.54,
-      "deathsPerPull": 0,
-      "stabilityPercent": 45.67
-    },
-    {
-      "slug": "plaguenjoyer-silvermoon-eu",
-      "name": "Plaguenjoyer",
-      "realmSlug": "silvermoon",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "prayddh-terokkar-eu",
-      "name": "Prayddh",
-      "realmSlug": "terokkar",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "pwndy-urface-silvermoon-eu",
-      "name": "Pwndyøurface",
-      "realmSlug": "silvermoon",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "ragnar-k-burning-legion-eu",
-      "name": "Ragnarøøk",
-      "realmSlug": "burning-legion",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "redray-terokkar-eu",
-      "name": "Redray",
-      "realmSlug": "terokkar",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
-    },
-    {
-      "slug": "rozbiynik-tarren-mill-eu",
-      "name": "Rozbiynik",
-      "realmSlug": "tarren-mill",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
-      "pullsStored": 10,
-      "kills": 1,
-      "wipes": 9,
-      "avgPrimaryRecent3": 80947.27,
-      "maxPrimaryLast10": 188469.8,
-      "deathsPerPull": 0,
-      "stabilityPercent": 42.95
-    },
-    {
-      "slug": "shennai-ravencrest-eu",
-      "name": "Shennái",
-      "realmSlug": "ravencrest",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
-      "pullsStored": 7,
-      "kills": 0,
-      "wipes": 7,
-      "avgPrimaryRecent3": 26902.58,
-      "maxPrimaryLast10": 36093.68,
-      "deathsPerPull": 0,
-      "stabilityPercent": 74.54
-    },
-    {
-      "slug": "skirvir-turalyon-eu",
-      "name": "Skirvir",
-      "realmSlug": "turalyon",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.366Z",
-      "pullsStored": 10,
-      "kills": 1,
-      "wipes": 9,
-      "avgPrimaryRecent3": 76673.75,
-      "maxPrimaryLast10": 123630.26,
-      "deathsPerPull": 0,
-      "stabilityPercent": 62.02
-    },
-    {
-      "slug": "sneydilio-doomhammer-eu",
-      "name": "Sneydilio",
-      "realmSlug": "doomhammer",
-      "region": "eu",
-      "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
-      "pullsStored": 0,
-      "kills": 0,
-      "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "k-silvermoon-eu",
@@ -903,14 +729,246 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 51968.25,
-      "maxPrimaryLast10": 76007.62,
-      "deathsPerPull": 0,
-      "stabilityPercent": 68.37
+      "status": "fresh"
+    },
+    {
+      "slug": "kavunchyk-terokkar-eu",
+      "name": "Kavunchyk",
+      "realmSlug": "terokkar",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "kensshi-silvermoon-eu",
+      "name": "Kensshi",
+      "realmSlug": "silvermoon",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "kokosik-silvermoon-eu",
+      "name": "Kokosik",
+      "realmSlug": "silvermoon",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "pullsStored": 10,
+      "kills": 1,
+      "wipes": 9,
+      "status": "fresh"
+    },
+    {
+      "slug": "komatoznic-tarren-mill-eu",
+      "name": "Komatoznic",
+      "realmSlug": "tarren-mill",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "lishiystabb-terokkar-eu",
+      "name": "Lishiystabb",
+      "realmSlug": "terokkar",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "mexamer-silvermoon-eu",
+      "name": "Mexamer",
+      "realmSlug": "silvermoon",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "monkania-terokkar-eu",
+      "name": "Monkania",
+      "realmSlug": "terokkar",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "ohhchetos-kazzak-eu",
+      "name": "Ohhchetos",
+      "realmSlug": "kazzak",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "oxydenis-silvermoon-eu",
+      "name": "Oxydenis",
+      "realmSlug": "silvermoon",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "pullsStored": 10,
+      "kills": 1,
+      "wipes": 9,
+      "status": "fresh"
+    },
+    {
+      "slug": "plaguenjoyer-silvermoon-eu",
+      "name": "Plaguenjoyer",
+      "realmSlug": "silvermoon",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "prayddh-terokkar-eu",
+      "name": "Prayddh",
+      "realmSlug": "terokkar",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "pwndy-urface-silvermoon-eu",
+      "name": "Pwndyøurface",
+      "realmSlug": "silvermoon",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "ragnar-k-burning-legion-eu",
+      "name": "Ragnarøøk",
+      "realmSlug": "burning-legion",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "redray-terokkar-eu",
+      "name": "Redray",
+      "realmSlug": "terokkar",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
+    },
+    {
+      "slug": "rozbiynik-tarren-mill-eu",
+      "name": "Rozbiynik",
+      "realmSlug": "tarren-mill",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
+      "pullsStored": 10,
+      "kills": 1,
+      "wipes": 9,
+      "status": "fresh"
+    },
+    {
+      "slug": "shennai-ravencrest-eu",
+      "name": "Shennái",
+      "realmSlug": "ravencrest",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
+      "pullsStored": 7,
+      "kills": 0,
+      "wipes": 7,
+      "status": "fresh"
+    },
+    {
+      "slug": "skirvir-turalyon-eu",
+      "name": "Skirvir",
+      "realmSlug": "turalyon",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.366Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.366Z",
+      "pullsStored": 10,
+      "kills": 1,
+      "wipes": 9,
+      "status": "fresh"
+    },
+    {
+      "slug": "sneydilio-doomhammer-eu",
+      "name": "Sneydilio",
+      "realmSlug": "doomhammer",
+      "region": "eu",
+      "rank": 3,
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "status": "fresh"
     },
     {
       "slug": "straponeero-tarren-mill-eu",
@@ -918,14 +976,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "technoihor-silvermoon-eu",
@@ -933,14 +989,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "therion-doomhammer-eu",
@@ -948,14 +1002,12 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 10,
       "kills": 3,
       "wipes": 7,
-      "avgPrimaryRecent3": 16478.67,
-      "maxPrimaryLast10": 46151.22,
-      "deathsPerPull": 0,
-      "stabilityPercent": 35.71
+      "status": "fresh"
     },
     {
       "slug": "travka-terokkar-eu",
@@ -963,14 +1015,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "vertyxa-silvermoon-eu",
@@ -978,14 +1028,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "vi-n-silvermoon-eu",
@@ -993,14 +1041,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "vurush-turalyon-eu",
@@ -1008,14 +1054,12 @@
       "realmSlug": "turalyon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 10,
       "kills": 4,
       "wipes": 6,
-      "avgPrimaryRecent3": 67117.94,
-      "maxPrimaryLast10": 105434.76,
-      "deathsPerPull": 0,
-      "stabilityPercent": 63.66
+      "status": "fresh"
     },
     {
       "slug": "yokuha-terokkar-eu",
@@ -1023,14 +1067,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 24326.98,
-      "maxPrimaryLast10": 45811.35,
-      "deathsPerPull": 0,
-      "stabilityPercent": 53.1
+      "status": "fresh"
     },
     {
       "slug": "алак-goldrinn-eu",
@@ -1038,14 +1080,12 @@
       "realmSlug": "goldrinn",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "альянсс-gordunni-eu",
@@ -1053,14 +1093,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "амарак-gordunni-eu",
@@ -1068,14 +1106,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.369Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.369Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.369Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "бреинор-galakrond-eu",
@@ -1083,14 +1119,12 @@
       "realmSlug": "galakrond",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.362Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.362Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.362Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "галазард-eversong-eu",
@@ -1098,14 +1132,12 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 5,
       "kills": 1,
       "wipes": 4,
-      "avgPrimaryRecent3": 15515.61,
-      "maxPrimaryLast10": 27220.02,
-      "deathsPerPull": 0,
-      "stabilityPercent": 57
+      "status": "fresh"
     },
     {
       "slug": "графдекот-gordunni-eu",
@@ -1113,14 +1145,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.369Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.369Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.369Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 75837.08,
-      "maxPrimaryLast10": 113466.91,
-      "deathsPerPull": 0,
-      "stabilityPercent": 66.84
+      "status": "fresh"
     },
     {
       "slug": "дедика-eversong-eu",
@@ -1128,14 +1158,12 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 13801.07,
-      "maxPrimaryLast10": 22607.19,
-      "deathsPerPull": 0,
-      "stabilityPercent": 61.05
+      "status": "fresh"
     },
     {
       "slug": "древесная-blackscar-eu",
@@ -1143,14 +1171,12 @@
       "realmSlug": "blackscar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.371Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.371Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.371Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 118154.41,
-      "maxPrimaryLast10": 129175.1,
-      "deathsPerPull": 0,
-      "stabilityPercent": 91.47
+      "status": "fresh"
     },
     {
       "slug": "душа-blackscar-eu",
@@ -1158,14 +1184,12 @@
       "realmSlug": "blackscar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.372Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.372Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "дятелэлуны-soulflayer-eu",
@@ -1173,14 +1197,12 @@
       "realmSlug": "soulflayer",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "зермонг-gordunni-eu",
@@ -1188,14 +1210,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.369Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.369Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.369Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "зулпот-howling-fjord-eu",
@@ -1203,14 +1223,12 @@
       "realmSlug": "howling-fjord",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 10,
       "kills": 2,
       "wipes": 8,
-      "avgPrimaryRecent3": 66418.25,
-      "maxPrimaryLast10": 85881.63,
-      "deathsPerPull": 0,
-      "stabilityPercent": 77.34
+      "status": "fresh"
     },
     {
       "slug": "кеенди-gordunni-eu",
@@ -1218,14 +1236,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.369Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.369Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.369Z",
       "pullsStored": 10,
       "kills": 2,
       "wipes": 8,
-      "avgPrimaryRecent3": 23609.64,
-      "maxPrimaryLast10": 32335.65,
-      "deathsPerPull": 0,
-      "stabilityPercent": 73.01
+      "status": "fresh"
     },
     {
       "slug": "кибароу-soulflayer-eu",
@@ -1233,14 +1249,12 @@
       "realmSlug": "soulflayer",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.369Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.369Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.369Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "клеосса-eversong-eu",
@@ -1248,14 +1262,12 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 36752.61,
-      "maxPrimaryLast10": 38709.72,
-      "deathsPerPull": 0,
-      "stabilityPercent": 94.94
+      "status": "fresh"
     },
     {
       "slug": "корукк-eversong-eu",
@@ -1263,14 +1275,12 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 75075.6,
-      "maxPrimaryLast10": 104574.89,
-      "deathsPerPull": 0,
-      "stabilityPercent": 71.79
+      "status": "fresh"
     },
     {
       "slug": "котто-gordunni-eu",
@@ -1278,14 +1288,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "кумбар-gordunni-eu",
@@ -1293,14 +1301,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "кхаарн-lich-king-eu",
@@ -1308,14 +1314,12 @@
       "realmSlug": "lich-king",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.372Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.372Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 47495.17,
-      "maxPrimaryLast10": 52396,
-      "deathsPerPull": 0,
-      "stabilityPercent": 90.65
+      "status": "fresh"
     },
     {
       "slug": "лилая-grom-eu",
@@ -1323,14 +1327,12 @@
       "realmSlug": "grom",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 10,
       "kills": 3,
       "wipes": 7,
-      "avgPrimaryRecent3": 25393.02,
-      "maxPrimaryLast10": 55360.4,
-      "deathsPerPull": 0,
-      "stabilityPercent": 45.87
+      "status": "fresh"
     },
     {
       "slug": "марлая-gordunni-eu",
@@ -1338,14 +1340,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.372Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.372Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 37682.57,
-      "maxPrimaryLast10": 101328.42,
-      "deathsPerPull": 0,
-      "stabilityPercent": 37.19
+      "status": "fresh"
     },
     {
       "slug": "мелиодас-gordunni-eu",
@@ -1353,14 +1353,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "моннал-gordunni-eu",
@@ -1368,14 +1366,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.369Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.369Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.369Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 26714.36,
-      "maxPrimaryLast10": 40505.46,
-      "deathsPerPull": 0,
-      "stabilityPercent": 65.95
+      "status": "fresh"
     },
     {
       "slug": "нежнаяпулька-eversong-eu",
@@ -1383,14 +1379,12 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 42691.44,
-      "maxPrimaryLast10": 60408.17,
-      "deathsPerPull": 0,
-      "stabilityPercent": 70.67
+      "status": "fresh"
     },
     {
       "slug": "нежныилок-eversong-eu",
@@ -1398,14 +1392,12 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "пандашоманко-eversong-eu",
@@ -1413,14 +1405,12 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 97502.94,
-      "maxPrimaryLast10": 102417.3,
-      "deathsPerPull": 0,
-      "stabilityPercent": 95.2
+      "status": "fresh"
     },
     {
       "slug": "поливалочки-gordunni-eu",
@@ -1428,14 +1418,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "севатар-lich-king-eu",
@@ -1443,14 +1431,12 @@
       "realmSlug": "lich-king",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 10,
       "kills": 3,
       "wipes": 7,
-      "avgPrimaryRecent3": 50471.1,
-      "maxPrimaryLast10": 65853.19,
-      "deathsPerPull": 0,
-      "stabilityPercent": 76.64
+      "status": "fresh"
     },
     {
       "slug": "скяльди-howling-fjord-eu",
@@ -1458,14 +1444,12 @@
       "realmSlug": "howling-fjord",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.363Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "щпикачечка-gordunni-eu",
@@ -1473,14 +1457,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 8,
       "kills": 0,
       "wipes": 8,
-      "avgPrimaryRecent3": 29878.27,
-      "maxPrimaryLast10": 44981.38,
-      "deathsPerPull": 0,
-      "stabilityPercent": 66.42
+      "status": "fresh"
     },
     {
       "slug": "arthasright-tarren-mill-eu",
@@ -1488,14 +1470,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 88820.74,
-      "maxPrimaryLast10": 179870.64,
-      "deathsPerPull": 0,
-      "stabilityPercent": 49.38
+      "status": "fresh"
     },
     {
       "slug": "auroliana-ravencrest-eu",
@@ -1503,14 +1483,12 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.362Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.362Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.362Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 66386.4,
-      "maxPrimaryLast10": 155201.36,
-      "deathsPerPull": 0,
-      "stabilityPercent": 42.77
+      "status": "fresh"
     },
     {
       "slug": "bloemfontain-silvermoon-eu",
@@ -1518,14 +1496,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "bureviy-doomhammer-eu",
@@ -1533,14 +1509,12 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 59765.57,
-      "maxPrimaryLast10": 94941.71,
-      "deathsPerPull": 0,
-      "stabilityPercent": 62.95
+      "status": "fresh"
     },
     {
       "slug": "darkleaf-burning-steppes-eu",
@@ -1548,14 +1522,12 @@
       "realmSlug": "burning-steppes",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "daslight-terokkar-eu",
@@ -1563,14 +1535,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "demhunt-terokkar-eu",
@@ -1578,14 +1548,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "freddiedredd-silvermoon-eu",
@@ -1593,14 +1561,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "gaplik-silvermoon-eu",
@@ -1608,14 +1574,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "hlorygole-silvermoon-eu",
@@ -1623,14 +1587,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "inika-silvermoon-eu",
@@ -1638,14 +1600,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "ionax-draenor-eu",
@@ -1653,14 +1613,12 @@
       "realmSlug": "draenor",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "jakeyo-ravencrest-eu",
@@ -1668,14 +1626,12 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.363Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "juz-silvermoon-eu",
@@ -1683,14 +1639,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "kaijuro-silvermoon-eu",
@@ -1698,14 +1652,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "katsyt-terokkar-eu",
@@ -1713,14 +1665,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "krekor-tarren-mill-eu",
@@ -1728,14 +1678,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 44548.47,
-      "maxPrimaryLast10": 101616.78,
-      "deathsPerPull": 0,
-      "stabilityPercent": 43.84
+      "status": "fresh"
     },
     {
       "slug": "marmozetroly-tarren-mill-eu",
@@ -1743,14 +1691,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 87175.59,
-      "maxPrimaryLast10": 160183.09,
-      "deathsPerPull": 0,
-      "stabilityPercent": 54.42
+      "status": "fresh"
     },
     {
       "slug": "mavika-doomhammer-eu",
@@ -1758,14 +1704,12 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "medvedich-silvermoon-eu",
@@ -1773,14 +1717,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "mercury-tarren-mill-eu",
@@ -1788,14 +1730,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "mistery-draenor-eu",
@@ -1803,14 +1743,12 @@
       "realmSlug": "draenor",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "nanyy-silvermoon-eu",
@@ -1818,14 +1756,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "nebatur-terokkar-eu",
@@ -1833,14 +1769,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "nwlck-ravencrest-eu",
@@ -1848,14 +1782,12 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.363Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "otito-draenor-eu",
@@ -1863,14 +1795,12 @@
       "realmSlug": "draenor",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.366Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.366Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.366Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 41911.55,
-      "maxPrimaryLast10": 65842.54,
-      "deathsPerPull": 0,
-      "stabilityPercent": 63.65
+      "status": "fresh"
     },
     {
       "slug": "panharanir-kazzak-eu",
@@ -1878,14 +1808,12 @@
       "realmSlug": "kazzak",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "ponziani-kazzak-eu",
@@ -1893,14 +1821,12 @@
       "realmSlug": "kazzak",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "pyatochka-terokkar-eu",
@@ -1908,14 +1834,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 10,
       "kills": 3,
       "wipes": 7,
-      "avgPrimaryRecent3": 30759.5,
-      "maxPrimaryLast10": 60690.55,
-      "deathsPerPull": 0,
-      "stabilityPercent": 50.68
+      "status": "fresh"
     },
     {
       "slug": "ragnarosh-terokkar-eu",
@@ -1923,14 +1847,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "regin-doomhammer-eu",
@@ -1938,14 +1860,12 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "riney-doomhammer-eu",
@@ -1953,14 +1873,12 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "rolemodel-burning-legion-eu",
@@ -1968,14 +1886,12 @@
       "realmSlug": "burning-legion",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.365Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.365Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.365Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "sandora-doomhammer-eu",
@@ -1983,14 +1899,12 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.372Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.372Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "sangvyn-tarren-mill-eu",
@@ -1998,14 +1912,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "shatnyi-terokkar-eu",
@@ -2013,14 +1925,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 18961.95,
-      "maxPrimaryLast10": 29641.94,
-      "deathsPerPull": 0,
-      "stabilityPercent": 63.97
+      "status": "fresh"
     },
     {
       "slug": "shatnyideath-terokkar-eu",
@@ -2028,14 +1938,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "silpo-ravencrest-eu",
@@ -2043,14 +1951,12 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.363Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 76626.54,
-      "maxPrimaryLast10": 149941.31,
-      "deathsPerPull": 0,
-      "stabilityPercent": 51.1
+      "status": "fresh"
     },
     {
       "slug": "slavasalu-silvermoon-eu",
@@ -2058,14 +1964,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "teasick-kazzak-eu",
@@ -2073,14 +1977,12 @@
       "realmSlug": "kazzak",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "threataan-silvermoon-eu",
@@ -2088,14 +1990,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "twigsnapper-doomhammer-eu",
@@ -2103,14 +2003,12 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.366Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.366Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.366Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "umbrak-terokkar-eu",
@@ -2118,14 +2016,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "umbramind-terokkar-eu",
@@ -2133,14 +2029,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "valemor-silvermoon-eu",
@@ -2148,14 +2042,12 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "yokum-terokkar-eu",
@@ -2163,14 +2055,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 110164.78,
-      "maxPrimaryLast10": 138241.95,
-      "deathsPerPull": 0,
-      "stabilityPercent": 79.69
+      "status": "fresh"
     },
     {
       "slug": "yokusir-terokkar-eu",
@@ -2178,14 +2068,12 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 3,
       "kills": 0,
       "wipes": 3,
-      "avgPrimaryRecent3": 40126.1,
-      "maxPrimaryLast10": 54366.8,
-      "deathsPerPull": 0,
-      "stabilityPercent": 73.81
+      "status": "fresh"
     },
     {
       "slug": "zanzimon-tarren-mill-eu",
@@ -2193,14 +2081,12 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.364Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.364Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.364Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "адвокатправа-gordunni-eu",
@@ -2208,14 +2094,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.371Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.371Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.371Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 70288.4,
-      "maxPrimaryLast10": 86291.48,
-      "deathsPerPull": 0,
-      "stabilityPercent": 81.45
+      "status": "fresh"
     },
     {
       "slug": "бабаияи-eversong-eu",
@@ -2223,14 +2107,12 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.372Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.372Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "базрог-gordunni-eu",
@@ -2238,14 +2120,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "бафометище-eversong-eu",
@@ -2253,14 +2133,12 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "дарадуда-gordunni-eu",
@@ -2268,14 +2146,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.371Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.371Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.371Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 119054.83,
-      "maxPrimaryLast10": 135221.19,
-      "deathsPerPull": 0,
-      "stabilityPercent": 88.04
+      "status": "fresh"
     },
     {
       "slug": "коксбульдог-howling-fjord-eu",
@@ -2283,14 +2159,12 @@
       "realmSlug": "howling-fjord",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.367Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.367Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.367Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 54456.79,
-      "maxPrimaryLast10": 115800.47,
-      "deathsPerPull": 0,
-      "stabilityPercent": 47.03
+      "status": "fresh"
     },
     {
       "slug": "корбус-gordunni-eu",
@@ -2298,14 +2172,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.370Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.370Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.370Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "монэлушка-gordunni-eu",
@@ -2313,14 +2185,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.369Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.369Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.369Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "реила-gordunni-eu",
@@ -2328,14 +2198,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.372Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.372Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "рокталл-soulflayer-eu",
@@ -2343,14 +2211,12 @@
       "realmSlug": "soulflayer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.368Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "сетария-galakrond-eu",
@@ -2358,14 +2224,12 @@
       "realmSlug": "galakrond",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.363Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.363Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.363Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "товстопуз-gordunni-eu",
@@ -2373,14 +2237,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.372Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.372Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "avgPrimaryRecent3": 0,
-      "maxPrimaryLast10": 0,
-      "deathsPerPull": 0,
-      "stabilityPercent": 0
+      "status": "fresh"
     },
     {
       "slug": "шпаргат-gordunni-eu",
@@ -2388,14 +2250,12 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-03T04:24:46.371Z",
+      "lastUpdatedAt": "2026-06-03T04:24:46.371Z",
+      "nextEligibleAt": "2026-06-03T16:24:46.371Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 27567.22,
-      "maxPrimaryLast10": 54949.34,
-      "deathsPerPull": 0,
-      "stabilityPercent": 50.17
+      "status": "fresh"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T04:24:46.379Z",
+  "updatedAt": "2026-06-03T07:42:34.388Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -8,8 +8,8 @@
   },
   "totals": {
     "members": 159,
-    "reportsScanned": 24,
-    "fightsScanned": 309
+    "reportsScanned": 0,
+    "fightsScanned": 0
   },
   "members": [
     {
