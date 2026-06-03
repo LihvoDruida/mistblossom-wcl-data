@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.561Z",
+  "updatedAt": "2026-06-03T02:05:14.246Z",
   "character": {
     "name": "Клеосса",
     "realmSlug": "eversong",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 10,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 10,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 205,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 94.94,
+    "consistencyPercent": 65.67,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 36752.61,
+      "avgHps": 5212.7,
+      "avgPrimary": 36752.61,
+      "avgDurationMs": 209015,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 38709.72,
+      "minDps": 25421.57,
+      "maxHps": 5842.58,
+      "minHps": 4582.96,
+      "maxPrimary": 38709.72,
+      "minPrimary": 25421.57,
+      "maxDurationMs": 220822,
+      "minDurationMs": 61569
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "jy63H8ZCtfJaG29g:16:Клеосса:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=16",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:59:09.146Z",
+      "durationMs": 192659,
+      "bossPercentage": 75.12,
+      "fightPercentage": 47.85,
+      "averageItemLevel": 271.6000061035156,
+      "actor": {
+        "id": 14,
+        "name": "Клеосса",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 38709.72,
+        "hps": 5338.55,
+        "primary": 38709.72,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 7457775,
+        "healingTotal": 1028519,
+        "damageActiveTimeMs": 179571,
+        "healingActiveTimeMs": 171070,
+        "damageTotalTimeMs": 192659,
+        "healingTotalTimeMs": 192659,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:15:Клеосса:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=15",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:48:48.089Z",
+      "durationMs": 220822,
+      "bossPercentage": 56.39,
+      "fightPercentage": 40.36,
+      "averageItemLevel": 272.1499938964844,
+      "actor": {
+        "id": 14,
+        "name": "Клеосса",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 35541.29,
+        "hps": 5511.52,
+        "primary": 35541.29,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 7848298,
+        "healingTotal": 1217065,
+        "damageActiveTimeMs": 218091,
+        "healingActiveTimeMs": 202855,
+        "damageTotalTimeMs": 220822,
+        "healingTotalTimeMs": 220822,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:14:Клеосса:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=14",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:42:49.489Z",
+      "durationMs": 213563,
+      "bossPercentage": 45.18,
+      "fightPercentage": 45.09,
+      "averageItemLevel": 272.1499938964844,
+      "actor": {
+        "id": 14,
+        "name": "Клеосса",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 36006.83,
+        "hps": 4788.03,
+        "primary": 36006.83,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 7689726,
+        "healingTotal": 1022547,
+        "damageActiveTimeMs": 173140,
+        "healingActiveTimeMs": 169480,
+        "damageTotalTimeMs": 213563,
+        "healingTotalTimeMs": 213563,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:13:Клеосса:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=13",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:34:09.192Z",
+      "durationMs": 202137,
+      "bossPercentage": 68.29,
+      "fightPercentage": 37.52,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 14,
+        "name": "Клеосса",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 35208.67,
+        "hps": 5336.76,
+        "primary": 35208.67,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 7116975,
+        "healingTotal": 1078756,
+        "damageActiveTimeMs": 183243,
+        "healingActiveTimeMs": 184323,
+        "damageTotalTimeMs": 202137,
+        "healingTotalTimeMs": 202137,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:12:Клеосса:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=12",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:29:10.621Z",
+      "durationMs": 80582,
+      "bossPercentage": 27.39,
+      "fightPercentage": 100,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 14,
+        "name": "Клеосса",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 29304.11,
+        "hps": 4582.96,
+        "primary": 29304.11,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2361384,
+        "healingTotal": 369304,
+        "damageActiveTimeMs": 78749,
+        "healingActiveTimeMs": 54562,
+        "damageTotalTimeMs": 80582,
+        "healingTotalTimeMs": 80582,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:11:Клеосса:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=11",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:22:54.415Z",
+      "durationMs": 195303,
+      "bossPercentage": 68.86,
+      "fightPercentage": 56.7,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 14,
+        "name": "Клеосса",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 32794.04,
+        "hps": 4639.15,
+        "primary": 32794.04,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6404774,
+        "healingTotal": 906039,
+        "damageActiveTimeMs": 164605,
+        "healingActiveTimeMs": 164644,
+        "damageTotalTimeMs": 195303,
+        "healingTotalTimeMs": 195303,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:10:Клеосса:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=10",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:14:00.204Z",
+      "durationMs": 168958,
+      "bossPercentage": 96.96,
+      "fightPercentage": 70.44,
+      "averageItemLevel": 271.8999938964844,
+      "actor": {
+        "id": 14,
+        "name": "Клеосса",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 35721,
+        "hps": 5139.8,
+        "primary": 35721,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 6035348,
+        "healingTotal": 868410,
+        "damageActiveTimeMs": 166117,
+        "healingActiveTimeMs": 154349,
+        "damageTotalTimeMs": 168958,
+        "healingTotalTimeMs": 168958,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:9:Клеосса:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=9",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:10:10.861Z",
+      "durationMs": 68223,
+      "bossPercentage": 40.06,
+      "fightPercentage": 100,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 14,
+        "name": "Клеосса",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 25421.57,
+        "hps": 5034.8,
+        "primary": 25421.57,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 1734336,
+        "healingTotal": 343489,
+        "damageActiveTimeMs": 50429,
+        "healingActiveTimeMs": 51566,
+        "damageTotalTimeMs": 68223,
+        "healingTotalTimeMs": 68223,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:8:Клеосса:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=8",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:03:30.770Z",
+      "durationMs": 190127,
+      "bossPercentage": 62.87,
+      "fightPercentage": 45.83,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 14,
+        "name": "Клеосса",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 34676.03,
+        "hps": 5182.31,
+        "primary": 34676.03,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6592849,
+        "healingTotal": 985298,
+        "damageActiveTimeMs": 182512,
+        "healingActiveTimeMs": 167064,
+        "damageTotalTimeMs": 190127,
+        "healingTotalTimeMs": 190127,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:7:Клеосса:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=7",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T17:59:18.217Z",
+      "durationMs": 61569,
+      "bossPercentage": 38.14,
+      "fightPercentage": 100,
+      "averageItemLevel": 271.70001220703125,
+      "actor": {
+        "id": 14,
+        "name": "Клеосса",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 31107,
+        "hps": 5842.58,
+        "primary": 31107,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 1915227,
+        "healingTotal": 359722,
+        "damageActiveTimeMs": 58756,
+        "healingActiveTimeMs": 54222,
+        "damageTotalTimeMs": 61569,
+        "healingTotalTimeMs": 61569,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

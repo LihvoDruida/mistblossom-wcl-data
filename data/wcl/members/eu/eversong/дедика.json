@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.561Z",
+  "updatedAt": "2026-06-03T02:05:14.246Z",
   "character": {
     "name": "Дедика",
     "realmSlug": "eversong",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 10,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 10,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 205,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 61.05,
+    "consistencyPercent": 24.04,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 13160.76,
+      "avgHps": 12510.34,
+      "avgPrimary": 13801.07,
+      "avgDurationMs": 209015,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 18275.05,
+      "minDps": 5434.96,
+      "maxHps": 22607.19,
+      "minHps": 4539.3,
+      "maxPrimary": 22607.19,
+      "minPrimary": 5434.96,
+      "maxDurationMs": 220822,
+      "minDurationMs": 61569
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "jy63H8ZCtfJaG29g:16:Дедика:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=16",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:59:09.146Z",
+      "durationMs": 192659,
+      "bossPercentage": 75.12,
+      "fightPercentage": 47.85,
+      "averageItemLevel": 271.6000061035156,
+      "actor": {
+        "id": 3,
+        "name": "Дедика",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 11851.2,
+        "hps": 8407.21,
+        "primary": 11851.2,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 2283240,
+        "healingTotal": 1619724,
+        "damageActiveTimeMs": 148478,
+        "healingActiveTimeMs": 165085,
+        "damageTotalTimeMs": 192659,
+        "healingTotalTimeMs": 192659,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:15:Дедика:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=15",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:48:48.089Z",
+      "durationMs": 220822,
+      "bossPercentage": 56.39,
+      "fightPercentage": 40.36,
+      "averageItemLevel": 272.1499938964844,
+      "actor": {
+        "id": 3,
+        "name": "Дедика",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 11784.59,
+        "hps": 11356.39,
+        "primary": 11784.59,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 2602296,
+        "healingTotal": 2507741,
+        "damageActiveTimeMs": 167809,
+        "healingActiveTimeMs": 191986,
+        "damageTotalTimeMs": 220822,
+        "healingTotalTimeMs": 220822,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:14:Дедика:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=14",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:42:49.489Z",
+      "durationMs": 213563,
+      "bossPercentage": 45.18,
+      "fightPercentage": 45.09,
+      "averageItemLevel": 272.1499938964844,
+      "actor": {
+        "id": 3,
+        "name": "Дедика",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 15846.49,
+        "hps": 17767.41,
+        "primary": 17767.41,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 3384225,
+        "healingTotal": 3794461,
+        "damageActiveTimeMs": 164989,
+        "healingActiveTimeMs": 179984,
+        "damageTotalTimeMs": 213563,
+        "healingTotalTimeMs": 213563,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:13:Дедика:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=13",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:34:09.192Z",
+      "durationMs": 202137,
+      "bossPercentage": 68.29,
+      "fightPercentage": 37.52,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 3,
+        "name": "Дедика",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 18275.05,
+        "hps": 20362.08,
+        "primary": 20362.08,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 3694063,
+        "healingTotal": 4115929,
+        "damageActiveTimeMs": 174251,
+        "healingActiveTimeMs": 188038,
+        "damageTotalTimeMs": 202137,
+        "healingTotalTimeMs": 202137,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:12:Дедика:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=12",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:29:10.621Z",
+      "durationMs": 80582,
+      "bossPercentage": 27.39,
+      "fightPercentage": 100,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 3,
+        "name": "Дедика",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 5833.19,
+        "hps": 10841.22,
+        "primary": 10841.22,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 470050,
+        "healingTotal": 873607,
+        "damageActiveTimeMs": 67021,
+        "healingActiveTimeMs": 67085,
+        "damageTotalTimeMs": 80582,
+        "healingTotalTimeMs": 80582,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:11:Дедика:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=11",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:22:54.415Z",
+      "durationMs": 195303,
+      "bossPercentage": 68.86,
+      "fightPercentage": 56.7,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 3,
+        "name": "Дедика",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 17609.14,
+        "hps": 15983.73,
+        "primary": 17609.14,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 3439118,
+        "healingTotal": 3121670,
+        "damageActiveTimeMs": 174324,
+        "healingActiveTimeMs": 174008,
+        "damageTotalTimeMs": 195303,
+        "healingTotalTimeMs": 195303,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:10:Дедика:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=10",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:14:00.204Z",
+      "durationMs": 168958,
+      "bossPercentage": 96.96,
+      "fightPercentage": 70.44,
+      "averageItemLevel": 271.8999938964844,
+      "actor": {
+        "id": 3,
+        "name": "Дедика",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 16459.69,
+        "hps": 11670.92,
+        "primary": 16459.69,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 2780996,
+        "healingTotal": 1971895,
+        "damageActiveTimeMs": 122920,
+        "healingActiveTimeMs": 136814,
+        "damageTotalTimeMs": 168958,
+        "healingTotalTimeMs": 168958,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:9:Дедика:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=9",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:10:10.861Z",
+      "durationMs": 68223,
+      "bossPercentage": 40.06,
+      "fightPercentage": 100,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 3,
+        "name": "Дедика",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 11594.86,
+        "hps": 14849.36,
+        "primary": 14849.36,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 791036,
+        "healingTotal": 1013068,
+        "damageActiveTimeMs": 41653,
+        "healingActiveTimeMs": 41377,
+        "damageTotalTimeMs": 68223,
+        "healingTotalTimeMs": 68223,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:8:Дедика:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=8",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:03:30.770Z",
+      "durationMs": 190127,
+      "bossPercentage": 62.87,
+      "fightPercentage": 45.83,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 3,
+        "name": "Дедика",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 13389.07,
+        "hps": 22607.19,
+        "primary": 22607.19,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2545623,
+        "healingTotal": 4298237,
+        "damageActiveTimeMs": 169951,
+        "healingActiveTimeMs": 186675,
+        "damageTotalTimeMs": 190127,
+        "healingTotalTimeMs": 190127,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:7:Дедика:eversong:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=7",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T17:59:18.217Z",
+      "durationMs": 61569,
+      "bossPercentage": 38.14,
+      "fightPercentage": 100,
+      "averageItemLevel": 271.70001220703125,
+      "actor": {
+        "id": 3,
+        "name": "Дедика",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 5434.96,
+        "hps": 4539.3,
+        "primary": 5434.96,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 334625,
+        "healingTotal": 279480,
+        "damageActiveTimeMs": 48714,
+        "healingActiveTimeMs": 49140,
+        "damageTotalTimeMs": 61569,
+        "healingTotalTimeMs": 61569,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

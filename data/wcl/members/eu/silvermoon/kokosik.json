@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.248Z",
   "character": {
     "name": "Kokosik",
     "realmSlug": "silvermoon",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 133,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 75.81,
+    "consistencyPercent": 48.2,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 93820.18,
+      "avgHps": 3876.42,
+      "avgPrimary": 93820.18,
       "avgDurationMs": 113905,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 123755.8,
+      "minDps": 59654.05,
+      "maxHps": 10617.67,
+      "minHps": 1817,
+      "maxPrimary": 123755.8,
+      "minPrimary": 59654.05,
       "maxDurationMs": 397835,
       "minDurationMs": 81840
     }
@@ -42,6 +42,13 @@
     {
       "key": "vzQAWB8Kw3ykjR1a:36:Kokosik:silvermoon:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 36,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=36",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 71.54,
       "fightPercentage": 71.54,
       "averageItemLevel": 274.20001220703125,
+      "actor": {
+        "id": 8,
+        "name": "Kokosik",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Mage"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 97782.69,
+        "hps": 1817,
+        "primary": 97782.69,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 10
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 12751743,
+        "healingTotal": 236953,
+        "damageActiveTimeMs": 92786,
+        "healingActiveTimeMs": 87760,
+        "damageTotalTimeMs": 130409,
+        "healingTotalTimeMs": 130409,
+        "damageEntryId": 8,
+        "healingEntryId": 8,
+        "damageItemLevel": 272,
+        "healingItemLevel": 272,
+        "matchedBy": "damage:actor-id:8,healing:actor-id:8"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:35:Kokosik:silvermoon:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 35,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=35",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 81.3,
       "fightPercentage": 81.3,
       "averageItemLevel": 274.20001220703125,
+      "actor": {
+        "id": 8,
+        "name": "Kokosik",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Mage"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 93534.66,
+        "hps": 4687.73,
+        "primary": 93534.66,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 9
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 10214452,
+        "healingTotal": 511924,
+        "damageActiveTimeMs": 90370,
+        "healingActiveTimeMs": 89350,
+        "damageTotalTimeMs": 109205,
+        "healingTotalTimeMs": 109205,
+        "damageEntryId": 8,
+        "healingEntryId": 8,
+        "damageItemLevel": 272,
+        "healingItemLevel": 272,
+        "matchedBy": "damage:actor-id:8,healing:actor-id:8"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:33:Kokosik:silvermoon:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 33,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=33",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 77.88,
       "fightPercentage": 77.88,
       "averageItemLevel": 272.8571472167969,
+      "actor": {
+        "id": 8,
+        "name": "Kokosik",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Mage"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 90143.18,
+        "hps": 5124.54,
+        "primary": 90143.18,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 13
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 9203799,
+        "healingTotal": 523226,
+        "damageActiveTimeMs": 87381,
+        "healingActiveTimeMs": 71339,
+        "damageTotalTimeMs": 102102,
+        "healingTotalTimeMs": 102102,
+        "damageEntryId": 8,
+        "healingEntryId": 8,
+        "damageItemLevel": 272,
+        "healingItemLevel": 272,
+        "matchedBy": "damage:actor-id:8,healing:actor-id:8"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:32:Kokosik:silvermoon:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 32,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=32",
       "status": "WIPE",
@@ -144,24 +220,47 @@
       "bossPercentage": 78.7,
       "fightPercentage": 78.7,
       "averageItemLevel": 272.8571472167969,
+      "actor": {
+        "id": 8,
+        "name": "Kokosik",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Mage"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 93473.06,
+        "hps": 8319.84,
+        "primary": 93473.06,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 4
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7649835,
+        "healingTotal": 680896,
+        "damageActiveTimeMs": 80114,
+        "healingActiveTimeMs": 79815,
+        "damageTotalTimeMs": 81840,
+        "healingTotalTimeMs": 81840,
+        "damageEntryId": 8,
+        "healingEntryId": 8,
+        "damageItemLevel": 272,
+        "healingItemLevel": 272,
+        "matchedBy": "damage:actor-id:8,healing:actor-id:8"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:31:Kokosik:silvermoon:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 31,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=31",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 53.91,
       "fightPercentage": 53.91,
       "averageItemLevel": 274,
+      "actor": {
+        "id": 8,
+        "name": "Kokosik",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Mage"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 59654.05,
+        "hps": 3044.69,
+        "primary": 59654.05,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 15
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 10425321,
+        "healingTotal": 532099,
+        "damageActiveTimeMs": 63152,
+        "healingActiveTimeMs": 62634,
+        "damageTotalTimeMs": 174763,
+        "healingTotalTimeMs": 174763,
+        "damageEntryId": 8,
+        "healingEntryId": 8,
+        "damageItemLevel": 272,
+        "healingItemLevel": 272,
+        "matchedBy": "damage:actor-id:8,healing:actor-id:8"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:30:Kokosik:silvermoon:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 30,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=30",
       "status": "WIPE",
@@ -204,24 +326,47 @@
       "bossPercentage": 67.34,
       "fightPercentage": 67.34,
       "averageItemLevel": 274.54998779296875,
+      "actor": {
+        "id": 8,
+        "name": "Kokosik",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Mage"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 123755.8,
+        "hps": 10617.67,
+        "primary": 123755.8,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 19
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 17649928,
+        "healingTotal": 1514282,
+        "damageActiveTimeMs": 130355,
+        "healingActiveTimeMs": 126908,
+        "damageTotalTimeMs": 142619,
+        "healingTotalTimeMs": 142619,
+        "damageEntryId": 8,
+        "healingEntryId": 8,
+        "damageItemLevel": 272,
+        "healingItemLevel": 272,
+        "matchedBy": "damage:actor-id:8,healing:actor-id:8"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:27:Kokosik:silvermoon:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 27,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=27",
       "status": "KILL",
@@ -234,24 +379,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 8,
+        "name": "Kokosik",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Mage"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 100036.56,
+        "hps": 7209.24,
+        "primary": 100036.56,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 2
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 36958507,
+        "healingTotal": 2663455,
+        "damageActiveTimeMs": 367908,
+        "healingActiveTimeMs": 313031,
+        "damageTotalTimeMs": 369450,
+        "healingTotalTimeMs": 369450,
+        "damageEntryId": 8,
+        "healingEntryId": 8,
+        "damageItemLevel": 272,
+        "healingItemLevel": 272,
+        "matchedBy": "damage:actor-id:8,healing:actor-id:8"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:26:Kokosik:silvermoon:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 26,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=26",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 42.44,
       "fightPercentage": 42.44,
       "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 8,
+        "name": "Kokosik",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Mage"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 75031.51,
+        "hps": 9266.82,
+        "primary": 75031.51,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 19271467,
+        "healingTotal": 2380137,
+        "damageActiveTimeMs": 219486,
+        "healingActiveTimeMs": 222653,
+        "damageTotalTimeMs": 256845,
+        "healingTotalTimeMs": 256845,
+        "damageEntryId": 8,
+        "healingEntryId": 8,
+        "damageItemLevel": 272,
+        "healingItemLevel": 272,
+        "matchedBy": "damage:actor-id:8,healing:actor-id:8"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:25:Kokosik:silvermoon:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 25,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=25",
       "status": "WIPE",
@@ -294,24 +485,47 @@
       "bossPercentage": 54.39,
       "fightPercentage": 54.39,
       "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 8,
+        "name": "Kokosik",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Mage"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 79459.57,
+        "hps": 5667.66,
+        "primary": 79459.57,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 18
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 16000773,
+        "healingTotal": 1141296,
+        "damageActiveTimeMs": 174832,
+        "healingActiveTimeMs": 131432,
+        "damageTotalTimeMs": 201370,
+        "healingTotalTimeMs": 201370,
+        "damageEntryId": 8,
+        "healingEntryId": 8,
+        "damageItemLevel": 272,
+        "healingItemLevel": 272,
+        "matchedBy": "damage:actor-id:8,healing:actor-id:8"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:24:Kokosik:silvermoon:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 24,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=24",
       "status": "WIPE",
@@ -324,19 +538,35 @@
       "bossPercentage": 2.51,
       "fightPercentage": 2.51,
       "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 8,
+        "name": "Kokosik",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Mage"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 98878.99,
+        "hps": 7007.86,
+        "primary": 98878.99,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 22
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 39337523,
+        "healingTotal": 2787970,
+        "damageActiveTimeMs": 393529,
+        "healingActiveTimeMs": 329685,
+        "damageTotalTimeMs": 397835,
+        "healingTotalTimeMs": 397835,
+        "damageEntryId": 8,
+        "healingEntryId": 8,
+        "damageItemLevel": 272,
+        "healingItemLevel": 272,
+        "matchedBy": "damage:actor-id:8,healing:actor-id:8"
       }
     }
   ],

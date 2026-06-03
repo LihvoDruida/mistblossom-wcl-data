@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.560Z",
+  "updatedAt": "2026-06-03T02:05:14.245Z",
   "character": {
     "name": "Otito",
     "realmSlug": "draenor",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 150,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 63.65,
+    "consistencyPercent": 43.47,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 41911.55,
+      "avgHps": 5876.36,
+      "avgPrimary": 41911.55,
       "avgDurationMs": 426578,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 65842.54,
+      "minDps": 28620.03,
+      "maxHps": 8644.46,
+      "minHps": 3507.81,
+      "maxPrimary": 65842.54,
+      "minPrimary": 28620.03,
       "maxDurationMs": 543654,
       "minDurationMs": 64027
     }
@@ -42,6 +42,13 @@
     {
       "key": "4Zng3fprDXvGjb1V:18:Otito:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 18,
       "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=18",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 22.18,
       "fightPercentage": 35.54,
       "averageItemLevel": 280.78570556640625,
+      "actor": {
+        "id": 118,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 55110.25,
+        "hps": 7520.28,
+        "primary": 55110.25,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 15
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 16059291,
+        "healingTotal": 2191431,
+        "damageActiveTimeMs": 233042,
+        "healingActiveTimeMs": 237179,
+        "damageTotalTimeMs": 291403,
+        "healingTotalTimeMs": 291403,
+        "damageEntryId": 118,
+        "healingEntryId": 118,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
       }
     },
     {
       "key": "4Zng3fprDXvGjb1V:17:Otito:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 17,
       "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=17",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 30.26,
       "fightPercentage": 8.47,
       "averageItemLevel": 280.78570556640625,
+      "actor": {
+        "id": 118,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 28620.03,
+        "hps": 3507.81,
+        "primary": 28620.03,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 16
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 15559395,
+        "healingTotal": 1907033,
+        "damageActiveTimeMs": 204436,
+        "healingActiveTimeMs": 214257,
+        "damageTotalTimeMs": 543654,
+        "healingTotalTimeMs": 543654,
+        "damageEntryId": 118,
+        "healingEntryId": 118,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
       }
     },
     {
       "key": "4Zng3fprDXvGjb1V:16:Otito:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 16,
       "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=16",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 27.83,
       "fightPercentage": 7.79,
       "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 118,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 42004.36,
+        "hps": 6600.99,
+        "primary": 42004.36,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 14
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 18678330,
+        "healingTotal": 2935302,
+        "damageActiveTimeMs": 340735,
+        "healingActiveTimeMs": 348813,
+        "damageTotalTimeMs": 444676,
+        "healingTotalTimeMs": 444676,
+        "damageEntryId": 118,
+        "healingEntryId": 118,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
       }
     },
     {
       "key": "4Zng3fprDXvGjb1V:15:Otito:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 15,
       "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=15",
       "status": "WIPE",
@@ -144,24 +220,47 @@
       "bossPercentage": 99.93,
       "fightPercentage": 61.97,
       "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 118,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 65842.54,
+        "hps": 7583.9,
+        "primary": 65842.54,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 16
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 11074781,
+        "healingTotal": 1275620,
+        "damageActiveTimeMs": 106543,
+        "healingActiveTimeMs": 108025,
+        "damageTotalTimeMs": 168201,
+        "healingTotalTimeMs": 168201,
+        "damageEntryId": 118,
+        "healingEntryId": 118,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
       }
     },
     {
       "key": "4Zng3fprDXvGjb1V:14:Otito:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 14,
       "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=14",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 51.89,
       "fightPercentage": 45.64,
       "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 118,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 62119.93,
+        "hps": 8429.61,
+        "primary": 62119.93,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 15
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 16395064,
+        "healingTotal": 2224793,
+        "damageActiveTimeMs": 208175,
+        "healingActiveTimeMs": 207970,
+        "damageTotalTimeMs": 263926,
+        "healingTotalTimeMs": 263926,
+        "damageEntryId": 118,
+        "healingEntryId": 118,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
       }
     },
     {
       "key": "4Zng3fprDXvGjb1V:13:Otito:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 13,
       "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=13",
       "status": "WIPE",
@@ -204,24 +326,47 @@
       "bossPercentage": 37.61,
       "fightPercentage": 10.53,
       "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 118,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 48747.35,
+        "hps": 7902.15,
+        "primary": 48747.35,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 16
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 22538873,
+        "healingTotal": 3653646,
+        "damageActiveTimeMs": 344807,
+        "healingActiveTimeMs": 357904,
+        "damageTotalTimeMs": 462361,
+        "healingTotalTimeMs": 462361,
+        "damageEntryId": 118,
+        "healingEntryId": 118,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
       }
     },
     {
       "key": "4Zng3fprDXvGjb1V:12:Otito:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 12,
       "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=12",
       "status": "WIPE",
@@ -234,24 +379,47 @@
       "bossPercentage": 65.47,
       "fightPercentage": 86.87,
       "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 118,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 33866.17,
+        "hps": 8644.46,
+        "primary": 33866.17,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 14
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 2168349,
+        "healingTotal": 553479,
+        "damageActiveTimeMs": 50254,
+        "healingActiveTimeMs": 53928,
+        "damageTotalTimeMs": 64027,
+        "healingTotalTimeMs": 64027,
+        "damageEntryId": 118,
+        "healingEntryId": 118,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
       }
     },
     {
       "key": "4Zng3fprDXvGjb1V:11:Otito:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 11,
       "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=11",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 32.96,
       "fightPercentage": 74.52,
       "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 118,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 62955.08,
+        "hps": 7865.79,
+        "primary": 62955.08,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 14
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 8031432,
+        "healingTotal": 1003470,
+        "damageActiveTimeMs": 100720,
+        "healingActiveTimeMs": 102360,
+        "damageTotalTimeMs": 127574,
+        "healingTotalTimeMs": 127574,
+        "damageEntryId": 118,
+        "healingEntryId": 118,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
       }
     },
     {
       "key": "4Zng3fprDXvGjb1V:10:Otito:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 10,
       "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=10",
       "status": "WIPE",
@@ -294,24 +485,47 @@
       "bossPercentage": 57.99,
       "fightPercentage": 47.71,
       "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 118,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 59869.91,
+        "hps": 6630.18,
+        "primary": 59869.91,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 15
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 14541264,
+        "healingTotal": 1610344,
+        "damageActiveTimeMs": 185031,
+        "healingActiveTimeMs": 203652,
+        "damageTotalTimeMs": 242881,
+        "healingTotalTimeMs": 242881,
+        "damageEntryId": 118,
+        "healingEntryId": 118,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
       }
     },
     {
       "key": "4Zng3fprDXvGjb1V:9:Otito:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 9,
       "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=9",
       "status": "WIPE",
@@ -324,19 +538,35 @@
       "bossPercentage": 61.85,
       "fightPercentage": 49.02,
       "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 118,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 50937.63,
+        "hps": 6053.57,
+        "primary": 50937.63,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 15
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 12365671,
+        "healingTotal": 1469570,
+        "damageActiveTimeMs": 137300,
+        "healingActiveTimeMs": 157599,
+        "damageTotalTimeMs": 242761,
+        "healingTotalTimeMs": 242761,
+        "damageEntryId": 118,
+        "healingEntryId": 118,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
       }
     }
   ],

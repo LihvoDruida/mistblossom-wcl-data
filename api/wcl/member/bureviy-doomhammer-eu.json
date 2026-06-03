@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.559Z",
+  "updatedAt": "2026-06-03T02:05:14.244Z",
   "character": {
     "name": "Bureviy",
     "realmSlug": "doomhammer",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 186,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 62.95,
+    "consistencyPercent": 58.38,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 59765.57,
+      "avgHps": 3016.61,
+      "avgPrimary": 59765.57,
       "avgDurationMs": 213419,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 94941.71,
+      "minDps": 55426.86,
+      "maxHps": 8098.66,
+      "minHps": 2439.15,
+      "maxPrimary": 94941.71,
+      "minPrimary": 55426.86,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
     }
@@ -42,6 +42,13 @@
     {
       "key": "8dAPQCWGNMLBjrRg:32:Bureviy:doomhammer:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 32,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 57.68,
       "fightPercentage": 57.68,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 109,
+        "name": "Bureviy",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 66747.34,
+        "hps": 2439.15,
+        "primary": 66747.34,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 14416290,
+        "healingTotal": 526815,
+        "damageActiveTimeMs": 213458,
+        "healingActiveTimeMs": 187830,
+        "damageTotalTimeMs": 215983,
+        "healingTotalTimeMs": 215983,
+        "damageEntryId": 109,
+        "healingEntryId": 109,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:109,healing:actor-id:109"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:31:Bureviy:doomhammer:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 31,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 57.65,
       "fightPercentage": 57.65,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 109,
+        "name": "Bureviy",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 57122.51,
+        "hps": 3479.78,
+        "primary": 57122.51,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 12935163,
+        "healingTotal": 787982,
+        "damageActiveTimeMs": 212978,
+        "healingActiveTimeMs": 190168,
+        "damageTotalTimeMs": 226446,
+        "healingTotalTimeMs": 226446,
+        "damageEntryId": 109,
+        "healingEntryId": 109,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:109,healing:actor-id:109"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:30:Bureviy:doomhammer:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 30,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 58.27,
       "fightPercentage": 58.27,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 109,
+        "name": "Bureviy",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 55426.86,
+        "hps": 3130.89,
+        "primary": 55426.86,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 10965040,
+        "healingTotal": 619380,
+        "damageActiveTimeMs": 187227,
+        "healingActiveTimeMs": 141240,
+        "damageTotalTimeMs": 197829,
+        "healingTotalTimeMs": 197829,
+        "damageEntryId": 109,
+        "healingEntryId": 109,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:109,healing:actor-id:109"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:29:Bureviy:doomhammer:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 29,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
       "status": "WIPE",
@@ -144,24 +220,47 @@
       "bossPercentage": 56.82,
       "fightPercentage": 56.82,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 109,
+        "name": "Bureviy",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 61465.05,
+        "hps": 2810.2,
+        "primary": 61465.05,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 13654952,
+        "healingTotal": 624309,
+        "damageActiveTimeMs": 217353,
+        "healingActiveTimeMs": 198765,
+        "damageTotalTimeMs": 222158,
+        "healingTotalTimeMs": 222158,
+        "damageEntryId": 109,
+        "healingEntryId": 109,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:109,healing:actor-id:109"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:28:Bureviy:doomhammer:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 28,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 58.86,
       "fightPercentage": 58.86,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 109,
+        "name": "Bureviy",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 65117.09,
+        "hps": 8098.66,
+        "primary": 65117.09,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 13620476,
+        "healingTotal": 1693989,
+        "damageActiveTimeMs": 204308,
+        "healingActiveTimeMs": 162740,
+        "damageTotalTimeMs": 209169,
+        "healingTotalTimeMs": 209169,
+        "damageEntryId": 109,
+        "healingEntryId": 109,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:109,healing:actor-id:109"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:27:Bureviy:doomhammer:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 27,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
       "status": "WIPE",
@@ -204,24 +326,47 @@
       "bossPercentage": 62.33,
       "fightPercentage": 62.33,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 109,
+        "name": "Bureviy",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 79587.1,
+        "hps": 3808.42,
+        "primary": 79587.1,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 13491526,
+        "healingTotal": 645600,
+        "damageActiveTimeMs": 165179,
+        "healingActiveTimeMs": 130024,
+        "damageTotalTimeMs": 169519,
+        "healingTotalTimeMs": 169519,
+        "damageEntryId": 109,
+        "healingEntryId": 109,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:109,healing:actor-id:109"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:26:Bureviy:doomhammer:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 26,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
       "status": "WIPE",
@@ -234,24 +379,47 @@
       "bossPercentage": 80.53,
       "fightPercentage": 80.53,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 109,
+        "name": "Bureviy",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 58146.68,
+        "hps": 5225.39,
+        "primary": 58146.68,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 2958794,
+        "healingTotal": 265894,
+        "damageActiveTimeMs": 47211,
+        "healingActiveTimeMs": 40183,
+        "damageTotalTimeMs": 50885,
+        "healingTotalTimeMs": 50885,
+        "damageEntryId": 109,
+        "healingEntryId": 109,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:109,healing:actor-id:109"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:25:Bureviy:doomhammer:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 25,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 79.76,
       "fightPercentage": 79.76,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 109,
+        "name": "Bureviy",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 94941.71,
+        "hps": 7753.55,
+        "primary": 94941.71,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 4763795,
+        "healingTotal": 389042,
+        "damageActiveTimeMs": 47040,
+        "healingActiveTimeMs": 39638,
+        "damageTotalTimeMs": 50176,
+        "healingTotalTimeMs": 50176,
+        "damageEntryId": 109,
+        "healingEntryId": 109,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:109,healing:actor-id:109"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:21:Bureviy:doomhammer:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 21,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
       "status": "KILL",
@@ -294,24 +485,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 109,
+        "name": "Bureviy",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 88588.48,
+        "hps": 6375.55,
+        "primary": 88588.48,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 3
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 29754035,
+        "healingTotal": 2141343,
+        "damageActiveTimeMs": 333165,
+        "healingActiveTimeMs": 323029,
+        "damageTotalTimeMs": 335868,
+        "healingTotalTimeMs": 335868,
+        "damageEntryId": 109,
+        "healingEntryId": 109,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:109,healing:actor-id:109"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:20:Bureviy:doomhammer:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 20,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
       "status": "WIPE",
@@ -324,19 +538,35 @@
       "bossPercentage": 27.56,
       "fightPercentage": 27.56,
       "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 109,
+        "name": "Bureviy",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 80628.32,
+        "hps": 6399.55,
+        "primary": 80628.32,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 23056313,
+        "healingTotal": 1830003,
+        "damageActiveTimeMs": 282815,
+        "healingActiveTimeMs": 270840,
+        "damageTotalTimeMs": 285958,
+        "healingTotalTimeMs": 285958,
+        "damageEntryId": 109,
+        "healingEntryId": 109,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:109,healing:actor-id:109"
       }
     }
   ],

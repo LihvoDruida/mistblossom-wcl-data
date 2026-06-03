@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.560Z",
+  "updatedAt": "2026-06-03T02:05:14.244Z",
   "character": {
     "name": "Vurush",
     "realmSlug": "turalyon",
@@ -11,127 +11,44 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 8,
-    "wipes": 2,
-    "killRate": 0.8,
-    "wipeRate": 0.2,
+    "kills": 4,
+    "wipes": 6,
+    "killRate": 0.4,
+    "wipeRate": 0.6,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 35,
+    "totalRaidDeaths": 83,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 63.66,
+    "consistencyPercent": 58.03,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 181997,
+      "avgDps": 67117.94,
+      "avgHps": 3686.52,
+      "avgPrimary": 67117.94,
+      "avgDurationMs": 357679,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 105434.76,
+      "minDps": 61185.96,
+      "maxHps": 9053.21,
+      "minHps": 2741.32,
+      "maxPrimary": 105434.76,
+      "minPrimary": 61185.96,
       "maxDurationMs": 394729,
-      "minDurationMs": 102900
+      "minDurationMs": 81840
     }
   },
   "pulls": [
     {
-      "key": "T83jH1d9CRwWKZ4P:39:Vurush:turalyon:eu",
-      "reportCode": "T83jH1d9CRwWKZ4P",
-      "fightId": 39,
-      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=39",
-      "status": "KILL",
-      "bossName": "Midnight Falls",
-      "encounterId": 3183,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-05-15T19:55:09.604Z",
-      "durationMs": 286493,
-      "bossPercentage": 0.01,
-      "fightPercentage": 0,
-      "averageItemLevel": 274.3999938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 2
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "T83jH1d9CRwWKZ4P:38:Vurush:turalyon:eu",
-      "reportCode": "T83jH1d9CRwWKZ4P",
-      "fightId": 38,
-      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=38",
-      "status": "WIPE",
-      "bossName": "Midnight Falls",
-      "encounterId": 3183,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-05-15T19:51:33.005Z",
-      "durationMs": 156599,
-      "bossPercentage": 64.35,
-      "fightPercentage": 64.35,
-      "averageItemLevel": 274.3999938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 11
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "T83jH1d9CRwWKZ4P:33:Vurush:turalyon:eu",
-      "reportCode": "T83jH1d9CRwWKZ4P",
-      "fightId": 33,
-      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=33",
-      "status": "KILL",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-05-15T19:46:53.985Z",
-      "durationMs": 102900,
-      "bossPercentage": 0,
-      "fightPercentage": 0,
-      "averageItemLevel": 274.3999938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 0
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
       "key": "T83jH1d9CRwWKZ4P:30:Vurush:turalyon:eu",
       "reportCode": "T83jH1d9CRwWKZ4P",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-15T16:03:56.570Z",
+      "reportEndedAt": "2026-05-15T20:00:51.557Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
       "fightId": 30,
       "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=30",
       "status": "KILL",
@@ -144,24 +61,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0,
       "averageItemLevel": 271.5,
+      "actor": {
+        "id": 377,
+        "name": "Vurush",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Druid"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 61185.96,
+        "hps": 3699.25,
+        "primary": 61185.96,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 3
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 23683617,
+        "healingTotal": 1431889,
+        "damageActiveTimeMs": 326459,
+        "healingActiveTimeMs": 87255,
+        "damageTotalTimeMs": 387076,
+        "healingTotalTimeMs": 387076,
+        "damageEntryId": 377,
+        "healingEntryId": 377,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:377,healing:actor-id:377"
       }
     },
     {
       "key": "T83jH1d9CRwWKZ4P:28:Vurush:turalyon:eu",
       "reportCode": "T83jH1d9CRwWKZ4P",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-15T16:03:56.570Z",
+      "reportEndedAt": "2026-05-15T20:00:51.557Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
       "fightId": 28,
       "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=28",
       "status": "KILL",
@@ -174,24 +114,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 271.3999938964844,
+      "actor": {
+        "id": 377,
+        "name": "Vurush",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Druid"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 74094.93,
+        "hps": 2741.32,
+        "primary": 74094.93,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 5
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 21578815,
+        "healingTotal": 798361,
+        "damageActiveTimeMs": 289939,
+        "healingActiveTimeMs": 77965,
+        "damageTotalTimeMs": 291232,
+        "healingTotalTimeMs": 291232,
+        "damageEntryId": 377,
+        "healingEntryId": 377,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:377,healing:actor-id:377"
       }
     },
     {
       "key": "T83jH1d9CRwWKZ4P:25:Vurush:turalyon:eu",
       "reportCode": "T83jH1d9CRwWKZ4P",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-15T16:03:56.570Z",
+      "reportEndedAt": "2026-05-15T20:00:51.557Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
       "fightId": 25,
       "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=25",
       "status": "KILL",
@@ -204,139 +167,406 @@
       "bossPercentage": 0.02,
       "fightPercentage": 0.02,
       "averageItemLevel": 271.3999938964844,
+      "actor": {
+        "id": 377,
+        "name": "Vurush",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Druid"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 66072.94,
+        "hps": 4619,
+        "primary": 66072.94,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 3
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 26080905,
+        "healingTotal": 1823252,
+        "damageActiveTimeMs": 393251,
+        "healingActiveTimeMs": 127222,
+        "damageTotalTimeMs": 394729,
+        "healingTotalTimeMs": 394729,
+        "damageEntryId": 377,
+        "healingEntryId": 377,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:377,healing:actor-id:377"
       }
     },
     {
-      "key": "T83jH1d9CRwWKZ4P:24:Vurush:turalyon:eu",
-      "reportCode": "T83jH1d9CRwWKZ4P",
-      "fightId": 24,
-      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=24",
+      "key": "vzQAWB8Kw3ykjR1a:36:Vurush:turalyon:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 36,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=36",
       "status": "WIPE",
-      "bossName": "Vaelgor & Ezzorak",
-      "encounterId": 3178,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-05-15T18:53:57.856Z",
-      "durationMs": 124229,
-      "bossPercentage": 67.73,
-      "fightPercentage": 67.73,
-      "averageItemLevel": 271.70001220703125,
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:28:20.858Z",
+      "durationMs": 130409,
+      "bossPercentage": 71.54,
+      "fightPercentage": 71.54,
+      "averageItemLevel": 274.20001220703125,
+      "actor": {
+        "id": 44,
+        "name": "Vurush",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Druid"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 105434.76,
+        "hps": 6626.56,
+        "primary": 105434.76,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 10
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 13749641,
+        "healingTotal": 864163,
+        "damageActiveTimeMs": 129928,
+        "healingActiveTimeMs": 48126,
+        "damageTotalTimeMs": 130409,
+        "healingTotalTimeMs": 130409,
+        "damageEntryId": 44,
+        "healingEntryId": 44,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:44,healing:actor-id:44"
       }
     },
     {
-      "key": "T83jH1d9CRwWKZ4P:18:Vurush:turalyon:eu",
-      "reportCode": "T83jH1d9CRwWKZ4P",
-      "fightId": 18,
-      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=18",
+      "key": "vzQAWB8Kw3ykjR1a:35:Vurush:turalyon:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 35,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=35",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:24:08.713Z",
+      "durationMs": 109205,
+      "bossPercentage": 81.3,
+      "fightPercentage": 81.3,
+      "averageItemLevel": 274.20001220703125,
+      "actor": {
+        "id": 44,
+        "name": "Vurush",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 76025.52,
+        "hps": 4935.59,
+        "primary": 76025.52,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 9
+      },
+      "source": {
+        "damageTotal": 8302367,
+        "healingTotal": 538991,
+        "damageActiveTimeMs": 108110,
+        "healingActiveTimeMs": 36870,
+        "damageTotalTimeMs": 109205,
+        "healingTotalTimeMs": 109205,
+        "damageEntryId": 44,
+        "healingEntryId": 44,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:44,healing:actor-id:44"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:33:Vurush:turalyon:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 33,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=33",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:19:19.595Z",
+      "durationMs": 102102,
+      "bossPercentage": 77.88,
+      "fightPercentage": 77.88,
+      "averageItemLevel": 272.8571472167969,
+      "actor": {
+        "id": 44,
+        "name": "Vurush",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 84683.27,
+        "hps": 8484.38,
+        "primary": 84683.27,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 13
+      },
+      "source": {
+        "damageTotal": 8646331,
+        "healingTotal": 866272,
+        "damageActiveTimeMs": 101485,
+        "healingActiveTimeMs": 36418,
+        "damageTotalTimeMs": 102102,
+        "healingTotalTimeMs": 102102,
+        "damageEntryId": 44,
+        "healingEntryId": 44,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:44,healing:actor-id:44"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:32:Vurush:turalyon:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=32",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:15:56.254Z",
+      "durationMs": 81840,
+      "bossPercentage": 78.7,
+      "fightPercentage": 78.7,
+      "averageItemLevel": 272.8571472167969,
+      "actor": {
+        "id": 44,
+        "name": "Vurush",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 92190.96,
+        "hps": 9053.21,
+        "primary": 92190.96,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 4
+      },
+      "source": {
+        "damageTotal": 7544908,
+        "healingTotal": 740915,
+        "damageActiveTimeMs": 81091,
+        "healingActiveTimeMs": 29284,
+        "damageTotalTimeMs": 81840,
+        "healingTotalTimeMs": 81840,
+        "damageEntryId": 44,
+        "healingEntryId": 44,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:44,healing:actor-id:44"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:31:Vurush:turalyon:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 31,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=31",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:08:57.577Z",
+      "durationMs": 174763,
+      "bossPercentage": 53.91,
+      "fightPercentage": 53.91,
+      "averageItemLevel": 274,
+      "actor": {
+        "id": 44,
+        "name": "Vurush",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 88961.91,
+        "hps": 4408.74,
+        "primary": 88961.91,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 15547251,
+        "healingTotal": 770485,
+        "damageActiveTimeMs": 172893,
+        "healingActiveTimeMs": 54644,
+        "damageTotalTimeMs": 174763,
+        "healingTotalTimeMs": 174763,
+        "damageEntryId": 44,
+        "healingEntryId": 44,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:44,healing:actor-id:44"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:30:Vurush:turalyon:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=30",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:58:22.554Z",
+      "durationMs": 142619,
+      "bossPercentage": 67.34,
+      "fightPercentage": 67.34,
+      "averageItemLevel": 274.54998779296875,
+      "actor": {
+        "id": 44,
+        "name": "Vurush",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 97015.79,
+        "hps": 7686.83,
+        "primary": 97015.79,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 13836295,
+        "healingTotal": 1096288,
+        "damageActiveTimeMs": 141643,
+        "healingActiveTimeMs": 61891,
+        "damageTotalTimeMs": 142619,
+        "healingTotalTimeMs": 142619,
+        "damageEntryId": 44,
+        "healingEntryId": 44,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:44,healing:actor-id:44"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:27:Vurush:turalyon:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=27",
       "status": "KILL",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-05-15T18:35:20.584Z",
-      "durationMs": 185074,
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:26:05.889Z",
+      "durationMs": 369450,
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
-      "averageItemLevel": 275.29998779296875,
+      "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 44,
+        "name": "Vurush",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Druid"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 81962.86,
+        "hps": 4675.12,
+        "primary": 81962.86,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
-        "raid": 0
+        "raid": 2
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "T83jH1d9CRwWKZ4P:14:Vurush:turalyon:eu",
-      "reportCode": "T83jH1d9CRwWKZ4P",
-      "fightId": 14,
-      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=14",
-      "status": "KILL",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-05-15T18:28:04.505Z",
-      "durationMs": 161954,
-      "bossPercentage": 0.18,
-      "fightPercentage": 0.18,
-      "averageItemLevel": 275.29998779296875,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 1
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "T83jH1d9CRwWKZ4P:9:Vurush:turalyon:eu",
-      "reportCode": "T83jH1d9CRwWKZ4P",
-      "fightId": 9,
-      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=9",
-      "status": "KILL",
-      "bossName": "Imperator Averzian",
-      "encounterId": 3176,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-05-15T18:20:47.528Z",
-      "durationMs": 162448,
-      "bossPercentage": 0.11,
-      "fightPercentage": 0.11,
-      "averageItemLevel": 275.29998779296875,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 0
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 30281177,
+        "healingTotal": 1727223,
+        "damageActiveTimeMs": 341139,
+        "healingActiveTimeMs": 127042,
+        "damageTotalTimeMs": 369450,
+        "healingTotalTimeMs": 369450,
+        "damageEntryId": 44,
+        "healingEntryId": 44,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:44,healing:actor-id:44"
       }
     }
   ],

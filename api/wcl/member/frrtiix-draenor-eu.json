@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.560Z",
+  "updatedAt": "2026-06-03T02:05:14.244Z",
   "character": {
     "name": "Frrtiix",
     "realmSlug": "draenor",
@@ -11,332 +11,556 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 0,
-    "wipes": 10,
-    "killRate": 0,
-    "wipeRate": 1,
+    "kills": 2,
+    "wipes": 8,
+    "killRate": 0.2,
+    "wipeRate": 0.8,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 150,
+    "totalRaidDeaths": 168,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 37.64,
+    "consistencyPercent": 1.49,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 426578,
+      "avgDps": 45516.33,
+      "avgHps": 1378.76,
+      "avgPrimary": 45516.33,
+      "avgDurationMs": 216999,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 543654,
-      "minDurationMs": 64027
+      "maxDps": 120922.22,
+      "minDps": 1802.48,
+      "maxHps": 2410.39,
+      "minHps": 115.84,
+      "maxPrimary": 120922.22,
+      "minPrimary": 1802.48,
+      "maxDurationMs": 432510,
+      "minDurationMs": 37515
     }
   },
   "pulls": [
     {
-      "key": "4Zng3fprDXvGjb1V:18:Frrtiix:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 18,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=18",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
+      "key": "T83jH1d9CRwWKZ4P:6:Frrtiix:draenor:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-15T16:03:56.570Z",
+      "reportEndedAt": "2026-05-15T20:00:51.557Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=6",
+      "status": "KILL",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
       "difficulty": 4,
       "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T19:09:27.100Z",
-      "durationMs": 291403,
-      "bossPercentage": 22.18,
-      "fightPercentage": 35.54,
-      "averageItemLevel": 280.78570556640625,
+      "startedAt": "2026-05-15T17:47:05.903Z",
+      "durationMs": 380804,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 275.6842041015625,
+      "actor": {
+        "id": 165,
+        "name": "Frrtiix",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
+        "dps": 63478.99,
+        "hps": 2410.39,
+        "primary": 63478.99,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 1
+      },
+      "source": {
+        "damageTotal": 24173055,
+        "healingTotal": 917887,
+        "damageActiveTimeMs": 378838,
+        "healingActiveTimeMs": 323089,
+        "damageTotalTimeMs": 380804,
+        "healingTotalTimeMs": 380804,
+        "damageEntryId": 165,
+        "healingEntryId": 165,
+        "damageItemLevel": 258,
+        "healingItemLevel": 258,
+        "matchedBy": "damage:actor-id:165,healing:actor-id:165"
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:5:Frrtiix:draenor:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-15T16:03:56.570Z",
+      "reportEndedAt": "2026-05-15T20:00:51.557Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 5,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=5",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-15T17:42:20.154Z",
+      "durationMs": 167342,
+      "bossPercentage": 50.23,
+      "fightPercentage": 50.23,
+      "averageItemLevel": 276.20001220703125,
+      "actor": {
+        "id": 165,
+        "name": "Frrtiix",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 55238.78,
+        "hps": 1610.05,
+        "primary": 55238.78,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 9243768,
+        "healingTotal": 269429,
+        "damageActiveTimeMs": 167263,
+        "healingActiveTimeMs": 91182,
+        "damageTotalTimeMs": 167342,
+        "healingTotalTimeMs": 167342,
+        "damageEntryId": 165,
+        "healingEntryId": 165,
+        "damageItemLevel": 258,
+        "healingItemLevel": 258,
+        "matchedBy": "damage:actor-id:165,healing:actor-id:165"
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:4:Frrtiix:draenor:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-15T16:03:56.570Z",
+      "reportEndedAt": "2026-05-15T20:00:51.557Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 4,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=4",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-15T17:37:34.095Z",
+      "durationMs": 102851,
+      "bossPercentage": 68.26,
+      "fightPercentage": 68.26,
+      "averageItemLevel": 277.04998779296875,
+      "actor": {
+        "id": 165,
+        "name": "Frrtiix",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 17831.23,
+        "hps": 115.84,
+        "primary": 17831.23,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 1833960,
+        "healingTotal": 11914,
+        "damageActiveTimeMs": 38203,
+        "healingActiveTimeMs": 14561,
+        "damageTotalTimeMs": 102851,
+        "healingTotalTimeMs": 102851,
+        "damageEntryId": 165,
+        "healingEntryId": 165,
+        "damageItemLevel": 258,
+        "healingItemLevel": 258,
+        "matchedBy": "damage:actor-id:165,healing:actor-id:165"
+      }
+    },
+    {
+      "key": "T83jH1d9CRwWKZ4P:3:Frrtiix:draenor:eu",
+      "reportCode": "T83jH1d9CRwWKZ4P",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-15T16:03:56.570Z",
+      "reportEndedAt": "2026-05-15T20:00:51.557Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 3,
+      "url": "https://www.warcraftlogs.com/reports/T83jH1d9CRwWKZ4P#fight=3",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-15T17:32:21.700Z",
+      "durationMs": 37515,
+      "bossPercentage": 99.74,
+      "fightPercentage": 99.74,
+      "averageItemLevel": 275.4666748046875,
+      "actor": {
+        "id": 165,
+        "name": "Frrtiix",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 2812.61,
         "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "primary": 2812.61,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 15
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 105515,
+        "healingTotal": 0,
+        "damageActiveTimeMs": 20432,
+        "damageTotalTimeMs": 37515,
+        "healingTotalTimeMs": 37515,
+        "damageEntryId": 165,
+        "damageItemLevel": 258,
+        "matchedBy": "damage:actor-id:165"
       }
     },
     {
-      "key": "4Zng3fprDXvGjb1V:17:Frrtiix:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 17,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=17",
+      "key": "1K8hqtcZvRg4QAaD:6:Frrtiix:draenor:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=6",
       "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
       "difficulty": 4,
       "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:56:24.188Z",
-      "durationMs": 543654,
-      "bossPercentage": 30.26,
-      "fightPercentage": 8.47,
-      "averageItemLevel": 280.78570556640625,
+      "startedAt": "2026-05-10T17:28:27.833Z",
+      "durationMs": 193921,
+      "bossPercentage": 35.35,
+      "fightPercentage": 35.35,
+      "averageItemLevel": 276.75,
+      "actor": {
+        "id": 160,
+        "name": "Frrtiix",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 87551.17,
+        "hps": 1120.52,
+        "primary": 87551.17,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
-        "raid": 16
+        "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 16978010,
+        "healingTotal": 217292,
+        "damageActiveTimeMs": 180043,
+        "healingActiveTimeMs": 147079,
+        "damageTotalTimeMs": 193921,
+        "healingTotalTimeMs": 193921,
+        "damageEntryId": 160,
+        "healingEntryId": 160,
+        "damageItemLevel": 246,
+        "healingItemLevel": 246,
+        "matchedBy": "damage:actor-id:160,healing:actor-id:160"
       }
     },
     {
-      "key": "4Zng3fprDXvGjb1V:16:Frrtiix:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 16,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=16",
+      "key": "1K8hqtcZvRg4QAaD:5:Frrtiix:draenor:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 5,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=5",
       "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
       "difficulty": 4,
       "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:35:38.267Z",
-      "durationMs": 444676,
-      "bossPercentage": 27.83,
-      "fightPercentage": 7.79,
-      "averageItemLevel": 280.71429443359375,
+      "startedAt": "2026-05-10T17:22:14.542Z",
+      "durationMs": 145886,
+      "bossPercentage": 46.47,
+      "fightPercentage": 46.47,
+      "averageItemLevel": 276.79998779296875,
+      "actor": {
+        "id": 160,
+        "name": "Frrtiix",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 88815.6,
+        "hps": 1989.16,
+        "primary": 88815.6,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
-        "raid": 14
+        "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 12956952,
+        "healingTotal": 290190,
+        "damageActiveTimeMs": 143201,
+        "healingActiveTimeMs": 127669,
+        "damageTotalTimeMs": 145886,
+        "healingTotalTimeMs": 145886,
+        "damageEntryId": 160,
+        "healingEntryId": 160,
+        "damageItemLevel": 246,
+        "healingItemLevel": 246,
+        "matchedBy": "damage:actor-id:160,healing:actor-id:160"
       }
     },
     {
-      "key": "4Zng3fprDXvGjb1V:15:Frrtiix:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 15,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=15",
+      "key": "1K8hqtcZvRg4QAaD:2:Frrtiix:draenor:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 2,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=2",
       "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
       "difficulty": 4,
       "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:29:59.322Z",
-      "durationMs": 168201,
-      "bossPercentage": 99.93,
-      "fightPercentage": 61.97,
-      "averageItemLevel": 280.71429443359375,
+      "startedAt": "2026-05-10T17:17:47.910Z",
+      "durationMs": 124000,
+      "bossPercentage": 39.59,
+      "fightPercentage": 39.59,
+      "averageItemLevel": 276.79998779296875,
+      "actor": {
+        "id": 160,
+        "name": "Frrtiix",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 120922.22,
+        "hps": 1687.48,
+        "primary": 120922.22,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
-        "raid": 16
+        "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 14994355,
+        "healingTotal": 209248,
+        "damageActiveTimeMs": 123652,
+        "healingActiveTimeMs": 104130,
+        "damageTotalTimeMs": 124000,
+        "healingTotalTimeMs": 124000,
+        "damageEntryId": 160,
+        "healingEntryId": 160,
+        "damageItemLevel": 246,
+        "healingItemLevel": 246,
+        "matchedBy": "damage:actor-id:160,healing:actor-id:160"
       }
     },
     {
-      "key": "4Zng3fprDXvGjb1V:14:Frrtiix:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 14,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=14",
+      "key": "kXv1mMLg9xdhz4P3:33:Frrtiix:draenor:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 33,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=33",
       "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
       "difficulty": 4,
       "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:23:32.414Z",
-      "durationMs": 263926,
-      "bossPercentage": 51.89,
-      "fightPercentage": 45.64,
-      "averageItemLevel": 280.71429443359375,
+      "startedAt": "2026-05-09T19:10:04.400Z",
+      "durationMs": 96687,
+      "bossPercentage": 76.83,
+      "fightPercentage": 76.83,
+      "averageItemLevel": 274.3500061035156,
+      "actor": {
+        "id": 163,
+        "name": "Frrtiix",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
+        "dps": 1802.48,
         "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "primary": 1802.48,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
-        "raid": 15
+        "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 174276,
+        "healingTotal": 0,
+        "damageActiveTimeMs": 46647,
+        "damageTotalTimeMs": 96687,
+        "healingTotalTimeMs": 96687,
+        "damageEntryId": 163,
+        "damageItemLevel": 246,
+        "matchedBy": "damage:actor-id:163"
       }
     },
     {
-      "key": "4Zng3fprDXvGjb1V:13:Frrtiix:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 13,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=13",
+      "key": "kXv1mMLg9xdhz4P3:32:Frrtiix:draenor:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=32",
       "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
       "difficulty": 4,
       "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:14:24.461Z",
-      "durationMs": 462361,
-      "bossPercentage": 37.61,
-      "fightPercentage": 10.53,
-      "averageItemLevel": 280.71429443359375,
+      "startedAt": "2026-05-09T18:55:38.056Z",
+      "durationMs": 123724,
+      "bossPercentage": 69.12,
+      "fightPercentage": 69.12,
+      "averageItemLevel": 274.3500061035156,
+      "actor": {
+        "id": 163,
+        "name": "Frrtiix",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 34803.26,
+        "hps": 1210.1,
+        "primary": 34803.26,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
-        "raid": 16
+        "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 4305999,
+        "healingTotal": 149718,
+        "damageActiveTimeMs": 69205,
+        "healingActiveTimeMs": 37182,
+        "damageTotalTimeMs": 123724,
+        "healingTotalTimeMs": 123724,
+        "damageEntryId": 163,
+        "healingEntryId": 163,
+        "damageItemLevel": 246,
+        "healingItemLevel": 246,
+        "matchedBy": "damage:actor-id:163,healing:actor-id:163"
       }
     },
     {
-      "key": "4Zng3fprDXvGjb1V:12:Frrtiix:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 12,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=12",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
+      "key": "kXv1mMLg9xdhz4P3:28:Frrtiix:draenor:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=28",
+      "status": "KILL",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
       "difficulty": 4,
       "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:12:17.451Z",
-      "durationMs": 64027,
-      "bossPercentage": 65.47,
-      "fightPercentage": 86.87,
-      "averageItemLevel": 280.71429443359375,
+      "startedAt": "2026-05-09T18:31:27.289Z",
+      "durationMs": 432510,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 274.45001220703125,
+      "actor": {
+        "id": 163,
+        "name": "Frrtiix",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 56302.62,
+        "hps": 1796.84,
+        "primary": 56302.62,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
-        "raid": 14
+        "raid": 6
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:11:Frrtiix:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 11,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=11",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:08:04.750Z",
-      "durationMs": 127574,
-      "bossPercentage": 32.96,
-      "fightPercentage": 74.52,
-      "averageItemLevel": 280.71429443359375,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 14
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:10:Frrtiix:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 10,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=10",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:02:32.617Z",
-      "durationMs": 242881,
-      "bossPercentage": 57.99,
-      "fightPercentage": 47.71,
-      "averageItemLevel": 280.71429443359375,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 15
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:9:Frrtiix:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 9,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=9",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T17:57:19.007Z",
-      "durationMs": 242761,
-      "bossPercentage": 61.85,
-      "fightPercentage": 49.02,
-      "averageItemLevel": 280.71429443359375,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 15
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 24351448,
+        "healingTotal": 777153,
+        "damageActiveTimeMs": 397397,
+        "healingActiveTimeMs": 352240,
+        "damageTotalTimeMs": 432510,
+        "healingTotalTimeMs": 432510,
+        "damageEntryId": 163,
+        "healingEntryId": 163,
+        "damageItemLevel": 246,
+        "healingItemLevel": 246,
+        "matchedBy": "damage:actor-id:163,healing:actor-id:163"
       }
     }
   ],

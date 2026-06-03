@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.560Z",
+  "updatedAt": "2026-06-03T02:05:14.245Z",
   "character": {
     "name": "Skirvir",
     "realmSlug": "turalyon",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 186,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 62.02,
+    "consistencyPercent": 24.05,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 76673.75,
+      "avgHps": 1111.01,
+      "avgPrimary": 76673.75,
       "avgDurationMs": 213419,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 123630.26,
+      "minDps": 29738.51,
+      "maxHps": 4602.9,
+      "minHps": 463.6,
+      "maxPrimary": 123630.26,
+      "minPrimary": 29738.51,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
     }
@@ -42,6 +42,13 @@
     {
       "key": "8dAPQCWGNMLBjrRg:32:Skirvir:turalyon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 32,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 57.68,
       "fightPercentage": 57.68,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 172,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 72436.73,
+        "hps": 1126.58,
+        "primary": 72436.73,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 15645103,
+        "healingTotal": 243322,
+        "damageActiveTimeMs": 191133,
+        "healingActiveTimeMs": 155876,
+        "damageTotalTimeMs": 215983,
+        "healingTotalTimeMs": 215983,
+        "damageEntryId": 172,
+        "healingEntryId": 172,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:31:Skirvir:turalyon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 31,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 57.65,
       "fightPercentage": 57.65,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 172,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 70389.41,
+        "hps": 1023.51,
+        "primary": 70389.41,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 15939400,
+        "healingTotal": 231769,
+        "damageActiveTimeMs": 199089,
+        "healingActiveTimeMs": 105322,
+        "damageTotalTimeMs": 226446,
+        "healingTotalTimeMs": 226446,
+        "damageEntryId": 172,
+        "healingEntryId": 172,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:30:Skirvir:turalyon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 30,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 58.27,
       "fightPercentage": 58.27,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 172,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 87195.1,
+        "hps": 1182.95,
+        "primary": 87195.1,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 17249719,
+        "healingTotal": 234022,
+        "damageActiveTimeMs": 195391,
+        "healingActiveTimeMs": 134033,
+        "damageTotalTimeMs": 197829,
+        "healingTotalTimeMs": 197829,
+        "damageEntryId": 172,
+        "healingEntryId": 172,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:29:Skirvir:turalyon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 29,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
       "status": "WIPE",
@@ -144,24 +220,47 @@
       "bossPercentage": 56.82,
       "fightPercentage": 56.82,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 172,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 79321.17,
+        "hps": 1430.15,
+        "primary": 79321.17,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 17621832,
+        "healingTotal": 317720,
+        "damageActiveTimeMs": 203561,
+        "healingActiveTimeMs": 148221,
+        "damageTotalTimeMs": 222158,
+        "healingTotalTimeMs": 222158,
+        "damageEntryId": 172,
+        "healingEntryId": 172,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:28:Skirvir:turalyon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 28,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 58.86,
       "fightPercentage": 58.86,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 172,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 90786.05,
+        "hps": 2737.82,
+        "primary": 90786.05,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 18989628,
+        "healingTotal": 572667,
+        "damageActiveTimeMs": 205393,
+        "healingActiveTimeMs": 159674,
+        "damageTotalTimeMs": 209169,
+        "healingTotalTimeMs": 209169,
+        "damageEntryId": 172,
+        "healingEntryId": 172,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:27:Skirvir:turalyon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 27,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
       "status": "WIPE",
@@ -204,24 +326,47 @@
       "bossPercentage": 62.33,
       "fightPercentage": 62.33,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 172,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 71954.86,
+        "hps": 4069.59,
+        "primary": 71954.86,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 12197716,
+        "healingTotal": 689872,
+        "damageActiveTimeMs": 134480,
+        "healingActiveTimeMs": 70893,
+        "damageTotalTimeMs": 169519,
+        "healingTotalTimeMs": 169519,
+        "damageEntryId": 172,
+        "healingEntryId": 172,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:26:Skirvir:turalyon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 26,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
       "status": "WIPE",
@@ -234,24 +379,47 @@
       "bossPercentage": 80.53,
       "fightPercentage": 80.53,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 172,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 123630.26,
+        "hps": 1845.81,
+        "primary": 123630.26,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 6290926,
+        "healingTotal": 93924,
+        "damageActiveTimeMs": 47319,
+        "healingActiveTimeMs": 21423,
+        "damageTotalTimeMs": 50885,
+        "healingTotalTimeMs": 50885,
+        "damageEntryId": 172,
+        "healingEntryId": 172,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:25:Skirvir:turalyon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 25,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 79.76,
       "fightPercentage": 79.76,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 172,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 122437.36,
+        "hps": 1634.33,
+        "primary": 122437.36,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 6143417,
+        "healingTotal": 82004,
+        "damageActiveTimeMs": 47989,
+        "healingActiveTimeMs": 38901,
+        "damageTotalTimeMs": 50176,
+        "healingTotalTimeMs": 50176,
+        "damageEntryId": 172,
+        "healingEntryId": 172,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:21:Skirvir:turalyon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 21,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
       "status": "KILL",
@@ -294,24 +485,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 172,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 100590.62,
+        "hps": 4602.9,
+        "primary": 100590.62,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 3
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 33785172,
+        "healingTotal": 1545967,
+        "damageActiveTimeMs": 332506,
+        "healingActiveTimeMs": 321834,
+        "damageTotalTimeMs": 335868,
+        "healingTotalTimeMs": 335868,
+        "damageEntryId": 172,
+        "healingEntryId": 172,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:20:Skirvir:turalyon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 20,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
       "status": "WIPE",
@@ -324,19 +538,35 @@
       "bossPercentage": 27.56,
       "fightPercentage": 27.56,
       "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 172,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 29738.51,
+        "hps": 463.6,
+        "primary": 29738.51,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 8503965,
+        "healingTotal": 132570,
+        "damageActiveTimeMs": 91942,
+        "healingActiveTimeMs": 80049,
+        "damageTotalTimeMs": 285958,
+        "healingTotalTimeMs": 285958,
+        "damageEntryId": 172,
+        "healingEntryId": 172,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
       }
     }
   ],

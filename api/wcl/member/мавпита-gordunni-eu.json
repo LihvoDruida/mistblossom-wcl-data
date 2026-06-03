@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.251Z",
   "character": {
     "name": "Мавпита",
     "realmSlug": "gordunni",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 10,
+    "kills": 1,
+    "wipes": 9,
+    "killRate": 0.1,
+    "wipeRate": 0.9,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 156,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 83.82,
+    "consistencyPercent": 32.94,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 87339.48,
+      "avgHps": 1047.48,
+      "avgPrimary": 87339.48,
+      "avgDurationMs": 119568,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 104197.76,
+      "minDps": 34321.94,
+      "maxHps": 5652.6,
+      "minHps": 692.95,
+      "maxPrimary": 104197.76,
+      "minPrimary": 34321.94,
+      "maxDurationMs": 407490,
+      "minDurationMs": 81840
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "vzQAWB8Kw3ykjR1a:33:Мавпита:gordunni:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 33,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=33",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:19:19.595Z",
+      "durationMs": 102102,
+      "bossPercentage": 77.88,
+      "fightPercentage": 77.88,
+      "averageItemLevel": 272.8571472167969,
+      "actor": {
+        "id": 2,
+        "name": "Мавпита",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Evoker"
+      },
+      "metric": {
+        "dps": 69548.61,
+        "hps": 1158.39,
+        "primary": 69548.61,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 13
+      },
+      "source": {
+        "damageTotal": 7101052,
+        "healingTotal": 118274,
+        "damageActiveTimeMs": 97252,
+        "healingActiveTimeMs": 77131,
+        "damageTotalTimeMs": 102102,
+        "healingTotalTimeMs": 102102,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 265,
+        "healingItemLevel": 265,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:32:Мавпита:gordunni:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=32",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:15:56.254Z",
+      "durationMs": 81840,
+      "bossPercentage": 78.7,
+      "fightPercentage": 78.7,
+      "averageItemLevel": 272.8571472167969,
+      "actor": {
+        "id": 2,
+        "name": "Мавпита",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Evoker"
+      },
+      "metric": {
+        "dps": 88272.07,
+        "hps": 692.95,
+        "primary": 88272.07,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 4
+      },
+      "source": {
+        "damageTotal": 7224186,
+        "healingTotal": 56711,
+        "damageActiveTimeMs": 79712,
+        "healingActiveTimeMs": 76286,
+        "damageTotalTimeMs": 81840,
+        "healingTotalTimeMs": 81840,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 265,
+        "healingItemLevel": 265,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:31:Мавпита:gordunni:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 31,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=31",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T20:08:57.577Z",
+      "durationMs": 174763,
+      "bossPercentage": 53.91,
+      "fightPercentage": 53.91,
+      "averageItemLevel": 274,
+      "actor": {
+        "id": 2,
+        "name": "Мавпита",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Evoker"
+      },
+      "metric": {
+        "dps": 104197.76,
+        "hps": 1291.09,
+        "primary": 104197.76,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 18209913,
+        "healingTotal": 225634,
+        "damageActiveTimeMs": 171457,
+        "healingActiveTimeMs": 155275,
+        "damageTotalTimeMs": 174763,
+        "healingTotalTimeMs": 174763,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 265,
+        "healingItemLevel": 265,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:30:Мавпита:gordunni:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=30",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:58:22.554Z",
+      "durationMs": 142619,
+      "bossPercentage": 67.34,
+      "fightPercentage": 67.34,
+      "averageItemLevel": 274.54998779296875,
+      "actor": {
+        "id": 2,
+        "name": "Мавпита",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Evoker"
+      },
+      "metric": {
+        "dps": 71059.87,
+        "hps": 2227.45,
+        "primary": 71059.87,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 10134488,
+        "healingTotal": 317677,
+        "damageActiveTimeMs": 139939,
+        "healingActiveTimeMs": 95076,
+        "damageTotalTimeMs": 142619,
+        "healingTotalTimeMs": 142619,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 265,
+        "healingItemLevel": 265,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:27:Мавпита:gordunni:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=27",
+      "status": "KILL",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:26:05.889Z",
+      "durationMs": 369450,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 2,
+        "name": "Мавпита",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Evoker"
+      },
+      "metric": {
+        "dps": 59344.69,
+        "hps": 4777.98,
+        "primary": 59344.69,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 2
+      },
+      "source": {
+        "damageTotal": 21924895,
+        "healingTotal": 1765226,
+        "damageActiveTimeMs": 367076,
+        "healingActiveTimeMs": 326129,
+        "damageTotalTimeMs": 369450,
+        "healingTotalTimeMs": 369450,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 265,
+        "healingItemLevel": 265,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:26:Мавпита:gordunni:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=26",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:16:12.660Z",
+      "durationMs": 256845,
+      "bossPercentage": 42.44,
+      "fightPercentage": 42.44,
+      "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 2,
+        "name": "Мавпита",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Evoker"
+      },
+      "metric": {
+        "dps": 59865.85,
+        "hps": 4223.91,
+        "primary": 59865.85,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 15376243,
+        "healingTotal": 1084890,
+        "damageActiveTimeMs": 228993,
+        "healingActiveTimeMs": 223837,
+        "damageTotalTimeMs": 256845,
+        "healingTotalTimeMs": 256845,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 265,
+        "healingItemLevel": 265,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:25:Мавпита:gordunni:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=25",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:11:16.661Z",
+      "durationMs": 201370,
+      "bossPercentage": 54.39,
+      "fightPercentage": 54.39,
+      "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 2,
+        "name": "Мавпита",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Evoker"
+      },
+      "metric": {
+        "dps": 50212.14,
+        "hps": 2019.28,
+        "primary": 50212.14,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 18
+      },
+      "source": {
+        "damageTotal": 10111219,
+        "healingTotal": 406622,
+        "damageActiveTimeMs": 197080,
+        "healingActiveTimeMs": 179439,
+        "damageTotalTimeMs": 201370,
+        "healingTotalTimeMs": 201370,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 265,
+        "healingItemLevel": 265,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:24:Мавпита:gordunni:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=24",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:03:03.542Z",
+      "durationMs": 397835,
+      "bossPercentage": 2.51,
+      "fightPercentage": 2.51,
+      "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 2,
+        "name": "Мавпита",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Evoker"
+      },
+      "metric": {
+        "dps": 34321.94,
+        "hps": 2970.88,
+        "primary": 34321.94,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 13654468,
+        "healingTotal": 1181921,
+        "damageActiveTimeMs": 227399,
+        "healingActiveTimeMs": 208842,
+        "damageTotalTimeMs": 397835,
+        "healingTotalTimeMs": 397835,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 265,
+        "healingItemLevel": 265,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:23:Мавпита:gordunni:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=23",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:47:54.748Z",
+      "durationMs": 407490,
+      "bossPercentage": 8.65,
+      "fightPercentage": 8.65,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 2,
+        "name": "Мавпита",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Evoker"
+      },
+      "metric": {
+        "dps": 61770.45,
+        "hps": 5325.28,
+        "primary": 61770.45,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 25170839,
+        "healingTotal": 2169997,
+        "damageActiveTimeMs": 404258,
+        "healingActiveTimeMs": 399729,
+        "damageTotalTimeMs": 407490,
+        "healingTotalTimeMs": 407490,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 264,
+        "healingItemLevel": 264,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:22:Мавпита:gordunni:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=22",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:43:20.714Z",
+      "durationMs": 130113,
+      "bossPercentage": 68.99,
+      "fightPercentage": 68.99,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 2,
+        "name": "Мавпита",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Evoker"
+      },
+      "metric": {
+        "dps": 52001.42,
+        "hps": 5652.6,
+        "primary": 52001.42,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6766061,
+        "healingTotal": 735477,
+        "damageActiveTimeMs": 127380,
+        "healingActiveTimeMs": 122833,
+        "damageTotalTimeMs": 130113,
+        "healingTotalTimeMs": 130113,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 264,
+        "healingItemLevel": 264,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

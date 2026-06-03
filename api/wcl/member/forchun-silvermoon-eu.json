@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.247Z",
   "character": {
     "name": "Forchun",
     "realmSlug": "silvermoon",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 186,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 67.54,
+    "consistencyPercent": 50.66,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 40330.46,
+      "avgHps": 20508.75,
+      "avgPrimary": 40330.46,
       "avgDurationMs": 213419,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 59710.42,
+      "minDps": 30246.76,
+      "maxHps": 34357.71,
+      "minHps": 14873.2,
+      "maxPrimary": 59710.42,
+      "minPrimary": 30246.76,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
     }
@@ -42,6 +42,13 @@
     {
       "key": "8dAPQCWGNMLBjrRg:32:Forchun:silvermoon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 32,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 57.68,
       "fightPercentage": 57.68,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 112,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 36127.32,
+        "hps": 15400.96,
+        "primary": 36127.32,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7802886,
+        "healingTotal": 3326345,
+        "damageActiveTimeMs": 196090,
+        "healingActiveTimeMs": 207553,
+        "damageTotalTimeMs": 215983,
+        "healingTotalTimeMs": 215983,
+        "damageEntryId": 112,
+        "healingEntryId": 112,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:31:Forchun:silvermoon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 31,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 57.65,
       "fightPercentage": 57.65,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 112,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 46732.67,
+        "hps": 23703.97,
+        "primary": 46732.67,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 10582426,
+        "healingTotal": 5367669,
+        "damageActiveTimeMs": 212206,
+        "healingActiveTimeMs": 224500,
+        "damageTotalTimeMs": 226446,
+        "healingTotalTimeMs": 226446,
+        "damageEntryId": 112,
+        "healingEntryId": 112,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:30:Forchun:silvermoon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 30,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 58.27,
       "fightPercentage": 58.27,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 112,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 38131.4,
+        "hps": 22421.31,
+        "primary": 38131.4,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7543497,
+        "healingTotal": 4435586,
+        "damageActiveTimeMs": 180701,
+        "healingActiveTimeMs": 187413,
+        "damageTotalTimeMs": 197829,
+        "healingTotalTimeMs": 197829,
+        "damageEntryId": 112,
+        "healingEntryId": 112,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:29:Forchun:silvermoon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 29,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
       "status": "WIPE",
@@ -144,24 +220,47 @@
       "bossPercentage": 56.82,
       "fightPercentage": 56.82,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 112,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 33521.66,
+        "hps": 20211.71,
+        "primary": 33521.66,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7447104,
+        "healingTotal": 4490193,
+        "damageActiveTimeMs": 184514,
+        "healingActiveTimeMs": 196529,
+        "damageTotalTimeMs": 222158,
+        "healingTotalTimeMs": 222158,
+        "damageEntryId": 112,
+        "healingEntryId": 112,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:28:Forchun:silvermoon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 28,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 58.86,
       "fightPercentage": 58.86,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 112,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 30246.76,
+        "hps": 14873.2,
+        "primary": 30246.76,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 6326685,
+        "healingTotal": 3111012,
+        "damageActiveTimeMs": 158407,
+        "healingActiveTimeMs": 180261,
+        "damageTotalTimeMs": 209169,
+        "healingTotalTimeMs": 209169,
+        "damageEntryId": 112,
+        "healingEntryId": 112,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:27:Forchun:silvermoon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 27,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
       "status": "WIPE",
@@ -204,24 +326,47 @@
       "bossPercentage": 62.33,
       "fightPercentage": 62.33,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 112,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 41674.24,
+        "hps": 19302.49,
+        "primary": 41674.24,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7064576,
+        "healingTotal": 3272138,
+        "damageActiveTimeMs": 153815,
+        "healingActiveTimeMs": 156003,
+        "damageTotalTimeMs": 169519,
+        "healingTotalTimeMs": 169519,
+        "damageEntryId": 112,
+        "healingEntryId": 112,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:26:Forchun:silvermoon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 26,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
       "status": "WIPE",
@@ -234,24 +379,47 @@
       "bossPercentage": 80.53,
       "fightPercentage": 80.53,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 112,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 53290.91,
+        "hps": 30039.83,
+        "primary": 53290.91,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 2711708,
+        "healingTotal": 1528577,
+        "damageActiveTimeMs": 48559,
+        "healingActiveTimeMs": 49042,
+        "damageTotalTimeMs": 50885,
+        "healingTotalTimeMs": 50885,
+        "damageEntryId": 112,
+        "healingEntryId": 112,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:25:Forchun:silvermoon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 25,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 79.76,
       "fightPercentage": 79.76,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 112,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 59710.42,
+        "hps": 25562.28,
+        "primary": 59710.42,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 2996030,
+        "healingTotal": 1282613,
+        "damageActiveTimeMs": 47471,
+        "healingActiveTimeMs": 49413,
+        "damageTotalTimeMs": 50176,
+        "healingTotalTimeMs": 50176,
+        "damageEntryId": 112,
+        "healingEntryId": 112,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:21:Forchun:silvermoon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 21,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
       "status": "KILL",
@@ -294,24 +485,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 112,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 57925.29,
+        "hps": 34357.71,
+        "primary": 57925.29,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 3
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 19455251,
+        "healingTotal": 11539657,
+        "damageActiveTimeMs": 334292,
+        "healingActiveTimeMs": 333906,
+        "damageTotalTimeMs": 335868,
+        "healingTotalTimeMs": 335868,
+        "damageEntryId": 112,
+        "healingEntryId": 112,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:20:Forchun:silvermoon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 20,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
       "status": "WIPE",
@@ -324,19 +538,35 @@
       "bossPercentage": 27.56,
       "fightPercentage": 27.56,
       "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 112,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 49621.52,
+        "hps": 31943.75,
+        "primary": 49621.52,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 14189671,
+        "healingTotal": 9134571,
+        "damageActiveTimeMs": 282975,
+        "healingActiveTimeMs": 284295,
+        "damageTotalTimeMs": 285958,
+        "healingTotalTimeMs": 285958,
+        "damageEntryId": 112,
+        "healingEntryId": 112,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
       }
     }
   ],

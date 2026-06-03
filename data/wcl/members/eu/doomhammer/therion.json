@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.560Z",
+  "updatedAt": "2026-06-03T02:05:14.244Z",
   "character": {
     "name": "Thérion",
     "realmSlug": "doomhammer",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 153,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 35.71,
+    "consistencyPercent": 30.11,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 16258.36,
+      "avgHps": 14738.66,
+      "avgPrimary": 16478.67,
       "avgDurationMs": 168192,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 46151.22,
+      "minDps": 13419.71,
+      "maxHps": 19290.12,
+      "minHps": 2012.12,
+      "maxPrimary": 46151.22,
+      "minPrimary": 13895.29,
       "maxDurationMs": 432510,
       "minDurationMs": 96687
     }
@@ -42,6 +42,13 @@
     {
       "key": "kXv1mMLg9xdhz4P3:38:Thérion:doomhammer:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 38,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=38",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 62.97,
       "fightPercentage": 62.97,
       "averageItemLevel": 275.1000061035156,
+      "actor": {
+        "id": 6,
+        "name": "Thérion",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warrior"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 13419.71,
+        "hps": 14080.63,
+        "primary": 14080.63,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 2021143,
+        "healingTotal": 2120684,
+        "damageActiveTimeMs": 94615,
+        "healingActiveTimeMs": 89356,
+        "damageTotalTimeMs": 150610,
+        "healingTotalTimeMs": 150610,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:37:Thérion:doomhammer:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 37,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=37",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 58.91,
       "fightPercentage": 58.91,
       "averageItemLevel": 276.3500061035156,
+      "actor": {
+        "id": 6,
+        "name": "Thérion",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warrior"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 21460.08,
+        "hps": 19290.12,
+        "primary": 21460.08,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 3301311,
+        "healingTotal": 2967495,
+        "damageActiveTimeMs": 145916,
+        "healingActiveTimeMs": 125208,
+        "damageTotalTimeMs": 153835,
+        "healingTotalTimeMs": 153835,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:36:Thérion:doomhammer:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 36,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=36",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 49.32,
       "fightPercentage": 49.32,
       "averageItemLevel": 276.3500061035156,
+      "actor": {
+        "id": 6,
+        "name": "Thérion",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warrior"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 13895.29,
+        "hps": 10845.24,
+        "primary": 13895.29,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 2780879,
+        "healingTotal": 2170469,
+        "damageActiveTimeMs": 163707,
+        "healingActiveTimeMs": 152657,
+        "damageTotalTimeMs": 200131,
+        "healingTotalTimeMs": 200131,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:33:Thérion:doomhammer:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 33,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=33",
       "status": "WIPE",
@@ -144,24 +220,47 @@
       "bossPercentage": 76.83,
       "fightPercentage": 76.83,
       "averageItemLevel": 274.3500061035156,
+      "actor": {
+        "id": 6,
+        "name": "Thérion",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warrior"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 35678.9,
+        "hps": 2012.12,
+        "primary": 35678.9,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 3449686,
+        "healingTotal": 194546,
+        "damageActiveTimeMs": 58295,
+        "healingActiveTimeMs": 53088,
+        "damageTotalTimeMs": 96687,
+        "healingTotalTimeMs": 96687,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 271,
+        "healingItemLevel": 271,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:32:Thérion:doomhammer:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 32,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=32",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 69.12,
       "fightPercentage": 69.12,
       "averageItemLevel": 274.3500061035156,
+      "actor": {
+        "id": 6,
+        "name": "Thérion",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warrior"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 38669.44,
+        "hps": 4499.43,
+        "primary": 38669.44,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 4784338,
+        "healingTotal": 556687,
+        "damageActiveTimeMs": 98924,
+        "healingActiveTimeMs": 89363,
+        "damageTotalTimeMs": 123724,
+        "healingTotalTimeMs": 123724,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 271,
+        "healingItemLevel": 271,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:28:Thérion:doomhammer:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 28,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=28",
       "status": "KILL",
@@ -204,24 +326,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 274.45001220703125,
+      "actor": {
+        "id": 6,
+        "name": "Thérion",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warrior"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 20038.39,
+        "hps": 3222,
+        "primary": 20038.39,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 6
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 8666804,
+        "healingTotal": 1393549,
+        "damageActiveTimeMs": 228800,
+        "healingActiveTimeMs": 199358,
+        "damageTotalTimeMs": 432510,
+        "healingTotalTimeMs": 432510,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 271,
+        "healingItemLevel": 271,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:27:Thérion:doomhammer:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 27,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=27",
       "status": "WIPE",
@@ -234,24 +379,47 @@
       "bossPercentage": 52.06,
       "fightPercentage": 52.06,
       "averageItemLevel": 274.25,
+      "actor": {
+        "id": 6,
+        "name": "Thérion",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warrior"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 30725.56,
+        "hps": 4659.32,
+        "primary": 30725.56,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 8046471,
+        "healingTotal": 1220192,
+        "damageActiveTimeMs": 206962,
+        "healingActiveTimeMs": 211150,
+        "damageTotalTimeMs": 261882,
+        "healingTotalTimeMs": 261882,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 271,
+        "healingItemLevel": 271,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:25:Thérion:doomhammer:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 25,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=25",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 74.62,
       "fightPercentage": 74.62,
       "averageItemLevel": 274.25,
+      "actor": {
+        "id": 6,
+        "name": "Thérion",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warrior"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 34569.21,
+        "hps": 2374.09,
+        "primary": 34569.21,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 3482813,
+        "healingTotal": 239187,
+        "damageActiveTimeMs": 80444,
+        "healingActiveTimeMs": 76063,
+        "damageTotalTimeMs": 100749,
+        "healingTotalTimeMs": 100749,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 271,
+        "healingItemLevel": 271,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:22:Thérion:doomhammer:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 22,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=22",
       "status": "KILL",
@@ -294,24 +485,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 274.25,
+      "actor": {
+        "id": 6,
+        "name": "Thérion",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warrior"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 38891.91,
+        "hps": 5284.69,
+        "primary": 38891.91,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 3
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 13290650,
+        "healingTotal": 1805952,
+        "damageActiveTimeMs": 339545,
+        "healingActiveTimeMs": 339101,
+        "damageTotalTimeMs": 341733,
+        "healingTotalTimeMs": 341733,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 271,
+        "healingItemLevel": 271,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:17:Thérion:doomhammer:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 17,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=17",
       "status": "KILL",
@@ -324,19 +538,35 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 276.04998779296875,
+      "actor": {
+        "id": 6,
+        "name": "Thérion",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warrior"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 46151.22,
+        "hps": 5209.05,
+        "primary": 46151.22,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 2
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 11890169,
+        "healingTotal": 1342033,
+        "damageActiveTimeMs": 255303,
+        "healingActiveTimeMs": 255012,
+        "damageTotalTimeMs": 257635,
+        "healingTotalTimeMs": 257635,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 271,
+        "healingItemLevel": 271,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
       }
     }
   ],

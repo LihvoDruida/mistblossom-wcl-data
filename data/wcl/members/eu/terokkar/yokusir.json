@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.559Z",
+  "updatedAt": "2026-06-03T02:05:14.243Z",
   "character": {
     "name": "Yokusir",
     "realmSlug": "terokkar",
@@ -10,333 +10,192 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 10,
-    "kills": 1,
-    "wipes": 9,
-    "killRate": 0.1,
-    "wipeRate": 0.9,
+    "pullsStored": 3,
+    "kills": 0,
+    "wipes": 3,
+    "killRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 186,
+    "totalRaidDeaths": 64,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 73.81,
+    "consistencyPercent": 57.18,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 213419,
+      "avgDps": 40126.1,
+      "avgHps": 3093.4,
+      "avgPrimary": 40126.1,
+      "avgDurationMs": 276499,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 335868,
-      "minDurationMs": 50176
+      "maxDps": 54366.8,
+      "minDps": 31085.52,
+      "maxHps": 4080.21,
+      "minHps": 1402.65,
+      "maxPrimary": 54366.8,
+      "minPrimary": 31085.52,
+      "maxDurationMs": 356948,
+      "minDurationMs": 235959
     }
   },
   "pulls": [
     {
-      "key": "8dAPQCWGNMLBjrRg:32:Yokusir:terokkar:eu",
+      "key": "8dAPQCWGNMLBjrRg:19:Yokusir:terokkar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
-      "fightId": 32,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:06:06.764Z",
-      "durationMs": 215983,
-      "bossPercentage": 57.68,
-      "fightPercentage": 57.68,
-      "averageItemLevel": 284.75,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
       },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:31:Yokusir:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "fightId": 31,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:00:37.917Z",
-      "durationMs": 226446,
-      "bossPercentage": 57.65,
-      "fightPercentage": 57.65,
-      "averageItemLevel": 284.75,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:30:Yokusir:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "fightId": 30,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:54:58.059Z",
-      "durationMs": 197829,
-      "bossPercentage": 58.27,
-      "fightPercentage": 58.27,
-      "averageItemLevel": 284.75,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:29:Yokusir:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "fightId": 29,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:48:53.946Z",
-      "durationMs": 222158,
-      "bossPercentage": 56.82,
-      "fightPercentage": 56.82,
-      "averageItemLevel": 284.75,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:28:Yokusir:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:38:12.252Z",
-      "durationMs": 209169,
-      "bossPercentage": 58.86,
-      "fightPercentage": 58.86,
-      "averageItemLevel": 284.75,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:27:Yokusir:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:29:44.846Z",
-      "durationMs": 169519,
-      "bossPercentage": 62.33,
-      "fightPercentage": 62.33,
-      "averageItemLevel": 284.70001220703125,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:26:Yokusir:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:27:07.695Z",
-      "durationMs": 50885,
-      "bossPercentage": 80.53,
-      "fightPercentage": 80.53,
-      "averageItemLevel": 284.70001220703125,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:25:Yokusir:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:23:53.731Z",
-      "durationMs": 50176,
-      "bossPercentage": 79.76,
-      "fightPercentage": 79.76,
-      "averageItemLevel": 284.70001220703125,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:21:Yokusir:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
-      "status": "KILL",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:04:24.189Z",
-      "durationMs": 335868,
-      "bossPercentage": 0.01,
-      "fightPercentage": 0.01,
-      "averageItemLevel": 284.8500061035156,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 3
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:20:Yokusir:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=19",
       "status": "WIPE",
       "bossName": "Vorasius",
       "encounterId": 3177,
       "difficulty": 5,
       "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T18:57:55.893Z",
-      "durationMs": 285958,
-      "bossPercentage": 27.56,
-      "fightPercentage": 27.56,
-      "averageItemLevel": 284.8500061035156,
+      "startedAt": "2026-05-29T18:46:12.334Z",
+      "durationMs": 356948,
+      "bossPercentage": 2.22,
+      "fightPercentage": 2.22,
+      "averageItemLevel": 284.3500061035156,
+      "actor": {
+        "id": 216,
+        "name": "Yokusir",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 34925.98,
+        "hps": 3797.33,
+        "primary": 34925.98,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
-        "raid": 20
+        "raid": 22
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 12466760,
+        "healingTotal": 1355449,
+        "damageActiveTimeMs": 205425,
+        "healingActiveTimeMs": 106897,
+        "damageTotalTimeMs": 356948,
+        "healingTotalTimeMs": 356948,
+        "damageEntryId": 216,
+        "healingEntryId": 216,
+        "damageItemLevel": 271,
+        "healingItemLevel": 271,
+        "matchedBy": "damage:actor-id:216,healing:actor-id:216"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:18:Yokusir:terokkar:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=18",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T18:27:30.004Z",
+      "durationMs": 236589,
+      "bossPercentage": 39.83,
+      "fightPercentage": 39.83,
+      "averageItemLevel": 284.29998779296875,
+      "actor": {
+        "id": 216,
+        "name": "Yokusir",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 54366.8,
+        "hps": 4080.21,
+        "primary": 54366.8,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 12862586,
+        "healingTotal": 965333,
+        "damageActiveTimeMs": 188051,
+        "healingActiveTimeMs": 59022,
+        "damageTotalTimeMs": 236589,
+        "healingTotalTimeMs": 236589,
+        "damageEntryId": 216,
+        "healingEntryId": 216,
+        "damageItemLevel": 271,
+        "healingItemLevel": 271,
+        "matchedBy": "damage:actor-id:216,healing:actor-id:216"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:17:Yokusir:terokkar:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=17",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T18:21:23.578Z",
+      "durationMs": 235959,
+      "bossPercentage": 37.89,
+      "fightPercentage": 37.89,
+      "averageItemLevel": 284.29998779296875,
+      "actor": {
+        "id": 216,
+        "name": "Yokusir",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 31085.52,
+        "hps": 1402.65,
+        "primary": 31085.52,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 7334909,
+        "healingTotal": 330967,
+        "damageActiveTimeMs": 89925,
+        "healingActiveTimeMs": 24078,
+        "damageTotalTimeMs": 235959,
+        "healingTotalTimeMs": 235959,
+        "damageEntryId": 216,
+        "healingEntryId": 216,
+        "damageItemLevel": 271,
+        "healingItemLevel": 271,
+        "matchedBy": "damage:actor-id:216,healing:actor-id:216"
       }
     }
   ],

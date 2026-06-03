@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.559Z",
+  "updatedAt": "2026-06-03T02:05:14.243Z",
   "character": {
     "name": "Illidonson",
     "realmSlug": "draenor",
@@ -11,332 +11,562 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 0,
-    "wipes": 10,
-    "killRate": 0,
-    "wipeRate": 1,
+    "kills": 1,
+    "wipes": 9,
+    "killRate": 0.1,
+    "wipeRate": 0.9,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 150,
+    "totalRaidDeaths": 193,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 97.47,
+    "consistencyPercent": 35.72,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 426578,
+      "avgDps": 63660.8,
+      "avgHps": 9553.9,
+      "avgPrimary": 63660.8,
+      "avgDurationMs": 268883,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 543654,
-      "minDurationMs": 64027
+      "maxDps": 65313.51,
+      "minDps": 23329.28,
+      "maxHps": 13261.14,
+      "minHps": 2899.68,
+      "maxPrimary": 65313.51,
+      "minPrimary": 23329.28,
+      "maxDurationMs": 313982,
+      "minDurationMs": 113961
     }
   },
   "pulls": [
     {
-      "key": "4Zng3fprDXvGjb1V:18:Illidonson:draenor:eu",
+      "key": "4Zng3fprDXvGjb1V:6:Illidonson:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 18,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=18",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=6",
+      "status": "KILL",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
       "difficulty": 4,
       "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T19:09:27.100Z",
-      "durationMs": 291403,
-      "bossPercentage": 22.18,
-      "fightPercentage": 35.54,
-      "averageItemLevel": 280.78570556640625,
+      "startedAt": "2026-05-17T17:34:07.976Z",
+      "durationMs": 313982,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "averageItemLevel": 279.5714416503906,
+      "actor": {
+        "id": 133,
+        "name": "Illidonson",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 63976.11,
+        "hps": 11191.56,
+        "primary": 63976.11,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 10
+      },
+      "source": {
+        "damageTotal": 20087347,
+        "healingTotal": 3513949,
+        "damageActiveTimeMs": 309952,
+        "healingActiveTimeMs": 309487,
+        "damageTotalTimeMs": 313982,
+        "healingTotalTimeMs": 313982,
+        "damageEntryId": 133,
+        "healingEntryId": 133,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:133,healing:actor-id:133"
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:4:Illidonson:draenor:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 4,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=4",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T17:25:15.722Z",
+      "durationMs": 260217,
+      "bossPercentage": 34.77,
+      "fightPercentage": 34.77,
+      "averageItemLevel": 279.71429443359375,
+      "actor": {
+        "id": 133,
+        "name": "Illidonson",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 65313.51,
+        "hps": 7120.48,
+        "primary": 65313.51,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 15
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 16995685,
+        "healingTotal": 1852869,
+        "damageActiveTimeMs": 250927,
+        "healingActiveTimeMs": 235344,
+        "damageTotalTimeMs": 260217,
+        "healingTotalTimeMs": 260217,
+        "damageEntryId": 133,
+        "healingEntryId": 133,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:133,healing:actor-id:133"
       }
     },
     {
-      "key": "4Zng3fprDXvGjb1V:17:Illidonson:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 17,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=17",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:56:24.188Z",
-      "durationMs": 543654,
-      "bossPercentage": 30.26,
-      "fightPercentage": 8.47,
-      "averageItemLevel": 280.78570556640625,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+      "key": "rTcy1FHzkwg2ZvMQ:10:Illidonson:draenor:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
       },
-      "deaths": {
-        "character": 0,
-        "raid": 16
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:16:Illidonson:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 16,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=16",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:35:38.267Z",
-      "durationMs": 444676,
-      "bossPercentage": 27.83,
-      "fightPercentage": 7.79,
-      "averageItemLevel": 280.71429443359375,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 14
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:15:Illidonson:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 15,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=15",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:29:59.322Z",
-      "durationMs": 168201,
-      "bossPercentage": 99.93,
-      "fightPercentage": 61.97,
-      "averageItemLevel": 280.71429443359375,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 16
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:14:Illidonson:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 14,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=14",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:23:32.414Z",
-      "durationMs": 263926,
-      "bossPercentage": 51.89,
-      "fightPercentage": 45.64,
-      "averageItemLevel": 280.71429443359375,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 15
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:13:Illidonson:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 13,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=13",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:14:24.461Z",
-      "durationMs": 462361,
-      "bossPercentage": 37.61,
-      "fightPercentage": 10.53,
-      "averageItemLevel": 280.71429443359375,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 16
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:12:Illidonson:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 12,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=12",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:12:17.451Z",
-      "durationMs": 64027,
-      "bossPercentage": 65.47,
-      "fightPercentage": 86.87,
-      "averageItemLevel": 280.71429443359375,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 14
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:11:Illidonson:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "fightId": 11,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=11",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:08:04.750Z",
-      "durationMs": 127574,
-      "bossPercentage": 32.96,
-      "fightPercentage": 74.52,
-      "averageItemLevel": 280.71429443359375,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 14
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:10:Illidonson:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
       "fightId": 10,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=10",
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=10",
       "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
       "difficulty": 4,
       "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:02:32.617Z",
-      "durationMs": 242881,
-      "bossPercentage": 57.99,
-      "fightPercentage": 47.71,
-      "averageItemLevel": 280.71429443359375,
+      "startedAt": "2026-05-01T19:03:40.900Z",
+      "durationMs": 232451,
+      "bossPercentage": 30.92,
+      "fightPercentage": 43.14,
+      "averageItemLevel": 276.75,
+      "actor": {
+        "id": 65,
+        "name": "Illidonson",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 61692.79,
+        "hps": 10349.67,
+        "primary": 61692.79,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
-        "raid": 15
+        "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 14340551,
+        "healingTotal": 2405791,
+        "damageActiveTimeMs": 223642,
+        "healingActiveTimeMs": 216383,
+        "damageTotalTimeMs": 232451,
+        "healingTotalTimeMs": 232451,
+        "damageEntryId": 65,
+        "healingEntryId": 65,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:65,healing:actor-id:65"
       }
     },
     {
-      "key": "4Zng3fprDXvGjb1V:9:Illidonson:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
+      "key": "rTcy1FHzkwg2ZvMQ:9:Illidonson:draenor:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 9,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=9",
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=9",
       "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
       "difficulty": 4,
       "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T17:57:19.007Z",
-      "durationMs": 242761,
-      "bossPercentage": 61.85,
-      "fightPercentage": 49.02,
-      "averageItemLevel": 280.71429443359375,
+      "startedAt": "2026-05-01T18:56:07.273Z",
+      "durationMs": 143652,
+      "bossPercentage": 88.91,
+      "fightPercentage": 55.69,
+      "averageItemLevel": 276.6000061035156,
+      "actor": {
+        "id": 65,
+        "name": "Illidonson",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 53630.22,
+        "hps": 9186.41,
+        "primary": 53630.22,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
-        "raid": 15
+        "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7704089,
+        "healingTotal": 1319646,
+        "damageActiveTimeMs": 118428,
+        "healingActiveTimeMs": 111208,
+        "damageTotalTimeMs": 143652,
+        "healingTotalTimeMs": 143652,
+        "damageEntryId": 65,
+        "healingEntryId": 65,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:65,healing:actor-id:65"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:8:Illidonson:draenor:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=8",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:46:39.836Z",
+      "durationMs": 143282,
+      "bossPercentage": 98.29,
+      "fightPercentage": 69.18,
+      "averageItemLevel": 276.5,
+      "actor": {
+        "id": 65,
+        "name": "Illidonson",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 57943.6,
+        "hps": 13261.14,
+        "primary": 57943.6,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 8302275,
+        "healingTotal": 1900082,
+        "damageActiveTimeMs": 135139,
+        "healingActiveTimeMs": 129155,
+        "damageTotalTimeMs": 143282,
+        "healingTotalTimeMs": 143282,
+        "damageEntryId": 65,
+        "healingEntryId": 65,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:65,healing:actor-id:65"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:7:Illidonson:draenor:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=7",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:32:57.015Z",
+      "durationMs": 189878,
+      "bossPercentage": 43.19,
+      "fightPercentage": 49.44,
+      "averageItemLevel": 276.3500061035156,
+      "actor": {
+        "id": 65,
+        "name": "Illidonson",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 57697.63,
+        "hps": 8907.61,
+        "primary": 57697.63,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 10955510,
+        "healingTotal": 1691360,
+        "damageActiveTimeMs": 162406,
+        "healingActiveTimeMs": 167040,
+        "damageTotalTimeMs": 189878,
+        "healingTotalTimeMs": 189878,
+        "damageEntryId": 65,
+        "healingEntryId": 65,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:65,healing:actor-id:65"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:6:Illidonson:draenor:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=6",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:11:01.871Z",
+      "durationMs": 244303,
+      "bossPercentage": 35.54,
+      "fightPercentage": 49.6,
+      "averageItemLevel": 275.8999938964844,
+      "actor": {
+        "id": 65,
+        "name": "Illidonson",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 59823.28,
+        "hps": 9597.86,
+        "primary": 59823.28,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 14615007,
+        "healingTotal": 2344786,
+        "damageActiveTimeMs": 228965,
+        "healingActiveTimeMs": 225287,
+        "damageTotalTimeMs": 244303,
+        "healingTotalTimeMs": 244303,
+        "damageEntryId": 65,
+        "healingEntryId": 65,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:65,healing:actor-id:65"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:5:Illidonson:draenor:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 5,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=5",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:01:11.801Z",
+      "durationMs": 234430,
+      "bossPercentage": 34.67,
+      "fightPercentage": 53.51,
+      "averageItemLevel": 276.5,
+      "actor": {
+        "id": 65,
+        "name": "Illidonson",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 63517.97,
+        "hps": 9413.95,
+        "primary": 63517.97,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 14890518,
+        "healingTotal": 2206913,
+        "damageActiveTimeMs": 206140,
+        "healingActiveTimeMs": 202949,
+        "damageTotalTimeMs": 234430,
+        "healingTotalTimeMs": 234430,
+        "damageEntryId": 65,
+        "healingEntryId": 65,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:65,healing:actor-id:65"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:4:Illidonson:draenor:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 4,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=4",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T17:54:15.765Z",
+      "durationMs": 228820,
+      "bossPercentage": 36.35,
+      "fightPercentage": 45.01,
+      "averageItemLevel": 276.5,
+      "actor": {
+        "id": 65,
+        "name": "Illidonson",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 56280.35,
+        "hps": 11973.42,
+        "primary": 56280.35,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 12878069,
+        "healingTotal": 2739759,
+        "damageActiveTimeMs": 225521,
+        "healingActiveTimeMs": 224255,
+        "damageTotalTimeMs": 228820,
+        "healingTotalTimeMs": 228820,
+        "damageEntryId": 65,
+        "healingEntryId": 65,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:65,healing:actor-id:65"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:3:Illidonson:draenor:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 3,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=3",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T17:49:13.867Z",
+      "durationMs": 113961,
+      "bossPercentage": 99.91,
+      "fightPercentage": 99.91,
+      "averageItemLevel": 276.5,
+      "actor": {
+        "id": 65,
+        "name": "Illidonson",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 23329.28,
+        "hps": 2899.68,
+        "primary": 23329.28,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 2658628,
+        "healingTotal": 330450,
+        "damageActiveTimeMs": 27703,
+        "healingActiveTimeMs": 20917,
+        "damageTotalTimeMs": 113961,
+        "healingTotalTimeMs": 113961,
+        "damageEntryId": 65,
+        "healingEntryId": 65,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:65,healing:actor-id:65"
       }
     }
   ],

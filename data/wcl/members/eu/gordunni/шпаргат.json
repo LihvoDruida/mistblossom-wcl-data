@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.250Z",
   "character": {
     "name": "Шпаргат",
     "realmSlug": "gordunni",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 10,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 10,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 210,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 50.17,
+    "consistencyPercent": 29,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 27567.22,
+      "avgHps": 4132.36,
+      "avgPrimary": 27567.22,
+      "avgDurationMs": 310552,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 54949.34,
+      "minDps": 15936.55,
+      "maxHps": 8161.09,
+      "minHps": 2117.99,
+      "maxPrimary": 54949.34,
+      "minPrimary": 15936.55,
+      "maxDurationMs": 376490,
+      "minDurationMs": 55939
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "xMVazpchm1G7LHCB:15:Шпаргат:gordunni:eu",
+      "reportCode": "xMVazpchm1G7LHCB",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=15",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:16:20.906Z",
+      "durationMs": 348543,
+      "bossPercentage": 21.33,
+      "fightPercentage": 21.33,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 25,
+        "name": "Шпаргат",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 15936.55,
+        "hps": 2117.99,
+        "primary": 15936.55,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 5554573,
+        "healingTotal": 738211,
+        "damageActiveTimeMs": 89521,
+        "healingActiveTimeMs": 78286,
+        "damageTotalTimeMs": 348543,
+        "healingTotalTimeMs": 348543,
+        "damageEntryId": 25,
+        "healingEntryId": 25,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:25,healing:actor-id:25"
+      }
+    },
+    {
+      "key": "v9g64fGF7BZNXJx3:16:Шпаргат:gordunni:eu",
+      "reportCode": "v9g64fGF7BZNXJx3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=16",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:16:20.906Z",
+      "durationMs": 348543,
+      "bossPercentage": 21.33,
+      "fightPercentage": 21.33,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 47,
+        "name": "Шпаргат",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 15936.55,
+        "hps": 2117.99,
+        "primary": 15936.55,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 5554573,
+        "healingTotal": 738211,
+        "damageActiveTimeMs": 89521,
+        "healingActiveTimeMs": 78286,
+        "damageTotalTimeMs": 348543,
+        "healingTotalTimeMs": 348543,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      }
+    },
+    {
+      "key": "xMVazpchm1G7LHCB:14:Шпаргат:gordunni:eu",
+      "reportCode": "xMVazpchm1G7LHCB",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=14",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:03:06.334Z",
+      "durationMs": 234569,
+      "bossPercentage": 41.03,
+      "fightPercentage": 41.03,
+      "averageItemLevel": 284.8999938964844,
+      "actor": {
+        "id": 25,
+        "name": "Шпаргат",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 50828.55,
+        "hps": 8161.09,
+        "primary": 50828.55,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 23
+      },
+      "source": {
+        "damageTotal": 11922803,
+        "healingTotal": 1914339,
+        "damageActiveTimeMs": 208737,
+        "healingActiveTimeMs": 197858,
+        "damageTotalTimeMs": 234569,
+        "healingTotalTimeMs": 234569,
+        "damageEntryId": 25,
+        "healingEntryId": 25,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:25,healing:actor-id:25"
+      }
+    },
+    {
+      "key": "v9g64fGF7BZNXJx3:15:Шпаргат:gordunni:eu",
+      "reportCode": "v9g64fGF7BZNXJx3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=15",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:03:06.334Z",
+      "durationMs": 234569,
+      "bossPercentage": 41.03,
+      "fightPercentage": 41.03,
+      "averageItemLevel": 284.8999938964844,
+      "actor": {
+        "id": 47,
+        "name": "Шпаргат",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 50828.55,
+        "hps": 8161.09,
+        "primary": 50828.55,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 23
+      },
+      "source": {
+        "damageTotal": 11922803,
+        "healingTotal": 1914339,
+        "damageActiveTimeMs": 208737,
+        "healingActiveTimeMs": 197858,
+        "damageTotalTimeMs": 234569,
+        "healingTotalTimeMs": 234569,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      }
+    },
+    {
+      "key": "xMVazpchm1G7LHCB:13:Шпаргат:gordunni:eu",
+      "reportCode": "xMVazpchm1G7LHCB",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=13",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T18:43:34.534Z",
+      "durationMs": 376490,
+      "bossPercentage": 19.35,
+      "fightPercentage": 19.35,
+      "averageItemLevel": 284.95001220703125,
+      "actor": {
+        "id": 25,
+        "name": "Шпаргат",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 35940.14,
+        "hps": 4968.46,
+        "primary": 35940.14,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 13531104,
+        "healingTotal": 1870577,
+        "damageActiveTimeMs": 209296,
+        "healingActiveTimeMs": 198930,
+        "damageTotalTimeMs": 376490,
+        "healingTotalTimeMs": 376490,
+        "damageEntryId": 25,
+        "healingEntryId": 25,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:25,healing:actor-id:25"
+      }
+    },
+    {
+      "key": "v9g64fGF7BZNXJx3:14:Шпаргат:gordunni:eu",
+      "reportCode": "v9g64fGF7BZNXJx3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=14",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T18:43:34.534Z",
+      "durationMs": 376490,
+      "bossPercentage": 19.35,
+      "fightPercentage": 19.35,
+      "averageItemLevel": 284.95001220703125,
+      "actor": {
+        "id": 47,
+        "name": "Шпаргат",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 35940.14,
+        "hps": 4968.46,
+        "primary": 35940.14,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 13531104,
+        "healingTotal": 1870577,
+        "damageActiveTimeMs": 209296,
+        "healingActiveTimeMs": 198930,
+        "damageTotalTimeMs": 376490,
+        "healingTotalTimeMs": 376490,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      }
+    },
+    {
+      "key": "xMVazpchm1G7LHCB:12:Шпаргат:gordunni:eu",
+      "reportCode": "xMVazpchm1G7LHCB",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=12",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T18:40:04.096Z",
+      "durationMs": 116951,
+      "bossPercentage": 71.94,
+      "fightPercentage": 71.94,
+      "averageItemLevel": 284.95001220703125,
+      "actor": {
+        "id": 25,
+        "name": "Шпаргат",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 51501.86,
+        "hps": 5804.11,
+        "primary": 51501.86,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6023194,
+        "healingTotal": 678796,
+        "damageActiveTimeMs": 100149,
+        "healingActiveTimeMs": 91914,
+        "damageTotalTimeMs": 116951,
+        "healingTotalTimeMs": 116951,
+        "damageEntryId": 25,
+        "healingEntryId": 25,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:25,healing:actor-id:25"
+      }
+    },
+    {
+      "key": "v9g64fGF7BZNXJx3:13:Шпаргат:gordunni:eu",
+      "reportCode": "v9g64fGF7BZNXJx3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=13",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T18:40:04.096Z",
+      "durationMs": 116951,
+      "bossPercentage": 71.94,
+      "fightPercentage": 71.94,
+      "averageItemLevel": 284.95001220703125,
+      "actor": {
+        "id": 47,
+        "name": "Шпаргат",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 51501.86,
+        "hps": 5804.11,
+        "primary": 51501.86,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6023194,
+        "healingTotal": 678796,
+        "damageActiveTimeMs": 100149,
+        "healingActiveTimeMs": 91914,
+        "damageTotalTimeMs": 116951,
+        "healingTotalTimeMs": 116951,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      }
+    },
+    {
+      "key": "xMVazpchm1G7LHCB:9:Шпаргат:gordunni:eu",
+      "reportCode": "xMVazpchm1G7LHCB",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=9",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T18:32:57.504Z",
+      "durationMs": 55939,
+      "bossPercentage": 78.7,
+      "fightPercentage": 78.7,
+      "averageItemLevel": 284.95001220703125,
+      "actor": {
+        "id": 25,
+        "name": "Шпаргат",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 54949.34,
+        "hps": 5451.12,
+        "primary": 54949.34,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 3073811,
+        "healingTotal": 304930,
+        "damageActiveTimeMs": 42324,
+        "healingActiveTimeMs": 29362,
+        "damageTotalTimeMs": 55939,
+        "healingTotalTimeMs": 55939,
+        "damageEntryId": 25,
+        "healingEntryId": 25,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:25,healing:actor-id:25"
+      }
+    },
+    {
+      "key": "v9g64fGF7BZNXJx3:10:Шпаргат:gordunni:eu",
+      "reportCode": "v9g64fGF7BZNXJx3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=10",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T18:32:57.504Z",
+      "durationMs": 55939,
+      "bossPercentage": 78.7,
+      "fightPercentage": 78.7,
+      "averageItemLevel": 284.95001220703125,
+      "actor": {
+        "id": 47,
+        "name": "Шпаргат",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 54949.34,
+        "hps": 5451.12,
+        "primary": 54949.34,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 3073811,
+        "healingTotal": 304930,
+        "damageActiveTimeMs": 42324,
+        "healingActiveTimeMs": 29362,
+        "damageTotalTimeMs": 55939,
+        "healingTotalTimeMs": 55939,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

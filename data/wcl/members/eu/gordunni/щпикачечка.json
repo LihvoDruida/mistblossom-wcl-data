@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.249Z",
   "character": {
     "name": "Щпикачечка",
     "realmSlug": "gordunni",
@@ -10,35 +10,460 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 8,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 8,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 158,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 66.42,
+    "consistencyPercent": 25.13,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 29878.27,
+      "avgHps": 6197.57,
+      "avgPrimary": 29878.27,
+      "avgDurationMs": 145253,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 44981.38,
+      "minDps": 11302.46,
+      "maxHps": 6888.99,
+      "minHps": 1022.62,
+      "maxPrimary": 44981.38,
+      "minPrimary": 11302.46,
+      "maxDurationMs": 243002,
+      "minDurationMs": 90279
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "HrdpqvTVL3b6nfCF:8:Щпикачечка:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=8",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T18:12:43.110Z",
+      "durationMs": 108304,
+      "bossPercentage": 76.57,
+      "fightPercentage": 76.57,
+      "averageItemLevel": 262.3999938964844,
+      "actor": {
+        "id": 12,
+        "name": "Щпикачечка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 18696.47,
+        "hps": 5337.54,
+        "primary": 18696.47,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2024902,
+        "healingTotal": 578077,
+        "damageActiveTimeMs": 70155,
+        "healingActiveTimeMs": 68761,
+        "damageTotalTimeMs": 108304,
+        "healingTotalTimeMs": 108304,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 243,
+        "healingItemLevel": 243,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:7:Щпикачечка:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=7",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T18:05:30.193Z",
+      "durationMs": 97007,
+      "bossPercentage": 77.33,
+      "fightPercentage": 77.33,
+      "averageItemLevel": 262.3999938964844,
+      "actor": {
+        "id": 12,
+        "name": "Щпикачечка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 33777.92,
+        "hps": 6366.18,
+        "primary": 33777.92,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 3276695,
+        "healingTotal": 617564,
+        "damageActiveTimeMs": 79035,
+        "healingActiveTimeMs": 72857,
+        "damageTotalTimeMs": 97007,
+        "healingTotalTimeMs": 97007,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 243,
+        "healingItemLevel": 243,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:6:Щпикачечка:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=6",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:58:47.065Z",
+      "durationMs": 230447,
+      "bossPercentage": 61.79,
+      "fightPercentage": 61.79,
+      "averageItemLevel": 262.75,
+      "actor": {
+        "id": 12,
+        "name": "Щпикачечка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 37160.42,
+        "hps": 6888.99,
+        "primary": 37160.42,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8563508,
+        "healingTotal": 1587546,
+        "damageActiveTimeMs": 206770,
+        "healingActiveTimeMs": 205448,
+        "damageTotalTimeMs": 230447,
+        "healingTotalTimeMs": 230447,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 243,
+        "healingItemLevel": 243,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:5:Щпикачечка:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 5,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=5",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:52:37.962Z",
+      "durationMs": 124525,
+      "bossPercentage": 76.86,
+      "fightPercentage": 76.86,
+      "averageItemLevel": 262.70001220703125,
+      "actor": {
+        "id": 12,
+        "name": "Щпикачечка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 18629.39,
+        "hps": 5817.87,
+        "primary": 18629.39,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 18
+      },
+      "source": {
+        "damageTotal": 2319825,
+        "healingTotal": 724470,
+        "damageActiveTimeMs": 74901,
+        "healingActiveTimeMs": 74888,
+        "damageTotalTimeMs": 124525,
+        "healingTotalTimeMs": 124525,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 243,
+        "healingItemLevel": 243,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:4:Щпикачечка:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 4,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=4",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:44:54.953Z",
+      "durationMs": 243002,
+      "bossPercentage": 66.17,
+      "fightPercentage": 66.17,
+      "averageItemLevel": 262.3500061035156,
+      "actor": {
+        "id": 12,
+        "name": "Щпикачечка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 28692.31,
+        "hps": 4449.89,
+        "primary": 28692.31,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6972288,
+        "healingTotal": 1081333,
+        "damageActiveTimeMs": 199978,
+        "healingActiveTimeMs": 200099,
+        "damageTotalTimeMs": 243002,
+        "healingTotalTimeMs": 243002,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 243,
+        "healingItemLevel": 243,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:3:Щпикачечка:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 3,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=3",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:38:22.607Z",
+      "durationMs": 90279,
+      "bossPercentage": 81.31,
+      "fightPercentage": 81.31,
+      "averageItemLevel": 262.3500061035156,
+      "actor": {
+        "id": 12,
+        "name": "Щпикачечка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 39978.89,
+        "hps": 4267.92,
+        "primary": 39978.89,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 3609254,
+        "healingTotal": 385304,
+        "damageActiveTimeMs": 74117,
+        "healingActiveTimeMs": 73300,
+        "damageTotalTimeMs": 90279,
+        "healingTotalTimeMs": 90279,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 243,
+        "healingItemLevel": 243,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:2:Щпикачечка:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 2,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=2",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:28:50.236Z",
+      "durationMs": 241068,
+      "bossPercentage": 70.2,
+      "fightPercentage": 70.2,
+      "averageItemLevel": 262.45001220703125,
+      "actor": {
+        "id": 12,
+        "name": "Щпикачечка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 11302.46,
+        "hps": 1022.62,
+        "primary": 11302.46,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 2724661,
+        "healingTotal": 246522,
+        "damageActiveTimeMs": 48841,
+        "healingActiveTimeMs": 49304,
+        "damageTotalTimeMs": 241068,
+        "healingTotalTimeMs": 241068,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 243,
+        "healingItemLevel": 243,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:1:Щпикачечка:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 1,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=1",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:25:14.905Z",
+      "durationMs": 97652,
+      "bossPercentage": 80.25,
+      "fightPercentage": 80.25,
+      "averageItemLevel": 262.45001220703125,
+      "actor": {
+        "id": 12,
+        "name": "Щпикачечка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "metric": {
+        "dps": 44981.38,
+        "hps": 5328.79,
+        "primary": 44981.38,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 4392522,
+        "healingTotal": 520367,
+        "damageActiveTimeMs": 74352,
+        "healingActiveTimeMs": 76977,
+        "damageTotalTimeMs": 97652,
+        "healingTotalTimeMs": 97652,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 243,
+        "healingItemLevel": 243,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

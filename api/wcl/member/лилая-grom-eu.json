@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.249Z",
   "character": {
     "name": "Лилая",
     "realmSlug": "grom",
@@ -10,35 +10,563 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 10,
+    "kills": 3,
+    "wipes": 7,
+    "killRate": 0.3,
+    "wipeRate": 0.7,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 138,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 45.87,
+    "consistencyPercent": 7.39,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 24029.45,
+      "avgHps": 2673.69,
+      "avgPrimary": 25393.02,
+      "avgDurationMs": 108612,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 55360.4,
+      "minDps": 16892.6,
+      "maxHps": 8026.46,
+      "minHps": 1033.55,
+      "maxPrimary": 55360.4,
+      "minPrimary": 4090.73,
+      "maxDurationMs": 354042,
+      "minDurationMs": 29005
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "DxwhgLPZYBW1nAH6:25:Лилая:grom:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=25",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-04-22T19:27:46.928Z",
+      "durationMs": 91878,
+      "bossPercentage": 81.43,
+      "fightPercentage": 81.43,
+      "averageItemLevel": 274.25,
+      "actor": {
+        "id": 1,
+        "name": "Лилая",
+        "server": "Гром",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 38807.21,
+        "hps": 2592.84,
+        "primary": 38807.21,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 3565529,
+        "healingTotal": 238225,
+        "damageActiveTimeMs": 58359,
+        "healingActiveTimeMs": 26570,
+        "damageTotalTimeMs": 91878,
+        "healingTotalTimeMs": 91878,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 269,
+        "healingItemLevel": 269,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:24:Лилая:grom:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=24",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-04-22T19:16:48.084Z",
+      "durationMs": 46267,
+      "bossPercentage": 99.91,
+      "fightPercentage": 99.91,
+      "averageItemLevel": 273.3333435058594,
+      "actor": {
+        "id": 1,
+        "name": "Лилая",
+        "server": "Гром",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 4090.73,
+        "primary": 4090.73,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 12
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 189266,
+        "healingActiveTimeMs": 2998,
+        "damageTotalTimeMs": 46267,
+        "healingTotalTimeMs": 46267,
+        "healingEntryId": 1,
+        "healingItemLevel": 269,
+        "matchedBy": "healing:actor-id:1"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:21:Лилая:grom:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=21",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:56:58.398Z",
+      "durationMs": 187691,
+      "bossPercentage": 60.89,
+      "fightPercentage": 60.89,
+      "averageItemLevel": 271.95001220703125,
+      "actor": {
+        "id": 1,
+        "name": "Лилая",
+        "server": "Гром",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 33281.13,
+        "hps": 1337.5,
+        "primary": 33281.13,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6246569,
+        "healingTotal": 251036,
+        "damageActiveTimeMs": 106882,
+        "healingActiveTimeMs": 83882,
+        "damageTotalTimeMs": 187691,
+        "healingTotalTimeMs": 187691,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 269,
+        "healingItemLevel": 269,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:20:Лилая:grom:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=20",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:50:41.696Z",
+      "durationMs": 221473,
+      "bossPercentage": 52.68,
+      "fightPercentage": 52.68,
+      "averageItemLevel": 271.8999938964844,
+      "actor": {
+        "id": 1,
+        "name": "Лилая",
+        "server": "Гром",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 55360.4,
+        "hps": 1534.42,
+        "primary": 55360.4,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 12260834,
+        "healingTotal": 339832,
+        "damageActiveTimeMs": 215556,
+        "healingActiveTimeMs": 188040,
+        "damageTotalTimeMs": 221473,
+        "healingTotalTimeMs": 221473,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 269,
+        "healingItemLevel": 269,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:17:Лилая:grom:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=17",
+      "status": "KILL",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:36:35.480Z",
+      "durationMs": 354042,
+      "bossPercentage": 0.1,
+      "fightPercentage": 0.1,
+      "averageItemLevel": 271.79998779296875,
+      "actor": {
+        "id": 1,
+        "name": "Лилая",
+        "server": "Гром",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 53308.88,
+        "hps": 5308.54,
+        "primary": 53308.88,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 6
+      },
+      "source": {
+        "damageTotal": 18873582,
+        "healingTotal": 1879445,
+        "damageActiveTimeMs": 351274,
+        "healingActiveTimeMs": 322496,
+        "damageTotalTimeMs": 354042,
+        "healingTotalTimeMs": 354042,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 269,
+        "healingItemLevel": 269,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:14:Лилая:grom:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=14",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:25:28.804Z",
+      "durationMs": 285140,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 271.79998779296875,
+      "actor": {
+        "id": 1,
+        "name": "Лилая",
+        "server": "Гром",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 48609.26,
+        "hps": 8026.46,
+        "primary": 48609.26,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 2
+      },
+      "source": {
+        "damageTotal": 13860444,
+        "healingTotal": 2288666,
+        "damageActiveTimeMs": 280565,
+        "healingActiveTimeMs": 262464,
+        "damageTotalTimeMs": 285140,
+        "healingTotalTimeMs": 285140,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 269,
+        "healingItemLevel": 269,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:13:Лилая:grom:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=13",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:20:38.878Z",
+      "durationMs": 116958,
+      "bossPercentage": 70.35,
+      "fightPercentage": 70.35,
+      "averageItemLevel": 271.54998779296875,
+      "actor": {
+        "id": 1,
+        "name": "Лилая",
+        "server": "Гром",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 46281.46,
+        "hps": 3516.77,
+        "primary": 46281.46,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 5412987,
+        "healingTotal": 411314,
+        "damageActiveTimeMs": 94671,
+        "healingActiveTimeMs": 64639,
+        "damageTotalTimeMs": 116958,
+        "healingTotalTimeMs": 116958,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 269,
+        "healingItemLevel": 269,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:12:Лилая:grom:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=12",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:16:03.478Z",
+      "durationMs": 108779,
+      "bossPercentage": 66.31,
+      "fightPercentage": 66.31,
+      "averageItemLevel": 271.20001220703125,
+      "actor": {
+        "id": 1,
+        "name": "Лилая",
+        "server": "Гром",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 40455.21,
+        "hps": 1581.91,
+        "primary": 40455.21,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 4400677,
+        "healingTotal": 172079,
+        "damageActiveTimeMs": 100087,
+        "healingActiveTimeMs": 69999,
+        "damageTotalTimeMs": 108779,
+        "healingTotalTimeMs": 108779,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 269,
+        "healingItemLevel": 269,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:11:Лилая:grom:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=11",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:13:15.631Z",
+      "durationMs": 29005,
+      "bossPercentage": 98.44,
+      "fightPercentage": 98.44,
+      "averageItemLevel": 271.20001220703125,
+      "actor": {
+        "id": 1,
+        "name": "Лилая",
+        "server": "Гром",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 16892.6,
+        "hps": 1416.03,
+        "primary": 16892.6,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 489970,
+        "healingTotal": 41072,
+        "damageActiveTimeMs": 18145,
+        "healingActiveTimeMs": 9564,
+        "damageTotalTimeMs": 29005,
+        "healingTotalTimeMs": 29005,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 269,
+        "healingItemLevel": 269,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:6:Лилая:grom:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=6",
+      "status": "KILL",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:01:25.153Z",
+      "durationMs": 317297,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 271.20001220703125,
+      "actor": {
+        "id": 1,
+        "name": "Лилая",
+        "server": "Гром",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 48707.87,
+        "hps": 1033.55,
+        "primary": 48707.87,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 1
+      },
+      "source": {
+        "damageTotal": 15454860,
+        "healingTotal": 327942,
+        "damageActiveTimeMs": 315387,
+        "healingActiveTimeMs": 310671,
+        "damageTotalTimeMs": 317297,
+        "healingTotalTimeMs": 317297,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 269,
+        "healingItemLevel": 269,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

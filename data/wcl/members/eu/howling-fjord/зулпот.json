@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.562Z",
+  "updatedAt": "2026-06-03T02:05:14.247Z",
   "character": {
     "name": "Зулпот",
     "realmSlug": "howling-fjord",
@@ -10,35 +10,563 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 10,
+    "kills": 2,
+    "wipes": 8,
+    "killRate": 0.2,
+    "wipeRate": 0.8,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 165,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 77.34,
+    "consistencyPercent": 39.87,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 66418.25,
+      "avgHps": 2098.87,
+      "avgPrimary": 66418.25,
+      "avgDurationMs": 256305,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 85881.63,
+      "minDps": 34239.42,
+      "maxHps": 3239.3,
+      "minHps": 1295.37,
+      "maxPrimary": 85881.63,
+      "minPrimary": 34239.42,
+      "maxDurationMs": 407490,
+      "minDurationMs": 31568
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "vzQAWB8Kw3ykjR1a:30:Зулпот:howling-fjord:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=30",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:58:22.554Z",
+      "durationMs": 142619,
+      "bossPercentage": 67.34,
+      "fightPercentage": 67.34,
+      "averageItemLevel": 274.54998779296875,
+      "actor": {
+        "id": 27,
+        "name": "Зулпот",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 64593.2,
+        "hps": 2774.15,
+        "primary": 64593.2,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 9212217,
+        "healingTotal": 395647,
+        "damageActiveTimeMs": 124584,
+        "healingActiveTimeMs": 124300,
+        "damageTotalTimeMs": 142619,
+        "healingTotalTimeMs": 142619,
+        "damageEntryId": 27,
+        "healingEntryId": 27,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:27,healing:actor-id:27"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:27:Зулпот:howling-fjord:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=27",
+      "status": "KILL",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:26:05.889Z",
+      "durationMs": 369450,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 27,
+        "name": "Зулпот",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 74086.76,
+        "hps": 1295.37,
+        "primary": 74086.76,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 2
+      },
+      "source": {
+        "damageTotal": 27371352,
+        "healingTotal": 478576,
+        "damageActiveTimeMs": 290134,
+        "healingActiveTimeMs": 215384,
+        "damageTotalTimeMs": 369450,
+        "healingTotalTimeMs": 369450,
+        "damageEntryId": 27,
+        "healingEntryId": 27,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:27,healing:actor-id:27"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:26:Зулпот:howling-fjord:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=26",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:16:12.660Z",
+      "durationMs": 256845,
+      "bossPercentage": 42.44,
+      "fightPercentage": 42.44,
+      "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 27,
+        "name": "Зулпот",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 60574.78,
+        "hps": 2227.09,
+        "primary": 60574.78,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 15558330,
+        "healingTotal": 572018,
+        "damageActiveTimeMs": 206136,
+        "healingActiveTimeMs": 196896,
+        "damageTotalTimeMs": 256845,
+        "healingTotalTimeMs": 256845,
+        "damageEntryId": 27,
+        "healingEntryId": 27,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:27,healing:actor-id:27"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:25:Зулпот:howling-fjord:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=25",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:11:16.661Z",
+      "durationMs": 201370,
+      "bossPercentage": 54.39,
+      "fightPercentage": 54.39,
+      "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 27,
+        "name": "Зулпот",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 65122.24,
+        "hps": 2608.86,
+        "primary": 65122.24,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 18
+      },
+      "source": {
+        "damageTotal": 13113665,
+        "healingTotal": 525347,
+        "damageActiveTimeMs": 174918,
+        "healingActiveTimeMs": 161288,
+        "damageTotalTimeMs": 201370,
+        "healingTotalTimeMs": 201370,
+        "damageEntryId": 27,
+        "healingEntryId": 27,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:27,healing:actor-id:27"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:24:Зулпот:howling-fjord:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=24",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:03:03.542Z",
+      "durationMs": 397835,
+      "bossPercentage": 2.51,
+      "fightPercentage": 2.51,
+      "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 27,
+        "name": "Зулпот",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 74825.77,
+        "hps": 3239.3,
+        "primary": 74825.77,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 29768310,
+        "healingTotal": 1288706,
+        "damageActiveTimeMs": 395458,
+        "healingActiveTimeMs": 343546,
+        "damageTotalTimeMs": 397835,
+        "healingTotalTimeMs": 397835,
+        "damageEntryId": 27,
+        "healingEntryId": 27,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:27,healing:actor-id:27"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:23:Зулпот:howling-fjord:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=23",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:47:54.748Z",
+      "durationMs": 407490,
+      "bossPercentage": 8.65,
+      "fightPercentage": 8.65,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 27,
+        "name": "Зулпот",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 55548.84,
+        "hps": 2980.34,
+        "primary": 55548.84,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 22635598,
+        "healingTotal": 1214460,
+        "damageActiveTimeMs": 297104,
+        "healingActiveTimeMs": 264109,
+        "damageTotalTimeMs": 407490,
+        "healingTotalTimeMs": 407490,
+        "damageEntryId": 27,
+        "healingEntryId": 27,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:27,healing:actor-id:27"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:22:Зулпот:howling-fjord:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=22",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:43:20.714Z",
+      "durationMs": 130113,
+      "bossPercentage": 68.99,
+      "fightPercentage": 68.99,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 27,
+        "name": "Зулпот",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 67483.27,
+        "hps": 2955.49,
+        "primary": 67483.27,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8780451,
+        "healingTotal": 384548,
+        "damageActiveTimeMs": 124772,
+        "healingActiveTimeMs": 96851,
+        "damageTotalTimeMs": 130113,
+        "healingTotalTimeMs": 130113,
+        "damageEntryId": 27,
+        "healingEntryId": 27,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:27,healing:actor-id:27"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:21:Зулпот:howling-fjord:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=21",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:37:05.826Z",
+      "durationMs": 227809,
+      "bossPercentage": 53.49,
+      "fightPercentage": 53.49,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 27,
+        "name": "Зулпот",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 71890.6,
+        "hps": 2716.5,
+        "primary": 71890.6,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 16377325,
+        "healingTotal": 618843,
+        "damageActiveTimeMs": 207886,
+        "healingActiveTimeMs": 183773,
+        "damageTotalTimeMs": 227809,
+        "healingTotalTimeMs": 227809,
+        "damageEntryId": 27,
+        "healingEntryId": 27,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:27,healing:actor-id:27"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:19:Зулпот:howling-fjord:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=19",
+      "status": "KILL",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:23:59.681Z",
+      "durationMs": 295130,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 27,
+        "name": "Зулпот",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 85881.63,
+        "hps": 1988.35,
+        "primary": 85881.63,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 0
+      },
+      "source": {
+        "damageTotal": 25346244,
+        "healingTotal": 586823,
+        "damageActiveTimeMs": 292847,
+        "healingActiveTimeMs": 265759,
+        "damageTotalTimeMs": 295130,
+        "healingTotalTimeMs": 295130,
+        "damageEntryId": 27,
+        "healingEntryId": 27,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:27,healing:actor-id:27"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:18:Зулпот:howling-fjord:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=18",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:21:38.968Z",
+      "durationMs": 31568,
+      "bossPercentage": 90.76,
+      "fightPercentage": 90.76,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 27,
+        "name": "Зулпот",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 34239.42,
+        "hps": 0,
+        "primary": 34239.42,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 1080870,
+        "healingTotal": 0,
+        "damageActiveTimeMs": 19430,
+        "damageTotalTimeMs": 31568,
+        "healingTotalTimeMs": 31568,
+        "damageEntryId": 27,
+        "damageItemLevel": 280,
+        "matchedBy": "damage:actor-id:27"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

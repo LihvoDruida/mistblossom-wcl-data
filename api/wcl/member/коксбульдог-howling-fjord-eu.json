@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.562Z",
+  "updatedAt": "2026-06-03T02:05:14.247Z",
   "character": {
     "name": "Коксбульдог",
     "realmSlug": "howling-fjord",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 10,
+    "kills": 1,
+    "wipes": 9,
+    "killRate": 0.1,
+    "wipeRate": 0.9,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 186,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 47.03,
+    "consistencyPercent": 37.17,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 54456.79,
+      "avgHps": 9004.91,
+      "avgPrimary": 54456.79,
+      "avgDurationMs": 213419,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 115800.47,
+      "minDps": 43041.6,
+      "maxHps": 11259.91,
+      "minHps": 3854.38,
+      "maxPrimary": 115800.47,
+      "minPrimary": 43041.6,
+      "maxDurationMs": 335868,
+      "minDurationMs": 50176
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "8dAPQCWGNMLBjrRg:32:Коксбульдог:howling-fjord:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T20:06:06.764Z",
+      "durationMs": 215983,
+      "bossPercentage": 57.68,
+      "fightPercentage": 57.68,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 120,
+        "name": "Коксбульдог",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 56324.7,
+        "hps": 11259.91,
+        "primary": 56324.7,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 12165178,
+        "healingTotal": 2431950,
+        "damageActiveTimeMs": 213048,
+        "healingActiveTimeMs": 213946,
+        "damageTotalTimeMs": 215983,
+        "healingTotalTimeMs": 215983,
+        "damageEntryId": 120,
+        "healingEntryId": 120,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:120,healing:actor-id:120"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:31:Коксбульдог:howling-fjord:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 31,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T20:00:37.917Z",
+      "durationMs": 226446,
+      "bossPercentage": 57.65,
+      "fightPercentage": 57.65,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 120,
+        "name": "Коксбульдог",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 50410.21,
+        "hps": 8819.54,
+        "primary": 50410.21,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 11415190,
+        "healingTotal": 1997149,
+        "damageActiveTimeMs": 189203,
+        "healingActiveTimeMs": 193978,
+        "damageTotalTimeMs": 226446,
+        "healingTotalTimeMs": 226446,
+        "damageEntryId": 120,
+        "healingEntryId": 120,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:120,healing:actor-id:120"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:30:Коксбульдог:howling-fjord:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:54:58.059Z",
+      "durationMs": 197829,
+      "bossPercentage": 58.27,
+      "fightPercentage": 58.27,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 120,
+        "name": "Коксбульдог",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 56635.47,
+        "hps": 6935.27,
+        "primary": 56635.47,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 11204139,
+        "healingTotal": 1371997,
+        "damageActiveTimeMs": 160956,
+        "healingActiveTimeMs": 141963,
+        "damageTotalTimeMs": 197829,
+        "healingTotalTimeMs": 197829,
+        "damageEntryId": 120,
+        "healingEntryId": 120,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:120,healing:actor-id:120"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:29:Коксбульдог:howling-fjord:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 29,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:48:53.946Z",
+      "durationMs": 222158,
+      "bossPercentage": 56.82,
+      "fightPercentage": 56.82,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 120,
+        "name": "Коксбульдог",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 43041.6,
+        "hps": 5964.44,
+        "primary": 43041.6,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 9562036,
+        "healingTotal": 1325047,
+        "damageActiveTimeMs": 166406,
+        "healingActiveTimeMs": 165914,
+        "damageTotalTimeMs": 222158,
+        "healingTotalTimeMs": 222158,
+        "damageEntryId": 120,
+        "healingEntryId": 120,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:120,healing:actor-id:120"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:28:Коксбульдог:howling-fjord:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:38:12.252Z",
+      "durationMs": 209169,
+      "bossPercentage": 58.86,
+      "fightPercentage": 58.86,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 120,
+        "name": "Коксбульдог",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 49917.88,
+        "hps": 9024.52,
+        "primary": 49917.88,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 10441273,
+        "healingTotal": 1887650,
+        "damageActiveTimeMs": 165004,
+        "healingActiveTimeMs": 180009,
+        "damageTotalTimeMs": 209169,
+        "healingTotalTimeMs": 209169,
+        "damageEntryId": 120,
+        "healingEntryId": 120,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:120,healing:actor-id:120"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:27:Коксбульдог:howling-fjord:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:29:44.846Z",
+      "durationMs": 169519,
+      "bossPercentage": 62.33,
+      "fightPercentage": 62.33,
+      "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 120,
+        "name": "Коксбульдог",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 47079.21,
+        "hps": 3854.38,
+        "primary": 47079.21,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 7980821,
+        "healingTotal": 653390,
+        "damageActiveTimeMs": 98225,
+        "healingActiveTimeMs": 81959,
+        "damageTotalTimeMs": 169519,
+        "healingTotalTimeMs": 169519,
+        "damageEntryId": 120,
+        "healingEntryId": 120,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:120,healing:actor-id:120"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:26:Коксбульдог:howling-fjord:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:27:07.695Z",
+      "durationMs": 50885,
+      "bossPercentage": 80.53,
+      "fightPercentage": 80.53,
+      "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 120,
+        "name": "Коксбульдог",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 115800.47,
+        "hps": 5538.55,
+        "primary": 115800.47,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 5892507,
+        "healingTotal": 281829,
+        "damageActiveTimeMs": 48995,
+        "healingActiveTimeMs": 49063,
+        "damageTotalTimeMs": 50885,
+        "healingTotalTimeMs": 50885,
+        "damageEntryId": 120,
+        "healingEntryId": 120,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:120,healing:actor-id:120"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:25:Коксбульдог:howling-fjord:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:23:53.731Z",
+      "durationMs": 50176,
+      "bossPercentage": 79.76,
+      "fightPercentage": 79.76,
+      "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 120,
+        "name": "Коксбульдог",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 81259.21,
+        "hps": 8650.21,
+        "primary": 81259.21,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 4077262,
+        "healingTotal": 434033,
+        "damageActiveTimeMs": 44382,
+        "healingActiveTimeMs": 46696,
+        "damageTotalTimeMs": 50176,
+        "healingTotalTimeMs": 50176,
+        "damageEntryId": 120,
+        "healingEntryId": 120,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:120,healing:actor-id:120"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:21:Коксбульдог:howling-fjord:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:04:24.189Z",
+      "durationMs": 335868,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 120,
+        "name": "Коксбульдог",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 83054.21,
+        "hps": 10981.7,
+        "primary": 83054.21,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 3
+      },
+      "source": {
+        "damageTotal": 27895251,
+        "healingTotal": 3688402,
+        "damageActiveTimeMs": 330119,
+        "healingActiveTimeMs": 333064,
+        "damageTotalTimeMs": 335868,
+        "healingTotalTimeMs": 335868,
+        "damageEntryId": 120,
+        "healingEntryId": 120,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:120,healing:actor-id:120"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:20:Коксбульдог:howling-fjord:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T18:57:55.893Z",
+      "durationMs": 285958,
+      "bossPercentage": 27.56,
+      "fightPercentage": 27.56,
+      "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 120,
+        "name": "Коксбульдог",
+        "server": "Ревущийфьорд",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 59049.82,
+        "hps": 6612.86,
+        "primary": 59049.82,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 16885768,
+        "healingTotal": 1890999,
+        "damageActiveTimeMs": 214957,
+        "healingActiveTimeMs": 209015,
+        "damageTotalTimeMs": 285958,
+        "healingTotalTimeMs": 285958,
+        "damageEntryId": 120,
+        "healingEntryId": 120,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:120,healing:actor-id:120"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

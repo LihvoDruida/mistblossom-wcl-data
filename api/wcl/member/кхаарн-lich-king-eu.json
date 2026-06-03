@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.251Z",
   "character": {
     "name": "Кхаарн",
     "realmSlug": "lich-king",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 10,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 10,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 216,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 90.65,
+    "consistencyPercent": 85.97,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 47495.17,
+      "avgHps": 18235.22,
+      "avgPrimary": 47495.17,
+      "avgDurationMs": 353689,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 52396,
+      "minDps": 45044.76,
+      "maxHps": 19288.87,
+      "minHps": 16312.61,
+      "maxPrimary": 52396,
+      "minPrimary": 45044.76,
+      "maxDurationMs": 376490,
+      "minDurationMs": 234569
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "xMVazpchm1G7LHCB:17:Кхаарн:lich-king:eu",
+      "reportCode": "xMVazpchm1G7LHCB",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=17",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:35:31.820Z",
+      "durationMs": 352752,
+      "bossPercentage": 18.29,
+      "fightPercentage": 18.29,
+      "averageItemLevel": 285.1000061035156,
+      "actor": {
+        "id": 6,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "metric": {
+        "dps": 45044.76,
+        "hps": 17708.39,
+        "primary": 45044.76,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 15889629,
+        "healingTotal": 6246670,
+        "damageActiveTimeMs": 349657,
+        "healingActiveTimeMs": 325810,
+        "damageTotalTimeMs": 352752,
+        "healingTotalTimeMs": 352752,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
+      }
+    },
+    {
+      "key": "v9g64fGF7BZNXJx3:18:Кхаарн:lich-king:eu",
+      "reportCode": "v9g64fGF7BZNXJx3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=18",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:35:31.820Z",
+      "durationMs": 352752,
+      "bossPercentage": 18.29,
+      "fightPercentage": 18.29,
+      "averageItemLevel": 285.1000061035156,
+      "actor": {
+        "id": 14,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "metric": {
+        "dps": 45044.76,
+        "hps": 17708.39,
+        "primary": 45044.76,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 15889629,
+        "healingTotal": 6246670,
+        "damageActiveTimeMs": 349657,
+        "healingActiveTimeMs": 325810,
+        "damageTotalTimeMs": 352752,
+        "healingTotalTimeMs": 352752,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "xMVazpchm1G7LHCB:16:Кхаарн:lich-king:eu",
+      "reportCode": "xMVazpchm1G7LHCB",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=16",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:27:38.924Z",
+      "durationMs": 355563,
+      "bossPercentage": 20.42,
+      "fightPercentage": 20.42,
+      "averageItemLevel": 285.1000061035156,
+      "actor": {
+        "id": 6,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "metric": {
+        "dps": 52396,
+        "hps": 19288.87,
+        "primary": 52396,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 18630078,
+        "healingTotal": 6858410,
+        "damageActiveTimeMs": 353377,
+        "healingActiveTimeMs": 342059,
+        "damageTotalTimeMs": 355563,
+        "healingTotalTimeMs": 355563,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
+      }
+    },
+    {
+      "key": "v9g64fGF7BZNXJx3:17:Кхаарн:lich-king:eu",
+      "reportCode": "v9g64fGF7BZNXJx3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=17",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:27:38.924Z",
+      "durationMs": 355563,
+      "bossPercentage": 20.42,
+      "fightPercentage": 20.42,
+      "averageItemLevel": 285.1000061035156,
+      "actor": {
+        "id": 14,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "metric": {
+        "dps": 52396,
+        "hps": 19288.87,
+        "primary": 52396,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 18630078,
+        "healingTotal": 6858410,
+        "damageActiveTimeMs": 353377,
+        "healingActiveTimeMs": 342059,
+        "damageTotalTimeMs": 355563,
+        "healingTotalTimeMs": 355563,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "xMVazpchm1G7LHCB:15:Кхаарн:lich-king:eu",
+      "reportCode": "xMVazpchm1G7LHCB",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=15",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:16:20.906Z",
+      "durationMs": 348543,
+      "bossPercentage": 21.33,
+      "fightPercentage": 21.33,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 6,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "metric": {
+        "dps": 48711.37,
+        "hps": 18505.07,
+        "primary": 48711.37,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 16978008,
+        "healingTotal": 6449812,
+        "damageActiveTimeMs": 346385,
+        "healingActiveTimeMs": 334116,
+        "damageTotalTimeMs": 348543,
+        "healingTotalTimeMs": 348543,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
+      }
+    },
+    {
+      "key": "v9g64fGF7BZNXJx3:16:Кхаарн:lich-king:eu",
+      "reportCode": "v9g64fGF7BZNXJx3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=16",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:16:20.906Z",
+      "durationMs": 348543,
+      "bossPercentage": 21.33,
+      "fightPercentage": 21.33,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 14,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "metric": {
+        "dps": 48711.37,
+        "hps": 18505.07,
+        "primary": 48711.37,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 16978008,
+        "healingTotal": 6449812,
+        "damageActiveTimeMs": 346385,
+        "healingActiveTimeMs": 334116,
+        "damageTotalTimeMs": 348543,
+        "healingTotalTimeMs": 348543,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "xMVazpchm1G7LHCB:14:Кхаарн:lich-king:eu",
+      "reportCode": "xMVazpchm1G7LHCB",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=14",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:03:06.334Z",
+      "durationMs": 234569,
+      "bossPercentage": 41.03,
+      "fightPercentage": 41.03,
+      "averageItemLevel": 284.8999938964844,
+      "actor": {
+        "id": 6,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "metric": {
+        "dps": 47848.94,
+        "hps": 17305.51,
+        "primary": 47848.94,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 23
+      },
+      "source": {
+        "damageTotal": 11223878,
+        "healingTotal": 4059337,
+        "damageActiveTimeMs": 230605,
+        "healingActiveTimeMs": 216221,
+        "damageTotalTimeMs": 234569,
+        "healingTotalTimeMs": 234569,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
+      }
+    },
+    {
+      "key": "v9g64fGF7BZNXJx3:15:Кхаарн:lich-king:eu",
+      "reportCode": "v9g64fGF7BZNXJx3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=15",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T19:03:06.334Z",
+      "durationMs": 234569,
+      "bossPercentage": 41.03,
+      "fightPercentage": 41.03,
+      "averageItemLevel": 284.8999938964844,
+      "actor": {
+        "id": 14,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "metric": {
+        "dps": 47848.94,
+        "hps": 17305.51,
+        "primary": 47848.94,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 23
+      },
+      "source": {
+        "damageTotal": 11223878,
+        "healingTotal": 4059337,
+        "damageActiveTimeMs": 230605,
+        "healingActiveTimeMs": 216221,
+        "damageTotalTimeMs": 234569,
+        "healingTotalTimeMs": 234569,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    },
+    {
+      "key": "xMVazpchm1G7LHCB:13:Кхаарн:lich-king:eu",
+      "reportCode": "xMVazpchm1G7LHCB",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=13",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T18:43:34.534Z",
+      "durationMs": 376490,
+      "bossPercentage": 19.35,
+      "fightPercentage": 19.35,
+      "averageItemLevel": 284.95001220703125,
+      "actor": {
+        "id": 6,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "metric": {
+        "dps": 47922.75,
+        "hps": 16312.61,
+        "primary": 47922.75,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 18042438,
+        "healingTotal": 6141534,
+        "damageActiveTimeMs": 371809,
+        "healingActiveTimeMs": 359324,
+        "damageTotalTimeMs": 376490,
+        "healingTotalTimeMs": 376490,
+        "damageEntryId": 6,
+        "healingEntryId": 6,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
+      }
+    },
+    {
+      "key": "v9g64fGF7BZNXJx3:14:Кхаарн:lich-king:eu",
+      "reportCode": "v9g64fGF7BZNXJx3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-28T17:11:07.127Z",
+      "reportEndedAt": "2026-05-28T19:41:24.572Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=14",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-28T18:43:34.534Z",
+      "durationMs": 376490,
+      "bossPercentage": 19.35,
+      "fightPercentage": 19.35,
+      "averageItemLevel": 284.95001220703125,
+      "actor": {
+        "id": 14,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "metric": {
+        "dps": 47922.75,
+        "hps": 16312.61,
+        "primary": 47922.75,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 18042438,
+        "healingTotal": 6141534,
+        "damageActiveTimeMs": 371809,
+        "healingActiveTimeMs": 359324,
+        "damageTotalTimeMs": 376490,
+        "healingTotalTimeMs": 376490,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

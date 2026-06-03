@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.249Z",
   "character": {
     "name": "Корукк",
     "realmSlug": "eversong",
@@ -10,35 +10,563 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 10,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 10,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 193,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 71.79,
+    "consistencyPercent": 10.45,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 75075.6,
+      "avgHps": 2362.8,
+      "avgPrimary": 75075.6,
+      "avgDurationMs": 279401,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 104574.89,
+      "minDps": 10923.85,
+      "maxHps": 3909.27,
+      "minHps": 1485.29,
+      "maxPrimary": 104574.89,
+      "minPrimary": 10923.85,
+      "maxDurationMs": 441210,
+      "minDurationMs": 56849
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "DQt29mWMd3JVnbPY:13:Корукк:eversong:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=13",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T17:53:50.471Z",
+      "durationMs": 332708,
+      "bossPercentage": 21.14,
+      "fightPercentage": 21.14,
+      "averageItemLevel": 284.1000061035156,
+      "actor": {
+        "id": 76,
+        "name": "Корукк",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 55050.71,
+        "hps": 1485.29,
+        "primary": 55050.71,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 18315810,
+        "healingTotal": 494168,
+        "damageActiveTimeMs": 226725,
+        "healingActiveTimeMs": 216003,
+        "damageTotalTimeMs": 332708,
+        "healingTotalTimeMs": 332708,
+        "damageEntryId": 76,
+        "healingEntryId": 76,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:76,healing:actor-id:76"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:12:Корукк:eversong:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=12",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T17:44:36.152Z",
+      "durationMs": 441210,
+      "bossPercentage": 3.61,
+      "fightPercentage": 3.61,
+      "averageItemLevel": 284.1000061035156,
+      "actor": {
+        "id": 76,
+        "name": "Корукк",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 75377.43,
+        "hps": 3736.36,
+        "primary": 75377.43,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 33257277,
+        "healingTotal": 1648521,
+        "damageActiveTimeMs": 435874,
+        "healingActiveTimeMs": 406384,
+        "damageTotalTimeMs": 441210,
+        "healingTotalTimeMs": 441210,
+        "damageEntryId": 76,
+        "healingEntryId": 76,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:76,healing:actor-id:76"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:11:Корукк:eversong:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=11",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T17:42:06.802Z",
+      "durationMs": 64285,
+      "bossPercentage": 75.82,
+      "fightPercentage": 75.82,
+      "averageItemLevel": 284.1000061035156,
+      "actor": {
+        "id": 76,
+        "name": "Корукк",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 94798.65,
+        "hps": 1866.75,
+        "primary": 94798.65,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 18
+      },
+      "source": {
+        "damageTotal": 6094131,
+        "healingTotal": 120004,
+        "damageActiveTimeMs": 58039,
+        "healingActiveTimeMs": 48556,
+        "damageTotalTimeMs": 64285,
+        "healingTotalTimeMs": 64285,
+        "damageEntryId": 76,
+        "healingEntryId": 76,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:76,healing:actor-id:76"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:8:Корукк:eversong:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=8",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T17:39:28.646Z",
+      "durationMs": 58940,
+      "bossPercentage": 74.94,
+      "fightPercentage": 74.94,
+      "averageItemLevel": 284.1000061035156,
+      "actor": {
+        "id": 76,
+        "name": "Корукк",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 104574.89,
+        "hps": 2975.33,
+        "primary": 104574.89,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 6
+      },
+      "source": {
+        "damageTotal": 6163644,
+        "healingTotal": 175366,
+        "damageActiveTimeMs": 47696,
+        "healingActiveTimeMs": 37643,
+        "damageTotalTimeMs": 58940,
+        "healingTotalTimeMs": 58940,
+        "damageEntryId": 76,
+        "healingEntryId": 76,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:76,healing:actor-id:76"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:6:Корукк:eversong:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=6",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T17:30:43.964Z",
+      "durationMs": 334379,
+      "bossPercentage": 21.24,
+      "fightPercentage": 21.24,
+      "averageItemLevel": 284.1000061035156,
+      "actor": {
+        "id": 76,
+        "name": "Корукк",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 70950.5,
+        "hps": 2739.56,
+        "primary": 70950.5,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 23724357,
+        "healingTotal": 916051,
+        "damageActiveTimeMs": 309049,
+        "healingActiveTimeMs": 299906,
+        "damageTotalTimeMs": 334379,
+        "healingTotalTimeMs": 334379,
+        "damageEntryId": 76,
+        "healingEntryId": 76,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:76,healing:actor-id:76"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:4:Корукк:eversong:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 4,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=4",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T17:25:39.567Z",
+      "durationMs": 115177,
+      "bossPercentage": 71.9,
+      "fightPercentage": 71.9,
+      "averageItemLevel": 284.04998779296875,
+      "actor": {
+        "id": 76,
+        "name": "Корукк",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 77817.45,
+        "hps": 1933.33,
+        "primary": 77817.45,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8962781,
+        "healingTotal": 222675,
+        "damageActiveTimeMs": 92924,
+        "healingActiveTimeMs": 89194,
+        "damageTotalTimeMs": 115177,
+        "healingTotalTimeMs": 115177,
+        "damageEntryId": 76,
+        "healingEntryId": 76,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:76,healing:actor-id:76"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:3:Корукк:eversong:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 3,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=3",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T17:18:18.371Z",
+      "durationMs": 304150,
+      "bossPercentage": 33.43,
+      "fightPercentage": 33.43,
+      "averageItemLevel": 284.04998779296875,
+      "actor": {
+        "id": 76,
+        "name": "Корукк",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 82722.11,
+        "hps": 2475.43,
+        "primary": 82722.11,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 25159931,
+        "healingTotal": 752901,
+        "damageActiveTimeMs": 301092,
+        "healingActiveTimeMs": 295757,
+        "damageTotalTimeMs": 304150,
+        "healingTotalTimeMs": 304150,
+        "damageEntryId": 76,
+        "healingEntryId": 76,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:76,healing:actor-id:76"
+      }
+    },
+    {
+      "key": "nCrxGd9wPXpJTzgK:3:Корукк:eversong:eu",
+      "reportCode": "nCrxGd9wPXpJTzgK",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-01T20:46:17.024Z",
+      "reportEndedAt": "2026-04-01T21:02:04.524Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 3,
+      "url": "https://www.warcraftlogs.com/reports/nCrxGd9wPXpJTzgK#fight=3",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-01T20:58:35.259Z",
+      "durationMs": 209265,
+      "bossPercentage": 16.75,
+      "fightPercentage": 53.53,
+      "averageItemLevel": 261.04998779296875,
+      "actor": {
+        "id": 13,
+        "name": "Корукк",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 24424.66,
+        "hps": 1752.78,
+        "primary": 24424.66,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 5111226,
+        "healingTotal": 366795,
+        "damageActiveTimeMs": 159486,
+        "healingActiveTimeMs": 85283,
+        "damageTotalTimeMs": 209265,
+        "healingTotalTimeMs": 209265,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 260,
+        "healingItemLevel": 260,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      }
+    },
+    {
+      "key": "nCrxGd9wPXpJTzgK:2:Корукк:eversong:eu",
+      "reportCode": "nCrxGd9wPXpJTzgK",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-01T20:46:17.024Z",
+      "reportEndedAt": "2026-04-01T21:02:04.524Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 2,
+      "url": "https://www.warcraftlogs.com/reports/nCrxGd9wPXpJTzgK#fight=2",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-01T20:51:55.942Z",
+      "durationMs": 297869,
+      "bossPercentage": 71.6,
+      "fightPercentage": 29.32,
+      "averageItemLevel": 261.04998779296875,
+      "actor": {
+        "id": 13,
+        "name": "Корукк",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 29900.62,
+        "hps": 3909.27,
+        "primary": 29900.62,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 8906467,
+        "healingTotal": 1164450,
+        "damageActiveTimeMs": 275339,
+        "healingActiveTimeMs": 152137,
+        "damageTotalTimeMs": 297869,
+        "healingTotalTimeMs": 297869,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 260,
+        "healingItemLevel": 260,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      }
+    },
+    {
+      "key": "nCrxGd9wPXpJTzgK:1:Корукк:eversong:eu",
+      "reportCode": "nCrxGd9wPXpJTzgK",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-01T20:46:17.024Z",
+      "reportEndedAt": "2026-04-01T21:02:04.524Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 1,
+      "url": "https://www.warcraftlogs.com/reports/nCrxGd9wPXpJTzgK#fight=1",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-01T20:48:09.189Z",
+      "durationMs": 56849,
+      "bossPercentage": 35.22,
+      "fightPercentage": 100,
+      "averageItemLevel": 260.20001220703125,
+      "actor": {
+        "id": 13,
+        "name": "Корукк",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 10923.85,
+        "hps": 0,
+        "primary": 10923.85,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 621010,
+        "healingTotal": 0,
+        "damageActiveTimeMs": 45364,
+        "damageTotalTimeMs": 56849,
+        "healingTotalTimeMs": 56849,
+        "damageEntryId": 13,
+        "damageItemLevel": 260,
+        "matchedBy": "damage:actor-id:13"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

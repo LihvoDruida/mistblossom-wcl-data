@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.249Z",
   "character": {
     "name": "Севатар",
     "realmSlug": "lich-king",
@@ -10,35 +10,563 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 10,
+    "kills": 3,
+    "wipes": 7,
+    "killRate": 0.3,
+    "wipeRate": 0.7,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 148,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 76.64,
+    "consistencyPercent": 20.33,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 50471.1,
+      "avgHps": 4050.01,
+      "avgPrimary": 50471.1,
+      "avgDurationMs": 252047,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 65853.19,
+      "minDps": 28206.38,
+      "maxHps": 13387.48,
+      "minHps": 1238.86,
+      "maxPrimary": 65853.19,
+      "minPrimary": 13387.48,
+      "maxDurationMs": 354042,
+      "minDurationMs": 29005
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "DxwhgLPZYBW1nAH6:17:Севатар:lich-king:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=17",
+      "status": "KILL",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:36:35.480Z",
+      "durationMs": 354042,
+      "bossPercentage": 0.1,
+      "fightPercentage": 0.1,
+      "averageItemLevel": 271.79998779296875,
+      "actor": {
+        "id": 26,
+        "name": "Севатар",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 57598.4,
+        "hps": 5621.6,
+        "primary": 57598.4,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 6
+      },
+      "source": {
+        "damageTotal": 20392251,
+        "healingTotal": 1990284,
+        "damageActiveTimeMs": 348424,
+        "healingActiveTimeMs": 341999,
+        "damageTotalTimeMs": 354042,
+        "healingTotalTimeMs": 354042,
+        "damageEntryId": 26,
+        "healingEntryId": 26,
+        "damageItemLevel": 277,
+        "healingItemLevel": 277,
+        "matchedBy": "damage:actor-id:26,healing:actor-id:26"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:14:Севатар:lich-king:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=14",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:25:28.804Z",
+      "durationMs": 285140,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 271.79998779296875,
+      "actor": {
+        "id": 26,
+        "name": "Севатар",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 65608.52,
+        "hps": 5289.56,
+        "primary": 65608.52,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 2
+      },
+      "source": {
+        "damageTotal": 18707614,
+        "healingTotal": 1508265,
+        "damageActiveTimeMs": 281846,
+        "healingActiveTimeMs": 274531,
+        "damageTotalTimeMs": 285140,
+        "healingTotalTimeMs": 285140,
+        "damageEntryId": 26,
+        "healingEntryId": 26,
+        "damageItemLevel": 277,
+        "healingItemLevel": 277,
+        "matchedBy": "damage:actor-id:26,healing:actor-id:26"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:13:Севатар:lich-king:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=13",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:20:38.878Z",
+      "durationMs": 116958,
+      "bossPercentage": 70.35,
+      "fightPercentage": 70.35,
+      "averageItemLevel": 271.54998779296875,
+      "actor": {
+        "id": 26,
+        "name": "Севатар",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 28206.38,
+        "hps": 1238.86,
+        "primary": 28206.38,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 3298962,
+        "healingTotal": 144895,
+        "damageActiveTimeMs": 43879,
+        "healingActiveTimeMs": 40631,
+        "damageTotalTimeMs": 116958,
+        "healingTotalTimeMs": 116958,
+        "damageEntryId": 26,
+        "healingEntryId": 26,
+        "damageItemLevel": 277,
+        "healingItemLevel": 277,
+        "matchedBy": "damage:actor-id:26,healing:actor-id:26"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:12:Севатар:lich-king:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=12",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:16:03.478Z",
+      "durationMs": 108779,
+      "bossPercentage": 66.31,
+      "fightPercentage": 66.31,
+      "averageItemLevel": 271.20001220703125,
+      "actor": {
+        "id": 26,
+        "name": "Севатар",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 63465.17,
+        "hps": 7179,
+        "primary": 63465.17,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6903678,
+        "healingTotal": 780924,
+        "damageActiveTimeMs": 84811,
+        "healingActiveTimeMs": 86090,
+        "damageTotalTimeMs": 108779,
+        "healingTotalTimeMs": 108779,
+        "damageEntryId": 26,
+        "healingEntryId": 26,
+        "damageItemLevel": 277,
+        "healingItemLevel": 277,
+        "matchedBy": "damage:actor-id:26,healing:actor-id:26"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:11:Севатар:lich-king:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=11",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:13:15.631Z",
+      "durationMs": 29005,
+      "bossPercentage": 98.44,
+      "fightPercentage": 98.44,
+      "averageItemLevel": 271.20001220703125,
+      "actor": {
+        "id": 26,
+        "name": "Севатар",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 13387.48,
+        "primary": 13387.48,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 388304,
+        "healingActiveTimeMs": 14010,
+        "damageTotalTimeMs": 29005,
+        "healingTotalTimeMs": 29005,
+        "healingEntryId": 26,
+        "healingItemLevel": 277,
+        "matchedBy": "healing:actor-id:26"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:6:Севатар:lich-king:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=6",
+      "status": "KILL",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:01:25.153Z",
+      "durationMs": 317297,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 271.20001220703125,
+      "actor": {
+        "id": 26,
+        "name": "Севатар",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 61084.38,
+        "hps": 4576.32,
+        "primary": 61084.38,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 1
+      },
+      "source": {
+        "damageTotal": 19381889,
+        "healingTotal": 1452052,
+        "damageActiveTimeMs": 304144,
+        "healingActiveTimeMs": 310273,
+        "damageTotalTimeMs": 317297,
+        "healingTotalTimeMs": 317297,
+        "damageEntryId": 26,
+        "healingEntryId": 26,
+        "damageItemLevel": 277,
+        "healingItemLevel": 277,
+        "matchedBy": "damage:actor-id:26,healing:actor-id:26"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:5:Севатар:lich-king:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 5,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=5",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T17:55:42.108Z",
+      "durationMs": 125722,
+      "bossPercentage": 46.63,
+      "fightPercentage": 46.63,
+      "averageItemLevel": 271.6499938964844,
+      "actor": {
+        "id": 26,
+        "name": "Севатар",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 65853.19,
+        "hps": 6140.99,
+        "primary": 65853.19,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8279195,
+        "healingTotal": 772057,
+        "damageActiveTimeMs": 113317,
+        "healingActiveTimeMs": 114771,
+        "damageTotalTimeMs": 125722,
+        "healingTotalTimeMs": 125722,
+        "damageEntryId": 26,
+        "healingEntryId": 26,
+        "damageItemLevel": 277,
+        "healingItemLevel": 277,
+        "matchedBy": "damage:actor-id:26,healing:actor-id:26"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:16:Севатар:lich-king:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=16",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:59:09.146Z",
+      "durationMs": 192659,
+      "bossPercentage": 75.12,
+      "fightPercentage": 47.85,
+      "averageItemLevel": 271.6000061035156,
+      "actor": {
+        "id": 5,
+        "name": "Севатар",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 51161.51,
+        "hps": 6173.37,
+        "primary": 51161.51,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 9856726,
+        "healingTotal": 1189356,
+        "damageActiveTimeMs": 159506,
+        "healingActiveTimeMs": 172042,
+        "damageTotalTimeMs": 192659,
+        "healingTotalTimeMs": 192659,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 276,
+        "healingItemLevel": 276,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:15:Севатар:lich-king:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=15",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:48:48.089Z",
+      "durationMs": 220822,
+      "bossPercentage": 56.39,
+      "fightPercentage": 40.36,
+      "averageItemLevel": 272.1499938964844,
+      "actor": {
+        "id": 5,
+        "name": "Севатар",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 47358.04,
+        "hps": 6879.01,
+        "primary": 47358.04,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 10457698,
+        "healingTotal": 1519037,
+        "damageActiveTimeMs": 184163,
+        "healingActiveTimeMs": 198056,
+        "damageTotalTimeMs": 220822,
+        "healingTotalTimeMs": 220822,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 276,
+        "healingItemLevel": 276,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:14:Севатар:lich-king:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=14",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:42:49.489Z",
+      "durationMs": 213563,
+      "bossPercentage": 45.18,
+      "fightPercentage": 45.09,
+      "averageItemLevel": 272.1499938964844,
+      "actor": {
+        "id": 5,
+        "name": "Севатар",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 58765.9,
+        "hps": 9645.96,
+        "primary": 58765.9,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 12550222,
+        "healingTotal": 2060021,
+        "damageActiveTimeMs": 178502,
+        "healingActiveTimeMs": 208683,
+        "damageTotalTimeMs": 213563,
+        "healingTotalTimeMs": 213563,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 276,
+        "healingItemLevel": 276,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

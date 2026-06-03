@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.561Z",
+  "updatedAt": "2026-06-03T02:05:14.246Z",
   "character": {
     "name": "Mólfár",
     "realmSlug": "terokkar",
@@ -10,248 +10,45 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 10,
-    "kills": 2,
+    "pullsStored": 8,
+    "kills": 0,
     "wipes": 8,
-    "killRate": 0.2,
-    "wipeRate": 0.8,
+    "killRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 113,
+    "totalRaidDeaths": 158,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 87.2,
+    "consistencyPercent": 38.98,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 276478,
+      "avgDps": 70147.4,
+      "avgHps": 7433.4,
+      "avgPrimary": 70147.4,
+      "avgDurationMs": 145253,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 348627,
-      "minDurationMs": 97007
+      "maxDps": 80443.67,
+      "minDps": 31360.38,
+      "maxHps": 10045.22,
+      "minHps": 4476.95,
+      "maxPrimary": 80443.67,
+      "minPrimary": 31360.38,
+      "maxDurationMs": 243002,
+      "minDurationMs": 90279
     }
   },
   "pulls": [
     {
-      "key": "HrdpqvTVL3b6nfCF:16:Mólfár:terokkar:eu",
-      "reportCode": "HrdpqvTVL3b6nfCF",
-      "fightId": 16,
-      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=16",
-      "status": "KILL",
-      "bossName": "Midnight Falls",
-      "encounterId": 3183,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-04-05T19:06:02.427Z",
-      "durationMs": 320595,
-      "bossPercentage": 0.36,
-      "fightPercentage": 0,
-      "averageItemLevel": 263.3999938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 0
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "HrdpqvTVL3b6nfCF:15:Mólfár:terokkar:eu",
-      "reportCode": "HrdpqvTVL3b6nfCF",
-      "fightId": 15,
-      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=15",
-      "status": "WIPE",
-      "bossName": "Midnight Falls",
-      "encounterId": 3183,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-04-05T18:58:37.649Z",
-      "durationMs": 348627,
-      "bossPercentage": 7.43,
-      "fightPercentage": 7.43,
-      "averageItemLevel": 263.3999938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 10
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "HrdpqvTVL3b6nfCF:14:Mólfár:terokkar:eu",
-      "reportCode": "HrdpqvTVL3b6nfCF",
-      "fightId": 14,
-      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=14",
-      "status": "WIPE",
-      "bossName": "Midnight Falls",
-      "encounterId": 3183,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-04-05T18:55:08.232Z",
-      "durationMs": 160211,
-      "bossPercentage": 65.94,
-      "fightPercentage": 65.94,
-      "averageItemLevel": 263.3999938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 10
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "HrdpqvTVL3b6nfCF:13:Mólfár:terokkar:eu",
-      "reportCode": "HrdpqvTVL3b6nfCF",
-      "fightId": 13,
-      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=13",
-      "status": "KILL",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-04-05T18:46:45.370Z",
-      "durationMs": 127972,
-      "bossPercentage": 0,
-      "fightPercentage": 0,
-      "averageItemLevel": 263.3999938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 0
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "HrdpqvTVL3b6nfCF:12:Mólfár:terokkar:eu",
-      "reportCode": "HrdpqvTVL3b6nfCF",
-      "fightId": 12,
-      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=12",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-04-05T18:41:49.691Z",
-      "durationMs": 163905,
-      "bossPercentage": 34.8,
-      "fightPercentage": 26.4,
-      "averageItemLevel": 263.3999938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 11
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "HrdpqvTVL3b6nfCF:11:Mólfár:terokkar:eu",
-      "reportCode": "HrdpqvTVL3b6nfCF",
-      "fightId": 11,
-      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=11",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-04-05T18:35:28.392Z",
-      "durationMs": 189220,
-      "bossPercentage": 45.08,
-      "fightPercentage": 53.83,
-      "averageItemLevel": 263.3999938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 11
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "HrdpqvTVL3b6nfCF:10:Mólfár:terokkar:eu",
-      "reportCode": "HrdpqvTVL3b6nfCF",
-      "fightId": 10,
-      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=10",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 3,
-      "difficultyName": "Normal",
-      "startedAt": "2026-04-05T18:30:44.882Z",
-      "durationMs": 179769,
-      "bossPercentage": 36.72,
-      "fightPercentage": 51.41,
-      "averageItemLevel": 263.3999938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 12
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
       "key": "HrdpqvTVL3b6nfCF:8:Mólfár:terokkar:eu",
       "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 8,
       "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=8",
       "status": "WIPE",
@@ -264,24 +61,47 @@
       "bossPercentage": 76.57,
       "fightPercentage": 76.57,
       "averageItemLevel": 262.3999938964844,
+      "actor": {
+        "id": 3,
+        "name": "Mólfár",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 80443.67,
+        "hps": 4739.7,
+        "primary": 80443.67,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 8712371,
+        "healingTotal": 513329,
+        "damageActiveTimeMs": 102829,
+        "healingActiveTimeMs": 57735,
+        "damageTotalTimeMs": 108304,
+        "healingTotalTimeMs": 108304,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     },
     {
       "key": "HrdpqvTVL3b6nfCF:7:Mólfár:terokkar:eu",
       "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 7,
       "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=7",
       "status": "WIPE",
@@ -294,24 +114,47 @@
       "bossPercentage": 77.33,
       "fightPercentage": 77.33,
       "averageItemLevel": 262.3999938964844,
+      "actor": {
+        "id": 3,
+        "name": "Mólfár",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 71629.41,
+        "hps": 10045.22,
+        "primary": 71629.41,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 19
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 6948554,
+        "healingTotal": 974457,
+        "damageActiveTimeMs": 94538,
+        "healingActiveTimeMs": 79995,
+        "damageTotalTimeMs": 97007,
+        "healingTotalTimeMs": 97007,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     },
     {
       "key": "HrdpqvTVL3b6nfCF:6:Mólfár:terokkar:eu",
       "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 6,
       "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=6",
       "status": "WIPE",
@@ -324,19 +167,300 @@
       "bossPercentage": 61.79,
       "fightPercentage": 61.79,
       "averageItemLevel": 262.75,
+      "actor": {
+        "id": 3,
+        "name": "Mólfár",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 58369.12,
+        "hps": 7515.29,
+        "primary": 58369.12,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 13450988,
+        "healingTotal": 1731877,
+        "damageActiveTimeMs": 226715,
+        "healingActiveTimeMs": 196536,
+        "damageTotalTimeMs": 230447,
+        "healingTotalTimeMs": 230447,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:5:Mólfár:terokkar:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 5,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=5",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:52:37.962Z",
+      "durationMs": 124525,
+      "bossPercentage": 76.86,
+      "fightPercentage": 76.86,
+      "averageItemLevel": 262.70001220703125,
+      "actor": {
+        "id": 3,
+        "name": "Mólfár",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 52972.09,
+        "hps": 5502.59,
+        "primary": 52972.09,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 18
+      },
+      "source": {
+        "damageTotal": 6596350,
+        "healingTotal": 685210,
+        "damageActiveTimeMs": 96403,
+        "healingActiveTimeMs": 84213,
+        "damageTotalTimeMs": 124525,
+        "healingTotalTimeMs": 124525,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:4:Mólfár:terokkar:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 4,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=4",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:44:54.953Z",
+      "durationMs": 243002,
+      "bossPercentage": 66.17,
+      "fightPercentage": 66.17,
+      "averageItemLevel": 262.3500061035156,
+      "actor": {
+        "id": 3,
+        "name": "Mólfár",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 63708.45,
+        "hps": 6062.98,
+        "primary": 63708.45,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 15481280,
+        "healingTotal": 1473317,
+        "damageActiveTimeMs": 204321,
+        "healingActiveTimeMs": 188242,
+        "damageTotalTimeMs": 243002,
+        "healingTotalTimeMs": 243002,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:3:Mólfár:terokkar:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 3,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=3",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:38:22.607Z",
+      "durationMs": 90279,
+      "bossPercentage": 81.31,
+      "fightPercentage": 81.31,
+      "averageItemLevel": 262.3500061035156,
+      "actor": {
+        "id": 3,
+        "name": "Mólfár",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 31360.38,
+        "hps": 4476.95,
+        "primary": 31360.38,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2831184,
+        "healingTotal": 404175,
+        "damageActiveTimeMs": 40252,
+        "healingActiveTimeMs": 24672,
+        "damageTotalTimeMs": 90279,
+        "healingTotalTimeMs": 90279,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:2:Mólfár:terokkar:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 2,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=2",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:28:50.236Z",
+      "durationMs": 241068,
+      "bossPercentage": 70.2,
+      "fightPercentage": 70.2,
+      "averageItemLevel": 262.45001220703125,
+      "actor": {
+        "id": 3,
+        "name": "Mólfár",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 57808.83,
+        "hps": 6764.2,
+        "primary": 57808.83,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 13935860,
+        "healingTotal": 1630632,
+        "damageActiveTimeMs": 207804,
+        "healingActiveTimeMs": 181602,
+        "damageTotalTimeMs": 241068,
+        "healingTotalTimeMs": 241068,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:1:Mólfár:terokkar:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 1,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=1",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:25:14.905Z",
+      "durationMs": 97652,
+      "bossPercentage": 80.25,
+      "fightPercentage": 80.25,
+      "averageItemLevel": 262.45001220703125,
+      "actor": {
+        "id": 3,
+        "name": "Mólfár",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "metric": {
+        "dps": 66415.13,
+        "hps": 5857.01,
+        "primary": 66415.13,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6485570,
+        "healingTotal": 571949,
+        "damageActiveTimeMs": 81088,
+        "healingActiveTimeMs": 57566,
+        "damageTotalTimeMs": 97652,
+        "healingTotalTimeMs": 97652,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 266,
+        "healingItemLevel": 266,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     }
   ],

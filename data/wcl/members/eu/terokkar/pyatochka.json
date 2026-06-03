@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.561Z",
+  "updatedAt": "2026-06-03T02:05:14.246Z",
   "character": {
     "name": "Pyatochka",
     "realmSlug": "terokkar",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 153,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 50.68,
+    "consistencyPercent": 21.07,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 30759.5,
+      "avgHps": 3565.26,
+      "avgPrimary": 30759.5,
       "avgDurationMs": 168192,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 60690.55,
+      "minDps": 12785.24,
+      "maxHps": 9635.4,
+      "minHps": 1399.24,
+      "maxPrimary": 60690.55,
+      "minPrimary": 12785.24,
       "maxDurationMs": 432510,
       "minDurationMs": 96687
     }
@@ -42,6 +42,13 @@
     {
       "key": "kXv1mMLg9xdhz4P3:38:Pyatochka:terokkar:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 38,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=38",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 62.97,
       "fightPercentage": 62.97,
       "averageItemLevel": 275.1000061035156,
+      "actor": {
+        "id": 3,
+        "name": "Pyatochka",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 32800.41,
+        "hps": 2477.27,
+        "primary": 32800.41,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 4940069,
+        "healingTotal": 373102,
+        "damageActiveTimeMs": 68345,
+        "healingActiveTimeMs": 62031,
+        "damageTotalTimeMs": 150610,
+        "healingTotalTimeMs": 150610,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 248,
+        "healingItemLevel": 248,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:37:Pyatochka:terokkar:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 37,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=37",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 58.91,
       "fightPercentage": 58.91,
       "averageItemLevel": 276.3500061035156,
+      "actor": {
+        "id": 3,
+        "name": "Pyatochka",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 12785.24,
+        "hps": 1399.24,
+        "primary": 12785.24,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1966818,
+        "healingTotal": 215252,
+        "damageActiveTimeMs": 29401,
+        "healingActiveTimeMs": 47010,
+        "damageTotalTimeMs": 153835,
+        "healingTotalTimeMs": 153835,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 248,
+        "healingItemLevel": 248,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:36:Pyatochka:terokkar:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 36,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=36",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 49.32,
       "fightPercentage": 49.32,
       "averageItemLevel": 276.3500061035156,
+      "actor": {
+        "id": 3,
+        "name": "Pyatochka",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 46692.85,
+        "hps": 6819.28,
+        "primary": 46692.85,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 9344686,
+        "healingTotal": 1364750,
+        "damageActiveTimeMs": 197119,
+        "healingActiveTimeMs": 187974,
+        "damageTotalTimeMs": 200131,
+        "healingTotalTimeMs": 200131,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 248,
+        "healingItemLevel": 248,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:33:Pyatochka:terokkar:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 33,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=33",
       "status": "WIPE",
@@ -144,24 +220,47 @@
       "bossPercentage": 76.83,
       "fightPercentage": 76.83,
       "averageItemLevel": 274.3500061035156,
+      "actor": {
+        "id": 3,
+        "name": "Pyatochka",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 33141.35,
+        "hps": 4022,
+        "primary": 33141.35,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 3204338,
+        "healingTotal": 388875,
+        "damageActiveTimeMs": 48005,
+        "healingActiveTimeMs": 50962,
+        "damageTotalTimeMs": 96687,
+        "healingTotalTimeMs": 96687,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 248,
+        "healingItemLevel": 248,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:32:Pyatochka:terokkar:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 32,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=32",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 69.12,
       "fightPercentage": 69.12,
       "averageItemLevel": 274.3500061035156,
+      "actor": {
+        "id": 3,
+        "name": "Pyatochka",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 60690.55,
+        "hps": 9635.4,
+        "primary": 60690.55,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7508877,
+        "healingTotal": 1192130,
+        "damageActiveTimeMs": 120195,
+        "healingActiveTimeMs": 114000,
+        "damageTotalTimeMs": 123724,
+        "healingTotalTimeMs": 123724,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 248,
+        "healingItemLevel": 248,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:28:Pyatochka:terokkar:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 28,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=28",
       "status": "KILL",
@@ -204,24 +326,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 274.45001220703125,
+      "actor": {
+        "id": 3,
+        "name": "Pyatochka",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 22993.25,
+        "hps": 2797.5,
+        "primary": 22993.25,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 6
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 9944810,
+        "healingTotal": 1209946,
+        "damageActiveTimeMs": 212126,
+        "healingActiveTimeMs": 201084,
+        "damageTotalTimeMs": 432510,
+        "healingTotalTimeMs": 432510,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 248,
+        "healingItemLevel": 248,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:27:Pyatochka:terokkar:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 27,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=27",
       "status": "WIPE",
@@ -234,24 +379,47 @@
       "bossPercentage": 52.06,
       "fightPercentage": 52.06,
       "averageItemLevel": 274.25,
+      "actor": {
+        "id": 3,
+        "name": "Pyatochka",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 25352.36,
+        "hps": 4894.57,
+        "primary": 25352.36,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 6639328,
+        "healingTotal": 1281801,
+        "damageActiveTimeMs": 204161,
+        "healingActiveTimeMs": 190364,
+        "damageTotalTimeMs": 261882,
+        "healingTotalTimeMs": 261882,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 248,
+        "healingItemLevel": 248,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:25:Pyatochka:terokkar:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 25,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=25",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 74.62,
       "fightPercentage": 74.62,
       "averageItemLevel": 274.25,
+      "actor": {
+        "id": 3,
+        "name": "Pyatochka",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 32619.18,
+        "hps": 3379.77,
+        "primary": 32619.18,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 3286350,
+        "healingTotal": 340508,
+        "damageActiveTimeMs": 80542,
+        "healingActiveTimeMs": 76915,
+        "damageTotalTimeMs": 100749,
+        "healingTotalTimeMs": 100749,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 248,
+        "healingItemLevel": 248,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:22:Pyatochka:terokkar:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 22,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=22",
       "status": "KILL",
@@ -294,24 +485,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 274.25,
+      "actor": {
+        "id": 3,
+        "name": "Pyatochka",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 18643.5,
+        "hps": 1694.31,
+        "primary": 18643.5,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 3
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 6371098,
+        "healingTotal": 579003,
+        "damageActiveTimeMs": 115451,
+        "healingActiveTimeMs": 104004,
+        "damageTotalTimeMs": 341733,
+        "healingTotalTimeMs": 341733,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 248,
+        "healingItemLevel": 248,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     },
     {
       "key": "kXv1mMLg9xdhz4P3:17:Pyatochka:terokkar:eu",
       "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 17,
       "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=17",
       "status": "KILL",
@@ -324,19 +538,35 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 276.04998779296875,
+      "actor": {
+        "id": 3,
+        "name": "Pyatochka",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 40906.37,
+        "hps": 7659.93,
+        "primary": 40906.37,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 2
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 10538912,
+        "healingTotal": 1973465,
+        "damageActiveTimeMs": 253296,
+        "healingActiveTimeMs": 252998,
+        "damageTotalTimeMs": 257635,
+        "healingTotalTimeMs": 257635,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 244,
+        "healingItemLevel": 244,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
       }
     }
   ],

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.558Z",
+  "updatedAt": "2026-06-03T02:05:14.242Z",
   "character": {
     "name": "Silpo",
     "realmSlug": "ravencrest",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 186,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 51.1,
+    "consistencyPercent": 45.28,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 76626.54,
+      "avgHps": 5146.34,
+      "avgPrimary": 76626.54,
       "avgDurationMs": 213419,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 149941.31,
+      "minDps": 67895.03,
+      "maxHps": 11754.34,
+      "minHps": 3687.45,
+      "maxPrimary": 149941.31,
+      "minPrimary": 67895.03,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
     }
@@ -42,6 +42,13 @@
     {
       "key": "8dAPQCWGNMLBjrRg:32:Silpo:ravencrest:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 32,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 57.68,
       "fightPercentage": 57.68,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 114,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 77772.4,
+        "hps": 4352.32,
+        "primary": 77772.4,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 16797517,
+        "healingTotal": 940028,
+        "damageActiveTimeMs": 213951,
+        "healingActiveTimeMs": 176590,
+        "damageTotalTimeMs": 215983,
+        "healingTotalTimeMs": 215983,
+        "damageEntryId": 114,
+        "healingEntryId": 114,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:31:Silpo:ravencrest:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 31,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 57.65,
       "fightPercentage": 57.65,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 114,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 67895.03,
+        "hps": 5116.28,
+        "primary": 67895.03,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 15374558,
+        "healingTotal": 1158561,
+        "damageActiveTimeMs": 207099,
+        "healingActiveTimeMs": 161229,
+        "damageTotalTimeMs": 226446,
+        "healingTotalTimeMs": 226446,
+        "damageEntryId": 114,
+        "healingEntryId": 114,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:30:Silpo:ravencrest:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 30,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 58.27,
       "fightPercentage": 58.27,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 114,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 84212.18,
+        "hps": 5970.41,
+        "primary": 84212.18,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 16659611,
+        "healingTotal": 1181121,
+        "damageActiveTimeMs": 194518,
+        "healingActiveTimeMs": 164156,
+        "damageTotalTimeMs": 197829,
+        "healingTotalTimeMs": 197829,
+        "damageEntryId": 114,
+        "healingEntryId": 114,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:29:Silpo:ravencrest:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 29,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
       "status": "WIPE",
@@ -144,24 +220,47 @@
       "bossPercentage": 56.82,
       "fightPercentage": 56.82,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 114,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 81326.12,
+        "hps": 5138.18,
+        "primary": 81326.12,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 18067249,
+        "healingTotal": 1141488,
+        "damageActiveTimeMs": 207707,
+        "healingActiveTimeMs": 171983,
+        "damageTotalTimeMs": 222158,
+        "healingTotalTimeMs": 222158,
+        "damageEntryId": 114,
+        "healingEntryId": 114,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:28:Silpo:ravencrest:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 28,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 58.86,
       "fightPercentage": 58.86,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 114,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 74696.67,
+        "hps": 3687.45,
+        "primary": 74696.67,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 15624227,
+        "healingTotal": 771301,
+        "damageActiveTimeMs": 140968,
+        "healingActiveTimeMs": 114555,
+        "damageTotalTimeMs": 209169,
+        "healingTotalTimeMs": 209169,
+        "damageEntryId": 114,
+        "healingEntryId": 114,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:27:Silpo:ravencrest:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 27,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
       "status": "WIPE",
@@ -204,24 +326,47 @@
       "bossPercentage": 62.33,
       "fightPercentage": 62.33,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 114,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 108499.57,
+        "hps": 7938.36,
+        "primary": 108499.57,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 18392738,
+        "healingTotal": 1345703,
+        "damageActiveTimeMs": 166863,
+        "healingActiveTimeMs": 141131,
+        "damageTotalTimeMs": 169519,
+        "healingTotalTimeMs": 169519,
+        "damageEntryId": 114,
+        "healingEntryId": 114,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:26:Silpo:ravencrest:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 26,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
       "status": "WIPE",
@@ -234,24 +379,47 @@
       "bossPercentage": 80.53,
       "fightPercentage": 80.53,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 114,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 146796.54,
+        "hps": 5664.2,
+        "primary": 146796.54,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7469742,
+        "healingTotal": 288223,
+        "damageActiveTimeMs": 47431,
+        "healingActiveTimeMs": 40085,
+        "damageTotalTimeMs": 50885,
+        "healingTotalTimeMs": 50885,
+        "damageEntryId": 114,
+        "healingEntryId": 114,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:25:Silpo:ravencrest:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 25,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 79.76,
       "fightPercentage": 79.76,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 114,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 149941.31,
+        "hps": 11754.34,
+        "primary": 149941.31,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7523455,
+        "healingTotal": 589786,
+        "damageActiveTimeMs": 47621,
+        "healingActiveTimeMs": 40173,
+        "damageTotalTimeMs": 50176,
+        "healingTotalTimeMs": 50176,
+        "damageEntryId": 114,
+        "healingEntryId": 114,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:21:Silpo:ravencrest:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 21,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
       "status": "KILL",
@@ -294,24 +485,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 114,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 104950.99,
+        "hps": 6994.52,
+        "primary": 104950.99,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 3
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 35249680,
+        "healingTotal": 2349237,
+        "damageActiveTimeMs": 330617,
+        "healingActiveTimeMs": 323035,
+        "damageTotalTimeMs": 335868,
+        "healingTotalTimeMs": 335868,
+        "damageEntryId": 114,
+        "healingEntryId": 114,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:20:Silpo:ravencrest:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 20,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
       "status": "WIPE",
@@ -324,19 +538,35 @@
       "bossPercentage": 27.56,
       "fightPercentage": 27.56,
       "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 114,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 93074.92,
+        "hps": 5917.73,
+        "primary": 93074.92,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 26615518,
+        "healingTotal": 1692221,
+        "damageActiveTimeMs": 282842,
+        "healingActiveTimeMs": 270745,
+        "damageTotalTimeMs": 285958,
+        "healingTotalTimeMs": 285958,
+        "damageEntryId": 114,
+        "healingEntryId": 114,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
       }
     }
   ],

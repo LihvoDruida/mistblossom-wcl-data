@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.249Z",
   "character": {
     "name": "Булкрит",
     "realmSlug": "gordunni",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 10,
+    "kills": 1,
+    "wipes": 9,
+    "killRate": 0.1,
+    "wipeRate": 0.9,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 186,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 55.85,
+    "consistencyPercent": 44.49,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 83198.53,
+      "avgHps": 7894.78,
+      "avgPrimary": 83198.53,
+      "avgDurationMs": 213419,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 148975.61,
+      "minDps": 66275.45,
+      "maxHps": 12792.93,
+      "minHps": 5535.81,
+      "maxPrimary": 148975.61,
+      "minPrimary": 66275.45,
+      "maxDurationMs": 335868,
+      "minDurationMs": 50176
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "8dAPQCWGNMLBjrRg:32:Булкрит:gordunni:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T20:06:06.764Z",
+      "durationMs": 215983,
+      "bossPercentage": 57.68,
+      "fightPercentage": 57.68,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 108,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 82334.47,
+        "hps": 7147.74,
+        "primary": 82334.47,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 17782846,
+        "healingTotal": 1543790,
+        "damageActiveTimeMs": 192208,
+        "healingActiveTimeMs": 156571,
+        "damageTotalTimeMs": 215983,
+        "healingTotalTimeMs": 215983,
+        "damageEntryId": 108,
+        "healingEntryId": 108,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:31:Булкрит:gordunni:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 31,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T20:00:37.917Z",
+      "durationMs": 226446,
+      "bossPercentage": 57.65,
+      "fightPercentage": 57.65,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 108,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 66275.45,
+        "hps": 6636.96,
+        "primary": 66275.45,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 15007811,
+        "healingTotal": 1502913,
+        "damageActiveTimeMs": 167360,
+        "healingActiveTimeMs": 160046,
+        "damageTotalTimeMs": 226446,
+        "healingTotalTimeMs": 226446,
+        "damageEntryId": 108,
+        "healingEntryId": 108,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:30:Булкрит:gordunni:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:54:58.059Z",
+      "durationMs": 197829,
+      "bossPercentage": 58.27,
+      "fightPercentage": 58.27,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 108,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 100985.68,
+        "hps": 9899.63,
+        "primary": 100985.68,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 19977897,
+        "healingTotal": 1958434,
+        "damageActiveTimeMs": 181369,
+        "healingActiveTimeMs": 156930,
+        "damageTotalTimeMs": 197829,
+        "healingTotalTimeMs": 197829,
+        "damageEntryId": 108,
+        "healingEntryId": 108,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:29:Булкрит:gordunni:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 29,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:48:53.946Z",
+      "durationMs": 222158,
+      "bossPercentage": 56.82,
+      "fightPercentage": 56.82,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 108,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 96417.72,
+        "hps": 8855.67,
+        "primary": 96417.72,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 21419968,
+        "healingTotal": 1967359,
+        "damageActiveTimeMs": 217453,
+        "healingActiveTimeMs": 204929,
+        "damageTotalTimeMs": 222158,
+        "healingTotalTimeMs": 222158,
+        "damageEntryId": 108,
+        "healingEntryId": 108,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:28:Булкрит:gordunni:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:38:12.252Z",
+      "durationMs": 209169,
+      "bossPercentage": 58.86,
+      "fightPercentage": 58.86,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 108,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 78748.11,
+        "hps": 8709.95,
+        "primary": 78748.11,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 16471664,
+        "healingTotal": 1821852,
+        "damageActiveTimeMs": 191451,
+        "healingActiveTimeMs": 158037,
+        "damageTotalTimeMs": 209169,
+        "healingTotalTimeMs": 209169,
+        "damageEntryId": 108,
+        "healingEntryId": 108,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:27:Булкрит:gordunni:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:29:44.846Z",
+      "durationMs": 169519,
+      "bossPercentage": 62.33,
+      "fightPercentage": 62.33,
+      "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 108,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 88528.41,
+        "hps": 12623.26,
+        "primary": 88528.41,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 15007247,
+        "healingTotal": 2139882,
+        "damageActiveTimeMs": 155490,
+        "healingActiveTimeMs": 147922,
+        "damageTotalTimeMs": 169519,
+        "healingTotalTimeMs": 169519,
+        "damageEntryId": 108,
+        "healingEntryId": 108,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:26:Булкрит:gordunni:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:27:07.695Z",
+      "durationMs": 50885,
+      "bossPercentage": 80.53,
+      "fightPercentage": 80.53,
+      "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 108,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 148975.61,
+        "hps": 9574.83,
+        "primary": 148975.61,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 7580624,
+        "healingTotal": 487215,
+        "damageActiveTimeMs": 47117,
+        "healingActiveTimeMs": 43898,
+        "damageTotalTimeMs": 50885,
+        "healingTotalTimeMs": 50885,
+        "damageEntryId": 108,
+        "healingEntryId": 108,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:25:Булкрит:gordunni:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:23:53.731Z",
+      "durationMs": 50176,
+      "bossPercentage": 79.76,
+      "fightPercentage": 79.76,
+      "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 108,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 127796.6,
+        "hps": 5535.81,
+        "primary": 127796.6,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6412322,
+        "healingTotal": 277765,
+        "damageActiveTimeMs": 47179,
+        "healingActiveTimeMs": 46988,
+        "damageTotalTimeMs": 50176,
+        "healingTotalTimeMs": 50176,
+        "damageEntryId": 108,
+        "healingEntryId": 108,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:21:Булкрит:gordunni:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:04:24.189Z",
+      "durationMs": 335868,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 108,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 105660.13,
+        "hps": 11941.76,
+        "primary": 105660.13,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 3
+      },
+      "source": {
+        "damageTotal": 35487858,
+        "healingTotal": 4010854,
+        "damageActiveTimeMs": 333532,
+        "healingActiveTimeMs": 333555,
+        "damageTotalTimeMs": 335868,
+        "healingTotalTimeMs": 335868,
+        "damageEntryId": 108,
+        "healingEntryId": 108,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:20:Булкрит:gordunni:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T18:57:55.893Z",
+      "durationMs": 285958,
+      "bossPercentage": 27.56,
+      "fightPercentage": 27.56,
+      "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 108,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 101381.25,
+        "hps": 12792.93,
+        "primary": 101381.25,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 28990779,
+        "healingTotal": 3658240,
+        "damageActiveTimeMs": 279888,
+        "healingActiveTimeMs": 278969,
+        "damageTotalTimeMs": 285958,
+        "healingTotalTimeMs": 285958,
+        "damageEntryId": 108,
+        "healingEntryId": 108,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

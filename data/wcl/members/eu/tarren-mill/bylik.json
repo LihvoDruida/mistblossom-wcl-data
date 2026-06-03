@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.559Z",
+  "updatedAt": "2026-06-03T02:05:14.243Z",
   "character": {
     "name": "Bylik",
     "realmSlug": "tarren-mill",
@@ -10,35 +10,563 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 10,
+    "kills": 1,
+    "wipes": 9,
+    "killRate": 0.1,
+    "wipeRate": 0.9,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 158,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 21.74,
+    "consistencyPercent": 1.94,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 31230.35,
+      "avgHps": 1939.84,
+      "avgPrimary": 32186.06,
+      "avgDurationMs": 87262,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 148027.34,
+      "minDps": 6752.88,
+      "maxHps": 10158.3,
+      "minHps": 812.2,
+      "maxPrimary": 148027.34,
+      "minPrimary": 2867.14,
+      "maxDurationMs": 304370,
+      "minDurationMs": 27878
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "qanx9LQVdPkCmNR6:39:Bylik:tarren-mill:eu",
+      "reportCode": "qanx9LQVdPkCmNR6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-16T17:14:04.886Z",
+      "reportEndedAt": "2026-05-16T20:14:09.646Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 39,
+      "url": "https://www.warcraftlogs.com/reports/qanx9LQVdPkCmNR6#fight=39",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-16T20:09:47.034Z",
+      "durationMs": 134315,
+      "bossPercentage": 37.95,
+      "fightPercentage": 76.42,
+      "averageItemLevel": 281.71429443359375,
+      "actor": {
+        "id": 9,
+        "name": "Bylik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Mage"
+      },
+      "metric": {
+        "dps": 6752.88,
+        "hps": 812.2,
+        "primary": 6752.88,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 907013,
+        "healingTotal": 109091,
+        "damageActiveTimeMs": 26414,
+        "healingActiveTimeMs": 4005,
+        "damageTotalTimeMs": 134315,
+        "healingTotalTimeMs": 134315,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      }
+    },
+    {
+      "key": "qanx9LQVdPkCmNR6:38:Bylik:tarren-mill:eu",
+      "reportCode": "qanx9LQVdPkCmNR6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-16T17:14:04.886Z",
+      "reportEndedAt": "2026-05-16T20:14:09.646Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 38,
+      "url": "https://www.warcraftlogs.com/reports/qanx9LQVdPkCmNR6#fight=38",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-16T20:07:43.836Z",
+      "durationMs": 27878,
+      "bossPercentage": 98.7,
+      "fightPercentage": 99.5,
+      "averageItemLevel": 281.6153869628906,
+      "actor": {
+        "id": 9,
+        "name": "Bylik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Mage"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 2867.14,
+        "primary": 2867.14,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 13
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 79930,
+        "healingActiveTimeMs": 0,
+        "damageTotalTimeMs": 27878,
+        "healingTotalTimeMs": 27878,
+        "healingEntryId": 9,
+        "healingItemLevel": 279,
+        "matchedBy": "healing:actor-id:9"
+      }
+    },
+    {
+      "key": "qanx9LQVdPkCmNR6:37:Bylik:tarren-mill:eu",
+      "reportCode": "qanx9LQVdPkCmNR6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-16T17:14:04.886Z",
+      "reportEndedAt": "2026-05-16T20:14:09.646Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 37,
+      "url": "https://www.warcraftlogs.com/reports/qanx9LQVdPkCmNR6#fight=37",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-16T20:05:30.695Z",
+      "durationMs": 99593,
+      "bossPercentage": 33.06,
+      "fightPercentage": 74.56,
+      "averageItemLevel": 281.6153869628906,
+      "actor": {
+        "id": 9,
+        "name": "Bylik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Mage"
+      },
+      "metric": {
+        "dps": 86938.16,
+        "hps": 2140.17,
+        "primary": 86938.16,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 14
+      },
+      "source": {
+        "damageTotal": 8658432,
+        "healingTotal": 213146,
+        "damageActiveTimeMs": 71155,
+        "healingActiveTimeMs": 55869,
+        "damageTotalTimeMs": 99593,
+        "healingTotalTimeMs": 99593,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      }
+    },
+    {
+      "key": "qanx9LQVdPkCmNR6:36:Bylik:tarren-mill:eu",
+      "reportCode": "qanx9LQVdPkCmNR6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-16T17:14:04.886Z",
+      "reportEndedAt": "2026-05-16T20:14:09.646Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 36,
+      "url": "https://www.warcraftlogs.com/reports/qanx9LQVdPkCmNR6#fight=36",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-16T19:58:59.641Z",
+      "durationMs": 275140,
+      "bossPercentage": 55.35,
+      "fightPercentage": 46.81,
+      "averageItemLevel": 281.6153869628906,
+      "actor": {
+        "id": 9,
+        "name": "Bylik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Mage"
+      },
+      "metric": {
+        "dps": 95599.7,
+        "hps": 6819,
+        "primary": 95599.7,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 14
+      },
+      "source": {
+        "damageTotal": 26303301,
+        "healingTotal": 1876181,
+        "damageActiveTimeMs": 206949,
+        "healingActiveTimeMs": 207085,
+        "damageTotalTimeMs": 275140,
+        "healingTotalTimeMs": 275140,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      }
+    },
+    {
+      "key": "qanx9LQVdPkCmNR6:35:Bylik:tarren-mill:eu",
+      "reportCode": "qanx9LQVdPkCmNR6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-16T17:14:04.886Z",
+      "reportEndedAt": "2026-05-16T20:14:09.646Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 35,
+      "url": "https://www.warcraftlogs.com/reports/qanx9LQVdPkCmNR6#fight=35",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-16T19:48:59.477Z",
+      "durationMs": 236733,
+      "bossPercentage": 66.43,
+      "fightPercentage": 50.58,
+      "averageItemLevel": 281.9285583496094,
+      "actor": {
+        "id": 9,
+        "name": "Bylik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Mage"
+      },
+      "metric": {
+        "dps": 101691.23,
+        "hps": 6061.73,
+        "primary": 101691.23,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 14
+      },
+      "source": {
+        "damageTotal": 24073671,
+        "healingTotal": 1435011,
+        "damageActiveTimeMs": 172302,
+        "healingActiveTimeMs": 187323,
+        "damageTotalTimeMs": 236733,
+        "healingTotalTimeMs": 236733,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      }
+    },
+    {
+      "key": "qanx9LQVdPkCmNR6:33:Bylik:tarren-mill:eu",
+      "reportCode": "qanx9LQVdPkCmNR6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-16T17:14:04.886Z",
+      "reportEndedAt": "2026-05-16T20:14:09.646Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 33,
+      "url": "https://www.warcraftlogs.com/reports/qanx9LQVdPkCmNR6#fight=33",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-16T19:23:48.989Z",
+      "durationMs": 221270,
+      "bossPercentage": 88.87,
+      "fightPercentage": 58.21,
+      "averageItemLevel": 277.54998779296875,
+      "actor": {
+        "id": 9,
+        "name": "Bylik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Mage"
+      },
+      "metric": {
+        "dps": 112142.49,
+        "hps": 10158.3,
+        "primary": 112142.49,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 24813768,
+        "healingTotal": 2247727,
+        "damageActiveTimeMs": 160152,
+        "healingActiveTimeMs": 135626,
+        "damageTotalTimeMs": 221270,
+        "healingTotalTimeMs": 221270,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      }
+    },
+    {
+      "key": "qanx9LQVdPkCmNR6:32:Bylik:tarren-mill:eu",
+      "reportCode": "qanx9LQVdPkCmNR6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-16T17:14:04.886Z",
+      "reportEndedAt": "2026-05-16T20:14:09.646Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/qanx9LQVdPkCmNR6#fight=32",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-16T19:18:26.537Z",
+      "durationMs": 141760,
+      "bossPercentage": 0.01,
+      "fightPercentage": 62,
+      "averageItemLevel": 277.45001220703125,
+      "actor": {
+        "id": 9,
+        "name": "Bylik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Mage"
+      },
+      "metric": {
+        "dps": 134511.82,
+        "hps": 6086.53,
+        "primary": 134511.82,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 19068396,
+        "healingTotal": 862827,
+        "damageActiveTimeMs": 117321,
+        "healingActiveTimeMs": 102980,
+        "damageTotalTimeMs": 141760,
+        "healingTotalTimeMs": 141760,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      }
+    },
+    {
+      "key": "qanx9LQVdPkCmNR6:31:Bylik:tarren-mill:eu",
+      "reportCode": "qanx9LQVdPkCmNR6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-16T17:14:04.886Z",
+      "reportEndedAt": "2026-05-16T20:14:09.646Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 31,
+      "url": "https://www.warcraftlogs.com/reports/qanx9LQVdPkCmNR6#fight=31",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-16T19:05:31.947Z",
+      "durationMs": 137219,
+      "bossPercentage": 35.42,
+      "fightPercentage": 75.45,
+      "averageItemLevel": 278.25,
+      "actor": {
+        "id": 9,
+        "name": "Bylik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Mage"
+      },
+      "metric": {
+        "dps": 94521.82,
+        "hps": 9508.89,
+        "primary": 94521.82,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 12970189,
+        "healingTotal": 1304801,
+        "damageActiveTimeMs": 95260,
+        "healingActiveTimeMs": 106143,
+        "damageTotalTimeMs": 137219,
+        "healingTotalTimeMs": 137219,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      }
+    },
+    {
+      "key": "qanx9LQVdPkCmNR6:29:Bylik:tarren-mill:eu",
+      "reportCode": "qanx9LQVdPkCmNR6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-16T17:14:04.886Z",
+      "reportEndedAt": "2026-05-16T20:14:09.646Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 29,
+      "url": "https://www.warcraftlogs.com/reports/qanx9LQVdPkCmNR6#fight=29",
+      "status": "KILL",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-16T18:49:36.914Z",
+      "durationMs": 304370,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 276.20001220703125,
+      "actor": {
+        "id": 9,
+        "name": "Bylik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Mage"
+      },
+      "metric": {
+        "dps": 148027.34,
+        "hps": 5255.78,
+        "primary": 148027.34,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 6
+      },
+      "source": {
+        "damageTotal": 45055082,
+        "healingTotal": 1599702,
+        "damageActiveTimeMs": 301359,
+        "healingActiveTimeMs": 299286,
+        "damageTotalTimeMs": 304370,
+        "healingTotalTimeMs": 304370,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      }
+    },
+    {
+      "key": "qanx9LQVdPkCmNR6:28:Bylik:tarren-mill:eu",
+      "reportCode": "qanx9LQVdPkCmNR6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-16T17:14:04.886Z",
+      "reportEndedAt": "2026-05-16T20:14:09.646Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/qanx9LQVdPkCmNR6#fight=28",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-16T18:44:16.726Z",
+      "durationMs": 100567,
+      "bossPercentage": 62.65,
+      "fightPercentage": 62.65,
+      "averageItemLevel": 276.20001220703125,
+      "actor": {
+        "id": 9,
+        "name": "Bylik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Mage"
+      },
+      "metric": {
+        "dps": 137200.94,
+        "hps": 4771.36,
+        "primary": 137200.94,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 13797887,
+        "healingTotal": 479841,
+        "damageActiveTimeMs": 79031,
+        "healingActiveTimeMs": 77742,
+        "damageTotalTimeMs": 100567,
+        "healingTotalTimeMs": 100567,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

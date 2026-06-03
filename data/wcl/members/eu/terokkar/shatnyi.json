@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.559Z",
+  "updatedAt": "2026-06-03T02:05:14.243Z",
   "character": {
     "name": "Shatnyi",
     "realmSlug": "terokkar",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 162,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 63.97,
+    "consistencyPercent": 32.19,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 18657.09,
+      "avgHps": 13223.21,
+      "avgPrimary": 18961.95,
       "avgDurationMs": 110060,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 29641.94,
+      "minDps": 9338.36,
+      "maxHps": 23736.84,
+      "minHps": 9542.41,
+      "maxPrimary": 29641.94,
+      "minPrimary": 9542.41,
       "maxDurationMs": 375348,
       "minDurationMs": 56474
     }
@@ -42,6 +42,13 @@
     {
       "key": "HZQ71TFn6q3bCYfG:24:Shatnyi:terokkar:eu",
       "reportCode": "HZQ71TFn6q3bCYfG",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-24T17:13:00.563Z",
+      "reportEndedAt": "2026-05-24T18:59:10.863Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 24,
       "url": "https://www.warcraftlogs.com/reports/HZQ71TFn6q3bCYfG#fight=24",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 73.51,
       "fightPercentage": 73.51,
       "averageItemLevel": 283.20001220703125,
+      "actor": {
+        "id": 11,
+        "name": "Shatnyi",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 22204.71,
+        "hps": 9778.73,
+        "primary": 22204.71,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 4
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1253989,
+        "healingTotal": 552244,
+        "damageActiveTimeMs": 53169,
+        "healingActiveTimeMs": 50733,
+        "damageTotalTimeMs": 56474,
+        "healingTotalTimeMs": 56474,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
       }
     },
     {
       "key": "HZQ71TFn6q3bCYfG:22:Shatnyi:terokkar:eu",
       "reportCode": "HZQ71TFn6q3bCYfG",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-24T17:13:00.563Z",
+      "reportEndedAt": "2026-05-24T18:59:10.863Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 22,
       "url": "https://www.warcraftlogs.com/reports/HZQ71TFn6q3bCYfG#fight=22",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 74.29,
       "fightPercentage": 74.29,
       "averageItemLevel": 283.20001220703125,
+      "actor": {
+        "id": 11,
+        "name": "Shatnyi",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 15168.69,
+        "hps": 16083.27,
+        "primary": 16083.27,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 5
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 904615,
+        "healingTotal": 959158,
+        "damageActiveTimeMs": 53999,
+        "healingActiveTimeMs": 56926,
+        "damageTotalTimeMs": 59637,
+        "healingTotalTimeMs": 59637,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
       }
     },
     {
       "key": "HZQ71TFn6q3bCYfG:21:Shatnyi:terokkar:eu",
       "reportCode": "HZQ71TFn6q3bCYfG",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-24T17:13:00.563Z",
+      "reportEndedAt": "2026-05-24T18:59:10.863Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 21,
       "url": "https://www.warcraftlogs.com/reports/HZQ71TFn6q3bCYfG#fight=21",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 49.48,
       "fightPercentage": 49.48,
       "averageItemLevel": 283.20001220703125,
+      "actor": {
+        "id": 11,
+        "name": "Shatnyi",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 18597.88,
+        "hps": 13807.64,
+        "primary": 18597.88,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 3981211,
+        "healingTotal": 2955774,
+        "damageActiveTimeMs": 194859,
+        "healingActiveTimeMs": 191332,
+        "damageTotalTimeMs": 214068,
+        "healingTotalTimeMs": 214068,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
       }
     },
     {
       "key": "HZQ71TFn6q3bCYfG:19:Shatnyi:terokkar:eu",
       "reportCode": "HZQ71TFn6q3bCYfG",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-24T17:13:00.563Z",
+      "reportEndedAt": "2026-05-24T18:59:10.863Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 19,
       "url": "https://www.warcraftlogs.com/reports/HZQ71TFn6q3bCYfG#fight=19",
       "status": "WIPE",
@@ -144,24 +220,47 @@
       "bossPercentage": 71.23,
       "fightPercentage": 71.23,
       "averageItemLevel": 283.20001220703125,
+      "actor": {
+        "id": 11,
+        "name": "Shatnyi",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 19521.49,
+        "hps": 11462.74,
+        "primary": 19521.49,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 4
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 2061938,
+        "healingTotal": 1210740,
+        "damageActiveTimeMs": 98910,
+        "healingActiveTimeMs": 97364,
+        "damageTotalTimeMs": 105624,
+        "healingTotalTimeMs": 105624,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
       }
     },
     {
       "key": "HZQ71TFn6q3bCYfG:17:Shatnyi:terokkar:eu",
       "reportCode": "HZQ71TFn6q3bCYfG",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-24T17:13:00.563Z",
+      "reportEndedAt": "2026-05-24T18:59:10.863Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 17,
       "url": "https://www.warcraftlogs.com/reports/HZQ71TFn6q3bCYfG#fight=17",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 11.42,
       "fightPercentage": 11.42,
       "averageItemLevel": 283.20001220703125,
+      "actor": {
+        "id": 11,
+        "name": "Shatnyi",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 29250.2,
+        "hps": 20891.86,
+        "primary": 29250.2,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 22
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 10979005,
+        "healingTotal": 7841719,
+        "damageActiveTimeMs": 354347,
+        "healingActiveTimeMs": 346946,
+        "damageTotalTimeMs": 375348,
+        "healingTotalTimeMs": 375348,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
       }
     },
     {
       "key": "HZQ71TFn6q3bCYfG:16:Shatnyi:terokkar:eu",
       "reportCode": "HZQ71TFn6q3bCYfG",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-24T17:13:00.563Z",
+      "reportEndedAt": "2026-05-24T18:59:10.863Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 16,
       "url": "https://www.warcraftlogs.com/reports/HZQ71TFn6q3bCYfG#fight=16",
       "status": "WIPE",
@@ -204,24 +326,47 @@
       "bossPercentage": 39.41,
       "fightPercentage": 39.41,
       "averageItemLevel": 283.29998779296875,
+      "actor": {
+        "id": 11,
+        "name": "Shatnyi",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 21336.17,
+        "hps": 16636.09,
+        "primary": 21336.17,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 22
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 6493108,
+        "healingTotal": 5062761,
+        "damageActiveTimeMs": 290092,
+        "healingActiveTimeMs": 283985,
+        "damageTotalTimeMs": 304324,
+        "healingTotalTimeMs": 304324,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
       }
     },
     {
       "key": "HZQ71TFn6q3bCYfG:15:Shatnyi:terokkar:eu",
       "reportCode": "HZQ71TFn6q3bCYfG",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-24T17:13:00.563Z",
+      "reportEndedAt": "2026-05-24T18:59:10.863Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 15,
       "url": "https://www.warcraftlogs.com/reports/HZQ71TFn6q3bCYfG#fight=15",
       "status": "WIPE",
@@ -234,24 +379,47 @@
       "bossPercentage": 16.17,
       "fightPercentage": 16.17,
       "averageItemLevel": 283.29998779296875,
+      "actor": {
+        "id": 11,
+        "name": "Shatnyi",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 26598.58,
+        "hps": 19005.09,
+        "primary": 26598.58,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 8924915,
+        "healingTotal": 6376987,
+        "damageActiveTimeMs": 321566,
+        "healingActiveTimeMs": 319400,
+        "damageTotalTimeMs": 335541,
+        "healingTotalTimeMs": 335541,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
       }
     },
     {
       "key": "HZQ71TFn6q3bCYfG:14:Shatnyi:terokkar:eu",
       "reportCode": "HZQ71TFn6q3bCYfG",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-24T17:13:00.563Z",
+      "reportEndedAt": "2026-05-24T18:59:10.863Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 14,
       "url": "https://www.warcraftlogs.com/reports/HZQ71TFn6q3bCYfG#fight=14",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 31.05,
       "fightPercentage": 31.05,
       "averageItemLevel": 283.29998779296875,
+      "actor": {
+        "id": 11,
+        "name": "Shatnyi",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 17867.04,
+        "hps": 17347.17,
+        "primary": 17867.04,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 4618879,
+        "healingTotal": 4484487,
+        "damageActiveTimeMs": 253171,
+        "healingActiveTimeMs": 245999,
+        "damageTotalTimeMs": 258514,
+        "healingTotalTimeMs": 258514,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
       }
     },
     {
       "key": "HZQ71TFn6q3bCYfG:13:Shatnyi:terokkar:eu",
       "reportCode": "HZQ71TFn6q3bCYfG",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-24T17:13:00.563Z",
+      "reportEndedAt": "2026-05-24T18:59:10.863Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 13,
       "url": "https://www.warcraftlogs.com/reports/HZQ71TFn6q3bCYfG#fight=13",
       "status": "WIPE",
@@ -294,24 +485,47 @@
       "bossPercentage": 34.25,
       "fightPercentage": 34.25,
       "averageItemLevel": 283.29998779296875,
+      "actor": {
+        "id": 11,
+        "name": "Shatnyi",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 29641.94,
+        "hps": 23736.84,
+        "primary": 29641.94,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 22
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 8232990,
+        "healingTotal": 6592860,
+        "damageActiveTimeMs": 269133,
+        "healingActiveTimeMs": 257887,
+        "damageTotalTimeMs": 277748,
+        "healingTotalTimeMs": 277748,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
       }
     },
     {
       "key": "HZQ71TFn6q3bCYfG:12:Shatnyi:terokkar:eu",
       "reportCode": "HZQ71TFn6q3bCYfG",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-24T17:13:00.563Z",
+      "reportEndedAt": "2026-05-24T18:59:10.863Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 12,
       "url": "https://www.warcraftlogs.com/reports/HZQ71TFn6q3bCYfG#fight=12",
       "status": "WIPE",
@@ -324,19 +538,35 @@
       "bossPercentage": 74.06,
       "fightPercentage": 74.06,
       "averageItemLevel": 283.3500061035156,
+      "actor": {
+        "id": 11,
+        "name": "Shatnyi",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 9338.36,
+        "hps": 9542.41,
+        "primary": 9542.41,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 851322,
+        "healingTotal": 869924,
+        "damageActiveTimeMs": 67826,
+        "healingActiveTimeMs": 65330,
+        "damageTotalTimeMs": 91164,
+        "healingTotalTimeMs": 91164,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
       }
     }
   ],

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.248Z",
   "character": {
     "name": "Нежнаяпулька",
     "realmSlug": "eversong",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 10,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 10,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 207,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 70.67,
+    "consistencyPercent": 54.49,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 42691.44,
+      "avgHps": 1457.63,
+      "avgPrimary": 42691.44,
+      "avgDurationMs": 173128,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 60408.17,
+      "minDps": 32918.04,
+      "maxHps": 4579.37,
+      "minHps": 877.97,
+      "maxPrimary": 60408.17,
+      "minPrimary": 32918.04,
+      "maxDurationMs": 244303,
+      "minDurationMs": 113961
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:10:Нежнаяпулька:eversong:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=10",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T19:03:40.900Z",
+      "durationMs": 232451,
+      "bossPercentage": 30.92,
+      "fightPercentage": 43.14,
+      "averageItemLevel": 276.75,
+      "actor": {
+        "id": 7,
+        "name": "Нежнаяпулька",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 42035.68,
+        "hps": 2115.52,
+        "primary": 42035.68,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 9771235,
+        "healingTotal": 491755,
+        "damageActiveTimeMs": 200428,
+        "healingActiveTimeMs": 173338,
+        "damageTotalTimeMs": 232451,
+        "healingTotalTimeMs": 232451,
+        "damageEntryId": 7,
+        "healingEntryId": 7,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:7,healing:actor-id:7"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:9:Нежнаяпулька:eversong:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=9",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:56:07.273Z",
+      "durationMs": 143652,
+      "bossPercentage": 88.91,
+      "fightPercentage": 55.69,
+      "averageItemLevel": 276.6000061035156,
+      "actor": {
+        "id": 7,
+        "name": "Нежнаяпулька",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 53120.59,
+        "hps": 1379.4,
+        "primary": 53120.59,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 7630879,
+        "healingTotal": 198153,
+        "damageActiveTimeMs": 129761,
+        "healingActiveTimeMs": 114248,
+        "damageTotalTimeMs": 143652,
+        "healingTotalTimeMs": 143652,
+        "damageEntryId": 7,
+        "healingEntryId": 7,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:7,healing:actor-id:7"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:8:Нежнаяпулька:eversong:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=8",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:46:39.836Z",
+      "durationMs": 143282,
+      "bossPercentage": 98.29,
+      "fightPercentage": 69.18,
+      "averageItemLevel": 276.5,
+      "actor": {
+        "id": 7,
+        "name": "Нежнаяпулька",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 32918.04,
+        "hps": 877.97,
+        "primary": 32918.04,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 4716562,
+        "healingTotal": 125797,
+        "damageActiveTimeMs": 97132,
+        "healingActiveTimeMs": 92372,
+        "damageTotalTimeMs": 143282,
+        "healingTotalTimeMs": 143282,
+        "damageEntryId": 7,
+        "healingEntryId": 7,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:7,healing:actor-id:7"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:7:Нежнаяпулька:eversong:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=7",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:32:57.015Z",
+      "durationMs": 189878,
+      "bossPercentage": 43.19,
+      "fightPercentage": 49.44,
+      "averageItemLevel": 276.3500061035156,
+      "actor": {
+        "id": 7,
+        "name": "Нежнаяпулька",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 55839.76,
+        "hps": 1971.45,
+        "primary": 55839.76,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 10602741,
+        "healingTotal": 374335,
+        "damageActiveTimeMs": 178967,
+        "healingActiveTimeMs": 163569,
+        "damageTotalTimeMs": 189878,
+        "healingTotalTimeMs": 189878,
+        "damageEntryId": 7,
+        "healingEntryId": 7,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:7,healing:actor-id:7"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:6:Нежнаяпулька:eversong:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=6",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:11:01.871Z",
+      "durationMs": 244303,
+      "bossPercentage": 35.54,
+      "fightPercentage": 49.6,
+      "averageItemLevel": 275.8999938964844,
+      "actor": {
+        "id": 7,
+        "name": "Нежнаяпулька",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 60408.17,
+        "hps": 4017.7,
+        "primary": 60408.17,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 14757896,
+        "healingTotal": 981537,
+        "damageActiveTimeMs": 243075,
+        "healingActiveTimeMs": 240151,
+        "damageTotalTimeMs": 244303,
+        "healingTotalTimeMs": 244303,
+        "damageEntryId": 7,
+        "healingEntryId": 7,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:7,healing:actor-id:7"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:5:Нежнаяпулька:eversong:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 5,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=5",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:01:11.801Z",
+      "durationMs": 234430,
+      "bossPercentage": 34.67,
+      "fightPercentage": 53.51,
+      "averageItemLevel": 276.5,
+      "actor": {
+        "id": 7,
+        "name": "Нежнаяпулька",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 49177.74,
+        "hps": 3055.91,
+        "primary": 49177.74,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 11528737,
+        "healingTotal": 716396,
+        "damageActiveTimeMs": 232758,
+        "healingActiveTimeMs": 216594,
+        "damageTotalTimeMs": 234430,
+        "healingTotalTimeMs": 234430,
+        "damageEntryId": 7,
+        "healingEntryId": 7,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:7,healing:actor-id:7"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:4:Нежнаяпулька:eversong:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 4,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=4",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T17:54:15.765Z",
+      "durationMs": 228820,
+      "bossPercentage": 36.35,
+      "fightPercentage": 45.01,
+      "averageItemLevel": 276.5,
+      "actor": {
+        "id": 7,
+        "name": "Нежнаяпулька",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 43774.72,
+        "hps": 2093.84,
+        "primary": 43774.72,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 10016532,
+        "healingTotal": 479112,
+        "damageActiveTimeMs": 192770,
+        "healingActiveTimeMs": 185427,
+        "damageTotalTimeMs": 228820,
+        "healingTotalTimeMs": 228820,
+        "damageEntryId": 7,
+        "healingEntryId": 7,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:7,healing:actor-id:7"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:3:Нежнаяпулька:eversong:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 3,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=3",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T17:49:13.867Z",
+      "durationMs": 113961,
+      "bossPercentage": 99.91,
+      "fightPercentage": 99.91,
+      "averageItemLevel": 276.5,
+      "actor": {
+        "id": 7,
+        "name": "Нежнаяпулька",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 53000.31,
+        "hps": 1309.86,
+        "primary": 53000.31,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 6039968,
+        "healingTotal": 149273,
+        "damageActiveTimeMs": 112441,
+        "healingActiveTimeMs": 104894,
+        "damageTotalTimeMs": 113961,
+        "healingTotalTimeMs": 113961,
+        "damageEntryId": 7,
+        "healingEntryId": 7,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:7,healing:actor-id:7"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:2:Нежнаяпулька:eversong:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 2,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=2",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T17:43:11.619Z",
+      "durationMs": 167453,
+      "bossPercentage": 66.99,
+      "fightPercentage": 53.38,
+      "averageItemLevel": 276.3999938964844,
+      "actor": {
+        "id": 7,
+        "name": "Нежнаяпулька",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 33563.04,
+        "hps": 2189.08,
+        "primary": 33563.04,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 5620232,
+        "healingTotal": 366568,
+        "damageActiveTimeMs": 126379,
+        "healingActiveTimeMs": 110089,
+        "damageTotalTimeMs": 167453,
+        "healingTotalTimeMs": 167453,
+        "damageEntryId": 7,
+        "healingEntryId": 7,
+        "damageItemLevel": 273,
+        "healingItemLevel": 273,
+        "matchedBy": "damage:actor-id:7,healing:actor-id:7"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:30:Нежнаяпулька:eversong:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=30",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T19:58:22.554Z",
+      "durationMs": 142619,
+      "bossPercentage": 67.34,
+      "fightPercentage": 67.34,
+      "averageItemLevel": 274.54998779296875,
+      "actor": {
+        "id": 4,
+        "name": "Нежнаяпулька",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 54031.33,
+        "hps": 4579.37,
+        "primary": 54031.33,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 7705894,
+        "healingTotal": 653105,
+        "damageActiveTimeMs": 120167,
+        "healingActiveTimeMs": 86612,
+        "damageTotalTimeMs": 142619,
+        "healingTotalTimeMs": 142619,
+        "damageEntryId": 4,
+        "healingEntryId": 4,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:4,healing:actor-id:4"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

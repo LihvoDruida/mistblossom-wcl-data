@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.249Z",
   "character": {
     "name": "Пизнайка",
     "realmSlug": "gordunni",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 10,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 10,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 205,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 89.17,
+    "consistencyPercent": 15.23,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 58962.88,
+      "avgHps": 8074.24,
+      "avgPrimary": 58962.88,
+      "avgDurationMs": 209015,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 66121.49,
+      "minDps": 10073.34,
+      "maxHps": 10471.44,
+      "minHps": 1184.25,
+      "maxPrimary": 66121.49,
+      "minPrimary": 10073.34,
+      "maxDurationMs": 220822,
+      "minDurationMs": 61569
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "jy63H8ZCtfJaG29g:16:Пизнайка:gordunni:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=16",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:59:09.146Z",
+      "durationMs": 192659,
+      "bossPercentage": 75.12,
+      "fightPercentage": 47.85,
+      "averageItemLevel": 271.6000061035156,
+      "actor": {
+        "id": 66,
+        "name": "Пизнайка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 60203.05,
+        "hps": 4410.77,
+        "primary": 60203.05,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 11598659,
+        "healingTotal": 849774,
+        "damageActiveTimeMs": 186483,
+        "healingActiveTimeMs": 169640,
+        "damageTotalTimeMs": 192659,
+        "healingTotalTimeMs": 192659,
+        "damageEntryId": 66,
+        "healingEntryId": 66,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:15:Пизнайка:gordunni:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=15",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:48:48.089Z",
+      "durationMs": 220822,
+      "bossPercentage": 56.39,
+      "fightPercentage": 40.36,
+      "averageItemLevel": 272.1499938964844,
+      "actor": {
+        "id": 66,
+        "name": "Пизнайка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 66121.49,
+        "hps": 9733.18,
+        "primary": 66121.49,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 14601079,
+        "healingTotal": 2149300,
+        "damageActiveTimeMs": 203643,
+        "healingActiveTimeMs": 181331,
+        "damageTotalTimeMs": 220822,
+        "healingTotalTimeMs": 220822,
+        "damageEntryId": 66,
+        "healingEntryId": 66,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:14:Пизнайка:gordunni:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=14",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:42:49.489Z",
+      "durationMs": 213563,
+      "bossPercentage": 45.18,
+      "fightPercentage": 45.09,
+      "averageItemLevel": 272.1499938964844,
+      "actor": {
+        "id": 66,
+        "name": "Пизнайка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 50564.11,
+        "hps": 10078.76,
+        "primary": 50564.11,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 10798622,
+        "healingTotal": 2152451,
+        "damageActiveTimeMs": 169060,
+        "healingActiveTimeMs": 157280,
+        "damageTotalTimeMs": 213563,
+        "healingTotalTimeMs": 213563,
+        "damageEntryId": 66,
+        "healingEntryId": 66,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:13:Пизнайка:gordunni:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=13",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:34:09.192Z",
+      "durationMs": 202137,
+      "bossPercentage": 68.29,
+      "fightPercentage": 37.52,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 66,
+        "name": "Пизнайка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 63347.98,
+        "hps": 10471.44,
+        "primary": 63347.98,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 12804971,
+        "healingTotal": 2116666,
+        "damageActiveTimeMs": 201063,
+        "healingActiveTimeMs": 175243,
+        "damageTotalTimeMs": 202137,
+        "healingTotalTimeMs": 202137,
+        "damageEntryId": 66,
+        "healingEntryId": 66,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:12:Пизнайка:gordunni:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=12",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:29:10.621Z",
+      "durationMs": 80582,
+      "bossPercentage": 27.39,
+      "fightPercentage": 100,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 66,
+        "name": "Пизнайка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 31587.8,
+        "hps": 2314.71,
+        "primary": 31587.8,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2545408,
+        "healingTotal": 186524,
+        "damageActiveTimeMs": 64372,
+        "healingActiveTimeMs": 50345,
+        "damageTotalTimeMs": 80582,
+        "healingTotalTimeMs": 80582,
+        "damageEntryId": 66,
+        "healingEntryId": 66,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:11:Пизнайка:gordunni:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=11",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:22:54.415Z",
+      "durationMs": 195303,
+      "bossPercentage": 68.86,
+      "fightPercentage": 56.7,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 66,
+        "name": "Пизнайка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 59400.19,
+        "hps": 5906.03,
+        "primary": 59400.19,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 11601036,
+        "healingTotal": 1153466,
+        "damageActiveTimeMs": 190167,
+        "healingActiveTimeMs": 173833,
+        "damageTotalTimeMs": 195303,
+        "healingTotalTimeMs": 195303,
+        "damageEntryId": 66,
+        "healingEntryId": 66,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:10:Пизнайка:gordunni:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=10",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:14:00.204Z",
+      "durationMs": 168958,
+      "bossPercentage": 96.96,
+      "fightPercentage": 70.44,
+      "averageItemLevel": 271.8999938964844,
+      "actor": {
+        "id": 66,
+        "name": "Пизнайка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 10073.34,
+        "hps": 1184.25,
+        "primary": 10073.34,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 1701971,
+        "healingTotal": 200088,
+        "damageActiveTimeMs": 41765,
+        "healingActiveTimeMs": 21852,
+        "damageTotalTimeMs": 168958,
+        "healingTotalTimeMs": 168958,
+        "damageEntryId": 66,
+        "healingEntryId": 66,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:9:Пизнайка:gordunni:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=9",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:10:10.861Z",
+      "durationMs": 68223,
+      "bossPercentage": 40.06,
+      "fightPercentage": 100,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 66,
+        "name": "Пизнайка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 42743.9,
+        "hps": 3679.08,
+        "primary": 42743.9,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2916117,
+        "healingTotal": 250998,
+        "damageActiveTimeMs": 67006,
+        "healingActiveTimeMs": 49794,
+        "damageTotalTimeMs": 68223,
+        "healingTotalTimeMs": 68223,
+        "damageEntryId": 66,
+        "healingEntryId": 66,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:8:Пизнайка:gordunni:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=8",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T18:03:30.770Z",
+      "durationMs": 190127,
+      "bossPercentage": 62.87,
+      "fightPercentage": 45.83,
+      "averageItemLevel": 272,
+      "actor": {
+        "id": 66,
+        "name": "Пизнайка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 57454.05,
+        "hps": 9991.22,
+        "primary": 57454.05,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 10923567,
+        "healingTotal": 1899600,
+        "damageActiveTimeMs": 180523,
+        "healingActiveTimeMs": 164963,
+        "damageTotalTimeMs": 190127,
+        "healingTotalTimeMs": 190127,
+        "damageEntryId": 66,
+        "healingEntryId": 66,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      }
+    },
+    {
+      "key": "jy63H8ZCtfJaG29g:7:Пизнайка:gordunni:eu",
+      "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=7",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-18T17:59:18.217Z",
+      "durationMs": 61569,
+      "bossPercentage": 38.14,
+      "fightPercentage": 100,
+      "averageItemLevel": 271.70001220703125,
+      "actor": {
+        "id": 66,
+        "name": "Пизнайка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "metric": {
+        "dps": 55420.42,
+        "hps": 2529.8,
+        "primary": 55420.42,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 3412180,
+        "healingTotal": 155757,
+        "damageActiveTimeMs": 60026,
+        "healingActiveTimeMs": 48614,
+        "damageTotalTimeMs": 61569,
+        "healingTotalTimeMs": 61569,
+        "damageEntryId": 66,
+        "healingEntryId": 66,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

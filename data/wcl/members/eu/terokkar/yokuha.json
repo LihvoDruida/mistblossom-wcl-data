@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.561Z",
+  "updatedAt": "2026-06-03T02:05:14.246Z",
   "character": {
     "name": "Yokuha",
     "realmSlug": "terokkar",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 205,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 53.1,
+    "consistencyPercent": 12.03,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 24326.98,
+      "avgHps": 4075.54,
+      "avgPrimary": 24326.98,
       "avgDurationMs": 209015,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 45811.35,
+      "minDps": 5512.57,
+      "maxHps": 8195.37,
+      "minHps": 1129.25,
+      "maxPrimary": 45811.35,
+      "minPrimary": 5512.57,
       "maxDurationMs": 220822,
       "minDurationMs": 61569
     }
@@ -42,6 +42,13 @@
     {
       "key": "jy63H8ZCtfJaG29g:16:Yokuha:terokkar:eu",
       "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 16,
       "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=16",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 75.12,
       "fightPercentage": 47.85,
       "averageItemLevel": 271.6000061035156,
+      "actor": {
+        "id": 16,
+        "name": "Yokuha",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 5512.57,
+        "hps": 1129.25,
+        "primary": 5512.57,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1062046,
+        "healingTotal": 217561,
+        "damageActiveTimeMs": 25250,
+        "healingActiveTimeMs": 21440,
+        "damageTotalTimeMs": 192659,
+        "healingTotalTimeMs": 192659,
+        "damageEntryId": 16,
+        "healingEntryId": 16,
+        "damageItemLevel": 262,
+        "healingItemLevel": 262,
+        "matchedBy": "damage:actor-id:16,healing:actor-id:16"
       }
     },
     {
       "key": "jy63H8ZCtfJaG29g:15:Yokuha:terokkar:eu",
       "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 15,
       "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=15",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 56.39,
       "fightPercentage": 40.36,
       "averageItemLevel": 272.1499938964844,
+      "actor": {
+        "id": 16,
+        "name": "Yokuha",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 45811.35,
+        "hps": 6979.93,
+        "primary": 45811.35,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 10116154,
+        "healingTotal": 1541322,
+        "damageActiveTimeMs": 201855,
+        "healingActiveTimeMs": 194950,
+        "damageTotalTimeMs": 220822,
+        "healingTotalTimeMs": 220822,
+        "damageEntryId": 16,
+        "healingEntryId": 16,
+        "damageItemLevel": 262,
+        "healingItemLevel": 262,
+        "matchedBy": "damage:actor-id:16,healing:actor-id:16"
       }
     },
     {
       "key": "jy63H8ZCtfJaG29g:14:Yokuha:terokkar:eu",
       "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 14,
       "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=14",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 45.18,
       "fightPercentage": 45.09,
       "averageItemLevel": 272.1499938964844,
+      "actor": {
+        "id": 16,
+        "name": "Yokuha",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 21657.03,
+        "hps": 4117.45,
+        "primary": 21657.03,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 4625140,
+        "healingTotal": 879334,
+        "damageActiveTimeMs": 124618,
+        "healingActiveTimeMs": 117391,
+        "damageTotalTimeMs": 213563,
+        "healingTotalTimeMs": 213563,
+        "damageEntryId": 16,
+        "healingEntryId": 16,
+        "damageItemLevel": 262,
+        "healingItemLevel": 262,
+        "matchedBy": "damage:actor-id:16,healing:actor-id:16"
       }
     },
     {
       "key": "jy63H8ZCtfJaG29g:13:Yokuha:terokkar:eu",
       "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 13,
       "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=13",
       "status": "WIPE",
@@ -144,24 +220,47 @@
       "bossPercentage": 68.29,
       "fightPercentage": 37.52,
       "averageItemLevel": 272,
+      "actor": {
+        "id": 16,
+        "name": "Yokuha",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 36588.67,
+        "hps": 3115.39,
+        "primary": 36588.67,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7395924,
+        "healingTotal": 629736,
+        "damageActiveTimeMs": 148910,
+        "healingActiveTimeMs": 143200,
+        "damageTotalTimeMs": 202137,
+        "healingTotalTimeMs": 202137,
+        "damageEntryId": 16,
+        "healingEntryId": 16,
+        "damageItemLevel": 262,
+        "healingItemLevel": 262,
+        "matchedBy": "damage:actor-id:16,healing:actor-id:16"
       }
     },
     {
       "key": "jy63H8ZCtfJaG29g:12:Yokuha:terokkar:eu",
       "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 12,
       "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=12",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 27.39,
       "fightPercentage": 100,
       "averageItemLevel": 272,
+      "actor": {
+        "id": 16,
+        "name": "Yokuha",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 39310.22,
+        "hps": 4279.93,
+        "primary": 39310.22,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 3167696,
+        "healingTotal": 344885,
+        "damageActiveTimeMs": 59753,
+        "healingActiveTimeMs": 54635,
+        "damageTotalTimeMs": 80582,
+        "healingTotalTimeMs": 80582,
+        "damageEntryId": 16,
+        "healingEntryId": 16,
+        "damageItemLevel": 262,
+        "healingItemLevel": 262,
+        "matchedBy": "damage:actor-id:16,healing:actor-id:16"
       }
     },
     {
       "key": "jy63H8ZCtfJaG29g:11:Yokuha:terokkar:eu",
       "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 11,
       "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=11",
       "status": "WIPE",
@@ -204,24 +326,47 @@
       "bossPercentage": 68.86,
       "fightPercentage": 56.7,
       "averageItemLevel": 272,
+      "actor": {
+        "id": 16,
+        "name": "Yokuha",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 30926.48,
+        "hps": 4884.02,
+        "primary": 30926.48,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 6040035,
+        "healingTotal": 953863,
+        "damageActiveTimeMs": 141830,
+        "healingActiveTimeMs": 135461,
+        "damageTotalTimeMs": 195303,
+        "healingTotalTimeMs": 195303,
+        "damageEntryId": 16,
+        "healingEntryId": 16,
+        "damageItemLevel": 262,
+        "healingItemLevel": 262,
+        "matchedBy": "damage:actor-id:16,healing:actor-id:16"
       }
     },
     {
       "key": "jy63H8ZCtfJaG29g:10:Yokuha:terokkar:eu",
       "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 10,
       "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=10",
       "status": "WIPE",
@@ -234,24 +379,47 @@
       "bossPercentage": 96.96,
       "fightPercentage": 70.44,
       "averageItemLevel": 271.8999938964844,
+      "actor": {
+        "id": 16,
+        "name": "Yokuha",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 33704.49,
+        "hps": 5696.18,
+        "primary": 33704.49,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 5694644,
+        "healingTotal": 962416,
+        "damageActiveTimeMs": 145562,
+        "healingActiveTimeMs": 130541,
+        "damageTotalTimeMs": 168958,
+        "healingTotalTimeMs": 168958,
+        "damageEntryId": 16,
+        "healingEntryId": 16,
+        "damageItemLevel": 262,
+        "healingItemLevel": 262,
+        "matchedBy": "damage:actor-id:16,healing:actor-id:16"
       }
     },
     {
       "key": "jy63H8ZCtfJaG29g:9:Yokuha:terokkar:eu",
       "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 9,
       "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=9",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 40.06,
       "fightPercentage": 100,
       "averageItemLevel": 272,
+      "actor": {
+        "id": 16,
+        "name": "Yokuha",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 24565.45,
+        "hps": 5735.91,
+        "primary": 24565.45,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1675929,
+        "healingTotal": 391321,
+        "damageActiveTimeMs": 65806,
+        "healingActiveTimeMs": 50049,
+        "damageTotalTimeMs": 68223,
+        "healingTotalTimeMs": 68223,
+        "damageEntryId": 16,
+        "healingEntryId": 16,
+        "damageItemLevel": 262,
+        "healingItemLevel": 262,
+        "matchedBy": "damage:actor-id:16,healing:actor-id:16"
       }
     },
     {
       "key": "jy63H8ZCtfJaG29g:8:Yokuha:terokkar:eu",
       "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 8,
       "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=8",
       "status": "WIPE",
@@ -294,24 +485,47 @@
       "bossPercentage": 62.87,
       "fightPercentage": 45.83,
       "averageItemLevel": 272,
+      "actor": {
+        "id": 16,
+        "name": "Yokuha",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 38263.18,
+        "hps": 8195.37,
+        "primary": 38263.18,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7274863,
+        "healingTotal": 1558161,
+        "damageActiveTimeMs": 187760,
+        "healingActiveTimeMs": 165878,
+        "damageTotalTimeMs": 190127,
+        "healingTotalTimeMs": 190127,
+        "damageEntryId": 16,
+        "healingEntryId": 16,
+        "damageItemLevel": 262,
+        "healingItemLevel": 262,
+        "matchedBy": "damage:actor-id:16,healing:actor-id:16"
       }
     },
     {
       "key": "jy63H8ZCtfJaG29g:7:Yokuha:terokkar:eu",
       "reportCode": "jy63H8ZCtfJaG29g",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-18T17:26:49.724Z",
+      "reportEndedAt": "2026-04-18T19:02:52.776Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 7,
       "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=7",
       "status": "WIPE",
@@ -324,19 +538,35 @@
       "bossPercentage": 38.14,
       "fightPercentage": 100,
       "averageItemLevel": 271.70001220703125,
+      "actor": {
+        "id": 16,
+        "name": "Yokuha",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 21000.86,
+        "hps": 4192.84,
+        "primary": 21000.86,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1293002,
+        "healingTotal": 258149,
+        "damageActiveTimeMs": 59592,
+        "healingActiveTimeMs": 23056,
+        "damageTotalTimeMs": 61569,
+        "healingTotalTimeMs": 61569,
+        "damageEntryId": 16,
+        "healingEntryId": 16,
+        "damageItemLevel": 262,
+        "healingItemLevel": 262,
+        "matchedBy": "damage:actor-id:16,healing:actor-id:16"
       }
     }
   ],

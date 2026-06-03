@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.249Z",
   "character": {
     "name": "Галазард",
     "realmSlug": "eversong",
@@ -10,35 +10,298 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 5,
+    "kills": 1,
+    "wipes": 4,
+    "killRate": 0.2,
+    "wipeRate": 0.8,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 77,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 57,
+    "consistencyPercent": 16.83,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 13988.16,
+      "avgHps": 3240.33,
+      "avgPrimary": 15515.61,
+      "avgDurationMs": 84914,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 27220.02,
+      "minDps": 19849.14,
+      "maxHps": 4582.35,
+      "minHps": 1687.52,
+      "maxPrimary": 27220.02,
+      "minPrimary": 4582.35,
+      "maxDurationMs": 317297,
+      "minDurationMs": 29005
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "DxwhgLPZYBW1nAH6:13:Галазард:eversong:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=13",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:20:38.878Z",
+      "durationMs": 116958,
+      "bossPercentage": 70.35,
+      "fightPercentage": 70.35,
+      "averageItemLevel": 271.54998779296875,
+      "actor": {
+        "id": 3,
+        "name": "Галазард",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 19849.14,
+        "hps": 1687.52,
+        "primary": 19849.14,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2321516,
+        "healingTotal": 197369,
+        "damageActiveTimeMs": 75344,
+        "healingActiveTimeMs": 54040,
+        "damageTotalTimeMs": 116958,
+        "healingTotalTimeMs": 116958,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:12:Галазард:eversong:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=12",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:16:03.478Z",
+      "durationMs": 108779,
+      "bossPercentage": 66.31,
+      "fightPercentage": 66.31,
+      "averageItemLevel": 271.20001220703125,
+      "actor": {
+        "id": 3,
+        "name": "Галазард",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 22115.34,
+        "hps": 3451.13,
+        "primary": 22115.34,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2405685,
+        "healingTotal": 375410,
+        "damageActiveTimeMs": 106304,
+        "healingActiveTimeMs": 71012,
+        "damageTotalTimeMs": 108779,
+        "healingTotalTimeMs": 108779,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:11:Галазард:eversong:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=11",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:13:15.631Z",
+      "durationMs": 29005,
+      "bossPercentage": 98.44,
+      "fightPercentage": 98.44,
+      "averageItemLevel": 271.20001220703125,
+      "actor": {
+        "id": 3,
+        "name": "Галазард",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 4582.35,
+        "primary": 4582.35,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 132911,
+        "healingActiveTimeMs": 0,
+        "damageTotalTimeMs": 29005,
+        "healingTotalTimeMs": 29005,
+        "healingEntryId": 3,
+        "healingItemLevel": 270,
+        "matchedBy": "healing:actor-id:3"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:6:Галазард:eversong:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=6",
+      "status": "KILL",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:01:25.153Z",
+      "durationMs": 317297,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 271.20001220703125,
+      "actor": {
+        "id": 3,
+        "name": "Галазард",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 24731.82,
+        "hps": 3154.63,
+        "primary": 24731.82,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 1
+      },
+      "source": {
+        "damageTotal": 7847332,
+        "healingTotal": 1000954,
+        "damageActiveTimeMs": 316295,
+        "healingActiveTimeMs": 310273,
+        "damageTotalTimeMs": 317297,
+        "healingTotalTimeMs": 317297,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:5:Галазард:eversong:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 5,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=5",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T17:55:42.108Z",
+      "durationMs": 125722,
+      "bossPercentage": 46.63,
+      "fightPercentage": 46.63,
+      "averageItemLevel": 271.6499938964844,
+      "actor": {
+        "id": 3,
+        "name": "Галазард",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 27220.02,
+        "hps": 3476.8,
+        "primary": 27220.02,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 3422155,
+        "healingTotal": 437110,
+        "damageActiveTimeMs": 123920,
+        "healingActiveTimeMs": 112293,
+        "damageTotalTimeMs": 125722,
+        "healingTotalTimeMs": 125722,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

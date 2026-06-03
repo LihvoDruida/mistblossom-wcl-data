@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.559Z",
+  "updatedAt": "2026-06-03T02:05:14.243Z",
   "character": {
     "name": "Rozbiynik",
     "realmSlug": "tarren-mill",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 10,
+    "kills": 1,
+    "wipes": 9,
+    "killRate": 0.1,
+    "wipeRate": 0.9,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 186,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 42.95,
+    "consistencyPercent": 37.76,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 80947.27,
+      "avgHps": 7648.8,
+      "avgPrimary": 80947.27,
+      "avgDurationMs": 213419,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 188469.8,
+      "minDps": 71170.17,
+      "maxHps": 16738.4,
+      "minHps": 7462.06,
+      "maxPrimary": 188469.8,
+      "minPrimary": 71170.17,
+      "maxDurationMs": 335868,
+      "minDurationMs": 50176
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "8dAPQCWGNMLBjrRg:32:Rozbiynik:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T20:06:06.764Z",
+      "durationMs": 215983,
+      "bossPercentage": 57.68,
+      "fightPercentage": 57.68,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 107,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 84490.55,
+        "hps": 7462.06,
+        "primary": 84490.55,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 18248522,
+        "healingTotal": 1611678,
+        "damageActiveTimeMs": 168715,
+        "healingActiveTimeMs": 197777,
+        "damageTotalTimeMs": 215983,
+        "healingTotalTimeMs": 215983,
+        "damageEntryId": 107,
+        "healingEntryId": 107,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:31:Rozbiynik:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 31,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T20:00:37.917Z",
+      "durationMs": 226446,
+      "bossPercentage": 57.65,
+      "fightPercentage": 57.65,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 107,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 71170.17,
+        "hps": 7918.15,
+        "primary": 71170.17,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 16116201,
+        "healingTotal": 1793034,
+        "damageActiveTimeMs": 151090,
+        "healingActiveTimeMs": 191349,
+        "damageTotalTimeMs": 226446,
+        "healingTotalTimeMs": 226446,
+        "damageEntryId": 107,
+        "healingEntryId": 107,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:30:Rozbiynik:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:54:58.059Z",
+      "durationMs": 197829,
+      "bossPercentage": 58.27,
+      "fightPercentage": 58.27,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 107,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 87181.1,
+        "hps": 7566.19,
+        "primary": 87181.1,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 17246950,
+        "healingTotal": 1496812,
+        "damageActiveTimeMs": 151606,
+        "healingActiveTimeMs": 195747,
+        "damageTotalTimeMs": 197829,
+        "healingTotalTimeMs": 197829,
+        "damageEntryId": 107,
+        "healingEntryId": 107,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:29:Rozbiynik:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 29,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:48:53.946Z",
+      "durationMs": 222158,
+      "bossPercentage": 56.82,
+      "fightPercentage": 56.82,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 107,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 87890.54,
+        "hps": 9014.56,
+        "primary": 87890.54,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 19525586,
+        "healingTotal": 2002656,
+        "damageActiveTimeMs": 177112,
+        "healingActiveTimeMs": 211982,
+        "damageTotalTimeMs": 222158,
+        "healingTotalTimeMs": 222158,
+        "damageEntryId": 107,
+        "healingEntryId": 107,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:28:Rozbiynik:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:38:12.252Z",
+      "durationMs": 209169,
+      "bossPercentage": 58.86,
+      "fightPercentage": 58.86,
+      "averageItemLevel": 284.75,
+      "actor": {
+        "id": 107,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 87092.17,
+        "hps": 9640.61,
+        "primary": 87092.17,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 18216982,
+        "healingTotal": 2016516,
+        "damageActiveTimeMs": 184057,
+        "healingActiveTimeMs": 206354,
+        "damageTotalTimeMs": 209169,
+        "healingTotalTimeMs": 209169,
+        "damageEntryId": 107,
+        "healingEntryId": 107,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:27:Rozbiynik:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:29:44.846Z",
+      "durationMs": 169519,
+      "bossPercentage": 62.33,
+      "fightPercentage": 62.33,
+      "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 107,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 94107.39,
+        "hps": 7648,
+        "primary": 94107.39,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 15952990,
+        "healingTotal": 1296482,
+        "damageActiveTimeMs": 119870,
+        "healingActiveTimeMs": 131009,
+        "damageTotalTimeMs": 169519,
+        "healingTotalTimeMs": 169519,
+        "damageEntryId": 107,
+        "healingEntryId": 107,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:26:Rozbiynik:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:27:07.695Z",
+      "durationMs": 50885,
+      "bossPercentage": 80.53,
+      "fightPercentage": 80.53,
+      "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 107,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 188469.8,
+        "hps": 14638.05,
+        "primary": 188469.8,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 9590286,
+        "healingTotal": 744857,
+        "damageActiveTimeMs": 46731,
+        "healingActiveTimeMs": 47716,
+        "damageTotalTimeMs": 50885,
+        "healingTotalTimeMs": 50885,
+        "damageEntryId": 107,
+        "healingEntryId": 107,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:25:Rozbiynik:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:23:53.731Z",
+      "durationMs": 50176,
+      "bossPercentage": 79.76,
+      "fightPercentage": 79.76,
+      "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 107,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 171395.57,
+        "hps": 16738.4,
+        "primary": 171395.57,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8599944,
+        "healingTotal": 839866,
+        "damageActiveTimeMs": 46828,
+        "healingActiveTimeMs": 47687,
+        "damageTotalTimeMs": 50176,
+        "healingTotalTimeMs": 50176,
+        "damageEntryId": 107,
+        "healingEntryId": 107,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:21:Rozbiynik:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T19:04:24.189Z",
+      "durationMs": 335868,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 107,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 112439.94,
+        "hps": 8117.89,
+        "primary": 112439.94,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 3
+      },
+      "source": {
+        "damageTotal": 37764979,
+        "healingTotal": 2726540,
+        "damageActiveTimeMs": 334691,
+        "healingActiveTimeMs": 334461,
+        "damageTotalTimeMs": 335868,
+        "healingTotalTimeMs": 335868,
+        "damageEntryId": 107,
+        "healingEntryId": 107,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:20:Rozbiynik:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T18:57:55.893Z",
+      "durationMs": 285958,
+      "bossPercentage": 27.56,
+      "fightPercentage": 27.56,
+      "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 107,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "metric": {
+        "dps": 99531.79,
+        "hps": 9506.49,
+        "primary": 99531.79,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 28461913,
+        "healingTotal": 2718457,
+        "damageActiveTimeMs": 280700,
+        "healingActiveTimeMs": 281122,
+        "damageTotalTimeMs": 285958,
+        "healingTotalTimeMs": 285958,
+        "damageEntryId": 107,
+        "healingEntryId": 107,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

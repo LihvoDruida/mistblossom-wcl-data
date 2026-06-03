@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.559Z",
+  "updatedAt": "2026-06-03T02:05:14.244Z",
   "character": {
     "name": "Zanzithor",
     "realmSlug": "tarren-mill",
@@ -10,35 +10,563 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 10,
+    "kills": 1,
+    "wipes": 9,
+    "killRate": 0.1,
+    "wipeRate": 0.9,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 168,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 61.96,
+    "consistencyPercent": 4.25,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 68240.01,
+      "avgHps": 4298.09,
+      "avgPrimary": 68240.01,
+      "avgDurationMs": 196310,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 110139.47,
+      "minDps": 61549.69,
+      "maxHps": 7854.54,
+      "minHps": 2421.74,
+      "maxPrimary": 110139.47,
+      "minPrimary": 4677.47,
+      "maxDurationMs": 396225,
+      "minDurationMs": 22615
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "8dAPQCWGNMLBjrRg:18:Zanzithor:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=18",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T18:27:30.004Z",
+      "durationMs": 236589,
+      "bossPercentage": 39.83,
+      "fightPercentage": 39.83,
+      "averageItemLevel": 284.29998779296875,
+      "actor": {
+        "id": 182,
+        "name": "Zanzithor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 79597.52,
+        "hps": 5913.84,
+        "primary": 79597.52,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 18831898,
+        "healingTotal": 1399150,
+        "damageActiveTimeMs": 218500,
+        "healingActiveTimeMs": 219278,
+        "damageTotalTimeMs": 236589,
+        "healingTotalTimeMs": 236589,
+        "damageEntryId": 182,
+        "healingEntryId": 182,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:182,healing:actor-id:182"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:17:Zanzithor:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=17",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T18:21:23.578Z",
+      "durationMs": 235959,
+      "bossPercentage": 37.89,
+      "fightPercentage": 37.89,
+      "averageItemLevel": 284.29998779296875,
+      "actor": {
+        "id": 182,
+        "name": "Zanzithor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 63572.82,
+        "hps": 4558.7,
+        "primary": 63572.82,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 15000580,
+        "healingTotal": 1075666,
+        "damageActiveTimeMs": 205898,
+        "healingActiveTimeMs": 191232,
+        "damageTotalTimeMs": 235959,
+        "healingTotalTimeMs": 235959,
+        "damageEntryId": 182,
+        "healingEntryId": 182,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:182,healing:actor-id:182"
+      }
+    },
+    {
+      "key": "8dAPQCWGNMLBjrRg:16:Zanzithor:tarren-mill:eu",
+      "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=16",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-29T18:14:44.412Z",
+      "durationMs": 116381,
+      "bossPercentage": 69.45,
+      "fightPercentage": 69.45,
+      "averageItemLevel": 285.1000061035156,
+      "actor": {
+        "id": 182,
+        "name": "Zanzithor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 61549.69,
+        "hps": 2421.74,
+        "primary": 61549.69,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 7163214,
+        "healingTotal": 281845,
+        "damageActiveTimeMs": 96768,
+        "healingActiveTimeMs": 91322,
+        "damageTotalTimeMs": 116381,
+        "healingTotalTimeMs": 116381,
+        "damageEntryId": 182,
+        "healingEntryId": 182,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:182,healing:actor-id:182"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:24:Zanzithor:tarren-mill:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=24",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T18:50:40.584Z",
+      "durationMs": 245279,
+      "bossPercentage": 45.97,
+      "fightPercentage": 45.97,
+      "averageItemLevel": 283.6499938964844,
+      "actor": {
+        "id": 75,
+        "name": "Zanzithor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 73863.29,
+        "hps": 7854.54,
+        "primary": 73863.29,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 18117113,
+        "healingTotal": 1926553,
+        "damageActiveTimeMs": 218600,
+        "healingActiveTimeMs": 221064,
+        "damageTotalTimeMs": 245279,
+        "healingTotalTimeMs": 245279,
+        "damageEntryId": 75,
+        "healingEntryId": 75,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:75,healing:actor-id:75"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:23:Zanzithor:tarren-mill:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=23",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T18:43:46.775Z",
+      "durationMs": 235664,
+      "bossPercentage": 48.25,
+      "fightPercentage": 48.25,
+      "averageItemLevel": 283.54998779296875,
+      "actor": {
+        "id": 75,
+        "name": "Zanzithor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 78376.17,
+        "hps": 7585.8,
+        "primary": 78376.17,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 18470442,
+        "healingTotal": 1787701,
+        "damageActiveTimeMs": 234354,
+        "healingActiveTimeMs": 231575,
+        "damageTotalTimeMs": 235664,
+        "healingTotalTimeMs": 235664,
+        "damageEntryId": 75,
+        "healingEntryId": 75,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:75,healing:actor-id:75"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:22:Zanzithor:tarren-mill:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=22",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T18:36:38.949Z",
+      "durationMs": 116446,
+      "bossPercentage": 69.96,
+      "fightPercentage": 69.96,
+      "averageItemLevel": 283.54998779296875,
+      "actor": {
+        "id": 75,
+        "name": "Zanzithor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 90832.44,
+        "hps": 5556.81,
+        "primary": 90832.44,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 10577074,
+        "healingTotal": 647068,
+        "damageActiveTimeMs": 103185,
+        "healingActiveTimeMs": 100087,
+        "damageTotalTimeMs": 116446,
+        "healingTotalTimeMs": 116446,
+        "damageEntryId": 75,
+        "healingEntryId": 75,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:75,healing:actor-id:75"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:21:Zanzithor:tarren-mill:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=21",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T18:32:21.144Z",
+      "durationMs": 142939,
+      "bossPercentage": 72.39,
+      "fightPercentage": 72.39,
+      "averageItemLevel": 283.54998779296875,
+      "actor": {
+        "id": 75,
+        "name": "Zanzithor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 64330.91,
+        "hps": 4836.9,
+        "primary": 64330.91,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 9195396,
+        "healingTotal": 691381,
+        "damageActiveTimeMs": 125328,
+        "healingActiveTimeMs": 103377,
+        "damageTotalTimeMs": 142939,
+        "healingTotalTimeMs": 142939,
+        "damageEntryId": 75,
+        "healingEntryId": 75,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:75,healing:actor-id:75"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:19:Zanzithor:tarren-mill:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=19",
+      "status": "WIPE",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T18:25:59.811Z",
+      "durationMs": 22615,
+      "bossPercentage": 99.99,
+      "fightPercentage": 99.99,
+      "averageItemLevel": 283.3157958984375,
+      "actor": {
+        "id": 75,
+        "name": "Zanzithor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 4677.47,
+        "primary": 4677.47,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 105781,
+        "healingActiveTimeMs": 19003,
+        "damageTotalTimeMs": 22615,
+        "healingTotalTimeMs": 22615,
+        "healingEntryId": 75,
+        "healingItemLevel": 284,
+        "matchedBy": "healing:actor-id:75"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:16:Zanzithor:tarren-mill:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=16",
+      "status": "KILL",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T18:14:56.051Z",
+      "durationMs": 396225,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 283.54998779296875,
+      "actor": {
+        "id": 75,
+        "name": "Zanzithor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 98023.71,
+        "hps": 3801.29,
+        "primary": 98023.71,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 1
+      },
+      "source": {
+        "damageTotal": 38839443,
+        "healingTotal": 1506168,
+        "damageActiveTimeMs": 394860,
+        "healingActiveTimeMs": 348166,
+        "damageTotalTimeMs": 396225,
+        "healingTotalTimeMs": 396225,
+        "damageEntryId": 75,
+        "healingEntryId": 75,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:75,healing:actor-id:75"
+      }
+    },
+    {
+      "key": "DQt29mWMd3JVnbPY:15:Zanzithor:tarren-mill:eu",
+      "reportCode": "DQt29mWMd3JVnbPY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-27T16:52:48.134Z",
+      "reportEndedAt": "2026-05-27T19:36:17.222Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/DQt29mWMd3JVnbPY#fight=15",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-05-27T18:07:56.545Z",
+      "durationMs": 145289,
+      "bossPercentage": 56.89,
+      "fightPercentage": 56.89,
+      "averageItemLevel": 283.8500061035156,
+      "actor": {
+        "id": 75,
+        "name": "Zanzithor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 110139.47,
+        "hps": 6110.68,
+        "primary": 110139.47,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 6
+      },
+      "source": {
+        "damageTotal": 16002054,
+        "healingTotal": 887815,
+        "damageActiveTimeMs": 143642,
+        "healingActiveTimeMs": 140771,
+        "damageTotalTimeMs": 145289,
+        "healingTotalTimeMs": 145289,
+        "damageEntryId": 75,
+        "healingEntryId": 75,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:75,healing:actor-id:75"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

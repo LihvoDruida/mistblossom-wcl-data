@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.562Z",
+  "updatedAt": "2026-06-03T02:05:14.247Z",
   "character": {
     "name": "ßøßk",
     "realmSlug": "silvermoon",
@@ -16,212 +16,39 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 208,
+    "totalRaidDeaths": 202,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 68.37,
+    "consistencyPercent": 42.23,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 176099,
+      "avgDps": 51968.25,
+      "avgHps": 4458.54,
+      "avgPrimary": 51968.25,
+      "avgDurationMs": 155353,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 215492,
+      "maxDps": 76007.62,
+      "minDps": 32100.6,
+      "maxHps": 9060.54,
+      "minHps": 2261.28,
+      "maxPrimary": 76007.62,
+      "minPrimary": 32100.6,
+      "maxDurationMs": 202839,
       "minDurationMs": 86196
     }
   },
   "pulls": [
     {
-      "key": "hz8c1pdF6mRaynGT:26:ßøßk:silvermoon:eu",
-      "reportCode": "hz8c1pdF6mRaynGT",
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=26",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-11T19:31:04.589Z",
-      "durationMs": 131248,
-      "bossPercentage": 99.86,
-      "fightPercentage": 89.73,
-      "averageItemLevel": 268.45001220703125,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "hz8c1pdF6mRaynGT:25:ßøßk:silvermoon:eu",
-      "reportCode": "hz8c1pdF6mRaynGT",
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=25",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-11T19:21:41.236Z",
-      "durationMs": 215492,
-      "bossPercentage": 42.35,
-      "fightPercentage": 48.42,
-      "averageItemLevel": 268.6499938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 22
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "hz8c1pdF6mRaynGT:24:ßøßk:silvermoon:eu",
-      "reportCode": "hz8c1pdF6mRaynGT",
-      "fightId": 24,
-      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=24",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-11T19:14:52.593Z",
-      "durationMs": 181556,
-      "bossPercentage": 63.41,
-      "fightPercentage": 53.09,
-      "averageItemLevel": 268.1000061035156,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "hz8c1pdF6mRaynGT:23:ßøßk:silvermoon:eu",
-      "reportCode": "hz8c1pdF6mRaynGT",
-      "fightId": 23,
-      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=23",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-11T19:10:26.826Z",
-      "durationMs": 113158,
-      "bossPercentage": 4.32,
-      "fightPercentage": 100,
-      "averageItemLevel": 268.25,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "hz8c1pdF6mRaynGT:22:ßøßk:silvermoon:eu",
-      "reportCode": "hz8c1pdF6mRaynGT",
-      "fightId": 22,
-      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=22",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-11T19:05:13.401Z",
-      "durationMs": 137390,
-      "bossPercentage": 99.74,
-      "fightPercentage": 95.8,
-      "averageItemLevel": 268.5,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 22
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "hz8c1pdF6mRaynGT:21:ßøßk:silvermoon:eu",
-      "reportCode": "hz8c1pdF6mRaynGT",
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=21",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-11T18:56:12.378Z",
-      "durationMs": 200364,
-      "bossPercentage": 64.97,
-      "fightPercentage": 50.89,
-      "averageItemLevel": 268.1499938964844,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
       "key": "hz8c1pdF6mRaynGT:20:ßøßk:silvermoon:eu",
       "reportCode": "hz8c1pdF6mRaynGT",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-11T16:41:42.606Z",
+      "reportEndedAt": "2026-04-11T19:33:15.837Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 20,
       "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=20",
       "status": "WIPE",
@@ -234,24 +61,47 @@
       "bossPercentage": 39.95,
       "fightPercentage": 55.74,
       "averageItemLevel": 268.5,
+      "actor": {
+        "id": 2,
+        "name": "ßøßk",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 65367.65,
+        "hps": 5456.67,
+        "primary": 65367.65,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 13259108,
+        "healingTotal": 1106826,
+        "damageActiveTimeMs": 185800,
+        "healingActiveTimeMs": 141878,
+        "damageTotalTimeMs": 202839,
+        "healingTotalTimeMs": 202839,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "hz8c1pdF6mRaynGT:19:ßøßk:silvermoon:eu",
       "reportCode": "hz8c1pdF6mRaynGT",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-11T16:41:42.606Z",
+      "reportEndedAt": "2026-04-11T19:33:15.837Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 19,
       "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=19",
       "status": "WIPE",
@@ -264,24 +114,47 @@
       "bossPercentage": 82.27,
       "fightPercentage": 59.64,
       "averageItemLevel": 268.5,
+      "actor": {
+        "id": 2,
+        "name": "ßøßk",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 54586.79,
+        "hps": 5657.68,
+        "primary": 54586.79,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 22
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 9663118,
+        "healingTotal": 1001539,
+        "damageActiveTimeMs": 173122,
+        "healingActiveTimeMs": 111829,
+        "damageTotalTimeMs": 177023,
+        "healingTotalTimeMs": 177023,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "hz8c1pdF6mRaynGT:14:ßøßk:silvermoon:eu",
       "reportCode": "hz8c1pdF6mRaynGT",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-11T16:41:42.606Z",
+      "reportEndedAt": "2026-04-11T19:33:15.837Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 14,
       "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=14",
       "status": "WIPE",
@@ -294,24 +167,47 @@
       "bossPercentage": 39.13,
       "fightPercentage": 100,
       "averageItemLevel": 268.79998779296875,
+      "actor": {
+        "id": 2,
+        "name": "ßøßk",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 35950.3,
+        "hps": 2261.28,
+        "primary": 35950.3,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 3098772,
+        "healingTotal": 194913,
+        "damageActiveTimeMs": 66058,
+        "healingActiveTimeMs": 20916,
+        "damageTotalTimeMs": 86196,
+        "healingTotalTimeMs": 86196,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "hz8c1pdF6mRaynGT:13:ßøßk:silvermoon:eu",
       "reportCode": "hz8c1pdF6mRaynGT",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-11T16:41:42.606Z",
+      "reportEndedAt": "2026-04-11T19:33:15.837Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 13,
       "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=13",
       "status": "WIPE",
@@ -324,19 +220,353 @@
       "bossPercentage": 18.58,
       "fightPercentage": 100,
       "averageItemLevel": 268.20001220703125,
+      "actor": {
+        "id": 2,
+        "name": "ßøßk",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 32100.6,
+        "hps": 4777.49,
+        "primary": 32100.6,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 3132794,
+        "healingTotal": 466250,
+        "damageActiveTimeMs": 72018,
+        "healingActiveTimeMs": 49229,
+        "damageTotalTimeMs": 97593,
+        "healingTotalTimeMs": 97593,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:12:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-11T16:41:42.606Z",
+      "reportEndedAt": "2026-04-11T19:33:15.837Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=12",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T18:17:57.966Z",
+      "durationMs": 150348,
+      "bossPercentage": 94.11,
+      "fightPercentage": 64.63,
+      "averageItemLevel": 269.20001220703125,
+      "actor": {
+        "id": 2,
+        "name": "ßøßk",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 74909.38,
+        "hps": 9060.54,
+        "primary": 74909.38,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 11262476,
+        "healingTotal": 1362234,
+        "damageActiveTimeMs": 141914,
+        "healingActiveTimeMs": 88336,
+        "damageTotalTimeMs": 150348,
+        "healingTotalTimeMs": 150348,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:11:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-11T16:41:42.606Z",
+      "reportEndedAt": "2026-04-11T19:33:15.837Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=11",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T18:11:55.066Z",
+      "durationMs": 184949,
+      "bossPercentage": 66.92,
+      "fightPercentage": 60.47,
+      "averageItemLevel": 268.70001220703125,
+      "actor": {
+        "id": 2,
+        "name": "ßøßk",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 72384.26,
+        "hps": 6382.69,
+        "primary": 72384.26,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 13387396,
+        "healingTotal": 1180472,
+        "damageActiveTimeMs": 184604,
+        "healingActiveTimeMs": 99707,
+        "damageTotalTimeMs": 184949,
+        "healingTotalTimeMs": 184949,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:10:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-11T16:41:42.606Z",
+      "reportEndedAt": "2026-04-11T19:33:15.837Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=10",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T18:05:52.176Z",
+      "durationMs": 151469,
+      "bossPercentage": 81.21,
+      "fightPercentage": 50.27,
+      "averageItemLevel": 270.1000061035156,
+      "actor": {
+        "id": 2,
+        "name": "ßøßk",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 59183.32,
+        "hps": 6108.39,
+        "primary": 59183.32,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8964439,
+        "healingTotal": 925231,
+        "damageActiveTimeMs": 134005,
+        "healingActiveTimeMs": 73793,
+        "damageTotalTimeMs": 151469,
+        "healingTotalTimeMs": 151469,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "hz8c1pdF6mRaynGT:9:ßøßk:silvermoon:eu",
+      "reportCode": "hz8c1pdF6mRaynGT",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-11T16:41:42.606Z",
+      "reportEndedAt": "2026-04-11T19:33:15.837Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/hz8c1pdF6mRaynGT#fight=9",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-11T18:01:46.335Z",
+      "durationMs": 142008,
+      "bossPercentage": 93.01,
+      "fightPercentage": 65.18,
+      "averageItemLevel": 269.8999938964844,
+      "actor": {
+        "id": 2,
+        "name": "ßøßk",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 57139.91,
+        "hps": 3438.99,
+        "primary": 57139.91,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8114324,
+        "healingTotal": 488364,
+        "damageActiveTimeMs": 124814,
+        "healingActiveTimeMs": 37294,
+        "damageTotalTimeMs": 142008,
+        "healingTotalTimeMs": 142008,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      }
+    },
+    {
+      "key": "rvpaDMhHzwxAB8Qg:17:ßøßk:silvermoon:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=17",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T19:52:42.330Z",
+      "durationMs": 172231,
+      "bossPercentage": 73.32,
+      "fightPercentage": 73.32,
+      "averageItemLevel": 264.70001220703125,
+      "actor": {
+        "id": 11,
+        "name": "ßøßk",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 65044.99,
+        "hps": 5457.91,
+        "primary": 65044.99,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 11202764,
+        "healingTotal": 940021,
+        "damageActiveTimeMs": 111951,
+        "healingActiveTimeMs": 86447,
+        "damageTotalTimeMs": 172231,
+        "healingTotalTimeMs": 172231,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
+      }
+    },
+    {
+      "key": "rvpaDMhHzwxAB8Qg:16:ßøßk:silvermoon:eu",
+      "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=16",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-10T19:48:01.776Z",
+      "durationMs": 130134,
+      "bossPercentage": 73.73,
+      "fightPercentage": 73.73,
+      "averageItemLevel": 264.3500061035156,
+      "actor": {
+        "id": 11,
+        "name": "ßøßk",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "metric": {
+        "dps": 76007.62,
+        "hps": 6119.53,
+        "primary": 76007.62,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 9891176,
+        "healingTotal": 796359,
+        "damageActiveTimeMs": 116889,
+        "healingActiveTimeMs": 61388,
+        "damageTotalTimeMs": 130134,
+        "healingTotalTimeMs": 130134,
+        "damageEntryId": 11,
+        "healingEntryId": 11,
+        "damageItemLevel": 268,
+        "healingItemLevel": 268,
+        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
       }
     }
   ],

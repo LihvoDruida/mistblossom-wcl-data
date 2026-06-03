@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.560Z",
+  "updatedAt": "2026-06-03T02:05:14.245Z",
   "character": {
     "name": "Lightass",
     "realmSlug": "terokkar",
@@ -11,217 +11,44 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 1,
-    "wipes": 9,
-    "killRate": 0.1,
-    "wipeRate": 0.9,
+    "kills": 3,
+    "wipes": 7,
+    "killRate": 0.3,
+    "wipeRate": 0.7,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 133,
+    "totalRaidDeaths": 149,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 86.76,
+    "consistencyPercent": 5.69,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 113905,
+      "avgDps": 6363.46,
+      "avgHps": 87836.99,
+      "avgPrimary": 87836.99,
+      "avgDurationMs": 275888,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 397835,
-      "minDurationMs": 81840
+      "maxDps": 7895.15,
+      "minDps": 5209.62,
+      "maxHps": 101236.45,
+      "minHps": 2254.28,
+      "maxPrimary": 101236.45,
+      "minPrimary": 5757.19,
+      "maxDurationMs": 407490,
+      "minDurationMs": 31568
     }
   },
   "pulls": [
     {
-      "key": "vzQAWB8Kw3ykjR1a:36:Lightass:terokkar:eu",
-      "reportCode": "vzQAWB8Kw3ykjR1a",
-      "fightId": 36,
-      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=36",
-      "status": "WIPE",
-      "bossName": "Lightblinded Vanguard",
-      "encounterId": 3180,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-29T20:28:20.858Z",
-      "durationMs": 130409,
-      "bossPercentage": 71.54,
-      "fightPercentage": 71.54,
-      "averageItemLevel": 274.20001220703125,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 10
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "vzQAWB8Kw3ykjR1a:35:Lightass:terokkar:eu",
-      "reportCode": "vzQAWB8Kw3ykjR1a",
-      "fightId": 35,
-      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=35",
-      "status": "WIPE",
-      "bossName": "Lightblinded Vanguard",
-      "encounterId": 3180,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-29T20:24:08.713Z",
-      "durationMs": 109205,
-      "bossPercentage": 81.3,
-      "fightPercentage": 81.3,
-      "averageItemLevel": 274.20001220703125,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 9
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "vzQAWB8Kw3ykjR1a:33:Lightass:terokkar:eu",
-      "reportCode": "vzQAWB8Kw3ykjR1a",
-      "fightId": 33,
-      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=33",
-      "status": "WIPE",
-      "bossName": "Lightblinded Vanguard",
-      "encounterId": 3180,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-29T20:19:19.595Z",
-      "durationMs": 102102,
-      "bossPercentage": 77.88,
-      "fightPercentage": 77.88,
-      "averageItemLevel": 272.8571472167969,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 13
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "vzQAWB8Kw3ykjR1a:32:Lightass:terokkar:eu",
-      "reportCode": "vzQAWB8Kw3ykjR1a",
-      "fightId": 32,
-      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=32",
-      "status": "WIPE",
-      "bossName": "Lightblinded Vanguard",
-      "encounterId": 3180,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-29T20:15:56.254Z",
-      "durationMs": 81840,
-      "bossPercentage": 78.7,
-      "fightPercentage": 78.7,
-      "averageItemLevel": 272.8571472167969,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 4
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "vzQAWB8Kw3ykjR1a:31:Lightass:terokkar:eu",
-      "reportCode": "vzQAWB8Kw3ykjR1a",
-      "fightId": 31,
-      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=31",
-      "status": "WIPE",
-      "bossName": "Lightblinded Vanguard",
-      "encounterId": 3180,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-29T20:08:57.577Z",
-      "durationMs": 174763,
-      "bossPercentage": 53.91,
-      "fightPercentage": 53.91,
-      "averageItemLevel": 274,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 15
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "vzQAWB8Kw3ykjR1a:30:Lightass:terokkar:eu",
-      "reportCode": "vzQAWB8Kw3ykjR1a",
-      "fightId": 30,
-      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=30",
-      "status": "WIPE",
-      "bossName": "Lightblinded Vanguard",
-      "encounterId": 3180,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-29T19:58:22.554Z",
-      "durationMs": 142619,
-      "bossPercentage": 67.34,
-      "fightPercentage": 67.34,
-      "averageItemLevel": 274.54998779296875,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 19
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
       "key": "vzQAWB8Kw3ykjR1a:27:Lightass:terokkar:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 27,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=27",
       "status": "KILL",
@@ -234,24 +61,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 144,
+        "name": "Lightass",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 7238.01,
+        "hps": 96134.66,
+        "primary": 96134.66,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 2
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 2674083,
+        "healingTotal": 35516950,
+        "damageActiveTimeMs": 296445,
+        "healingActiveTimeMs": 366929,
+        "damageTotalTimeMs": 369450,
+        "healingTotalTimeMs": 369450,
+        "damageEntryId": 144,
+        "healingEntryId": 144,
+        "damageItemLevel": 278,
+        "healingItemLevel": 278,
+        "matchedBy": "damage:actor-id:144,healing:actor-id:144"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:26:Lightass:terokkar:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 26,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=26",
       "status": "WIPE",
@@ -264,24 +114,47 @@
       "bossPercentage": 42.44,
       "fightPercentage": 42.44,
       "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 144,
+        "name": "Lightass",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 5209.62,
+        "hps": 91164.73,
+        "primary": 91164.73,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1338066,
+        "healingTotal": 23415204,
+        "damageActiveTimeMs": 160074,
+        "healingActiveTimeMs": 240444,
+        "damageTotalTimeMs": 256845,
+        "healingTotalTimeMs": 256845,
+        "damageEntryId": 144,
+        "healingEntryId": 144,
+        "damageItemLevel": 278,
+        "healingItemLevel": 278,
+        "matchedBy": "damage:actor-id:144,healing:actor-id:144"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:25:Lightass:terokkar:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 25,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=25",
       "status": "WIPE",
@@ -294,24 +167,47 @@
       "bossPercentage": 54.39,
       "fightPercentage": 54.39,
       "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 144,
+        "name": "Lightass",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 6642.74,
+        "hps": 76211.57,
+        "primary": 76211.57,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 18
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1337649,
+        "healingTotal": 15346724,
+        "damageActiveTimeMs": 165229,
+        "healingActiveTimeMs": 187933,
+        "damageTotalTimeMs": 201370,
+        "healingTotalTimeMs": 201370,
+        "damageEntryId": 144,
+        "healingEntryId": 144,
+        "damageItemLevel": 278,
+        "healingItemLevel": 278,
+        "matchedBy": "damage:actor-id:144,healing:actor-id:144"
       }
     },
     {
       "key": "vzQAWB8Kw3ykjR1a:24:Lightass:terokkar:eu",
       "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 24,
       "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=24",
       "status": "WIPE",
@@ -324,19 +220,353 @@
       "bossPercentage": 2.51,
       "fightPercentage": 2.51,
       "averageItemLevel": 274.95001220703125,
+      "actor": {
+        "id": 144,
+        "name": "Lightass",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 7836.5,
+        "hps": 101236.45,
+        "primary": 101236.45,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 22
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 3117635,
+        "healingTotal": 40275402,
+        "damageActiveTimeMs": 366480,
+        "healingActiveTimeMs": 392116,
+        "damageTotalTimeMs": 397835,
+        "healingTotalTimeMs": 397835,
+        "damageEntryId": 144,
+        "healingEntryId": 144,
+        "damageItemLevel": 278,
+        "healingItemLevel": 278,
+        "matchedBy": "damage:actor-id:144,healing:actor-id:144"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:23:Lightass:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=23",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:47:54.748Z",
+      "durationMs": 407490,
+      "bossPercentage": 8.65,
+      "fightPercentage": 8.65,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 144,
+        "name": "Lightass",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 6505.04,
+        "hps": 91040.54,
+        "primary": 91040.54,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 2650739,
+        "healingTotal": 37098109,
+        "damageActiveTimeMs": 337881,
+        "healingActiveTimeMs": 383967,
+        "damageTotalTimeMs": 407490,
+        "healingTotalTimeMs": 407490,
+        "damageEntryId": 144,
+        "healingEntryId": 144,
+        "damageItemLevel": 278,
+        "healingItemLevel": 278,
+        "matchedBy": "damage:actor-id:144,healing:actor-id:144"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:22:Lightass:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=22",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:43:20.714Z",
+      "durationMs": 130113,
+      "bossPercentage": 68.99,
+      "fightPercentage": 68.99,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 144,
+        "name": "Lightass",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 5745.1,
+        "hps": 72200.63,
+        "primary": 72200.63,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 747512,
+        "healingTotal": 9394241,
+        "damageActiveTimeMs": 77940,
+        "healingActiveTimeMs": 118537,
+        "damageTotalTimeMs": 130113,
+        "healingTotalTimeMs": 130113,
+        "damageEntryId": 144,
+        "healingEntryId": 144,
+        "damageItemLevel": 278,
+        "healingItemLevel": 278,
+        "matchedBy": "damage:actor-id:144,healing:actor-id:144"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:21:Lightass:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=21",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:37:05.826Z",
+      "durationMs": 227809,
+      "bossPercentage": 53.49,
+      "fightPercentage": 53.49,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 144,
+        "name": "Lightass",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 7895.15,
+        "hps": 84063.47,
+        "primary": 84063.47,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 1798586,
+        "healingTotal": 19150416,
+        "damageActiveTimeMs": 183679,
+        "healingActiveTimeMs": 217656,
+        "damageTotalTimeMs": 227809,
+        "healingTotalTimeMs": 227809,
+        "damageEntryId": 144,
+        "healingEntryId": 144,
+        "damageItemLevel": 278,
+        "healingItemLevel": 278,
+        "matchedBy": "damage:actor-id:144,healing:actor-id:144"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:19:Lightass:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=19",
+      "status": "KILL",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:23:59.681Z",
+      "durationMs": 295130,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 144,
+        "name": "Lightass",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 7257.32,
+        "hps": 92278.6,
+        "primary": 92278.6,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 0
+      },
+      "source": {
+        "damageTotal": 2141853,
+        "healingTotal": 27234182,
+        "damageActiveTimeMs": 280809,
+        "healingActiveTimeMs": 293900,
+        "damageTotalTimeMs": 295130,
+        "healingTotalTimeMs": 295130,
+        "damageEntryId": 144,
+        "healingEntryId": 144,
+        "damageItemLevel": 278,
+        "healingItemLevel": 278,
+        "matchedBy": "damage:actor-id:144,healing:actor-id:144"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:18:Lightass:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=18",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:21:38.968Z",
+      "durationMs": 31568,
+      "bossPercentage": 90.76,
+      "fightPercentage": 90.76,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 144,
+        "name": "Lightass",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 5757.19,
+        "hps": 2254.28,
+        "primary": 5757.19,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 181743,
+        "healingTotal": 71163,
+        "damageActiveTimeMs": 7514,
+        "healingActiveTimeMs": 7180,
+        "damageTotalTimeMs": 31568,
+        "healingTotalTimeMs": 31568,
+        "damageEntryId": 144,
+        "healingEntryId": 144,
+        "damageItemLevel": 278,
+        "healingItemLevel": 278,
+        "matchedBy": "damage:actor-id:144,healing:actor-id:144"
+      }
+    },
+    {
+      "key": "vzQAWB8Kw3ykjR1a:15:Lightass:terokkar:eu",
+      "reportCode": "vzQAWB8Kw3ykjR1a",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-29T17:11:46.749Z",
+      "reportEndedAt": "2026-04-29T20:30:55.618Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/vzQAWB8Kw3ykjR1a#fight=15",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-29T18:09:19.077Z",
+      "durationMs": 270769,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 274.8500061035156,
+      "actor": {
+        "id": 144,
+        "name": "Lightass",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 7461.78,
+        "hps": 89980.73,
+        "primary": 89980.73,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 3
+      },
+      "source": {
+        "damageTotal": 2020418,
+        "healingTotal": 24363991,
+        "damageActiveTimeMs": 258045,
+        "healingActiveTimeMs": 270260,
+        "damageTotalTimeMs": 270769,
+        "healingTotalTimeMs": 270769,
+        "damageEntryId": 144,
+        "healingEntryId": 144,
+        "damageItemLevel": 278,
+        "healingItemLevel": 278,
+        "matchedBy": "damage:actor-id:144,healing:actor-id:144"
       }
     }
   ],

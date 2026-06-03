@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.248Z",
   "character": {
     "name": "Кеенди",
     "realmSlug": "gordunni",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 10,
+    "kills": 2,
+    "wipes": 8,
+    "killRate": 0.2,
+    "wipeRate": 0.8,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 113,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 73.01,
+    "consistencyPercent": 41.79,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 23609.64,
+      "avgHps": 3469.94,
+      "avgPrimary": 23609.64,
+      "avgDurationMs": 276478,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 32335.65,
+      "minDps": 13511.54,
+      "maxHps": 5039.12,
+      "minHps": 1409.88,
+      "maxPrimary": 32335.65,
+      "minPrimary": 13511.54,
+      "maxDurationMs": 348627,
+      "minDurationMs": 97007
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "HrdpqvTVL3b6nfCF:16:Кеенди:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=16",
+      "status": "KILL",
+      "bossName": "Midnight Falls",
+      "encounterId": 3183,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T19:06:02.427Z",
+      "durationMs": 320595,
+      "bossPercentage": 0.36,
+      "fightPercentage": 0,
+      "averageItemLevel": 263.3999938964844,
+      "actor": {
+        "id": 20,
+        "name": "Кеенди",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 28744.87,
+        "hps": 3960.81,
+        "primary": 28744.87,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 0
+      },
+      "source": {
+        "damageTotal": 9215463,
+        "healingTotal": 1269817,
+        "damageActiveTimeMs": 318567,
+        "healingActiveTimeMs": 320096,
+        "damageTotalTimeMs": 320595,
+        "healingTotalTimeMs": 320595,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 239,
+        "healingItemLevel": 239,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:15:Кеенди:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=15",
+      "status": "WIPE",
+      "bossName": "Midnight Falls",
+      "encounterId": 3183,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:58:37.649Z",
+      "durationMs": 348627,
+      "bossPercentage": 7.43,
+      "fightPercentage": 7.43,
+      "averageItemLevel": 263.3999938964844,
+      "actor": {
+        "id": 20,
+        "name": "Кеенди",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 28572.5,
+        "hps": 5039.12,
+        "primary": 28572.5,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 10
+      },
+      "source": {
+        "damageTotal": 9961144,
+        "healingTotal": 1756772,
+        "damageActiveTimeMs": 343306,
+        "healingActiveTimeMs": 335428,
+        "damageTotalTimeMs": 348627,
+        "healingTotalTimeMs": 348627,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 239,
+        "healingItemLevel": 239,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:14:Кеенди:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=14",
+      "status": "WIPE",
+      "bossName": "Midnight Falls",
+      "encounterId": 3183,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:55:08.232Z",
+      "durationMs": 160211,
+      "bossPercentage": 65.94,
+      "fightPercentage": 65.94,
+      "averageItemLevel": 263.3999938964844,
+      "actor": {
+        "id": 20,
+        "name": "Кеенди",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 13511.54,
+        "hps": 1409.88,
+        "primary": 13511.54,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 10
+      },
+      "source": {
+        "damageTotal": 2164697,
+        "healingTotal": 225879,
+        "damageActiveTimeMs": 52991,
+        "healingActiveTimeMs": 31037,
+        "damageTotalTimeMs": 160211,
+        "healingTotalTimeMs": 160211,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 239,
+        "healingItemLevel": 239,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:13:Кеенди:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=13",
+      "status": "KILL",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:46:45.370Z",
+      "durationMs": 127972,
+      "bossPercentage": 0,
+      "fightPercentage": 0,
+      "averageItemLevel": 263.3999938964844,
+      "actor": {
+        "id": 20,
+        "name": "Кеенди",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 27196.69,
+        "hps": 2547.33,
+        "primary": 27196.69,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 0
+      },
+      "source": {
+        "damageTotal": 3480415,
+        "healingTotal": 325987,
+        "damageActiveTimeMs": 110673,
+        "healingActiveTimeMs": 125932,
+        "damageTotalTimeMs": 127972,
+        "healingTotalTimeMs": 127972,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 239,
+        "healingItemLevel": 239,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:12:Кеенди:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=12",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:41:49.691Z",
+      "durationMs": 163905,
+      "bossPercentage": 34.8,
+      "fightPercentage": 26.4,
+      "averageItemLevel": 263.3999938964844,
+      "actor": {
+        "id": 20,
+        "name": "Кеенди",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 18646.78,
+        "hps": 3575.41,
+        "primary": 18646.78,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 11
+      },
+      "source": {
+        "damageTotal": 3056300,
+        "healingTotal": 586028,
+        "damageActiveTimeMs": 131479,
+        "healingActiveTimeMs": 121355,
+        "damageTotalTimeMs": 163905,
+        "healingTotalTimeMs": 163905,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 239,
+        "healingItemLevel": 239,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:11:Кеенди:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=11",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:35:28.392Z",
+      "durationMs": 189220,
+      "bossPercentage": 45.08,
+      "fightPercentage": 53.83,
+      "averageItemLevel": 263.3999938964844,
+      "actor": {
+        "id": 20,
+        "name": "Кеенди",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 16220.67,
+        "hps": 2696.88,
+        "primary": 16220.67,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 11
+      },
+      "source": {
+        "damageTotal": 3069276,
+        "healingTotal": 510304,
+        "damageActiveTimeMs": 186150,
+        "healingActiveTimeMs": 164677,
+        "damageTotalTimeMs": 189220,
+        "healingTotalTimeMs": 189220,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 239,
+        "healingItemLevel": 239,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:10:Кеенди:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=10",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 3,
+      "difficultyName": "Normal",
+      "startedAt": "2026-04-05T18:30:44.882Z",
+      "durationMs": 179769,
+      "bossPercentage": 36.72,
+      "fightPercentage": 51.41,
+      "averageItemLevel": 263.3999938964844,
+      "actor": {
+        "id": 20,
+        "name": "Кеенди",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 21900.95,
+        "hps": 4278.69,
+        "primary": 21900.95,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 12
+      },
+      "source": {
+        "damageTotal": 3937111,
+        "healingTotal": 769176,
+        "damageActiveTimeMs": 152156,
+        "healingActiveTimeMs": 167954,
+        "damageTotalTimeMs": 179769,
+        "healingTotalTimeMs": 179769,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 239,
+        "healingItemLevel": 239,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:8:Кеенди:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=8",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T18:12:43.110Z",
+      "durationMs": 108304,
+      "bossPercentage": 76.57,
+      "fightPercentage": 76.57,
+      "averageItemLevel": 262.3999938964844,
+      "actor": {
+        "id": 20,
+        "name": "Кеенди",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 30913.61,
+        "hps": 3286,
+        "primary": 30913.61,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 3348068,
+        "healingTotal": 355887,
+        "damageActiveTimeMs": 101364,
+        "healingActiveTimeMs": 84134,
+        "damageTotalTimeMs": 108304,
+        "healingTotalTimeMs": 108304,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 237,
+        "healingItemLevel": 237,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:7:Кеенди:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=7",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T18:05:30.193Z",
+      "durationMs": 97007,
+      "bossPercentage": 77.33,
+      "fightPercentage": 77.33,
+      "averageItemLevel": 262.3999938964844,
+      "actor": {
+        "id": 20,
+        "name": "Кеенди",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 32335.65,
+        "hps": 3615.74,
+        "primary": 32335.65,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 3136784,
+        "healingTotal": 350752,
+        "damageActiveTimeMs": 74752,
+        "healingActiveTimeMs": 74133,
+        "damageTotalTimeMs": 97007,
+        "healingTotalTimeMs": 97007,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 237,
+        "healingItemLevel": 237,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      }
+    },
+    {
+      "key": "HrdpqvTVL3b6nfCF:6:Кеенди:gordunni:eu",
+      "reportCode": "HrdpqvTVL3b6nfCF",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-05T17:16:26.441Z",
+      "reportEndedAt": "2026-04-05T19:11:23.022Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/HrdpqvTVL3b6nfCF#fight=6",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-05T17:58:47.065Z",
+      "durationMs": 230447,
+      "bossPercentage": 61.79,
+      "fightPercentage": 61.79,
+      "averageItemLevel": 262.75,
+      "actor": {
+        "id": 20,
+        "name": "Кеенди",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 28885.66,
+        "hps": 3722.68,
+        "primary": 28885.66,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6656613,
+        "healingTotal": 857881,
+        "damageActiveTimeMs": 209091,
+        "healingActiveTimeMs": 200591,
+        "damageTotalTimeMs": 230447,
+        "healingTotalTimeMs": 230447,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 237,
+        "healingItemLevel": 237,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

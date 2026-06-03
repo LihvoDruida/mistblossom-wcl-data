@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.559Z",
+  "updatedAt": "2026-06-03T02:05:14.242Z",
   "character": {
     "name": "Bullimonk",
     "realmSlug": "tarren-mill",
@@ -10,35 +10,563 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 10,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 10,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 173,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 83.8,
+    "consistencyPercent": 2.2,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 21785.15,
+      "avgHps": 70822.61,
+      "avgPrimary": 70822.61,
+      "avgDurationMs": 165043,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 25899.88,
+      "minDps": 20842.27,
+      "maxHps": 84512.88,
+      "minHps": 1857.48,
+      "maxPrimary": 84512.88,
+      "minPrimary": 1857.48,
+      "maxDurationMs": 247641,
+      "minDurationMs": 46267
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "YJXw2tKmWNjHMVhQ:13:Bullimonk:tarren-mill:eu",
+      "reportCode": "YJXw2tKmWNjHMVhQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-03T17:18:35.831Z",
+      "reportEndedAt": "2026-05-03T18:54:08.591Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/YJXw2tKmWNjHMVhQ#fight=13",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-03T18:49:42.388Z",
+      "durationMs": 247641,
+      "bossPercentage": 23.42,
+      "fightPercentage": 41.15,
+      "averageItemLevel": 275.9285583496094,
+      "actor": {
+        "id": 189,
+        "name": "Bullimonk",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "metric": {
+        "dps": 23484.95,
+        "hps": 81945.76,
+        "primary": 81945.76,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 5815836,
+        "healingTotal": 20293130,
+        "damageActiveTimeMs": 220432,
+        "healingActiveTimeMs": 247053,
+        "damageTotalTimeMs": 247641,
+        "healingTotalTimeMs": 247641,
+        "damageEntryId": 189,
+        "healingEntryId": 189,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:189,healing:actor-id:189"
+      }
+    },
+    {
+      "key": "YJXw2tKmWNjHMVhQ:12:Bullimonk:tarren-mill:eu",
+      "reportCode": "YJXw2tKmWNjHMVhQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-03T17:18:35.831Z",
+      "reportEndedAt": "2026-05-03T18:54:08.591Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/YJXw2tKmWNjHMVhQ#fight=12",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-03T18:44:36.573Z",
+      "durationMs": 194983,
+      "bossPercentage": 56.22,
+      "fightPercentage": 42.93,
+      "averageItemLevel": 275.9285583496094,
+      "actor": {
+        "id": 189,
+        "name": "Bullimonk",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "metric": {
+        "dps": 21028.22,
+        "hps": 75709.03,
+        "primary": 75709.03,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 14
+      },
+      "source": {
+        "damageTotal": 4100145,
+        "healingTotal": 14761974,
+        "damageActiveTimeMs": 162326,
+        "healingActiveTimeMs": 181628,
+        "damageTotalTimeMs": 194983,
+        "healingTotalTimeMs": 194983,
+        "damageEntryId": 189,
+        "healingEntryId": 189,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:189,healing:actor-id:189"
+      }
+    },
+    {
+      "key": "YJXw2tKmWNjHMVhQ:11:Bullimonk:tarren-mill:eu",
+      "reportCode": "YJXw2tKmWNjHMVhQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-03T17:18:35.831Z",
+      "reportEndedAt": "2026-05-03T18:54:08.591Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/YJXw2tKmWNjHMVhQ#fight=11",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-03T18:42:12.323Z",
+      "durationMs": 52506,
+      "bossPercentage": 53.4,
+      "fightPercentage": 100,
+      "averageItemLevel": 275.9285583496094,
+      "actor": {
+        "id": 189,
+        "name": "Bullimonk",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "metric": {
+        "dps": 20842.27,
+        "hps": 54813.03,
+        "primary": 54813.03,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 14
+      },
+      "source": {
+        "damageTotal": 1094344,
+        "healingTotal": 2878013,
+        "damageActiveTimeMs": 32073,
+        "healingActiveTimeMs": 47454,
+        "damageTotalTimeMs": 52506,
+        "healingTotalTimeMs": 52506,
+        "damageEntryId": 189,
+        "healingEntryId": 189,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:189,healing:actor-id:189"
+      }
+    },
+    {
+      "key": "YJXw2tKmWNjHMVhQ:10:Bullimonk:tarren-mill:eu",
+      "reportCode": "YJXw2tKmWNjHMVhQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-03T17:18:35.831Z",
+      "reportEndedAt": "2026-05-03T18:54:08.591Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/YJXw2tKmWNjHMVhQ#fight=10",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-03T18:37:11.527Z",
+      "durationMs": 205062,
+      "bossPercentage": 69.55,
+      "fightPercentage": 41.81,
+      "averageItemLevel": 275.9285583496094,
+      "actor": {
+        "id": 189,
+        "name": "Bullimonk",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "metric": {
+        "dps": 21923.37,
+        "hps": 79722.18,
+        "primary": 79722.18,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 4495651,
+        "healingTotal": 16347990,
+        "damageActiveTimeMs": 160055,
+        "healingActiveTimeMs": 199070,
+        "damageTotalTimeMs": 205062,
+        "healingTotalTimeMs": 205062,
+        "damageEntryId": 189,
+        "healingEntryId": 189,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:189,healing:actor-id:189"
+      }
+    },
+    {
+      "key": "YJXw2tKmWNjHMVhQ:9:Bullimonk:tarren-mill:eu",
+      "reportCode": "YJXw2tKmWNjHMVhQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-03T17:18:35.831Z",
+      "reportEndedAt": "2026-05-03T18:54:08.591Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/YJXw2tKmWNjHMVhQ#fight=9",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-03T18:30:23.413Z",
+      "durationMs": 205230,
+      "bossPercentage": 46.95,
+      "fightPercentage": 42.57,
+      "averageItemLevel": 275.54998779296875,
+      "actor": {
+        "id": 189,
+        "name": "Bullimonk",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "metric": {
+        "dps": 25899.88,
+        "hps": 84512.88,
+        "primary": 84512.88,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 5315433,
+        "healingTotal": 17344578,
+        "damageActiveTimeMs": 177937,
+        "healingActiveTimeMs": 194349,
+        "damageTotalTimeMs": 205230,
+        "healingTotalTimeMs": 205230,
+        "damageEntryId": 189,
+        "healingEntryId": 189,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:189,healing:actor-id:189"
+      }
+    },
+    {
+      "key": "YJXw2tKmWNjHMVhQ:8:Bullimonk:tarren-mill:eu",
+      "reportCode": "YJXw2tKmWNjHMVhQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-03T17:18:35.831Z",
+      "reportEndedAt": "2026-05-03T18:54:08.591Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/YJXw2tKmWNjHMVhQ#fight=8",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-03T18:24:44.116Z",
+      "durationMs": 181684,
+      "bossPercentage": 75.15,
+      "fightPercentage": 60.47,
+      "averageItemLevel": 275.20001220703125,
+      "actor": {
+        "id": 189,
+        "name": "Bullimonk",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "metric": {
+        "dps": 22028.92,
+        "hps": 77126.35,
+        "primary": 77126.35,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 4002303,
+        "healingTotal": 14012623,
+        "damageActiveTimeMs": 145602,
+        "healingActiveTimeMs": 159800,
+        "damageTotalTimeMs": 181684,
+        "healingTotalTimeMs": 181684,
+        "damageEntryId": 189,
+        "healingEntryId": 189,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:189,healing:actor-id:189"
+      }
+    },
+    {
+      "key": "YJXw2tKmWNjHMVhQ:7:Bullimonk:tarren-mill:eu",
+      "reportCode": "YJXw2tKmWNjHMVhQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-03T17:18:35.831Z",
+      "reportEndedAt": "2026-05-03T18:54:08.591Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/YJXw2tKmWNjHMVhQ#fight=7",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-03T18:20:08.238Z",
+      "durationMs": 166352,
+      "bossPercentage": 90.34,
+      "fightPercentage": 57.77,
+      "averageItemLevel": 275.20001220703125,
+      "actor": {
+        "id": 189,
+        "name": "Bullimonk",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "metric": {
+        "dps": 21368.87,
+        "hps": 74068.76,
+        "primary": 74068.76,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 3554755,
+        "healingTotal": 12321487,
+        "damageActiveTimeMs": 128762,
+        "healingActiveTimeMs": 157662,
+        "damageTotalTimeMs": 166352,
+        "healingTotalTimeMs": 166352,
+        "damageEntryId": 189,
+        "healingEntryId": 189,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:189,healing:actor-id:189"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:25:Bullimonk:tarren-mill:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=25",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-04-22T19:27:46.928Z",
+      "durationMs": 91878,
+      "bossPercentage": 81.43,
+      "fightPercentage": 81.43,
+      "averageItemLevel": 274.25,
+      "actor": {
+        "id": 4,
+        "name": "Bullimonk",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "metric": {
+        "dps": 21880.96,
+        "hps": 62963.67,
+        "primary": 62963.67,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2010379,
+        "healingTotal": 5784976,
+        "damageActiveTimeMs": 75092,
+        "healingActiveTimeMs": 80654,
+        "damageTotalTimeMs": 91878,
+        "healingTotalTimeMs": 91878,
+        "damageEntryId": 4,
+        "healingEntryId": 4,
+        "damageItemLevel": 276,
+        "healingItemLevel": 276,
+        "matchedBy": "damage:actor-id:4,healing:actor-id:4"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:24:Bullimonk:tarren-mill:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=24",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-04-22T19:16:48.084Z",
+      "durationMs": 46267,
+      "bossPercentage": 99.91,
+      "fightPercentage": 99.91,
+      "averageItemLevel": 273.3333435058594,
+      "actor": {
+        "id": 4,
+        "name": "Bullimonk",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 1857.48,
+        "primary": 1857.48,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 12
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 85940,
+        "healingActiveTimeMs": 5106,
+        "damageTotalTimeMs": 46267,
+        "healingTotalTimeMs": 46267,
+        "healingEntryId": 4,
+        "healingItemLevel": 276,
+        "matchedBy": "healing:actor-id:4"
+      }
+    },
+    {
+      "key": "DxwhgLPZYBW1nAH6:21:Bullimonk:tarren-mill:eu",
+      "reportCode": "DxwhgLPZYBW1nAH6",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-22T17:47:54.026Z",
+      "reportEndedAt": "2026-04-22T19:33:09.756Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/DxwhgLPZYBW1nAH6#fight=21",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-22T18:56:58.398Z",
+      "durationMs": 187691,
+      "bossPercentage": 60.89,
+      "fightPercentage": 60.89,
+      "averageItemLevel": 271.95001220703125,
+      "actor": {
+        "id": 4,
+        "name": "Bullimonk",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "metric": {
+        "dps": 23741.31,
+        "hps": 68132.45,
+        "primary": 68132.45,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 4456031,
+        "healingTotal": 12787848,
+        "damageActiveTimeMs": 148197,
+        "healingActiveTimeMs": 177149,
+        "damageTotalTimeMs": 187691,
+        "healingTotalTimeMs": 187691,
+        "damageEntryId": 4,
+        "healingEntryId": 4,
+        "damageItemLevel": 276,
+        "healingItemLevel": 276,
+        "matchedBy": "damage:actor-id:4,healing:actor-id:4"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

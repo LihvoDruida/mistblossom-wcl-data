@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.561Z",
+  "updatedAt": "2026-06-03T02:05:14.246Z",
   "character": {
     "name": "Yokum",
     "realmSlug": "terokkar",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 186,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 79.69,
+    "consistencyPercent": 67.26,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 8116.19,
+      "avgHps": 110164.78,
+      "avgPrimary": 110164.78,
       "avgDurationMs": 213419,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 18359.36,
+      "minDps": 7668.52,
+      "maxHps": 138241.95,
+      "minHps": 92978.71,
+      "maxPrimary": 138241.95,
+      "minPrimary": 92978.71,
       "maxDurationMs": 335868,
       "minDurationMs": 50176
     }
@@ -42,6 +42,13 @@
     {
       "key": "8dAPQCWGNMLBjrRg:32:Yokum:terokkar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 32,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 57.68,
       "fightPercentage": 57.68,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 111,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 8260.52,
+        "hps": 113986.72,
+        "primary": 113986.72,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1784132,
+        "healingTotal": 24619193,
+        "damageActiveTimeMs": 133600,
+        "healingActiveTimeMs": 209137,
+        "damageTotalTimeMs": 215983,
+        "healingTotalTimeMs": 215983,
+        "damageEntryId": 111,
+        "healingEntryId": 111,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:31:Yokum:terokkar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 31,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 57.65,
       "fightPercentage": 57.65,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 111,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 7668.52,
+        "hps": 116005.51,
+        "primary": 116005.51,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1736505,
+        "healingTotal": 26268984,
+        "damageActiveTimeMs": 121087,
+        "healingActiveTimeMs": 222832,
+        "damageTotalTimeMs": 226446,
+        "healingTotalTimeMs": 226446,
+        "damageEntryId": 111,
+        "healingEntryId": 111,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:30:Yokum:terokkar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 30,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 58.27,
       "fightPercentage": 58.27,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 111,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 8419.53,
+        "hps": 100502.11,
+        "primary": 100502.11,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1665627,
+        "healingTotal": 19882232,
+        "damageActiveTimeMs": 119465,
+        "healingActiveTimeMs": 178882,
+        "damageTotalTimeMs": 197829,
+        "healingTotalTimeMs": 197829,
+        "damageEntryId": 111,
+        "healingEntryId": 111,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:29:Yokum:terokkar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 29,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
       "status": "WIPE",
@@ -144,24 +220,47 @@
       "bossPercentage": 56.82,
       "fightPercentage": 56.82,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 111,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 8782.82,
+        "hps": 114200.48,
+        "primary": 114200.48,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1951174,
+        "healingTotal": 25370551,
+        "damageActiveTimeMs": 130501,
+        "healingActiveTimeMs": 192830,
+        "damageTotalTimeMs": 222158,
+        "healingTotalTimeMs": 222158,
+        "damageEntryId": 111,
+        "healingEntryId": 111,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:28:Yokum:terokkar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 28,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 58.86,
       "fightPercentage": 58.86,
       "averageItemLevel": 284.75,
+      "actor": {
+        "id": 111,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 8737.78,
+        "hps": 112819.41,
+        "primary": 112819.41,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 1827673,
+        "healingTotal": 23598324,
+        "damageActiveTimeMs": 117256,
+        "healingActiveTimeMs": 190845,
+        "damageTotalTimeMs": 209169,
+        "healingTotalTimeMs": 209169,
+        "damageEntryId": 111,
+        "healingEntryId": 111,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:27:Yokum:terokkar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 27,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
       "status": "WIPE",
@@ -204,24 +326,47 @@
       "bossPercentage": 62.33,
       "fightPercentage": 62.33,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 111,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 13910.77,
+        "hps": 113306.01,
+        "primary": 113306.01,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 2358140,
+        "healingTotal": 19207521,
+        "damageActiveTimeMs": 129549,
+        "healingActiveTimeMs": 158886,
+        "damageTotalTimeMs": 169519,
+        "healingTotalTimeMs": 169519,
+        "damageEntryId": 111,
+        "healingEntryId": 111,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:26:Yokum:terokkar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 26,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
       "status": "WIPE",
@@ -234,24 +379,47 @@
       "bossPercentage": 80.53,
       "fightPercentage": 80.53,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 111,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 18359.36,
+        "hps": 101412.83,
+        "primary": 101412.83,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 934216,
+        "healingTotal": 5160392,
+        "damageActiveTimeMs": 42553,
+        "healingActiveTimeMs": 49590,
+        "damageTotalTimeMs": 50885,
+        "healingTotalTimeMs": 50885,
+        "damageEntryId": 111,
+        "healingEntryId": 111,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:25:Yokum:terokkar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 25,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 79.76,
       "fightPercentage": 79.76,
       "averageItemLevel": 284.70001220703125,
+      "actor": {
+        "id": 111,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 18199.24,
+        "hps": 138241.95,
+        "primary": 138241.95,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 913165,
+        "healingTotal": 6936428,
+        "damageActiveTimeMs": 46472,
+        "healingActiveTimeMs": 49558,
+        "damageTotalTimeMs": 50176,
+        "healingTotalTimeMs": 50176,
+        "damageEntryId": 111,
+        "healingEntryId": 111,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:21:Yokum:terokkar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 21,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
       "status": "KILL",
@@ -294,24 +485,47 @@
       "bossPercentage": 0.01,
       "fightPercentage": 0.01,
       "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 111,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 13371.95,
+        "hps": 124081.27,
+        "primary": 124081.27,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 3
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 4491211,
+        "healingTotal": 41674928,
+        "damageActiveTimeMs": 305776,
+        "healingActiveTimeMs": 334993,
+        "damageTotalTimeMs": 335868,
+        "healingTotalTimeMs": 335868,
+        "damageEntryId": 111,
+        "healingEntryId": 111,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
       }
     },
     {
       "key": "8dAPQCWGNMLBjrRg:20:Yokum:terokkar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-29T16:34:39.016Z",
+      "reportEndedAt": "2026-05-29T20:10:15.076Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 20,
       "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
       "status": "WIPE",
@@ -324,19 +538,35 @@
       "bossPercentage": 27.56,
       "fightPercentage": 27.56,
       "averageItemLevel": 284.8500061035156,
+      "actor": {
+        "id": 111,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 9556.67,
+        "hps": 92978.71,
+        "primary": 92978.71,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 2732805,
+        "healingTotal": 26588005,
+        "damageActiveTimeMs": 206436,
+        "healingActiveTimeMs": 233290,
+        "damageTotalTimeMs": 285958,
+        "healingTotalTimeMs": 285958,
+        "damageEntryId": 111,
+        "healingEntryId": 111,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
       }
     }
   ],

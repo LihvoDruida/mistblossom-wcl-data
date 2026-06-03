@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.249Z",
   "character": {
     "name": "Тузольд",
     "realmSlug": "gordunni",
@@ -10,35 +10,566 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 10,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 10,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 198,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 66.71,
+    "consistencyPercent": 37.29,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 60662.06,
+      "avgHps": 6039.2,
+      "avgPrimary": 60662.06,
+      "avgDurationMs": 156513,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 90936.54,
+      "minDps": 33914.12,
+      "maxHps": 8590.03,
+      "minHps": 1810.3,
+      "maxPrimary": 90936.54,
+      "minPrimary": 33914.12,
+      "maxDurationMs": 244303,
+      "minDurationMs": 71050
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "kXv1mMLg9xdhz4P3:4:Тузольд:gordunni:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 4,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=4",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T17:21:06.711Z",
+      "durationMs": 208611,
+      "bossPercentage": 27.02,
+      "fightPercentage": 27.02,
+      "averageItemLevel": 275.76190185546875,
+      "actor": {
+        "id": 1,
+        "name": "Тузольд",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 33914.12,
+        "hps": 1810.3,
+        "primary": 33914.12,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 13
+      },
+      "source": {
+        "damageTotal": 7074858,
+        "healingTotal": 377649,
+        "damageActiveTimeMs": 117396,
+        "healingActiveTimeMs": 112987,
+        "damageTotalTimeMs": 208611,
+        "healingTotalTimeMs": 208611,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      }
+    },
+    {
+      "key": "kXv1mMLg9xdhz4P3:2:Тузольд:gordunni:eu",
+      "reportCode": "kXv1mMLg9xdhz4P3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-09T17:12:38.437Z",
+      "reportEndedAt": "2026-05-09T19:42:56.285Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 2,
+      "url": "https://www.warcraftlogs.com/reports/kXv1mMLg9xdhz4P3#fight=2",
+      "status": "WIPE",
+      "bossName": "Imperator Averzian",
+      "encounterId": 3176,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-09T17:18:58.352Z",
+      "durationMs": 71050,
+      "bossPercentage": 69.88,
+      "fightPercentage": 69.88,
+      "averageItemLevel": 275.76190185546875,
+      "actor": {
+        "id": 1,
+        "name": "Тузольд",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 90936.54,
+        "hps": 7899.35,
+        "primary": 90936.54,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 6461041,
+        "healingTotal": 561249,
+        "damageActiveTimeMs": 69914,
+        "healingActiveTimeMs": 58804,
+        "damageTotalTimeMs": 71050,
+        "healingTotalTimeMs": 71050,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:7:Тузольд:gordunni:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=7",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:32:57.015Z",
+      "durationMs": 189878,
+      "bossPercentage": 43.19,
+      "fightPercentage": 49.44,
+      "averageItemLevel": 276.3500061035156,
+      "actor": {
+        "id": 83,
+        "name": "Тузольд",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 57135.53,
+        "hps": 8407.94,
+        "primary": 57135.53,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 10848780,
+        "healingTotal": 1596483,
+        "damageActiveTimeMs": 168230,
+        "healingActiveTimeMs": 161264,
+        "damageTotalTimeMs": 189878,
+        "healingTotalTimeMs": 189878,
+        "damageEntryId": 83,
+        "healingEntryId": 83,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:83,healing:actor-id:83"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:6:Тузольд:gordunni:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=6",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:11:01.871Z",
+      "durationMs": 244303,
+      "bossPercentage": 35.54,
+      "fightPercentage": 49.6,
+      "averageItemLevel": 275.8999938964844,
+      "actor": {
+        "id": 83,
+        "name": "Тузольд",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 64539.67,
+        "hps": 4612.09,
+        "primary": 64539.67,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 15767234,
+        "healingTotal": 1126748,
+        "damageActiveTimeMs": 240566,
+        "healingActiveTimeMs": 230535,
+        "damageTotalTimeMs": 244303,
+        "healingTotalTimeMs": 244303,
+        "damageEntryId": 83,
+        "healingEntryId": 83,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:83,healing:actor-id:83"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:5:Тузольд:gordunni:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 5,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=5",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T18:01:11.801Z",
+      "durationMs": 234430,
+      "bossPercentage": 34.67,
+      "fightPercentage": 53.51,
+      "averageItemLevel": 276.5,
+      "actor": {
+        "id": 83,
+        "name": "Тузольд",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 60487.77,
+        "hps": 4096.98,
+        "primary": 60487.77,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 14180147,
+        "healingTotal": 960455,
+        "damageActiveTimeMs": 228076,
+        "healingActiveTimeMs": 214344,
+        "damageTotalTimeMs": 234430,
+        "healingTotalTimeMs": 234430,
+        "damageEntryId": 83,
+        "healingEntryId": 83,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:83,healing:actor-id:83"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:4:Тузольд:gordunni:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 4,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=4",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T17:54:15.765Z",
+      "durationMs": 228820,
+      "bossPercentage": 36.35,
+      "fightPercentage": 45.01,
+      "averageItemLevel": 276.5,
+      "actor": {
+        "id": 83,
+        "name": "Тузольд",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 68601.46,
+        "hps": 6776.33,
+        "primary": 68601.46,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 15697386,
+        "healingTotal": 1550560,
+        "damageActiveTimeMs": 223752,
+        "healingActiveTimeMs": 214520,
+        "damageTotalTimeMs": 228820,
+        "healingTotalTimeMs": 228820,
+        "damageEntryId": 83,
+        "healingEntryId": 83,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:83,healing:actor-id:83"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:3:Тузольд:gordunni:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 3,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=3",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T17:49:13.867Z",
+      "durationMs": 113961,
+      "bossPercentage": 99.91,
+      "fightPercentage": 99.91,
+      "averageItemLevel": 276.5,
+      "actor": {
+        "id": 83,
+        "name": "Тузольд",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 54925.53,
+        "hps": 4510.14,
+        "primary": 54925.53,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 6259368,
+        "healingTotal": 513980,
+        "damageActiveTimeMs": 108326,
+        "healingActiveTimeMs": 95787,
+        "damageTotalTimeMs": 113961,
+        "healingTotalTimeMs": 113961,
+        "damageEntryId": 83,
+        "healingEntryId": 83,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:83,healing:actor-id:83"
+      }
+    },
+    {
+      "key": "rTcy1FHzkwg2ZvMQ:2:Тузольд:gordunni:eu",
+      "reportCode": "rTcy1FHzkwg2ZvMQ",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-01T17:23:54.314Z",
+      "reportEndedAt": "2026-05-01T19:13:44.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 2,
+      "url": "https://www.warcraftlogs.com/reports/rTcy1FHzkwg2ZvMQ#fight=2",
+      "status": "WIPE",
+      "bossName": "Belo'ren, Child of Al'ar",
+      "encounterId": 3182,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-01T17:43:11.619Z",
+      "durationMs": 167453,
+      "bossPercentage": 66.99,
+      "fightPercentage": 53.38,
+      "averageItemLevel": 276.3999938964844,
+      "actor": {
+        "id": 83,
+        "name": "Тузольд",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 70724.66,
+        "hps": 5198.56,
+        "primary": 70724.66,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 11843057,
+        "healingTotal": 870514,
+        "damageActiveTimeMs": 163268,
+        "healingActiveTimeMs": 144526,
+        "damageTotalTimeMs": 167453,
+        "healingTotalTimeMs": 167453,
+        "damageEntryId": 83,
+        "healingEntryId": 83,
+        "damageItemLevel": 275,
+        "healingItemLevel": 275,
+        "matchedBy": "damage:actor-id:83,healing:actor-id:83"
+      }
+    },
+    {
+      "key": "cRt7mFzBJXD9dHfY:31:Тузольд:gordunni:eu",
+      "reportCode": "cRt7mFzBJXD9dHfY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-17T17:09:55.737Z",
+      "reportEndedAt": "2026-04-17T19:43:28.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 31,
+      "url": "https://www.warcraftlogs.com/reports/cRt7mFzBJXD9dHfY#fight=31",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-17T19:39:25.176Z",
+      "durationMs": 122633,
+      "bossPercentage": 71.93,
+      "fightPercentage": 71.93,
+      "averageItemLevel": 270.70001220703125,
+      "actor": {
+        "id": 243,
+        "name": "Тузольд",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 74277.77,
+        "hps": 8590.03,
+        "primary": 74277.77,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 9108906,
+        "healingTotal": 1053421,
+        "damageActiveTimeMs": 120465,
+        "healingActiveTimeMs": 103458,
+        "damageTotalTimeMs": 122633,
+        "healingTotalTimeMs": 122633,
+        "damageEntryId": 243,
+        "healingEntryId": 243,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:243,healing:actor-id:243"
+      }
+    },
+    {
+      "key": "cRt7mFzBJXD9dHfY:30:Тузольд:gordunni:eu",
+      "reportCode": "cRt7mFzBJXD9dHfY",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-17T17:09:55.737Z",
+      "reportEndedAt": "2026-04-17T19:43:28.918Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/cRt7mFzBJXD9dHfY#fight=30",
+      "status": "WIPE",
+      "bossName": "Vaelgor & Ezzorak",
+      "encounterId": 3178,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-04-17T19:35:43.812Z",
+      "durationMs": 130980,
+      "bossPercentage": 71.16,
+      "fightPercentage": 71.16,
+      "averageItemLevel": 270.70001220703125,
+      "actor": {
+        "id": 243,
+        "name": "Тузольд",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "metric": {
+        "dps": 56607.54,
+        "hps": 4218.04,
+        "primary": 56607.54,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 7414456,
+        "healingTotal": 552479,
+        "damageActiveTimeMs": 115286,
+        "healingActiveTimeMs": 94539,
+        "damageTotalTimeMs": 130980,
+        "healingTotalTimeMs": 130980,
+        "damageEntryId": 243,
+        "healingEntryId": 243,
+        "damageItemLevel": 270,
+        "healingItemLevel": 270,
+        "matchedBy": "damage:actor-id:243,healing:actor-id:243"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

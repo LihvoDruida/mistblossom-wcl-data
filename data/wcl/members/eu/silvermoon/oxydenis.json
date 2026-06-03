@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.563Z",
+  "updatedAt": "2026-06-03T02:05:14.248Z",
   "character": {
     "name": "Oxydenis",
     "realmSlug": "silvermoon",
@@ -11,157 +11,44 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 0,
-    "wipes": 10,
-    "killRate": 0,
-    "wipeRate": 1,
+    "kills": 1,
+    "wipes": 9,
+    "killRate": 0.1,
+    "wipeRate": 0.9,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 221,
+    "totalRaidDeaths": 182,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 45.67,
+    "consistencyPercent": 0.03,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 156003,
+      "avgDps": 73833.94,
+      "avgHps": 5474.76,
+      "avgPrimary": 73848.62,
+      "avgDurationMs": 100143,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 197390,
+      "maxDps": 161690.54,
+      "minDps": 19088.48,
+      "maxHps": 9089.11,
+      "minHps": 44.04,
+      "maxPrimary": 161690.54,
+      "minPrimary": 44.04,
+      "maxDurationMs": 379041,
       "minDurationMs": 32791
     }
   },
   "pulls": [
     {
-      "key": "1K8hqtcZvRg4QAaD:25:Oxydenis:silvermoon:eu",
-      "reportCode": "1K8hqtcZvRg4QAaD",
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=25",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-10T19:26:10.591Z",
-      "durationMs": 197390,
-      "bossPercentage": 74.88,
-      "fightPercentage": 17.92,
-      "averageItemLevel": 278,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 27
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "1K8hqtcZvRg4QAaD:23:Oxydenis:silvermoon:eu",
-      "reportCode": "1K8hqtcZvRg4QAaD",
-      "fightId": 23,
-      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=23",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-10T19:12:57.692Z",
-      "durationMs": 175892,
-      "bossPercentage": 96.97,
-      "fightPercentage": 57.94,
-      "averageItemLevel": 277.8518371582031,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 28
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "1K8hqtcZvRg4QAaD:22:Oxydenis:silvermoon:eu",
-      "reportCode": "1K8hqtcZvRg4QAaD",
-      "fightId": 22,
-      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=22",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-10T19:02:08.211Z",
-      "durationMs": 94728,
-      "bossPercentage": 0.88,
-      "fightPercentage": 100,
-      "averageItemLevel": 278.1153869628906,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 25
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
-      "key": "1K8hqtcZvRg4QAaD:21:Oxydenis:silvermoon:eu",
-      "reportCode": "1K8hqtcZvRg4QAaD",
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=21",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-10T18:56:04.051Z",
-      "durationMs": 144442,
-      "bossPercentage": 97,
-      "fightPercentage": 31.11,
-      "averageItemLevel": 278.0799865722656,
-      "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 26
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
-      }
-    },
-    {
       "key": "1K8hqtcZvRg4QAaD:18:Oxydenis:silvermoon:eu",
       "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
       "fightId": 18,
       "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=18",
       "status": "WIPE",
@@ -174,11 +61,18 @@
       "bossPercentage": 99.53,
       "fightPercentage": 99.82,
       "averageItemLevel": 277.5,
+      "actor": {
+        "id": 150,
+        "name": "Oxydenis",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
         "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "hps": 44.04,
+        "primary": 44.04,
+        "primaryKind": "hps"
       },
       "deaths": {
         "character": 0,
@@ -186,12 +80,25 @@
       },
       "source": {
         "damageTotal": 0,
-        "healingTotal": 0
+        "healingTotal": 1444,
+        "healingActiveTimeMs": 1006,
+        "damageTotalTimeMs": 32791,
+        "healingTotalTimeMs": 32791,
+        "healingEntryId": 150,
+        "healingItemLevel": 282,
+        "matchedBy": "healing:actor-id:150"
       }
     },
     {
       "key": "1K8hqtcZvRg4QAaD:17:Oxydenis:silvermoon:eu",
       "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
       "fightId": 17,
       "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=17",
       "status": "WIPE",
@@ -204,24 +111,47 @@
       "bossPercentage": 52.71,
       "fightPercentage": 82.02,
       "averageItemLevel": 277.5789489746094,
+      "actor": {
+        "id": 150,
+        "name": "Oxydenis",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 85375.47,
+        "hps": 7291.13,
+        "primary": 85375.47,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 19
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 10114517,
+        "healingTotal": 863787,
+        "damageActiveTimeMs": 106094,
+        "healingActiveTimeMs": 96008,
+        "damageTotalTimeMs": 118471,
+        "healingTotalTimeMs": 118471,
+        "damageEntryId": 150,
+        "healingEntryId": 150,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:150,healing:actor-id:150"
       }
     },
     {
       "key": "1K8hqtcZvRg4QAaD:16:Oxydenis:silvermoon:eu",
       "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
       "fightId": 16,
       "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=16",
       "status": "WIPE",
@@ -234,24 +164,47 @@
       "bossPercentage": 5.94,
       "fightPercentage": 64.25,
       "averageItemLevel": 277.5789489746094,
+      "actor": {
+        "id": 150,
+        "name": "Oxydenis",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 136126.35,
+        "hps": 9089.11,
+        "primary": 136126.35,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 19
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 20305696,
+        "healingTotal": 1355805,
+        "damageActiveTimeMs": 143445,
+        "healingActiveTimeMs": 132451,
+        "damageTotalTimeMs": 149168,
+        "healingTotalTimeMs": 149168,
+        "damageEntryId": 150,
+        "healingEntryId": 150,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:150,healing:actor-id:150"
       }
     },
     {
       "key": "1K8hqtcZvRg4QAaD:15:Oxydenis:silvermoon:eu",
       "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
       "fightId": 15,
       "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=15",
       "status": "WIPE",
@@ -264,24 +217,47 @@
       "bossPercentage": 23.15,
       "fightPercentage": 70.79,
       "averageItemLevel": 278.3157958984375,
+      "actor": {
+        "id": 150,
+        "name": "Oxydenis",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 42307.9,
+        "hps": 4209.25,
+        "primary": 42307.9,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 6629141,
+        "healingTotal": 659539,
+        "damageActiveTimeMs": 79405,
+        "healingActiveTimeMs": 73020,
+        "damageTotalTimeMs": 156688,
+        "healingTotalTimeMs": 156688,
+        "damageEntryId": 150,
+        "healingEntryId": 150,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:150,healing:actor-id:150"
       }
     },
     {
       "key": "1K8hqtcZvRg4QAaD:14:Oxydenis:silvermoon:eu",
       "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
       "fightId": 14,
       "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=14",
       "status": "WIPE",
@@ -294,24 +270,47 @@
       "bossPercentage": 0.83,
       "fightPercentage": 62.31,
       "averageItemLevel": 278.3157958984375,
+      "actor": {
+        "id": 150,
+        "name": "Oxydenis",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 161690.54,
+        "hps": 7199.59,
+        "primary": 161690.54,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 24307747,
+        "healingTotal": 1082350,
+        "damageActiveTimeMs": 147248,
+        "healingActiveTimeMs": 138012,
+        "damageTotalTimeMs": 150335,
+        "healingTotalTimeMs": 150335,
+        "damageEntryId": 150,
+        "healingEntryId": 150,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:150,healing:actor-id:150"
       }
     },
     {
       "key": "1K8hqtcZvRg4QAaD:13:Oxydenis:silvermoon:eu",
       "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
       "fightId": 13,
       "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=13",
       "status": "WIPE",
@@ -324,19 +323,247 @@
       "bossPercentage": 27.71,
       "fightPercentage": 72.52,
       "averageItemLevel": 278.1666564941406,
+      "actor": {
+        "id": 150,
+        "name": "Oxydenis",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Paladin"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 128428.22,
+        "hps": 7267.28,
+        "primary": 128428.22,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 19
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 18219855,
+        "healingTotal": 1030995,
+        "damageActiveTimeMs": 138291,
+        "healingActiveTimeMs": 129981,
+        "damageTotalTimeMs": 141868,
+        "healingTotalTimeMs": 141868,
+        "damageEntryId": 150,
+        "healingEntryId": 150,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:150,healing:actor-id:150"
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:12:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=12",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T17:56:44.405Z",
+      "durationMs": 106536,
+      "bossPercentage": 43.01,
+      "fightPercentage": 78.34,
+      "averageItemLevel": 278.1666564941406,
+      "actor": {
+        "id": 150,
+        "name": "Oxydenis",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 19088.48,
+        "hps": 996.8,
+        "primary": 19088.48,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 18
+      },
+      "source": {
+        "damageTotal": 2033610,
+        "healingTotal": 106195,
+        "damageActiveTimeMs": 18666,
+        "healingActiveTimeMs": 14008,
+        "damageTotalTimeMs": 106536,
+        "healingTotalTimeMs": 106536,
+        "damageEntryId": 150,
+        "healingEntryId": 150,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:150,healing:actor-id:150"
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:10:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=10",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T17:51:45.438Z",
+      "durationMs": 78565,
+      "bossPercentage": 65.97,
+      "fightPercentage": 87.06,
+      "averageItemLevel": 278.1499938964844,
+      "actor": {
+        "id": 150,
+        "name": "Oxydenis",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 103551.42,
+        "hps": 8855.65,
+        "primary": 103551.42,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8135517,
+        "healingTotal": 695744,
+        "damageActiveTimeMs": 56897,
+        "healingActiveTimeMs": 56022,
+        "damageTotalTimeMs": 78565,
+        "healingTotalTimeMs": 78565,
+        "damageEntryId": 150,
+        "healingEntryId": 150,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:150,healing:actor-id:150"
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:8:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=8",
+      "status": "KILL",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T17:34:26.948Z",
+      "durationMs": 379041,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 278.29998779296875,
+      "actor": {
+        "id": 150,
+        "name": "Oxydenis",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 111115.82,
+        "hps": 8459.64,
+        "primary": 111115.82,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 8
+      },
+      "source": {
+        "damageTotal": 42117450,
+        "healingTotal": 3206552,
+        "damageActiveTimeMs": 376408,
+        "healingActiveTimeMs": 377954,
+        "damageTotalTimeMs": 379041,
+        "healingTotalTimeMs": 379041,
+        "damageEntryId": 150,
+        "healingEntryId": 150,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:150,healing:actor-id:150"
+      }
+    },
+    {
+      "key": "1K8hqtcZvRg4QAaD:6:Oxydenis:silvermoon:eu",
+      "reportCode": "1K8hqtcZvRg4QAaD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-05-10T15:51:55.183Z",
+      "reportEndedAt": "2026-05-10T19:32:13.001Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/1K8hqtcZvRg4QAaD#fight=6",
+      "status": "WIPE",
+      "bossName": "Lightblinded Vanguard",
+      "encounterId": 3180,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-10T17:28:27.833Z",
+      "durationMs": 193921,
+      "bossPercentage": 35.35,
+      "fightPercentage": 35.35,
+      "averageItemLevel": 276.75,
+      "actor": {
+        "id": 150,
+        "name": "Oxydenis",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "metric": {
+        "dps": 115940.47,
+        "hps": 8981.19,
+        "primary": 115940.47,
+        "primaryKind": "dps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 22483291,
+        "healingTotal": 1741641,
+        "damageActiveTimeMs": 177305,
+        "healingActiveTimeMs": 172011,
+        "damageTotalTimeMs": 193921,
+        "healingTotalTimeMs": 193921,
+        "damageEntryId": 150,
+        "healingEntryId": 150,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:150,healing:actor-id:150"
       }
     }
   ],

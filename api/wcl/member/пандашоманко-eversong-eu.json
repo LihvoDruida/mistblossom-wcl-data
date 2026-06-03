@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.562Z",
+  "updatedAt": "2026-06-03T02:05:14.247Z",
   "character": {
     "name": "Пандашоманко",
     "realmSlug": "eversong",
@@ -10,35 +10,539 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 10,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 10,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 150,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 95.2,
+    "consistencyPercent": 79.38,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgDps": 120.75,
+      "avgHps": 97502.94,
+      "avgPrimary": 97502.94,
+      "avgDurationMs": 426578,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxDps": 362.24,
+      "minDps": 362.24,
+      "maxHps": 102417.3,
+      "minHps": 81297.68,
+      "maxPrimary": 102417.3,
+      "minPrimary": 81297.68,
+      "maxDurationMs": 543654,
+      "minDurationMs": 64027
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "4Zng3fprDXvGjb1V:18:Пандашоманко:eversong:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=18",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T19:09:27.100Z",
+      "durationMs": 291403,
+      "bossPercentage": 22.18,
+      "fightPercentage": 35.54,
+      "averageItemLevel": 280.78570556640625,
+      "actor": {
+        "id": 86,
+        "name": "Пандашоманко",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 100947.71,
+        "primary": 100947.71,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 29416465,
+        "healingActiveTimeMs": 289582,
+        "damageTotalTimeMs": 291403,
+        "healingTotalTimeMs": 291403,
+        "healingEntryId": 86,
+        "healingItemLevel": 274,
+        "matchedBy": "healing:actor-id:86"
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:17:Пандашоманко:eversong:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=17",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:56:24.188Z",
+      "durationMs": 543654,
+      "bossPercentage": 30.26,
+      "fightPercentage": 8.47,
+      "averageItemLevel": 280.78570556640625,
+      "actor": {
+        "id": 86,
+        "name": "Пандашоманко",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 362.24,
+        "hps": 99583.16,
+        "primary": 99583.16,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 196934,
+        "healingTotal": 54138784,
+        "damageActiveTimeMs": 18017,
+        "healingActiveTimeMs": 538907,
+        "damageTotalTimeMs": 543654,
+        "healingTotalTimeMs": 543654,
+        "damageEntryId": 86,
+        "healingEntryId": 86,
+        "damageItemLevel": 274,
+        "healingItemLevel": 274,
+        "matchedBy": "damage:actor-id:86,healing:actor-id:86"
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:16:Пандашоманко:eversong:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=16",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:35:38.267Z",
+      "durationMs": 444676,
+      "bossPercentage": 27.83,
+      "fightPercentage": 7.79,
+      "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 86,
+        "name": "Пандашоманко",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 91977.95,
+        "primary": 91977.95,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 14
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 40900387,
+        "healingActiveTimeMs": 444229,
+        "damageTotalTimeMs": 444676,
+        "healingTotalTimeMs": 444676,
+        "healingEntryId": 86,
+        "healingItemLevel": 274,
+        "matchedBy": "healing:actor-id:86"
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:15:Пандашоманко:eversong:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=15",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:29:59.322Z",
+      "durationMs": 168201,
+      "bossPercentage": 99.93,
+      "fightPercentage": 61.97,
+      "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 86,
+        "name": "Пандашоманко",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 81297.68,
+        "primary": 81297.68,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 13674351,
+        "healingActiveTimeMs": 165024,
+        "damageTotalTimeMs": 168201,
+        "healingTotalTimeMs": 168201,
+        "healingEntryId": 86,
+        "healingItemLevel": 274,
+        "matchedBy": "healing:actor-id:86"
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:14:Пандашоманко:eversong:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=14",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:23:32.414Z",
+      "durationMs": 263926,
+      "bossPercentage": 51.89,
+      "fightPercentage": 45.64,
+      "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 86,
+        "name": "Пандашоманко",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 102334.64,
+        "primary": 102334.64,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 27008771,
+        "healingActiveTimeMs": 260239,
+        "damageTotalTimeMs": 263926,
+        "healingTotalTimeMs": 263926,
+        "healingEntryId": 86,
+        "healingItemLevel": 274,
+        "matchedBy": "healing:actor-id:86"
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:13:Пандашоманко:eversong:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=13",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:14:24.461Z",
+      "durationMs": 462361,
+      "bossPercentage": 37.61,
+      "fightPercentage": 10.53,
+      "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 86,
+        "name": "Пандашоманко",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 102417.3,
+        "primary": 102417.3,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 47353765,
+        "healingActiveTimeMs": 461477,
+        "damageTotalTimeMs": 462361,
+        "healingTotalTimeMs": 462361,
+        "healingEntryId": 86,
+        "healingItemLevel": 274,
+        "matchedBy": "healing:actor-id:86"
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:12:Пандашоманко:eversong:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=12",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:12:17.451Z",
+      "durationMs": 64027,
+      "bossPercentage": 65.47,
+      "fightPercentage": 86.87,
+      "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 86,
+        "name": "Пандашоманко",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 86053.43,
+        "primary": 86053.43,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 14
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 5509743,
+        "healingActiveTimeMs": 61732,
+        "damageTotalTimeMs": 64027,
+        "healingTotalTimeMs": 64027,
+        "healingEntryId": 86,
+        "healingItemLevel": 274,
+        "matchedBy": "healing:actor-id:86"
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:11:Пандашоманко:eversong:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=11",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:08:04.750Z",
+      "durationMs": 127574,
+      "bossPercentage": 32.96,
+      "fightPercentage": 74.52,
+      "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 86,
+        "name": "Пандашоманко",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 85312.51,
+        "primary": 85312.51,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 14
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 10883658,
+        "healingActiveTimeMs": 125391,
+        "damageTotalTimeMs": 127574,
+        "healingTotalTimeMs": 127574,
+        "healingEntryId": 86,
+        "healingItemLevel": 274,
+        "matchedBy": "healing:actor-id:86"
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:10:Пандашоманко:eversong:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=10",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T18:02:32.617Z",
+      "durationMs": 242881,
+      "bossPercentage": 57.99,
+      "fightPercentage": 47.71,
+      "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 86,
+        "name": "Пандашоманко",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 101508.78,
+        "primary": 101508.78,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 24654553,
+        "healingActiveTimeMs": 237156,
+        "damageTotalTimeMs": 242881,
+        "healingTotalTimeMs": 242881,
+        "healingEntryId": 86,
+        "healingItemLevel": 274,
+        "matchedBy": "healing:actor-id:86"
+      }
+    },
+    {
+      "key": "4Zng3fprDXvGjb1V:9:Пандашоманко:eversong:eu",
+      "reportCode": "4Zng3fprDXvGjb1V",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-05-17T16:43:04.255Z",
+      "reportEndedAt": "2026-05-17T19:15:23.122Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=9",
+      "status": "WIPE",
+      "bossName": "Crown of the Cosmos",
+      "encounterId": 3181,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-05-17T17:57:19.007Z",
+      "durationMs": 242761,
+      "bossPercentage": 61.85,
+      "fightPercentage": 49.02,
+      "averageItemLevel": 280.71429443359375,
+      "actor": {
+        "id": 86,
+        "name": "Пандашоманко",
+        "server": "ВечнаяПесня",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 92318.18,
+        "primary": 92318.18,
+        "primaryKind": "hps"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 15
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 22411253,
+        "healingActiveTimeMs": 234021,
+        "damageTotalTimeMs": 242761,
+        "healingTotalTimeMs": 242761,
+        "healingEntryId": 86,
+        "healingItemLevel": 274,
+        "matchedBy": "healing:actor-id:86"
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 24,
     "fightsScanned": 309,

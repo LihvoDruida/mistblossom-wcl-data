@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-03T00:22:47.562Z",
+  "updatedAt": "2026-06-03T02:05:14.247Z",
   "character": {
     "name": "Lishiyburn",
     "realmSlug": "ragnaros",
@@ -18,22 +18,22 @@
     "totalCharacterDeaths": 0,
     "totalRaidDeaths": 165,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 80.17,
+    "consistencyPercent": 41.48,
     "recent3": {
-      "avgDps": 0,
-      "avgHps": 0,
-      "avgPrimary": 0,
+      "avgDps": 46906.83,
+      "avgHps": 4221.92,
+      "avgPrimary": 46906.83,
       "avgDurationMs": 177551,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 0,
-      "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
+      "maxDps": 58510.27,
+      "minDps": 24272.47,
+      "maxHps": 8143.44,
+      "minHps": 3007.46,
+      "maxPrimary": 58510.27,
+      "minPrimary": 24272.47,
       "maxDurationMs": 398108,
       "minDurationMs": 75997
     }
@@ -42,6 +42,13 @@
     {
       "key": "rvpaDMhHzwxAB8Qg:17:Lishiyburn:ragnaros:eu",
       "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 17,
       "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=17",
       "status": "WIPE",
@@ -54,24 +61,47 @@
       "bossPercentage": 73.32,
       "fightPercentage": 73.32,
       "averageItemLevel": 264.70001220703125,
+      "actor": {
+        "id": 2,
+        "name": "Lishiyburn",
+        "server": "Ragnaros",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 58510.27,
+        "hps": 6336.18,
+        "primary": 58510.27,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 19
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 10077282,
+        "healingTotal": 1091287,
+        "damageActiveTimeMs": 169848,
+        "healingActiveTimeMs": 151139,
+        "damageTotalTimeMs": 172231,
+        "healingTotalTimeMs": 172231,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 261,
+        "healingItemLevel": 261,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "rvpaDMhHzwxAB8Qg:16:Lishiyburn:ragnaros:eu",
       "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 16,
       "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=16",
       "status": "WIPE",
@@ -84,24 +114,47 @@
       "bossPercentage": 73.73,
       "fightPercentage": 73.73,
       "averageItemLevel": 264.3500061035156,
+      "actor": {
+        "id": 2,
+        "name": "Lishiyburn",
+        "server": "Ragnaros",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 57937.74,
+        "hps": 3322.11,
+        "primary": 57937.74,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 19
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 7539670,
+        "healingTotal": 432319,
+        "damageActiveTimeMs": 126458,
+        "healingActiveTimeMs": 77638,
+        "damageTotalTimeMs": 130134,
+        "healingTotalTimeMs": 130134,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 261,
+        "healingItemLevel": 261,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "rvpaDMhHzwxAB8Qg:15:Lishiyburn:ragnaros:eu",
       "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 15,
       "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=15",
       "status": "WIPE",
@@ -114,24 +167,47 @@
       "bossPercentage": 66.37,
       "fightPercentage": 66.37,
       "averageItemLevel": 264.1000061035156,
+      "actor": {
+        "id": 2,
+        "name": "Lishiyburn",
+        "server": "Ragnaros",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 24272.47,
+        "hps": 3007.46,
+        "primary": 24272.47,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 19
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 5589634,
+        "healingTotal": 692579,
+        "damageActiveTimeMs": 226836,
+        "healingActiveTimeMs": 71462,
+        "damageTotalTimeMs": 230287,
+        "healingTotalTimeMs": 230287,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 261,
+        "healingItemLevel": 261,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "rvpaDMhHzwxAB8Qg:12:Lishiyburn:ragnaros:eu",
       "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 12,
       "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=12",
       "status": "KILL",
@@ -144,24 +220,47 @@
       "bossPercentage": 0.11,
       "fightPercentage": 0.11,
       "averageItemLevel": 265.1000061035156,
+      "actor": {
+        "id": 2,
+        "name": "Lishiyburn",
+        "server": "Ragnaros",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 40635.64,
+        "hps": 8143.44,
+        "primary": 40635.64,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 2
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 16177375,
+        "healingTotal": 3241969,
+        "damageActiveTimeMs": 396286,
+        "healingActiveTimeMs": 359490,
+        "damageTotalTimeMs": 398108,
+        "healingTotalTimeMs": 398108,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 261,
+        "healingItemLevel": 261,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "rvpaDMhHzwxAB8Qg:11:Lishiyburn:ragnaros:eu",
       "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 11,
       "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=11",
       "status": "WIPE",
@@ -174,24 +273,47 @@
       "bossPercentage": 57.21,
       "fightPercentage": 57.21,
       "averageItemLevel": 265.1000061035156,
+      "actor": {
+        "id": 2,
+        "name": "Lishiyburn",
+        "server": "Ragnaros",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 51991.29,
+        "hps": 6195.83,
+        "primary": 51991.29,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 8037645,
+        "healingTotal": 957851,
+        "damageActiveTimeMs": 152003,
+        "healingActiveTimeMs": 140848,
+        "damageTotalTimeMs": 154596,
+        "healingTotalTimeMs": 154596,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 261,
+        "healingItemLevel": 261,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "rvpaDMhHzwxAB8Qg:6:Lishiyburn:ragnaros:eu",
       "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 6,
       "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=6",
       "status": "KILL",
@@ -204,24 +326,47 @@
       "bossPercentage": 0.14,
       "fightPercentage": 0.14,
       "averageItemLevel": 265.20001220703125,
+      "actor": {
+        "id": 2,
+        "name": "Lishiyburn",
+        "server": "Ragnaros",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 42771.37,
+        "hps": 6230.2,
+        "primary": 42771.37,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 4
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 14345347,
+        "healingTotal": 2089585,
+        "damageActiveTimeMs": 331027,
+        "healingActiveTimeMs": 297497,
+        "damageTotalTimeMs": 335396,
+        "healingTotalTimeMs": 335396,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 261,
+        "healingItemLevel": 261,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "rvpaDMhHzwxAB8Qg:5:Lishiyburn:ragnaros:eu",
       "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 5,
       "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=5",
       "status": "WIPE",
@@ -234,24 +379,47 @@
       "bossPercentage": 25.55,
       "fightPercentage": 25.55,
       "averageItemLevel": 265.1499938964844,
+      "actor": {
+        "id": 2,
+        "name": "Lishiyburn",
+        "server": "Ragnaros",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 32787.84,
+        "hps": 5288.2,
+        "primary": 32787.84,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 9779858,
+        "healingTotal": 1577347,
+        "damageActiveTimeMs": 295833,
+        "healingActiveTimeMs": 200771,
+        "damageTotalTimeMs": 298277,
+        "healingTotalTimeMs": 298277,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 261,
+        "healingItemLevel": 261,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "rvpaDMhHzwxAB8Qg:4:Lishiyburn:ragnaros:eu",
       "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 4,
       "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=4",
       "status": "WIPE",
@@ -264,24 +432,47 @@
       "bossPercentage": 78.98,
       "fightPercentage": 78.98,
       "averageItemLevel": 265.1499938964844,
+      "actor": {
+        "id": 2,
+        "name": "Lishiyburn",
+        "server": "Ragnaros",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 40410.77,
+        "hps": 4206.38,
+        "primary": 40410.77,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 3071097,
+        "healingTotal": 319672,
+        "damageActiveTimeMs": 73236,
+        "healingActiveTimeMs": 29400,
+        "damageTotalTimeMs": 75997,
+        "healingTotalTimeMs": 75997,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 261,
+        "healingItemLevel": 261,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "rvpaDMhHzwxAB8Qg:3:Lishiyburn:ragnaros:eu",
       "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 3,
       "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=3",
       "status": "WIPE",
@@ -294,24 +485,47 @@
       "bossPercentage": 0.26,
       "fightPercentage": 0.26,
       "averageItemLevel": 265.1499938964844,
+      "actor": {
+        "id": 2,
+        "name": "Lishiyburn",
+        "server": "Ragnaros",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 43815.53,
+        "hps": 7527.82,
+        "primary": 43815.53,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 20
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 16517753,
+        "healingTotal": 2837867,
+        "damageActiveTimeMs": 374382,
+        "healingActiveTimeMs": 359078,
+        "damageTotalTimeMs": 376984,
+        "healingTotalTimeMs": 376984,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 261,
+        "healingItemLevel": 261,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     },
     {
       "key": "rvpaDMhHzwxAB8Qg:2:Lishiyburn:ragnaros:eu",
       "reportCode": "rvpaDMhHzwxAB8Qg",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-04-10T18:22:05.697Z",
+      "reportEndedAt": "2026-04-10T19:57:11.911Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
       "fightId": 2,
       "url": "https://www.warcraftlogs.com/reports/rvpaDMhHzwxAB8Qg#fight=2",
       "status": "WIPE",
@@ -324,19 +538,35 @@
       "bossPercentage": 17.82,
       "fightPercentage": 17.82,
       "averageItemLevel": 264.70001220703125,
+      "actor": {
+        "id": 2,
+        "name": "Lishiyburn",
+        "server": "Ragnaros",
+        "type": "Player",
+        "subType": "Warlock"
+      },
       "metric": {
-        "dps": 0,
-        "hps": 0,
-        "primary": 0,
-        "primaryKind": "unknown"
+        "dps": 46822.91,
+        "hps": 7781.92,
+        "primary": 46822.91,
+        "primaryKind": "dps"
       },
       "deaths": {
         "character": 0,
         "raid": 21
       },
       "source": {
-        "damageTotal": 0,
-        "healingTotal": 0
+        "damageTotal": 17566740,
+        "healingTotal": 2919574,
+        "damageActiveTimeMs": 367652,
+        "healingActiveTimeMs": 361951,
+        "damageTotalTimeMs": 375174,
+        "healingTotalTimeMs": 375174,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 261,
+        "healingItemLevel": 261,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
       }
     }
   ],
