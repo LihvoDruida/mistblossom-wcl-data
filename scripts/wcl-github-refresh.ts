@@ -118,6 +118,7 @@ async function main(): Promise<void> {
     pendingSlugs: selection.pendingSlugs,
     skippedFreshSlugs: selection.skippedFreshSlugs,
     missingSnapshotSlugs: selection.missingSnapshotSlugs,
+    rotatedFreshSlugs: selection.rotatedFreshSlugs,
     limits: {
       memberBatchSize: env.memberBatchSize,
       minMemberRefreshAgeHours: env.minMemberRefreshAgeHours,
@@ -133,7 +134,7 @@ async function main(): Promise<void> {
     ok: true,
     updatedAt,
     generatedInside: "github-actions",
-    mode: "incremental-member-batches",
+    mode: "incremental-hourly-rolling-members",
     rosterMembers: roster.length,
     selectedMembers: selection.selectedSlugs.length,
     updatedMembers: updatedSnapshots,
@@ -141,6 +142,7 @@ async function main(): Promise<void> {
     reportsScanned,
     fightsScanned,
     wclQueriesUsed,
+    wclQueriesRemaining: Math.max(0, env.maxWclQueriesPerRun - wclQueriesUsed),
     limits: state.limits,
     batch: state.batch,
     warnings,
@@ -170,7 +172,7 @@ async function main(): Promise<void> {
   await writeJson("api/wcl/health.json", {
     ok: true,
     updatedAt,
-    mode: "incremental-member-batches",
+    mode: "incremental-hourly-rolling-members",
     rosterMembers: roster.length,
     selectedMembers: selection.selectedSlugs.length,
     updatedMembers: updatedSnapshots,
@@ -178,6 +180,7 @@ async function main(): Promise<void> {
     reportsScanned,
     fightsScanned,
     wclQueriesUsed,
+    wclQueriesRemaining: Math.max(0, env.maxWclQueriesPerRun - wclQueriesUsed),
     warnings,
   });
 
@@ -186,7 +189,7 @@ async function main(): Promise<void> {
       {
         ok: true,
         updatedAt,
-        mode: "incremental-member-batches",
+        mode: "incremental-hourly-rolling-members",
         rosterMembers: roster.length,
         selectedMembers: selection.selectedSlugs.length,
         updatedMembers: updatedSnapshots,
@@ -194,6 +197,8 @@ async function main(): Promise<void> {
         reportsScanned,
         fightsScanned,
         wclQueriesUsed,
+        wclQueriesRemaining: Math.max(0, env.maxWclQueriesPerRun - wclQueriesUsed),
+        rotatedFreshMembers: selection.rotatedFreshSlugs.length,
         pendingMembers: selection.pendingSlugs.length,
         skippedFreshMembers: selection.skippedFreshSlugs.length,
         warnings,

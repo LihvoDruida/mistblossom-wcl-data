@@ -63,15 +63,21 @@ POST /repos/LihvoDruida/mistblossom-wcl-data/actions/workflows/wcl-refresh.yml/d
 
 Для цього потрібен окремий GitHub PAT з мінімальним доступом до Actions. Не використовуй WCL/Battle.net secrets у зовнішніх клієнтах.
 
-## Роль персонажа
+## Роль персонажа і DPS/HPS
 
-Battle.net roster не дає надійний role/spec для конкретного пулу. Зараз:
+Battle.net roster не дає надійний role/spec для конкретного пулу, тому роль визначається поетапно:
 
-- `roleHint = healer` → primary metric = HPS;
-- `roleHint = dps/tank` → primary metric = DPS;
-- `unknown` → primary вибирається автоматично за більшим значенням.
+1. `roleHint` з dashboard/manual config, якщо він є.
+2. WCL spec/icon у matched damage/healing entry.
+3. Metric inference тільки як fallback.
 
-Для максимально точної статистики краще пізніше підключити roleHint із dashboard-профілю персонажа або окремого `data/config/roles.json`.
+Primary metric:
+
+- healer → HPS;
+- dps/tank → DPS;
+- unknown → не змішується з healer/damage summary.
+
+Окремо зберігаються `metric.dps`, `metric.hps`, `metric.activeDps`, `metric.activeHps`, але середні значення у `stats.byRole` не змішують DPS і HPS між різними ролями.
 
 ## Частота запуску
 
@@ -81,4 +87,20 @@ Battle.net roster не дає надійний role/spec для конкретн
 7 * * * *
 ```
 
-Запуск щогодини безпечний, бо кожен run оновлює лише `memberBatchSize` персонажів, має `maxFightsPerRun`, `maxQueriesPerRun` і послідовні WCL-запити з `requestDelayMs`.
+Запуск щогодини безпечний, бо кожен run оновлює лише `memberBatchSize` персонажів, має `maxFightsPerRun`, `maxQueriesPerRun` і послідовні WCL-запити з `requestDelayMs`. Якщо всі персонажі ще fresh, система все одно бере найстаріші snapshot-и й позначає їх як `rotatedFresh`, щоб черга не стояла на місці.
+
+
+## Сирі WCL-дані
+
+У кожному `pull` є `wclRaw`:
+
+```txt
+wclRaw.report
+wclRaw.fight
+wclRaw.tables.damage.matchedEntry
+wclRaw.tables.healing.matchedEntry
+wclRaw.deaths.matchedEvents
+wclRaw.processing
+```
+
+Це не повний dump усього report table, бо він буде занадто важкий для GitHub Pages. Зберігається саме matched оригінальна WCL-відповідь для конкретного персонажа + дані обробки. Цього достатньо, щоб дебажити неправильний DPS/HPS, роль, смерть або зіставлення персонажа.

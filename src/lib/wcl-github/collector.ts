@@ -3,6 +3,8 @@ import type {
   GuildMemberInput,
   MemberPullSnapshot,
   MemberSnapshot,
+  PullRoleInfo,
+  RawWclEntrySnapshot,
   WclActor,
   WclFightSummary,
   WclReportSummary,
@@ -10,7 +12,7 @@ import type {
 } from "./types";
 import { getWclGithubEnv } from "./env";
 import { characterSlug, memberKey, memberPath, indexPath, latestJobPath } from "./slug";
-import { buildGuildIndex, buildMemberSnapshot, calculatePerSecond, choosePrimaryMetric, difficultyName } from "./stats";
+import { activeRate, buildGuildIndex, buildMemberSnapshot, choosePrimaryMetric, difficultyName, rateFromWclEntry } from "./stats";
 import {
   GUILD_REPORTS_QUERY,
   REPORT_DEATH_EVENTS_QUERY,
@@ -257,9 +259,26 @@ export async function refreshWclGithubSnapshotsForMembers(
         const healingTotal = tableTotal(healing);
         const damageTotalTimeMs = numericOptional(damage?.totalTime) ?? damageTable.totalTimeMs ?? durationMs;
         const healingTotalTimeMs = numericOptional(healing?.totalTime) ?? healingTable.totalTimeMs ?? durationMs;
-        const dps = calculatePerSecond(damageTotal, damageTotalTimeMs);
-        const hps = calculatePerSecond(healingTotal, healingTotalTimeMs);
-        const primary = choosePrimaryMetric(member.roleHint, dps, hps);
+        const damageRate = rateFromWclEntry({
+          total: damageTotal,
+          entryPerSecond: wclPerSecond(damage, "damage"),
+          entryTotalTimeMs: numericOptional(damage?.totalTime),
+          tableTotalTimeMs: damageTable.totalTimeMs,
+          fightDurationMs: durationMs,
+        });
+        const healingRate = rateFromWclEntry({
+          total: healingTotal,
+          entryPerSecond: wclPerSecond(healing, "healing"),
+          entryTotalTimeMs: numericOptional(healing?.totalTime),
+          tableTotalTimeMs: healingTable.totalTimeMs,
+          fightDurationMs: durationMs,
+        });
+        const dps = damageRate.value;
+        const hps = healingRate.value;
+        const role = inferPullRole({ member, actor, damage, healing, dps, hps, damageTotal, healingTotal });
+        const primary = choosePrimaryMetric(role.role, dps, hps);
+        const matchedDeathEvents = findCharacterDeathEvents(deaths, member, actor, env.wclGuildRegion);
+        const normalizedKeys = memberLookupKeys(member.name, member.realmSlug, member.region);
 
         const pull: MemberPullSnapshot = {
           key: `${report.code}:${fight.id}:${member.name}:${member.realmSlug}:${member.region}`,
@@ -289,11 +308,18 @@ export async function refreshWclGithubSnapshotsForMembers(
                 subType: actor.subType,
               }
             : undefined,
+          role,
           metric: {
             dps,
             hps,
             primary: primary.primary,
             primaryKind: primary.primaryKind,
+            fightDps: dps,
+            fightHps: hps,
+            activeDps: activeRate(damageTotal, numericOptional(damage?.activeTime), damageTotalTimeMs),
+            activeHps: activeRate(healingTotal, numericOptional(healing?.activeTime), healingTotalTimeMs),
+            damageRateSource: damageRate.source,
+            healingRateSource: healingRate.source,
           },
           deaths: {
             character: characterDeaths,
@@ -314,6 +340,42 @@ export async function refreshWclGithubSnapshotsForMembers(
               [damageLookup.matchedBy && `damage:${damageLookup.matchedBy}`, healingLookup.matchedBy && `healing:${healingLookup.matchedBy}`]
                 .filter(Boolean)
                 .join(",") || undefined,
+          },
+          wclRaw: {
+            report: {
+              code: report.code,
+              title: report.title ?? fullReport.title,
+              startTime: fullReport.startTime,
+              endTime: fullReport.endTime ?? null,
+            },
+            fight: { ...fight },
+            tables: {
+              damage: {
+                dataType: "DamageDone",
+                rawEntryCount: damageTable.rawEntryCount,
+                totalTimeMs: damageTable.totalTimeMs,
+                matchedBy: damageLookup.matchedBy,
+                matchedEntry: sanitizeWclEntry(damage),
+              },
+              healing: {
+                dataType: "Healing",
+                rawEntryCount: healingTable.rawEntryCount,
+                totalTimeMs: healingTable.totalTimeMs,
+                matchedBy: healingLookup.matchedBy,
+                matchedEntry: sanitizeWclEntry(healing),
+              },
+            },
+            deaths: {
+              rawEventCount: deaths.length,
+              matchedEvents: matchedDeathEvents.map(sanitizeDeathEvent),
+            },
+            processing: {
+              matchedActorId: actor?.id,
+              matchedActorName: actor?.name,
+              normalizedKeys,
+              role,
+              primaryKind: primary.primaryKind,
+            },
           },
         };
 
@@ -710,9 +772,187 @@ function dedupePulls(pulls: MemberPullSnapshot[]): MemberPullSnapshot[] {
   return [...map.values()].sort((a, b) => Date.parse(b.startedAt) - Date.parse(a.startedAt));
 }
 
+
+function findCharacterDeathEvents(
+  entries: DeathEntry[],
+  member: GuildMemberInput,
+  actor: WclActor | undefined,
+  fallbackRegion: string,
+): DeathEntry[] {
+  const keys = new Set(memberLookupKeys(member.name, member.realmSlug, member.region));
+  if (actor?.name) {
+    for (const key of actorLookupKeys(actor.name, actor.server, fallbackRegion)) keys.add(key);
+  }
+
+  return entries.filter((entry) => {
+    if (!entry.targetName) return false;
+    const parsed = splitActorNameAndRealm(entry.targetName);
+    return actorLookupKeys(parsed.name, parsed.realm, fallbackRegion).some((key) => keys.has(key));
+  });
+}
+
+function sanitizeDeathEvent(entry: DeathEntry): Pick<DeathEntry, "timestamp" | "targetID" | "targetName" | "abilityGameID" | "abilityName" | "sourceID" | "sourceName"> {
+  return {
+    timestamp: entry.timestamp,
+    targetID: entry.targetID,
+    targetName: entry.targetName,
+    abilityGameID: entry.abilityGameID,
+    abilityName: entry.abilityName,
+    sourceID: entry.sourceID,
+    sourceName: entry.sourceName,
+  };
+}
+
+function sanitizeWclEntry(entry: WclTableEntry | undefined): RawWclEntrySnapshot | undefined {
+  if (!entry) return undefined;
+  return {
+    id: numericOptional(entry.id),
+    name: typeof entry.name === "string" ? entry.name : undefined,
+    server: typeof entry.server === "string" ? entry.server : undefined,
+    type: typeof entry.type === "string" ? entry.type : undefined,
+    icon: typeof entry.icon === "string" ? entry.icon : undefined,
+    spec: typeof entry.spec === "string" ? entry.spec : undefined,
+    total: numericOptional(entry.total),
+    persecond: wclPerSecond(entry, "any"),
+    activeTime: numericOptional(entry.activeTime),
+    totalTime: numericOptional(entry.totalTime),
+    itemLevel: numericOptional(entry.itemLevel),
+    rank: numericOptional(entry.rank),
+    deaths: numericOptional(entry.deaths),
+    guid: numericOptional(entry.guid),
+  };
+}
+
+function wclPerSecond(entry: WclTableEntry | undefined, kind: "damage" | "healing" | "any"): number | undefined {
+  if (!entry) return undefined;
+
+  const preferred = kind === "damage"
+    ? [entry.persecond, entry.perSecond, entry.dps, entry.DPS]
+    : kind === "healing"
+      ? [entry.persecond, entry.perSecond, entry.hps, entry.HPS]
+      : [entry.persecond, entry.perSecond, entry.dps, entry.DPS, entry.hps, entry.HPS];
+
+  for (const value of preferred) {
+    const numericValue = numericOptional(value);
+    if (numericValue !== undefined && numericValue > 0) return numericValue;
+  }
+
+  return undefined;
+}
+
+function inferPullRole(args: {
+  member: GuildMemberInput;
+  actor: WclActor | undefined;
+  damage?: WclTableEntry;
+  healing?: WclTableEntry;
+  dps: number;
+  hps: number;
+  damageTotal: number;
+  healingTotal: number;
+}): PullRoleInfo {
+  const roleHint = args.member.roleHint;
+  if (roleHint && roleHint !== "unknown") {
+    return {
+      role: roleHint,
+      source: "member-role-hint",
+      spec: firstText(args.damage?.spec, args.healing?.spec, args.damage?.icon, args.healing?.icon),
+      className: args.member.className ?? args.actor?.subType,
+      confidence: 1,
+    };
+  }
+
+  const specText = [args.damage?.spec, args.damage?.icon, args.healing?.spec, args.healing?.icon, args.actor?.subType]
+    .filter((value): value is string => typeof value === "string" && value.trim().length > 0)
+    .join(" ");
+  const roleFromSpec = inferRoleFromSpec(specText);
+  if (roleFromSpec.role !== "unknown") {
+    return {
+      role: roleFromSpec.role,
+      source: "wcl-spec",
+      spec: firstText(args.damage?.spec, args.healing?.spec, args.damage?.icon, args.healing?.icon),
+      className: args.member.className ?? args.actor?.subType,
+      confidence: roleFromSpec.confidence,
+    };
+  }
+
+  if (args.hps > 0 && (args.healingTotal >= args.damageTotal * 1.8 || args.hps >= args.dps * 1.5)) {
+    return {
+      role: "healer",
+      source: "metric-inference",
+      className: args.member.className ?? args.actor?.subType,
+      confidence: 0.72,
+    };
+  }
+
+  if (args.dps > 0 || args.damageTotal > 0) {
+    return {
+      role: "dps",
+      source: "metric-inference",
+      className: args.member.className ?? args.actor?.subType,
+      confidence: 0.65,
+    };
+  }
+
+  return {
+    role: "unknown",
+    source: "unknown",
+    className: args.member.className ?? args.actor?.subType,
+    confidence: 0,
+  };
+}
+
+function inferRoleFromSpec(value: string): { role: "healer" | "tank" | "dps" | "unknown"; confidence: number } {
+  const normalized = value.toLowerCase();
+  if (!normalized.trim()) return { role: "unknown", confidence: 0 };
+
+  const healerSpecs = ["restoration", "holy", "discipline", "mistweaver", "preservation"];
+  if (healerSpecs.some((spec) => normalized.includes(spec))) return { role: "healer", confidence: 0.96 };
+
+  const tankSpecs = ["blood", "protection", "guardian", "brewmaster", "vengeance"];
+  if (tankSpecs.some((spec) => normalized.includes(spec))) return { role: "tank", confidence: 0.92 };
+
+  const dpsSpecs = [
+    "balance",
+    "feral",
+    "beast mastery",
+    "marksmanship",
+    "survival",
+    "arcane",
+    "fire",
+    "frost",
+    "windwalker",
+    "retribution",
+    "shadow",
+    "assassination",
+    "outlaw",
+    "subtlety",
+    "elemental",
+    "enhancement",
+    "affliction",
+    "demonology",
+    "destruction",
+    "arms",
+    "fury",
+    "havoc",
+    "devastation",
+    "augmentation",
+    "unholy",
+  ];
+  if (dpsSpecs.some((spec) => normalized.includes(spec))) return { role: "dps", confidence: 0.9 };
+
+  return { role: "unknown", confidence: 0 };
+}
+
+function firstText(...values: unknown[]): string | undefined {
+  for (const value of values) {
+    if (typeof value === "string" && value.trim()) return value;
+  }
+  return undefined;
+}
+
 function tableTotal(entry: WclTableEntry | undefined): number {
   if (!entry) return 0;
-  return firstNumeric(entry.total, entry.amount, entry.damage, entry.healing, entry.totalHealing);
+  return firstNumeric(entry.total, entry.amount, entry.damage, entry.healing, entry.totalHealing, entry.effectiveHealing, entry.effectiveDamage);
 }
 
 function firstNumeric(...values: unknown[]): number {

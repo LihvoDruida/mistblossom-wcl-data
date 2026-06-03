@@ -2,16 +2,16 @@
 
 This repository runs a conservative incremental Warcraft Logs refresh inside GitHub Actions and exposes the generated JSON as a static API through GitHub Pages.
 
-## What changed in v1.1.0
+## What changed in v1.2.0
 
 The refresh is now incremental and hourly:
 
 - only a configured batch of roster members is refreshed per run;
 - members with no snapshot are handled first;
-- fresh members are skipped until their refresh age expires;
+- fresh members no longer cause empty runs: if everyone is fresh, the oldest snapshots are rotated hourly;
 - WCL GraphQL calls are capped per run;
 - detailed fight scans are capped per run;
-- WCL requests are sequential with a small delay to avoid bursts;
+- WCL requests are sequential with a stronger delay to avoid bursts;
 - `api/wcl/roster-status.json` and `api/wcl/job/state.json` show updated / pending / fresh / missing members.
 
 Default safe limits live in `src/lib/wcl-github/config.ts`:
@@ -21,8 +21,19 @@ memberBatchSize: 8,
 minMemberRefreshAgeHours: 12,
 maxFightsPerRun: 10,
 maxQueriesPerRun: 45,
-requestDelayMs: 350,
+requestDelayMs: 650,
 ```
+
+
+## v1.2.0: розумніше оновлення + точніша DPS/HPS логіка
+
+- Порожній run більше не відбувається, коли всі 159 персонажів "fresh". Якщо немає missing/stale, workflow бере найстаріші fresh snapshot-и і рухає чергу далі.
+- `api/wcl/job/state.json` тепер показує `rotatedFresh`, тобто кого оновили не тому, що він протермінований, а щоб черга рухалась щогодини.
+- DPS/HPS більше не змішуються: healer-пули рахуються через HPS, dps/tank-пули через DPS. У `stats.byRole` є окремі блоки `healer`, `damage`, `unknown`.
+- Для кожного pull зберігається `role` з джерелом визначення: `member-role-hint`, `wcl-spec`, `metric-inference` або `unknown`.
+- У `wclRaw` зберігаються matched оригінальні рядки Warcraft Logs table для damage/healing, matched death events і блок `processing`, щоб можна було перевірити, як саме сирі WCL-дані перетворились у snapshot.
+- `metric.dps/hps` беруть WCL `persecond`, якщо він є. Якщо WCL його не віддав, fallback іде через `entry.totalTime`, `table.totalTime`, а потім `fight.duration`. Active-time DPS/HPS винесені окремо в `metric.activeDps/activeHps` і не змішуються з основними середніми.
+- Workflow переведений на Node.js 24 (`FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true`, `node-version: 24`).
 
 Public JSON endpoints after GitHub Pages is enabled:
 

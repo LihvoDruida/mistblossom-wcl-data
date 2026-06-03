@@ -4,10 +4,12 @@ import path from "node:path";
 import type {
   GuildMemberInput,
   IncrementalRefreshState,
+  MemberPullSnapshot,
   MemberSnapshot,
   RefreshStateMember,
 } from "./types";
 import { characterSlug, memberPath, refreshStatePath } from "./slug";
+import { buildMemberSnapshot } from "./stats";
 
 export interface BatchSelection {
   selected: GuildMemberInput[];
@@ -15,6 +17,7 @@ export interface BatchSelection {
   pendingSlugs: string[];
   skippedFreshSlugs: string[];
   missingSnapshotSlugs: string[];
+  rotatedFreshSlugs: string[];
 }
 
 export async function loadExistingMemberSnapshots(dataPrefix: string): Promise<Map<string, MemberSnapshot>> {
@@ -26,7 +29,7 @@ export async function loadExistingMemberSnapshots(dataPrefix: string): Promise<M
     const snapshot = await readJsonSafe<MemberSnapshot>(file);
     const slug = snapshot?.character?.slug;
     if (!slug) continue;
-    snapshots.set(slug, snapshot);
+    snapshots.set(slug, migrateSnapshot(snapshot));
   }
 
   return snapshots;
@@ -34,6 +37,62 @@ export async function loadExistingMemberSnapshots(dataPrefix: string): Promise<M
 
 export async function loadIncrementalRefreshState(dataPrefix: string): Promise<IncrementalRefreshState | undefined> {
   return readJsonSafe<IncrementalRefreshState>(refreshStatePath(dataPrefix));
+}
+
+
+function migrateSnapshot(snapshot: MemberSnapshot): MemberSnapshot {
+  const character = snapshot.character;
+  const pulls = (snapshot.pulls ?? []).map(normalizeLegacyPull);
+
+  const migrated = buildMemberSnapshot(
+    {
+      name: character.name,
+      realmSlug: character.realmSlug,
+      region: character.region,
+      rank: character.rank,
+      className: character.className,
+      roleHint: character.roleHint,
+    },
+    pulls,
+    snapshot.source?.reportsScanned ?? 0,
+    snapshot.source?.fightsScanned ?? 0,
+    3,
+    10,
+  );
+
+  return {
+    ...migrated,
+    // Preserve age for the rolling queue. Rebuilding stats must not make old snapshots look new.
+    updatedAt: snapshot.updatedAt || migrated.updatedAt,
+  };
+}
+
+function normalizeLegacyPull(pull: MemberPullSnapshot): MemberPullSnapshot {
+  const primaryKind = pull.metric?.primaryKind ?? "unknown";
+  const role = pull.role ?? {
+    role: primaryKind === "hps" ? "healer" : primaryKind === "dps" ? "dps" : "unknown",
+    source: "unknown" as const,
+    confidence: 0,
+  };
+  const dps = pull.metric?.dps ?? 0;
+  const hps = pull.metric?.hps ?? 0;
+
+  return {
+    ...pull,
+    role,
+    metric: {
+      dps,
+      hps,
+      primary: pull.metric?.primary ?? (primaryKind === "hps" ? hps : primaryKind === "dps" ? dps : 0),
+      primaryKind,
+      fightDps: pull.metric?.fightDps ?? dps,
+      fightHps: pull.metric?.fightHps ?? hps,
+      activeDps: pull.metric?.activeDps ?? dps,
+      activeHps: pull.metric?.activeHps ?? hps,
+      damageRateSource: pull.metric?.damageRateSource ?? "none",
+      healingRateSource: pull.metric?.healingRateSource ?? "none",
+    },
+  };
 }
 
 export function dedupeGuildMembers(members: GuildMemberInput[]): GuildMemberInput[] {
@@ -80,19 +139,39 @@ export function selectMembersForIncrementalRefresh(
   }
 
   stale.sort((a, b) => snapshotAgeSort(existingSnapshots, a, b));
-  const selected = [...missing, ...stale].slice(0, batchSize);
+  fresh.sort((a, b) => snapshotAgeSort(existingSnapshots, a, b));
+
+  const priority = [...missing, ...stale];
+  const selected = priority.slice(0, batchSize);
   const selectedSet = new Set(selected.map((member) => characterSlug(member.name, member.realmSlug, member.region)));
 
-  const pending = [...missing, ...stale]
+  // If every member is still inside the preferred freshness window, keep the hourly queue moving anyway.
+  // This prevents empty runs and makes the oldest snapshots rotate forward without increasing WCL query caps.
+  const rotatedFresh: GuildMemberInput[] = [];
+  for (const member of fresh) {
+    if (selected.length >= batchSize) break;
+    const slug = characterSlug(member.name, member.realmSlug, member.region);
+    if (selectedSet.has(slug)) continue;
+    selected.push(member);
+    selectedSet.add(slug);
+    rotatedFresh.push(member);
+  }
+
+  const pending = priority
     .map((member) => characterSlug(member.name, member.realmSlug, member.region))
     .filter((slug) => !selectedSet.has(slug));
+
+  const rotatedFreshSet = new Set(rotatedFresh.map((member) => characterSlug(member.name, member.realmSlug, member.region)));
 
   return {
     selected,
     selectedSlugs: selected.map((member) => characterSlug(member.name, member.realmSlug, member.region)),
     pendingSlugs: pending,
-    skippedFreshSlugs: fresh.map((member) => characterSlug(member.name, member.realmSlug, member.region)),
+    skippedFreshSlugs: fresh
+      .map((member) => characterSlug(member.name, member.realmSlug, member.region))
+      .filter((slug) => !rotatedFreshSet.has(slug)),
     missingSnapshotSlugs: missing.map((member) => characterSlug(member.name, member.realmSlug, member.region)),
+    rotatedFreshSlugs: [...rotatedFreshSet],
   };
 }
 
@@ -106,6 +185,7 @@ export function buildIncrementalRefreshState(args: {
   pendingSlugs: string[];
   skippedFreshSlugs: string[];
   missingSnapshotSlugs: string[];
+  rotatedFreshSlugs: string[];
   limits: IncrementalRefreshState["limits"];
 }): IncrementalRefreshState {
   const selected = new Set(args.selectedSlugs);
@@ -113,6 +193,7 @@ export function buildIncrementalRefreshState(args: {
   const skippedFresh = new Set(args.skippedFreshSlugs);
   const missing = new Set(args.missingSnapshotSlugs);
   const updated = new Set(args.updatedSlugs);
+  const rotatedFresh = new Set(args.rotatedFreshSlugs);
 
   const members: RefreshStateMember[] = dedupeGuildMembers(args.roster).map((member) => {
     const slug = characterSlug(member.name, member.realmSlug, member.region);
@@ -138,7 +219,9 @@ export function buildIncrementalRefreshState(args: {
         ? "updated"
         : pending.has(slug)
           ? "pending"
-          : skippedFresh.has(slug)
+          : rotatedFresh.has(slug)
+            ? "rotated"
+            : skippedFresh.has(slug)
             ? "fresh"
             : missing.has(slug)
               ? "missing"
@@ -149,10 +232,10 @@ export function buildIncrementalRefreshState(args: {
   });
 
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     updatedAt: args.updatedAt,
     guild: args.guild,
-    strategy: "incremental-member-batches",
+    strategy: "incremental-hourly-rolling-members",
     limits: args.limits,
     batch: {
       selected: args.selectedSlugs,
@@ -160,6 +243,7 @@ export function buildIncrementalRefreshState(args: {
       pending: args.pendingSlugs,
       skippedFresh: args.skippedFreshSlugs,
       missingSnapshots: args.missingSnapshotSlugs,
+      rotatedFresh: args.rotatedFreshSlugs,
     },
     roster: {
       total: members.length,

@@ -6,7 +6,11 @@ import type {
   MemberPullSnapshot,
   MemberSnapshot,
   MemberStats,
+  MetricRateSource,
   NumericWindowSummary,
+  PrimaryMetricKind,
+  PullRole,
+  RoleMetricSummary,
 } from "./types";
 import { characterSlug } from "./slug";
 
@@ -23,7 +27,7 @@ function avg(values: number[]): number {
 }
 
 function max(values: number[]): number {
-  const clean = values.filter((value) => Number.isFinite(value));
+  const clean = values.filter((value) => Number.isFinite(value) && value > 0);
   return clean.length ? Math.max(...clean) : 0;
 }
 
@@ -32,26 +36,72 @@ function min(values: number[]): number {
   return clean.length ? Math.min(...clean) : 0;
 }
 
+function primaryPulls(pulls: MemberPullSnapshot[]): MemberPullSnapshot[] {
+  return pulls.filter((pull) => pull.metric.primaryKind !== "unknown" && pull.metric.primary > 0);
+}
+
+function dpsPulls(pulls: MemberPullSnapshot[]): MemberPullSnapshot[] {
+  return pulls.filter((pull) => pull.metric.primaryKind === "dps" && pull.metric.dps > 0);
+}
+
+function hpsPulls(pulls: MemberPullSnapshot[]): MemberPullSnapshot[] {
+  return pulls.filter((pull) => pull.metric.primaryKind === "hps" && pull.metric.hps > 0);
+}
+
 function summarizeWindow(pulls: MemberPullSnapshot[]): NumericWindowSummary {
+  const dps = dpsPulls(pulls);
+  const hps = hpsPulls(pulls);
+  const primary = primaryPulls(pulls);
+
   return {
-    avgDps: round(avg(pulls.map((pull) => pull.metric.dps))),
-    avgHps: round(avg(pulls.map((pull) => pull.metric.hps))),
-    avgPrimary: round(avg(pulls.map((pull) => pull.metric.primary))),
+    sampleSize: pulls.length,
+    avgDps: round(avg(dps.map((pull) => pull.metric.dps))),
+    avgHps: round(avg(hps.map((pull) => pull.metric.hps))),
+    avgPrimary: round(avg(primary.map((pull) => pull.metric.primary))),
     avgDurationMs: round(avg(pulls.map((pull) => pull.durationMs)), 0),
     avgDeaths: round(avg(pulls.map((pull) => pull.deaths.character))),
   };
 }
 
 function summarizeLast10(pulls: MemberPullSnapshot[]): Last10Summary {
+  const dps = dpsPulls(pulls);
+  const hps = hpsPulls(pulls);
+  const primary = primaryPulls(pulls);
+
   return {
-    maxDps: round(max(pulls.map((pull) => pull.metric.dps))),
-    minDps: round(min(pulls.map((pull) => pull.metric.dps))),
-    maxHps: round(max(pulls.map((pull) => pull.metric.hps))),
-    minHps: round(min(pulls.map((pull) => pull.metric.hps))),
-    maxPrimary: round(max(pulls.map((pull) => pull.metric.primary))),
-    minPrimary: round(min(pulls.map((pull) => pull.metric.primary))),
+    sampleSize: pulls.length,
+    maxDps: round(max(dps.map((pull) => pull.metric.dps))),
+    minDps: round(min(dps.map((pull) => pull.metric.dps))),
+    maxHps: round(max(hps.map((pull) => pull.metric.hps))),
+    minHps: round(min(hps.map((pull) => pull.metric.hps))),
+    maxPrimary: round(max(primary.map((pull) => pull.metric.primary))),
+    minPrimary: round(min(primary.map((pull) => pull.metric.primary))),
     maxDurationMs: round(max(pulls.map((pull) => pull.durationMs)), 0),
     minDurationMs: round(min(pulls.map((pull) => pull.durationMs)), 0),
+  };
+}
+
+function roleMetricSummary(pulls: MemberPullSnapshot[], kind: "damage" | "healer" | "unknown", recentAvgWindow: number): RoleMetricSummary {
+  const rolePulls = pulls.filter((pull) => {
+    if (kind === "damage") return pull.metric.primaryKind === "dps";
+    if (kind === "healer") return pull.metric.primaryKind === "hps";
+    return pull.metric.primaryKind === "unknown";
+  });
+  const recent = rolePulls.slice(0, recentAvgWindow);
+  const sortedByPrimary = [...rolePulls].filter((pull) => pull.metric.primary > 0).sort((a, b) => a.metric.primary - b.metric.primary);
+  const best = sortedByPrimary.at(-1);
+  const worst = sortedByPrimary[0];
+
+  return {
+    pulls: rolePulls.length,
+    kills: rolePulls.filter((pull) => pull.status === "KILL").length,
+    wipes: rolePulls.filter((pull) => pull.status === "WIPE").length,
+    avgRecent: round(avg(recent.map((pull) => pull.metric.primary))),
+    maxLast10: round(max(rolePulls.map((pull) => pull.metric.primary))),
+    minLast10: round(min(rolePulls.map((pull) => pull.metric.primary))),
+    deathsPerPull: rolePulls.length ? round(rolePulls.reduce((sum, pull) => sum + pull.deaths.character, 0) / rolePulls.length) : 0,
+    bestPullKey: best?.key,
+    worstPullKey: worst?.key,
   };
 }
 
@@ -76,6 +126,11 @@ export function calculateMemberStats(
     last10Summary.maxPrimary > 0 && last10Summary.minPrimary > 0
       ? round((last10Summary.minPrimary / last10Summary.maxPrimary) * 100)
       : 0;
+  const primaryKindCounts: Record<PrimaryMetricKind, number> = {
+    dps: last10.filter((pull) => pull.metric.primaryKind === "dps").length,
+    hps: last10.filter((pull) => pull.metric.primaryKind === "hps").length,
+    unknown: last10.filter((pull) => pull.metric.primaryKind === "unknown").length,
+  };
 
   return {
     pullsStored,
@@ -90,6 +145,18 @@ export function calculateMemberStats(
     consistencyPercent,
     recent3,
     last10: last10Summary,
+    byRole: {
+      healer: roleMetricSummary(last10, "healer", recentAvgWindow),
+      damage: roleMetricSummary(last10, "damage", recentAvgWindow),
+      unknown: roleMetricSummary(last10, "unknown", recentAvgWindow),
+    },
+    dataQuality: {
+      pullsWithMatchedDamage: last10.filter((pull) => pull.source.damageTotal > 0 || Boolean(pull.source.damageEntryId)).length,
+      pullsWithMatchedHealing: last10.filter((pull) => pull.source.healingTotal > 0 || Boolean(pull.source.healingEntryId)).length,
+      pullsWithRoleInferred: last10.filter((pull) => pull.role.source !== "unknown").length,
+      pullsWithDeaths: last10.filter((pull) => pull.deaths.character > 0).length,
+      primaryKindCounts,
+    },
   };
 }
 
@@ -109,7 +176,7 @@ export function buildMemberSnapshot(
   const slug = characterSlug(member.name, member.realmSlug, member.region);
 
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     updatedAt: new Date().toISOString(),
     character: {
       name: member.name,
@@ -150,8 +217,13 @@ export function buildGuildIndex(
       wipes: snapshot.stats.wipes,
       avgPrimaryRecent3: snapshot.stats.recent3.avgPrimary,
       maxPrimaryLast10: snapshot.stats.last10.maxPrimary,
+      avgDpsRecent3: snapshot.stats.recent3.avgDps,
+      maxDpsLast10: snapshot.stats.last10.maxDps,
+      avgHpsRecent3: snapshot.stats.recent3.avgHps,
+      maxHpsLast10: snapshot.stats.last10.maxHps,
       deathsPerPull: snapshot.stats.deathsPerPull,
       stabilityPercent: snapshot.stats.stabilityPercent,
+      primaryKindCounts: snapshot.stats.dataQuality.primaryKindCounts,
     }))
     .sort((a, b) => {
       if ((a.rank ?? 999) !== (b.rank ?? 999)) return (a.rank ?? 999) - (b.rank ?? 999);
@@ -159,13 +231,16 @@ export function buildGuildIndex(
     });
 
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     updatedAt: new Date().toISOString(),
     guild,
     totals: {
       members: members.length,
       reportsScanned,
       fightsScanned,
+      healerPulls: snapshots.reduce((sum, snapshot) => sum + snapshot.stats.byRole.healer.pulls, 0),
+      damagePulls: snapshots.reduce((sum, snapshot) => sum + snapshot.stats.byRole.damage.pulls, 0),
+      unknownPulls: snapshots.reduce((sum, snapshot) => sum + snapshot.stats.byRole.unknown.pulls, 0),
     },
     members,
   };
@@ -177,15 +252,42 @@ export function calculatePerSecond(total: number, durationMs: number): number {
 }
 
 export function choosePrimaryMetric(
-  roleHint: string | undefined,
+  role: PullRole | string | undefined,
   dps: number,
   hps: number,
-): { primary: number; primaryKind: "dps" | "hps" | "unknown" } {
-  if (roleHint === "healer") return { primary: hps, primaryKind: "hps" };
-  if (roleHint === "dps" || roleHint === "tank") return { primary: dps, primaryKind: "dps" };
+): { primary: number; primaryKind: PrimaryMetricKind } {
+  if (role === "healer") return { primary: hps, primaryKind: "hps" };
+  if (role === "dps" || role === "tank") return { primary: dps, primaryKind: "dps" };
   if (hps > dps && hps > 0) return { primary: hps, primaryKind: "hps" };
   if (dps > 0) return { primary: dps, primaryKind: "dps" };
   return { primary: 0, primaryKind: "unknown" };
+}
+
+export function rateFromWclEntry(args: {
+  total: number;
+  entryPerSecond?: number;
+  entryTotalTimeMs?: number;
+  tableTotalTimeMs?: number;
+  fightDurationMs: number;
+}): { value: number; source: MetricRateSource } {
+  if (Number.isFinite(args.entryPerSecond) && (args.entryPerSecond ?? 0) > 0) {
+    return { value: round(args.entryPerSecond ?? 0), source: "wcl-persecond" };
+  }
+  if (Number.isFinite(args.entryTotalTimeMs) && (args.entryTotalTimeMs ?? 0) > 0) {
+    return { value: calculatePerSecond(args.total, args.entryTotalTimeMs ?? 0), source: "entry-total-time" };
+  }
+  if (Number.isFinite(args.tableTotalTimeMs) && (args.tableTotalTimeMs ?? 0) > 0) {
+    return { value: calculatePerSecond(args.total, args.tableTotalTimeMs ?? 0), source: "table-total-time" };
+  }
+  if (args.fightDurationMs > 0) {
+    return { value: calculatePerSecond(args.total, args.fightDurationMs), source: "fight-duration" };
+  }
+  return { value: 0, source: "none" };
+}
+
+export function activeRate(total: number, activeTimeMs: number | undefined, fallbackMs: number): number {
+  if (activeTimeMs && activeTimeMs > 0) return calculatePerSecond(total, activeTimeMs);
+  return calculatePerSecond(total, fallbackMs);
 }
 
 export function difficultyName(difficulty?: number | null): string {

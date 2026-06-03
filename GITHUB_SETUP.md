@@ -43,7 +43,7 @@ The workflow does not refresh the full roster every run. Every hour it selects a
 
 1. Members without snapshots first.
 2. Then members whose snapshots are older than `minMemberRefreshAgeHours`.
-3. Fresh members are skipped.
+3. If no one is missing/stale, the oldest fresh snapshots are rotated anyway, so the hourly job never stands still.
 4. Existing JSON snapshots are merged with newly found pulls, so every member keeps the latest 10 pulls.
 
 Default limits are in `src/lib/wcl-github/config.ts`:
@@ -53,14 +53,14 @@ memberBatchSize: 8,
 minMemberRefreshAgeHours: 12,
 maxFightsPerRun: 10,
 maxQueriesPerRun: 45,
-requestDelayMs: 350,
+requestDelayMs: 650,
 reportLimit: 8,
 maxReportPages: 1,
 maxPullsPerMember: 10,
 recentAvgWindow: 3,
 ```
 
-These defaults are intentionally conservative for a 3,600 points/hour Warcraft Logs limit.
+These defaults are intentionally conservative for a 3,600 points/hour Warcraft Logs limit. The real protection is the combination of `maxQueriesPerRun`, `maxFightsPerRun`, sequential requests, and hourly rolling member batches.
 
 ## Manual run overrides
 
@@ -96,4 +96,6 @@ api/wcl/job/state.json
 api/wcl/member/{character-slug}.json
 ```
 
-`roster-status.json` and `job/state.json` show which members were updated, pending, skipped as fresh, or still missing snapshots.
+`roster-status.json` and `job/state.json` show which members were updated, pending, skipped as fresh, rotated as fresh, or still missing snapshots.
+
+Each member pull also includes `wclRaw`, which stores the matched original Warcraft Logs damage/healing rows, matched death events, and the processing decision used for DPS/HPS and role detection.

@@ -18,7 +18,7 @@ export interface WclGithubStaticConfig {
       recentAvgWindow: number;
       /** How many roster members are refreshed by one hourly run. */
       memberBatchSize: number;
-      /** Do not refresh the same member again until this age, unless they have no snapshot yet. */
+      /** Preferred freshness window. If everyone is fresh, the oldest snapshots still rotate hourly. */
       minMemberRefreshAgeHours: number;
       /** Hard cap for detailed fight scans in one run. */
       maxFightsPerRun: number;
@@ -73,7 +73,7 @@ export const WCL_GITHUB_CONFIG: WclGithubStaticConfig = {
       minMemberRefreshAgeHours: 12,
       maxFightsPerRun: 10,
       maxQueriesPerRun: 45,
-      requestDelayMs: 350,
+      requestDelayMs: 650,
     },
   },
   battleNet: {
