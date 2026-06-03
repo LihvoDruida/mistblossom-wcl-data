@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.364Z",
+  "updatedAt": "2026-06-03T21:26:37.583Z",
   "character": {
     "name": "Krekor",
     "realmSlug": "tarren-mill",
@@ -11,51 +11,51 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 0,
-    "wipes": 10,
-    "killRate": 0,
-    "wipeRate": 1,
+    "kills": 2,
+    "wipes": 8,
+    "killRate": 0.2,
+    "wipeRate": 0.8,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 207,
+    "totalRaidDeaths": 173,
     "deathsPerPull": 0,
-    "stabilityPercent": 43.84,
-    "consistencyPercent": 34.17,
-    "performanceScore": 32.65,
+    "stabilityPercent": 70.14,
+    "consistencyPercent": 51.61,
+    "performanceScore": 55.48,
     "survivalScore": 100,
-    "reliabilityScore": 47.96,
+    "reliabilityScore": 71.31,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 44548.47,
+      "avgDps": 60491.2,
       "avgHps": 0,
-      "avgPrimary": 44548.47,
-      "avgDurationMs": 213419,
+      "avgPrimary": 60491.2,
+      "avgDurationMs": 180402,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 69130.33,
+      "avgDps": 69395.42,
       "avgHps": 0,
-      "avgPrimary": 69130.33,
-      "avgDurationMs": 200282,
+      "avgPrimary": 69395.42,
+      "avgDurationMs": 124904,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 101616.78,
-      "minDps": 34726.74,
+      "maxDps": 86248.64,
+      "minDps": 44513.49,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 101616.78,
-      "minPrimary": 34726.74,
-      "maxDurationMs": 352752,
-      "minDurationMs": 50176
+      "maxPrimary": 86248.64,
+      "minPrimary": 44513.49,
+      "maxDurationMs": 337228,
+      "minDurationMs": 41491
     },
     "trend": {
       "direction": "down",
-      "recentAvg": 44548.47,
-      "previousAvg": 69130.33,
-      "delta": -24581.86,
-      "deltaPercent": -35.56
+      "recentAvg": 60491.2,
+      "previousAvg": 69395.42,
+      "delta": -8904.22,
+      "deltaPercent": -12.83
     },
     "byRole": {
       "healer": {
@@ -69,14 +69,14 @@
       },
       "damage": {
         "pulls": 10,
-        "kills": 0,
-        "wipes": 10,
-        "avgRecent": 44548.47,
-        "maxLast10": 101616.78,
-        "minLast10": 34726.74,
+        "kills": 2,
+        "wipes": 8,
+        "avgRecent": 60491.2,
+        "maxLast10": 86248.64,
+        "minLast10": 44513.49,
         "deathsPerPull": 0,
-        "bestPullKey": "8dAPQCWGNMLBjrRg:26:Krekor:tarren-mill:eu",
-        "worstPullKey": "8dAPQCWGNMLBjrRg:30:Krekor:tarren-mill:eu"
+        "bestPullKey": "rCkJzhm1PDqtNBw3:17:Krekor:tarren-mill:eu",
+        "worstPullKey": "8dAPQCWGNMLBjrRg:31:Krekor:tarren-mill:eu"
       },
       "unknown": {
         "pulls": 0,
@@ -91,18 +91,1170 @@
     "dataQuality": {
       "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 0,
+      "pullsWithRoleInferred": 8,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
         "unknown": 0
       },
-      "confidenceAvg": 0,
+      "confidenceAvg": 0.72,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "rCkJzhm1PDqtNBw3:27:Krekor:tarren-mill:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=27",
+      "status": "KILL",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-06-03T19:51:07.843Z",
+      "durationMs": 265692,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 285.29998779296875,
+      "actor": {
+        "id": 13,
+        "name": "Krekor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Monk-Windwalker",
+        "className": "Monk",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 54381.28,
+        "hps": 2677.45,
+        "primary": 54381.28,
+        "primaryKind": "dps",
+        "fightDps": 54381.28,
+        "fightHps": 2677.45,
+        "activeDps": 95779.81,
+        "activeHps": 5092.91,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 6
+      },
+      "source": {
+        "damageTotal": 14448672,
+        "healingTotal": 711377,
+        "damageActiveTimeMs": 150853,
+        "healingActiveTimeMs": 139680,
+        "damageTotalTimeMs": 265692,
+        "healingTotalTimeMs": 265692,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 27,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 4,
+          "kill": true,
+          "startTime": 8689676,
+          "endTime": 8955368,
+          "bossPercentage": 0.01,
+          "fightPercentage": 0.01,
+          "averageItemLevel": 285.29998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 265692,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 14448672,
+              "activeTime": 150853,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 265692,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 711377,
+              "activeTime": 139680,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 6,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 13,
+          "matchedActorName": "Krekor",
+          "normalizedKeys": [
+            "krekor:tarren-mill:eu",
+            "krekor::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Monk-Windwalker",
+            "className": "Monk",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:24:Krekor:tarren-mill:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=24",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:40:39.488Z",
+      "durationMs": 177220,
+      "bossPercentage": 61,
+      "fightPercentage": 61,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 13,
+        "name": "Krekor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Monk-Windwalker",
+        "className": "Monk",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 51435.42,
+        "hps": 3282.17,
+        "primary": 51435.42,
+        "primaryKind": "dps",
+        "fightDps": 51435.42,
+        "fightHps": 3282.17,
+        "activeDps": 89726.3,
+        "activeHps": 7184.62,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 9115385,
+        "healingTotal": 581667,
+        "damageActiveTimeMs": 101591,
+        "healingActiveTimeMs": 80960,
+        "damageTotalTimeMs": 177220,
+        "healingTotalTimeMs": 177220,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 24,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 8061321,
+          "endTime": 8238541,
+          "bossPercentage": 61,
+          "fightPercentage": 61,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 177220,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 9115385,
+              "activeTime": 101591,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 177220,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 581667,
+              "activeTime": 80960,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 13,
+          "matchedActorName": "Krekor",
+          "normalizedKeys": [
+            "krekor:tarren-mill:eu",
+            "krekor::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Monk-Windwalker",
+            "className": "Monk",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:23:Krekor:tarren-mill:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=23",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:36:08.801Z",
+      "durationMs": 98294,
+      "bossPercentage": 73.64,
+      "fightPercentage": 73.64,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 13,
+        "name": "Krekor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Monk-Windwalker",
+        "className": "Monk",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 75656.91,
+        "hps": 2528.63,
+        "primary": 75656.91,
+        "primaryKind": "dps",
+        "fightDps": 75656.91,
+        "fightHps": 2528.63,
+        "activeDps": 80993.05,
+        "activeHps": 3085.3,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 7436620,
+        "healingTotal": 248549,
+        "damageActiveTimeMs": 91818,
+        "healingActiveTimeMs": 80559,
+        "damageTotalTimeMs": 98294,
+        "healingTotalTimeMs": 98294,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 23,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7790634,
+          "endTime": 7888928,
+          "bossPercentage": 73.64,
+          "fightPercentage": 73.64,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 98294,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 7436620,
+              "activeTime": 91818,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 98294,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 248549,
+              "activeTime": 80559,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 19,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 13,
+          "matchedActorName": "Krekor",
+          "normalizedKeys": [
+            "krekor:tarren-mill:eu",
+            "krekor::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Monk-Windwalker",
+            "className": "Monk",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:22:Krekor:tarren-mill:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=22",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:31:51.439Z",
+      "durationMs": 141866,
+      "bossPercentage": 69.1,
+      "fightPercentage": 69.1,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 13,
+        "name": "Krekor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Monk-Windwalker",
+        "className": "Monk",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 65370.84,
+        "hps": 1562.42,
+        "primary": 65370.84,
+        "primaryKind": "dps",
+        "fightDps": 65370.84,
+        "fightHps": 1562.42,
+        "activeDps": 98855.17,
+        "activeHps": 2379.13,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 9273900,
+        "healingTotal": 221654,
+        "damageActiveTimeMs": 93813,
+        "healingActiveTimeMs": 93166,
+        "damageTotalTimeMs": 141866,
+        "healingTotalTimeMs": 141866,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 22,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7533272,
+          "endTime": 7675138,
+          "bossPercentage": 69.1,
+          "fightPercentage": 69.1,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 141866,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 9273900,
+              "activeTime": 93813,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 141866,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 221654,
+              "activeTime": 93166,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 19,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 13,
+          "matchedActorName": "Krekor",
+          "normalizedKeys": [
+            "krekor:tarren-mill:eu",
+            "krekor::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Monk-Windwalker",
+            "className": "Monk",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:21:Krekor:tarren-mill:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=21",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:27:34.991Z",
+      "durationMs": 131855,
+      "bossPercentage": 66.85,
+      "fightPercentage": 66.85,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 13,
+        "name": "Krekor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Monk-Windwalker",
+        "className": "Monk",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 66168.59,
+        "hps": 1909.16,
+        "primary": 66168.59,
+        "primaryKind": "dps",
+        "fightDps": 66168.59,
+        "fightHps": 1909.16,
+        "activeDps": 79163.24,
+        "activeHps": 2522.19,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 8724660,
+        "healingTotal": 251732,
+        "damageActiveTimeMs": 110211,
+        "healingActiveTimeMs": 99807,
+        "damageTotalTimeMs": 131855,
+        "healingTotalTimeMs": 131855,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 21,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7276824,
+          "endTime": 7408679,
+          "bossPercentage": 66.85,
+          "fightPercentage": 66.85,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 131855,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 8724660,
+              "activeTime": 110211,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 131855,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 251732,
+              "activeTime": 99807,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 19,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 13,
+          "matchedActorName": "Krekor",
+          "normalizedKeys": [
+            "krekor:tarren-mill:eu",
+            "krekor::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Monk-Windwalker",
+            "className": "Monk",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:20:Krekor:tarren-mill:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=20",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:23:15.062Z",
+      "durationMs": 100990,
+      "bossPercentage": 71.78,
+      "fightPercentage": 71.78,
+      "averageItemLevel": 286.54998779296875,
+      "actor": {
+        "id": 13,
+        "name": "Krekor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Monk-Windwalker",
+        "className": "Monk",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 76646.84,
+        "hps": 4949.93,
+        "primary": 76646.84,
+        "primaryKind": "dps",
+        "fightDps": 76646.84,
+        "fightHps": 4949.93,
+        "activeDps": 81729.11,
+        "activeHps": 7235.7,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 7740564,
+        "healingTotal": 499893,
+        "damageActiveTimeMs": 94710,
+        "healingActiveTimeMs": 69087,
+        "damageTotalTimeMs": 100990,
+        "healingTotalTimeMs": 100990,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 20,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7016895,
+          "endTime": 7117885,
+          "bossPercentage": 71.78,
+          "fightPercentage": 71.78,
+          "averageItemLevel": 286.54998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 100990,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 7740564,
+              "activeTime": 94710,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 100990,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 499893,
+              "activeTime": 69087,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 13,
+          "matchedActorName": "Krekor",
+          "normalizedKeys": [
+            "krekor:tarren-mill:eu",
+            "krekor::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Monk-Windwalker",
+            "className": "Monk",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:19:Krekor:tarren-mill:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=19",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:19:39.538Z",
+      "durationMs": 41491,
+      "bossPercentage": 80.29,
+      "fightPercentage": 80.29,
+      "averageItemLevel": 286.54998779296875,
+      "actor": {
+        "id": 13,
+        "name": "Krekor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Monk-Windwalker",
+        "className": "Monk",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 86129.18,
+        "hps": 2164.18,
+        "primary": 86129.18,
+        "primaryKind": "dps",
+        "fightDps": 86129.18,
+        "fightHps": 2164.18,
+        "activeDps": 95950.65,
+        "activeHps": 3688.7,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 3573586,
+        "healingTotal": 89794,
+        "damageActiveTimeMs": 37244,
+        "healingActiveTimeMs": 24343,
+        "damageTotalTimeMs": 41491,
+        "healingTotalTimeMs": 41491,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 19,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6801371,
+          "endTime": 6842862,
+          "bossPercentage": 80.29,
+          "fightPercentage": 80.29,
+          "averageItemLevel": 286.54998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 41491,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 3573586,
+              "activeTime": 37244,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 41491,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 89794,
+              "activeTime": 24343,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 13,
+          "matchedActorName": "Krekor",
+          "normalizedKeys": [
+            "krekor:tarren-mill:eu",
+            "krekor::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Monk-Windwalker",
+            "className": "Monk",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:17:Krekor:tarren-mill:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=17",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T18:55:26.254Z",
+      "durationMs": 337228,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 286.1499938964844,
+      "actor": {
+        "id": 13,
+        "name": "Krekor",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Monk-Windwalker",
+        "className": "Monk",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 86248.64,
+        "hps": 7282.45,
+        "primary": 86248.64,
+        "primaryKind": "dps",
+        "fightDps": 86248.64,
+        "fightHps": 7282.45,
+        "activeDps": 90002.16,
+        "activeHps": 7562.73,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 9
+      },
+      "source": {
+        "damageTotal": 29085457,
+        "healingTotal": 2455846,
+        "damageActiveTimeMs": 323164,
+        "healingActiveTimeMs": 324730,
+        "damageTotalTimeMs": 337228,
+        "healingTotalTimeMs": 337228,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 17,
+          "name": "Vorasius",
+          "encounterID": 3177,
+          "difficulty": 5,
+          "kill": true,
+          "startTime": 5348087,
+          "endTime": 5685315,
+          "bossPercentage": 0.01,
+          "fightPercentage": 0.01,
+          "averageItemLevel": 286.1499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 337228,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 29085457,
+              "activeTime": 323164,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 337228,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Krekor",
+              "type": "Monk",
+              "icon": "Monk-Windwalker",
+              "total": 2455846,
+              "activeTime": 324730,
+              "itemLevel": 283,
+              "guid": 183530392
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 9,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 13,
+          "matchedActorName": "Krekor",
+          "normalizedKeys": [
+            "krekor:tarren-mill:eu",
+            "krekor::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Monk-Windwalker",
+            "className": "Monk",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "8dAPQCWGNMLBjrRg:32:Krekor:tarren-mill:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
@@ -230,527 +1382,15 @@
         "source": "unknown",
         "confidence": 0
       }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:30:Krekor:tarren-mill:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 30,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:54:58.059Z",
-      "durationMs": 197829,
-      "bossPercentage": 58.27,
-      "fightPercentage": 58.27,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 274,
-        "name": "Krekor",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 34726.74,
-        "hps": 2151.86,
-        "primary": 34726.74,
-        "primaryKind": "dps",
-        "fightDps": 34726.74,
-        "fightHps": 2151.86,
-        "activeDps": 34726.74,
-        "activeHps": 2151.86,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 6869956,
-        "healingTotal": 425700,
-        "damageActiveTimeMs": 75566,
-        "healingActiveTimeMs": 77489,
-        "damageTotalTimeMs": 197829,
-        "healingTotalTimeMs": 197829,
-        "damageEntryId": 274,
-        "healingEntryId": 274,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:274,healing:actor-id:274"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:29:Krekor:tarren-mill:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 29,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:48:53.946Z",
-      "durationMs": 222158,
-      "bossPercentage": 56.82,
-      "fightPercentage": 56.82,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 274,
-        "name": "Krekor",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 65769.47,
-        "hps": 3861.03,
-        "primary": 65769.47,
-        "primaryKind": "dps",
-        "fightDps": 65769.47,
-        "fightHps": 3861.03,
-        "activeDps": 65769.47,
-        "activeHps": 3861.03,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 14611214,
-        "healingTotal": 857759,
-        "damageActiveTimeMs": 165262,
-        "healingActiveTimeMs": 172095,
-        "damageTotalTimeMs": 222158,
-        "healingTotalTimeMs": 222158,
-        "damageEntryId": 274,
-        "healingEntryId": 274,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:274,healing:actor-id:274"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:28:Krekor:tarren-mill:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:38:12.252Z",
-      "durationMs": 209169,
-      "bossPercentage": 58.86,
-      "fightPercentage": 58.86,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 274,
-        "name": "Krekor",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 69758.98,
-        "hps": 3897.34,
-        "primary": 69758.98,
-        "primaryKind": "dps",
-        "fightDps": 69758.98,
-        "fightHps": 3897.34,
-        "activeDps": 69758.98,
-        "activeHps": 3897.34,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 14591417,
-        "healingTotal": 815203,
-        "damageActiveTimeMs": 169737,
-        "healingActiveTimeMs": 175145,
-        "damageTotalTimeMs": 209169,
-        "healingTotalTimeMs": 209169,
-        "damageEntryId": 274,
-        "healingEntryId": 274,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:274,healing:actor-id:274"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:27:Krekor:tarren-mill:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:29:44.846Z",
-      "durationMs": 169519,
-      "bossPercentage": 62.33,
-      "fightPercentage": 62.33,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 274,
-        "name": "Krekor",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 71862.53,
-        "hps": 4222.54,
-        "primary": 71862.53,
-        "primaryKind": "dps",
-        "fightDps": 71862.53,
-        "fightHps": 4222.54,
-        "activeDps": 71862.53,
-        "activeHps": 4222.54,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 12182064,
-        "healingTotal": 715801,
-        "damageActiveTimeMs": 146032,
-        "healingActiveTimeMs": 132411,
-        "damageTotalTimeMs": 169519,
-        "healingTotalTimeMs": 169519,
-        "damageEntryId": 274,
-        "healingEntryId": 274,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:274,healing:actor-id:274"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:26:Krekor:tarren-mill:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:27:07.695Z",
-      "durationMs": 50885,
-      "bossPercentage": 80.53,
-      "fightPercentage": 80.53,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 274,
-        "name": "Krekor",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 101616.78,
-        "hps": 2591.73,
-        "primary": 101616.78,
-        "primaryKind": "dps",
-        "fightDps": 101616.78,
-        "fightHps": 2591.73,
-        "activeDps": 101616.78,
-        "activeHps": 2591.73,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 5170770,
-        "healingTotal": 131880,
-        "damageActiveTimeMs": 44544,
-        "healingActiveTimeMs": 34684,
-        "damageTotalTimeMs": 50885,
-        "healingTotalTimeMs": 50885,
-        "damageEntryId": 274,
-        "healingEntryId": 274,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:274,healing:actor-id:274"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:25:Krekor:tarren-mill:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:23:53.731Z",
-      "durationMs": 50176,
-      "bossPercentage": 79.76,
-      "fightPercentage": 79.76,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 274,
-        "name": "Krekor",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 69893.34,
-        "hps": 3642.46,
-        "primary": 69893.34,
-        "primaryKind": "dps",
-        "fightDps": 69893.34,
-        "fightHps": 3642.46,
-        "activeDps": 69893.34,
-        "activeHps": 3642.46,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 3506968,
-        "healingTotal": 182764,
-        "damageActiveTimeMs": 35541,
-        "healingActiveTimeMs": 41341,
-        "damageTotalTimeMs": 50176,
-        "healingTotalTimeMs": 50176,
-        "damageEntryId": 274,
-        "healingEntryId": 274,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:274,healing:actor-id:274"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "xMVazpchm1G7LHCB:17:Krekor:tarren-mill:eu",
-      "reportCode": "xMVazpchm1G7LHCB",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 17,
-      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=17",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T19:35:31.820Z",
-      "durationMs": 352752,
-      "bossPercentage": 18.29,
-      "fightPercentage": 18.29,
-      "averageItemLevel": 285.1000061035156,
-      "actor": {
-        "id": 14,
-        "name": "Krekor",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 55885.51,
-        "hps": 3513.53,
-        "primary": 55885.51,
-        "primaryKind": "dps",
-        "fightDps": 55885.51,
-        "fightHps": 3513.53,
-        "activeDps": 55885.51,
-        "activeHps": 3513.53,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 22
-      },
-      "source": {
-        "damageTotal": 19713724,
-        "healingTotal": 1239404,
-        "damageActiveTimeMs": 206940,
-        "healingActiveTimeMs": 209045,
-        "damageTotalTimeMs": 352752,
-        "healingTotalTimeMs": 352752,
-        "damageEntryId": 14,
-        "healingEntryId": 14,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "v9g64fGF7BZNXJx3:18:Krekor:tarren-mill:eu",
-      "reportCode": "v9g64fGF7BZNXJx3",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 18,
-      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=18",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T19:35:31.820Z",
-      "durationMs": 352752,
-      "bossPercentage": 18.29,
-      "fightPercentage": 18.29,
-      "averageItemLevel": 285.1000061035156,
-      "actor": {
-        "id": 41,
-        "name": "Krekor",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 55885.51,
-        "hps": 3513.53,
-        "primary": 55885.51,
-        "primaryKind": "dps",
-        "fightDps": 55885.51,
-        "fightHps": 3513.53,
-        "activeDps": 55885.51,
-        "activeHps": 3513.53,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 22
-      },
-      "source": {
-        "damageTotal": 19713724,
-        "healingTotal": 1239404,
-        "damageActiveTimeMs": 206940,
-        "healingActiveTimeMs": 209045,
-        "damageTotalTimeMs": 352752,
-        "healingTotalTimeMs": 352752,
-        "damageEntryId": 41,
-        "healingEntryId": 41,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:41,healing:actor-id:41"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.364Z",
-    "lastPullAt": "2026-05-29T20:06:06.764Z",
-    "newPullsInLastScan": 10,
+    "lastScannedAt": "2026-06-03T21:26:37.583Z",
+    "lastPullAt": "2026-06-03T19:51:07.843Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }

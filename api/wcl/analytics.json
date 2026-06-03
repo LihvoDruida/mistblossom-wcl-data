@@ -1,26 +1,26 @@
 {
   "overview": {
-    "members": 159,
+    "members": 160,
     "membersWithData": 58,
     "pullsStored": 561,
-    "distinctFights": 210,
-    "kills": 23,
-    "wipes": 187,
-    "killRate": 0.1095,
-    "avgFightDurationMs": 202328,
-    "avgRaidDeaths": 16.84,
-    "avgTeamDps": 136313.67,
-    "avgTeamHps": 34730.63,
-    "avgPerformanceScore": 17.02,
+    "distinctFights": 218,
+    "kills": 25,
+    "wipes": 193,
+    "killRate": 0.1147,
+    "avgFightDurationMs": 200841,
+    "avgRaidDeaths": 16.83,
+    "avgTeamDps": 131479.4,
+    "avgTeamHps": 33456.11,
+    "avgPerformanceScore": 17.06,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 39.55
+    "avgReliabilityScore": 39.64
   },
   "roles": {
     "damage": {
       "members": 52,
       "pulls": 466,
-      "avgRecent": 54087.92,
-      "medianRecent": 51219.68,
+      "avgRecent": 54394.51,
+      "medianRecent": 53212.52,
       "bestRecent": 99012.96,
       "maxLast10": 188469.8,
       "deathsPerPull": 0,
@@ -308,6 +308,13 @@
     ],
     "zeroDeathRecent": [
       {
+        "slug": "krekor-tarren-mill-eu",
+        "name": "Krekor",
+        "rank": 4,
+        "value": 71.31,
+        "secondary": 60491.2
+      },
+      {
         "slug": "пандашоманко-eversong-eu",
         "name": "Пандашоманко",
         "rank": 3,
@@ -383,20 +390,20 @@
         "rank": 1,
         "value": 62.15,
         "secondary": 46906.83
-      },
-      {
-        "slug": "molfar-terokkar-eu",
-        "name": "Mólfár",
-        "rank": 2,
-        "value": 61.74,
-        "secondary": 70147.4
       }
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 64.72,
-    "avgConsistencyPercent": 36.84,
+    "avgStabilityPercent": 65.17,
+    "avgConsistencyPercent": 37.14,
     "mostStable": [
+      {
+        "slug": "krekor-tarren-mill-eu",
+        "name": "Krekor",
+        "rank": 4,
+        "value": 71.31,
+        "secondary": 70.14
+      },
       {
         "slug": "пандашоманко-eversong-eu",
         "name": "Пандашоманко",
@@ -473,13 +480,6 @@
         "rank": 1,
         "value": 62.15,
         "secondary": 80.17
-      },
-      {
-        "slug": "molfar-terokkar-eu",
-        "name": "Mólfár",
-        "rank": 2,
-        "value": 61.74,
-        "secondary": 87.2
       }
     ],
     "needsAttention": [
@@ -533,13 +533,6 @@
         "secondary": 0
       },
       {
-        "slug": "krekor-tarren-mill-eu",
-        "name": "Krekor",
-        "rank": 4,
-        "value": 52.04,
-        "secondary": 0
-      },
-      {
         "slug": "лилая-grom-eu",
         "name": "Лилая",
         "rank": 3,
@@ -566,104 +559,165 @@
         "rank": 4,
         "value": 50.84,
         "secondary": 0
+      },
+      {
+        "slug": "zanzithor-tarren-mill-eu",
+        "name": "Zanzithor",
+        "rank": 2,
+        "value": 49.57,
+        "secondary": 0
       }
     ]
   },
   "freshness": {
     "updatedWithin1h": 8,
     "updatedWithin6h": 24,
-    "updatedWithin12h": 24,
-    "updatedWithin24h": 159,
+    "updatedWithin12h": 32,
+    "updatedWithin24h": 160,
     "oldestScannedAt": "2026-06-03T04:24:46.364Z",
-    "newestScannedAt": "2026-06-03T18:02:50.602Z",
+    "newestScannedAt": "2026-06-03T21:26:37.583Z",
     "staleMembers": [
       {
         "slug": "khayen-terokkar-eu",
         "name": "Khayen",
         "rank": 0,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 10
       },
       {
         "slug": "azuriel-terokkar-eu",
         "name": "Azuriel",
         "rank": 1,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 0
       },
       {
         "slug": "forchun-silvermoon-eu",
         "name": "Forchun",
         "rank": 1,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 10
       },
       {
         "slug": "frrtiix-draenor-eu",
         "name": "Frrtiix",
         "rank": 1,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 10
       },
       {
         "slug": "ironbelly-silvermoon-eu",
         "name": "Ironbelly",
         "rank": 1,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 0
       },
       {
         "slug": "kashin-terokkar-eu",
         "name": "Kashin",
         "rank": 1,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 0
       },
       {
         "slug": "krouli-terokkar-eu",
         "name": "Krouli",
         "rank": 1,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 0
       },
       {
         "slug": "lightass-terokkar-eu",
         "name": "Lightass",
         "rank": 1,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 10
       },
       {
         "slug": "lishiy-ragnaros-eu",
         "name": "Lishiy",
         "rank": 1,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 0
       },
       {
         "slug": "lishiyburn-ragnaros-eu",
         "name": "Lishiyburn",
         "rank": 1,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 10
       },
       {
         "slug": "mafik-terokkar-eu",
         "name": "Mafik",
         "rank": 1,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 10
       },
       {
         "slug": "odeskiy-tarren-mill-eu",
         "name": "Odeskiy",
         "rank": 1,
-        "value": 13.64,
+        "value": 17.04,
         "secondary": 0
       }
     ]
   },
   "bosses": [
+    {
+      "key": "3306:Heroic",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "pulls": 5,
+      "kills": 2,
+      "wipes": 3,
+      "killRate": 0.4,
+      "avgDurationMs": 190841,
+      "avgRaidDeaths": 12.8,
+      "avgTeamDps": 38748.58,
+      "avgTeamHps": 0,
+      "bestTeamDps": 63478.99,
+      "bestTeamHps": 0,
+      "lastPullAt": "2026-06-03T19:51:07.843Z"
+    },
+    {
+      "key": "3179:Mythic",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "pulls": 6,
+      "kills": 0,
+      "wipes": 6,
+      "killRate": 0,
+      "avgDurationMs": 115286,
+      "avgRaidDeaths": 19.5,
+      "avgTeamDps": 70234.63,
+      "avgTeamHps": 0,
+      "bestTeamDps": 86129.18,
+      "bestTeamHps": 0,
+      "lastPullAt": "2026-06-03T19:40:39.488Z"
+    },
+    {
+      "key": "3177:Mythic",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "pulls": 30,
+      "kills": 2,
+      "wipes": 28,
+      "killRate": 0.0667,
+      "avgDurationMs": 236933,
+      "avgRaidDeaths": 19.63,
+      "avgTeamDps": 147863.78,
+      "avgTeamHps": 41558.46,
+      "bestTeamDps": 906055.26,
+      "bestTeamHps": 461938.04,
+      "lastPullAt": "2026-06-03T18:55:26.254Z"
+    },
     {
       "key": "3176:Mythic",
       "bossName": "Imperator Averzian",
@@ -694,29 +748,11 @@
       "killRate": 0,
       "avgDurationMs": 135709,
       "avgRaidDeaths": 19.58,
-      "avgTeamDps": 628020.82,
+      "avgTeamDps": 593551.84,
       "avgTeamHps": 297130.89,
-      "bestTeamDps": 1434389.04,
+      "bestTeamDps": 1332772.26,
       "bestTeamHps": 465140.66,
       "lastPullAt": "2026-05-29T20:06:06.764Z"
-    },
-    {
-      "key": "3177:Mythic",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "pulls": 29,
-      "kills": 1,
-      "wipes": 28,
-      "killRate": 0.0345,
-      "avgDurationMs": 233474,
-      "avgRaidDeaths": 20,
-      "avgTeamDps": 153842.61,
-      "avgTeamHps": 42991.51,
-      "bestTeamDps": 906055.26,
-      "bestTeamHps": 461938.04,
-      "lastPullAt": "2026-05-29T19:04:24.189Z"
     },
     {
       "key": "3181:Heroic",
@@ -825,24 +861,6 @@
       "bestTeamDps": 66072.94,
       "bestTeamHps": 0,
       "lastPullAt": "2026-05-15T19:02:37.487Z"
-    },
-    {
-      "key": "3306:Heroic",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "pulls": 4,
-      "kills": 1,
-      "wipes": 3,
-      "killRate": 0.25,
-      "avgDurationMs": 172128,
-      "avgRaidDeaths": 14.5,
-      "avgTeamDps": 34840.4,
-      "avgTeamHps": 0,
-      "bestTeamDps": 63478.99,
-      "bestTeamHps": 0,
-      "lastPullAt": "2026-05-15T17:47:05.903Z"
     },
     {
       "key": "3178:Heroic",
@@ -956,13 +974,13 @@
   "classes": [
     {
       "className": "Unknown",
-      "members": 159,
+      "members": 160,
       "withData": 58,
-      "avgPrimaryRecent3": 21024.41,
-      "avgDpsRecent3": 16975.08,
-      "avgHpsRecent3": 4853.41,
+      "avgPrimaryRecent3": 20992.65,
+      "avgDpsRecent3": 16968.63,
+      "avgHpsRecent3": 4823.08,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 39.55
+      "avgReliabilityScore": 39.64
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.364Z",
+  "updatedAt": "2026-06-03T21:26:37.583Z",
   "character": {
     "name": "Shennái",
     "realmSlug": "ravencrest",
@@ -553,12 +553,12 @@
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.364Z",
+    "lastScannedAt": "2026-06-03T21:26:37.583Z",
     "lastPullAt": "2026-04-01T19:45:54.275Z",
-    "newPullsInLastScan": 7,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }

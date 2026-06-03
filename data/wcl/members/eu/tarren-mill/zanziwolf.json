@@ -2,10 +2,10 @@
   "schemaVersion": 3,
   "updatedAt": "2026-06-03T21:26:37.583Z",
   "character": {
-    "name": "Mistéry",
-    "realmSlug": "draenor",
+    "name": "Zanziwolf",
+    "realmSlug": "tarren-mill",
     "region": "eu",
-    "slug": "mistery-draenor-eu",
+    "slug": "zanziwolf-tarren-mill-eu",
     "rank": 4,
     "roleHint": "unknown"
   },

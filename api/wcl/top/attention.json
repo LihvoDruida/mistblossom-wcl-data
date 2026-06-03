@@ -49,13 +49,6 @@
     "secondary": 0
   },
   {
-    "slug": "krekor-tarren-mill-eu",
-    "name": "Krekor",
-    "rank": 4,
-    "value": 52.04,
-    "secondary": 0
-  },
-  {
     "slug": "лилая-grom-eu",
     "name": "Лилая",
     "rank": 3,
@@ -81,6 +74,13 @@
     "name": "Шпаргат",
     "rank": 4,
     "value": 50.84,
+    "secondary": 0
+  },
+  {
+    "slug": "zanzithor-tarren-mill-eu",
+    "name": "Zanzithor",
+    "rank": 2,
+    "value": 49.57,
     "secondary": 0
   }
 ]
