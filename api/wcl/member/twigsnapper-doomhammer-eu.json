@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.366Z",
+  "updatedAt": "2026-06-04T16:25:43.800Z",
   "character": {
     "name": "Twigsnapper",
     "realmSlug": "doomhammer",
@@ -102,11 +102,11 @@
   },
   "pulls": [],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.366Z",
+    "lastScannedAt": "2026-06-04T16:25:43.800Z",
     "newPullsInLastScan": 0,
-    "scanReason": "no-data"
+    "scanReason": "scheduled"
   }
 }

@@ -1,12 +1,12 @@
 [
   {
     "className": "Unknown",
-    "members": 160,
-    "withData": 59,
-    "avgPrimaryRecent3": 21360.06,
-    "avgDpsRecent3": 17336.04,
-    "avgHpsRecent3": 4823.08,
+    "members": 158,
+    "withData": 58,
+    "avgPrimaryRecent3": 21664.91,
+    "avgDpsRecent3": 17320.78,
+    "avgHpsRecent3": 5623.21,
     "deathsPerPull": 0,
-    "avgReliabilityScore": 39.98
+    "avgReliabilityScore": 40.16
   }
 ]

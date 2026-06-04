@@ -21,6 +21,13 @@
     "secondary": 0
   },
   {
+    "slug": "khayen-terokkar-eu",
+    "name": "Khayen",
+    "rank": 0,
+    "value": 109605.53,
+    "secondary": 0
+  },
+  {
     "slug": "шриладо-gordunni-eu",
     "name": "Шриладо",
     "rank": 1,
@@ -74,13 +81,6 @@
     "name": "Севатар",
     "rank": 3,
     "value": 13387.48,
-    "secondary": 0
-  },
-  {
-    "slug": "shatnyi-terokkar-eu",
-    "name": "Shatnyi",
-    "rank": 4,
-    "value": 12812.84,
     "secondary": 0
   }
 ]

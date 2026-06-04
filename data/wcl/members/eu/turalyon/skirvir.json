@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-06-03T04:24:46.366Z",
+  "schemaVersion": 3,
+  "updatedAt": "2026-06-04T16:25:43.800Z",
   "character": {
     "name": "Skirvir",
     "realmSlug": "turalyon",
@@ -11,34 +11,1234 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 1,
-    "wipes": 9,
-    "killRate": 0.1,
-    "wipeRate": 0.9,
+    "kills": 2,
+    "wipes": 8,
+    "killRate": 0.2,
+    "wipeRate": 0.8,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 186,
+    "totalRaidDeaths": 173,
     "deathsPerPull": 0,
-    "stabilityPercent": 62.02,
-    "consistencyPercent": 24.05,
+    "stabilityPercent": 57.7,
+    "consistencyPercent": 49.72,
+    "performanceScore": 48.17,
+    "survivalScore": 100,
+    "reliabilityScore": 64.29,
     "recent3": {
-      "avgDps": 76673.75,
-      "avgHps": 1111.01,
-      "avgPrimary": 76673.75,
-      "avgDurationMs": 213419,
+      "sampleSize": 3,
+      "avgDps": 81687.77,
+      "avgHps": 0,
+      "avgPrimary": 81687.77,
+      "avgDurationMs": 180402,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 84026.05,
+      "avgHps": 0,
+      "avgPrimary": 84026.05,
+      "avgDurationMs": 124904,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 123630.26,
-      "minDps": 29738.51,
-      "maxHps": 4602.9,
-      "minHps": 463.6,
-      "maxPrimary": 123630.26,
-      "minPrimary": 29738.51,
-      "maxDurationMs": 335868,
-      "minDurationMs": 50176
+      "sampleSize": 10,
+      "maxDps": 141562.58,
+      "minDps": 70389.41,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 141562.58,
+      "minPrimary": 70389.41,
+      "maxDurationMs": 337228,
+      "minDurationMs": 41491
+    },
+    "trend": {
+      "direction": "flat",
+      "recentAvg": 81687.77,
+      "previousAvg": 84026.05,
+      "delta": -2338.28,
+      "deltaPercent": -2.78
+    },
+    "byRole": {
+      "healer": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      },
+      "damage": {
+        "pulls": 10,
+        "kills": 2,
+        "wipes": 8,
+        "avgRecent": 81687.77,
+        "maxLast10": 141562.58,
+        "minLast10": 70389.41,
+        "deathsPerPull": 0,
+        "bestPullKey": "rCkJzhm1PDqtNBw3:19:Skirvir:turalyon:eu",
+        "worstPullKey": "8dAPQCWGNMLBjrRg:31:Skirvir:turalyon:eu"
+      },
+      "unknown": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      }
+    },
+    "dataQuality": {
+      "pullsWithMatchedDamage": 10,
+      "pullsWithMatchedHealing": 10,
+      "pullsWithRoleInferred": 8,
+      "pullsWithDeaths": 0,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      },
+      "confidenceAvg": 0.52,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "rCkJzhm1PDqtNBw3:27:Skirvir:turalyon:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=27",
+      "status": "KILL",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-06-03T19:51:07.843Z",
+      "durationMs": 265692,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 285.29998779296875,
+      "actor": {
+        "id": 9,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "Hunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 75584.45,
+        "hps": 2478.88,
+        "primary": 75584.45,
+        "primaryKind": "dps",
+        "fightDps": 75584.45,
+        "fightHps": 2478.88,
+        "activeDps": 93704.49,
+        "activeHps": 4073.04,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 6
+      },
+      "source": {
+        "damageTotal": 20082184,
+        "healingTotal": 658619,
+        "damageActiveTimeMs": 214314,
+        "healingActiveTimeMs": 161702,
+        "damageTotalTimeMs": 265692,
+        "healingTotalTimeMs": 265692,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 27,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 4,
+          "kill": true,
+          "startTime": 8689676,
+          "endTime": 8955368,
+          "bossPercentage": 0.01,
+          "fightPercentage": 0.01,
+          "averageItemLevel": 285.29998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 265692,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 20082184,
+              "activeTime": 214314,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 265692,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 658619,
+              "activeTime": 161702,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 6,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 9,
+          "matchedActorName": "Skirvir",
+          "normalizedKeys": [
+            "skirvir:turalyon:eu",
+            "skirvir::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "Hunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:24:Skirvir:turalyon:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=24",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:40:39.488Z",
+      "durationMs": 177220,
+      "bossPercentage": 61,
+      "fightPercentage": 61,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 9,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "Hunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 81363.51,
+        "hps": 1158.83,
+        "primary": 81363.51,
+        "primaryKind": "dps",
+        "fightDps": 81363.51,
+        "fightHps": 1158.83,
+        "activeDps": 95442.37,
+        "activeHps": 1526.93,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 14419242,
+        "healingTotal": 205367,
+        "damageActiveTimeMs": 151078,
+        "healingActiveTimeMs": 134497,
+        "damageTotalTimeMs": 177220,
+        "healingTotalTimeMs": 177220,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 24,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 8061321,
+          "endTime": 8238541,
+          "bossPercentage": 61,
+          "fightPercentage": 61,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 177220,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 14419242,
+              "activeTime": 151078,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 177220,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 205367,
+              "activeTime": 134497,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 9,
+          "matchedActorName": "Skirvir",
+          "normalizedKeys": [
+            "skirvir:turalyon:eu",
+            "skirvir::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "Hunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:23:Skirvir:turalyon:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=23",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:36:08.801Z",
+      "durationMs": 98294,
+      "bossPercentage": 73.64,
+      "fightPercentage": 73.64,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 9,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "Hunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 88115.36,
+        "hps": 1660.79,
+        "primary": 88115.36,
+        "primaryKind": "dps",
+        "fightDps": 88115.36,
+        "fightHps": 1660.79,
+        "activeDps": 90024.02,
+        "activeHps": 2052.66,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 8661211,
+        "healingTotal": 163246,
+        "damageActiveTimeMs": 96210,
+        "healingActiveTimeMs": 79529,
+        "damageTotalTimeMs": 98294,
+        "healingTotalTimeMs": 98294,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 23,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7790634,
+          "endTime": 7888928,
+          "bossPercentage": 73.64,
+          "fightPercentage": 73.64,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 98294,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 8661211,
+              "activeTime": 96210,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 98294,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 163246,
+              "activeTime": 79529,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 19,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 9,
+          "matchedActorName": "Skirvir",
+          "normalizedKeys": [
+            "skirvir:turalyon:eu",
+            "skirvir::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "Hunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:22:Skirvir:turalyon:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=22",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:31:51.439Z",
+      "durationMs": 141866,
+      "bossPercentage": 69.1,
+      "fightPercentage": 69.1,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 9,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "Hunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 73918.7,
+        "hps": 1194.92,
+        "primary": 73918.7,
+        "primaryKind": "dps",
+        "fightDps": 73918.7,
+        "fightHps": 1194.92,
+        "activeDps": 84340.42,
+        "activeHps": 1805.35,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 10486550,
+        "healingTotal": 169519,
+        "damageActiveTimeMs": 124336,
+        "healingActiveTimeMs": 93898,
+        "damageTotalTimeMs": 141866,
+        "healingTotalTimeMs": 141866,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 22,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7533272,
+          "endTime": 7675138,
+          "bossPercentage": 69.1,
+          "fightPercentage": 69.1,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 141866,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 10486550,
+              "activeTime": 124336,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 141866,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 169519,
+              "activeTime": 93898,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 19,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 9,
+          "matchedActorName": "Skirvir",
+          "normalizedKeys": [
+            "skirvir:turalyon:eu",
+            "skirvir::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "Hunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:21:Skirvir:turalyon:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=21",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:27:34.991Z",
+      "durationMs": 131855,
+      "bossPercentage": 66.85,
+      "fightPercentage": 66.85,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 9,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "Hunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 96067.51,
+        "hps": 1045.12,
+        "primary": 96067.51,
+        "primaryKind": "dps",
+        "fightDps": 96067.51,
+        "fightHps": 1045.12,
+        "activeDps": 109688.88,
+        "activeHps": 1777.66,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 12666981,
+        "healingTotal": 137804,
+        "damageActiveTimeMs": 115481,
+        "healingActiveTimeMs": 77520,
+        "damageTotalTimeMs": 131855,
+        "healingTotalTimeMs": 131855,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 21,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7276824,
+          "endTime": 7408679,
+          "bossPercentage": 66.85,
+          "fightPercentage": 66.85,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 131855,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 12666981,
+              "activeTime": 115481,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 131855,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 137804,
+              "activeTime": 77520,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 19,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 9,
+          "matchedActorName": "Skirvir",
+          "normalizedKeys": [
+            "skirvir:turalyon:eu",
+            "skirvir::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "Hunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:20:Skirvir:turalyon:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=20",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:23:15.062Z",
+      "durationMs": 100990,
+      "bossPercentage": 71.78,
+      "fightPercentage": 71.78,
+      "averageItemLevel": 286.54998779296875,
+      "actor": {
+        "id": 9,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "Hunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 82091.94,
+        "hps": 5300.84,
+        "primary": 82091.94,
+        "primaryKind": "dps",
+        "fightDps": 82091.94,
+        "fightHps": 5300.84,
+        "activeDps": 84010.22,
+        "activeHps": 6640.27,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8290465,
+        "healingTotal": 535332,
+        "damageActiveTimeMs": 98684,
+        "healingActiveTimeMs": 80619,
+        "damageTotalTimeMs": 100990,
+        "healingTotalTimeMs": 100990,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 20,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7016895,
+          "endTime": 7117885,
+          "bossPercentage": 71.78,
+          "fightPercentage": 71.78,
+          "averageItemLevel": 286.54998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 100990,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 8290465,
+              "activeTime": 98684,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 100990,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 535332,
+              "activeTime": 80619,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 9,
+          "matchedActorName": "Skirvir",
+          "normalizedKeys": [
+            "skirvir:turalyon:eu",
+            "skirvir::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "Hunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:19:Skirvir:turalyon:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=19",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:19:39.538Z",
+      "durationMs": 41491,
+      "bossPercentage": 80.29,
+      "fightPercentage": 80.29,
+      "averageItemLevel": 286.54998779296875,
+      "actor": {
+        "id": 9,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "Hunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 141562.58,
+        "hps": 1640.5,
+        "primary": 141562.58,
+        "primaryKind": "dps",
+        "fightDps": 141562.58,
+        "fightHps": 1640.5,
+        "activeDps": 146192.42,
+        "activeHps": 2932.74,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 5873573,
+        "healingTotal": 68066,
+        "damageActiveTimeMs": 40177,
+        "healingActiveTimeMs": 23209,
+        "damageTotalTimeMs": 41491,
+        "healingTotalTimeMs": 41491,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 19,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6801371,
+          "endTime": 6842862,
+          "bossPercentage": 80.29,
+          "fightPercentage": 80.29,
+          "averageItemLevel": 286.54998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 41491,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 5873573,
+              "activeTime": 40177,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 41491,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 68066,
+              "activeTime": 23209,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 9,
+          "matchedActorName": "Skirvir",
+          "normalizedKeys": [
+            "skirvir:turalyon:eu",
+            "skirvir::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "Hunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:17:Skirvir:turalyon:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=17",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T18:55:26.254Z",
+      "durationMs": 337228,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 286.1499938964844,
+      "actor": {
+        "id": 9,
+        "name": "Skirvir",
+        "server": "Turalyon",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "Hunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 95318.9,
+        "hps": 4105.12,
+        "primary": 95318.9,
+        "primaryKind": "dps",
+        "fightDps": 95318.9,
+        "fightHps": 4105.12,
+        "activeDps": 95650.75,
+        "activeHps": 4486.5,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 9
+      },
+      "source": {
+        "damageTotal": 32144201,
+        "healingTotal": 1384362,
+        "damageActiveTimeMs": 336058,
+        "healingActiveTimeMs": 308562,
+        "damageTotalTimeMs": 337228,
+        "healingTotalTimeMs": 337228,
+        "damageEntryId": 9,
+        "healingEntryId": 9,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 17,
+          "name": "Vorasius",
+          "encounterID": 3177,
+          "difficulty": 5,
+          "kill": true,
+          "startTime": 5348087,
+          "endTime": 5685315,
+          "bossPercentage": 0.01,
+          "fightPercentage": 0.01,
+          "averageItemLevel": 286.1499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 337228,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 32144201,
+              "activeTime": 336058,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 337228,
+            "matchedBy": "actor-id:9",
+            "matchedEntry": {
+              "id": 9,
+              "name": "Skirvir",
+              "type": "Hunter",
+              "icon": "Hunter-BeastMastery",
+              "total": 1384362,
+              "activeTime": 308562,
+              "itemLevel": 288,
+              "guid": 188842818
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 9,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 9,
+          "matchedActorName": "Skirvir",
+          "normalizedKeys": [
+            "skirvir:turalyon:eu",
+            "skirvir::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "Hunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "8dAPQCWGNMLBjrRg:32:Skirvir:turalyon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
@@ -72,7 +1272,13 @@
         "dps": 72436.73,
         "hps": 1126.58,
         "primary": 72436.73,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 72436.73,
+        "fightHps": 1126.58,
+        "activeDps": 72436.73,
+        "activeHps": 1126.58,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -90,6 +1296,11 @@
         "damageItemLevel": 288,
         "healingItemLevel": 288,
         "matchedBy": "damage:actor-id:172,healing:actor-id:172"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -125,7 +1336,13 @@
         "dps": 70389.41,
         "hps": 1023.51,
         "primary": 70389.41,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 70389.41,
+        "fightHps": 1023.51,
+        "activeDps": 70389.41,
+        "activeHps": 1023.51,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -143,436 +1360,21 @@
         "damageItemLevel": 288,
         "healingItemLevel": 288,
         "matchedBy": "damage:actor-id:172,healing:actor-id:172"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:30:Skirvir:turalyon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
       },
-      "fightId": 30,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:54:58.059Z",
-      "durationMs": 197829,
-      "bossPercentage": 58.27,
-      "fightPercentage": 58.27,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 172,
-        "name": "Skirvir",
-        "server": "Turalyon",
-        "type": "Player",
-        "subType": "Hunter"
-      },
-      "metric": {
-        "dps": 87195.1,
-        "hps": 1182.95,
-        "primary": 87195.1,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 17249719,
-        "healingTotal": 234022,
-        "damageActiveTimeMs": 195391,
-        "healingActiveTimeMs": 134033,
-        "damageTotalTimeMs": 197829,
-        "healingTotalTimeMs": 197829,
-        "damageEntryId": 172,
-        "healingEntryId": 172,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:29:Skirvir:turalyon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 29,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:48:53.946Z",
-      "durationMs": 222158,
-      "bossPercentage": 56.82,
-      "fightPercentage": 56.82,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 172,
-        "name": "Skirvir",
-        "server": "Turalyon",
-        "type": "Player",
-        "subType": "Hunter"
-      },
-      "metric": {
-        "dps": 79321.17,
-        "hps": 1430.15,
-        "primary": 79321.17,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 17621832,
-        "healingTotal": 317720,
-        "damageActiveTimeMs": 203561,
-        "healingActiveTimeMs": 148221,
-        "damageTotalTimeMs": 222158,
-        "healingTotalTimeMs": 222158,
-        "damageEntryId": 172,
-        "healingEntryId": 172,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:28:Skirvir:turalyon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:38:12.252Z",
-      "durationMs": 209169,
-      "bossPercentage": 58.86,
-      "fightPercentage": 58.86,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 172,
-        "name": "Skirvir",
-        "server": "Turalyon",
-        "type": "Player",
-        "subType": "Hunter"
-      },
-      "metric": {
-        "dps": 90786.05,
-        "hps": 2737.82,
-        "primary": 90786.05,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 18989628,
-        "healingTotal": 572667,
-        "damageActiveTimeMs": 205393,
-        "healingActiveTimeMs": 159674,
-        "damageTotalTimeMs": 209169,
-        "healingTotalTimeMs": 209169,
-        "damageEntryId": 172,
-        "healingEntryId": 172,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:27:Skirvir:turalyon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:29:44.846Z",
-      "durationMs": 169519,
-      "bossPercentage": 62.33,
-      "fightPercentage": 62.33,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 172,
-        "name": "Skirvir",
-        "server": "Turalyon",
-        "type": "Player",
-        "subType": "Hunter"
-      },
-      "metric": {
-        "dps": 71954.86,
-        "hps": 4069.59,
-        "primary": 71954.86,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 12197716,
-        "healingTotal": 689872,
-        "damageActiveTimeMs": 134480,
-        "healingActiveTimeMs": 70893,
-        "damageTotalTimeMs": 169519,
-        "healingTotalTimeMs": 169519,
-        "damageEntryId": 172,
-        "healingEntryId": 172,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:26:Skirvir:turalyon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:27:07.695Z",
-      "durationMs": 50885,
-      "bossPercentage": 80.53,
-      "fightPercentage": 80.53,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 172,
-        "name": "Skirvir",
-        "server": "Turalyon",
-        "type": "Player",
-        "subType": "Hunter"
-      },
-      "metric": {
-        "dps": 123630.26,
-        "hps": 1845.81,
-        "primary": 123630.26,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 6290926,
-        "healingTotal": 93924,
-        "damageActiveTimeMs": 47319,
-        "healingActiveTimeMs": 21423,
-        "damageTotalTimeMs": 50885,
-        "healingTotalTimeMs": 50885,
-        "damageEntryId": 172,
-        "healingEntryId": 172,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:25:Skirvir:turalyon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:23:53.731Z",
-      "durationMs": 50176,
-      "bossPercentage": 79.76,
-      "fightPercentage": 79.76,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 172,
-        "name": "Skirvir",
-        "server": "Turalyon",
-        "type": "Player",
-        "subType": "Hunter"
-      },
-      "metric": {
-        "dps": 122437.36,
-        "hps": 1634.33,
-        "primary": 122437.36,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 6143417,
-        "healingTotal": 82004,
-        "damageActiveTimeMs": 47989,
-        "healingActiveTimeMs": 38901,
-        "damageTotalTimeMs": 50176,
-        "healingTotalTimeMs": 50176,
-        "damageEntryId": 172,
-        "healingEntryId": 172,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:21:Skirvir:turalyon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
-      "status": "KILL",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:04:24.189Z",
-      "durationMs": 335868,
-      "bossPercentage": 0.01,
-      "fightPercentage": 0.01,
-      "averageItemLevel": 284.8500061035156,
-      "actor": {
-        "id": 172,
-        "name": "Skirvir",
-        "server": "Turalyon",
-        "type": "Player",
-        "subType": "Hunter"
-      },
-      "metric": {
-        "dps": 100590.62,
-        "hps": 4602.9,
-        "primary": 100590.62,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 3
-      },
-      "source": {
-        "damageTotal": 33785172,
-        "healingTotal": 1545967,
-        "damageActiveTimeMs": 332506,
-        "healingActiveTimeMs": 321834,
-        "damageTotalTimeMs": 335868,
-        "healingTotalTimeMs": 335868,
-        "damageEntryId": 172,
-        "healingEntryId": 172,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:20:Skirvir:turalyon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T18:57:55.893Z",
-      "durationMs": 285958,
-      "bossPercentage": 27.56,
-      "fightPercentage": 27.56,
-      "averageItemLevel": 284.8500061035156,
-      "actor": {
-        "id": 172,
-        "name": "Skirvir",
-        "server": "Turalyon",
-        "type": "Player",
-        "subType": "Hunter"
-      },
-      "metric": {
-        "dps": 29738.51,
-        "hps": 463.6,
-        "primary": 29738.51,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 8503965,
-        "healingTotal": 132570,
-        "damageActiveTimeMs": 91942,
-        "healingActiveTimeMs": 80049,
-        "damageTotalTimeMs": 285958,
-        "healingTotalTimeMs": 285958,
-        "damageEntryId": 172,
-        "healingEntryId": 172,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:172,healing:actor-id:172"
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "reportsScanned": 8,
+    "fightsScanned": 8,
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-04T16:25:43.800Z",
+    "lastPullAt": "2026-06-03T19:51:07.843Z",
+    "newPullsInLastScan": 8,
+    "scanReason": "scheduled"
   }
 }

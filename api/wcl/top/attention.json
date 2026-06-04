@@ -7,13 +7,6 @@
     "secondary": 0
   },
   {
-    "slug": "khayen-terokkar-eu",
-    "name": "Khayen",
-    "rank": 0,
-    "value": 56.22,
-    "secondary": 0
-  },
-  {
     "slug": "frrtiix-draenor-eu",
     "name": "Frrtiix",
     "rank": 1,
@@ -81,6 +74,13 @@
     "name": "Zanzithor",
     "rank": 2,
     "value": 49.57,
+    "secondary": 0
+  },
+  {
+    "slug": "коксбульдог-howling-fjord-eu",
+    "name": "Коксбульдог",
+    "rank": 4,
+    "value": 49.56,
     "secondary": 0
   }
 ]
