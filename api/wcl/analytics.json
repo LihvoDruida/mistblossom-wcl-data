@@ -571,95 +571,95 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 24,
-    "updatedWithin12h": 40,
-    "updatedWithin24h": 160,
+    "updatedWithin6h": 16,
+    "updatedWithin12h": 32,
+    "updatedWithin24h": 48,
     "oldestScannedAt": "2026-06-03T04:24:46.365Z",
-    "newestScannedAt": "2026-06-03T23:51:26.151Z",
+    "newestScannedAt": "2026-06-04T04:50:18.415Z",
     "staleMembers": [
       {
         "slug": "khayen-terokkar-eu",
         "name": "Khayen",
         "rank": 0,
-        "value": 19.49,
+        "value": 24.43,
         "secondary": 10
       },
       {
         "slug": "forchun-silvermoon-eu",
         "name": "Forchun",
         "rank": 1,
-        "value": 19.49,
-        "secondary": 10
-      },
-      {
-        "slug": "frrtiix-draenor-eu",
-        "name": "Frrtiix",
-        "rank": 1,
-        "value": 19.49,
+        "value": 24.43,
         "secondary": 10
       },
       {
         "slug": "ironbelly-silvermoon-eu",
         "name": "Ironbelly",
         "rank": 1,
-        "value": 19.49,
+        "value": 24.43,
         "secondary": 0
-      },
-      {
-        "slug": "kashin-terokkar-eu",
-        "name": "Kashin",
-        "rank": 1,
-        "value": 19.49,
-        "secondary": 0
-      },
-      {
-        "slug": "krouli-terokkar-eu",
-        "name": "Krouli",
-        "rank": 1,
-        "value": 19.49,
-        "secondary": 0
-      },
-      {
-        "slug": "lightass-terokkar-eu",
-        "name": "Lightass",
-        "rank": 1,
-        "value": 19.49,
-        "secondary": 10
       },
       {
         "slug": "lishiy-ragnaros-eu",
         "name": "Lishiy",
         "rank": 1,
-        "value": 19.49,
+        "value": 24.43,
         "secondary": 0
       },
       {
         "slug": "lishiyburn-ragnaros-eu",
         "name": "Lishiyburn",
         "rank": 1,
-        "value": 19.49,
+        "value": 24.43,
         "secondary": 10
-      },
-      {
-        "slug": "mafik-terokkar-eu",
-        "name": "Mafik",
-        "rank": 1,
-        "value": 19.49,
-        "secondary": 10
-      },
-      {
-        "slug": "odeskiy-tarren-mill-eu",
-        "name": "Odeskiy",
-        "rank": 1,
-        "value": 19.49,
-        "secondary": 0
       },
       {
         "slug": "thortun-silvermoon-eu",
         "name": "Thortun",
         "rank": 1,
-        "value": 19.49,
+        "value": 24.43,
         "secondary": 0
+      },
+      {
+        "slug": "булкрит-gordunni-eu",
+        "name": "Булкрит",
+        "rank": 1,
+        "value": 24.43,
+        "secondary": 10
+      },
+      {
+        "slug": "мавпита-gordunni-eu",
+        "name": "Мавпита",
+        "rank": 1,
+        "value": 24.43,
+        "secondary": 10
+      },
+      {
+        "slug": "мистип-gordunni-eu",
+        "name": "Мистип",
+        "rank": 1,
+        "value": 24.43,
+        "secondary": 0
+      },
+      {
+        "slug": "пизнаика-gordunni-eu",
+        "name": "Пизнайка",
+        "rank": 1,
+        "value": 24.43,
+        "secondary": 10
+      },
+      {
+        "slug": "тузольд-gordunni-eu",
+        "name": "Тузольд",
+        "rank": 1,
+        "value": 24.43,
+        "secondary": 10
+      },
+      {
+        "slug": "шриладо-gordunni-eu",
+        "name": "Шриладо",
+        "rank": 1,
+        "value": 24.43,
+        "secondary": 10
       }
     ]
   },
