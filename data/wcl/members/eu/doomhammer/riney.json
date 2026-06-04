@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-06-03T04:24:46.365Z",
+  "schemaVersion": 3,
+  "updatedAt": "2026-06-04T12:08:11.656Z",
   "character": {
     "name": "Riney",
     "realmSlug": "doomhammer",
@@ -10,38 +10,1259 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
-    "kills": 0,
-    "wipes": 0,
-    "killRate": 0,
-    "wipeRate": 0,
+    "pullsStored": 8,
+    "kills": 2,
+    "wipes": 6,
+    "killRate": 0.25,
+    "wipeRate": 0.75,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 132,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
+    "stabilityPercent": 36.87,
+    "consistencyPercent": 26.76,
+    "performanceScore": 31.97,
+    "survivalScore": 100,
+    "reliabilityScore": 61.08,
     "recent3": {
-      "avgDps": 0,
+      "sampleSize": 3,
+      "avgDps": 48876.4,
       "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgPrimary": 48876.4,
+      "avgDurationMs": 180402,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 67059.39,
+      "avgHps": 0,
+      "avgPrimary": 67059.39,
+      "avgDurationMs": 124904,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 0,
-      "minDps": 0,
+      "sampleSize": 8,
+      "maxDps": 132577.26,
+      "minDps": 35475.52,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxPrimary": 132577.26,
+      "minPrimary": 35475.52,
+      "maxDurationMs": 337228,
+      "minDurationMs": 41491
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 48876.4,
+      "previousAvg": 67059.39,
+      "delta": -18182.99,
+      "deltaPercent": -27.11
+    },
+    "byRole": {
+      "healer": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      },
+      "damage": {
+        "pulls": 8,
+        "kills": 2,
+        "wipes": 6,
+        "avgRecent": 48876.4,
+        "maxLast10": 132577.26,
+        "minLast10": 35475.52,
+        "deathsPerPull": 0,
+        "bestPullKey": "rCkJzhm1PDqtNBw3:19:Riney:doomhammer:eu",
+        "worstPullKey": "rCkJzhm1PDqtNBw3:27:Riney:doomhammer:eu"
+      },
+      "unknown": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      }
+    },
+    "dataQuality": {
+      "pullsWithMatchedDamage": 8,
+      "pullsWithMatchedHealing": 8,
+      "pullsWithRoleInferred": 8,
+      "pullsWithDeaths": 0,
+      "primaryKindCounts": {
+        "dps": 8,
+        "hps": 0,
+        "unknown": 0
+      },
+      "confidenceAvg": 0.9,
+      "matchedPullPercent": 100
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "rCkJzhm1PDqtNBw3:27:Riney:doomhammer:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=27",
+      "status": "KILL",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 4,
+      "difficultyName": "Heroic",
+      "startedAt": "2026-06-03T19:51:07.843Z",
+      "durationMs": 265692,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 285.29998779296875,
+      "actor": {
+        "id": 14,
+        "name": "Riney",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Hunter-Marksmanship",
+        "className": "Hunter",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 35475.52,
+        "hps": 4146.6,
+        "primary": 35475.52,
+        "primaryKind": "dps",
+        "fightDps": 35475.52,
+        "fightHps": 4146.6,
+        "activeDps": 60450.5,
+        "activeHps": 10479.69,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 6
+      },
+      "source": {
+        "damageTotal": 9425563,
+        "healingTotal": 1101719,
+        "damageActiveTimeMs": 155922,
+        "healingActiveTimeMs": 105129,
+        "damageTotalTimeMs": 265692,
+        "healingTotalTimeMs": 265692,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 27,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 4,
+          "kill": true,
+          "startTime": 8689676,
+          "endTime": 8955368,
+          "bossPercentage": 0.01,
+          "fightPercentage": 0.01,
+          "averageItemLevel": 285.29998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 265692,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 9425563,
+              "activeTime": 155922,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 265692,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 1101719,
+              "activeTime": 105129,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 6,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 14,
+          "matchedActorName": "Riney",
+          "normalizedKeys": [
+            "riney:doomhammer:eu",
+            "riney::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Hunter-Marksmanship",
+            "className": "Hunter",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:24:Riney:doomhammer:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=24",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:40:39.488Z",
+      "durationMs": 177220,
+      "bossPercentage": 61,
+      "fightPercentage": 61,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 14,
+        "name": "Riney",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Hunter-Marksmanship",
+        "className": "Hunter",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 42186.4,
+        "hps": 1834.04,
+        "primary": 42186.4,
+        "primaryKind": "dps",
+        "fightDps": 42186.4,
+        "fightHps": 1834.04,
+        "activeDps": 73504.35,
+        "activeHps": 4199.67,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 7476274,
+        "healingTotal": 325029,
+        "damageActiveTimeMs": 101712,
+        "healingActiveTimeMs": 77394,
+        "damageTotalTimeMs": 177220,
+        "healingTotalTimeMs": 177220,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 24,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 8061321,
+          "endTime": 8238541,
+          "bossPercentage": 61,
+          "fightPercentage": 61,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 177220,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 7476274,
+              "activeTime": 101712,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 177220,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 325029,
+              "activeTime": 77394,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 14,
+          "matchedActorName": "Riney",
+          "normalizedKeys": [
+            "riney:doomhammer:eu",
+            "riney::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Hunter-Marksmanship",
+            "className": "Hunter",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:23:Riney:doomhammer:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=23",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:36:08.801Z",
+      "durationMs": 98294,
+      "bossPercentage": 73.64,
+      "fightPercentage": 73.64,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 14,
+        "name": "Riney",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Hunter-Marksmanship",
+        "className": "Hunter",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 68967.27,
+        "hps": 2131.4,
+        "primary": 68967.27,
+        "primaryKind": "dps",
+        "fightDps": 68967.27,
+        "fightHps": 2131.4,
+        "activeDps": 70031.7,
+        "activeHps": 2657.2,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 6779069,
+        "healingTotal": 209504,
+        "damageActiveTimeMs": 96800,
+        "healingActiveTimeMs": 78844,
+        "damageTotalTimeMs": 98294,
+        "healingTotalTimeMs": 98294,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 23,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7790634,
+          "endTime": 7888928,
+          "bossPercentage": 73.64,
+          "fightPercentage": 73.64,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 98294,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 6779069,
+              "activeTime": 96800,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 98294,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 209504,
+              "activeTime": 78844,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 19,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 14,
+          "matchedActorName": "Riney",
+          "normalizedKeys": [
+            "riney:doomhammer:eu",
+            "riney::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Hunter-Marksmanship",
+            "className": "Hunter",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:22:Riney:doomhammer:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=22",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:31:51.439Z",
+      "durationMs": 141866,
+      "bossPercentage": 69.1,
+      "fightPercentage": 69.1,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 14,
+        "name": "Riney",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Hunter-Marksmanship",
+        "className": "Hunter",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 63474.86,
+        "hps": 5189.48,
+        "primary": 63474.86,
+        "primaryKind": "dps",
+        "fightDps": 63474.86,
+        "fightHps": 5189.48,
+        "activeDps": 79927.96,
+        "activeHps": 8045.67,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 9004924,
+        "healingTotal": 736211,
+        "damageActiveTimeMs": 112663,
+        "healingActiveTimeMs": 91504,
+        "damageTotalTimeMs": 141866,
+        "healingTotalTimeMs": 141866,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 22,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7533272,
+          "endTime": 7675138,
+          "bossPercentage": 69.1,
+          "fightPercentage": 69.1,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 141866,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 9004924,
+              "activeTime": 112663,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 141866,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 736211,
+              "activeTime": 91504,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 19,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 14,
+          "matchedActorName": "Riney",
+          "normalizedKeys": [
+            "riney:doomhammer:eu",
+            "riney::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Hunter-Marksmanship",
+            "className": "Hunter",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:21:Riney:doomhammer:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=21",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:27:34.991Z",
+      "durationMs": 131855,
+      "bossPercentage": 66.85,
+      "fightPercentage": 66.85,
+      "averageItemLevel": 286.4210510253906,
+      "actor": {
+        "id": 14,
+        "name": "Riney",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Hunter-Marksmanship",
+        "className": "Hunter",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 73879.17,
+        "hps": 7174.32,
+        "primary": 73879.17,
+        "primaryKind": "dps",
+        "fightDps": 73879.17,
+        "fightHps": 7174.32,
+        "activeDps": 79853.58,
+        "activeHps": 9489.69,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 19
+      },
+      "source": {
+        "damageTotal": 9741338,
+        "healingTotal": 945970,
+        "damageActiveTimeMs": 121990,
+        "healingActiveTimeMs": 99684,
+        "damageTotalTimeMs": 131855,
+        "healingTotalTimeMs": 131855,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 21,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7276824,
+          "endTime": 7408679,
+          "bossPercentage": 66.85,
+          "fightPercentage": 66.85,
+          "averageItemLevel": 286.4210510253906
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 131855,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 9741338,
+              "activeTime": 121990,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 131855,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 945970,
+              "activeTime": 99684,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 19,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 14,
+          "matchedActorName": "Riney",
+          "normalizedKeys": [
+            "riney:doomhammer:eu",
+            "riney::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Hunter-Marksmanship",
+            "className": "Hunter",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:20:Riney:doomhammer:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=20",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:23:15.062Z",
+      "durationMs": 100990,
+      "bossPercentage": 71.78,
+      "fightPercentage": 71.78,
+      "averageItemLevel": 286.54998779296875,
+      "actor": {
+        "id": 14,
+        "name": "Riney",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Hunter-Marksmanship",
+        "className": "Hunter",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 63824.13,
+        "hps": 4628.4,
+        "primary": 63824.13,
+        "primaryKind": "dps",
+        "fightDps": 63824.13,
+        "fightHps": 4628.4,
+        "activeDps": 77339.14,
+        "activeHps": 5867.42,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6445599,
+        "healingTotal": 467422,
+        "damageActiveTimeMs": 83342,
+        "healingActiveTimeMs": 79664,
+        "damageTotalTimeMs": 100990,
+        "healingTotalTimeMs": 100990,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 20,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7016895,
+          "endTime": 7117885,
+          "bossPercentage": 71.78,
+          "fightPercentage": 71.78,
+          "averageItemLevel": 286.54998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 100990,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 6445599,
+              "activeTime": 83342,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 100990,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 467422,
+              "activeTime": 79664,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 14,
+          "matchedActorName": "Riney",
+          "normalizedKeys": [
+            "riney:doomhammer:eu",
+            "riney::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Hunter-Marksmanship",
+            "className": "Hunter",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:19:Riney:doomhammer:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=19",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T19:19:39.538Z",
+      "durationMs": 41491,
+      "bossPercentage": 80.29,
+      "fightPercentage": 80.29,
+      "averageItemLevel": 286.54998779296875,
+      "actor": {
+        "id": 14,
+        "name": "Riney",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Hunter-Marksmanship",
+        "className": "Hunter",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 132577.26,
+        "hps": 1152.11,
+        "primary": 132577.26,
+        "primaryKind": "dps",
+        "fightDps": 132577.26,
+        "fightHps": 1152.11,
+        "activeDps": 141124.81,
+        "activeHps": 2409.74,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 5500763,
+        "healingTotal": 47802,
+        "damageActiveTimeMs": 38978,
+        "healingActiveTimeMs": 19837,
+        "damageTotalTimeMs": 41491,
+        "healingTotalTimeMs": 41491,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 19,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6801371,
+          "endTime": 6842862,
+          "bossPercentage": 80.29,
+          "fightPercentage": 80.29,
+          "averageItemLevel": 286.54998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 41491,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 5500763,
+              "activeTime": 38978,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 41491,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 47802,
+              "activeTime": 19837,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 14,
+          "matchedActorName": "Riney",
+          "normalizedKeys": [
+            "riney:doomhammer:eu",
+            "riney::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Hunter-Marksmanship",
+            "className": "Hunter",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "rCkJzhm1PDqtNBw3:17:Riney:doomhammer:eu",
+      "reportCode": "rCkJzhm1PDqtNBw3",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-03T17:26:18.167Z",
+      "reportEndedAt": "2026-06-03T19:57:01.577Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=17",
+      "status": "KILL",
+      "bossName": "Vorasius",
+      "encounterId": 3177,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-03T18:55:26.254Z",
+      "durationMs": 337228,
+      "bossPercentage": 0.01,
+      "fightPercentage": 0.01,
+      "averageItemLevel": 286.1499938964844,
+      "actor": {
+        "id": 14,
+        "name": "Riney",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Hunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Hunter-Marksmanship",
+        "className": "Hunter",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 45441.12,
+        "hps": 2511.96,
+        "primary": 45441.12,
+        "primaryKind": "dps",
+        "fightDps": 45441.12,
+        "fightHps": 2511.96,
+        "activeDps": 74089.91,
+        "activeHps": 4358.76,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 9
+      },
+      "source": {
+        "damageTotal": 15324017,
+        "healingTotal": 847104,
+        "damageActiveTimeMs": 206830,
+        "healingActiveTimeMs": 194345,
+        "damageTotalTimeMs": 337228,
+        "healingTotalTimeMs": 337228,
+        "damageEntryId": 14,
+        "healingEntryId": 14,
+        "damageItemLevel": 280,
+        "healingItemLevel": 280,
+        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "rCkJzhm1PDqtNBw3",
+          "title": "VS / DR / MQD",
+          "startTime": 1780507578167,
+          "endTime": 1780516621577
+        },
+        "fight": {
+          "id": 17,
+          "name": "Vorasius",
+          "encounterID": 3177,
+          "difficulty": 5,
+          "kill": true,
+          "startTime": 5348087,
+          "endTime": 5685315,
+          "bossPercentage": 0.01,
+          "fightPercentage": 0.01,
+          "averageItemLevel": 286.1499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 337228,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 15324017,
+              "activeTime": 206830,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 20,
+            "totalTimeMs": 337228,
+            "matchedBy": "actor-id:14",
+            "matchedEntry": {
+              "id": 14,
+              "name": "Riney",
+              "type": "Hunter",
+              "icon": "Hunter-Marksmanship",
+              "total": 847104,
+              "activeTime": 194345,
+              "itemLevel": 280,
+              "guid": 188651417
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 9,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 14,
+          "matchedActorName": "Riney",
+          "normalizedKeys": [
+            "riney:doomhammer:eu",
+            "riney::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Hunter-Marksmanship",
+            "className": "Hunter",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    }
+  ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "reportsScanned": 8,
+    "fightsScanned": 8,
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-04T12:08:11.656Z",
+    "lastPullAt": "2026-06-03T19:51:07.843Z",
+    "newPullsInLastScan": 8,
+    "scanReason": "scheduled"
   }
 }

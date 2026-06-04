@@ -7,6 +7,13 @@
     "secondary": 0
   },
   {
+    "slug": "arthasright-tarren-mill-eu",
+    "name": "Arthasright",
+    "rank": 4,
+    "value": 97981.85,
+    "secondary": 0
+  },
+  {
     "slug": "kokosik-silvermoon-eu",
     "name": "Kokosik",
     "rank": 3,
@@ -28,13 +35,6 @@
     "secondary": 0
   },
   {
-    "slug": "arthasright-tarren-mill-eu",
-    "name": "Arthasright",
-    "rank": 4,
-    "value": 88820.74,
-    "secondary": 0
-  },
-  {
     "slug": "oxydenis-silvermoon-eu",
     "name": "Oxydenis",
     "rank": 3,
@@ -42,17 +42,17 @@
     "secondary": 0
   },
   {
+    "slug": "marmozetroly-tarren-mill-eu",
+    "name": "Marmozetroly",
+    "rank": 4,
+    "value": 87923.27,
+    "secondary": 0
+  },
+  {
     "slug": "мавпита-gordunni-eu",
     "name": "Мавпита",
     "rank": 1,
     "value": 87339.48,
-    "secondary": 0
-  },
-  {
-    "slug": "marmozetroly-tarren-mill-eu",
-    "name": "Marmozetroly",
-    "rank": 4,
-    "value": 87175.59,
     "secondary": 0
   },
   {
