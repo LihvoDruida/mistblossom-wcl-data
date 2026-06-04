@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.368Z",
+  "updatedAt": "2026-06-04T21:48:09.358Z",
   "character": {
     "name": "Forchun",
     "realmSlug": "silvermoon",
@@ -11,51 +11,51 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 1,
-    "wipes": 9,
-    "killRate": 0.1,
-    "wipeRate": 0.9,
+    "kills": 0,
+    "wipes": 10,
+    "killRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 186,
+    "totalRaidDeaths": 195,
     "deathsPerPull": 0,
-    "stabilityPercent": 67.54,
-    "consistencyPercent": 50.66,
-    "performanceScore": 51.81,
+    "stabilityPercent": 91.49,
+    "consistencyPercent": 64.9,
+    "performanceScore": 66.54,
     "survivalScore": 100,
-    "reliabilityScore": 58.5,
+    "reliabilityScore": 77.7,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 40330.46,
+      "avgDps": 50929.63,
       "avgHps": 0,
-      "avgPrimary": 40330.46,
-      "avgDurationMs": 213419,
+      "avgPrimary": 50929.63,
+      "avgDurationMs": 291246,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 35147.55,
+      "avgDps": 45455.08,
       "avgHps": 0,
-      "avgPrimary": 35147.55,
-      "avgDurationMs": 200282,
+      "avgPrimary": 45455.08,
+      "avgDurationMs": 233606,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 59710.42,
-      "minDps": 30246.76,
+      "maxDps": 55665.4,
+      "minDps": 36127.32,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 59710.42,
-      "minPrimary": 30246.76,
-      "maxDurationMs": 335868,
-      "minDurationMs": 50176
+      "maxPrimary": 55665.4,
+      "minPrimary": 36127.32,
+      "maxDurationMs": 407830,
+      "minDurationMs": 108203
     },
     "trend": {
       "direction": "up",
-      "recentAvg": 40330.46,
-      "previousAvg": 35147.55,
-      "delta": 5182.91,
-      "deltaPercent": 14.75
+      "recentAvg": 50929.63,
+      "previousAvg": 45455.08,
+      "delta": 5474.55,
+      "deltaPercent": 12.04
     },
     "byRole": {
       "healer": {
@@ -69,14 +69,14 @@
       },
       "damage": {
         "pulls": 10,
-        "kills": 1,
-        "wipes": 9,
-        "avgRecent": 40330.46,
-        "maxLast10": 59710.42,
-        "minLast10": 30246.76,
+        "kills": 0,
+        "wipes": 10,
+        "avgRecent": 50929.63,
+        "maxLast10": 55665.4,
+        "minLast10": 36127.32,
         "deathsPerPull": 0,
-        "bestPullKey": "8dAPQCWGNMLBjrRg:25:Forchun:silvermoon:eu",
-        "worstPullKey": "8dAPQCWGNMLBjrRg:28:Forchun:silvermoon:eu"
+        "bestPullKey": "J7drK2qY9hFnRyTD:23:Forchun:silvermoon:eu",
+        "worstPullKey": "8dAPQCWGNMLBjrRg:32:Forchun:silvermoon:eu"
       },
       "unknown": {
         "pulls": 0,
@@ -91,18 +91,1170 @@
     "dataQuality": {
       "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 0,
+      "pullsWithRoleInferred": 8,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
         "unknown": 0
       },
-      "confidenceAvg": 0,
+      "confidenceAvg": 0.74,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "J7drK2qY9hFnRyTD:28:Forchun:silvermoon:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=28",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:56:22.399Z",
+      "durationMs": 254690,
+      "bossPercentage": 99.99,
+      "fightPercentage": 99.99,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 314,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Monk-Brewmaster",
+        "className": "Monk",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 52057.91,
+        "hps": 25478.15,
+        "primary": 52057.91,
+        "primaryKind": "dps",
+        "fightDps": 52057.91,
+        "fightHps": 25478.15,
+        "activeDps": 54271.48,
+        "activeHps": 26182.12,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 13258630,
+        "healingTotal": 6489030,
+        "damageActiveTimeMs": 244302,
+        "healingActiveTimeMs": 247842,
+        "damageTotalTimeMs": 254690,
+        "healingTotalTimeMs": 254690,
+        "damageEntryId": 314,
+        "healingEntryId": 314,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:314,healing:actor-id:314"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 28,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15936899,
+          "endTime": 16191589,
+          "bossPercentage": 99.99,
+          "fightPercentage": 99.99,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 254690,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 13258630,
+              "activeTime": 244302,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 254690,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 6489030,
+              "activeTime": 247842,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 314,
+          "matchedActorName": "Forchun",
+          "normalizedKeys": [
+            "forchun:silvermoon:eu",
+            "forchun::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Monk-Brewmaster",
+            "className": "Monk",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:27:Forchun:silvermoon:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=27",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:48:06.865Z",
+      "durationMs": 407830,
+      "bossPercentage": 87.18,
+      "fightPercentage": 87.18,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 314,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Monk-Brewmaster",
+        "className": "Monk",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 46771.57,
+        "hps": 19999.49,
+        "primary": 46771.57,
+        "primaryKind": "dps",
+        "fightDps": 46771.57,
+        "fightHps": 19999.49,
+        "activeDps": 53718.96,
+        "activeHps": 23503.62,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 23
+      },
+      "source": {
+        "damageTotal": 19074851,
+        "healingTotal": 8156390,
+        "damageActiveTimeMs": 355086,
+        "healingActiveTimeMs": 347027,
+        "damageTotalTimeMs": 407830,
+        "healingTotalTimeMs": 407830,
+        "damageEntryId": 314,
+        "healingEntryId": 314,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:314,healing:actor-id:314"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 27,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15441365,
+          "endTime": 15849195,
+          "bossPercentage": 87.18,
+          "fightPercentage": 87.18,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 407830,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 19074851,
+              "activeTime": 355086,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 407830,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 8156390,
+              "activeTime": 347027,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 23,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 314,
+          "matchedActorName": "Forchun",
+          "normalizedKeys": [
+            "forchun:silvermoon:eu",
+            "forchun::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Monk-Brewmaster",
+            "className": "Monk",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:26:Forchun:silvermoon:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=26",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:43:28.840Z",
+      "durationMs": 211217,
+      "bossPercentage": 44.04,
+      "fightPercentage": 44.04,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 314,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Monk-Brewmaster",
+        "className": "Monk",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 53959.4,
+        "hps": 24417.56,
+        "primary": 53959.4,
+        "primaryKind": "dps",
+        "fightDps": 53959.4,
+        "fightHps": 24417.56,
+        "activeDps": 54969.17,
+        "activeHps": 25152.3,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 11397142,
+        "healingTotal": 5157404,
+        "damageActiveTimeMs": 207337,
+        "healingActiveTimeMs": 205047,
+        "damageTotalTimeMs": 211217,
+        "healingTotalTimeMs": 211217,
+        "damageEntryId": 314,
+        "healingEntryId": 314,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:314,healing:actor-id:314"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 26,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15163340,
+          "endTime": 15374557,
+          "bossPercentage": 44.04,
+          "fightPercentage": 44.04,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 211217,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 11397142,
+              "activeTime": 207337,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 211217,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 5157404,
+              "activeTime": 205047,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 314,
+          "matchedActorName": "Forchun",
+          "normalizedKeys": [
+            "forchun:silvermoon:eu",
+            "forchun::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Monk-Brewmaster",
+            "className": "Monk",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:24:Forchun:silvermoon:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=24",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:34:22.519Z",
+      "durationMs": 225405,
+      "bossPercentage": 48.14,
+      "fightPercentage": 48.14,
+      "averageItemLevel": 287.1499938964844,
+      "actor": {
+        "id": 314,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Monk-Brewmaster",
+        "className": "Monk",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 37652,
+        "hps": 16288.43,
+        "primary": 37652,
+        "primaryKind": "dps",
+        "fightDps": 37652,
+        "fightHps": 16288.43,
+        "activeDps": 46986.3,
+        "activeHps": 19488.79,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 8486948,
+        "healingTotal": 3671493,
+        "damageActiveTimeMs": 180626,
+        "healingActiveTimeMs": 188390,
+        "damageTotalTimeMs": 225405,
+        "healingTotalTimeMs": 225405,
+        "damageEntryId": 314,
+        "healingEntryId": 314,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:314,healing:actor-id:314"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 24,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 14617019,
+          "endTime": 14842424,
+          "bossPercentage": 48.14,
+          "fightPercentage": 48.14,
+          "averageItemLevel": 287.1499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 225405,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 8486948,
+              "activeTime": 180626,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 225405,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 3671493,
+              "activeTime": 188390,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 314,
+          "matchedActorName": "Forchun",
+          "normalizedKeys": [
+            "forchun:silvermoon:eu",
+            "forchun::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Monk-Brewmaster",
+            "className": "Monk",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:23:Forchun:silvermoon:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=23",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:28:15.407Z",
+      "durationMs": 244539,
+      "bossPercentage": 43.67,
+      "fightPercentage": 43.67,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 314,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Monk-Brewmaster",
+        "className": "Monk",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 55665.4,
+        "hps": 25689.43,
+        "primary": 55665.4,
+        "primaryKind": "dps",
+        "fightDps": 55665.4,
+        "fightHps": 25689.43,
+        "activeDps": 56196.48,
+        "activeHps": 25830.44,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 13612362,
+        "healingTotal": 6282067,
+        "damageActiveTimeMs": 242228,
+        "healingActiveTimeMs": 243204,
+        "damageTotalTimeMs": 244539,
+        "healingTotalTimeMs": 244539,
+        "damageEntryId": 314,
+        "healingEntryId": 314,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:314,healing:actor-id:314"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 23,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 14249907,
+          "endTime": 14494446,
+          "bossPercentage": 43.67,
+          "fightPercentage": 43.67,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 244539,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 13612362,
+              "activeTime": 242228,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 244539,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 6282067,
+              "activeTime": 243204,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 314,
+          "matchedActorName": "Forchun",
+          "normalizedKeys": [
+            "forchun:silvermoon:eu",
+            "forchun::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Monk-Brewmaster",
+            "className": "Monk",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:22:Forchun:silvermoon:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=22",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:22:35.705Z",
+      "durationMs": 230874,
+      "bossPercentage": 45.95,
+      "fightPercentage": 45.95,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 314,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Monk-Brewmaster",
+        "className": "Monk",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 43047.84,
+        "hps": 22731.35,
+        "primary": 43047.84,
+        "primaryKind": "dps",
+        "fightDps": 43047.84,
+        "fightHps": 22731.35,
+        "activeDps": 44687.87,
+        "activeHps": 23584.74,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 9938628,
+        "healingTotal": 5248077,
+        "damageActiveTimeMs": 222401,
+        "healingActiveTimeMs": 222520,
+        "damageTotalTimeMs": 230874,
+        "healingTotalTimeMs": 230874,
+        "damageEntryId": 314,
+        "healingEntryId": 314,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:314,healing:actor-id:314"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 22,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13910205,
+          "endTime": 14141079,
+          "bossPercentage": 45.95,
+          "fightPercentage": 45.95,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 230874,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 9938628,
+              "activeTime": 222401,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 230874,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 5248077,
+              "activeTime": 222520,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 314,
+          "matchedActorName": "Forchun",
+          "normalizedKeys": [
+            "forchun:silvermoon:eu",
+            "forchun::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Monk-Brewmaster",
+            "className": "Monk",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:21:Forchun:silvermoon:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=21",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:19:49.269Z",
+      "durationMs": 108203,
+      "bossPercentage": 67.25,
+      "fightPercentage": 67.25,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 314,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Monk-Brewmaster",
+        "className": "Monk",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 47856.85,
+        "hps": 17540.26,
+        "primary": 47856.85,
+        "primaryKind": "dps",
+        "fightDps": 47856.85,
+        "fightHps": 17540.26,
+        "activeDps": 61003.18,
+        "activeHps": 22772.81,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 5178255,
+        "healingTotal": 1897909,
+        "damageActiveTimeMs": 84885,
+        "healingActiveTimeMs": 83341,
+        "damageTotalTimeMs": 108203,
+        "healingTotalTimeMs": 108203,
+        "damageEntryId": 314,
+        "healingEntryId": 314,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:314,healing:actor-id:314"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 21,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13743769,
+          "endTime": 13851972,
+          "bossPercentage": 67.25,
+          "fightPercentage": 67.25,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 108203,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 5178255,
+              "activeTime": 84885,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 108203,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 1897909,
+              "activeTime": 83341,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 314,
+          "matchedActorName": "Forchun",
+          "normalizedKeys": [
+            "forchun:silvermoon:eu",
+            "forchun::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Monk-Brewmaster",
+            "className": "Monk",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:20:Forchun:silvermoon:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=20",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:07:41.231Z",
+      "durationMs": 157276,
+      "bossPercentage": 52.9,
+      "fightPercentage": 52.9,
+      "averageItemLevel": 287.1000061035156,
+      "actor": {
+        "id": 314,
+        "name": "Forchun",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Monk-Brewmaster",
+        "className": "Monk",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 51545.61,
+        "hps": 28638.62,
+        "primary": 51545.61,
+        "primaryKind": "dps",
+        "fightDps": 51545.61,
+        "fightHps": 28638.62,
+        "activeDps": 54649.24,
+        "activeHps": 28687.68,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 9
+      },
+      "source": {
+        "damageTotal": 8106887,
+        "healingTotal": 4504167,
+        "damageActiveTimeMs": 148344,
+        "healingActiveTimeMs": 157007,
+        "damageTotalTimeMs": 157276,
+        "healingTotalTimeMs": 157276,
+        "damageEntryId": 314,
+        "healingEntryId": 314,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:314,healing:actor-id:314"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 20,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13015731,
+          "endTime": 13173007,
+          "bossPercentage": 52.9,
+          "fightPercentage": 52.9,
+          "averageItemLevel": 287.1000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 8106887,
+              "activeTime": 148344,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:314",
+            "matchedEntry": {
+              "id": 314,
+              "name": "Forchun",
+              "type": "Monk",
+              "icon": "Monk-Brewmaster",
+              "total": 4504167,
+              "activeTime": 157007,
+              "itemLevel": 287,
+              "guid": 222519325
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 9,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 314,
+          "matchedActorName": "Forchun",
+          "normalizedKeys": [
+            "forchun:silvermoon:eu",
+            "forchun::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Monk-Brewmaster",
+            "className": "Monk",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "8dAPQCWGNMLBjrRg:32:Forchun:silvermoon:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
@@ -230,527 +1382,15 @@
         "source": "unknown",
         "confidence": 0
       }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:30:Forchun:silvermoon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 30,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:54:58.059Z",
-      "durationMs": 197829,
-      "bossPercentage": 58.27,
-      "fightPercentage": 58.27,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 112,
-        "name": "Forchun",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 38131.4,
-        "hps": 22421.31,
-        "primary": 38131.4,
-        "primaryKind": "dps",
-        "fightDps": 38131.4,
-        "fightHps": 22421.31,
-        "activeDps": 38131.4,
-        "activeHps": 22421.31,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 7543497,
-        "healingTotal": 4435586,
-        "damageActiveTimeMs": 180701,
-        "healingActiveTimeMs": 187413,
-        "damageTotalTimeMs": 197829,
-        "healingTotalTimeMs": 197829,
-        "damageEntryId": 112,
-        "healingEntryId": 112,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:29:Forchun:silvermoon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 29,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:48:53.946Z",
-      "durationMs": 222158,
-      "bossPercentage": 56.82,
-      "fightPercentage": 56.82,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 112,
-        "name": "Forchun",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 33521.66,
-        "hps": 20211.71,
-        "primary": 33521.66,
-        "primaryKind": "dps",
-        "fightDps": 33521.66,
-        "fightHps": 20211.71,
-        "activeDps": 33521.66,
-        "activeHps": 20211.71,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 7447104,
-        "healingTotal": 4490193,
-        "damageActiveTimeMs": 184514,
-        "healingActiveTimeMs": 196529,
-        "damageTotalTimeMs": 222158,
-        "healingTotalTimeMs": 222158,
-        "damageEntryId": 112,
-        "healingEntryId": 112,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:28:Forchun:silvermoon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:38:12.252Z",
-      "durationMs": 209169,
-      "bossPercentage": 58.86,
-      "fightPercentage": 58.86,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 112,
-        "name": "Forchun",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 30246.76,
-        "hps": 14873.2,
-        "primary": 30246.76,
-        "primaryKind": "dps",
-        "fightDps": 30246.76,
-        "fightHps": 14873.2,
-        "activeDps": 30246.76,
-        "activeHps": 14873.2,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 6326685,
-        "healingTotal": 3111012,
-        "damageActiveTimeMs": 158407,
-        "healingActiveTimeMs": 180261,
-        "damageTotalTimeMs": 209169,
-        "healingTotalTimeMs": 209169,
-        "damageEntryId": 112,
-        "healingEntryId": 112,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:27:Forchun:silvermoon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:29:44.846Z",
-      "durationMs": 169519,
-      "bossPercentage": 62.33,
-      "fightPercentage": 62.33,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 112,
-        "name": "Forchun",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 41674.24,
-        "hps": 19302.49,
-        "primary": 41674.24,
-        "primaryKind": "dps",
-        "fightDps": 41674.24,
-        "fightHps": 19302.49,
-        "activeDps": 41674.24,
-        "activeHps": 19302.49,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 7064576,
-        "healingTotal": 3272138,
-        "damageActiveTimeMs": 153815,
-        "healingActiveTimeMs": 156003,
-        "damageTotalTimeMs": 169519,
-        "healingTotalTimeMs": 169519,
-        "damageEntryId": 112,
-        "healingEntryId": 112,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:26:Forchun:silvermoon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:27:07.695Z",
-      "durationMs": 50885,
-      "bossPercentage": 80.53,
-      "fightPercentage": 80.53,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 112,
-        "name": "Forchun",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 53290.91,
-        "hps": 30039.83,
-        "primary": 53290.91,
-        "primaryKind": "dps",
-        "fightDps": 53290.91,
-        "fightHps": 30039.83,
-        "activeDps": 53290.91,
-        "activeHps": 30039.83,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 2711708,
-        "healingTotal": 1528577,
-        "damageActiveTimeMs": 48559,
-        "healingActiveTimeMs": 49042,
-        "damageTotalTimeMs": 50885,
-        "healingTotalTimeMs": 50885,
-        "damageEntryId": 112,
-        "healingEntryId": 112,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:25:Forchun:silvermoon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:23:53.731Z",
-      "durationMs": 50176,
-      "bossPercentage": 79.76,
-      "fightPercentage": 79.76,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 112,
-        "name": "Forchun",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 59710.42,
-        "hps": 25562.28,
-        "primary": 59710.42,
-        "primaryKind": "dps",
-        "fightDps": 59710.42,
-        "fightHps": 25562.28,
-        "activeDps": 59710.42,
-        "activeHps": 25562.28,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 2996030,
-        "healingTotal": 1282613,
-        "damageActiveTimeMs": 47471,
-        "healingActiveTimeMs": 49413,
-        "damageTotalTimeMs": 50176,
-        "healingTotalTimeMs": 50176,
-        "damageEntryId": 112,
-        "healingEntryId": 112,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:21:Forchun:silvermoon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
-      "status": "KILL",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:04:24.189Z",
-      "durationMs": 335868,
-      "bossPercentage": 0.01,
-      "fightPercentage": 0.01,
-      "averageItemLevel": 284.8500061035156,
-      "actor": {
-        "id": 112,
-        "name": "Forchun",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 57925.29,
-        "hps": 34357.71,
-        "primary": 57925.29,
-        "primaryKind": "dps",
-        "fightDps": 57925.29,
-        "fightHps": 34357.71,
-        "activeDps": 57925.29,
-        "activeHps": 34357.71,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 3
-      },
-      "source": {
-        "damageTotal": 19455251,
-        "healingTotal": 11539657,
-        "damageActiveTimeMs": 334292,
-        "healingActiveTimeMs": 333906,
-        "damageTotalTimeMs": 335868,
-        "healingTotalTimeMs": 335868,
-        "damageEntryId": 112,
-        "healingEntryId": 112,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:20:Forchun:silvermoon:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T18:57:55.893Z",
-      "durationMs": 285958,
-      "bossPercentage": 27.56,
-      "fightPercentage": 27.56,
-      "averageItemLevel": 284.8500061035156,
-      "actor": {
-        "id": 112,
-        "name": "Forchun",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 49621.52,
-        "hps": 31943.75,
-        "primary": 49621.52,
-        "primaryKind": "dps",
-        "fightDps": 49621.52,
-        "fightHps": 31943.75,
-        "activeDps": 49621.52,
-        "activeHps": 31943.75,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 14189671,
-        "healingTotal": 9134571,
-        "damageActiveTimeMs": 282975,
-        "healingActiveTimeMs": 284295,
-        "damageTotalTimeMs": 285958,
-        "healingTotalTimeMs": 285958,
-        "damageEntryId": 112,
-        "healingEntryId": 112,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:112,healing:actor-id:112"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.368Z",
-    "lastPullAt": "2026-05-29T20:06:06.764Z",
-    "newPullsInLastScan": 10,
+    "lastScannedAt": "2026-06-04T21:48:09.358Z",
+    "lastPullAt": "2026-06-04T19:56:22.399Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }

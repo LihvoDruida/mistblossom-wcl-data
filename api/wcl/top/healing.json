@@ -1,5 +1,12 @@
 [
   {
+    "slug": "yokum-terokkar-eu",
+    "name": "Yokum",
+    "rank": 4,
+    "value": 128223.42,
+    "secondary": 0
+  },
+  {
     "slug": "дарадуда-gordunni-eu",
     "name": "Дарадуда",
     "rank": 4,
@@ -11,13 +18,6 @@
     "name": "Древесная",
     "rank": 3,
     "value": 118154.41,
-    "secondary": 0
-  },
-  {
-    "slug": "yokum-terokkar-eu",
-    "name": "Yokum",
-    "rank": 4,
-    "value": 110164.78,
     "secondary": 0
   },
   {

@@ -1,5 +1,23 @@
 [
   {
+    "key": "3306:Mythic",
+    "bossName": "Chimaerus, the Undreamt God",
+    "encounterId": 3306,
+    "difficulty": 5,
+    "difficultyName": "Mythic",
+    "pulls": 20,
+    "kills": 0,
+    "wipes": 20,
+    "killRate": 0,
+    "avgDurationMs": 173427,
+    "avgRaidDeaths": 19.45,
+    "avgTeamDps": 290107.21,
+    "avgTeamHps": 192018.59,
+    "bestTeamDps": 764824.76,
+    "bestTeamHps": 465140.66,
+    "lastPullAt": "2026-06-04T19:56:22.399Z"
+  },
+  {
     "key": "3306:Heroic",
     "bossName": "Chimaerus, the Undreamt God",
     "encounterId": 3306,
@@ -47,10 +65,10 @@
     "killRate": 0.0769,
     "avgDurationMs": 244211,
     "avgRaidDeaths": 19.65,
-    "avgTeamDps": 138008.84,
-    "avgTeamHps": 52592.66,
-    "bestTeamDps": 634991.03,
-    "bestTeamHps": 461938.04,
+    "avgTeamDps": 128406.88,
+    "avgTeamHps": 44244.2,
+    "bestTeamDps": 494011.53,
+    "bestTeamHps": 337856.77,
     "lastPullAt": "2026-06-03T18:55:26.254Z"
   },
   {
@@ -70,24 +88,6 @@
     "bestTeamDps": 120954.27,
     "bestTeamHps": 16083.27,
     "lastPullAt": "2026-06-03T17:42:20.872Z"
-  },
-  {
-    "key": "3306:Mythic",
-    "bossName": "Chimaerus, the Undreamt God",
-    "encounterId": 3306,
-    "difficulty": 5,
-    "difficultyName": "Mythic",
-    "pulls": 12,
-    "kills": 0,
-    "wipes": 12,
-    "killRate": 0,
-    "avgDurationMs": 135709,
-    "avgRaidDeaths": 19.58,
-    "avgTeamDps": 454658.35,
-    "avgTeamHps": 297130.89,
-    "bestTeamDps": 933916.14,
-    "bestTeamHps": 465140.66,
-    "lastPullAt": "2026-05-29T20:06:06.764Z"
   },
   {
     "key": "3181:Heroic",
