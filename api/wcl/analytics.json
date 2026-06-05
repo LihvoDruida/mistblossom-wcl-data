@@ -571,94 +571,94 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 8,
+    "updatedWithin6h": 16,
     "updatedWithin12h": 16,
-    "updatedWithin24h": 47,
+    "updatedWithin24h": 40,
     "oldestScannedAt": "2026-06-03T04:24:46.368Z",
-    "newestScannedAt": "2026-06-05T08:48:38.672Z",
+    "newestScannedAt": "2026-06-05T12:15:26.720Z",
     "staleMembers": [
       {
         "slug": "булкрит-gordunni-eu",
         "name": "Булкрит",
         "rank": 1,
-        "value": 52.41,
+        "value": 55.85,
         "secondary": 10
       },
       {
         "slug": "мавпита-gordunni-eu",
         "name": "Мавпита",
         "rank": 1,
-        "value": 52.41,
+        "value": 55.85,
         "secondary": 10
       },
       {
         "slug": "мистип-gordunni-eu",
         "name": "Мистип",
         "rank": 1,
-        "value": 52.41,
+        "value": 55.85,
         "secondary": 0
       },
       {
         "slug": "пизнаика-gordunni-eu",
         "name": "Пизнайка",
         "rank": 1,
-        "value": 52.41,
+        "value": 55.85,
         "secondary": 10
       },
       {
         "slug": "тузольд-gordunni-eu",
         "name": "Тузольд",
         "rank": 1,
-        "value": 52.41,
+        "value": 55.85,
         "secondary": 10
       },
       {
         "slug": "шриладо-gordunni-eu",
         "name": "Шриладо",
         "rank": 1,
-        "value": 52.41,
+        "value": 55.85,
         "secondary": 10
       },
       {
-        "slug": "mexamer-silvermoon-eu",
-        "name": "Mexamer",
+        "slug": "альянсс-gordunni-eu",
+        "name": "Альянсс",
         "rank": 3,
-        "value": 52.41,
+        "value": 55.85,
         "secondary": 0
       },
       {
-        "slug": "ohhchetos-kazzak-eu",
-        "name": "Ohhchetos",
+        "slug": "амарак-gordunni-eu",
+        "name": "Амарак",
         "rank": 3,
-        "value": 52.41,
+        "value": 55.85,
         "secondary": 0
       },
       {
-        "slug": "oxydenis-silvermoon-eu",
-        "name": "Oxydenis",
+        "slug": "галазард-eversong-eu",
+        "name": "Галазард",
         "rank": 3,
-        "value": 52.41,
+        "value": 55.85,
+        "secondary": 5
+      },
+      {
+        "slug": "графдекот-gordunni-eu",
+        "name": "Графдекот",
+        "rank": 3,
+        "value": 55.85,
         "secondary": 10
       },
       {
-        "slug": "plaguenjoyer-silvermoon-eu",
-        "name": "Plaguenjoyer",
+        "slug": "древесная-blackscar-eu",
+        "name": "Древесная",
         "rank": 3,
-        "value": 52.41,
-        "secondary": 0
+        "value": 55.85,
+        "secondary": 10
       },
       {
-        "slug": "pwndy-urface-silvermoon-eu",
-        "name": "Pwndyøurface",
+        "slug": "душа-blackscar-eu",
+        "name": "Душа",
         "rank": 3,
-        "value": 52.41,
-        "secondary": 0
-      },
-      {
-        "slug": "technoihor-silvermoon-eu",
-        "name": "Technoihor",
-        "rank": 3,
-        "value": 52.41,
+        "value": 55.85,
         "secondary": 0
       }
     ]

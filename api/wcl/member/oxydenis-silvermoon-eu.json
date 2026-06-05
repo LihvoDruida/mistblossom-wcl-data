@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.368Z",
+  "updatedAt": "2026-06-05T12:15:26.720Z",
   "character": {
     "name": "Oxydenis",
     "realmSlug": "silvermoon",
@@ -744,12 +744,12 @@
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.368Z",
+    "lastScannedAt": "2026-06-05T12:15:26.720Z",
     "lastPullAt": "2026-05-10T18:26:07.701Z",
-    "newPullsInLastScan": 10,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }

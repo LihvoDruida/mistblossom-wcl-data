@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-05T08:48:38.672Z",
+  "updatedAt": "2026-06-05T12:15:26.720Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 158,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "thortun-silvermoon-eu": 0,
-    "sonechco-silvermoon-eu": 0,
-    "bernstorff-kazzak-eu": 0,
-    "bierdestroer-silvermoon-eu": 0,
-    "hexxoffender-silvermoon-eu": 0,
-    "k-silvermoon-eu": 0,
-    "kensshi-silvermoon-eu": 0,
-    "kokosik-silvermoon-eu": 0
+    "mexamer-silvermoon-eu": 0,
+    "ohhchetos-kazzak-eu": 0,
+    "oxydenis-silvermoon-eu": 0,
+    "plaguenjoyer-silvermoon-eu": 0,
+    "pwndy-urface-silvermoon-eu": 0,
+    "technoihor-silvermoon-eu": 0,
+    "vertyxa-silvermoon-eu": 0,
+    "vi-n-silvermoon-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,27 +36,6 @@
   },
   "batch": {
     "selected": [
-      "thortun-silvermoon-eu",
-      "sonechco-silvermoon-eu",
-      "bernstorff-kazzak-eu",
-      "bierdestroer-silvermoon-eu",
-      "hexxoffender-silvermoon-eu",
-      "k-silvermoon-eu",
-      "kensshi-silvermoon-eu",
-      "kokosik-silvermoon-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "thortun-silvermoon-eu",
-      "sonechco-silvermoon-eu",
-      "bernstorff-kazzak-eu",
-      "bierdestroer-silvermoon-eu",
-      "hexxoffender-silvermoon-eu",
-      "k-silvermoon-eu",
-      "kensshi-silvermoon-eu",
-      "kokosik-silvermoon-eu"
-    ],
-    "pending": [
       "mexamer-silvermoon-eu",
       "ohhchetos-kazzak-eu",
       "oxydenis-silvermoon-eu",
@@ -64,7 +43,20 @@
       "pwndy-urface-silvermoon-eu",
       "technoihor-silvermoon-eu",
       "vertyxa-silvermoon-eu",
-      "vi-n-silvermoon-eu",
+      "vi-n-silvermoon-eu"
+    ],
+    "updated": [],
+    "scanned": [
+      "mexamer-silvermoon-eu",
+      "ohhchetos-kazzak-eu",
+      "oxydenis-silvermoon-eu",
+      "plaguenjoyer-silvermoon-eu",
+      "pwndy-urface-silvermoon-eu",
+      "technoihor-silvermoon-eu",
+      "vertyxa-silvermoon-eu",
+      "vi-n-silvermoon-eu"
+    ],
+    "pending": [
       "нежнаяпулька-eversong-eu",
       "нежныилок-eversong-eu",
       "пандашоманко-eversong-eu",
@@ -198,9 +190,7 @@
       "дедика-eversong-eu",
       "зулпот-howling-fjord-eu",
       "клеосса-eversong-eu",
-      "котто-gordunni-eu"
-    ],
-    "skippedFresh": [
+      "котто-gordunni-eu",
       "forchun-silvermoon-eu",
       "ironbelly-silvermoon-eu",
       "darkleaf-burning-steppes-eu",
@@ -209,6 +199,16 @@
       "umbrak-terokkar-eu",
       "yokum-terokkar-eu",
       "коксбульдог-howling-fjord-eu"
+    ],
+    "skippedFresh": [
+      "thortun-silvermoon-eu",
+      "sonechco-silvermoon-eu",
+      "bernstorff-kazzak-eu",
+      "bierdestroer-silvermoon-eu",
+      "hexxoffender-silvermoon-eu",
+      "k-silvermoon-eu",
+      "kensshi-silvermoon-eu",
+      "kokosik-silvermoon-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []
