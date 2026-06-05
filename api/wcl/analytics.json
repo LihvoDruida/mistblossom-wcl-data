@@ -9,22 +9,29 @@
     "killRate": 0.1126,
     "avgFightDurationMs": 202094,
     "avgRaidDeaths": 16.86,
-    "avgTeamDps": 127299.33,
+    "avgTeamDps": 126653.79,
     "avgTeamHps": 36726.78,
-    "avgPerformanceScore": 18.16,
+    "avgPerformanceScore": 18.32,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 40.8
+    "avgReliabilityScore": 41.03
   },
   "roles": {
     "damage": {
       "members": 52,
       "pulls": 459,
-      "avgRecent": 55375.71,
+      "avgRecent": 55681.11,
       "medianRecent": 55465.57,
-      "bestRecent": 99012.96,
+      "bestRecent": 99170.99,
       "maxLast10": 207607.12,
       "deathsPerPull": 0,
       "topRecent": [
+        {
+          "slug": "булкрит-gordunni-eu",
+          "name": "Булкрит",
+          "rank": 1,
+          "value": 99170.99,
+          "secondary": 0
+        },
         {
           "slug": "silpo-ravencrest-eu",
           "name": "Silpo",
@@ -79,13 +86,6 @@
           "name": "Мавпита",
           "rank": 1,
           "value": 87339.48,
-          "secondary": 0
-        },
-        {
-          "slug": "булкрит-gordunni-eu",
-          "name": "Булкрит",
-          "rank": 1,
-          "value": 83198.53,
           "secondary": 0
         },
         {
@@ -329,6 +329,13 @@
         "secondary": 76043.61
       },
       {
+        "slug": "булкрит-gordunni-eu",
+        "name": "Булкрит",
+        "rank": 1,
+        "value": 77.02,
+        "secondary": 99170.99
+      },
+      {
         "slug": "khayen-terokkar-eu",
         "name": "Khayen",
         "rank": 0,
@@ -378,24 +385,17 @@
         "secondary": 118154.41
       },
       {
-        "slug": "клеосса-eversong-eu",
-        "name": "Клеосса",
+        "slug": "графдекот-gordunni-eu",
+        "name": "Графдекот",
         "rank": 3,
-        "value": 67.75,
-        "secondary": 36752.61
-      },
-      {
-        "slug": "illidonson-draenor-eu",
-        "name": "Illidonson",
-        "rank": 3,
-        "value": 65.5,
-        "secondary": 63660.8
+        "value": 68.13,
+        "secondary": 75745.55
       }
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 67.46,
-    "avgConsistencyPercent": 38.42,
+    "avgStabilityPercent": 68.13,
+    "avgConsistencyPercent": 38.74,
     "mostStable": [
       {
         "slug": "yokum-terokkar-eu",
@@ -417,6 +417,13 @@
         "rank": 4,
         "value": 77.49,
         "secondary": 93.21
+      },
+      {
+        "slug": "булкрит-gordunni-eu",
+        "name": "Булкрит",
+        "rank": 1,
+        "value": 77.02,
+        "secondary": 91.83
       },
       {
         "slug": "khayen-terokkar-eu",
@@ -468,18 +475,11 @@
         "secondary": 91.47
       },
       {
-        "slug": "клеосса-eversong-eu",
-        "name": "Клеосса",
+        "slug": "графдекот-gordunni-eu",
+        "name": "Графдекот",
         "rank": 3,
-        "value": 67.75,
-        "secondary": 94.94
-      },
-      {
-        "slug": "illidonson-draenor-eu",
-        "name": "Illidonson",
-        "rank": 3,
-        "value": 65.5,
-        "secondary": 97.47
+        "value": 68.13,
+        "secondary": 70.43
       }
     ],
     "needsAttention": [
@@ -571,94 +571,94 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 16,
+    "updatedWithin6h": 24,
     "updatedWithin12h": 32,
-    "updatedWithin24h": 40,
-    "oldestScannedAt": "2026-06-03T04:24:46.368Z",
-    "newestScannedAt": "2026-06-05T20:05:33.415Z",
+    "updatedWithin24h": 48,
+    "oldestScannedAt": "2026-06-03T04:24:46.369Z",
+    "newestScannedAt": "2026-06-05T21:41:04.223Z",
     "staleMembers": [
-      {
-        "slug": "булкрит-gordunni-eu",
-        "name": "Булкрит",
-        "rank": 1,
-        "value": 63.69,
-        "secondary": 10
-      },
       {
         "slug": "мавпита-gordunni-eu",
         "name": "Мавпита",
         "rank": 1,
-        "value": 63.69,
+        "value": 65.28,
         "secondary": 10
       },
       {
         "slug": "мистип-gordunni-eu",
         "name": "Мистип",
         "rank": 1,
-        "value": 63.69,
+        "value": 65.28,
         "secondary": 0
       },
       {
         "slug": "пизнаика-gordunni-eu",
         "name": "Пизнайка",
         "rank": 1,
-        "value": 63.69,
+        "value": 65.28,
         "secondary": 10
       },
       {
         "slug": "тузольд-gordunni-eu",
         "name": "Тузольд",
         "rank": 1,
-        "value": 63.69,
+        "value": 65.28,
         "secondary": 10
       },
       {
         "slug": "шриладо-gordunni-eu",
         "name": "Шриладо",
         "rank": 1,
-        "value": 63.69,
+        "value": 65.28,
         "secondary": 10
       },
       {
         "slug": "альянсс-gordunni-eu",
         "name": "Альянсс",
         "rank": 3,
-        "value": 63.69,
-        "secondary": 0
-      },
-      {
-        "slug": "амарак-gordunni-eu",
-        "name": "Амарак",
-        "rank": 3,
-        "value": 63.69,
+        "value": 65.28,
         "secondary": 0
       },
       {
         "slug": "галазард-eversong-eu",
         "name": "Галазард",
         "rank": 3,
-        "value": 63.69,
+        "value": 65.28,
         "secondary": 5
-      },
-      {
-        "slug": "графдекот-gordunni-eu",
-        "name": "Графдекот",
-        "rank": 3,
-        "value": 63.69,
-        "secondary": 10
       },
       {
         "slug": "древесная-blackscar-eu",
         "name": "Древесная",
         "rank": 3,
-        "value": 63.69,
+        "value": 65.28,
         "secondary": 10
       },
       {
         "slug": "душа-blackscar-eu",
         "name": "Душа",
         "rank": 3,
-        "value": 63.69,
+        "value": 65.28,
+        "secondary": 0
+      },
+      {
+        "slug": "дятелэлуны-soulflayer-eu",
+        "name": "Дятелэлуны",
+        "rank": 3,
+        "value": 65.28,
+        "secondary": 0
+      },
+      {
+        "slug": "кеенди-gordunni-eu",
+        "name": "Кеенди",
+        "rank": 3,
+        "value": 65.28,
+        "secondary": 10
+      },
+      {
+        "slug": "кибароу-soulflayer-eu",
+        "name": "Кибароу",
+        "rank": 3,
+        "value": 65.28,
         "secondary": 0
       }
     ]
@@ -676,9 +676,9 @@
       "killRate": 0,
       "avgDurationMs": 173427,
       "avgRaidDeaths": 19.45,
-      "avgTeamDps": 290107.21,
+      "avgTeamDps": 328451.62,
       "avgTeamHps": 193841.6,
-      "bestTeamDps": 764824.76,
+      "bestTeamDps": 749803.96,
       "bestTeamHps": 465140.66,
       "lastPullAt": "2026-06-04T19:56:22.399Z"
     },
@@ -730,9 +730,9 @@
       "killRate": 0.0769,
       "avgDurationMs": 244211,
       "avgRaidDeaths": 19.65,
-      "avgTeamDps": 128406.88,
+      "avgTeamDps": 120443.75,
       "avgTeamHps": 44244.2,
-      "bestTeamDps": 494011.53,
+      "bestTeamDps": 388351.4,
       "bestTeamHps": 337856.77,
       "lastPullAt": "2026-06-03T18:55:26.254Z"
     },
@@ -766,9 +766,9 @@
       "killRate": 0,
       "avgDurationMs": 194607,
       "avgRaidDeaths": 16.73,
-      "avgTeamDps": 102540.9,
+      "avgTeamDps": 75496.39,
       "avgTeamHps": 36410.1,
-      "bestTeamDps": 177360.27,
+      "bestTeamDps": 161690.54,
       "bestTeamHps": 102417.3,
       "lastPullAt": "2026-05-17T19:09:27.100Z"
     },
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 158,
       "withData": 59,
-      "avgPrimaryRecent3": 22011.24,
-      "avgDpsRecent3": 17524.49,
+      "avgPrimaryRecent3": 22111.75,
+      "avgDpsRecent3": 17625,
       "avgHpsRecent3": 5765.83,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 40.8
+      "avgReliabilityScore": 41.03
     }
   ]
 }

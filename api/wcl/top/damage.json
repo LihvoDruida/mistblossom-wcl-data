@@ -1,5 +1,12 @@
 [
   {
+    "slug": "булкрит-gordunni-eu",
+    "name": "Булкрит",
+    "rank": 1,
+    "value": 99170.99,
+    "secondary": 0
+  },
+  {
     "slug": "silpo-ravencrest-eu",
     "name": "Silpo",
     "rank": 4,
@@ -53,13 +60,6 @@
     "name": "Мавпита",
     "rank": 1,
     "value": 87339.48,
-    "secondary": 0
-  },
-  {
-    "slug": "булкрит-gordunni-eu",
-    "name": "Булкрит",
-    "rank": 1,
-    "value": 83198.53,
     "secondary": 0
   },
   {

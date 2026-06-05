@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.369Z",
+  "updatedAt": "2026-06-05T21:41:04.223Z",
   "character": {
     "name": "Графдекот",
     "realmSlug": "gordunni",
@@ -16,46 +16,46 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 150,
+    "totalRaidDeaths": 185,
     "deathsPerPull": 0,
-    "stabilityPercent": 66.84,
-    "consistencyPercent": 41.53,
-    "performanceScore": 47.14,
+    "stabilityPercent": 70.43,
+    "consistencyPercent": 43.82,
+    "performanceScore": 49.69,
     "survivalScore": 100,
-    "reliabilityScore": 55.93,
+    "reliabilityScore": 68.13,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 75837.08,
+      "avgDps": 75745.55,
       "avgHps": 0,
-      "avgPrimary": 75837.08,
-      "avgDurationMs": 426578,
+      "avgPrimary": 75745.55,
+      "avgDurationMs": 291246,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 90068.44,
+      "avgDps": 80340.95,
       "avgHps": 0,
-      "avgPrimary": 90068.44,
-      "avgDurationMs": 298163,
+      "avgPrimary": 80340.95,
+      "avgDurationMs": 233606,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 113466.91,
+      "maxDps": 107541.7,
       "minDps": 47126.78,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 113466.91,
+      "maxPrimary": 107541.7,
       "minPrimary": 47126.78,
       "maxDurationMs": 543654,
-      "minDurationMs": 64027
+      "minDurationMs": 108203
     },
     "trend": {
       "direction": "down",
-      "recentAvg": 75837.08,
-      "previousAvg": 90068.44,
-      "delta": -14231.36,
-      "deltaPercent": -15.8
+      "recentAvg": 75745.55,
+      "previousAvg": 80340.95,
+      "delta": -4595.4,
+      "deltaPercent": -5.72
     },
     "byRole": {
       "healer": {
@@ -71,11 +71,11 @@
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 75837.08,
-        "maxLast10": 113466.91,
+        "avgRecent": 75745.55,
+        "maxLast10": 107541.7,
         "minLast10": 47126.78,
         "deathsPerPull": 0,
-        "bestPullKey": "4Zng3fprDXvGjb1V:11:Графдекот:gordunni:eu",
+        "bestPullKey": "J7drK2qY9hFnRyTD:20:Графдекот:gordunni:eu",
         "worstPullKey": "4Zng3fprDXvGjb1V:17:Графдекот:gordunni:eu"
       },
       "unknown": {
@@ -91,18 +91,1170 @@
     "dataQuality": {
       "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 0,
+      "pullsWithRoleInferred": 8,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
         "unknown": 0
       },
-      "confidenceAvg": 0,
+      "confidenceAvg": 0.72,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "J7drK2qY9hFnRyTD:28:Графдекот:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=28",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:56:22.399Z",
+      "durationMs": 254690,
+      "bossPercentage": 99.99,
+      "fightPercentage": 99.99,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 359,
+        "name": "Графдекот",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Druid-Feral",
+        "className": "Druid",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 71903.21,
+        "hps": 4827.72,
+        "primary": 71903.21,
+        "primaryKind": "dps",
+        "fightDps": 71903.21,
+        "fightHps": 4827.72,
+        "activeDps": 82922.17,
+        "activeHps": 7807.65,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 18313029,
+        "healingTotal": 1229572,
+        "damageActiveTimeMs": 220846,
+        "healingActiveTimeMs": 157483,
+        "damageTotalTimeMs": 254690,
+        "healingTotalTimeMs": 254690,
+        "damageEntryId": 359,
+        "healingEntryId": 359,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:359,healing:actor-id:359"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 28,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15936899,
+          "endTime": 16191589,
+          "bossPercentage": 99.99,
+          "fightPercentage": 99.99,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 254690,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 18313029,
+              "activeTime": 220846,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 254690,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 1229572,
+              "activeTime": 157483,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 359,
+          "matchedActorName": "Графдекот",
+          "normalizedKeys": [
+            "графдекот:gordunni:eu",
+            "графдекот::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Druid-Feral",
+            "className": "Druid",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:27:Графдекот:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=27",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:48:06.865Z",
+      "durationMs": 407830,
+      "bossPercentage": 87.18,
+      "fightPercentage": 87.18,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 359,
+        "name": "Графдекот",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Druid-Feral",
+        "className": "Druid",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 82984.41,
+        "hps": 10320.65,
+        "primary": 82984.41,
+        "primaryKind": "dps",
+        "fightDps": 82984.41,
+        "fightHps": 10320.65,
+        "activeDps": 85704.78,
+        "activeHps": 13276.99,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 23
+      },
+      "source": {
+        "damageTotal": 33843532,
+        "healingTotal": 4209072,
+        "damageActiveTimeMs": 394885,
+        "healingActiveTimeMs": 317020,
+        "damageTotalTimeMs": 407830,
+        "healingTotalTimeMs": 407830,
+        "damageEntryId": 359,
+        "healingEntryId": 359,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:359,healing:actor-id:359"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 27,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15441365,
+          "endTime": 15849195,
+          "bossPercentage": 87.18,
+          "fightPercentage": 87.18,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 407830,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 33843532,
+              "activeTime": 394885,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 407830,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 4209072,
+              "activeTime": 317020,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 23,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 359,
+          "matchedActorName": "Графдекот",
+          "normalizedKeys": [
+            "графдекот:gordunni:eu",
+            "графдекот::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Druid-Feral",
+            "className": "Druid",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:26:Графдекот:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=26",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:43:28.840Z",
+      "durationMs": 211217,
+      "bossPercentage": 44.04,
+      "fightPercentage": 44.04,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 359,
+        "name": "Графдекот",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Druid-Feral",
+        "className": "Druid",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 72349.03,
+        "hps": 4788.69,
+        "primary": 72349.03,
+        "primaryKind": "dps",
+        "fightDps": 72349.03,
+        "fightHps": 4788.69,
+        "activeDps": 91515.48,
+        "activeHps": 6906.71,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 15281346,
+        "healingTotal": 1011453,
+        "damageActiveTimeMs": 166981,
+        "healingActiveTimeMs": 146445,
+        "damageTotalTimeMs": 211217,
+        "healingTotalTimeMs": 211217,
+        "damageEntryId": 359,
+        "healingEntryId": 359,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:359,healing:actor-id:359"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 26,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15163340,
+          "endTime": 15374557,
+          "bossPercentage": 44.04,
+          "fightPercentage": 44.04,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 211217,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 15281346,
+              "activeTime": 166981,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 211217,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 1011453,
+              "activeTime": 146445,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 359,
+          "matchedActorName": "Графдекот",
+          "normalizedKeys": [
+            "графдекот:gordunni:eu",
+            "графдекот::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Druid-Feral",
+            "className": "Druid",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:24:Графдекот:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=24",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:34:22.519Z",
+      "durationMs": 225405,
+      "bossPercentage": 48.14,
+      "fightPercentage": 48.14,
+      "averageItemLevel": 287.1499938964844,
+      "actor": {
+        "id": 359,
+        "name": "Графдекот",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Druid-Feral",
+        "className": "Druid",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 81859.88,
+        "hps": 8735.35,
+        "primary": 81859.88,
+        "primaryKind": "dps",
+        "fightDps": 81859.88,
+        "fightHps": 8735.35,
+        "activeDps": 86375.52,
+        "activeHps": 10687.97,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 18451626,
+        "healingTotal": 1968992,
+        "damageActiveTimeMs": 213621,
+        "healingActiveTimeMs": 184225,
+        "damageTotalTimeMs": 225405,
+        "healingTotalTimeMs": 225405,
+        "damageEntryId": 359,
+        "healingEntryId": 359,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:359,healing:actor-id:359"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 24,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 14617019,
+          "endTime": 14842424,
+          "bossPercentage": 48.14,
+          "fightPercentage": 48.14,
+          "averageItemLevel": 287.1499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 225405,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 18451626,
+              "activeTime": 213621,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 225405,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 1968992,
+              "activeTime": 184225,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 359,
+          "matchedActorName": "Графдекот",
+          "normalizedKeys": [
+            "графдекот:gordunni:eu",
+            "графдекот::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Druid-Feral",
+            "className": "Druid",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:23:Графдекот:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=23",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:28:15.407Z",
+      "durationMs": 244539,
+      "bossPercentage": 43.67,
+      "fightPercentage": 43.67,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 359,
+        "name": "Графдекот",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Druid-Feral",
+        "className": "Druid",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 71285.61,
+        "hps": 9142.14,
+        "primary": 71285.61,
+        "primaryKind": "dps",
+        "fightDps": 71285.61,
+        "fightHps": 9142.14,
+        "activeDps": 81246.61,
+        "activeHps": 15046.41,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 17432111,
+        "healingTotal": 2235610,
+        "damageActiveTimeMs": 214558,
+        "healingActiveTimeMs": 148581,
+        "damageTotalTimeMs": 244539,
+        "healingTotalTimeMs": 244539,
+        "damageEntryId": 359,
+        "healingEntryId": 359,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:359,healing:actor-id:359"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 23,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 14249907,
+          "endTime": 14494446,
+          "bossPercentage": 43.67,
+          "fightPercentage": 43.67,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 244539,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 17432111,
+              "activeTime": 214558,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 244539,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 2235610,
+              "activeTime": 148581,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 359,
+          "matchedActorName": "Графдекот",
+          "normalizedKeys": [
+            "графдекот:gordunni:eu",
+            "графдекот::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Druid-Feral",
+            "className": "Druid",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:22:Графдекот:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=22",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:22:35.705Z",
+      "durationMs": 230874,
+      "bossPercentage": 45.95,
+      "fightPercentage": 45.95,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 359,
+        "name": "Графдекот",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Druid-Feral",
+        "className": "Druid",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 87877.37,
+        "hps": 8689.61,
+        "primary": 87877.37,
+        "primaryKind": "dps",
+        "fightDps": 87877.37,
+        "fightHps": 8689.61,
+        "activeDps": 97949.63,
+        "activeHps": 11862.61,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 20288601,
+        "healingTotal": 2006205,
+        "damageActiveTimeMs": 207133,
+        "healingActiveTimeMs": 169120,
+        "damageTotalTimeMs": 230874,
+        "healingTotalTimeMs": 230874,
+        "damageEntryId": 359,
+        "healingEntryId": 359,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:359,healing:actor-id:359"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 22,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13910205,
+          "endTime": 14141079,
+          "bossPercentage": 45.95,
+          "fightPercentage": 45.95,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 230874,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 20288601,
+              "activeTime": 207133,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 230874,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 2006205,
+              "activeTime": 169120,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 359,
+          "matchedActorName": "Графдекот",
+          "normalizedKeys": [
+            "графдекот:gordunni:eu",
+            "графдекот::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Druid-Feral",
+            "className": "Druid",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:21:Графдекот:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=21",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:19:49.269Z",
+      "durationMs": 108203,
+      "bossPercentage": 67.25,
+      "fightPercentage": 67.25,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 359,
+        "name": "Графдекот",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Druid-Feral",
+        "className": "Druid",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 90727.64,
+        "hps": 14129.1,
+        "primary": 90727.64,
+        "primaryKind": "dps",
+        "fightDps": 90727.64,
+        "fightHps": 14129.1,
+        "activeDps": 101704.25,
+        "activeHps": 18229.65,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 9817003,
+        "healingTotal": 1528811,
+        "damageActiveTimeMs": 96525,
+        "healingActiveTimeMs": 83864,
+        "damageTotalTimeMs": 108203,
+        "healingTotalTimeMs": 108203,
+        "damageEntryId": 359,
+        "healingEntryId": 359,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:359,healing:actor-id:359"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 21,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13743769,
+          "endTime": 13851972,
+          "bossPercentage": 67.25,
+          "fightPercentage": 67.25,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 108203,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 9817003,
+              "activeTime": 96525,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 108203,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 1528811,
+              "activeTime": 83864,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 359,
+          "matchedActorName": "Графдекот",
+          "normalizedKeys": [
+            "графдекот:gordunni:eu",
+            "графдекот::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Druid-Feral",
+            "className": "Druid",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:20:Графдекот:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=20",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:07:41.231Z",
+      "durationMs": 157276,
+      "bossPercentage": 52.9,
+      "fightPercentage": 52.9,
+      "averageItemLevel": 287.1000061035156,
+      "actor": {
+        "id": 359,
+        "name": "Графдекот",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Druid-Feral",
+        "className": "Druid",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 107541.7,
+        "hps": 9354.69,
+        "primary": 107541.7,
+        "primaryKind": "dps",
+        "fightDps": 107541.7,
+        "fightHps": 9354.69,
+        "activeDps": 108488.1,
+        "activeHps": 12257.51,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 9
+      },
+      "source": {
+        "damageTotal": 16913729,
+        "healingTotal": 1471269,
+        "damageActiveTimeMs": 155904,
+        "healingActiveTimeMs": 120030,
+        "damageTotalTimeMs": 157276,
+        "healingTotalTimeMs": 157276,
+        "damageEntryId": 359,
+        "healingEntryId": 359,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:359,healing:actor-id:359"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 20,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13015731,
+          "endTime": 13173007,
+          "bossPercentage": 52.9,
+          "fightPercentage": 52.9,
+          "averageItemLevel": 287.1000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 16913729,
+              "activeTime": 155904,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:359",
+            "matchedEntry": {
+              "id": 359,
+              "name": "Графдекот",
+              "type": "Druid",
+              "icon": "Druid-Feral",
+              "total": 1471269,
+              "activeTime": 120030,
+              "itemLevel": 289,
+              "guid": 257485583
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 9,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 359,
+          "matchedActorName": "Графдекот",
+          "normalizedKeys": [
+            "графдекот:gordunni:eu",
+            "графдекот::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Druid-Feral",
+            "className": "Druid",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "4Zng3fprDXvGjb1V:18:Графдекот:gordunni:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
@@ -230,527 +1382,15 @@
         "source": "unknown",
         "confidence": 0
       }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:16:Графдекот:gordunni:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 16,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=16",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:35:38.267Z",
-      "durationMs": 444676,
-      "bossPercentage": 27.83,
-      "fightPercentage": 7.79,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 265,
-        "name": "Графдекот",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 83404.72,
-        "hps": 6001.84,
-        "primary": 83404.72,
-        "primaryKind": "dps",
-        "fightDps": 83404.72,
-        "fightHps": 6001.84,
-        "activeDps": 83404.72,
-        "activeHps": 6001.84,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 14
-      },
-      "source": {
-        "damageTotal": 37088078,
-        "healingTotal": 2668873,
-        "damageActiveTimeMs": 364724,
-        "healingActiveTimeMs": 122732,
-        "damageTotalTimeMs": 444676,
-        "healingTotalTimeMs": 444676,
-        "damageEntryId": 265,
-        "healingEntryId": 265,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:265,healing:actor-id:265"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:15:Графдекот:gordunni:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 15,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=15",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:29:59.322Z",
-      "durationMs": 168201,
-      "bossPercentage": 99.93,
-      "fightPercentage": 61.97,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 265,
-        "name": "Графдекот",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 111517.73,
-        "hps": 2789.07,
-        "primary": 111517.73,
-        "primaryKind": "dps",
-        "fightDps": 111517.73,
-        "fightHps": 2789.07,
-        "activeDps": 111517.73,
-        "activeHps": 2789.07,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 16
-      },
-      "source": {
-        "damageTotal": 18757394,
-        "healingTotal": 469125,
-        "damageActiveTimeMs": 113670,
-        "healingActiveTimeMs": 27734,
-        "damageTotalTimeMs": 168201,
-        "healingTotalTimeMs": 168201,
-        "damageEntryId": 265,
-        "healingEntryId": 265,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:265,healing:actor-id:265"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:14:Графдекот:gordunni:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 14,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=14",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:23:32.414Z",
-      "durationMs": 263926,
-      "bossPercentage": 51.89,
-      "fightPercentage": 45.64,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 265,
-        "name": "Графдекот",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 73447.77,
-        "hps": 3105.7,
-        "primary": 73447.77,
-        "primaryKind": "dps",
-        "fightDps": 73447.77,
-        "fightHps": 3105.7,
-        "activeDps": 73447.77,
-        "activeHps": 3105.7,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 15
-      },
-      "source": {
-        "damageTotal": 19384777,
-        "healingTotal": 819676,
-        "damageActiveTimeMs": 148971,
-        "healingActiveTimeMs": 59834,
-        "damageTotalTimeMs": 263926,
-        "healingTotalTimeMs": 263926,
-        "damageEntryId": 265,
-        "healingEntryId": 265,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:265,healing:actor-id:265"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:13:Графдекот:gordunni:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 13,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=13",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:14:24.461Z",
-      "durationMs": 462361,
-      "bossPercentage": 37.61,
-      "fightPercentage": 10.53,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 265,
-        "name": "Графдекот",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 85239.81,
-        "hps": 7504.2,
-        "primary": 85239.81,
-        "primaryKind": "dps",
-        "fightDps": 85239.81,
-        "fightHps": 7504.2,
-        "activeDps": 85239.81,
-        "activeHps": 7504.2,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 16
-      },
-      "source": {
-        "damageTotal": 39411563,
-        "healingTotal": 3469649,
-        "damageActiveTimeMs": 365409,
-        "healingActiveTimeMs": 173552,
-        "damageTotalTimeMs": 462361,
-        "healingTotalTimeMs": 462361,
-        "damageEntryId": 265,
-        "healingEntryId": 265,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:265,healing:actor-id:265"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:12:Графдекот:gordunni:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 12,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=12",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:12:17.451Z",
-      "durationMs": 64027,
-      "bossPercentage": 65.47,
-      "fightPercentage": 86.87,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 265,
-        "name": "Графдекот",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 49000.62,
-        "hps": 3446.28,
-        "primary": 49000.62,
-        "primaryKind": "dps",
-        "fightDps": 49000.62,
-        "fightHps": 3446.28,
-        "activeDps": 49000.62,
-        "activeHps": 3446.28,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 14
-      },
-      "source": {
-        "damageTotal": 3137363,
-        "healingTotal": 220655,
-        "damageActiveTimeMs": 25340,
-        "healingActiveTimeMs": 16525,
-        "damageTotalTimeMs": 64027,
-        "healingTotalTimeMs": 64027,
-        "damageEntryId": 265,
-        "healingEntryId": 265,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:265,healing:actor-id:265"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:11:Графдекот:gordunni:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 11,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=11",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:08:04.750Z",
-      "durationMs": 127574,
-      "bossPercentage": 32.96,
-      "fightPercentage": 74.52,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 265,
-        "name": "Графдекот",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 113466.91,
-        "hps": 10274.48,
-        "primary": 113466.91,
-        "primaryKind": "dps",
-        "fightDps": 113466.91,
-        "fightHps": 10274.48,
-        "activeDps": 113466.91,
-        "activeHps": 10274.48,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 14
-      },
-      "source": {
-        "damageTotal": 14475427,
-        "healingTotal": 1310756,
-        "damageActiveTimeMs": 123071,
-        "healingActiveTimeMs": 50290,
-        "damageTotalTimeMs": 127574,
-        "healingTotalTimeMs": 127574,
-        "damageEntryId": 265,
-        "healingEntryId": 265,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:265,healing:actor-id:265"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:10:Графдекот:gordunni:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 10,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=10",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:02:32.617Z",
-      "durationMs": 242881,
-      "bossPercentage": 57.99,
-      "fightPercentage": 47.71,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 265,
-        "name": "Графдекот",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 90660.39,
-        "hps": 11269.05,
-        "primary": 90660.39,
-        "primaryKind": "dps",
-        "fightDps": 90660.39,
-        "fightHps": 11269.05,
-        "activeDps": 90660.39,
-        "activeHps": 11269.05,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 15
-      },
-      "source": {
-        "damageTotal": 22019686,
-        "healingTotal": 2737039,
-        "damageActiveTimeMs": 188276,
-        "healingActiveTimeMs": 104023,
-        "damageTotalTimeMs": 242881,
-        "healingTotalTimeMs": 242881,
-        "damageEntryId": 265,
-        "healingEntryId": 265,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:265,healing:actor-id:265"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:9:Графдекот:gordunni:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 9,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=9",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T17:57:19.007Z",
-      "durationMs": 242761,
-      "bossPercentage": 61.85,
-      "fightPercentage": 49.02,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 265,
-        "name": "Графдекот",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 96419.12,
-        "hps": 9060,
-        "primary": 96419.12,
-        "primaryKind": "dps",
-        "fightDps": 96419.12,
-        "fightHps": 9060,
-        "activeDps": 96419.12,
-        "activeHps": 9060,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 15
-      },
-      "source": {
-        "damageTotal": 23406801,
-        "healingTotal": 2199415,
-        "damageActiveTimeMs": 182851,
-        "healingActiveTimeMs": 88176,
-        "damageTotalTimeMs": 242761,
-        "healingTotalTimeMs": 242761,
-        "damageEntryId": 265,
-        "healingEntryId": 265,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:265,healing:actor-id:265"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.369Z",
-    "lastPullAt": "2026-05-17T19:09:27.100Z",
-    "newPullsInLastScan": 10,
+    "lastScannedAt": "2026-06-05T21:41:04.223Z",
+    "lastPullAt": "2026-06-04T19:56:22.399Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }

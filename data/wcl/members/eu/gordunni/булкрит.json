@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-06-03T04:24:46.369Z",
+  "schemaVersion": 3,
+  "updatedAt": "2026-06-05T21:41:04.223Z",
   "character": {
     "name": "Булкрит",
     "realmSlug": "gordunni",
@@ -11,34 +11,1250 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 1,
-    "wipes": 9,
-    "killRate": 0.1,
-    "wipeRate": 0.9,
+    "kills": 0,
+    "wipes": 10,
+    "killRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 186,
+    "totalRaidDeaths": 195,
     "deathsPerPull": 0,
-    "stabilityPercent": 55.85,
-    "consistencyPercent": 44.49,
+    "stabilityPercent": 91.83,
+    "consistencyPercent": 61.37,
+    "performanceScore": 65.85,
+    "survivalScore": 100,
+    "reliabilityScore": 77.02,
     "recent3": {
-      "avgDps": 83198.53,
-      "avgHps": 7894.78,
-      "avgPrimary": 83198.53,
-      "avgDurationMs": 213419,
+      "sampleSize": 3,
+      "avgDps": 99170.99,
+      "avgHps": 0,
+      "avgPrimary": 99170.99,
+      "avgDurationMs": 291246,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 94792.22,
+      "avgHps": 0,
+      "avgPrimary": 94792.22,
+      "avgDurationMs": 233606,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 148975.61,
+      "sampleSize": 10,
+      "maxDps": 107991.12,
       "minDps": 66275.45,
-      "maxHps": 12792.93,
-      "minHps": 5535.81,
-      "maxPrimary": 148975.61,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 107991.12,
       "minPrimary": 66275.45,
-      "maxDurationMs": 335868,
-      "minDurationMs": 50176
+      "maxDurationMs": 407830,
+      "minDurationMs": 108203
+    },
+    "trend": {
+      "direction": "flat",
+      "recentAvg": 99170.99,
+      "previousAvg": 94792.22,
+      "delta": 4378.77,
+      "deltaPercent": 4.62
+    },
+    "byRole": {
+      "healer": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      },
+      "damage": {
+        "pulls": 10,
+        "kills": 0,
+        "wipes": 10,
+        "avgRecent": 99170.99,
+        "maxLast10": 107991.12,
+        "minLast10": 66275.45,
+        "deathsPerPull": 0,
+        "bestPullKey": "J7drK2qY9hFnRyTD:22:Булкрит:gordunni:eu",
+        "worstPullKey": "8dAPQCWGNMLBjrRg:31:Булкрит:gordunni:eu"
+      },
+      "unknown": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      }
+    },
+    "dataQuality": {
+      "pullsWithMatchedDamage": 10,
+      "pullsWithMatchedHealing": 10,
+      "pullsWithRoleInferred": 8,
+      "pullsWithDeaths": 0,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      },
+      "confidenceAvg": 0.72,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "J7drK2qY9hFnRyTD:28:Булкрит:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=28",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:56:22.399Z",
+      "durationMs": 254690,
+      "bossPercentage": 99.99,
+      "fightPercentage": 99.99,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 298,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 99646.26,
+        "hps": 9509.67,
+        "primary": 99646.26,
+        "primaryKind": "dps",
+        "fightDps": 99646.26,
+        "fightHps": 9509.67,
+        "activeDps": 106341.4,
+        "activeHps": 9574.45,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 25378907,
+        "healingTotal": 2422019,
+        "damageActiveTimeMs": 238655,
+        "healingActiveTimeMs": 252967,
+        "damageTotalTimeMs": 254690,
+        "healingTotalTimeMs": 254690,
+        "damageEntryId": 298,
+        "healingEntryId": 298,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:298,healing:actor-id:298"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 28,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15936899,
+          "endTime": 16191589,
+          "bossPercentage": 99.99,
+          "fightPercentage": 99.99,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 254690,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 25378907,
+              "activeTime": 238655,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 254690,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 2422019,
+              "activeTime": 252967,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 298,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:27:Булкрит:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=27",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:48:06.865Z",
+      "durationMs": 407830,
+      "bossPercentage": 87.18,
+      "fightPercentage": 87.18,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 298,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 95403.85,
+        "hps": 8872.5,
+        "primary": 95403.85,
+        "primaryKind": "dps",
+        "fightDps": 95403.85,
+        "fightHps": 8872.5,
+        "activeDps": 117114.36,
+        "activeHps": 10672.79,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 23
+      },
+      "source": {
+        "damageTotal": 38908554,
+        "healingTotal": 3618470,
+        "damageActiveTimeMs": 332227,
+        "healingActiveTimeMs": 339037,
+        "damageTotalTimeMs": 407830,
+        "healingTotalTimeMs": 407830,
+        "damageEntryId": 298,
+        "healingEntryId": 298,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:298,healing:actor-id:298"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 27,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15441365,
+          "endTime": 15849195,
+          "bossPercentage": 87.18,
+          "fightPercentage": 87.18,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 407830,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 38908554,
+              "activeTime": 332227,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 407830,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 3618470,
+              "activeTime": 339037,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 23,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 298,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:26:Булкрит:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=26",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:43:28.840Z",
+      "durationMs": 211217,
+      "bossPercentage": 44.04,
+      "fightPercentage": 44.04,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 298,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 102462.87,
+        "hps": 7794.64,
+        "primary": 102462.87,
+        "primaryKind": "dps",
+        "fightDps": 102462.87,
+        "fightHps": 7794.64,
+        "activeDps": 113500.32,
+        "activeHps": 8485.25,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 21641900,
+        "healingTotal": 1646360,
+        "damageActiveTimeMs": 190677,
+        "healingActiveTimeMs": 194026,
+        "damageTotalTimeMs": 211217,
+        "healingTotalTimeMs": 211217,
+        "damageEntryId": 298,
+        "healingEntryId": 298,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:298,healing:actor-id:298"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 26,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15163340,
+          "endTime": 15374557,
+          "bossPercentage": 44.04,
+          "fightPercentage": 44.04,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 211217,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 21641900,
+              "activeTime": 190677,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 211217,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 1646360,
+              "activeTime": 194026,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 298,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:24:Булкрит:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=24",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:34:22.519Z",
+      "durationMs": 225405,
+      "bossPercentage": 48.14,
+      "fightPercentage": 48.14,
+      "averageItemLevel": 287.1499938964844,
+      "actor": {
+        "id": 298,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 89935.03,
+        "hps": 7711.17,
+        "primary": 89935.03,
+        "primaryKind": "dps",
+        "fightDps": 89935.03,
+        "fightHps": 7711.17,
+        "activeDps": 105770.72,
+        "activeHps": 9197.17,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 20271805,
+        "healingTotal": 1738136,
+        "damageActiveTimeMs": 191658,
+        "healingActiveTimeMs": 188986,
+        "damageTotalTimeMs": 225405,
+        "healingTotalTimeMs": 225405,
+        "damageEntryId": 298,
+        "healingEntryId": 298,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:298,healing:actor-id:298"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 24,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 14617019,
+          "endTime": 14842424,
+          "bossPercentage": 48.14,
+          "fightPercentage": 48.14,
+          "averageItemLevel": 287.1499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 225405,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 20271805,
+              "activeTime": 191658,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 225405,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 1738136,
+              "activeTime": 188986,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 298,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:23:Булкрит:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=23",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:28:15.407Z",
+      "durationMs": 244539,
+      "bossPercentage": 43.67,
+      "fightPercentage": 43.67,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 298,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 86450.5,
+        "hps": 8255.82,
+        "primary": 86450.5,
+        "primaryKind": "dps",
+        "fightDps": 86450.5,
+        "fightHps": 8255.82,
+        "activeDps": 108181.58,
+        "activeHps": 10793.5,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 21140520,
+        "healingTotal": 2018871,
+        "damageActiveTimeMs": 195417,
+        "healingActiveTimeMs": 187045,
+        "damageTotalTimeMs": 244539,
+        "healingTotalTimeMs": 244539,
+        "damageEntryId": 298,
+        "healingEntryId": 298,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:298,healing:actor-id:298"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 23,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 14249907,
+          "endTime": 14494446,
+          "bossPercentage": 43.67,
+          "fightPercentage": 43.67,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 244539,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 21140520,
+              "activeTime": 195417,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 244539,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 2018871,
+              "activeTime": 187045,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 298,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:22:Булкрит:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=22",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:22:35.705Z",
+      "durationMs": 230874,
+      "bossPercentage": 45.95,
+      "fightPercentage": 45.95,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 298,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 107991.12,
+        "hps": 11198.88,
+        "primary": 107991.12,
+        "primaryKind": "dps",
+        "fightDps": 107991.12,
+        "fightHps": 11198.88,
+        "activeDps": 121445.23,
+        "activeHps": 11863.17,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 24932341,
+        "healingTotal": 2585530,
+        "damageActiveTimeMs": 205297,
+        "healingActiveTimeMs": 217946,
+        "damageTotalTimeMs": 230874,
+        "healingTotalTimeMs": 230874,
+        "damageEntryId": 298,
+        "healingEntryId": 298,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:298,healing:actor-id:298"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 22,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13910205,
+          "endTime": 14141079,
+          "bossPercentage": 45.95,
+          "fightPercentage": 45.95,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 230874,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 24932341,
+              "activeTime": 205297,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 230874,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 2585530,
+              "activeTime": 217946,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 298,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:21:Булкрит:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=21",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:19:49.269Z",
+      "durationMs": 108203,
+      "bossPercentage": 67.25,
+      "fightPercentage": 67.25,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 298,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 92878.68,
+        "hps": 11263.36,
+        "primary": 92878.68,
+        "primaryKind": "dps",
+        "fightDps": 92878.68,
+        "fightHps": 11263.36,
+        "activeDps": 108075.79,
+        "activeHps": 14342.54,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 10049752,
+        "healingTotal": 1218729,
+        "damageActiveTimeMs": 92988,
+        "healingActiveTimeMs": 84973,
+        "damageTotalTimeMs": 108203,
+        "healingTotalTimeMs": 108203,
+        "damageEntryId": 298,
+        "healingEntryId": 298,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:298,healing:actor-id:298"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 21,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13743769,
+          "endTime": 13851972,
+          "bossPercentage": 67.25,
+          "fightPercentage": 67.25,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 108203,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 10049752,
+              "activeTime": 92988,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 108203,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 1218729,
+              "activeTime": 84973,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 298,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:20:Булкрит:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=20",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:07:41.231Z",
+      "durationMs": 157276,
+      "bossPercentage": 52.9,
+      "fightPercentage": 52.9,
+      "averageItemLevel": 287.1000061035156,
+      "actor": {
+        "id": 298,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 67043.05,
+        "hps": 5264.47,
+        "primary": 67043.05,
+        "primaryKind": "dps",
+        "fightDps": 67043.05,
+        "fightHps": 5264.47,
+        "activeDps": 98041.47,
+        "activeHps": 8599.11,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 9
+      },
+      "source": {
+        "damageTotal": 10544262,
+        "healingTotal": 827974,
+        "damageActiveTimeMs": 107549,
+        "healingActiveTimeMs": 96286,
+        "damageTotalTimeMs": 157276,
+        "healingTotalTimeMs": 157276,
+        "damageEntryId": 298,
+        "healingEntryId": 298,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:298,healing:actor-id:298"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 20,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13015731,
+          "endTime": 13173007,
+          "bossPercentage": 52.9,
+          "fightPercentage": 52.9,
+          "averageItemLevel": 287.1000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 10544262,
+              "activeTime": 107549,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:298",
+            "matchedEntry": {
+              "id": 298,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 827974,
+              "activeTime": 96286,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 9,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 298,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "8dAPQCWGNMLBjrRg:32:Булкрит:gordunni:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
@@ -72,7 +1288,13 @@
         "dps": 82334.47,
         "hps": 7147.74,
         "primary": 82334.47,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 82334.47,
+        "fightHps": 7147.74,
+        "activeDps": 82334.47,
+        "activeHps": 7147.74,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -90,6 +1312,11 @@
         "damageItemLevel": 287,
         "healingItemLevel": 287,
         "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -125,7 +1352,13 @@
         "dps": 66275.45,
         "hps": 6636.96,
         "primary": 66275.45,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 66275.45,
+        "fightHps": 6636.96,
+        "activeDps": 66275.45,
+        "activeHps": 6636.96,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -143,436 +1376,21 @@
         "damageItemLevel": 287,
         "healingItemLevel": 287,
         "matchedBy": "damage:actor-id:108,healing:actor-id:108"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:30:Булкрит:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
       },
-      "fightId": 30,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:54:58.059Z",
-      "durationMs": 197829,
-      "bossPercentage": 58.27,
-      "fightPercentage": 58.27,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 108,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "metric": {
-        "dps": 100985.68,
-        "hps": 9899.63,
-        "primary": 100985.68,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 19977897,
-        "healingTotal": 1958434,
-        "damageActiveTimeMs": 181369,
-        "healingActiveTimeMs": 156930,
-        "damageTotalTimeMs": 197829,
-        "healingTotalTimeMs": 197829,
-        "damageEntryId": 108,
-        "healingEntryId": 108,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:29:Булкрит:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 29,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:48:53.946Z",
-      "durationMs": 222158,
-      "bossPercentage": 56.82,
-      "fightPercentage": 56.82,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 108,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "metric": {
-        "dps": 96417.72,
-        "hps": 8855.67,
-        "primary": 96417.72,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 21419968,
-        "healingTotal": 1967359,
-        "damageActiveTimeMs": 217453,
-        "healingActiveTimeMs": 204929,
-        "damageTotalTimeMs": 222158,
-        "healingTotalTimeMs": 222158,
-        "damageEntryId": 108,
-        "healingEntryId": 108,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:28:Булкрит:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:38:12.252Z",
-      "durationMs": 209169,
-      "bossPercentage": 58.86,
-      "fightPercentage": 58.86,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 108,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "metric": {
-        "dps": 78748.11,
-        "hps": 8709.95,
-        "primary": 78748.11,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 16471664,
-        "healingTotal": 1821852,
-        "damageActiveTimeMs": 191451,
-        "healingActiveTimeMs": 158037,
-        "damageTotalTimeMs": 209169,
-        "healingTotalTimeMs": 209169,
-        "damageEntryId": 108,
-        "healingEntryId": 108,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:27:Булкрит:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:29:44.846Z",
-      "durationMs": 169519,
-      "bossPercentage": 62.33,
-      "fightPercentage": 62.33,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 108,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "metric": {
-        "dps": 88528.41,
-        "hps": 12623.26,
-        "primary": 88528.41,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 15007247,
-        "healingTotal": 2139882,
-        "damageActiveTimeMs": 155490,
-        "healingActiveTimeMs": 147922,
-        "damageTotalTimeMs": 169519,
-        "healingTotalTimeMs": 169519,
-        "damageEntryId": 108,
-        "healingEntryId": 108,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:26:Булкрит:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:27:07.695Z",
-      "durationMs": 50885,
-      "bossPercentage": 80.53,
-      "fightPercentage": 80.53,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 108,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "metric": {
-        "dps": 148975.61,
-        "hps": 9574.83,
-        "primary": 148975.61,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 7580624,
-        "healingTotal": 487215,
-        "damageActiveTimeMs": 47117,
-        "healingActiveTimeMs": 43898,
-        "damageTotalTimeMs": 50885,
-        "healingTotalTimeMs": 50885,
-        "damageEntryId": 108,
-        "healingEntryId": 108,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:25:Булкрит:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:23:53.731Z",
-      "durationMs": 50176,
-      "bossPercentage": 79.76,
-      "fightPercentage": 79.76,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 108,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "metric": {
-        "dps": 127796.6,
-        "hps": 5535.81,
-        "primary": 127796.6,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 6412322,
-        "healingTotal": 277765,
-        "damageActiveTimeMs": 47179,
-        "healingActiveTimeMs": 46988,
-        "damageTotalTimeMs": 50176,
-        "healingTotalTimeMs": 50176,
-        "damageEntryId": 108,
-        "healingEntryId": 108,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:21:Булкрит:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
-      "status": "KILL",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:04:24.189Z",
-      "durationMs": 335868,
-      "bossPercentage": 0.01,
-      "fightPercentage": 0.01,
-      "averageItemLevel": 284.8500061035156,
-      "actor": {
-        "id": 108,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "metric": {
-        "dps": 105660.13,
-        "hps": 11941.76,
-        "primary": 105660.13,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 3
-      },
-      "source": {
-        "damageTotal": 35487858,
-        "healingTotal": 4010854,
-        "damageActiveTimeMs": 333532,
-        "healingActiveTimeMs": 333555,
-        "damageTotalTimeMs": 335868,
-        "healingTotalTimeMs": 335868,
-        "damageEntryId": 108,
-        "healingEntryId": 108,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:20:Булкрит:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T18:57:55.893Z",
-      "durationMs": 285958,
-      "bossPercentage": 27.56,
-      "fightPercentage": 27.56,
-      "averageItemLevel": 284.8500061035156,
-      "actor": {
-        "id": 108,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "metric": {
-        "dps": 101381.25,
-        "hps": 12792.93,
-        "primary": 101381.25,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 28990779,
-        "healingTotal": 3658240,
-        "damageActiveTimeMs": 279888,
-        "healingActiveTimeMs": 278969,
-        "damageTotalTimeMs": 285958,
-        "healingTotalTimeMs": 285958,
-        "damageEntryId": 108,
-        "healingEntryId": 108,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:108,healing:actor-id:108"
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "reportsScanned": 8,
+    "fightsScanned": 8,
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-05T21:41:04.223Z",
+    "lastPullAt": "2026-06-04T19:56:22.399Z",
+    "newPullsInLastScan": 8,
+    "scanReason": "scheduled"
   }
 }

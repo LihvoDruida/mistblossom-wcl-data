@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.368Z",
+  "updatedAt": "2026-06-05T21:41:04.223Z",
   "character": {
     "name": "Valemor",
     "realmSlug": "silvermoon",
@@ -102,11 +102,11 @@
   },
   "pulls": [],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.368Z",
+    "lastScannedAt": "2026-06-05T21:41:04.223Z",
     "newPullsInLastScan": 0,
-    "scanReason": "no-data"
+    "scanReason": "scheduled"
   }
 }
