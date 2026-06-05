@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-06-03T04:24:46.370Z",
+  "schemaVersion": 3,
+  "updatedAt": "2026-06-05T23:16:28.434Z",
   "character": {
     "name": "Пизнайка",
     "realmSlug": "gordunni",
@@ -16,29 +16,237 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 205,
+    "totalRaidDeaths": 193,
     "deathsPerPull": 0,
-    "stabilityPercent": 89.17,
-    "consistencyPercent": 15.23,
+    "stabilityPercent": 64.23,
+    "consistencyPercent": 7.39,
+    "performanceScore": 37.17,
+    "survivalScore": 100,
+    "reliabilityScore": 51.79,
     "recent3": {
-      "avgDps": 58962.88,
-      "avgHps": 8074.24,
-      "avgPrimary": 58962.88,
-      "avgDurationMs": 209015,
+      "sampleSize": 3,
+      "avgDps": 87535.13,
+      "avgHps": 0,
+      "avgPrimary": 87535.13,
+      "avgDurationMs": 190252,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 48499.96,
+      "avgHps": 0,
+      "avgPrimary": 48499.96,
+      "avgDurationMs": 165427,
       "avgDeaths": 0
     },
     "last10": {
-      "maxDps": 66121.49,
+      "sampleSize": 10,
+      "maxDps": 136280.86,
       "minDps": 10073.34,
-      "maxHps": 10471.44,
-      "minHps": 1184.25,
-      "maxPrimary": 66121.49,
+      "maxHps": 0,
+      "minHps": 0,
+      "maxPrimary": 136280.86,
       "minPrimary": 10073.34,
       "maxDurationMs": 220822,
-      "minDurationMs": 61569
+      "minDurationMs": 68223
+    },
+    "trend": {
+      "direction": "up",
+      "recentAvg": 87535.13,
+      "previousAvg": 48499.96,
+      "delta": 39035.17,
+      "deltaPercent": 80.48
+    },
+    "byRole": {
+      "healer": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      },
+      "damage": {
+        "pulls": 10,
+        "kills": 0,
+        "wipes": 10,
+        "avgRecent": 87535.13,
+        "maxLast10": 136280.86,
+        "minLast10": 10073.34,
+        "deathsPerPull": 0,
+        "bestPullKey": "J7drK2qY9hFnRyTD:20:Пизнайка:gordunni:eu",
+        "worstPullKey": "jy63H8ZCtfJaG29g:10:Пизнайка:gordunni:eu"
+      },
+      "unknown": {
+        "pulls": 0,
+        "kills": 0,
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
+      }
+    },
+    "dataQuality": {
+      "pullsWithMatchedDamage": 10,
+      "pullsWithMatchedHealing": 10,
+      "pullsWithRoleInferred": 1,
+      "pullsWithDeaths": 0,
+      "primaryKindCounts": {
+        "dps": 10,
+        "hps": 0,
+        "unknown": 0
+      },
+      "confidenceAvg": 0.09,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "J7drK2qY9hFnRyTD:20:Пизнайка:gordunni:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=20",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:07:41.231Z",
+      "durationMs": 157276,
+      "bossPercentage": 52.9,
+      "fightPercentage": 52.9,
+      "averageItemLevel": 287.1000061035156,
+      "actor": {
+        "id": 299,
+        "name": "Пизнайка",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Druid-Balance",
+        "className": "Druid",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 136280.86,
+        "hps": 7859.36,
+        "primary": 136280.86,
+        "primaryKind": "dps",
+        "fightDps": 136280.86,
+        "fightHps": 7859.36,
+        "activeDps": 137754.08,
+        "activeHps": 10823.52,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 9
+      },
+      "source": {
+        "damageTotal": 21433708,
+        "healingTotal": 1236089,
+        "damageActiveTimeMs": 155594,
+        "healingActiveTimeMs": 114204,
+        "damageTotalTimeMs": 157276,
+        "healingTotalTimeMs": 157276,
+        "damageEntryId": 299,
+        "healingEntryId": 299,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:299,healing:actor-id:299"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 20,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13015731,
+          "endTime": 13173007,
+          "bossPercentage": 52.9,
+          "fightPercentage": 52.9,
+          "averageItemLevel": 287.1000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:299",
+            "matchedEntry": {
+              "id": 299,
+              "name": "Пизнайка",
+              "type": "Druid",
+              "icon": "Druid-Balance",
+              "total": 21433708,
+              "activeTime": 155594,
+              "itemLevel": 287,
+              "guid": 265353321
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:299",
+            "matchedEntry": {
+              "id": 299,
+              "name": "Пизнайка",
+              "type": "Druid",
+              "icon": "Druid-Balance",
+              "total": 1236089,
+              "activeTime": 114204,
+              "itemLevel": 287,
+              "guid": 265353321
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 9,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 299,
+          "matchedActorName": "Пизнайка",
+          "normalizedKeys": [
+            "пизнайка:gordunni:eu",
+            "пизнайка::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Druid-Balance",
+            "className": "Druid",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "jy63H8ZCtfJaG29g:16:Пизнайка:gordunni:eu",
       "reportCode": "jy63H8ZCtfJaG29g",
@@ -72,7 +280,13 @@
         "dps": 60203.05,
         "hps": 4410.77,
         "primary": 60203.05,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 60203.05,
+        "fightHps": 4410.77,
+        "activeDps": 60203.05,
+        "activeHps": 4410.77,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -90,6 +304,11 @@
         "damageItemLevel": 275,
         "healingItemLevel": 275,
         "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -125,7 +344,13 @@
         "dps": 66121.49,
         "hps": 9733.18,
         "primary": 66121.49,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 66121.49,
+        "fightHps": 9733.18,
+        "activeDps": 66121.49,
+        "activeHps": 9733.18,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -143,6 +368,11 @@
         "damageItemLevel": 275,
         "healingItemLevel": 275,
         "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -178,7 +408,13 @@
         "dps": 50564.11,
         "hps": 10078.76,
         "primary": 50564.11,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 50564.11,
+        "fightHps": 10078.76,
+        "activeDps": 50564.11,
+        "activeHps": 10078.76,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -196,6 +432,11 @@
         "damageItemLevel": 275,
         "healingItemLevel": 275,
         "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -231,7 +472,13 @@
         "dps": 63347.98,
         "hps": 10471.44,
         "primary": 63347.98,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 63347.98,
+        "fightHps": 10471.44,
+        "activeDps": 63347.98,
+        "activeHps": 10471.44,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -249,6 +496,11 @@
         "damageItemLevel": 275,
         "healingItemLevel": 275,
         "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -284,7 +536,13 @@
         "dps": 31587.8,
         "hps": 2314.71,
         "primary": 31587.8,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 31587.8,
+        "fightHps": 2314.71,
+        "activeDps": 31587.8,
+        "activeHps": 2314.71,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -302,6 +560,11 @@
         "damageItemLevel": 275,
         "healingItemLevel": 275,
         "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -337,7 +600,13 @@
         "dps": 59400.19,
         "hps": 5906.03,
         "primary": 59400.19,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 59400.19,
+        "fightHps": 5906.03,
+        "activeDps": 59400.19,
+        "activeHps": 5906.03,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -355,6 +624,11 @@
         "damageItemLevel": 275,
         "healingItemLevel": 275,
         "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -390,7 +664,13 @@
         "dps": 10073.34,
         "hps": 1184.25,
         "primary": 10073.34,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 10073.34,
+        "fightHps": 1184.25,
+        "activeDps": 10073.34,
+        "activeHps": 1184.25,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -408,6 +688,11 @@
         "damageItemLevel": 275,
         "healingItemLevel": 275,
         "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -443,7 +728,13 @@
         "dps": 42743.9,
         "hps": 3679.08,
         "primary": 42743.9,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 42743.9,
+        "fightHps": 3679.08,
+        "activeDps": 42743.9,
+        "activeHps": 3679.08,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -461,6 +752,11 @@
         "damageItemLevel": 275,
         "healingItemLevel": 275,
         "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      },
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     },
     {
@@ -496,7 +792,13 @@
         "dps": 57454.05,
         "hps": 9991.22,
         "primary": 57454.05,
-        "primaryKind": "dps"
+        "primaryKind": "dps",
+        "fightDps": 57454.05,
+        "fightHps": 9991.22,
+        "activeDps": 57454.05,
+        "activeHps": 9991.22,
+        "damageRateSource": "none",
+        "healingRateSource": "none"
       },
       "deaths": {
         "character": 0,
@@ -514,65 +816,21 @@
         "damageItemLevel": 275,
         "healingItemLevel": 275,
         "matchedBy": "damage:actor-id:66,healing:actor-id:66"
-      }
-    },
-    {
-      "key": "jy63H8ZCtfJaG29g:7:Пизнайка:gordunni:eu",
-      "reportCode": "jy63H8ZCtfJaG29g",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-04-18T17:26:49.724Z",
-      "reportEndedAt": "2026-04-18T19:02:52.776Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
       },
-      "fightId": 7,
-      "url": "https://www.warcraftlogs.com/reports/jy63H8ZCtfJaG29g#fight=7",
-      "status": "WIPE",
-      "bossName": "Belo'ren, Child of Al'ar",
-      "encounterId": 3182,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-04-18T17:59:18.217Z",
-      "durationMs": 61569,
-      "bossPercentage": 38.14,
-      "fightPercentage": 100,
-      "averageItemLevel": 271.70001220703125,
-      "actor": {
-        "id": 66,
-        "name": "Пизнайка",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 55420.42,
-        "hps": 2529.8,
-        "primary": 55420.42,
-        "primaryKind": "dps"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 3412180,
-        "healingTotal": 155757,
-        "damageActiveTimeMs": 60026,
-        "healingActiveTimeMs": 48614,
-        "damageTotalTimeMs": 61569,
-        "healingTotalTimeMs": 61569,
-        "damageEntryId": 66,
-        "healingEntryId": 66,
-        "damageItemLevel": 275,
-        "healingItemLevel": 275,
-        "matchedBy": "damage:actor-id:66,healing:actor-id:66"
+      "role": {
+        "role": "dps",
+        "source": "unknown",
+        "confidence": 0
       }
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
-    "generatedBy": "wcl-github-api"
+    "reportsScanned": 8,
+    "fightsScanned": 8,
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-05T23:16:28.434Z",
+    "lastPullAt": "2026-06-04T19:07:41.231Z",
+    "newPullsInLastScan": 1,
+    "scanReason": "scheduled"
   }
 }

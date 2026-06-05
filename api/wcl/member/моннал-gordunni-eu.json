@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.369Z",
+  "updatedAt": "2026-06-05T23:16:28.434Z",
   "character": {
     "name": "Моннал",
     "realmSlug": "gordunni",
@@ -745,12 +745,12 @@
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.369Z",
+    "lastScannedAt": "2026-06-05T23:16:28.434Z",
     "lastPullAt": "2026-05-29T20:06:06.764Z",
-    "newPullsInLastScan": 10,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }

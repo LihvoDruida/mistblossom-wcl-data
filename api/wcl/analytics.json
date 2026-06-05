@@ -9,18 +9,18 @@
     "killRate": 0.1126,
     "avgFightDurationMs": 202094,
     "avgRaidDeaths": 16.86,
-    "avgTeamDps": 126653.79,
+    "avgTeamDps": 127018.03,
     "avgTeamHps": 36726.78,
-    "avgPerformanceScore": 18.32,
+    "avgPerformanceScore": 18.22,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.03
+    "avgReliabilityScore": 40.98
   },
   "roles": {
     "damage": {
       "members": 52,
       "pulls": 459,
-      "avgRecent": 55681.11,
-      "medianRecent": 55465.57,
+      "avgRecent": 56230.57,
+      "medianRecent": 55866.91,
       "bestRecent": 99170.99,
       "maxLast10": 207607.12,
       "deathsPerPull": 0,
@@ -82,6 +82,13 @@
           "secondary": 0
         },
         {
+          "slug": "пизнаика-gordunni-eu",
+          "name": "Пизнайка",
+          "rank": 1,
+          "value": 87535.13,
+          "secondary": 0
+        },
+        {
           "slug": "мавпита-gordunni-eu",
           "name": "Мавпита",
           "rank": 1,
@@ -100,13 +107,6 @@
           "name": "Skirvir",
           "rank": 3,
           "value": 81687.77,
-          "secondary": 0
-        },
-        {
-          "slug": "коксбульдог-howling-fjord-eu",
-          "name": "Коксбульдог",
-          "rank": 4,
-          "value": 76043.61,
           "secondary": 0
         }
       ]
@@ -394,8 +394,8 @@
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 68.13,
-    "avgConsistencyPercent": 38.74,
+    "avgStabilityPercent": 67.71,
+    "avgConsistencyPercent": 38.61,
     "mostStable": [
       {
         "slug": "yokum-terokkar-eu",
@@ -572,93 +572,93 @@
   "freshness": {
     "updatedWithin1h": 8,
     "updatedWithin6h": 24,
-    "updatedWithin12h": 32,
+    "updatedWithin12h": 40,
     "updatedWithin24h": 48,
-    "oldestScannedAt": "2026-06-03T04:24:46.369Z",
-    "newestScannedAt": "2026-06-05T21:41:04.223Z",
+    "oldestScannedAt": "2026-06-03T04:24:46.370Z",
+    "newestScannedAt": "2026-06-05T23:16:28.434Z",
     "staleMembers": [
       {
         "slug": "мавпита-gordunni-eu",
         "name": "Мавпита",
         "rank": 1,
-        "value": 65.28,
+        "value": 66.87,
         "secondary": 10
       },
       {
         "slug": "мистип-gordunni-eu",
         "name": "Мистип",
         "rank": 1,
-        "value": 65.28,
+        "value": 66.87,
         "secondary": 0
-      },
-      {
-        "slug": "пизнаика-gordunni-eu",
-        "name": "Пизнайка",
-        "rank": 1,
-        "value": 65.28,
-        "secondary": 10
-      },
-      {
-        "slug": "тузольд-gordunni-eu",
-        "name": "Тузольд",
-        "rank": 1,
-        "value": 65.28,
-        "secondary": 10
       },
       {
         "slug": "шриладо-gordunni-eu",
         "name": "Шриладо",
         "rank": 1,
-        "value": 65.28,
+        "value": 66.87,
         "secondary": 10
-      },
-      {
-        "slug": "альянсс-gordunni-eu",
-        "name": "Альянсс",
-        "rank": 3,
-        "value": 65.28,
-        "secondary": 0
-      },
-      {
-        "slug": "галазард-eversong-eu",
-        "name": "Галазард",
-        "rank": 3,
-        "value": 65.28,
-        "secondary": 5
       },
       {
         "slug": "древесная-blackscar-eu",
         "name": "Древесная",
         "rank": 3,
-        "value": 65.28,
+        "value": 66.87,
         "secondary": 10
       },
       {
         "slug": "душа-blackscar-eu",
         "name": "Душа",
         "rank": 3,
-        "value": 65.28,
+        "value": 66.87,
         "secondary": 0
       },
       {
         "slug": "дятелэлуны-soulflayer-eu",
         "name": "Дятелэлуны",
         "rank": 3,
-        "value": 65.28,
+        "value": 66.87,
         "secondary": 0
       },
       {
-        "slug": "кеенди-gordunni-eu",
-        "name": "Кеенди",
+        "slug": "корукк-eversong-eu",
+        "name": "Корукк",
         "rank": 3,
-        "value": 65.28,
+        "value": 66.87,
         "secondary": 10
       },
       {
-        "slug": "кибароу-soulflayer-eu",
-        "name": "Кибароу",
+        "slug": "кумбар-gordunni-eu",
+        "name": "Кумбар",
         "rank": 3,
-        "value": 65.28,
+        "value": 66.87,
+        "secondary": 0
+      },
+      {
+        "slug": "кхаарн-lich-king-eu",
+        "name": "Кхаарн",
+        "rank": 3,
+        "value": 66.87,
+        "secondary": 10
+      },
+      {
+        "slug": "лилая-grom-eu",
+        "name": "Лилая",
+        "rank": 3,
+        "value": 66.87,
+        "secondary": 10
+      },
+      {
+        "slug": "марлая-gordunni-eu",
+        "name": "Марлая",
+        "rank": 3,
+        "value": 66.87,
+        "secondary": 10
+      },
+      {
+        "slug": "мелиодас-gordunni-eu",
+        "name": "Мелиодас",
+        "rank": 3,
+        "value": 66.87,
         "secondary": 0
       }
     ]
@@ -676,7 +676,7 @@
       "killRate": 0,
       "avgDurationMs": 173427,
       "avgRaidDeaths": 19.45,
-      "avgTeamDps": 328451.62,
+      "avgTeamDps": 335265.66,
       "avgTeamHps": 193841.6,
       "bestTeamDps": 749803.96,
       "bestTeamHps": 465140.66,
@@ -784,7 +784,7 @@
       "killRate": 0.0278,
       "avgDurationMs": 175340,
       "avgRaidDeaths": 19.53,
-      "avgTeamDps": 87895.88,
+      "avgTeamDps": 86356.42,
       "avgTeamHps": 17064.59,
       "bestTeamDps": 206616.76,
       "bestTeamHps": 84512.88,
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 158,
       "withData": 59,
-      "avgPrimaryRecent3": 22111.75,
-      "avgDpsRecent3": 17625,
+      "avgPrimaryRecent3": 22292.59,
+      "avgDpsRecent3": 17805.84,
       "avgHpsRecent3": 5765.83,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 41.03
+      "avgReliabilityScore": 40.98
     }
   ]
 }
