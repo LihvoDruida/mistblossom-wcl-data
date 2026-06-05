@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-05T16:06:00.111Z",
+  "updatedAt": "2026-06-05T20:05:33.415Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 158,
   "selectedMembers": 8,
   "scannedMembers": 8,
-  "changedMembers": 1,
+  "changedMembers": 0,
   "existingSnapshots": 158,
   "reportsScanned": 8,
   "fightsScanned": 8,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "нежнаяпулька-eversong-eu": 0,
-    "нежныилок-eversong-eu": 0,
-    "пандашоманко-eversong-eu": 0,
-    "bloemfontain-silvermoon-eu": 0,
-    "freddiedredd-silvermoon-eu": 8,
-    "gaplik-silvermoon-eu": 0,
-    "hlorygole-silvermoon-eu": 0,
-    "inika-silvermoon-eu": 0
+    "juz-silvermoon-eu": 0,
+    "kaijuro-silvermoon-eu": 0,
+    "medvedich-silvermoon-eu": 0,
+    "nanyy-silvermoon-eu": 0,
+    "panharanir-kazzak-eu": 0,
+    "ponziani-kazzak-eu": 0,
+    "slavasalu-silvermoon-eu": 0,
+    "teasick-kazzak-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,29 +36,6 @@
   },
   "batch": {
     "selected": [
-      "нежнаяпулька-eversong-eu",
-      "нежныилок-eversong-eu",
-      "пандашоманко-eversong-eu",
-      "bloemfontain-silvermoon-eu",
-      "freddiedredd-silvermoon-eu",
-      "gaplik-silvermoon-eu",
-      "hlorygole-silvermoon-eu",
-      "inika-silvermoon-eu"
-    ],
-    "updated": [
-      "freddiedredd-silvermoon-eu"
-    ],
-    "scanned": [
-      "нежнаяпулька-eversong-eu",
-      "нежныилок-eversong-eu",
-      "пандашоманко-eversong-eu",
-      "bloemfontain-silvermoon-eu",
-      "freddiedredd-silvermoon-eu",
-      "gaplik-silvermoon-eu",
-      "hlorygole-silvermoon-eu",
-      "inika-silvermoon-eu"
-    ],
-    "pending": [
       "juz-silvermoon-eu",
       "kaijuro-silvermoon-eu",
       "medvedich-silvermoon-eu",
@@ -66,7 +43,20 @@
       "panharanir-kazzak-eu",
       "ponziani-kazzak-eu",
       "slavasalu-silvermoon-eu",
-      "teasick-kazzak-eu",
+      "teasick-kazzak-eu"
+    ],
+    "updated": [],
+    "scanned": [
+      "juz-silvermoon-eu",
+      "kaijuro-silvermoon-eu",
+      "medvedich-silvermoon-eu",
+      "nanyy-silvermoon-eu",
+      "panharanir-kazzak-eu",
+      "ponziani-kazzak-eu",
+      "slavasalu-silvermoon-eu",
+      "teasick-kazzak-eu"
+    ],
+    "pending": [
       "threataan-silvermoon-eu",
       "valemor-silvermoon-eu",
       "базрог-gordunni-eu",
@@ -210,7 +200,15 @@
       "pwndy-urface-silvermoon-eu",
       "technoihor-silvermoon-eu",
       "vertyxa-silvermoon-eu",
-      "vi-n-silvermoon-eu"
+      "vi-n-silvermoon-eu",
+      "нежнаяпулька-eversong-eu",
+      "нежныилок-eversong-eu",
+      "пандашоманко-eversong-eu",
+      "bloemfontain-silvermoon-eu",
+      "freddiedredd-silvermoon-eu",
+      "gaplik-silvermoon-eu",
+      "hlorygole-silvermoon-eu",
+      "inika-silvermoon-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []
