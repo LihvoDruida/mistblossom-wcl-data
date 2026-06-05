@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-05T12:15:26.720Z",
+  "updatedAt": "2026-06-05T16:06:00.111Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -20,27 +20,6 @@
   },
   "batch": {
     "selected": [
-      "mexamer-silvermoon-eu",
-      "ohhchetos-kazzak-eu",
-      "oxydenis-silvermoon-eu",
-      "plaguenjoyer-silvermoon-eu",
-      "pwndy-urface-silvermoon-eu",
-      "technoihor-silvermoon-eu",
-      "vertyxa-silvermoon-eu",
-      "vi-n-silvermoon-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "mexamer-silvermoon-eu",
-      "ohhchetos-kazzak-eu",
-      "oxydenis-silvermoon-eu",
-      "plaguenjoyer-silvermoon-eu",
-      "pwndy-urface-silvermoon-eu",
-      "technoihor-silvermoon-eu",
-      "vertyxa-silvermoon-eu",
-      "vi-n-silvermoon-eu"
-    ],
-    "pending": [
       "нежнаяпулька-eversong-eu",
       "нежныилок-eversong-eu",
       "пандашоманко-eversong-eu",
@@ -48,7 +27,22 @@
       "freddiedredd-silvermoon-eu",
       "gaplik-silvermoon-eu",
       "hlorygole-silvermoon-eu",
-      "inika-silvermoon-eu",
+      "inika-silvermoon-eu"
+    ],
+    "updated": [
+      "freddiedredd-silvermoon-eu"
+    ],
+    "scanned": [
+      "нежнаяпулька-eversong-eu",
+      "нежныилок-eversong-eu",
+      "пандашоманко-eversong-eu",
+      "bloemfontain-silvermoon-eu",
+      "freddiedredd-silvermoon-eu",
+      "gaplik-silvermoon-eu",
+      "hlorygole-silvermoon-eu",
+      "inika-silvermoon-eu"
+    ],
+    "pending": [
       "juz-silvermoon-eu",
       "kaijuro-silvermoon-eu",
       "medvedich-silvermoon-eu",
@@ -192,7 +186,15 @@
       "hexxoffender-silvermoon-eu",
       "k-silvermoon-eu",
       "kensshi-silvermoon-eu",
-      "kokosik-silvermoon-eu"
+      "kokosik-silvermoon-eu",
+      "mexamer-silvermoon-eu",
+      "ohhchetos-kazzak-eu",
+      "oxydenis-silvermoon-eu",
+      "plaguenjoyer-silvermoon-eu",
+      "pwndy-urface-silvermoon-eu",
+      "technoihor-silvermoon-eu",
+      "vertyxa-silvermoon-eu",
+      "vi-n-silvermoon-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []
@@ -200,8 +202,8 @@
   "roster": {
     "total": 158,
     "withSnapshots": 158,
-    "pending": 142,
-    "skippedFresh": 8,
+    "pending": 134,
+    "skippedFresh": 16,
     "coveragePercent": 100
   },
   "members": [
@@ -875,7 +877,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "monkania-terokkar-eu",
@@ -903,7 +905,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "oxydenis-silvermoon-eu",
@@ -917,7 +919,7 @@
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "plaguenjoyer-silvermoon-eu",
@@ -931,7 +933,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "prayddh-terokkar-eu",
@@ -959,7 +961,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "ragnar-k-burning-legion-eu",
@@ -1071,7 +1073,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "therion-doomhammer-eu",
@@ -1113,7 +1115,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "vi-n-silvermoon-eu",
@@ -1127,7 +1129,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "vurush-turalyon-eu",
@@ -1485,13 +1487,13 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
-      "lastScannedAt": "2026-06-03T04:24:46.368Z",
-      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "lastUpdatedAt": "2026-06-05T16:06:00.111Z",
+      "lastScannedAt": "2026-06-05T16:06:00.111Z",
+      "nextEligibleAt": "2026-06-06T04:06:00.111Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "нежныилок-eversong-eu",
@@ -1499,13 +1501,13 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
-      "lastScannedAt": "2026-06-03T04:24:46.368Z",
-      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "lastUpdatedAt": "2026-06-05T16:06:00.111Z",
+      "lastScannedAt": "2026-06-05T16:06:00.111Z",
+      "nextEligibleAt": "2026-06-06T04:06:00.111Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "пандашоманко-eversong-eu",
@@ -1513,13 +1515,13 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
-      "lastScannedAt": "2026-06-03T04:24:46.368Z",
-      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "lastUpdatedAt": "2026-06-05T16:06:00.111Z",
+      "lastScannedAt": "2026-06-05T16:06:00.111Z",
+      "nextEligibleAt": "2026-06-06T04:06:00.111Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "поливалочки-gordunni-eu",
@@ -1611,13 +1613,13 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
-      "lastScannedAt": "2026-06-03T04:24:46.368Z",
-      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "lastUpdatedAt": "2026-06-05T16:06:00.111Z",
+      "lastScannedAt": "2026-06-05T16:06:00.111Z",
+      "nextEligibleAt": "2026-06-06T04:06:00.111Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "bureviy-doomhammer-eu",
@@ -1681,13 +1683,13 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
-      "lastScannedAt": "2026-06-03T04:24:46.368Z",
-      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
-      "pullsStored": 0,
+      "lastUpdatedAt": "2026-06-05T16:06:00.111Z",
+      "lastScannedAt": "2026-06-05T16:06:00.111Z",
+      "nextEligibleAt": "2026-06-06T04:06:00.111Z",
+      "pullsStored": 8,
       "kills": 0,
-      "wipes": 0,
-      "status": "pending"
+      "wipes": 8,
+      "status": "updated"
     },
     {
       "slug": "gaplik-silvermoon-eu",
@@ -1695,13 +1697,13 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
-      "lastScannedAt": "2026-06-03T04:24:46.368Z",
-      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "lastUpdatedAt": "2026-06-05T16:06:00.111Z",
+      "lastScannedAt": "2026-06-05T16:06:00.111Z",
+      "nextEligibleAt": "2026-06-06T04:06:00.111Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "hlorygole-silvermoon-eu",
@@ -1709,13 +1711,13 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
-      "lastScannedAt": "2026-06-03T04:24:46.368Z",
-      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "lastUpdatedAt": "2026-06-05T16:06:00.111Z",
+      "lastScannedAt": "2026-06-05T16:06:00.111Z",
+      "nextEligibleAt": "2026-06-06T04:06:00.111Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "inika-silvermoon-eu",
@@ -1723,13 +1725,13 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "lastUpdatedAt": "2026-06-03T04:24:46.368Z",
-      "lastScannedAt": "2026-06-03T04:24:46.368Z",
-      "nextEligibleAt": "2026-06-03T16:24:46.368Z",
+      "lastUpdatedAt": "2026-06-05T16:06:00.111Z",
+      "lastScannedAt": "2026-06-05T16:06:00.111Z",
+      "nextEligibleAt": "2026-06-06T04:06:00.111Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "ionax-draenor-eu",
