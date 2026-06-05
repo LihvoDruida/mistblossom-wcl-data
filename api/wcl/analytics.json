@@ -571,94 +571,94 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 24,
-    "updatedWithin12h": 31,
-    "updatedWithin24h": 54,
+    "updatedWithin6h": 8,
+    "updatedWithin12h": 16,
+    "updatedWithin24h": 47,
     "oldestScannedAt": "2026-06-03T04:24:46.368Z",
-    "newestScannedAt": "2026-06-04T21:48:09.358Z",
+    "newestScannedAt": "2026-06-05T08:48:38.672Z",
     "staleMembers": [
-      {
-        "slug": "thortun-silvermoon-eu",
-        "name": "Thortun",
-        "rank": 1,
-        "value": 41.4,
-        "secondary": 0
-      },
       {
         "slug": "булкрит-gordunni-eu",
         "name": "Булкрит",
         "rank": 1,
-        "value": 41.4,
+        "value": 52.41,
         "secondary": 10
       },
       {
         "slug": "мавпита-gordunni-eu",
         "name": "Мавпита",
         "rank": 1,
-        "value": 41.4,
+        "value": 52.41,
         "secondary": 10
       },
       {
         "slug": "мистип-gordunni-eu",
         "name": "Мистип",
         "rank": 1,
-        "value": 41.4,
+        "value": 52.41,
         "secondary": 0
       },
       {
         "slug": "пизнаика-gordunni-eu",
         "name": "Пизнайка",
         "rank": 1,
-        "value": 41.4,
+        "value": 52.41,
         "secondary": 10
       },
       {
         "slug": "тузольд-gordunni-eu",
         "name": "Тузольд",
         "rank": 1,
-        "value": 41.4,
+        "value": 52.41,
         "secondary": 10
       },
       {
         "slug": "шриладо-gordunni-eu",
         "name": "Шриладо",
         "rank": 1,
-        "value": 41.4,
+        "value": 52.41,
         "secondary": 10
       },
       {
-        "slug": "sonechco-silvermoon-eu",
-        "name": "Sonechco",
-        "rank": 2,
-        "value": 41.4,
+        "slug": "mexamer-silvermoon-eu",
+        "name": "Mexamer",
+        "rank": 3,
+        "value": 52.41,
+        "secondary": 0
+      },
+      {
+        "slug": "ohhchetos-kazzak-eu",
+        "name": "Ohhchetos",
+        "rank": 3,
+        "value": 52.41,
+        "secondary": 0
+      },
+      {
+        "slug": "oxydenis-silvermoon-eu",
+        "name": "Oxydenis",
+        "rank": 3,
+        "value": 52.41,
         "secondary": 10
       },
       {
-        "slug": "bernstorff-kazzak-eu",
-        "name": "Bernstorff",
+        "slug": "plaguenjoyer-silvermoon-eu",
+        "name": "Plaguenjoyer",
         "rank": 3,
-        "value": 41.4,
+        "value": 52.41,
         "secondary": 0
       },
       {
-        "slug": "bierdestroer-silvermoon-eu",
-        "name": "Bierdestroer",
+        "slug": "pwndy-urface-silvermoon-eu",
+        "name": "Pwndyøurface",
         "rank": 3,
-        "value": 41.4,
+        "value": 52.41,
         "secondary": 0
       },
       {
-        "slug": "hexxoffender-silvermoon-eu",
-        "name": "Hexxoffender",
+        "slug": "technoihor-silvermoon-eu",
+        "name": "Technoihor",
         "rank": 3,
-        "value": 41.4,
-        "secondary": 0
-      },
-      {
-        "slug": "kensshi-silvermoon-eu",
-        "name": "Kensshi",
-        "rank": 3,
-        "value": 41.4,
+        "value": 52.41,
         "secondary": 0
       }
     ]
