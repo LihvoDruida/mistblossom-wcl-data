@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-06T12:10:18.850Z",
+  "updatedAt": "2026-06-06T14:48:06.648Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 158,
   "selectedMembers": 8,
   "scannedMembers": 8,
-  "changedMembers": 2,
+  "changedMembers": 1,
   "existingSnapshots": 158,
   "reportsScanned": 8,
   "fightsScanned": 8,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "шриладо-gordunni-eu": 0,
-    "душа-blackscar-eu": 0,
-    "кхаарн-lich-king-eu": 8,
-    "марлая-gordunni-eu": 8,
-    "sandora-doomhammer-eu": 0,
-    "бабаияи-eversong-eu": 0,
-    "реила-gordunni-eu": 0,
-    "товстопуз-gordunni-eu": 0
+    "senig-r-ravencrest-eu": 0,
+    "berkinzee-ravencrest-eu": 0,
+    "bullimonk-tarren-mill-eu": 0,
+    "бреинор-galakrond-eu": 0,
+    "скяльди-howling-fjord-eu": 0,
+    "auroliana-ravencrest-eu": 8,
+    "jakeyo-ravencrest-eu": 0,
+    "nwlck-ravencrest-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,30 +36,6 @@
   },
   "batch": {
     "selected": [
-      "шриладо-gordunni-eu",
-      "душа-blackscar-eu",
-      "кхаарн-lich-king-eu",
-      "марлая-gordunni-eu",
-      "sandora-doomhammer-eu",
-      "бабаияи-eversong-eu",
-      "реила-gordunni-eu",
-      "товстопуз-gordunni-eu"
-    ],
-    "updated": [
-      "кхаарн-lich-king-eu",
-      "марлая-gordunni-eu"
-    ],
-    "scanned": [
-      "шриладо-gordunni-eu",
-      "душа-blackscar-eu",
-      "кхаарн-lich-king-eu",
-      "марлая-gordunni-eu",
-      "sandora-doomhammer-eu",
-      "бабаияи-eversong-eu",
-      "реила-gordunni-eu",
-      "товстопуз-gordunni-eu"
-    ],
-    "pending": [
       "senig-r-ravencrest-eu",
       "berkinzee-ravencrest-eu",
       "bullimonk-tarren-mill-eu",
@@ -67,7 +43,22 @@
       "скяльди-howling-fjord-eu",
       "auroliana-ravencrest-eu",
       "jakeyo-ravencrest-eu",
-      "nwlck-ravencrest-eu",
+      "nwlck-ravencrest-eu"
+    ],
+    "updated": [
+      "auroliana-ravencrest-eu"
+    ],
+    "scanned": [
+      "senig-r-ravencrest-eu",
+      "berkinzee-ravencrest-eu",
+      "bullimonk-tarren-mill-eu",
+      "бреинор-galakrond-eu",
+      "скяльди-howling-fjord-eu",
+      "auroliana-ravencrest-eu",
+      "jakeyo-ravencrest-eu",
+      "nwlck-ravencrest-eu"
+    ],
+    "pending": [
       "characternuk-terokkar-eu",
       "zanzithor-tarren-mill-eu",
       "allune-terokkar-eu",
@@ -211,7 +202,15 @@
       "бафометище-eversong-eu",
       "дарадуда-gordunni-eu",
       "корбус-gordunni-eu",
-      "шпаргат-gordunni-eu"
+      "шпаргат-gordunni-eu",
+      "шриладо-gordunni-eu",
+      "душа-blackscar-eu",
+      "кхаарн-lich-king-eu",
+      "марлая-gordunni-eu",
+      "sandora-doomhammer-eu",
+      "бабаияи-eversong-eu",
+      "реила-gordunni-eu",
+      "товстопуз-gordunni-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []

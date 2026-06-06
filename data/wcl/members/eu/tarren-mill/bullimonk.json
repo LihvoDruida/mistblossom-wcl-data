@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 2,
-  "updatedAt": "2026-06-03T14:44:44.528Z",
+  "schemaVersion": 3,
+  "updatedAt": "2026-06-06T14:48:06.648Z",
   "character": {
     "name": "Bullimonk",
     "realmSlug": "tarren-mill",
@@ -20,12 +20,23 @@
     "deathsPerPull": 0,
     "stabilityPercent": 83.8,
     "consistencyPercent": 2.2,
+    "performanceScore": 46.64,
+    "survivalScore": 100,
+    "reliabilityScore": 55.65,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
       "avgHps": 70822.61,
       "avgPrimary": 70822.61,
       "avgDurationMs": 165043,
+      "avgDeaths": 0
+    },
+    "previous3": {
+      "sampleSize": 3,
+      "avgDps": 0,
+      "avgHps": 80453.8,
+      "avgPrimary": 80453.8,
+      "avgDurationMs": 197325,
       "avgDeaths": 0
     },
     "last10": {
@@ -38,6 +49,13 @@
       "minPrimary": 1857.48,
       "maxDurationMs": 247641,
       "minDurationMs": 46267
+    },
+    "trend": {
+      "direction": "down",
+      "recentAvg": 70822.61,
+      "previousAvg": 80453.8,
+      "delta": -9631.19,
+      "deltaPercent": -11.97
     },
     "byRole": {
       "healer": {
@@ -79,7 +97,9 @@
         "dps": 0,
         "hps": 10,
         "unknown": 0
-      }
+      },
+      "confidenceAvg": 0,
+      "matchedPullPercent": 100
     }
   },
   "pulls": [
@@ -723,7 +743,11 @@
   ],
   "source": {
     "reportsScanned": 8,
-    "fightsScanned": 10,
-    "generatedBy": "wcl-github-api"
+    "fightsScanned": 8,
+    "generatedBy": "wcl-github-api",
+    "lastScannedAt": "2026-06-06T14:48:06.648Z",
+    "lastPullAt": "2026-05-03T18:49:42.388Z",
+    "newPullsInLastScan": 0,
+    "scanReason": "scheduled"
   }
 }

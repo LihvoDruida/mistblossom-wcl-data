@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T14:44:44.528Z",
+  "updatedAt": "2026-06-06T14:48:06.648Z",
   "character": {
     "name": "Bullimonk",
     "realmSlug": "tarren-mill",
@@ -743,11 +743,11 @@
   ],
   "source": {
     "reportsScanned": 8,
-    "fightsScanned": 10,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T14:44:44.528Z",
+    "lastScannedAt": "2026-06-06T14:48:06.648Z",
     "lastPullAt": "2026-05-03T18:49:42.388Z",
-    "newPullsInLastScan": 10,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }
