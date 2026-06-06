@@ -10,10 +10,10 @@
     "avgFightDurationMs": 202094,
     "avgRaidDeaths": 16.86,
     "avgTeamDps": 127018.03,
-    "avgTeamHps": 36726.78,
-    "avgPerformanceScore": 18.22,
+    "avgTeamHps": 37140.3,
+    "avgPerformanceScore": 18.19,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 40.98
+    "avgReliabilityScore": 41.11
   },
   "roles": {
     "damage": {
@@ -114,7 +114,7 @@
     "healer": {
       "members": 20,
       "pulls": 110,
-      "avgRecent": 50919.76,
+      "avgRecent": 50545.14,
       "medianRecent": 15202.1,
       "bestRecent": 128223.42,
       "maxLast10": 136940.45,
@@ -128,17 +128,17 @@
           "secondary": 0
         },
         {
-          "slug": "дарадуда-gordunni-eu",
-          "name": "Дарадуда",
-          "rank": 4,
-          "value": 119054.83,
-          "secondary": 0
-        },
-        {
           "slug": "древесная-blackscar-eu",
           "name": "Древесная",
           "rank": 3,
-          "value": 118154.41,
+          "value": 114877.41,
+          "secondary": 0
+        },
+        {
+          "slug": "дарадуда-gordunni-eu",
+          "name": "Дарадуда",
+          "rank": 4,
+          "value": 114839.29,
           "secondary": 0
         },
         {
@@ -322,6 +322,13 @@
         "secondary": 50929.63
       },
       {
+        "slug": "древесная-blackscar-eu",
+        "name": "Древесная",
+        "rank": 3,
+        "value": 77.66,
+        "secondary": 114877.41
+      },
+      {
         "slug": "коксбульдог-howling-fjord-eu",
         "name": "Коксбульдог",
         "rank": 4,
@@ -334,6 +341,13 @@
         "rank": 1,
         "value": 77.02,
         "secondary": 99170.99
+      },
+      {
+        "slug": "дарадуда-gordunni-eu",
+        "name": "Дарадуда",
+        "rank": 4,
+        "value": 76.15,
+        "secondary": 114839.29
       },
       {
         "slug": "khayen-terokkar-eu",
@@ -376,26 +390,12 @@
         "rank": 4,
         "value": 68.93,
         "secondary": 97981.85
-      },
-      {
-        "slug": "древесная-blackscar-eu",
-        "name": "Древесная",
-        "rank": 3,
-        "value": 68.79,
-        "secondary": 118154.41
-      },
-      {
-        "slug": "графдекот-gordunni-eu",
-        "name": "Графдекот",
-        "rank": 3,
-        "value": 68.13,
-        "secondary": 75745.55
       }
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 67.71,
-    "avgConsistencyPercent": 38.61,
+    "avgStabilityPercent": 67.67,
+    "avgConsistencyPercent": 38.67,
     "mostStable": [
       {
         "slug": "yokum-terokkar-eu",
@@ -412,6 +412,13 @@
         "secondary": 91.49
       },
       {
+        "slug": "древесная-blackscar-eu",
+        "name": "Древесная",
+        "rank": 3,
+        "value": 77.66,
+        "secondary": 92.4
+      },
+      {
         "slug": "коксбульдог-howling-fjord-eu",
         "name": "Коксбульдог",
         "rank": 4,
@@ -424,6 +431,13 @@
         "rank": 1,
         "value": 77.02,
         "secondary": 91.83
+      },
+      {
+        "slug": "дарадуда-gordunni-eu",
+        "name": "Дарадуда",
+        "rank": 4,
+        "value": 76.15,
+        "secondary": 84.93
       },
       {
         "slug": "khayen-terokkar-eu",
@@ -466,20 +480,6 @@
         "rank": 4,
         "value": 68.93,
         "secondary": 69.77
-      },
-      {
-        "slug": "древесная-blackscar-eu",
-        "name": "Древесная",
-        "rank": 3,
-        "value": 68.79,
-        "secondary": 91.47
-      },
-      {
-        "slug": "графдекот-gordunni-eu",
-        "name": "Графдекот",
-        "rank": 3,
-        "value": 68.13,
-        "secondary": 70.43
       }
     ],
     "needsAttention": [
@@ -571,95 +571,95 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 8,
-    "updatedWithin12h": 32,
+    "updatedWithin6h": 16,
+    "updatedWithin12h": 24,
     "updatedWithin24h": 56,
-    "oldestScannedAt": "2026-06-03T04:24:46.370Z",
-    "newestScannedAt": "2026-06-06T07:49:54.227Z",
+    "oldestScannedAt": "2026-06-03T04:24:46.372Z",
+    "newestScannedAt": "2026-06-06T10:12:32.293Z",
     "staleMembers": [
-      {
-        "slug": "мавпита-gordunni-eu",
-        "name": "Мавпита",
-        "rank": 1,
-        "value": 75.43,
-        "secondary": 10
-      },
-      {
-        "slug": "мистип-gordunni-eu",
-        "name": "Мистип",
-        "rank": 1,
-        "value": 75.43,
-        "secondary": 0
-      },
       {
         "slug": "шриладо-gordunni-eu",
         "name": "Шриладо",
         "rank": 1,
-        "value": 75.43,
-        "secondary": 10
-      },
-      {
-        "slug": "древесная-blackscar-eu",
-        "name": "Древесная",
-        "rank": 3,
-        "value": 75.43,
+        "value": 77.81,
         "secondary": 10
       },
       {
         "slug": "душа-blackscar-eu",
         "name": "Душа",
         "rank": 3,
-        "value": 75.43,
+        "value": 77.81,
         "secondary": 0
       },
       {
         "slug": "кхаарн-lich-king-eu",
         "name": "Кхаарн",
         "rank": 3,
-        "value": 75.43,
+        "value": 77.81,
         "secondary": 10
       },
       {
         "slug": "марлая-gordunni-eu",
         "name": "Марлая",
         "rank": 3,
-        "value": 75.43,
+        "value": 77.81,
         "secondary": 10
       },
       {
         "slug": "sandora-doomhammer-eu",
         "name": "Sandora",
         "rank": 4,
-        "value": 75.43,
+        "value": 77.81,
         "secondary": 0
-      },
-      {
-        "slug": "адвокатправа-gordunni-eu",
-        "name": "Адвокатправа",
-        "rank": 4,
-        "value": 75.43,
-        "secondary": 10
       },
       {
         "slug": "бабаияи-eversong-eu",
         "name": "Бабайяй",
         "rank": 4,
-        "value": 75.43,
+        "value": 77.81,
         "secondary": 0
       },
       {
-        "slug": "бафометище-eversong-eu",
-        "name": "Бафометище",
+        "slug": "реила-gordunni-eu",
+        "name": "Рейла",
         "rank": 4,
-        "value": 75.43,
+        "value": 77.81,
         "secondary": 0
       },
       {
-        "slug": "дарадуда-gordunni-eu",
-        "name": "Дарадуда",
+        "slug": "товстопуз-gordunni-eu",
+        "name": "Товстопуз",
         "rank": 4,
-        "value": 75.43,
+        "value": 77.81,
+        "secondary": 0
+      },
+      {
+        "slug": "senig-r-ravencrest-eu",
+        "name": "Senigør",
+        "rank": 1,
+        "value": 67.47,
+        "secondary": 0
+      },
+      {
+        "slug": "berkinzee-ravencrest-eu",
+        "name": "Berkinzee",
+        "rank": 3,
+        "value": 67.47,
+        "secondary": 0
+      },
+      {
+        "slug": "bullimonk-tarren-mill-eu",
+        "name": "Bullimonk",
+        "rank": 3,
+        "value": 67.47,
         "secondary": 10
+      },
+      {
+        "slug": "бреинор-galakrond-eu",
+        "name": "Бреинор",
+        "rank": 3,
+        "value": 67.47,
+        "secondary": 0
       }
     ]
   },
@@ -677,7 +677,7 @@
       "avgDurationMs": 173427,
       "avgRaidDeaths": 19.45,
       "avgTeamDps": 335265.66,
-      "avgTeamHps": 193841.6,
+      "avgTeamHps": 216878.33,
       "bestTeamDps": 749803.96,
       "bestTeamHps": 465140.66,
       "lastPullAt": "2026-06-04T19:56:22.399Z"
@@ -731,9 +731,9 @@
       "avgDurationMs": 244211,
       "avgRaidDeaths": 19.65,
       "avgTeamDps": 120443.75,
-      "avgTeamHps": 44244.2,
+      "avgTeamHps": 30054.42,
       "bestTeamDps": 388351.4,
-      "bestTeamHps": 337856.77,
+      "bestTeamHps": 127235.58,
       "lastPullAt": "2026-06-03T18:55:26.254Z"
     },
     {
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 158,
       "withData": 59,
-      "avgPrimaryRecent3": 22292.59,
+      "avgPrimaryRecent3": 22245.17,
       "avgDpsRecent3": 17805.84,
-      "avgHpsRecent3": 5765.83,
+      "avgHpsRecent3": 5718.41,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 40.98
+      "avgReliabilityScore": 41.11
     }
   ]
 }

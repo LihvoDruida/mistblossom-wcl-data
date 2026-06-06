@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.371Z",
+  "updatedAt": "2026-06-06T10:12:32.293Z",
   "character": {
     "name": "Древесная",
     "realmSlug": "blackscar",
@@ -11,63 +11,63 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 1,
-    "wipes": 9,
-    "killRate": 0.1,
-    "wipeRate": 0.9,
+    "kills": 0,
+    "wipes": 10,
+    "killRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 186,
+    "totalRaidDeaths": 195,
     "deathsPerPull": 0,
-    "stabilityPercent": 91.47,
-    "consistencyPercent": 72.85,
-    "performanceScore": 70.52,
+    "stabilityPercent": 92.4,
+    "consistencyPercent": 59.37,
+    "performanceScore": 65.66,
     "survivalScore": 100,
-    "reliabilityScore": 68.79,
+    "reliabilityScore": 77.66,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 118154.41,
-      "avgPrimary": 118154.41,
-      "avgDurationMs": 213419,
+      "avgHps": 114877.41,
+      "avgPrimary": 114877.41,
+      "avgDurationMs": 291246,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 118631.44,
-      "avgPrimary": 118631.44,
-      "avgDurationMs": 200282,
+      "avgHps": 107068.16,
+      "avgPrimary": 107068.16,
+      "avgDurationMs": 233606,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
       "maxDps": 0,
       "minDps": 0,
-      "maxHps": 129175.1,
-      "minHps": 94109.65,
-      "maxPrimary": 129175.1,
-      "minPrimary": 94109.65,
-      "maxDurationMs": 335868,
-      "minDurationMs": 50176
+      "maxHps": 124319.52,
+      "minHps": 73813.23,
+      "maxPrimary": 124319.52,
+      "minPrimary": 73813.23,
+      "maxDurationMs": 407830,
+      "minDurationMs": 108203
     },
     "trend": {
-      "direction": "flat",
-      "recentAvg": 118154.41,
-      "previousAvg": 118631.44,
-      "delta": -477.03,
-      "deltaPercent": -0.4
+      "direction": "up",
+      "recentAvg": 114877.41,
+      "previousAvg": 107068.16,
+      "delta": 7809.25,
+      "deltaPercent": 7.29
     },
     "byRole": {
       "healer": {
         "pulls": 10,
-        "kills": 1,
-        "wipes": 9,
-        "avgRecent": 118154.41,
-        "maxLast10": 129175.1,
-        "minLast10": 94109.65,
+        "kills": 0,
+        "wipes": 10,
+        "avgRecent": 114877.41,
+        "maxLast10": 124319.52,
+        "minLast10": 73813.23,
         "deathsPerPull": 0,
-        "bestPullKey": "8dAPQCWGNMLBjrRg:30:Древесная:blackscar:eu",
-        "worstPullKey": "8dAPQCWGNMLBjrRg:20:Древесная:blackscar:eu"
+        "bestPullKey": "8dAPQCWGNMLBjrRg:32:Древесная:blackscar:eu",
+        "worstPullKey": "J7drK2qY9hFnRyTD:21:Древесная:blackscar:eu"
       },
       "damage": {
         "pulls": 0,
@@ -89,20 +89,1172 @@
       }
     },
     "dataQuality": {
-      "pullsWithMatchedDamage": 9,
+      "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 0,
+      "pullsWithRoleInferred": 8,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 0,
         "hps": 10,
         "unknown": 0
       },
-      "confidenceAvg": 0,
+      "confidenceAvg": 0.77,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "J7drK2qY9hFnRyTD:28:Древесная:blackscar:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=28",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:56:22.399Z",
+      "durationMs": 254690,
+      "bossPercentage": 99.99,
+      "fightPercentage": 99.99,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 489,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 622.47,
+        "hps": 120443.16,
+        "primary": 120443.16,
+        "primaryKind": "hps",
+        "fightDps": 622.47,
+        "fightHps": 120443.16,
+        "activeDps": 4398.21,
+        "activeHps": 121420.48,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 158538,
+        "healingTotal": 30675669,
+        "damageActiveTimeMs": 36046,
+        "healingActiveTimeMs": 252640,
+        "damageTotalTimeMs": 254690,
+        "healingTotalTimeMs": 254690,
+        "damageEntryId": 489,
+        "healingEntryId": 489,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 28,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15936899,
+          "endTime": 16191589,
+          "bossPercentage": 99.99,
+          "fightPercentage": 99.99,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 254690,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 158538,
+              "activeTime": 36046,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 254690,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 30675669,
+              "activeTime": 252640,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 489,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:27:Древесная:blackscar:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=27",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:48:06.865Z",
+      "durationMs": 407830,
+      "bossPercentage": 87.18,
+      "fightPercentage": 87.18,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 489,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1286.63,
+        "hps": 117135.98,
+        "primary": 117135.98,
+        "primaryKind": "hps",
+        "fightDps": 1286.63,
+        "fightHps": 117135.98,
+        "activeDps": 4746.33,
+        "activeHps": 117843.04,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 23
+      },
+      "source": {
+        "damageTotal": 524726,
+        "healingTotal": 47771567,
+        "damageActiveTimeMs": 110554,
+        "healingActiveTimeMs": 405383,
+        "damageTotalTimeMs": 407830,
+        "healingTotalTimeMs": 407830,
+        "damageEntryId": 489,
+        "healingEntryId": 489,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 27,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15441365,
+          "endTime": 15849195,
+          "bossPercentage": 87.18,
+          "fightPercentage": 87.18,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 407830,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 524726,
+              "activeTime": 110554,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 407830,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 47771567,
+              "activeTime": 405383,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 23,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 489,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:26:Древесная:blackscar:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=26",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:43:28.840Z",
+      "durationMs": 211217,
+      "bossPercentage": 44.04,
+      "fightPercentage": 44.04,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 489,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 324.21,
+        "hps": 107053.09,
+        "primary": 107053.09,
+        "primaryKind": "hps",
+        "fightDps": 324.21,
+        "fightHps": 107053.09,
+        "activeDps": 3425.66,
+        "activeHps": 109331.69,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 68479,
+        "healingTotal": 22611433,
+        "damageActiveTimeMs": 19990,
+        "healingActiveTimeMs": 206815,
+        "damageTotalTimeMs": 211217,
+        "healingTotalTimeMs": 211217,
+        "damageEntryId": 489,
+        "healingEntryId": 489,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 26,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15163340,
+          "endTime": 15374557,
+          "bossPercentage": 44.04,
+          "fightPercentage": 44.04,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 211217,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 68479,
+              "activeTime": 19990,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 211217,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 22611433,
+              "activeTime": 206815,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 489,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:24:Древесная:blackscar:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=24",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:34:22.519Z",
+      "durationMs": 225405,
+      "bossPercentage": 48.14,
+      "fightPercentage": 48.14,
+      "averageItemLevel": 287.1499938964844,
+      "actor": {
+        "id": 489,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1055.58,
+        "hps": 100079,
+        "primary": 100079,
+        "primaryKind": "hps",
+        "fightDps": 1055.58,
+        "fightHps": 100079,
+        "activeDps": 8169.37,
+        "activeHps": 116184.11,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 237933,
+        "healingTotal": 22558306,
+        "damageActiveTimeMs": 29125,
+        "healingActiveTimeMs": 194160,
+        "damageTotalTimeMs": 225405,
+        "healingTotalTimeMs": 225405,
+        "damageEntryId": 489,
+        "healingEntryId": 489,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 24,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 14617019,
+          "endTime": 14842424,
+          "bossPercentage": 48.14,
+          "fightPercentage": 48.14,
+          "averageItemLevel": 287.1499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 225405,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 237933,
+              "activeTime": 29125,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 225405,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 22558306,
+              "activeTime": 194160,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 489,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:23:Древесная:blackscar:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=23",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:28:15.407Z",
+      "durationMs": 244539,
+      "bossPercentage": 43.67,
+      "fightPercentage": 43.67,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 489,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 883.94,
+        "hps": 103620.38,
+        "primary": 103620.38,
+        "primaryKind": "hps",
+        "fightDps": 883.94,
+        "fightHps": 103620.38,
+        "activeDps": 6523.92,
+        "activeHps": 107989.15,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 216157,
+        "healingTotal": 25339223,
+        "damageActiveTimeMs": 33133,
+        "healingActiveTimeMs": 234646,
+        "damageTotalTimeMs": 244539,
+        "healingTotalTimeMs": 244539,
+        "damageEntryId": 489,
+        "healingEntryId": 489,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 23,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 14249907,
+          "endTime": 14494446,
+          "bossPercentage": 43.67,
+          "fightPercentage": 43.67,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 244539,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 216157,
+              "activeTime": 33133,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 244539,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 25339223,
+              "activeTime": 234646,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 489,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:22:Древесная:blackscar:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=22",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:22:35.705Z",
+      "durationMs": 230874,
+      "bossPercentage": 45.95,
+      "fightPercentage": 45.95,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 489,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1313.41,
+        "hps": 117505.1,
+        "primary": 117505.1,
+        "primaryKind": "hps",
+        "fightDps": 1313.41,
+        "fightHps": 117505.1,
+        "activeDps": 5827.35,
+        "activeHps": 118325.63,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 303232,
+        "healingTotal": 27128873,
+        "damageActiveTimeMs": 52036,
+        "healingActiveTimeMs": 229273,
+        "damageTotalTimeMs": 230874,
+        "healingTotalTimeMs": 230874,
+        "damageEntryId": 489,
+        "healingEntryId": 489,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 22,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13910205,
+          "endTime": 14141079,
+          "bossPercentage": 45.95,
+          "fightPercentage": 45.95,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 230874,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 303232,
+              "activeTime": 52036,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 230874,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 27128873,
+              "activeTime": 229273,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 489,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:21:Древесная:blackscar:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=21",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:19:49.269Z",
+      "durationMs": 108203,
+      "bossPercentage": 67.25,
+      "fightPercentage": 67.25,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 489,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 784.19,
+        "hps": 73813.23,
+        "primary": 73813.23,
+        "primaryKind": "hps",
+        "fightDps": 784.19,
+        "fightHps": 73813.23,
+        "activeDps": 4712.69,
+        "activeHps": 85233.58,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 84852,
+        "healingTotal": 7986813,
+        "damageActiveTimeMs": 18005,
+        "healingActiveTimeMs": 93705,
+        "damageTotalTimeMs": 108203,
+        "healingTotalTimeMs": 108203,
+        "damageEntryId": 489,
+        "healingEntryId": 489,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 21,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13743769,
+          "endTime": 13851972,
+          "bossPercentage": 67.25,
+          "fightPercentage": 67.25,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 108203,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 84852,
+              "activeTime": 18005,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 108203,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 7986813,
+              "activeTime": 93705,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 489,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:20:Древесная:blackscar:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=20",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:07:41.231Z",
+      "durationMs": 157276,
+      "bossPercentage": 52.9,
+      "fightPercentage": 52.9,
+      "averageItemLevel": 287.1000061035156,
+      "actor": {
+        "id": 489,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1285.34,
+        "hps": 108659.94,
+        "primary": 108659.94,
+        "primaryKind": "hps",
+        "fightDps": 1285.34,
+        "fightHps": 108659.94,
+        "activeDps": 6202.72,
+        "activeHps": 108847.49,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 9
+      },
+      "source": {
+        "damageTotal": 202153,
+        "healingTotal": 17089600,
+        "damageActiveTimeMs": 32591,
+        "healingActiveTimeMs": 157005,
+        "damageTotalTimeMs": 157276,
+        "healingTotalTimeMs": 157276,
+        "damageEntryId": 489,
+        "healingEntryId": 489,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 20,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13015731,
+          "endTime": 13173007,
+          "bossPercentage": 52.9,
+          "fightPercentage": 52.9,
+          "averageItemLevel": 287.1000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 202153,
+              "activeTime": 32591,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:489",
+            "matchedEntry": {
+              "id": 489,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 17089600,
+              "activeTime": 157005,
+              "itemLevel": 288,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 9,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 489,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "8dAPQCWGNMLBjrRg:32:Древесная:blackscar:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
@@ -230,524 +1382,15 @@
         "source": "unknown",
         "confidence": 0
       }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:30:Древесная:blackscar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 30,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=30",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:54:58.059Z",
-      "durationMs": 197829,
-      "bossPercentage": 58.27,
-      "fightPercentage": 58.27,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 170,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 516.55,
-        "hps": 129175.1,
-        "primary": 129175.1,
-        "primaryKind": "hps",
-        "fightDps": 516.55,
-        "fightHps": 129175.1,
-        "activeDps": 516.55,
-        "activeHps": 129175.1,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 102188,
-        "healingTotal": 25554581,
-        "damageActiveTimeMs": 17906,
-        "healingActiveTimeMs": 193572,
-        "damageTotalTimeMs": 197829,
-        "healingTotalTimeMs": 197829,
-        "damageEntryId": 170,
-        "healingEntryId": 170,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:170,healing:actor-id:170"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:29:Древесная:blackscar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 29,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=29",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:48:53.946Z",
-      "durationMs": 222158,
-      "bossPercentage": 56.82,
-      "fightPercentage": 56.82,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 170,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 238.46,
-        "hps": 128802.59,
-        "primary": 128802.59,
-        "primaryKind": "hps",
-        "fightDps": 238.46,
-        "fightHps": 128802.59,
-        "activeDps": 238.46,
-        "activeHps": 128802.59,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 52976,
-        "healingTotal": 28614525,
-        "damageActiveTimeMs": 18015,
-        "healingActiveTimeMs": 213595,
-        "damageTotalTimeMs": 222158,
-        "healingTotalTimeMs": 222158,
-        "damageEntryId": 170,
-        "healingEntryId": 170,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:170,healing:actor-id:170"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:28:Древесная:blackscar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:38:12.252Z",
-      "durationMs": 209169,
-      "bossPercentage": 58.86,
-      "fightPercentage": 58.86,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 170,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 1120.72,
-        "hps": 128092.17,
-        "primary": 128092.17,
-        "primaryKind": "hps",
-        "fightDps": 1120.72,
-        "fightHps": 128092.17,
-        "activeDps": 1120.72,
-        "activeHps": 128092.17,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 234420,
-        "healingTotal": 26792912,
-        "damageActiveTimeMs": 35381,
-        "healingActiveTimeMs": 203250,
-        "damageTotalTimeMs": 209169,
-        "healingTotalTimeMs": 209169,
-        "damageEntryId": 170,
-        "healingEntryId": 170,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:170,healing:actor-id:170"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:27:Древесная:blackscar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:29:44.846Z",
-      "durationMs": 169519,
-      "bossPercentage": 62.33,
-      "fightPercentage": 62.33,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 170,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 873.83,
-        "hps": 98999.57,
-        "primary": 98999.57,
-        "primaryKind": "hps",
-        "fightDps": 873.83,
-        "fightHps": 98999.57,
-        "activeDps": 873.83,
-        "activeHps": 98999.57,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 148131,
-        "healingTotal": 16782308,
-        "damageActiveTimeMs": 17544,
-        "healingActiveTimeMs": 158736,
-        "damageTotalTimeMs": 169519,
-        "healingTotalTimeMs": 169519,
-        "damageEntryId": 170,
-        "healingEntryId": 170,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:170,healing:actor-id:170"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:26:Древесная:blackscar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:27:07.695Z",
-      "durationMs": 50885,
-      "bossPercentage": 80.53,
-      "fightPercentage": 80.53,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 170,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 0,
-        "hps": 101441.64,
-        "primary": 101441.64,
-        "primaryKind": "hps",
-        "fightDps": 0,
-        "fightHps": 101441.64,
-        "activeDps": 0,
-        "activeHps": 101441.64,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 5161858,
-        "healingActiveTimeMs": 49755,
-        "damageTotalTimeMs": 50885,
-        "healingTotalTimeMs": 50885,
-        "healingEntryId": 170,
-        "healingItemLevel": 287,
-        "matchedBy": "healing:actor-id:170"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:25:Древесная:blackscar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:23:53.731Z",
-      "durationMs": 50176,
-      "bossPercentage": 79.76,
-      "fightPercentage": 79.76,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 170,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 88.97,
-        "hps": 95923.95,
-        "primary": 95923.95,
-        "primaryKind": "hps",
-        "fightDps": 88.97,
-        "fightHps": 95923.95,
-        "activeDps": 88.97,
-        "activeHps": 95923.95,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 4464,
-        "healingTotal": 4813080,
-        "damageActiveTimeMs": 1519,
-        "healingActiveTimeMs": 49656,
-        "damageTotalTimeMs": 50176,
-        "healingTotalTimeMs": 50176,
-        "damageEntryId": 170,
-        "healingEntryId": 170,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:170,healing:actor-id:170"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:21:Древесная:blackscar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
-      "status": "KILL",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:04:24.189Z",
-      "durationMs": 335868,
-      "bossPercentage": 0.01,
-      "fightPercentage": 0.01,
-      "averageItemLevel": 284.8500061035156,
-      "actor": {
-        "id": 170,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 901.14,
-        "hps": 101154.78,
-        "primary": 101154.78,
-        "primaryKind": "hps",
-        "fightDps": 901.14,
-        "fightHps": 101154.78,
-        "activeDps": 901.14,
-        "activeHps": 101154.78,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 3
-      },
-      "source": {
-        "damageTotal": 302665,
-        "healingTotal": 33974653,
-        "damageActiveTimeMs": 51804,
-        "healingActiveTimeMs": 335357,
-        "damageTotalTimeMs": 335868,
-        "healingTotalTimeMs": 335868,
-        "damageEntryId": 170,
-        "healingEntryId": 170,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:170,healing:actor-id:170"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:20:Древесная:blackscar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T18:57:55.893Z",
-      "durationMs": 285958,
-      "bossPercentage": 27.56,
-      "fightPercentage": 27.56,
-      "averageItemLevel": 284.8500061035156,
-      "actor": {
-        "id": 170,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 1572.97,
-        "hps": 94109.65,
-        "primary": 94109.65,
-        "primaryKind": "hps",
-        "fightDps": 1572.97,
-        "fightHps": 94109.65,
-        "activeDps": 1572.97,
-        "activeHps": 94109.65,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 449803,
-        "healingTotal": 26911407,
-        "damageActiveTimeMs": 77764,
-        "healingActiveTimeMs": 285094,
-        "damageTotalTimeMs": 285958,
-        "healingTotalTimeMs": 285958,
-        "damageEntryId": 170,
-        "healingEntryId": 170,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:170,healing:actor-id:170"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.371Z",
-    "lastPullAt": "2026-05-29T20:06:06.764Z",
-    "newPullsInLastScan": 10,
+    "lastScannedAt": "2026-06-06T10:12:32.293Z",
+    "lastPullAt": "2026-06-04T19:56:22.399Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }
