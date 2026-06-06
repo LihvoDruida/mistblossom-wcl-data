@@ -28,13 +28,6 @@
     "secondary": 0
   },
   {
-    "slug": "марлая-gordunni-eu",
-    "name": "Марлая",
-    "rank": 3,
-    "value": 54.29,
-    "secondary": 0
-  },
-  {
     "slug": "yokuha-terokkar-eu",
     "name": "Yokuha",
     "rank": 3,
@@ -81,6 +74,13 @@
     "name": "Pyatochka",
     "rank": 4,
     "value": 48.47,
+    "secondary": 0
+  },
+  {
+    "slug": "галазард-eversong-eu",
+    "name": "Галазард",
+    "rank": 3,
+    "value": 48.24,
     "secondary": 0
   }
 ]

@@ -235,7 +235,7 @@
     "pullsStored": 10,
     "kills": 1,
     "wipes": 9,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "мистип-gordunni-eu",
@@ -249,7 +249,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "пизнаика-gordunni-eu",
@@ -263,7 +263,7 @@
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "тузольд-gordunni-eu",
@@ -277,7 +277,7 @@
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "шриладо-gordunni-eu",
@@ -285,13 +285,13 @@
     "realmSlug": "gordunni",
     "region": "eu",
     "rank": 1,
-    "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
-    "lastScannedAt": "2026-06-03T04:24:46.372Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.372Z",
+    "lastUpdatedAt": "2026-06-06T12:10:18.850Z",
+    "lastScannedAt": "2026-06-06T12:10:18.850Z",
+    "nextEligibleAt": "2026-06-07T00:10:18.850Z",
     "pullsStored": 10,
     "kills": 1,
     "wipes": 9,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "molfar-terokkar-eu",
@@ -977,7 +977,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "амарак-gordunni-eu",
@@ -1019,7 +1019,7 @@
     "pullsStored": 5,
     "kills": 1,
     "wipes": 4,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "графдекот-gordunni-eu",
@@ -1061,7 +1061,7 @@
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "updated"
+    "status": "fresh"
   },
   {
     "slug": "душа-blackscar-eu",
@@ -1069,13 +1069,13 @@
     "realmSlug": "blackscar",
     "region": "eu",
     "rank": 3,
-    "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
-    "lastScannedAt": "2026-06-03T04:24:46.372Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.372Z",
+    "lastUpdatedAt": "2026-06-06T12:10:18.850Z",
+    "lastScannedAt": "2026-06-06T12:10:18.850Z",
+    "nextEligibleAt": "2026-06-07T00:10:18.850Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "дятелэлуны-soulflayer-eu",
@@ -1131,7 +1131,7 @@
     "pullsStored": 10,
     "kills": 2,
     "wipes": 8,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "кибароу-soulflayer-eu",
@@ -1145,7 +1145,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "клеосса-eversong-eu",
@@ -1209,13 +1209,13 @@
     "realmSlug": "lich-king",
     "region": "eu",
     "rank": 3,
-    "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
-    "lastScannedAt": "2026-06-03T04:24:46.372Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.372Z",
+    "lastUpdatedAt": "2026-06-06T12:10:18.850Z",
+    "lastScannedAt": "2026-06-06T12:10:18.850Z",
+    "nextEligibleAt": "2026-06-07T00:10:18.850Z",
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "pending"
+    "status": "updated"
   },
   {
     "slug": "лилая-grom-eu",
@@ -1237,13 +1237,13 @@
     "realmSlug": "gordunni",
     "region": "eu",
     "rank": 3,
-    "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
-    "lastScannedAt": "2026-06-03T04:24:46.372Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.372Z",
+    "lastUpdatedAt": "2026-06-06T12:10:18.850Z",
+    "lastScannedAt": "2026-06-06T12:10:18.850Z",
+    "nextEligibleAt": "2026-06-07T00:10:18.850Z",
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "pending"
+    "status": "updated"
   },
   {
     "slug": "мелиодас-gordunni-eu",
@@ -1271,7 +1271,7 @@
     "pullsStored": 10,
     "kills": 1,
     "wipes": 9,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "нежнаяпулька-eversong-eu",
@@ -1811,13 +1811,13 @@
     "realmSlug": "doomhammer",
     "region": "eu",
     "rank": 4,
-    "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
-    "lastScannedAt": "2026-06-03T04:24:46.372Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.372Z",
+    "lastUpdatedAt": "2026-06-06T12:10:18.850Z",
+    "lastScannedAt": "2026-06-06T12:10:18.850Z",
+    "nextEligibleAt": "2026-06-07T00:10:18.850Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "sangvyn-tarren-mill-eu",
@@ -2041,7 +2041,7 @@
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "бабаияи-eversong-eu",
@@ -2049,13 +2049,13 @@
     "realmSlug": "eversong",
     "region": "eu",
     "rank": 4,
-    "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
-    "lastScannedAt": "2026-06-03T04:24:46.372Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.372Z",
+    "lastUpdatedAt": "2026-06-06T12:10:18.850Z",
+    "lastScannedAt": "2026-06-06T12:10:18.850Z",
+    "nextEligibleAt": "2026-06-07T00:10:18.850Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "базрог-gordunni-eu",
@@ -2083,7 +2083,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "дарадуда-gordunni-eu",
@@ -2097,7 +2097,7 @@
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "updated"
+    "status": "fresh"
   },
   {
     "slug": "коксбульдог-howling-fjord-eu",
@@ -2125,7 +2125,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "монэлушка-gordunni-eu",
@@ -2139,7 +2139,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "реила-gordunni-eu",
@@ -2147,13 +2147,13 @@
     "realmSlug": "gordunni",
     "region": "eu",
     "rank": 4,
-    "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
-    "lastScannedAt": "2026-06-03T04:24:46.372Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.372Z",
+    "lastUpdatedAt": "2026-06-06T12:10:18.850Z",
+    "lastScannedAt": "2026-06-06T12:10:18.850Z",
+    "nextEligibleAt": "2026-06-07T00:10:18.850Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "рокталл-soulflayer-eu",
@@ -2189,13 +2189,13 @@
     "realmSlug": "gordunni",
     "region": "eu",
     "rank": 4,
-    "lastUpdatedAt": "2026-06-03T04:24:46.372Z",
-    "lastScannedAt": "2026-06-03T04:24:46.372Z",
-    "nextEligibleAt": "2026-06-03T16:24:46.372Z",
+    "lastUpdatedAt": "2026-06-06T12:10:18.850Z",
+    "lastScannedAt": "2026-06-06T12:10:18.850Z",
+    "nextEligibleAt": "2026-06-07T00:10:18.850Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "шпаргат-gordunni-eu",
@@ -2209,6 +2209,6 @@
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "scanned"
+    "status": "fresh"
   }
 ]

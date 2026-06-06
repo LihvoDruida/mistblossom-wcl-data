@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T04:24:46.372Z",
+  "updatedAt": "2026-06-06T12:10:18.850Z",
   "character": {
     "name": "Кхаарн",
     "realmSlug": "lich-king",
@@ -16,46 +16,46 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 216,
+    "totalRaidDeaths": 198,
     "deathsPerPull": 0,
-    "stabilityPercent": 90.65,
-    "consistencyPercent": 85.97,
-    "performanceScore": 71.35,
+    "stabilityPercent": 86.1,
+    "consistencyPercent": 66.75,
+    "performanceScore": 64.04,
     "survivalScore": 100,
-    "reliabilityScore": 69.24,
+    "reliabilityScore": 76.32,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 47495.17,
+      "avgDps": 42980.74,
       "avgHps": 0,
-      "avgPrimary": 47495.17,
-      "avgDurationMs": 353689,
+      "avgPrimary": 42980.74,
+      "avgDurationMs": 291246,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 49939.58,
+      "avgDps": 35129.81,
       "avgHps": 0,
-      "avgPrimary": 49939.58,
-      "avgDurationMs": 350883,
+      "avgPrimary": 35129.81,
+      "avgDurationMs": 233606,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 52396,
-      "minDps": 45044.76,
+      "maxDps": 49916.97,
+      "minDps": 33318.98,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 52396,
-      "minPrimary": 45044.76,
-      "maxDurationMs": 376490,
-      "minDurationMs": 234569
+      "maxPrimary": 49916.97,
+      "minPrimary": 33318.98,
+      "maxDurationMs": 407830,
+      "minDurationMs": 108203
     },
     "trend": {
-      "direction": "flat",
-      "recentAvg": 47495.17,
-      "previousAvg": 49939.58,
-      "delta": -2444.41,
-      "deltaPercent": -4.89
+      "direction": "up",
+      "recentAvg": 42980.74,
+      "previousAvg": 35129.81,
+      "delta": 7850.93,
+      "deltaPercent": 22.35
     },
     "byRole": {
       "healer": {
@@ -71,12 +71,12 @@
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 47495.17,
-        "maxLast10": 52396,
-        "minLast10": 45044.76,
+        "avgRecent": 42980.74,
+        "maxLast10": 49916.97,
+        "minLast10": 33318.98,
         "deathsPerPull": 0,
-        "bestPullKey": "v9g64fGF7BZNXJx3:17:Кхаарн:lich-king:eu",
-        "worstPullKey": "xMVazpchm1G7LHCB:17:Кхаарн:lich-king:eu"
+        "bestPullKey": "J7drK2qY9hFnRyTD:20:Кхаарн:lich-king:eu",
+        "worstPullKey": "J7drK2qY9hFnRyTD:24:Кхаарн:lich-king:eu"
       },
       "unknown": {
         "pulls": 0,
@@ -91,18 +91,1170 @@
     "dataQuality": {
       "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 0,
+      "pullsWithRoleInferred": 8,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
         "unknown": 0
       },
-      "confidenceAvg": 0,
+      "confidenceAvg": 0.74,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "J7drK2qY9hFnRyTD:28:Кхаарн:lich-king:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=28",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:56:22.399Z",
+      "durationMs": 254690,
+      "bossPercentage": 99.99,
+      "fightPercentage": 99.99,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 356,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 36559.02,
+        "hps": 9901.9,
+        "primary": 36559.02,
+        "primaryKind": "dps",
+        "fightDps": 36559.02,
+        "fightHps": 9901.9,
+        "activeDps": 39018.5,
+        "activeHps": 11358.69,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 9311218,
+        "healingTotal": 2521914,
+        "damageActiveTimeMs": 238636,
+        "healingActiveTimeMs": 222025,
+        "damageTotalTimeMs": 254690,
+        "healingTotalTimeMs": 254690,
+        "damageEntryId": 356,
+        "healingEntryId": 356,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:356,healing:actor-id:356"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 28,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15936899,
+          "endTime": 16191589,
+          "bossPercentage": 99.99,
+          "fightPercentage": 99.99,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 254690,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 9311218,
+              "activeTime": 238636,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 254690,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 2521914,
+              "activeTime": 222025,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 356,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:27:Кхаарн:lich-king:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=27",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:48:06.865Z",
+      "durationMs": 407830,
+      "bossPercentage": 87.18,
+      "fightPercentage": 87.18,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 356,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 49814.25,
+        "hps": 13335.84,
+        "primary": 49814.25,
+        "primaryKind": "dps",
+        "fightDps": 49814.25,
+        "fightHps": 13335.84,
+        "activeDps": 50082.45,
+        "activeHps": 14262.48,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 23
+      },
+      "source": {
+        "damageTotal": 20315745,
+        "healingTotal": 5438756,
+        "damageActiveTimeMs": 405646,
+        "healingActiveTimeMs": 381333,
+        "damageTotalTimeMs": 407830,
+        "healingTotalTimeMs": 407830,
+        "damageEntryId": 356,
+        "healingEntryId": 356,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:356,healing:actor-id:356"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 27,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15441365,
+          "endTime": 15849195,
+          "bossPercentage": 87.18,
+          "fightPercentage": 87.18,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 407830,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 20315745,
+              "activeTime": 405646,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 407830,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 5438756,
+              "activeTime": 381333,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 23,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 356,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:26:Кхаарн:lich-king:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=26",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:43:28.840Z",
+      "durationMs": 211217,
+      "bossPercentage": 44.04,
+      "fightPercentage": 44.04,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 356,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 42568.96,
+        "hps": 9677.91,
+        "primary": 42568.96,
+        "primaryKind": "dps",
+        "fightDps": 42568.96,
+        "fightHps": 9677.91,
+        "activeDps": 42888.37,
+        "activeHps": 11104.45,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 8991289,
+        "healingTotal": 2044140,
+        "damageActiveTimeMs": 209644,
+        "healingActiveTimeMs": 184083,
+        "damageTotalTimeMs": 211217,
+        "healingTotalTimeMs": 211217,
+        "damageEntryId": 356,
+        "healingEntryId": 356,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:356,healing:actor-id:356"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 26,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 15163340,
+          "endTime": 15374557,
+          "bossPercentage": 44.04,
+          "fightPercentage": 44.04,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 211217,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 8991289,
+              "activeTime": 209644,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 211217,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 2044140,
+              "activeTime": 184083,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 356,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:24:Кхаарн:lich-king:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 24,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=24",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:34:22.519Z",
+      "durationMs": 225405,
+      "bossPercentage": 48.14,
+      "fightPercentage": 48.14,
+      "averageItemLevel": 287.1499938964844,
+      "actor": {
+        "id": 356,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 33318.98,
+        "hps": 7261.69,
+        "primary": 33318.98,
+        "primaryKind": "dps",
+        "fightDps": 33318.98,
+        "fightHps": 7261.69,
+        "activeDps": 34038.08,
+        "activeHps": 7964.79,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 7510264,
+        "healingTotal": 1636821,
+        "damageActiveTimeMs": 220643,
+        "healingActiveTimeMs": 205507,
+        "damageTotalTimeMs": 225405,
+        "healingTotalTimeMs": 225405,
+        "damageEntryId": 356,
+        "healingEntryId": 356,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:356,healing:actor-id:356"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 24,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 14617019,
+          "endTime": 14842424,
+          "bossPercentage": 48.14,
+          "fightPercentage": 48.14,
+          "averageItemLevel": 287.1499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 225405,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 7510264,
+              "activeTime": 220643,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 225405,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 1636821,
+              "activeTime": 205507,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 356,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:23:Кхаарн:lich-king:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 23,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=23",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:28:15.407Z",
+      "durationMs": 244539,
+      "bossPercentage": 43.67,
+      "fightPercentage": 43.67,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 356,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 33816.41,
+        "hps": 7370.24,
+        "primary": 33816.41,
+        "primaryKind": "dps",
+        "fightDps": 33816.41,
+        "fightHps": 7370.24,
+        "activeDps": 39441.91,
+        "activeHps": 8662.2,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8269431,
+        "healingTotal": 1802310,
+        "damageActiveTimeMs": 209661,
+        "healingActiveTimeMs": 208066,
+        "damageTotalTimeMs": 244539,
+        "healingTotalTimeMs": 244539,
+        "damageEntryId": 356,
+        "healingEntryId": 356,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:356,healing:actor-id:356"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 23,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 14249907,
+          "endTime": 14494446,
+          "bossPercentage": 43.67,
+          "fightPercentage": 43.67,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 244539,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 8269431,
+              "activeTime": 209661,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 244539,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 1802310,
+              "activeTime": 208066,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 356,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:22:Кхаарн:lich-king:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 22,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=22",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:22:35.705Z",
+      "durationMs": 230874,
+      "bossPercentage": 45.95,
+      "fightPercentage": 45.95,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 356,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 38254.03,
+        "hps": 13098.96,
+        "primary": 38254.03,
+        "primaryKind": "dps",
+        "fightDps": 38254.03,
+        "fightHps": 13098.96,
+        "activeDps": 38377.37,
+        "activeHps": 13740.35,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8831861,
+        "healingTotal": 3024209,
+        "damageActiveTimeMs": 230132,
+        "healingActiveTimeMs": 220097,
+        "damageTotalTimeMs": 230874,
+        "healingTotalTimeMs": 230874,
+        "damageEntryId": 356,
+        "healingEntryId": 356,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:356,healing:actor-id:356"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 22,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13910205,
+          "endTime": 14141079,
+          "bossPercentage": 45.95,
+          "fightPercentage": 45.95,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 230874,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 8831861,
+              "activeTime": 230132,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 230874,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 3024209,
+              "activeTime": 220097,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 356,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:21:Кхаарн:lich-king:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=21",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:19:49.269Z",
+      "durationMs": 108203,
+      "bossPercentage": 67.25,
+      "fightPercentage": 67.25,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 356,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 33334.06,
+        "hps": 6204.32,
+        "primary": 33334.06,
+        "primaryKind": "dps",
+        "fightDps": 33334.06,
+        "fightHps": 6204.32,
+        "activeDps": 46677.86,
+        "activeHps": 8215.46,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 3606845,
+        "healingTotal": 671326,
+        "damageActiveTimeMs": 77271,
+        "healingActiveTimeMs": 81715,
+        "damageTotalTimeMs": 108203,
+        "healingTotalTimeMs": 108203,
+        "damageEntryId": 356,
+        "healingEntryId": 356,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:356,healing:actor-id:356"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 21,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13743769,
+          "endTime": 13851972,
+          "bossPercentage": 67.25,
+          "fightPercentage": 67.25,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 108203,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 3606845,
+              "activeTime": 77271,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 108203,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 671326,
+              "activeTime": 81715,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 356,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "J7drK2qY9hFnRyTD:20:Кхаарн:lich-king:eu",
+      "reportCode": "J7drK2qY9hFnRyTD",
+      "reportTitle": "Mythic+ Season 1",
+      "reportStartedAt": "2026-06-04T15:30:45.500Z",
+      "reportEndedAt": "2026-06-04T20:04:36.742Z",
+      "zone": {
+        "id": 47,
+        "name": "Mythic+ Season 1"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=20",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-04T19:07:41.231Z",
+      "durationMs": 157276,
+      "bossPercentage": 52.9,
+      "fightPercentage": 52.9,
+      "averageItemLevel": 287.1000061035156,
+      "actor": {
+        "id": 356,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 49916.97,
+        "hps": 20194.69,
+        "primary": 49916.97,
+        "primaryKind": "dps",
+        "fightDps": 49916.97,
+        "fightHps": 20194.69,
+        "activeDps": 50194.31,
+        "activeHps": 20641.31,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 9
+      },
+      "source": {
+        "damageTotal": 7850742,
+        "healingTotal": 3176140,
+        "damageActiveTimeMs": 156407,
+        "healingActiveTimeMs": 153873,
+        "damageTotalTimeMs": 157276,
+        "healingTotalTimeMs": 157276,
+        "damageEntryId": 356,
+        "healingEntryId": 356,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:356,healing:actor-id:356"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "J7drK2qY9hFnRyTD",
+          "title": "Mythic+ Season 1",
+          "startTime": 1780587045500,
+          "endTime": 1780603476742
+        },
+        "fight": {
+          "id": 20,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 13015731,
+          "endTime": 13173007,
+          "bossPercentage": 52.9,
+          "fightPercentage": 52.9,
+          "averageItemLevel": 287.1000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 7850742,
+              "activeTime": 156407,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 157276,
+            "matchedBy": "actor-id:356",
+            "matchedEntry": {
+              "id": 356,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 3176140,
+              "activeTime": 153873,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 9,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 356,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "xMVazpchm1G7LHCB:17:Кхаарн:lich-king:eu",
       "reportCode": "xMVazpchm1G7LHCB",
@@ -230,527 +1382,15 @@
         "source": "unknown",
         "confidence": 0
       }
-    },
-    {
-      "key": "xMVazpchm1G7LHCB:16:Кхаарн:lich-king:eu",
-      "reportCode": "xMVazpchm1G7LHCB",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 16,
-      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=16",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T19:27:38.924Z",
-      "durationMs": 355563,
-      "bossPercentage": 20.42,
-      "fightPercentage": 20.42,
-      "averageItemLevel": 285.1000061035156,
-      "actor": {
-        "id": 6,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "metric": {
-        "dps": 52396,
-        "hps": 19288.87,
-        "primary": 52396,
-        "primaryKind": "dps",
-        "fightDps": 52396,
-        "fightHps": 19288.87,
-        "activeDps": 52396,
-        "activeHps": 19288.87,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 18630078,
-        "healingTotal": 6858410,
-        "damageActiveTimeMs": 353377,
-        "healingActiveTimeMs": 342059,
-        "damageTotalTimeMs": 355563,
-        "healingTotalTimeMs": 355563,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "v9g64fGF7BZNXJx3:17:Кхаарн:lich-king:eu",
-      "reportCode": "v9g64fGF7BZNXJx3",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 17,
-      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=17",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T19:27:38.924Z",
-      "durationMs": 355563,
-      "bossPercentage": 20.42,
-      "fightPercentage": 20.42,
-      "averageItemLevel": 285.1000061035156,
-      "actor": {
-        "id": 14,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "metric": {
-        "dps": 52396,
-        "hps": 19288.87,
-        "primary": 52396,
-        "primaryKind": "dps",
-        "fightDps": 52396,
-        "fightHps": 19288.87,
-        "activeDps": 52396,
-        "activeHps": 19288.87,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 18630078,
-        "healingTotal": 6858410,
-        "damageActiveTimeMs": 353377,
-        "healingActiveTimeMs": 342059,
-        "damageTotalTimeMs": 355563,
-        "healingTotalTimeMs": 355563,
-        "damageEntryId": 14,
-        "healingEntryId": 14,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "xMVazpchm1G7LHCB:15:Кхаарн:lich-king:eu",
-      "reportCode": "xMVazpchm1G7LHCB",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 15,
-      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=15",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T19:16:20.906Z",
-      "durationMs": 348543,
-      "bossPercentage": 21.33,
-      "fightPercentage": 21.33,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 6,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "metric": {
-        "dps": 48711.37,
-        "hps": 18505.07,
-        "primary": 48711.37,
-        "primaryKind": "dps",
-        "fightDps": 48711.37,
-        "fightHps": 18505.07,
-        "activeDps": 48711.37,
-        "activeHps": 18505.07,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 16978008,
-        "healingTotal": 6449812,
-        "damageActiveTimeMs": 346385,
-        "healingActiveTimeMs": 334116,
-        "damageTotalTimeMs": 348543,
-        "healingTotalTimeMs": 348543,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "v9g64fGF7BZNXJx3:16:Кхаарн:lich-king:eu",
-      "reportCode": "v9g64fGF7BZNXJx3",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 16,
-      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=16",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T19:16:20.906Z",
-      "durationMs": 348543,
-      "bossPercentage": 21.33,
-      "fightPercentage": 21.33,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 14,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "metric": {
-        "dps": 48711.37,
-        "hps": 18505.07,
-        "primary": 48711.37,
-        "primaryKind": "dps",
-        "fightDps": 48711.37,
-        "fightHps": 18505.07,
-        "activeDps": 48711.37,
-        "activeHps": 18505.07,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 16978008,
-        "healingTotal": 6449812,
-        "damageActiveTimeMs": 346385,
-        "healingActiveTimeMs": 334116,
-        "damageTotalTimeMs": 348543,
-        "healingTotalTimeMs": 348543,
-        "damageEntryId": 14,
-        "healingEntryId": 14,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "xMVazpchm1G7LHCB:14:Кхаарн:lich-king:eu",
-      "reportCode": "xMVazpchm1G7LHCB",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 14,
-      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=14",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T19:03:06.334Z",
-      "durationMs": 234569,
-      "bossPercentage": 41.03,
-      "fightPercentage": 41.03,
-      "averageItemLevel": 284.8999938964844,
-      "actor": {
-        "id": 6,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "metric": {
-        "dps": 47848.94,
-        "hps": 17305.51,
-        "primary": 47848.94,
-        "primaryKind": "dps",
-        "fightDps": 47848.94,
-        "fightHps": 17305.51,
-        "activeDps": 47848.94,
-        "activeHps": 17305.51,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 23
-      },
-      "source": {
-        "damageTotal": 11223878,
-        "healingTotal": 4059337,
-        "damageActiveTimeMs": 230605,
-        "healingActiveTimeMs": 216221,
-        "damageTotalTimeMs": 234569,
-        "healingTotalTimeMs": 234569,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "v9g64fGF7BZNXJx3:15:Кхаарн:lich-king:eu",
-      "reportCode": "v9g64fGF7BZNXJx3",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 15,
-      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=15",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T19:03:06.334Z",
-      "durationMs": 234569,
-      "bossPercentage": 41.03,
-      "fightPercentage": 41.03,
-      "averageItemLevel": 284.8999938964844,
-      "actor": {
-        "id": 14,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "metric": {
-        "dps": 47848.94,
-        "hps": 17305.51,
-        "primary": 47848.94,
-        "primaryKind": "dps",
-        "fightDps": 47848.94,
-        "fightHps": 17305.51,
-        "activeDps": 47848.94,
-        "activeHps": 17305.51,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 23
-      },
-      "source": {
-        "damageTotal": 11223878,
-        "healingTotal": 4059337,
-        "damageActiveTimeMs": 230605,
-        "healingActiveTimeMs": 216221,
-        "damageTotalTimeMs": 234569,
-        "healingTotalTimeMs": 234569,
-        "damageEntryId": 14,
-        "healingEntryId": 14,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "xMVazpchm1G7LHCB:13:Кхаарн:lich-king:eu",
-      "reportCode": "xMVazpchm1G7LHCB",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 13,
-      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=13",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T18:43:34.534Z",
-      "durationMs": 376490,
-      "bossPercentage": 19.35,
-      "fightPercentage": 19.35,
-      "averageItemLevel": 284.95001220703125,
-      "actor": {
-        "id": 6,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "metric": {
-        "dps": 47922.75,
-        "hps": 16312.61,
-        "primary": 47922.75,
-        "primaryKind": "dps",
-        "fightDps": 47922.75,
-        "fightHps": 16312.61,
-        "activeDps": 47922.75,
-        "activeHps": 16312.61,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 18042438,
-        "healingTotal": 6141534,
-        "damageActiveTimeMs": 371809,
-        "healingActiveTimeMs": 359324,
-        "damageTotalTimeMs": 376490,
-        "healingTotalTimeMs": 376490,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "v9g64fGF7BZNXJx3:14:Кхаарн:lich-king:eu",
-      "reportCode": "v9g64fGF7BZNXJx3",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 14,
-      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=14",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T18:43:34.534Z",
-      "durationMs": 376490,
-      "bossPercentage": 19.35,
-      "fightPercentage": 19.35,
-      "averageItemLevel": 284.95001220703125,
-      "actor": {
-        "id": 14,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "metric": {
-        "dps": 47922.75,
-        "hps": 16312.61,
-        "primary": 47922.75,
-        "primaryKind": "dps",
-        "fightDps": 47922.75,
-        "fightHps": 16312.61,
-        "activeDps": 47922.75,
-        "activeHps": 16312.61,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 18042438,
-        "healingTotal": 6141534,
-        "damageActiveTimeMs": 371809,
-        "healingActiveTimeMs": 359324,
-        "damageTotalTimeMs": 376490,
-        "healingTotalTimeMs": 376490,
-        "damageEntryId": 14,
-        "healingEntryId": 14,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
-    "reportsScanned": 24,
-    "fightsScanned": 309,
+    "reportsScanned": 8,
+    "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T04:24:46.372Z",
-    "lastPullAt": "2026-05-28T19:35:31.820Z",
-    "newPullsInLastScan": 10,
+    "lastScannedAt": "2026-06-06T12:10:18.850Z",
+    "lastPullAt": "2026-06-04T19:56:22.399Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }

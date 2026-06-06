@@ -3,24 +3,24 @@
     "members": 158,
     "membersWithData": 59,
     "pullsStored": 569,
-    "distinctFights": 222,
+    "distinctFights": 220,
     "kills": 25,
-    "wipes": 197,
-    "killRate": 0.1126,
-    "avgFightDurationMs": 202094,
-    "avgRaidDeaths": 16.86,
-    "avgTeamDps": 127018.03,
-    "avgTeamHps": 37140.3,
-    "avgPerformanceScore": 18.19,
+    "wipes": 195,
+    "killRate": 0.1136,
+    "avgFightDurationMs": 200699,
+    "avgRaidDeaths": 16.83,
+    "avgTeamDps": 129381.6,
+    "avgTeamHps": 35638.76,
+    "avgPerformanceScore": 18.3,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.11
+    "avgReliabilityScore": 41.31
   },
   "roles": {
     "damage": {
       "members": 52,
-      "pulls": 459,
-      "avgRecent": 56230.57,
-      "medianRecent": 55866.91,
+      "pulls": 463,
+      "avgRecent": 56722.2,
+      "medianRecent": 60128.38,
       "bestRecent": 99170.99,
       "maxLast10": 207607.12,
       "deathsPerPull": 0,
@@ -112,10 +112,10 @@
       ]
     },
     "healer": {
-      "members": 20,
-      "pulls": 110,
-      "avgRecent": 50545.14,
-      "medianRecent": 15202.1,
+      "members": 19,
+      "pulls": 106,
+      "avgRecent": 47878.42,
+      "medianRecent": 14080.63,
       "bestRecent": 128223.42,
       "maxLast10": 136940.45,
       "deathsPerPull": 0,
@@ -153,13 +153,6 @@
           "name": "Шриладо",
           "rank": 1,
           "value": 103494.21,
-          "secondary": 0
-        },
-        {
-          "slug": "марлая-gordunni-eu",
-          "name": "Марлая",
-          "rank": 3,
-          "value": 101212.71,
           "secondary": 0
         },
         {
@@ -202,6 +195,13 @@
           "name": "Севатар",
           "rank": 3,
           "value": 13387.48,
+          "secondary": 0
+        },
+        {
+          "slug": "shatnyi-terokkar-eu",
+          "name": "Shatnyi",
+          "rank": 4,
+          "value": 12812.84,
           "secondary": 0
         }
       ]
@@ -343,6 +343,13 @@
         "secondary": 99170.99
       },
       {
+        "slug": "кхаарн-lich-king-eu",
+        "name": "Кхаарн",
+        "rank": 3,
+        "value": 76.32,
+        "secondary": 42980.74
+      },
+      {
         "slug": "дарадуда-gordunni-eu",
         "name": "Дарадуда",
         "rank": 4,
@@ -371,31 +378,24 @@
         "secondary": 4475.04
       },
       {
+        "slug": "марлая-gordunni-eu",
+        "name": "Марлая",
+        "rank": 3,
+        "value": 69.88,
+        "secondary": 67761.48
+      },
+      {
         "slug": "пандашоманко-eversong-eu",
         "name": "Пандашоманко",
         "rank": 3,
         "value": 69.72,
         "secondary": 97502.94
-      },
-      {
-        "slug": "кхаарн-lich-king-eu",
-        "name": "Кхаарн",
-        "rank": 3,
-        "value": 69.24,
-        "secondary": 47495.17
-      },
-      {
-        "slug": "arthasright-tarren-mill-eu",
-        "name": "Arthasright",
-        "rank": 4,
-        "value": 68.93,
-        "secondary": 97981.85
       }
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 67.67,
-    "avgConsistencyPercent": 38.67,
+    "avgStabilityPercent": 68.25,
+    "avgConsistencyPercent": 38.56,
     "mostStable": [
       {
         "slug": "yokum-terokkar-eu",
@@ -433,6 +433,13 @@
         "secondary": 91.83
       },
       {
+        "slug": "кхаарн-lich-king-eu",
+        "name": "Кхаарн",
+        "rank": 3,
+        "value": 76.32,
+        "secondary": 86.1
+      },
+      {
         "slug": "дарадуда-gordunni-eu",
         "name": "Дарадуда",
         "rank": 4,
@@ -461,25 +468,18 @@
         "secondary": 68.78
       },
       {
+        "slug": "марлая-gordunni-eu",
+        "name": "Марлая",
+        "rank": 3,
+        "value": 69.88,
+        "secondary": 75.78
+      },
+      {
         "slug": "пандашоманко-eversong-eu",
         "name": "Пандашоманко",
         "rank": 3,
         "value": 69.72,
         "secondary": 95.2
-      },
-      {
-        "slug": "кхаарн-lich-king-eu",
-        "name": "Кхаарн",
-        "rank": 3,
-        "value": 69.24,
-        "secondary": 90.65
-      },
-      {
-        "slug": "arthasright-tarren-mill-eu",
-        "name": "Arthasright",
-        "rank": 4,
-        "value": 68.93,
-        "secondary": 69.77
       }
     ],
     "needsAttention": [
@@ -509,13 +509,6 @@
         "name": "Oxydenis",
         "rank": 3,
         "value": 55.08,
-        "secondary": 0
-      },
-      {
-        "slug": "марлая-gordunni-eu",
-        "name": "Марлая",
-        "rank": 3,
-        "value": 54.29,
         "secondary": 0
       },
       {
@@ -566,99 +559,106 @@
         "rank": 4,
         "value": 48.47,
         "secondary": 0
+      },
+      {
+        "slug": "галазард-eversong-eu",
+        "name": "Галазард",
+        "rank": 3,
+        "value": 48.24,
+        "secondary": 0
       }
     ]
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 16,
+    "updatedWithin6h": 24,
     "updatedWithin12h": 24,
-    "updatedWithin24h": 56,
-    "oldestScannedAt": "2026-06-03T04:24:46.372Z",
-    "newestScannedAt": "2026-06-06T10:12:32.293Z",
+    "updatedWithin24h": 64,
+    "oldestScannedAt": "2026-06-03T14:44:44.528Z",
+    "newestScannedAt": "2026-06-06T12:10:18.850Z",
     "staleMembers": [
-      {
-        "slug": "шриладо-gordunni-eu",
-        "name": "Шриладо",
-        "rank": 1,
-        "value": 77.81,
-        "secondary": 10
-      },
-      {
-        "slug": "душа-blackscar-eu",
-        "name": "Душа",
-        "rank": 3,
-        "value": 77.81,
-        "secondary": 0
-      },
-      {
-        "slug": "кхаарн-lich-king-eu",
-        "name": "Кхаарн",
-        "rank": 3,
-        "value": 77.81,
-        "secondary": 10
-      },
-      {
-        "slug": "марлая-gordunni-eu",
-        "name": "Марлая",
-        "rank": 3,
-        "value": 77.81,
-        "secondary": 10
-      },
-      {
-        "slug": "sandora-doomhammer-eu",
-        "name": "Sandora",
-        "rank": 4,
-        "value": 77.81,
-        "secondary": 0
-      },
-      {
-        "slug": "бабаияи-eversong-eu",
-        "name": "Бабайяй",
-        "rank": 4,
-        "value": 77.81,
-        "secondary": 0
-      },
-      {
-        "slug": "реила-gordunni-eu",
-        "name": "Рейла",
-        "rank": 4,
-        "value": 77.81,
-        "secondary": 0
-      },
-      {
-        "slug": "товстопуз-gordunni-eu",
-        "name": "Товстопуз",
-        "rank": 4,
-        "value": 77.81,
-        "secondary": 0
-      },
       {
         "slug": "senig-r-ravencrest-eu",
         "name": "Senigør",
         "rank": 1,
-        "value": 67.47,
+        "value": 69.44,
         "secondary": 0
       },
       {
         "slug": "berkinzee-ravencrest-eu",
         "name": "Berkinzee",
         "rank": 3,
-        "value": 67.47,
+        "value": 69.44,
         "secondary": 0
       },
       {
         "slug": "bullimonk-tarren-mill-eu",
         "name": "Bullimonk",
         "rank": 3,
-        "value": 67.47,
+        "value": 69.44,
         "secondary": 10
       },
       {
         "slug": "бреинор-galakrond-eu",
         "name": "Бреинор",
         "rank": 3,
-        "value": 67.47,
+        "value": 69.44,
+        "secondary": 0
+      },
+      {
+        "slug": "скяльди-howling-fjord-eu",
+        "name": "Скяльди",
+        "rank": 3,
+        "value": 69.44,
+        "secondary": 0
+      },
+      {
+        "slug": "auroliana-ravencrest-eu",
+        "name": "Auroliana",
+        "rank": 4,
+        "value": 69.44,
+        "secondary": 10
+      },
+      {
+        "slug": "jakeyo-ravencrest-eu",
+        "name": "Jakeyo",
+        "rank": 4,
+        "value": 69.44,
+        "secondary": 0
+      },
+      {
+        "slug": "nwlck-ravencrest-eu",
+        "name": "Nwlck",
+        "rank": 4,
+        "value": 69.44,
+        "secondary": 0
+      },
+      {
+        "slug": "characternuk-terokkar-eu",
+        "name": "Characternuk",
+        "rank": 1,
+        "value": 68.31,
+        "secondary": 0
+      },
+      {
+        "slug": "zanzithor-tarren-mill-eu",
+        "name": "Zanzithor",
+        "rank": 2,
+        "value": 68.31,
+        "secondary": 10
+      },
+      {
+        "slug": "allune-terokkar-eu",
+        "name": "Allune",
+        "rank": 3,
+        "value": 68.31,
+        "secondary": 0
+      },
+      {
+        "slug": "asasinas-terokkar-eu",
+        "name": "Asasinas",
+        "rank": 3,
+        "value": 68.31,
         "secondary": 0
       }
     ]
@@ -676,7 +676,7 @@
       "killRate": 0,
       "avgDurationMs": 173427,
       "avgRaidDeaths": 19.45,
-      "avgTeamDps": 335265.66,
+      "avgTeamDps": 378047.63,
       "avgTeamHps": 216878.33,
       "bestTeamDps": 749803.96,
       "bestTeamHps": 465140.66,
@@ -724,14 +724,14 @@
       "encounterId": 3177,
       "difficulty": 5,
       "difficultyName": "Mythic",
-      "pulls": 26,
+      "pulls": 24,
       "kills": 2,
-      "wipes": 24,
-      "killRate": 0.0769,
-      "avgDurationMs": 244211,
-      "avgRaidDeaths": 19.65,
-      "avgTeamDps": 120443.75,
-      "avgTeamHps": 30054.42,
+      "wipes": 22,
+      "killRate": 0.0833,
+      "avgDurationMs": 234932,
+      "avgRaidDeaths": 19.54,
+      "avgTeamDps": 105910.31,
+      "avgTeamHps": 15699.82,
       "bestTeamDps": 388351.4,
       "bestTeamHps": 127235.58,
       "lastPullAt": "2026-06-03T18:55:26.254Z"
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 158,
       "withData": 59,
-      "avgPrimaryRecent3": 22245.17,
-      "avgDpsRecent3": 17805.84,
+      "avgPrimaryRecent3": 22406.97,
+      "avgDpsRecent3": 17967.64,
       "avgHpsRecent3": 5718.41,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 41.11
+      "avgReliabilityScore": 41.31
     }
   ]
 }
