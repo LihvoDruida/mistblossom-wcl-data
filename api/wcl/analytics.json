@@ -571,95 +571,95 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 24,
-    "updatedWithin12h": 40,
-    "updatedWithin24h": 48,
+    "updatedWithin6h": 8,
+    "updatedWithin12h": 32,
+    "updatedWithin24h": 56,
     "oldestScannedAt": "2026-06-03T04:24:46.370Z",
-    "newestScannedAt": "2026-06-05T23:16:28.434Z",
+    "newestScannedAt": "2026-06-06T07:49:54.227Z",
     "staleMembers": [
       {
         "slug": "мавпита-gordunni-eu",
         "name": "Мавпита",
         "rank": 1,
-        "value": 66.87,
+        "value": 75.43,
         "secondary": 10
       },
       {
         "slug": "мистип-gordunni-eu",
         "name": "Мистип",
         "rank": 1,
-        "value": 66.87,
+        "value": 75.43,
         "secondary": 0
       },
       {
         "slug": "шриладо-gordunni-eu",
         "name": "Шриладо",
         "rank": 1,
-        "value": 66.87,
+        "value": 75.43,
         "secondary": 10
       },
       {
         "slug": "древесная-blackscar-eu",
         "name": "Древесная",
         "rank": 3,
-        "value": 66.87,
+        "value": 75.43,
         "secondary": 10
       },
       {
         "slug": "душа-blackscar-eu",
         "name": "Душа",
         "rank": 3,
-        "value": 66.87,
-        "secondary": 0
-      },
-      {
-        "slug": "дятелэлуны-soulflayer-eu",
-        "name": "Дятелэлуны",
-        "rank": 3,
-        "value": 66.87,
-        "secondary": 0
-      },
-      {
-        "slug": "корукк-eversong-eu",
-        "name": "Корукк",
-        "rank": 3,
-        "value": 66.87,
-        "secondary": 10
-      },
-      {
-        "slug": "кумбар-gordunni-eu",
-        "name": "Кумбар",
-        "rank": 3,
-        "value": 66.87,
+        "value": 75.43,
         "secondary": 0
       },
       {
         "slug": "кхаарн-lich-king-eu",
         "name": "Кхаарн",
         "rank": 3,
-        "value": 66.87,
-        "secondary": 10
-      },
-      {
-        "slug": "лилая-grom-eu",
-        "name": "Лилая",
-        "rank": 3,
-        "value": 66.87,
+        "value": 75.43,
         "secondary": 10
       },
       {
         "slug": "марлая-gordunni-eu",
         "name": "Марлая",
         "rank": 3,
-        "value": 66.87,
+        "value": 75.43,
         "secondary": 10
       },
       {
-        "slug": "мелиодас-gordunni-eu",
-        "name": "Мелиодас",
-        "rank": 3,
-        "value": 66.87,
+        "slug": "sandora-doomhammer-eu",
+        "name": "Sandora",
+        "rank": 4,
+        "value": 75.43,
         "secondary": 0
+      },
+      {
+        "slug": "адвокатправа-gordunni-eu",
+        "name": "Адвокатправа",
+        "rank": 4,
+        "value": 75.43,
+        "secondary": 10
+      },
+      {
+        "slug": "бабаияи-eversong-eu",
+        "name": "Бабайяй",
+        "rank": 4,
+        "value": 75.43,
+        "secondary": 0
+      },
+      {
+        "slug": "бафометище-eversong-eu",
+        "name": "Бафометище",
+        "rank": 4,
+        "value": 75.43,
+        "secondary": 0
+      },
+      {
+        "slug": "дарадуда-gordunni-eu",
+        "name": "Дарадуда",
+        "rank": 4,
+        "value": 75.43,
+        "secondary": 10
       }
     ]
   },
