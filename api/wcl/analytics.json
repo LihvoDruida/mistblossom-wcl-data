@@ -9,18 +9,18 @@
     "killRate": 0.1147,
     "avgFightDurationMs": 201861,
     "avgRaidDeaths": 16.8,
-    "avgTeamDps": 130071.25,
-    "avgTeamHps": 35965.72,
-    "avgPerformanceScore": 18.49,
+    "avgTeamDps": 129162.87,
+    "avgTeamHps": 35972.33,
+    "avgPerformanceScore": 18.72,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.43
+    "avgReliabilityScore": 41.58
   },
   "roles": {
     "damage": {
-      "members": 52,
-      "pulls": 463,
-      "avgRecent": 56893.12,
-      "medianRecent": 60128.38,
+      "members": 51,
+      "pulls": 461,
+      "avgRecent": 56067.24,
+      "medianRecent": 59765.57,
       "bestRecent": 99170.99,
       "maxLast10": 207607.12,
       "deathsPerPull": 0,
@@ -30,13 +30,6 @@
           "name": "Булкрит",
           "rank": 1,
           "value": 99170.99,
-          "secondary": 0
-        },
-        {
-          "slug": "silpo-ravencrest-eu",
-          "name": "Silpo",
-          "rank": 4,
-          "value": 99012.96,
           "secondary": 0
         },
         {
@@ -108,13 +101,20 @@
           "rank": 3,
           "value": 81687.77,
           "secondary": 0
+        },
+        {
+          "slug": "коксбульдог-howling-fjord-eu",
+          "name": "Коксбульдог",
+          "rank": 4,
+          "value": 76043.61,
+          "secondary": 0
         }
       ]
     },
     "healer": {
       "members": 19,
-      "pulls": 106,
-      "avgRecent": 47878.42,
+      "pulls": 108,
+      "avgRecent": 47881.55,
       "medianRecent": 14080.63,
       "bestRecent": 128223.42,
       "maxLast10": 136940.45,
@@ -394,8 +394,8 @@
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 68.96,
-    "avgConsistencyPercent": 39.01,
+    "avgStabilityPercent": 69.94,
+    "avgConsistencyPercent": 39.48,
     "mostStable": [
       {
         "slug": "yokum-terokkar-eu",
@@ -498,13 +498,6 @@
         "secondary": 0
       },
       {
-        "slug": "silpo-ravencrest-eu",
-        "name": "Silpo",
-        "rank": 4,
-        "value": 55.39,
-        "secondary": 0
-      },
-      {
         "slug": "oxydenis-silvermoon-eu",
         "name": "Oxydenis",
         "rank": 3,
@@ -566,100 +559,107 @@
         "rank": 3,
         "value": 48.24,
         "secondary": 0
+      },
+      {
+        "slug": "дедика-eversong-eu",
+        "name": "Дедика",
+        "rank": 3,
+        "value": 48.23,
+        "secondary": 0
       }
     ]
   },
   "freshness": {
     "updatedWithin1h": 8,
     "updatedWithin6h": 24,
-    "updatedWithin12h": 32,
+    "updatedWithin12h": 40,
     "updatedWithin24h": 64,
-    "oldestScannedAt": "2026-06-03T15:52:06.726Z",
-    "newestScannedAt": "2026-06-06T14:48:06.648Z",
+    "oldestScannedAt": "2026-06-03T18:02:50.602Z",
+    "newestScannedAt": "2026-06-06T16:13:00.986Z",
     "staleMembers": [
-      {
-        "slug": "characternuk-terokkar-eu",
-        "name": "Characternuk",
-        "rank": 1,
-        "value": 70.94,
-        "secondary": 0
-      },
-      {
-        "slug": "zanzithor-tarren-mill-eu",
-        "name": "Zanzithor",
-        "rank": 2,
-        "value": 70.94,
-        "secondary": 10
-      },
-      {
-        "slug": "allune-terokkar-eu",
-        "name": "Allune",
-        "rank": 3,
-        "value": 70.94,
-        "secondary": 0
-      },
-      {
-        "slug": "asasinas-terokkar-eu",
-        "name": "Asasinas",
-        "rank": 3,
-        "value": 70.94,
-        "secondary": 0
-      },
-      {
-        "slug": "bylik-tarren-mill-eu",
-        "name": "Bylik",
-        "rank": 3,
-        "value": 70.94,
-        "secondary": 10
-      },
-      {
-        "slug": "darthkenobi-tarren-mill-eu",
-        "name": "Darthkenobi",
-        "rank": 3,
-        "value": 70.94,
-        "secondary": 0
-      },
-      {
-        "slug": "silpo-ravencrest-eu",
-        "name": "Silpo",
-        "rank": 4,
-        "value": 70.94,
-        "secondary": 10
-      },
-      {
-        "slug": "сетария-galakrond-eu",
-        "name": "Сетария",
-        "rank": 4,
-        "value": 70.94,
-        "secondary": 0
-      },
       {
         "slug": "elderwizard-terokkar-eu",
         "name": "Elderwizard",
         "rank": 3,
-        "value": 68.76,
+        "value": 70.18,
         "secondary": 10
       },
       {
         "slug": "es-terokkar-eu",
         "name": "Es",
         "rank": 3,
-        "value": 68.76,
+        "value": 70.18,
         "secondary": 0
       },
       {
         "slug": "hopeblood-doomhammer-eu",
         "name": "Hopeblood",
         "rank": 3,
-        "value": 68.76,
+        "value": 70.18,
         "secondary": 0
       },
       {
         "slug": "illidonson-draenor-eu",
         "name": "Illidonson",
         "rank": 3,
-        "value": 68.76,
+        "value": 70.18,
         "secondary": 10
+      },
+      {
+        "slug": "kavunchyk-terokkar-eu",
+        "name": "Kavunchyk",
+        "rank": 3,
+        "value": 70.18,
+        "secondary": 0
+      },
+      {
+        "slug": "prayddh-terokkar-eu",
+        "name": "Prayddh",
+        "rank": 3,
+        "value": 70.18,
+        "secondary": 0
+      },
+      {
+        "slug": "redray-terokkar-eu",
+        "name": "Redray",
+        "rank": 3,
+        "value": 70.18,
+        "secondary": 0
+      },
+      {
+        "slug": "rozbiynik-tarren-mill-eu",
+        "name": "Rozbiynik",
+        "rank": 3,
+        "value": 70.18,
+        "secondary": 10
+      },
+      {
+        "slug": "shennai-ravencrest-eu",
+        "name": "Shennái",
+        "rank": 3,
+        "value": 66.78,
+        "secondary": 7
+      },
+      {
+        "slug": "алак-goldrinn-eu",
+        "name": "Алак",
+        "rank": 3,
+        "value": 66.78,
+        "secondary": 0
+      },
+      {
+        "slug": "bureviy-doomhammer-eu",
+        "name": "Bureviy",
+        "rank": 4,
+        "value": 66.78,
+        "secondary": 10
+      },
+      {
+        "slug": "katsyt-terokkar-eu",
+        "name": "Katsyt",
+        "rank": 4,
+        "value": 66.78,
+        "secondary": 0
       }
     ]
   },
@@ -677,7 +677,7 @@
       "avgDurationMs": 184464,
       "avgRaidDeaths": 19.39,
       "avgTeamDps": 414029.65,
-      "avgTeamHps": 240975.92,
+      "avgTeamHps": 241055.94,
       "bestTeamDps": 749803.96,
       "bestTeamHps": 465140.66,
       "lastPullAt": "2026-06-04T19:56:22.399Z"
@@ -730,9 +730,9 @@
       "killRate": 0.0833,
       "avgDurationMs": 234932,
       "avgRaidDeaths": 19.54,
-      "avgTeamDps": 105910.31,
+      "avgTeamDps": 97659.24,
       "avgTeamHps": 15699.82,
-      "bestTeamDps": 388351.4,
+      "bestTeamDps": 386666.55,
       "bestTeamHps": 127235.58,
       "lastPullAt": "2026-06-03T18:55:26.254Z"
     },
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 158,
       "withData": 59,
-      "avgPrimaryRecent3": 22463.22,
+      "avgPrimaryRecent3": 22463.6,
       "avgDpsRecent3": 18023.89,
-      "avgHpsRecent3": 5718.41,
+      "avgHpsRecent3": 5718.78,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 41.43
+      "avgReliabilityScore": 41.58
     }
   ]
 }
