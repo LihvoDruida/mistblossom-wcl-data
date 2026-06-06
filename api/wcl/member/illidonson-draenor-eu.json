@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-03T18:02:50.602Z",
+  "updatedAt": "2026-06-06T18:13:31.380Z",
   "character": {
     "name": "Illidonson",
     "realmSlug": "draenor",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-03T18:02:50.602Z",
+    "lastScannedAt": "2026-06-06T18:13:31.380Z",
     "lastPullAt": "2026-05-17T17:34:07.976Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

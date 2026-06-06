@@ -1,5 +1,12 @@
 [
   {
+    "slug": "rozbiynik-tarren-mill-eu",
+    "name": "Rozbiynik",
+    "rank": 3,
+    "value": 100725.11,
+    "secondary": 0
+  },
+  {
     "slug": "булкрит-gordunni-eu",
     "name": "Булкрит",
     "rank": 1,
@@ -18,13 +25,6 @@
     "name": "Kokosik",
     "rank": 3,
     "value": 93820.18,
-    "secondary": 0
-  },
-  {
-    "slug": "rozbiynik-tarren-mill-eu",
-    "name": "Rozbiynik",
-    "rank": 3,
-    "value": 92205,
     "secondary": 0
   },
   {
