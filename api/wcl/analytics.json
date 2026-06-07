@@ -571,95 +571,95 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 16,
+    "updatedWithin6h": 24,
     "updatedWithin12h": 32,
-    "updatedWithin24h": 79,
-    "oldestScannedAt": "2026-06-04T19:27:30.797Z",
-    "newestScannedAt": "2026-06-07T11:54:36.606Z",
+    "updatedWithin24h": 80,
+    "oldestScannedAt": "2026-06-04T21:48:09.358Z",
+    "newestScannedAt": "2026-06-07T14:09:59.590Z",
     "staleMembers": [
-      {
-        "slug": "blackberry-terokkar-eu",
-        "name": "Blackberry",
-        "rank": 3,
-        "value": 64.46,
-        "secondary": 0
-      },
-      {
-        "slug": "straponeero-tarren-mill-eu",
-        "name": "Straponeero",
-        "rank": 3,
-        "value": 64.46,
-        "secondary": 0
-      },
-      {
-        "slug": "travka-terokkar-eu",
-        "name": "Travka",
-        "rank": 3,
-        "value": 64.46,
-        "secondary": 0
-      },
-      {
-        "slug": "yokuha-terokkar-eu",
-        "name": "Yokuha",
-        "rank": 3,
-        "value": 64.46,
-        "secondary": 10
-      },
-      {
-        "slug": "дедика-eversong-eu",
-        "name": "Дедика",
-        "rank": 3,
-        "value": 64.46,
-        "secondary": 10
-      },
-      {
-        "slug": "зулпот-howling-fjord-eu",
-        "name": "Зулпот",
-        "rank": 3,
-        "value": 64.46,
-        "secondary": 10
-      },
-      {
-        "slug": "клеосса-eversong-eu",
-        "name": "Клеосса",
-        "rank": 3,
-        "value": 64.46,
-        "secondary": 10
-      },
-      {
-        "slug": "котто-gordunni-eu",
-        "name": "Котто",
-        "rank": 3,
-        "value": 64.46,
-        "secondary": 0
-      },
       {
         "slug": "forchun-silvermoon-eu",
         "name": "Forchun",
         "rank": 1,
-        "value": 62.12,
+        "value": 64.37,
         "secondary": 10
       },
       {
         "slug": "ironbelly-silvermoon-eu",
         "name": "Ironbelly",
         "rank": 1,
-        "value": 62.12,
+        "value": 64.37,
         "secondary": 0
       },
       {
         "slug": "darkleaf-burning-steppes-eu",
         "name": "Darkleaf",
         "rank": 4,
-        "value": 62.12,
+        "value": 64.37,
         "secondary": 0
       },
       {
         "slug": "pyatochka-terokkar-eu",
         "name": "Pyatochka",
         "rank": 4,
-        "value": 62.12,
+        "value": 64.37,
         "secondary": 10
+      },
+      {
+        "slug": "shatnyideath-terokkar-eu",
+        "name": "Shatnyideath",
+        "rank": 4,
+        "value": 64.37,
+        "secondary": 0
+      },
+      {
+        "slug": "umbrak-terokkar-eu",
+        "name": "Umbrak",
+        "rank": 4,
+        "value": 64.37,
+        "secondary": 0
+      },
+      {
+        "slug": "yokum-terokkar-eu",
+        "name": "Yokum",
+        "rank": 4,
+        "value": 64.37,
+        "secondary": 10
+      },
+      {
+        "slug": "коксбульдог-howling-fjord-eu",
+        "name": "Коксбульдог",
+        "rank": 4,
+        "value": 64.37,
+        "secondary": 10
+      },
+      {
+        "slug": "thortun-silvermoon-eu",
+        "name": "Thortun",
+        "rank": 1,
+        "value": 53.36,
+        "secondary": 0
+      },
+      {
+        "slug": "sonechco-silvermoon-eu",
+        "name": "Sonechco",
+        "rank": 2,
+        "value": 53.36,
+        "secondary": 10
+      },
+      {
+        "slug": "bernstorff-kazzak-eu",
+        "name": "Bernstorff",
+        "rank": 3,
+        "value": 53.36,
+        "secondary": 0
+      },
+      {
+        "slug": "bierdestroer-silvermoon-eu",
+        "name": "Bierdestroer",
+        "rank": 3,
+        "value": 53.36,
+        "secondary": 0
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-04T19:27:30.797Z",
+  "updatedAt": "2026-06-07T14:09:59.590Z",
   "character": {
     "name": "Котто",
     "realmSlug": "gordunni",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-04T19:27:30.797Z",
+    "lastScannedAt": "2026-06-07T14:09:59.590Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
