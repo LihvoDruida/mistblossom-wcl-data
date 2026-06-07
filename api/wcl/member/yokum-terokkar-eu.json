@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-04T21:48:09.358Z",
+  "updatedAt": "2026-06-07T16:23:13.717Z",
   "character": {
     "name": "Yokum",
     "realmSlug": "terokkar",
@@ -16,27 +16,27 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 195,
+    "totalRaidDeaths": 209,
     "deathsPerPull": 0,
-    "stabilityPercent": 93.63,
-    "consistencyPercent": 65,
-    "performanceScore": 67.75,
+    "stabilityPercent": 84.62,
+    "consistencyPercent": 73.71,
+    "performanceScore": 64.97,
     "survivalScore": 100,
-    "reliabilityScore": 78.81,
+    "reliabilityScore": 80.13,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 128223.42,
-      "avgPrimary": 128223.42,
-      "avgDurationMs": 291246,
+      "avgHps": 115873.31,
+      "avgPrimary": 115873.31,
+      "avgDurationMs": 207329,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 116514.65,
-      "avgPrimary": 116514.65,
-      "avgDurationMs": 233606,
+      "avgHps": 109467.74,
+      "avgPrimary": 109467.74,
+      "avgDurationMs": 141531,
       "avgDeaths": 0
     },
     "last10": {
@@ -44,30 +44,30 @@
       "maxDps": 0,
       "minDps": 0,
       "maxHps": 136940.45,
-      "minHps": 89007.39,
+      "minHps": 100933.6,
       "maxPrimary": 136940.45,
-      "minPrimary": 89007.39,
+      "minPrimary": 100933.6,
       "maxDurationMs": 407830,
-      "minDurationMs": 108203
+      "minDurationMs": 70368
     },
     "trend": {
       "direction": "up",
-      "recentAvg": 128223.42,
-      "previousAvg": 116514.65,
-      "delta": 11708.77,
-      "deltaPercent": 10.05
+      "recentAvg": 115873.31,
+      "previousAvg": 109467.74,
+      "delta": 6405.57,
+      "deltaPercent": 5.85
     },
     "byRole": {
       "healer": {
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 128223.42,
+        "avgRecent": 115873.31,
         "maxLast10": 136940.45,
-        "minLast10": 89007.39,
+        "minLast10": 100933.6,
         "deathsPerPull": 0,
         "bestPullKey": "J7drK2qY9hFnRyTD:27:Yokum:terokkar:eu",
-        "worstPullKey": "J7drK2qY9hFnRyTD:21:Yokum:terokkar:eu"
+        "worstPullKey": "kgwGHZ3DFJr7TVLv:14:Yokum:terokkar:eu"
       },
       "damage": {
         "pulls": 0,
@@ -91,18 +91,1170 @@
     "dataQuality": {
       "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 8,
+      "pullsWithRoleInferred": 10,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 0,
         "hps": 10,
         "unknown": 0
       },
-      "confidenceAvg": 0.77,
+      "confidenceAvg": 0.96,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "kgwGHZ3DFJr7TVLv:18:Yokum:terokkar:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=18",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T19:13:13.049Z",
+      "durationMs": 250245,
+      "bossPercentage": 86.45,
+      "fightPercentage": 86.45,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 10,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Monk-Mistweaver",
+        "className": "Monk",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 8117.12,
+        "hps": 114171.54,
+        "primary": 114171.54,
+        "primaryKind": "hps",
+        "fightDps": 8117.12,
+        "fightHps": 114171.54,
+        "activeDps": 11240.93,
+        "activeHps": 115759.59,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 2031269,
+        "healingTotal": 28570856,
+        "damageActiveTimeMs": 180703,
+        "healingActiveTimeMs": 246812,
+        "damageTotalTimeMs": 250245,
+        "healingTotalTimeMs": 250245,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 18,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7122005,
+          "endTime": 7372250,
+          "bossPercentage": 86.45,
+          "fightPercentage": 86.45,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 250245,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 2031269,
+              "activeTime": 180703,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 250245,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 28570856,
+              "activeTime": 246812,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Yokum",
+          "normalizedKeys": [
+            "yokum:terokkar:eu",
+            "yokum::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Monk-Mistweaver",
+            "className": "Monk",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:17:Yokum:terokkar:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=17",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T19:01:51.678Z",
+      "durationMs": 134861,
+      "bossPercentage": 58.84,
+      "fightPercentage": 58.84,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 10,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Monk-Mistweaver",
+        "className": "Monk",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 9055.52,
+        "hps": 112735.94,
+        "primary": 112735.94,
+        "primaryKind": "hps",
+        "fightDps": 9055.52,
+        "fightHps": 112735.94,
+        "activeDps": 13445.89,
+        "activeHps": 115092.21,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 1221236,
+        "healingTotal": 15203681,
+        "damageActiveTimeMs": 90826,
+        "healingActiveTimeMs": 132100,
+        "damageTotalTimeMs": 134861,
+        "healingTotalTimeMs": 134861,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 17,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6440634,
+          "endTime": 6575495,
+          "bossPercentage": 58.84,
+          "fightPercentage": 58.84,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 134861,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 1221236,
+              "activeTime": 90826,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 134861,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 15203681,
+              "activeTime": 132100,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Yokum",
+          "normalizedKeys": [
+            "yokum:terokkar:eu",
+            "yokum::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Monk-Mistweaver",
+            "className": "Monk",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:16:Yokum:terokkar:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=16",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:56:06.630Z",
+      "durationMs": 236881,
+      "bossPercentage": 49.63,
+      "fightPercentage": 49.63,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 10,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Monk-Mistweaver",
+        "className": "Monk",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 8748.48,
+        "hps": 120712.44,
+        "primary": 120712.44,
+        "primaryKind": "hps",
+        "fightDps": 8748.48,
+        "fightHps": 120712.44,
+        "activeDps": 13635.3,
+        "activeHps": 128210.28,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2072348,
+        "healingTotal": 28594483,
+        "damageActiveTimeMs": 151984,
+        "healingActiveTimeMs": 223028,
+        "damageTotalTimeMs": 236881,
+        "healingTotalTimeMs": 236881,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 16,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6095586,
+          "endTime": 6332467,
+          "bossPercentage": 49.63,
+          "fightPercentage": 49.63,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 236881,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 2072348,
+              "activeTime": 151984,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 236881,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 28594483,
+              "activeTime": 223028,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Yokum",
+          "normalizedKeys": [
+            "yokum:terokkar:eu",
+            "yokum::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Monk-Mistweaver",
+            "className": "Monk",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:15:Yokum:terokkar:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=15",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:52:36.882Z",
+      "durationMs": 133683,
+      "bossPercentage": 60.68,
+      "fightPercentage": 60.68,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 10,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Monk-Mistweaver",
+        "className": "Monk",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 10961.69,
+        "hps": 112589.58,
+        "primary": 112589.58,
+        "primaryKind": "hps",
+        "fightDps": 10961.69,
+        "fightHps": 112589.58,
+        "activeDps": 13376.21,
+        "activeHps": 113966.39,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 1465391,
+        "healingTotal": 15051313,
+        "damageActiveTimeMs": 109552,
+        "healingActiveTimeMs": 132068,
+        "damageTotalTimeMs": 133683,
+        "healingTotalTimeMs": 133683,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 15,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5885838,
+          "endTime": 6019521,
+          "bossPercentage": 60.68,
+          "fightPercentage": 60.68,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 133683,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 1465391,
+              "activeTime": 109552,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 133683,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 15051313,
+              "activeTime": 132068,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Yokum",
+          "normalizedKeys": [
+            "yokum:terokkar:eu",
+            "yokum::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Monk-Mistweaver",
+            "className": "Monk",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:14:Yokum:terokkar:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=14",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:47:00.495Z",
+      "durationMs": 220542,
+      "bossPercentage": 48.63,
+      "fightPercentage": 48.63,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 10,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Monk-Mistweaver",
+        "className": "Monk",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 7205.38,
+        "hps": 100933.6,
+        "primary": 100933.6,
+        "primaryKind": "hps",
+        "fightDps": 7205.38,
+        "fightHps": 100933.6,
+        "activeDps": 13333.19,
+        "activeHps": 114391.94,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 1589090,
+        "healingTotal": 22260099,
+        "damageActiveTimeMs": 119183,
+        "healingActiveTimeMs": 194595,
+        "damageTotalTimeMs": 220542,
+        "healingTotalTimeMs": 220542,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 14,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5549451,
+          "endTime": 5769993,
+          "bossPercentage": 48.63,
+          "fightPercentage": 48.63,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 220542,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 1589090,
+              "activeTime": 119183,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 220542,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 22260099,
+              "activeTime": 194595,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Yokum",
+          "normalizedKeys": [
+            "yokum:terokkar:eu",
+            "yokum::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Monk-Mistweaver",
+            "className": "Monk",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:13:Yokum:terokkar:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=13",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:42:44.004Z",
+      "durationMs": 70368,
+      "bossPercentage": 80.29,
+      "fightPercentage": 80.29,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 10,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Monk-Mistweaver",
+        "className": "Monk",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 7998,
+        "hps": 114880.04,
+        "primary": 114880.04,
+        "primaryKind": "hps",
+        "fightDps": 7998,
+        "fightHps": 114880.04,
+        "activeDps": 14647.94,
+        "activeHps": 117534.12,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 562803,
+        "healingTotal": 8083879,
+        "damageActiveTimeMs": 38422,
+        "healingActiveTimeMs": 68779,
+        "damageTotalTimeMs": 70368,
+        "healingTotalTimeMs": 70368,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 13,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5292960,
+          "endTime": 5363328,
+          "bossPercentage": 80.29,
+          "fightPercentage": 80.29,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 70368,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 562803,
+              "activeTime": 38422,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 70368,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 8083879,
+              "activeTime": 68779,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Yokum",
+          "normalizedKeys": [
+            "yokum:terokkar:eu",
+            "yokum::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Monk-Mistweaver",
+            "className": "Monk",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:12:Yokum:terokkar:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=12",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:36:00.372Z",
+      "durationMs": 254434,
+      "bossPercentage": 82.41,
+      "fightPercentage": 82.41,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 10,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Monk-Mistweaver",
+        "className": "Monk",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 11074.18,
+        "hps": 127208.25,
+        "primary": 127208.25,
+        "primaryKind": "hps",
+        "fightDps": 11074.18,
+        "fightHps": 127208.25,
+        "activeDps": 15663.08,
+        "activeHps": 127742.96,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 2817647,
+        "healingTotal": 32366105,
+        "damageActiveTimeMs": 179891,
+        "healingActiveTimeMs": 253369,
+        "damageTotalTimeMs": 254434,
+        "healingTotalTimeMs": 254434,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 12,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4889328,
+          "endTime": 5143762,
+          "bossPercentage": 82.41,
+          "fightPercentage": 82.41,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 254434,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 2817647,
+              "activeTime": 179891,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 254434,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 32366105,
+              "activeTime": 253369,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Yokum",
+          "normalizedKeys": [
+            "yokum:terokkar:eu",
+            "yokum::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Monk-Mistweaver",
+            "className": "Monk",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:11:Yokum:terokkar:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=11",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:30:55.815Z",
+      "durationMs": 198070,
+      "bossPercentage": 50.96,
+      "fightPercentage": 50.96,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 10,
+        "name": "Yokum",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Monk"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Monk-Mistweaver",
+        "className": "Monk",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 11497.87,
+        "hps": 121587.73,
+        "primary": 121587.73,
+        "primaryKind": "hps",
+        "fightDps": 11497.87,
+        "fightHps": 121587.73,
+        "activeDps": 17268.08,
+        "activeHps": 122756.6,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 2277384,
+        "healingTotal": 24082881,
+        "damageActiveTimeMs": 131884,
+        "healingActiveTimeMs": 196184,
+        "damageTotalTimeMs": 198070,
+        "healingTotalTimeMs": 198070,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 283,
+        "healingItemLevel": 283,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 11,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4584771,
+          "endTime": 4782841,
+          "bossPercentage": 50.96,
+          "fightPercentage": 50.96,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 198070,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 2277384,
+              "activeTime": 131884,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 198070,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Yokum",
+              "type": "Monk",
+              "icon": "Monk-Mistweaver",
+              "total": 24082881,
+              "activeTime": 196184,
+              "itemLevel": 283,
+              "guid": 189317829
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Yokum",
+          "normalizedKeys": [
+            "yokum:terokkar:eu",
+            "yokum::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Monk-Mistweaver",
+            "className": "Monk",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "J7drK2qY9hFnRyTD:28:Yokum:terokkar:eu",
       "reportCode": "J7drK2qY9hFnRyTD",
@@ -390,1006 +1542,14 @@
           }
         }
       }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:26:Yokum:terokkar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:43:28.840Z",
-      "durationMs": 211217,
-      "bossPercentage": 44.04,
-      "fightPercentage": 44.04,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 310,
-        "name": "Yokum",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Monk-Mistweaver",
-        "className": "Monk",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 8960.9,
-        "hps": 115421.61,
-        "primary": 115421.61,
-        "primaryKind": "hps",
-        "fightDps": 8960.9,
-        "fightHps": 115421.61,
-        "activeDps": 13668.33,
-        "activeHps": 116467.08,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 1892695,
-        "healingTotal": 24379006,
-        "damageActiveTimeMs": 138473,
-        "healingActiveTimeMs": 209321,
-        "damageTotalTimeMs": 211217,
-        "healingTotalTimeMs": 211217,
-        "damageEntryId": 310,
-        "healingEntryId": 310,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:310,healing:actor-id:310"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 26,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 15163340,
-          "endTime": 15374557,
-          "bossPercentage": 44.04,
-          "fightPercentage": 44.04,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 211217,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 1892695,
-              "activeTime": 138473,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 211217,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 24379006,
-              "activeTime": 209321,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 310,
-          "matchedActorName": "Yokum",
-          "normalizedKeys": [
-            "yokum:terokkar:eu",
-            "yokum::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Monk-Mistweaver",
-            "className": "Monk",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:24:Yokum:terokkar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 24,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=24",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:34:22.519Z",
-      "durationMs": 225405,
-      "bossPercentage": 48.14,
-      "fightPercentage": 48.14,
-      "averageItemLevel": 287.1499938964844,
-      "actor": {
-        "id": 310,
-        "name": "Yokum",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Monk-Mistweaver",
-        "className": "Monk",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 6346.25,
-        "hps": 107959.38,
-        "primary": 107959.38,
-        "primaryKind": "hps",
-        "fightDps": 6346.25,
-        "fightHps": 107959.38,
-        "activeDps": 12374.47,
-        "activeHps": 126036.3,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 1430476,
-        "healingTotal": 24334584,
-        "damageActiveTimeMs": 115599,
-        "healingActiveTimeMs": 193076,
-        "damageTotalTimeMs": 225405,
-        "healingTotalTimeMs": 225405,
-        "damageEntryId": 310,
-        "healingEntryId": 310,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:310,healing:actor-id:310"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 24,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 14617019,
-          "endTime": 14842424,
-          "bossPercentage": 48.14,
-          "fightPercentage": 48.14,
-          "averageItemLevel": 287.1499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 225405,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 1430476,
-              "activeTime": 115599,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 225405,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 24334584,
-              "activeTime": 193076,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 310,
-          "matchedActorName": "Yokum",
-          "normalizedKeys": [
-            "yokum:terokkar:eu",
-            "yokum::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Monk-Mistweaver",
-            "className": "Monk",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:23:Yokum:terokkar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 23,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=23",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:28:15.407Z",
-      "durationMs": 244539,
-      "bossPercentage": 43.67,
-      "fightPercentage": 43.67,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 310,
-        "name": "Yokum",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Monk-Mistweaver",
-        "className": "Monk",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 9733.13,
-        "hps": 121625.57,
-        "primary": 121625.57,
-        "primaryKind": "hps",
-        "fightDps": 9733.13,
-        "fightHps": 121625.57,
-        "activeDps": 14818.02,
-        "activeHps": 124090.23,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 2380130,
-        "healingTotal": 29742195,
-        "damageActiveTimeMs": 160624,
-        "healingActiveTimeMs": 239682,
-        "damageTotalTimeMs": 244539,
-        "healingTotalTimeMs": 244539,
-        "damageEntryId": 310,
-        "healingEntryId": 310,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:310,healing:actor-id:310"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 23,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 14249907,
-          "endTime": 14494446,
-          "bossPercentage": 43.67,
-          "fightPercentage": 43.67,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 244539,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 2380130,
-              "activeTime": 160624,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 244539,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 29742195,
-              "activeTime": 239682,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 310,
-          "matchedActorName": "Yokum",
-          "normalizedKeys": [
-            "yokum:terokkar:eu",
-            "yokum::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Monk-Mistweaver",
-            "className": "Monk",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:22:Yokum:terokkar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 22,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=22",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:22:35.705Z",
-      "durationMs": 230874,
-      "bossPercentage": 45.95,
-      "fightPercentage": 45.95,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 310,
-        "name": "Yokum",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Monk-Mistweaver",
-        "className": "Monk",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 7441.72,
-        "hps": 119958.99,
-        "primary": 119958.99,
-        "primaryKind": "hps",
-        "fightDps": 7441.72,
-        "fightHps": 119958.99,
-        "activeDps": 12986.49,
-        "activeHps": 120766.63,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 1718100,
-        "healingTotal": 27695412,
-        "damageActiveTimeMs": 132299,
-        "healingActiveTimeMs": 229330,
-        "damageTotalTimeMs": 230874,
-        "healingTotalTimeMs": 230874,
-        "damageEntryId": 310,
-        "healingEntryId": 310,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:310,healing:actor-id:310"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 22,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13910205,
-          "endTime": 14141079,
-          "bossPercentage": 45.95,
-          "fightPercentage": 45.95,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 230874,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 1718100,
-              "activeTime": 132299,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 230874,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 27695412,
-              "activeTime": 229330,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 310,
-          "matchedActorName": "Yokum",
-          "normalizedKeys": [
-            "yokum:terokkar:eu",
-            "yokum::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Monk-Mistweaver",
-            "className": "Monk",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:21:Yokum:terokkar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=21",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:19:49.269Z",
-      "durationMs": 108203,
-      "bossPercentage": 67.25,
-      "fightPercentage": 67.25,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 310,
-        "name": "Yokum",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Monk-Mistweaver",
-        "className": "Monk",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 7435.92,
-        "hps": 89007.39,
-        "primary": 89007.39,
-        "primaryKind": "hps",
-        "fightDps": 7435.92,
-        "fightHps": 89007.39,
-        "activeDps": 14344.35,
-        "activeHps": 103021.55,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 804589,
-        "healingTotal": 9630867,
-        "damageActiveTimeMs": 56091,
-        "healingActiveTimeMs": 93484,
-        "damageTotalTimeMs": 108203,
-        "healingTotalTimeMs": 108203,
-        "damageEntryId": 310,
-        "healingEntryId": 310,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:310,healing:actor-id:310"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 21,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13743769,
-          "endTime": 13851972,
-          "bossPercentage": 67.25,
-          "fightPercentage": 67.25,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 108203,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 804589,
-              "activeTime": 56091,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 108203,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 9630867,
-              "activeTime": 93484,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 310,
-          "matchedActorName": "Yokum",
-          "normalizedKeys": [
-            "yokum:terokkar:eu",
-            "yokum::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Monk-Mistweaver",
-            "className": "Monk",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:20:Yokum:terokkar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=20",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:07:41.231Z",
-      "durationMs": 157276,
-      "bossPercentage": 52.9,
-      "fightPercentage": 52.9,
-      "averageItemLevel": 287.1000061035156,
-      "actor": {
-        "id": 310,
-        "name": "Yokum",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Monk-Mistweaver",
-        "className": "Monk",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 7938.24,
-        "hps": 132062.23,
-        "primary": 132062.23,
-        "primaryKind": "hps",
-        "fightDps": 7938.24,
-        "fightHps": 132062.23,
-        "activeDps": 16096.74,
-        "activeHps": 135531.61,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 9
-      },
-      "source": {
-        "damageTotal": 1248495,
-        "healingTotal": 20770219,
-        "damageActiveTimeMs": 77562,
-        "healingActiveTimeMs": 153250,
-        "damageTotalTimeMs": 157276,
-        "healingTotalTimeMs": 157276,
-        "damageEntryId": 310,
-        "healingEntryId": 310,
-        "damageItemLevel": 281,
-        "healingItemLevel": 281,
-        "matchedBy": "damage:actor-id:310,healing:actor-id:310"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 20,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13015731,
-          "endTime": 13173007,
-          "bossPercentage": 52.9,
-          "fightPercentage": 52.9,
-          "averageItemLevel": 287.1000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157276,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 1248495,
-              "activeTime": 77562,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 157276,
-            "matchedBy": "actor-id:310",
-            "matchedEntry": {
-              "id": 310,
-              "name": "Yokum",
-              "type": "Monk",
-              "icon": "Monk-Mistweaver",
-              "total": 20770219,
-              "activeTime": 153250,
-              "itemLevel": 281,
-              "guid": 189317829
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 9,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 310,
-          "matchedActorName": "Yokum",
-          "normalizedKeys": [
-            "yokum:terokkar:eu",
-            "yokum::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Monk-Mistweaver",
-            "className": "Monk",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:32:Yokum:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 32,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:06:06.764Z",
-      "durationMs": 215983,
-      "bossPercentage": 57.68,
-      "fightPercentage": 57.68,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 111,
-        "name": "Yokum",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 8260.52,
-        "hps": 113986.72,
-        "primary": 113986.72,
-        "primaryKind": "hps",
-        "fightDps": 8260.52,
-        "fightHps": 113986.72,
-        "activeDps": 8260.52,
-        "activeHps": 113986.72,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 1784132,
-        "healingTotal": 24619193,
-        "damageActiveTimeMs": 133600,
-        "healingActiveTimeMs": 209137,
-        "damageTotalTimeMs": 215983,
-        "healingTotalTimeMs": 215983,
-        "damageEntryId": 111,
-        "healingEntryId": 111,
-        "damageItemLevel": 280,
-        "healingItemLevel": 280,
-        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:31:Yokum:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 31,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:00:37.917Z",
-      "durationMs": 226446,
-      "bossPercentage": 57.65,
-      "fightPercentage": 57.65,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 111,
-        "name": "Yokum",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Monk"
-      },
-      "metric": {
-        "dps": 7668.52,
-        "hps": 116005.51,
-        "primary": 116005.51,
-        "primaryKind": "hps",
-        "fightDps": 7668.52,
-        "fightHps": 116005.51,
-        "activeDps": 7668.52,
-        "activeHps": 116005.51,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 1736505,
-        "healingTotal": 26268984,
-        "damageActiveTimeMs": 121087,
-        "healingActiveTimeMs": 222832,
-        "damageTotalTimeMs": 226446,
-        "healingTotalTimeMs": 226446,
-        "damageEntryId": 111,
-        "healingEntryId": 111,
-        "damageItemLevel": 280,
-        "healingItemLevel": 280,
-        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-04T21:48:09.358Z",
-    "lastPullAt": "2026-06-04T19:56:22.399Z",
+    "lastScannedAt": "2026-06-07T16:23:13.717Z",
+    "lastPullAt": "2026-06-06T19:13:13.049Z",
     "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }

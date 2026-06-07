@@ -1,13 +1,13 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-07T14:10:32.567Z",
+  "updatedAt": "2026-06-07T16:23:46.237Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
     "region": "eu"
   },
   "totals": {
-    "members": 159,
+    "members": 160,
     "reportsScanned": 8,
     "fightsScanned": 8,
     "healerPulls": 110,
@@ -18,7 +18,7 @@
   },
   "analytics": {
     "overview": {
-      "members": 159,
+      "members": 160,
       "membersWithData": 59,
       "pullsStored": 569,
       "distinctFights": 232,
@@ -28,10 +28,10 @@
       "avgFightDurationMs": 200273,
       "avgRaidDeaths": 17.03,
       "avgTeamDps": 121997.98,
-      "avgTeamHps": 34644.57,
-      "avgPerformanceScore": 18.99,
+      "avgTeamHps": 34682.47,
+      "avgPerformanceScore": 18.85,
       "avgSurvivalScore": 100,
-      "avgReliabilityScore": 41.92
+      "avgReliabilityScore": 41.85
     },
     "roles": {
       "damage": {
@@ -132,9 +132,9 @@
       "healer": {
         "members": 19,
         "pulls": 110,
-        "avgRecent": 47847.23,
+        "avgRecent": 47197.23,
         "medianRecent": 14080.63,
-        "bestRecent": 128223.42,
+        "bestRecent": 115873.31,
         "maxLast10": 136940.45,
         "deathsPerPull": 0,
         "topRecent": [
@@ -142,7 +142,7 @@
             "slug": "yokum-terokkar-eu",
             "name": "Yokum",
             "rank": 4,
-            "value": 128223.42,
+            "value": 115873.31,
             "secondary": 0
           },
           {
@@ -336,8 +336,8 @@
           "slug": "yokum-terokkar-eu",
           "name": "Yokum",
           "rank": 4,
-          "value": 78.81,
-          "secondary": 128223.42
+          "value": 80.13,
+          "secondary": 115873.31
         },
         {
           "slug": "khayen-terokkar-eu",
@@ -412,8 +412,8 @@
       ]
     },
     "consistency": {
-      "avgStabilityPercent": 71.51,
-      "avgConsistencyPercent": 40.86,
+      "avgStabilityPercent": 71.36,
+      "avgConsistencyPercent": 41.01,
       "mostStable": [
         {
           "slug": "arthasright-tarren-mill-eu",
@@ -426,8 +426,8 @@
           "slug": "yokum-terokkar-eu",
           "name": "Yokum",
           "rank": 4,
-          "value": 78.81,
-          "secondary": 93.63
+          "value": 80.13,
+          "secondary": 84.62
         },
         {
           "slug": "khayen-terokkar-eu",
@@ -590,94 +590,94 @@
     "freshness": {
       "updatedWithin1h": 8,
       "updatedWithin6h": 24,
-      "updatedWithin12h": 32,
-      "updatedWithin24h": 80,
+      "updatedWithin12h": 40,
+      "updatedWithin24h": 72,
       "oldestScannedAt": "2026-06-04T21:48:09.358Z",
-      "newestScannedAt": "2026-06-07T14:09:59.590Z",
+      "newestScannedAt": "2026-06-07T16:23:13.717Z",
       "staleMembers": [
-        {
-          "slug": "forchun-silvermoon-eu",
-          "name": "Forchun",
-          "rank": 1,
-          "value": 64.37,
-          "secondary": 10
-        },
-        {
-          "slug": "ironbelly-silvermoon-eu",
-          "name": "Ironbelly",
-          "rank": 1,
-          "value": 64.37,
-          "secondary": 0
-        },
-        {
-          "slug": "darkleaf-burning-steppes-eu",
-          "name": "Darkleaf",
-          "rank": 4,
-          "value": 64.37,
-          "secondary": 0
-        },
-        {
-          "slug": "pyatochka-terokkar-eu",
-          "name": "Pyatochka",
-          "rank": 4,
-          "value": 64.37,
-          "secondary": 10
-        },
-        {
-          "slug": "shatnyideath-terokkar-eu",
-          "name": "Shatnyideath",
-          "rank": 4,
-          "value": 64.37,
-          "secondary": 0
-        },
-        {
-          "slug": "umbrak-terokkar-eu",
-          "name": "Umbrak",
-          "rank": 4,
-          "value": 64.37,
-          "secondary": 0
-        },
-        {
-          "slug": "yokum-terokkar-eu",
-          "name": "Yokum",
-          "rank": 4,
-          "value": 64.37,
-          "secondary": 10
-        },
         {
           "slug": "коксбульдог-howling-fjord-eu",
           "name": "Коксбульдог",
           "rank": 4,
-          "value": 64.37,
+          "value": 66.59,
           "secondary": 10
         },
         {
           "slug": "thortun-silvermoon-eu",
           "name": "Thortun",
           "rank": 1,
-          "value": 53.36,
+          "value": 55.59,
           "secondary": 0
         },
         {
           "slug": "sonechco-silvermoon-eu",
           "name": "Sonechco",
           "rank": 2,
-          "value": 53.36,
+          "value": 55.59,
           "secondary": 10
         },
         {
           "slug": "bernstorff-kazzak-eu",
           "name": "Bernstorff",
           "rank": 3,
-          "value": 53.36,
+          "value": 55.59,
           "secondary": 0
         },
         {
           "slug": "bierdestroer-silvermoon-eu",
           "name": "Bierdestroer",
           "rank": 3,
-          "value": 53.36,
+          "value": 55.59,
           "secondary": 0
+        },
+        {
+          "slug": "hexxoffender-silvermoon-eu",
+          "name": "Hexxoffender",
+          "rank": 3,
+          "value": 55.59,
+          "secondary": 0
+        },
+        {
+          "slug": "kensshi-silvermoon-eu",
+          "name": "Kensshi",
+          "rank": 3,
+          "value": 55.59,
+          "secondary": 0
+        },
+        {
+          "slug": "kokosik-silvermoon-eu",
+          "name": "Kokosik",
+          "rank": 3,
+          "value": 55.59,
+          "secondary": 10
+        },
+        {
+          "slug": "k-silvermoon-eu",
+          "name": "ßøßk",
+          "rank": 3,
+          "value": 55.59,
+          "secondary": 10
+        },
+        {
+          "slug": "mexamer-silvermoon-eu",
+          "name": "Mexamer",
+          "rank": 3,
+          "value": 52.14,
+          "secondary": 0
+        },
+        {
+          "slug": "ohhchetos-kazzak-eu",
+          "name": "Ohhchetos",
+          "rank": 3,
+          "value": 52.14,
+          "secondary": 0
+        },
+        {
+          "slug": "oxydenis-silvermoon-eu",
+          "name": "Oxydenis",
+          "rank": 3,
+          "value": 52.14,
+          "secondary": 10
         }
       ]
     },
@@ -695,9 +695,9 @@
         "avgDurationMs": 180567,
         "avgRaidDeaths": 19.91,
         "avgTeamDps": 290582.81,
-        "avgTeamHps": 162067.79,
+        "avgTeamHps": 162342.53,
         "bestTeamDps": 632192.1,
-        "bestTeamHps": 465140.66,
+        "bestTeamHps": 392165.98,
         "lastPullAt": "2026-06-06T19:13:13.049Z"
       },
       {
@@ -992,13 +992,13 @@
     "classes": [
       {
         "className": "Unknown",
-        "members": 159,
+        "members": 160,
         "withData": 59,
-        "avgPrimaryRecent3": 22793.01,
-        "avgDpsRecent3": 17963.47,
-        "avgHpsRecent3": 5633.63,
+        "avgPrimaryRecent3": 22573.36,
+        "avgDpsRecent3": 17851.2,
+        "avgHpsRecent3": 5521.23,
         "deathsPerPull": 0,
-        "avgReliabilityScore": 41.92
+        "avgReliabilityScore": 41.85
       }
     ]
   },
@@ -1103,8 +1103,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-04T21:48:09.358Z",
-      "lastScannedAt": "2026-06-04T21:48:09.358Z",
+      "updatedAt": "2026-06-07T16:23:13.717Z",
+      "lastScannedAt": "2026-06-07T16:23:13.717Z",
       "lastPullAt": "2026-06-04T19:56:22.399Z",
       "pullsStored": 10,
       "kills": 0,
@@ -1167,8 +1167,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-04T21:48:09.358Z",
-      "lastScannedAt": "2026-06-04T21:48:09.358Z",
+      "updatedAt": "2026-06-07T16:23:13.717Z",
+      "lastScannedAt": "2026-06-07T16:23:13.717Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -4217,8 +4217,8 @@
       "realmSlug": "burning-steppes",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-04T21:48:09.358Z",
-      "lastScannedAt": "2026-06-04T21:48:09.358Z",
+      "updatedAt": "2026-06-07T16:23:13.717Z",
+      "lastScannedAt": "2026-06-07T16:23:13.717Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -4965,8 +4965,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-04T21:48:09.358Z",
-      "lastScannedAt": "2026-06-04T21:48:09.358Z",
+      "updatedAt": "2026-06-07T16:23:13.717Z",
+      "lastScannedAt": "2026-06-07T16:23:13.717Z",
       "lastPullAt": "2026-05-09T19:39:37.808Z",
       "pullsStored": 10,
       "kills": 3,
@@ -5184,8 +5184,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-04T21:48:09.358Z",
-      "lastScannedAt": "2026-06-04T21:48:09.358Z",
+      "updatedAt": "2026-06-07T16:23:13.717Z",
+      "lastScannedAt": "2026-06-07T16:23:13.717Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5371,8 +5371,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-04T21:48:09.358Z",
-      "lastScannedAt": "2026-06-04T21:48:09.358Z",
+      "updatedAt": "2026-06-07T16:23:13.717Z",
+      "lastScannedAt": "2026-06-07T16:23:13.717Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5464,26 +5464,26 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-04T21:48:09.358Z",
-      "lastScannedAt": "2026-06-04T21:48:09.358Z",
-      "lastPullAt": "2026-06-04T19:56:22.399Z",
+      "updatedAt": "2026-06-07T16:23:13.717Z",
+      "lastScannedAt": "2026-06-07T16:23:13.717Z",
+      "lastPullAt": "2026-06-06T19:13:13.049Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 128223.42,
+      "avgPrimaryRecent3": 115873.31,
       "maxPrimaryLast10": 136940.45,
       "avgDpsRecent3": 0,
       "maxDpsLast10": 0,
-      "avgHpsRecent3": 128223.42,
+      "avgHpsRecent3": 115873.31,
       "maxHpsLast10": 136940.45,
       "deathsPerPull": 0,
-      "stabilityPercent": 93.63,
-      "consistencyPercent": 65,
-      "performanceScore": 67.75,
+      "stabilityPercent": 84.62,
+      "consistencyPercent": 73.71,
+      "performanceScore": 64.97,
       "survivalScore": 100,
-      "reliabilityScore": 78.81,
+      "reliabilityScore": 80.13,
       "trendDirection": "up",
-      "trendDeltaPercent": 10.05,
+      "trendDeltaPercent": 5.85,
       "primaryKindCounts": {
         "dps": 0,
         "hps": 10,
@@ -5686,6 +5686,37 @@
       "rank": 4,
       "updatedAt": "2026-06-06T10:12:32.293Z",
       "lastScannedAt": "2026-06-06T10:12:32.293Z",
+      "pullsStored": 0,
+      "kills": 0,
+      "wipes": 0,
+      "avgPrimaryRecent3": 0,
+      "maxPrimaryLast10": 0,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 0,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 0,
+      "deathsPerPull": 0,
+      "stabilityPercent": 0,
+      "consistencyPercent": 0,
+      "performanceScore": 0,
+      "survivalScore": 100,
+      "reliabilityScore": 30,
+      "trendDirection": "unknown",
+      "trendDeltaPercent": 0,
+      "primaryKindCounts": {
+        "dps": 0,
+        "hps": 0,
+        "unknown": 0
+      }
+    },
+    {
+      "slug": "грекулес-gordunni-eu",
+      "name": "Грекулес",
+      "realmSlug": "gordunni",
+      "region": "eu",
+      "rank": 4,
+      "updatedAt": "2026-06-07T16:23:13.717Z",
+      "lastScannedAt": "2026-06-07T16:23:13.717Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
