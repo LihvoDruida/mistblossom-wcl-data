@@ -11,8 +11,8 @@
     "killRate": 0,
     "avgDurationMs": 180567,
     "avgRaidDeaths": 19.91,
-    "avgTeamDps": 272778.79,
-    "avgTeamHps": 135593.97,
+    "avgTeamDps": 269736.32,
+    "avgTeamHps": 162067.79,
     "bestTeamDps": 632192.1,
     "bestTeamHps": 465140.66,
     "lastPullAt": "2026-06-06T19:13:13.049Z"
@@ -48,9 +48,9 @@
     "avgDurationMs": 115286,
     "avgRaidDeaths": 19.5,
     "avgTeamDps": 228595.74,
-    "avgTeamHps": 107509.52,
+    "avgTeamHps": 19020.56,
     "bestTeamDps": 349169.7,
-    "bestTeamHps": 121723.56,
+    "bestTeamHps": 114123.33,
     "lastPullAt": "2026-06-03T19:40:39.488Z"
   },
   {
@@ -66,7 +66,7 @@
     "avgDurationMs": 234932,
     "avgRaidDeaths": 19.54,
     "avgTeamDps": 79481.48,
-    "avgTeamHps": 15699.82,
+    "avgTeamHps": 10672.51,
     "bestTeamDps": 188714.69,
     "bestTeamHps": 127235.58,
     "lastPullAt": "2026-06-03T18:55:26.254Z"

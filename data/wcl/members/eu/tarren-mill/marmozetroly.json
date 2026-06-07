@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-04T12:08:11.656Z",
+  "updatedAt": "2026-06-07T09:27:10.214Z",
   "character": {
     "name": "Marmozetroly",
     "realmSlug": "tarren-mill",
@@ -1308,9 +1308,9 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-04T12:08:11.656Z",
+    "lastScannedAt": "2026-06-07T09:27:10.214Z",
     "lastPullAt": "2026-06-03T19:40:39.488Z",
-    "newPullsInLastScan": 7,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }
