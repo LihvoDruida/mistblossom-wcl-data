@@ -42,13 +42,6 @@
     "secondary": 0
   },
   {
-    "slug": "mafik-terokkar-eu",
-    "name": "Mafik",
-    "rank": 1,
-    "value": 51.65,
-    "secondary": 0
-  },
-  {
     "slug": "шпаргат-gordunni-eu",
     "name": "Шпаргат",
     "rank": 4,
@@ -81,6 +74,13 @@
     "name": "Дедика",
     "rank": 3,
     "value": 48.23,
+    "secondary": 0
+  },
+  {
+    "slug": "пизнаика-gordunni-eu",
+    "name": "Пизнайка",
+    "rank": 1,
+    "value": 48.21,
     "secondary": 0
   }
 ]

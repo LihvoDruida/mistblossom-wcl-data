@@ -28,6 +28,13 @@
     "secondary": 0
   },
   {
+    "slug": "mafik-terokkar-eu",
+    "name": "Mafik",
+    "rank": 1,
+    "value": 91731.45,
+    "secondary": 0
+  },
+  {
     "slug": "elderwizard-terokkar-eu",
     "name": "Elderwizard",
     "rank": 3,
@@ -60,13 +67,6 @@
     "name": "Мавпита",
     "rank": 1,
     "value": 87339.48,
-    "secondary": 0
-  },
-  {
-    "slug": "mafik-terokkar-eu",
-    "name": "Mafik",
-    "rank": 1,
-    "value": 81853.9,
     "secondary": 0
   },
   {

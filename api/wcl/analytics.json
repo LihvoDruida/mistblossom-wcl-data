@@ -9,17 +9,17 @@
     "killRate": 0.1078,
     "avgFightDurationMs": 200273,
     "avgRaidDeaths": 17.03,
-    "avgTeamDps": 121303.27,
+    "avgTeamDps": 121429.94,
     "avgTeamHps": 33801.58,
-    "avgPerformanceScore": 18.84,
+    "avgPerformanceScore": 18.94,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.69
+    "avgReliabilityScore": 41.81
   },
   "roles": {
     "damage": {
       "members": 51,
       "pulls": 461,
-      "avgRecent": 56516.81,
+      "avgRecent": 56710.49,
       "medianRecent": 59765.57,
       "bestRecent": 100725.11,
       "maxLast10": 207607.12,
@@ -51,6 +51,13 @@
           "name": "Kokosik",
           "rank": 3,
           "value": 93820.18,
+          "secondary": 0
+        },
+        {
+          "slug": "mafik-terokkar-eu",
+          "name": "Mafik",
+          "rank": 1,
+          "value": 91731.45,
           "secondary": 0
         },
         {
@@ -86,13 +93,6 @@
           "name": "Мавпита",
           "rank": 1,
           "value": 87339.48,
-          "secondary": 0
-        },
-        {
-          "slug": "mafik-terokkar-eu",
-          "name": "Mafik",
-          "rank": 1,
-          "value": 81853.9,
           "secondary": 0
         },
         {
@@ -394,8 +394,8 @@
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 70.46,
-    "avgConsistencyPercent": 39.92,
+    "avgStabilityPercent": 70.79,
+    "avgConsistencyPercent": 40.34,
     "mostStable": [
       {
         "slug": "yokum-terokkar-eu",
@@ -526,13 +526,6 @@
         "secondary": 0
       },
       {
-        "slug": "mafik-terokkar-eu",
-        "name": "Mafik",
-        "rank": 1,
-        "value": 51.65,
-        "secondary": 0
-      },
-      {
         "slug": "шпаргат-gordunni-eu",
         "name": "Шпаргат",
         "rank": 4,
@@ -566,100 +559,107 @@
         "rank": 3,
         "value": 48.23,
         "secondary": 0
+      },
+      {
+        "slug": "пизнаика-gordunni-eu",
+        "name": "Пизнайка",
+        "rank": 1,
+        "value": 48.21,
+        "secondary": 0
       }
     ]
   },
   "freshness": {
     "updatedWithin1h": 8,
     "updatedWithin6h": 32,
-    "updatedWithin12h": 56,
+    "updatedWithin12h": 48,
     "updatedWithin24h": 72,
-    "oldestScannedAt": "2026-06-04T04:50:18.415Z",
-    "newestScannedAt": "2026-06-06T22:10:19.207Z",
+    "oldestScannedAt": "2026-06-04T08:55:29.271Z",
+    "newestScannedAt": "2026-06-07T00:11:56.364Z",
     "staleMembers": [
-      {
-        "slug": "kashin-terokkar-eu",
-        "name": "Kashin",
-        "rank": 1,
-        "value": 65.34,
-        "secondary": 0
-      },
-      {
-        "slug": "krouli-terokkar-eu",
-        "name": "Krouli",
-        "rank": 1,
-        "value": 65.34,
-        "secondary": 0
-      },
-      {
-        "slug": "lightass-terokkar-eu",
-        "name": "Lightass",
-        "rank": 1,
-        "value": 65.34,
-        "secondary": 10
-      },
-      {
-        "slug": "mafik-terokkar-eu",
-        "name": "Mafik",
-        "rank": 1,
-        "value": 65.34,
-        "secondary": 10
-      },
-      {
-        "slug": "odeskiy-tarren-mill-eu",
-        "name": "Odeskiy",
-        "rank": 1,
-        "value": 65.34,
-        "secondary": 0
-      },
-      {
-        "slug": "blackdaddy-tarren-mill-eu",
-        "name": "Blackdaddy",
-        "rank": 3,
-        "value": 65.34,
-        "secondary": 0
-      },
-      {
-        "slug": "duszi-terokkar-eu",
-        "name": "Duszi",
-        "rank": 3,
-        "value": 65.34,
-        "secondary": 0
-      },
-      {
-        "slug": "icebloomi-tarren-mill-eu",
-        "name": "Icebloomi",
-        "rank": 3,
-        "value": 61.26,
-        "secondary": 0
-      },
       {
         "slug": "komatoznic-tarren-mill-eu",
         "name": "Komatoznic",
         "rank": 3,
-        "value": 61.26,
+        "value": 63.28,
         "secondary": 0
       },
       {
         "slug": "lishiystabb-terokkar-eu",
         "name": "Lishiystabb",
         "rank": 3,
-        "value": 61.26,
+        "value": 63.28,
         "secondary": 0
       },
       {
         "slug": "monkania-terokkar-eu",
         "name": "Monkania",
         "rank": 3,
-        "value": 61.26,
+        "value": 63.28,
         "secondary": 0
       },
       {
         "slug": "ragnar-k-burning-legion-eu",
         "name": "Ragnarøøk",
         "rank": 3,
-        "value": 61.26,
+        "value": 63.28,
         "secondary": 0
+      },
+      {
+        "slug": "sneydilio-doomhammer-eu",
+        "name": "Sneydilio",
+        "rank": 3,
+        "value": 63.28,
+        "secondary": 0
+      },
+      {
+        "slug": "therion-doomhammer-eu",
+        "name": "Thérion",
+        "rank": 3,
+        "value": 63.28,
+        "secondary": 10
+      },
+      {
+        "slug": "vurush-turalyon-eu",
+        "name": "Vurush",
+        "rank": 3,
+        "value": 63.28,
+        "secondary": 10
+      },
+      {
+        "slug": "arthasright-tarren-mill-eu",
+        "name": "Arthasright",
+        "rank": 4,
+        "value": 60.07,
+        "secondary": 10
+      },
+      {
+        "slug": "daslight-terokkar-eu",
+        "name": "Daslight",
+        "rank": 4,
+        "value": 60.07,
+        "secondary": 0
+      },
+      {
+        "slug": "demhunt-terokkar-eu",
+        "name": "Demhunt",
+        "rank": 4,
+        "value": 60.07,
+        "secondary": 0
+      },
+      {
+        "slug": "ionax-draenor-eu",
+        "name": "Ionax",
+        "rank": 4,
+        "value": 60.07,
+        "secondary": 0
+      },
+      {
+        "slug": "marmozetroly-tarren-mill-eu",
+        "name": "Marmozetroly",
+        "rank": 4,
+        "value": 60.07,
+        "secondary": 10
       }
     ]
   },
@@ -676,7 +676,7 @@
       "killRate": 0,
       "avgDurationMs": 180567,
       "avgRaidDeaths": 19.91,
-      "avgTeamDps": 250188.95,
+      "avgTeamDps": 255040.91,
       "avgTeamHps": 135593.97,
       "bestTeamDps": 695398.78,
       "bestTeamHps": 465140.66,
@@ -730,7 +730,7 @@
       "killRate": 0.0833,
       "avgDurationMs": 234932,
       "avgRaidDeaths": 19.54,
-      "avgTeamDps": 89380.54,
+      "avgTeamDps": 84135.78,
       "avgTeamHps": 15699.82,
       "bestTeamDps": 300417.91,
       "bestTeamHps": 127235.58,
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 158,
       "withData": 59,
-      "avgPrimaryRecent3": 22608.71,
-      "avgDpsRecent3": 18169.01,
+      "avgPrimaryRecent3": 22671.23,
+      "avgDpsRecent3": 18231.52,
       "avgHpsRecent3": 5718.78,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 41.69
+      "avgReliabilityScore": 41.81
     }
   ]
 }
