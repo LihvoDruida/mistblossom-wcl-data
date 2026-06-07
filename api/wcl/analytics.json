@@ -1,6 +1,6 @@
 {
   "overview": {
-    "members": 157,
+    "members": 159,
     "membersWithData": 59,
     "pullsStored": 569,
     "distinctFights": 232,
@@ -9,18 +9,18 @@
     "killRate": 0.1078,
     "avgFightDurationMs": 200273,
     "avgRaidDeaths": 17.03,
-    "avgTeamDps": 120960.29,
+    "avgTeamDps": 121997.98,
     "avgTeamHps": 34644.57,
-    "avgPerformanceScore": 19.2,
+    "avgPerformanceScore": 18.99,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 42.01
+    "avgReliabilityScore": 41.92
   },
   "roles": {
     "damage": {
       "members": 51,
       "pulls": 459,
-      "avgRecent": 56612.11,
-      "medianRecent": 59765.57,
+      "avgRecent": 57327.28,
+      "medianRecent": 60662.06,
       "bestRecent": 100725.11,
       "maxLast10": 207607.12,
       "deathsPerPull": 0,
@@ -103,10 +103,10 @@
           "secondary": 0
         },
         {
-          "slug": "коксбульдог-howling-fjord-eu",
-          "name": "Коксбульдог",
+          "slug": "otito-draenor-eu",
+          "name": "Otito",
           "rank": 4,
-          "value": 76043.61,
+          "value": 78385.57,
           "secondary": 0
         }
       ]
@@ -394,8 +394,8 @@
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 71.27,
-    "avgConsistencyPercent": 41.12,
+    "avgStabilityPercent": 71.51,
+    "avgConsistencyPercent": 40.86,
     "mostStable": [
       {
         "slug": "arthasright-tarren-mill-eu",
@@ -574,91 +574,91 @@
     "updatedWithin6h": 16,
     "updatedWithin12h": 32,
     "updatedWithin24h": 79,
-    "oldestScannedAt": "2026-06-04T16:25:43.800Z",
-    "newestScannedAt": "2026-06-07T09:27:10.214Z",
+    "oldestScannedAt": "2026-06-04T19:27:30.797Z",
+    "newestScannedAt": "2026-06-07T11:54:36.606Z",
     "staleMembers": [
-      {
-        "slug": "lishiyburn-ragnaros-eu",
-        "name": "Lishiyburn",
-        "rank": 1,
-        "value": 65.03,
-        "secondary": 10
-      },
-      {
-        "slug": "molfar-terokkar-eu",
-        "name": "Mólfár",
-        "rank": 2,
-        "value": 65.03,
-        "secondary": 8
-      },
-      {
-        "slug": "skirvir-turalyon-eu",
-        "name": "Skirvir",
-        "rank": 3,
-        "value": 65.03,
-        "secondary": 10
-      },
-      {
-        "slug": "otito-draenor-eu",
-        "name": "Otito",
-        "rank": 4,
-        "value": 65.03,
-        "secondary": 10
-      },
-      {
-        "slug": "rolemodel-burning-legion-eu",
-        "name": "Rolemodel",
-        "rank": 4,
-        "value": 65.03,
-        "secondary": 0
-      },
-      {
-        "slug": "twigsnapper-doomhammer-eu",
-        "name": "Twigsnapper",
-        "rank": 4,
-        "value": 65.03,
-        "secondary": 0
-      },
       {
         "slug": "blackberry-terokkar-eu",
         "name": "Blackberry",
         "rank": 3,
-        "value": 62,
+        "value": 64.46,
         "secondary": 0
       },
       {
         "slug": "straponeero-tarren-mill-eu",
         "name": "Straponeero",
         "rank": 3,
-        "value": 62,
+        "value": 64.46,
         "secondary": 0
       },
       {
         "slug": "travka-terokkar-eu",
         "name": "Travka",
         "rank": 3,
-        "value": 62,
+        "value": 64.46,
         "secondary": 0
       },
       {
         "slug": "yokuha-terokkar-eu",
         "name": "Yokuha",
         "rank": 3,
-        "value": 62,
+        "value": 64.46,
         "secondary": 10
       },
       {
         "slug": "дедика-eversong-eu",
         "name": "Дедика",
         "rank": 3,
-        "value": 62,
+        "value": 64.46,
         "secondary": 10
       },
       {
         "slug": "зулпот-howling-fjord-eu",
         "name": "Зулпот",
         "rank": 3,
-        "value": 62,
+        "value": 64.46,
+        "secondary": 10
+      },
+      {
+        "slug": "клеосса-eversong-eu",
+        "name": "Клеосса",
+        "rank": 3,
+        "value": 64.46,
+        "secondary": 10
+      },
+      {
+        "slug": "котто-gordunni-eu",
+        "name": "Котто",
+        "rank": 3,
+        "value": 64.46,
+        "secondary": 0
+      },
+      {
+        "slug": "forchun-silvermoon-eu",
+        "name": "Forchun",
+        "rank": 1,
+        "value": 62.12,
+        "secondary": 10
+      },
+      {
+        "slug": "ironbelly-silvermoon-eu",
+        "name": "Ironbelly",
+        "rank": 1,
+        "value": 62.12,
+        "secondary": 0
+      },
+      {
+        "slug": "darkleaf-burning-steppes-eu",
+        "name": "Darkleaf",
+        "rank": 4,
+        "value": 62.12,
+        "secondary": 0
+      },
+      {
+        "slug": "pyatochka-terokkar-eu",
+        "name": "Pyatochka",
+        "rank": 4,
+        "value": 62.12,
         "secondary": 10
       }
     ]
@@ -676,7 +676,7 @@
       "killRate": 0,
       "avgDurationMs": 180567,
       "avgRaidDeaths": 19.91,
-      "avgTeamDps": 269736.32,
+      "avgTeamDps": 290582.81,
       "avgTeamHps": 162067.79,
       "bestTeamDps": 632192.1,
       "bestTeamHps": 465140.66,
@@ -766,7 +766,7 @@
       "killRate": 0,
       "avgDurationMs": 194607,
       "avgRaidDeaths": 16.73,
-      "avgTeamDps": 75496.39,
+      "avgTeamDps": 59098.59,
       "avgTeamHps": 36410.1,
       "bestTeamDps": 161690.54,
       "bestTeamHps": 102417.3,
@@ -974,13 +974,13 @@
   "classes": [
     {
       "className": "Unknown",
-      "members": 157,
+      "members": 159,
       "withData": 59,
-      "avgPrimaryRecent3": 22851.05,
-      "avgDpsRecent3": 17959.99,
-      "avgHpsRecent3": 5705.39,
+      "avgPrimaryRecent3": 22793.01,
+      "avgDpsRecent3": 17963.47,
+      "avgHpsRecent3": 5633.63,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 42.01
+      "avgReliabilityScore": 41.92
     }
   ]
 }

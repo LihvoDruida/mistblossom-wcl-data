@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-04T16:25:43.800Z",
+  "updatedAt": "2026-06-07T11:54:36.606Z",
   "character": {
     "name": "Mólfár",
     "realmSlug": "terokkar",
@@ -620,7 +620,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-04T16:25:43.800Z",
+    "lastScannedAt": "2026-06-07T11:54:36.606Z",
     "lastPullAt": "2026-04-05T18:12:43.110Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

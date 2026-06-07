@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-04T16:25:43.800Z",
+  "updatedAt": "2026-06-07T11:54:36.606Z",
   "character": {
     "name": "Otito",
     "realmSlug": "draenor",
@@ -16,46 +16,46 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 150,
+    "totalRaidDeaths": 197,
     "deathsPerPull": 0,
-    "stabilityPercent": 63.65,
-    "consistencyPercent": 43.47,
-    "performanceScore": 45.88,
+    "stabilityPercent": 77.97,
+    "consistencyPercent": 28.47,
+    "performanceScore": 50,
     "survivalScore": 100,
-    "reliabilityScore": 55.23,
+    "reliabilityScore": 65.3,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 41911.55,
+      "avgDps": 78385.57,
       "avgHps": 0,
-      "avgPrimary": 41911.55,
-      "avgDurationMs": 426578,
+      "avgPrimary": 78385.57,
+      "avgDurationMs": 207329,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 58903.27,
+      "avgDps": 92106.46,
       "avgHps": 0,
-      "avgPrimary": 58903.27,
-      "avgDurationMs": 298163,
+      "avgPrimary": 92106.46,
+      "avgDurationMs": 141531,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 65842.54,
+      "maxDps": 100538.68,
       "minDps": 28620.03,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 65842.54,
+      "maxPrimary": 100538.68,
       "minPrimary": 28620.03,
       "maxDurationMs": 543654,
-      "minDurationMs": 64027
+      "minDurationMs": 70368
     },
     "trend": {
       "direction": "down",
-      "recentAvg": 41911.55,
-      "previousAvg": 58903.27,
-      "delta": -16991.72,
-      "deltaPercent": -28.85
+      "recentAvg": 78385.57,
+      "previousAvg": 92106.46,
+      "delta": -13720.89,
+      "deltaPercent": -14.9
     },
     "byRole": {
       "healer": {
@@ -71,11 +71,11 @@
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 41911.55,
-        "maxLast10": 65842.54,
+        "avgRecent": 78385.57,
+        "maxLast10": 100538.68,
         "minLast10": 28620.03,
         "deathsPerPull": 0,
-        "bestPullKey": "4Zng3fprDXvGjb1V:15:Otito:draenor:eu",
+        "bestPullKey": "kgwGHZ3DFJr7TVLv:15:Otito:draenor:eu",
         "worstPullKey": "4Zng3fprDXvGjb1V:17:Otito:draenor:eu"
       },
       "unknown": {
@@ -91,18 +91,1154 @@
     "dataQuality": {
       "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 0,
+      "pullsWithRoleInferred": 8,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
         "unknown": 0
       },
-      "confidenceAvg": 0,
+      "confidenceAvg": 0.52,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "kgwGHZ3DFJr7TVLv:18:Otito:draenor:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=18",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T19:13:13.049Z",
+      "durationMs": 250245,
+      "bossPercentage": 86.45,
+      "fightPercentage": 86.45,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 5,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "DemonHunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 74159.52,
+        "hps": 7688.09,
+        "primary": 74159.52,
+        "primaryKind": "dps",
+        "fightDps": 74159.52,
+        "fightHps": 7688.09,
+        "activeDps": 94649.63,
+        "activeHps": 8591.86,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 18558048,
+        "healingTotal": 1923907,
+        "damageActiveTimeMs": 196071,
+        "healingActiveTimeMs": 223922,
+        "damageTotalTimeMs": 250245,
+        "healingTotalTimeMs": 250245,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 18,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7122005,
+          "endTime": 7372250,
+          "bossPercentage": 86.45,
+          "fightPercentage": 86.45,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 250245,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 18558048,
+              "activeTime": 196071,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 250245,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 1923907,
+              "activeTime": 223922,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Otito",
+          "normalizedKeys": [
+            "otito:draenor:eu",
+            "otito::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "DemonHunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:17:Otito:draenor:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=17",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T19:01:51.678Z",
+      "durationMs": 134861,
+      "bossPercentage": 58.84,
+      "fightPercentage": 58.84,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 5,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "DemonHunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 92945.15,
+        "hps": 10522.63,
+        "primary": 92945.15,
+        "primaryKind": "dps",
+        "fightDps": 92945.15,
+        "fightHps": 10522.63,
+        "activeDps": 96642.12,
+        "activeHps": 10751.84,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 12534676,
+        "healingTotal": 1419092,
+        "damageActiveTimeMs": 129702,
+        "healingActiveTimeMs": 131986,
+        "damageTotalTimeMs": 134861,
+        "healingTotalTimeMs": 134861,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 17,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6440634,
+          "endTime": 6575495,
+          "bossPercentage": 58.84,
+          "fightPercentage": 58.84,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 134861,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 12534676,
+              "activeTime": 129702,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 134861,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 1419092,
+              "activeTime": 131986,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Otito",
+          "normalizedKeys": [
+            "otito:draenor:eu",
+            "otito::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "DemonHunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:16:Otito:draenor:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=16",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:56:06.630Z",
+      "durationMs": 236881,
+      "bossPercentage": 49.63,
+      "fightPercentage": 49.63,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 5,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "DemonHunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 68052.05,
+        "hps": 7413.32,
+        "primary": 68052.05,
+        "primaryKind": "dps",
+        "fightDps": 68052.05,
+        "fightHps": 7413.32,
+        "activeDps": 91029.01,
+        "activeHps": 8547,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 16120237,
+        "healingTotal": 1756075,
+        "damageActiveTimeMs": 177089,
+        "healingActiveTimeMs": 205461,
+        "damageTotalTimeMs": 236881,
+        "healingTotalTimeMs": 236881,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 16,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6095586,
+          "endTime": 6332467,
+          "bossPercentage": 49.63,
+          "fightPercentage": 49.63,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 236881,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 16120237,
+              "activeTime": 177089,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 236881,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 1756075,
+              "activeTime": 205461,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Otito",
+          "normalizedKeys": [
+            "otito:draenor:eu",
+            "otito::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "DemonHunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:15:Otito:draenor:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=15",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:52:36.882Z",
+      "durationMs": 133683,
+      "bossPercentage": 60.68,
+      "fightPercentage": 60.68,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 5,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "DemonHunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 100538.68,
+        "hps": 8535.51,
+        "primary": 100538.68,
+        "primaryKind": "dps",
+        "fightDps": 100538.68,
+        "fightHps": 8535.51,
+        "activeDps": 102860.85,
+        "activeHps": 8698.9,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 13440313,
+        "healingTotal": 1141052,
+        "damageActiveTimeMs": 130665,
+        "healingActiveTimeMs": 131172,
+        "damageTotalTimeMs": 133683,
+        "healingTotalTimeMs": 133683,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 15,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5885838,
+          "endTime": 6019521,
+          "bossPercentage": 60.68,
+          "fightPercentage": 60.68,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 133683,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 13440313,
+              "activeTime": 130665,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 133683,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 1141052,
+              "activeTime": 131172,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Otito",
+          "normalizedKeys": [
+            "otito:draenor:eu",
+            "otito::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "DemonHunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:14:Otito:draenor:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=14",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:47:00.495Z",
+      "durationMs": 220542,
+      "bossPercentage": 48.63,
+      "fightPercentage": 48.63,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 5,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "DemonHunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 77580.62,
+        "hps": 6980.92,
+        "primary": 77580.62,
+        "primaryKind": "dps",
+        "fightDps": 77580.62,
+        "fightHps": 6980.92,
+        "activeDps": 103027.55,
+        "activeHps": 8896.1,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 17109785,
+        "healingTotal": 1539585,
+        "damageActiveTimeMs": 166070,
+        "healingActiveTimeMs": 173063,
+        "damageTotalTimeMs": 220542,
+        "healingTotalTimeMs": 220542,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 14,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5549451,
+          "endTime": 5769993,
+          "bossPercentage": 48.63,
+          "fightPercentage": 48.63,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 220542,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 17109785,
+              "activeTime": 166070,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 220542,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 1539585,
+              "activeTime": 173063,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Otito",
+          "normalizedKeys": [
+            "otito:draenor:eu",
+            "otito::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "DemonHunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:13:Otito:draenor:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=13",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:42:44.004Z",
+      "durationMs": 70368,
+      "bossPercentage": 80.29,
+      "fightPercentage": 80.29,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 5,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "DemonHunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 98200.08,
+        "hps": 8960.91,
+        "primary": 98200.08,
+        "primaryKind": "dps",
+        "fightDps": 98200.08,
+        "fightHps": 8960.91,
+        "activeDps": 112750.55,
+        "activeHps": 10714.53,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 6910143,
+        "healingTotal": 630561,
+        "damageActiveTimeMs": 61287,
+        "healingActiveTimeMs": 58851,
+        "damageTotalTimeMs": 70368,
+        "healingTotalTimeMs": 70368,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 13,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5292960,
+          "endTime": 5363328,
+          "bossPercentage": 80.29,
+          "fightPercentage": 80.29,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 70368,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 6910143,
+              "activeTime": 61287,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 70368,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 630561,
+              "activeTime": 58851,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Otito",
+          "normalizedKeys": [
+            "otito:draenor:eu",
+            "otito::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "DemonHunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:12:Otito:draenor:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=12",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:36:00.372Z",
+      "durationMs": 254434,
+      "bossPercentage": 82.41,
+      "fightPercentage": 82.41,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 5,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "DemonHunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 89896.96,
+        "hps": 9620.65,
+        "primary": 89896.96,
+        "primaryKind": "dps",
+        "fightDps": 89896.96,
+        "fightHps": 9620.65,
+        "activeDps": 100471.07,
+        "activeHps": 10035.06,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 22872842,
+        "healingTotal": 2447821,
+        "damageActiveTimeMs": 227656,
+        "healingActiveTimeMs": 243927,
+        "damageTotalTimeMs": 254434,
+        "healingTotalTimeMs": 254434,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 12,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4889328,
+          "endTime": 5143762,
+          "bossPercentage": 82.41,
+          "fightPercentage": 82.41,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 254434,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 22872842,
+              "activeTime": 227656,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 254434,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 2447821,
+              "activeTime": 243927,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Otito",
+          "normalizedKeys": [
+            "otito:draenor:eu",
+            "otito::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "DemonHunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "kgwGHZ3DFJr7TVLv:11:Otito:draenor:eu",
+      "reportCode": "kgwGHZ3DFJr7TVLv",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-06T17:14:31.044Z",
+      "reportEndedAt": "2026-06-06T19:19:52.310Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=11",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-06T18:30:55.815Z",
+      "durationMs": 198070,
+      "bossPercentage": 50.96,
+      "fightPercentage": 50.96,
+      "averageItemLevel": 285.3500061035156,
+      "actor": {
+        "id": 5,
+        "name": "Otito",
+        "server": "Draenor",
+        "type": "Player",
+        "subType": "DemonHunter"
+      },
+      "role": {
+        "role": "dps",
+        "source": "metric-inference",
+        "className": "DemonHunter",
+        "confidence": 0.65
+      },
+      "metric": {
+        "dps": 65714.31,
+        "hps": 5317.81,
+        "primary": 65714.31,
+        "primaryKind": "dps",
+        "fightDps": 65714.31,
+        "fightHps": 5317.81,
+        "activeDps": 111490.18,
+        "activeHps": 9176.59,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 13016033,
+        "healingTotal": 1053298,
+        "damageActiveTimeMs": 116746,
+        "healingActiveTimeMs": 114781,
+        "damageTotalTimeMs": 198070,
+        "healingTotalTimeMs": 198070,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 281,
+        "healingItemLevel": 281,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "kgwGHZ3DFJr7TVLv",
+          "title": "VS / DR / MQD",
+          "startTime": 1780766071044,
+          "endTime": 1780773592310
+        },
+        "fight": {
+          "id": 11,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4584771,
+          "endTime": 4782841,
+          "bossPercentage": 50.96,
+          "fightPercentage": 50.96,
+          "averageItemLevel": 285.3500061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 198070,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 13016033,
+              "activeTime": 116746,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 198070,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Otito",
+              "type": "DemonHunter",
+              "icon": "DemonHunter-Devourer",
+              "total": 1053298,
+              "activeTime": 114781,
+              "itemLevel": 281,
+              "guid": 188974647
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Otito",
+          "normalizedKeys": [
+            "otito:draenor:eu",
+            "otito::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "metric-inference",
+            "className": "DemonHunter",
+            "confidence": 0.65
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "4Zng3fprDXvGjb1V:18:Otito:draenor:eu",
       "reportCode": "4Zng3fprDXvGjb1V",
@@ -230,527 +1366,15 @@
         "source": "unknown",
         "confidence": 0
       }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:16:Otito:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 16,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=16",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:35:38.267Z",
-      "durationMs": 444676,
-      "bossPercentage": 27.83,
-      "fightPercentage": 7.79,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 118,
-        "name": "Otito",
-        "server": "Draenor",
-        "type": "Player",
-        "subType": "DemonHunter"
-      },
-      "metric": {
-        "dps": 42004.36,
-        "hps": 6600.99,
-        "primary": 42004.36,
-        "primaryKind": "dps",
-        "fightDps": 42004.36,
-        "fightHps": 6600.99,
-        "activeDps": 42004.36,
-        "activeHps": 6600.99,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 14
-      },
-      "source": {
-        "damageTotal": 18678330,
-        "healingTotal": 2935302,
-        "damageActiveTimeMs": 340735,
-        "healingActiveTimeMs": 348813,
-        "damageTotalTimeMs": 444676,
-        "healingTotalTimeMs": 444676,
-        "damageEntryId": 118,
-        "healingEntryId": 118,
-        "damageItemLevel": 268,
-        "healingItemLevel": 268,
-        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:15:Otito:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 15,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=15",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:29:59.322Z",
-      "durationMs": 168201,
-      "bossPercentage": 99.93,
-      "fightPercentage": 61.97,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 118,
-        "name": "Otito",
-        "server": "Draenor",
-        "type": "Player",
-        "subType": "DemonHunter"
-      },
-      "metric": {
-        "dps": 65842.54,
-        "hps": 7583.9,
-        "primary": 65842.54,
-        "primaryKind": "dps",
-        "fightDps": 65842.54,
-        "fightHps": 7583.9,
-        "activeDps": 65842.54,
-        "activeHps": 7583.9,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 16
-      },
-      "source": {
-        "damageTotal": 11074781,
-        "healingTotal": 1275620,
-        "damageActiveTimeMs": 106543,
-        "healingActiveTimeMs": 108025,
-        "damageTotalTimeMs": 168201,
-        "healingTotalTimeMs": 168201,
-        "damageEntryId": 118,
-        "healingEntryId": 118,
-        "damageItemLevel": 268,
-        "healingItemLevel": 268,
-        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:14:Otito:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 14,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=14",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:23:32.414Z",
-      "durationMs": 263926,
-      "bossPercentage": 51.89,
-      "fightPercentage": 45.64,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 118,
-        "name": "Otito",
-        "server": "Draenor",
-        "type": "Player",
-        "subType": "DemonHunter"
-      },
-      "metric": {
-        "dps": 62119.93,
-        "hps": 8429.61,
-        "primary": 62119.93,
-        "primaryKind": "dps",
-        "fightDps": 62119.93,
-        "fightHps": 8429.61,
-        "activeDps": 62119.93,
-        "activeHps": 8429.61,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 15
-      },
-      "source": {
-        "damageTotal": 16395064,
-        "healingTotal": 2224793,
-        "damageActiveTimeMs": 208175,
-        "healingActiveTimeMs": 207970,
-        "damageTotalTimeMs": 263926,
-        "healingTotalTimeMs": 263926,
-        "damageEntryId": 118,
-        "healingEntryId": 118,
-        "damageItemLevel": 268,
-        "healingItemLevel": 268,
-        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:13:Otito:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 13,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=13",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:14:24.461Z",
-      "durationMs": 462361,
-      "bossPercentage": 37.61,
-      "fightPercentage": 10.53,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 118,
-        "name": "Otito",
-        "server": "Draenor",
-        "type": "Player",
-        "subType": "DemonHunter"
-      },
-      "metric": {
-        "dps": 48747.35,
-        "hps": 7902.15,
-        "primary": 48747.35,
-        "primaryKind": "dps",
-        "fightDps": 48747.35,
-        "fightHps": 7902.15,
-        "activeDps": 48747.35,
-        "activeHps": 7902.15,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 16
-      },
-      "source": {
-        "damageTotal": 22538873,
-        "healingTotal": 3653646,
-        "damageActiveTimeMs": 344807,
-        "healingActiveTimeMs": 357904,
-        "damageTotalTimeMs": 462361,
-        "healingTotalTimeMs": 462361,
-        "damageEntryId": 118,
-        "healingEntryId": 118,
-        "damageItemLevel": 268,
-        "healingItemLevel": 268,
-        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:12:Otito:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 12,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=12",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:12:17.451Z",
-      "durationMs": 64027,
-      "bossPercentage": 65.47,
-      "fightPercentage": 86.87,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 118,
-        "name": "Otito",
-        "server": "Draenor",
-        "type": "Player",
-        "subType": "DemonHunter"
-      },
-      "metric": {
-        "dps": 33866.17,
-        "hps": 8644.46,
-        "primary": 33866.17,
-        "primaryKind": "dps",
-        "fightDps": 33866.17,
-        "fightHps": 8644.46,
-        "activeDps": 33866.17,
-        "activeHps": 8644.46,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 14
-      },
-      "source": {
-        "damageTotal": 2168349,
-        "healingTotal": 553479,
-        "damageActiveTimeMs": 50254,
-        "healingActiveTimeMs": 53928,
-        "damageTotalTimeMs": 64027,
-        "healingTotalTimeMs": 64027,
-        "damageEntryId": 118,
-        "healingEntryId": 118,
-        "damageItemLevel": 268,
-        "healingItemLevel": 268,
-        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:11:Otito:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 11,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=11",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:08:04.750Z",
-      "durationMs": 127574,
-      "bossPercentage": 32.96,
-      "fightPercentage": 74.52,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 118,
-        "name": "Otito",
-        "server": "Draenor",
-        "type": "Player",
-        "subType": "DemonHunter"
-      },
-      "metric": {
-        "dps": 62955.08,
-        "hps": 7865.79,
-        "primary": 62955.08,
-        "primaryKind": "dps",
-        "fightDps": 62955.08,
-        "fightHps": 7865.79,
-        "activeDps": 62955.08,
-        "activeHps": 7865.79,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 14
-      },
-      "source": {
-        "damageTotal": 8031432,
-        "healingTotal": 1003470,
-        "damageActiveTimeMs": 100720,
-        "healingActiveTimeMs": 102360,
-        "damageTotalTimeMs": 127574,
-        "healingTotalTimeMs": 127574,
-        "damageEntryId": 118,
-        "healingEntryId": 118,
-        "damageItemLevel": 268,
-        "healingItemLevel": 268,
-        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:10:Otito:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 10,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=10",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T18:02:32.617Z",
-      "durationMs": 242881,
-      "bossPercentage": 57.99,
-      "fightPercentage": 47.71,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 118,
-        "name": "Otito",
-        "server": "Draenor",
-        "type": "Player",
-        "subType": "DemonHunter"
-      },
-      "metric": {
-        "dps": 59869.91,
-        "hps": 6630.18,
-        "primary": 59869.91,
-        "primaryKind": "dps",
-        "fightDps": 59869.91,
-        "fightHps": 6630.18,
-        "activeDps": 59869.91,
-        "activeHps": 6630.18,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 15
-      },
-      "source": {
-        "damageTotal": 14541264,
-        "healingTotal": 1610344,
-        "damageActiveTimeMs": 185031,
-        "healingActiveTimeMs": 203652,
-        "damageTotalTimeMs": 242881,
-        "healingTotalTimeMs": 242881,
-        "damageEntryId": 118,
-        "healingEntryId": 118,
-        "damageItemLevel": 268,
-        "healingItemLevel": 268,
-        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "4Zng3fprDXvGjb1V:9:Otito:draenor:eu",
-      "reportCode": "4Zng3fprDXvGjb1V",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-17T16:43:04.255Z",
-      "reportEndedAt": "2026-05-17T19:15:23.122Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 9,
-      "url": "https://www.warcraftlogs.com/reports/4Zng3fprDXvGjb1V#fight=9",
-      "status": "WIPE",
-      "bossName": "Crown of the Cosmos",
-      "encounterId": 3181,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-05-17T17:57:19.007Z",
-      "durationMs": 242761,
-      "bossPercentage": 61.85,
-      "fightPercentage": 49.02,
-      "averageItemLevel": 280.71429443359375,
-      "actor": {
-        "id": 118,
-        "name": "Otito",
-        "server": "Draenor",
-        "type": "Player",
-        "subType": "DemonHunter"
-      },
-      "metric": {
-        "dps": 50937.63,
-        "hps": 6053.57,
-        "primary": 50937.63,
-        "primaryKind": "dps",
-        "fightDps": 50937.63,
-        "fightHps": 6053.57,
-        "activeDps": 50937.63,
-        "activeHps": 6053.57,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 15
-      },
-      "source": {
-        "damageTotal": 12365671,
-        "healingTotal": 1469570,
-        "damageActiveTimeMs": 137300,
-        "healingActiveTimeMs": 157599,
-        "damageTotalTimeMs": 242761,
-        "healingTotalTimeMs": 242761,
-        "damageEntryId": 118,
-        "healingEntryId": 118,
-        "damageItemLevel": 268,
-        "healingItemLevel": 268,
-        "matchedBy": "damage:actor-id:118,healing:actor-id:118"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-04T16:25:43.800Z",
-    "lastPullAt": "2026-05-17T19:09:27.100Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-07T11:54:36.606Z",
+    "lastPullAt": "2026-06-06T19:13:13.049Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }

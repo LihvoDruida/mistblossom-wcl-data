@@ -2,10 +2,10 @@
   "schemaVersion": 3,
   "updatedAt": "2026-06-07T11:54:36.606Z",
   "character": {
-    "name": "Regin",
-    "realmSlug": "doomhammer",
+    "name": "Сумраки",
+    "realmSlug": "eversong",
     "region": "eu",
-    "slug": "regin-doomhammer-eu",
+    "slug": "сумраки-eversong-eu",
     "rank": 4,
     "roleHint": "unknown"
   },
