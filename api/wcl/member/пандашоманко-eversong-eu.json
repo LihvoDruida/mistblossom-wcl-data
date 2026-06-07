@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-05T16:06:00.111Z",
+  "updatedAt": "2026-06-07T22:11:47.897Z",
   "character": {
     "name": "Пандашоманко",
     "realmSlug": "eversong",
@@ -721,7 +721,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-05T16:06:00.111Z",
+    "lastScannedAt": "2026-06-07T22:11:47.897Z",
     "lastPullAt": "2026-05-17T19:09:27.100Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

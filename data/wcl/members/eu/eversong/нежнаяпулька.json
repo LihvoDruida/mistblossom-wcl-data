@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-05T16:06:00.111Z",
+  "updatedAt": "2026-06-07T22:11:47.897Z",
   "character": {
     "name": "Нежнаяпулька",
     "realmSlug": "eversong",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-05T16:06:00.111Z",
+    "lastScannedAt": "2026-06-07T22:11:47.897Z",
     "lastPullAt": "2026-05-01T19:03:40.900Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
