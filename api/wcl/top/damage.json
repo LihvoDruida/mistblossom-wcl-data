@@ -1,5 +1,12 @@
 [
   {
+    "slug": "пизнаика-gordunni-eu",
+    "name": "Пизнайка",
+    "rank": 1,
+    "value": 107338.9,
+    "secondary": 0
+  },
+  {
     "slug": "rozbiynik-tarren-mill-eu",
     "name": "Rozbiynik",
     "rank": 3,
@@ -53,13 +60,6 @@
     "name": "Marmozetroly",
     "rank": 4,
     "value": 87923.27,
-    "secondary": 0
-  },
-  {
-    "slug": "пизнаика-gordunni-eu",
-    "name": "Пизнайка",
-    "rank": 1,
-    "value": 87535.13,
     "secondary": 0
   },
   {

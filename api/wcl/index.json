@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T05:59:27.288Z",
+  "updatedAt": "2026-06-08T11:11:55.008Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -27,22 +27,29 @@
       "killRate": 0.1078,
       "avgFightDurationMs": 200273,
       "avgRaidDeaths": 17.03,
-      "avgTeamDps": 122518.08,
+      "avgTeamDps": 124667.61,
       "avgTeamHps": 34682.47,
-      "avgPerformanceScore": 18.51,
+      "avgPerformanceScore": 18.54,
       "avgSurvivalScore": 100,
-      "avgReliabilityScore": 41.65
+      "avgReliabilityScore": 41.74
     },
     "roles": {
       "damage": {
         "members": 51,
         "pulls": 459,
-        "avgRecent": 57227.8,
+        "avgRecent": 57616.11,
         "medianRecent": 60662.06,
-        "bestRecent": 100725.11,
+        "bestRecent": 107338.9,
         "maxLast10": 207607.12,
         "deathsPerPull": 0,
         "topRecent": [
+          {
+            "slug": "пизнаика-gordunni-eu",
+            "name": "Пизнайка",
+            "rank": 1,
+            "value": 107338.9,
+            "secondary": 0
+          },
           {
             "slug": "rozbiynik-tarren-mill-eu",
             "name": "Rozbiynik",
@@ -97,13 +104,6 @@
             "name": "Marmozetroly",
             "rank": 4,
             "value": 87923.27,
-            "secondary": 0
-          },
-          {
-            "slug": "пизнаика-gordunni-eu",
-            "name": "Пизнайка",
-            "rank": 1,
-            "value": 87535.13,
             "secondary": 0
           },
           {
@@ -412,8 +412,8 @@
       ]
     },
     "consistency": {
-      "avgStabilityPercent": 71.22,
-      "avgConsistencyPercent": 41.33,
+      "avgStabilityPercent": 71.18,
+      "avgConsistencyPercent": 41.8,
       "mostStable": [
         {
           "slug": "arthasright-tarren-mill-eu",
@@ -579,10 +579,10 @@
           "secondary": 0
         },
         {
-          "slug": "пизнаика-gordunni-eu",
-          "name": "Пизнайка",
-          "rank": 1,
-          "value": 48.21,
+          "slug": "корукк-eversong-eu",
+          "name": "Корукк",
+          "rank": 3,
+          "value": 46.84,
           "secondary": 0
         }
       ]
@@ -590,94 +590,94 @@
     "freshness": {
       "updatedWithin1h": 8,
       "updatedWithin6h": 16,
-      "updatedWithin12h": 40,
+      "updatedWithin12h": 24,
       "updatedWithin24h": 72,
-      "oldestScannedAt": "2026-06-05T21:41:04.223Z",
-      "newestScannedAt": "2026-06-08T05:58:54.359Z",
+      "oldestScannedAt": "2026-06-05T23:16:28.434Z",
+      "newestScannedAt": "2026-06-08T11:11:21.816Z",
       "staleMembers": [
-        {
-          "slug": "threataan-silvermoon-eu",
-          "name": "Threataan",
-          "rank": 4,
-          "value": 56.31,
-          "secondary": 0
-        },
-        {
-          "slug": "valemor-silvermoon-eu",
-          "name": "Valemor",
-          "rank": 4,
-          "value": 56.31,
-          "secondary": 0
-        },
-        {
-          "slug": "базрог-gordunni-eu",
-          "name": "Базрог",
-          "rank": 4,
-          "value": 56.31,
-          "secondary": 0
-        },
-        {
-          "slug": "рокталл-soulflayer-eu",
-          "name": "Рокталл",
-          "rank": 4,
-          "value": 56.31,
-          "secondary": 0
-        },
-        {
-          "slug": "пизнаика-gordunni-eu",
-          "name": "Пизнайка",
-          "rank": 1,
-          "value": 54.72,
-          "secondary": 10
-        },
-        {
-          "slug": "тузольд-gordunni-eu",
-          "name": "Тузольд",
-          "rank": 1,
-          "value": 54.72,
-          "secondary": 10
-        },
-        {
-          "slug": "альянсс-gordunni-eu",
-          "name": "Альянсс",
-          "rank": 3,
-          "value": 54.72,
-          "secondary": 0
-        },
-        {
-          "slug": "галазард-eversong-eu",
-          "name": "Галазард",
-          "rank": 3,
-          "value": 54.72,
-          "secondary": 5
-        },
         {
           "slug": "кеенди-gordunni-eu",
           "name": "Кеенди",
           "rank": 3,
-          "value": 54.72,
+          "value": 59.92,
           "secondary": 10
         },
         {
           "slug": "кибароу-soulflayer-eu",
           "name": "Кибароу",
           "rank": 3,
-          "value": 54.72,
+          "value": 59.92,
           "secondary": 0
         },
         {
           "slug": "моннал-gordunni-eu",
           "name": "Моннал",
           "rank": 3,
-          "value": 54.72,
+          "value": 59.92,
           "secondary": 10
         },
         {
           "slug": "монэлушка-gordunni-eu",
           "name": "Монэлушка",
           "rank": 4,
-          "value": 54.72,
+          "value": 59.92,
           "secondary": 0
+        },
+        {
+          "slug": "дятелэлуны-soulflayer-eu",
+          "name": "Дятелэлуны",
+          "rank": 3,
+          "value": 51.37,
+          "secondary": 0
+        },
+        {
+          "slug": "корукк-eversong-eu",
+          "name": "Корукк",
+          "rank": 3,
+          "value": 51.37,
+          "secondary": 10
+        },
+        {
+          "slug": "кумбар-gordunni-eu",
+          "name": "Кумбар",
+          "rank": 3,
+          "value": 51.37,
+          "secondary": 0
+        },
+        {
+          "slug": "лилая-grom-eu",
+          "name": "Лилая",
+          "rank": 3,
+          "value": 51.37,
+          "secondary": 10
+        },
+        {
+          "slug": "мелиодас-gordunni-eu",
+          "name": "Мелиодас",
+          "rank": 3,
+          "value": 51.37,
+          "secondary": 0
+        },
+        {
+          "slug": "поливалочки-gordunni-eu",
+          "name": "Поливалочки",
+          "rank": 3,
+          "value": 51.37,
+          "secondary": 0
+        },
+        {
+          "slug": "севатар-lich-king-eu",
+          "name": "Севатар",
+          "rank": 3,
+          "value": 51.37,
+          "secondary": 10
+        },
+        {
+          "slug": "щпикачечка-gordunni-eu",
+          "name": "Щпикачечка",
+          "rank": 3,
+          "value": 51.37,
+          "secondary": 8
         }
       ]
     },
@@ -694,9 +694,9 @@
         "killRate": 0,
         "avgDurationMs": 180567,
         "avgRaidDeaths": 19.91,
-        "avgTeamDps": 294353.53,
+        "avgTeamDps": 321853.05,
         "avgTeamHps": 162342.53,
-        "bestTeamDps": 600322.37,
+        "bestTeamDps": 734237.24,
         "bestTeamHps": 392165.98,
         "lastPullAt": "2026-06-06T19:13:13.049Z"
       },
@@ -802,9 +802,9 @@
         "killRate": 0.0278,
         "avgDurationMs": 175340,
         "avgRaidDeaths": 19.53,
-        "avgTeamDps": 86356.42,
+        "avgTeamDps": 75764.95,
         "avgTeamHps": 17064.59,
-        "bestTeamDps": 206616.76,
+        "bestTeamDps": 184771.12,
         "bestTeamHps": 84512.88,
         "lastPullAt": "2026-05-17T17:34:07.976Z"
       },
@@ -994,11 +994,11 @@
         "className": "Unknown",
         "members": 163,
         "withData": 59,
-        "avgPrimaryRecent3": 22126.78,
-        "avgDpsRecent3": 17491.52,
+        "avgPrimaryRecent3": 22248.27,
+        "avgDpsRecent3": 17613.02,
         "avgHpsRecent3": 5419.61,
         "deathsPerPull": 0,
-        "avgReliabilityScore": 41.65
+        "avgReliabilityScore": 41.74
       }
     ]
   },
@@ -1575,26 +1575,26 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-05T23:16:28.434Z",
-      "lastScannedAt": "2026-06-05T23:16:28.434Z",
-      "lastPullAt": "2026-06-04T19:07:41.231Z",
+      "updatedAt": "2026-06-08T11:11:21.816Z",
+      "lastScannedAt": "2026-06-08T11:11:21.816Z",
+      "lastPullAt": "2026-06-06T19:13:13.049Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 87535.13,
-      "maxPrimaryLast10": 136280.86,
-      "avgDpsRecent3": 87535.13,
-      "maxDpsLast10": 136280.86,
+      "avgPrimaryRecent3": 107338.9,
+      "maxPrimaryLast10": 172241.13,
+      "avgDpsRecent3": 107338.9,
+      "maxDpsLast10": 172241.13,
       "avgHpsRecent3": 0,
       "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 64.23,
-      "consistencyPercent": 7.39,
-      "performanceScore": 37.17,
+      "stabilityPercent": 62.32,
+      "consistencyPercent": 34.95,
+      "performanceScore": 43.01,
       "survivalScore": 100,
-      "reliabilityScore": 51.79,
-      "trendDirection": "up",
-      "trendDeltaPercent": 80.48,
+      "reliabilityScore": 65.81,
+      "trendDirection": "down",
+      "trendDeltaPercent": -16.62,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
@@ -1607,8 +1607,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-05T23:16:28.434Z",
-      "lastScannedAt": "2026-06-05T23:16:28.434Z",
+      "updatedAt": "2026-06-08T11:11:21.816Z",
+      "lastScannedAt": "2026-06-08T11:11:21.816Z",
       "lastPullAt": "2026-05-09T17:21:06.711Z",
       "pullsStored": 10,
       "kills": 0,
@@ -3175,8 +3175,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-05T23:16:28.434Z",
-      "lastScannedAt": "2026-06-05T23:16:28.434Z",
+      "updatedAt": "2026-06-08T11:11:21.816Z",
+      "lastScannedAt": "2026-06-08T11:11:21.816Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -3268,8 +3268,8 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-05T23:16:28.434Z",
-      "lastScannedAt": "2026-06-05T23:16:28.434Z",
+      "updatedAt": "2026-06-08T11:11:21.816Z",
+      "lastScannedAt": "2026-06-08T11:11:21.816Z",
       "lastPullAt": "2026-04-22T18:20:38.878Z",
       "pullsStored": 5,
       "kills": 1,
@@ -5309,8 +5309,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-05T21:41:04.223Z",
-      "lastScannedAt": "2026-06-05T21:41:04.223Z",
+      "updatedAt": "2026-06-08T11:11:21.816Z",
+      "lastScannedAt": "2026-06-08T11:11:21.816Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5433,8 +5433,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-05T21:41:04.223Z",
-      "lastScannedAt": "2026-06-05T21:41:04.223Z",
+      "updatedAt": "2026-06-08T11:11:21.816Z",
+      "lastScannedAt": "2026-06-08T11:11:21.816Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5746,8 +5746,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-05T21:41:04.223Z",
-      "lastScannedAt": "2026-06-05T21:41:04.223Z",
+      "updatedAt": "2026-06-08T11:11:21.816Z",
+      "lastScannedAt": "2026-06-08T11:11:21.816Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5965,8 +5965,8 @@
       "realmSlug": "soulflayer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-05T21:41:04.223Z",
-      "lastScannedAt": "2026-06-05T21:41:04.223Z",
+      "updatedAt": "2026-06-08T11:11:21.816Z",
+      "lastScannedAt": "2026-06-08T11:11:21.816Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
