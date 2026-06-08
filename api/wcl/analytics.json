@@ -573,93 +573,93 @@
     "updatedWithin1h": 8,
     "updatedWithin6h": 16,
     "updatedWithin12h": 24,
-    "updatedWithin24h": 64,
-    "oldestScannedAt": "2026-06-06T07:49:54.227Z",
-    "newestScannedAt": "2026-06-08T16:08:40.094Z",
+    "updatedWithin24h": 56,
+    "oldestScannedAt": "2026-06-06T10:12:32.293Z",
+    "newestScannedAt": "2026-06-08T19:26:36.733Z",
     "staleMembers": [
-      {
-        "slug": "мелиодас-gordunni-eu",
-        "name": "Мелиодас",
-        "rank": 3,
-        "value": 56.32,
-        "secondary": 0
-      },
-      {
-        "slug": "поливалочки-gordunni-eu",
-        "name": "Поливалочки",
-        "rank": 3,
-        "value": 56.32,
-        "secondary": 0
-      },
-      {
-        "slug": "севатар-lich-king-eu",
-        "name": "Севатар",
-        "rank": 3,
-        "value": 56.32,
-        "secondary": 10
-      },
-      {
-        "slug": "щпикачечка-gordunni-eu",
-        "name": "Щпикачечка",
-        "rank": 3,
-        "value": 56.32,
-        "secondary": 8
-      },
-      {
-        "slug": "мавпита-gordunni-eu",
-        "name": "Мавпита",
-        "rank": 1,
-        "value": 53.94,
-        "secondary": 10
-      },
-      {
-        "slug": "мистип-gordunni-eu",
-        "name": "Мистип",
-        "rank": 1,
-        "value": 53.94,
-        "secondary": 0
-      },
-      {
-        "slug": "древесная-blackscar-eu",
-        "name": "Древесная",
-        "rank": 3,
-        "value": 53.94,
-        "secondary": 10
-      },
-      {
-        "slug": "адвокатправа-gordunni-eu",
-        "name": "Адвокатправа",
-        "rank": 4,
-        "value": 53.94,
-        "secondary": 10
-      },
       {
         "slug": "бафометище-eversong-eu",
         "name": "Бафометище",
         "rank": 4,
-        "value": 53.94,
+        "value": 57.24,
         "secondary": 0
       },
       {
         "slug": "дарадуда-gordunni-eu",
         "name": "Дарадуда",
         "rank": 4,
-        "value": 53.94,
+        "value": 57.24,
         "secondary": 10
       },
       {
         "slug": "корбус-gordunni-eu",
         "name": "Корбус",
         "rank": 4,
-        "value": 53.94,
+        "value": 57.24,
         "secondary": 0
       },
       {
         "slug": "шпаргат-gordunni-eu",
         "name": "Шпаргат",
         "rank": 4,
-        "value": 53.94,
+        "value": 57.24,
         "secondary": 10
+      },
+      {
+        "slug": "шриладо-gordunni-eu",
+        "name": "Шриладо",
+        "rank": 1,
+        "value": 55.28,
+        "secondary": 10
+      },
+      {
+        "slug": "душа-blackscar-eu",
+        "name": "Душа",
+        "rank": 3,
+        "value": 55.28,
+        "secondary": 0
+      },
+      {
+        "slug": "кхаарн-lich-king-eu",
+        "name": "Кхаарн",
+        "rank": 3,
+        "value": 55.28,
+        "secondary": 10
+      },
+      {
+        "slug": "марлая-gordunni-eu",
+        "name": "Марлая",
+        "rank": 3,
+        "value": 55.28,
+        "secondary": 10
+      },
+      {
+        "slug": "sandora-doomhammer-eu",
+        "name": "Sandora",
+        "rank": 4,
+        "value": 55.28,
+        "secondary": 0
+      },
+      {
+        "slug": "бабаияи-eversong-eu",
+        "name": "Бабайяй",
+        "rank": 4,
+        "value": 55.28,
+        "secondary": 0
+      },
+      {
+        "slug": "товстопуз-gordunni-eu",
+        "name": "Товстопуз",
+        "rank": 4,
+        "value": 55.28,
+        "secondary": 0
+      },
+      {
+        "slug": "senig-r-ravencrest-eu",
+        "name": "Senigør",
+        "rank": 1,
+        "value": 52.65,
+        "secondary": 0
       }
     ]
   },
