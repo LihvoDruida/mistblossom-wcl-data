@@ -1,6 +1,6 @@
 {
   "overview": {
-    "members": 162,
+    "members": 163,
     "membersWithData": 59,
     "pullsStored": 569,
     "distinctFights": 232,
@@ -11,9 +11,9 @@
     "avgRaidDeaths": 17.03,
     "avgTeamDps": 121997.98,
     "avgTeamHps": 34682.47,
-    "avgPerformanceScore": 18.62,
+    "avgPerformanceScore": 18.51,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.7
+    "avgReliabilityScore": 41.63
   },
   "roles": {
     "damage": {
@@ -571,95 +571,95 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 32,
+    "updatedWithin6h": 24,
     "updatedWithin12h": 48,
     "updatedWithin24h": 72,
-    "oldestScannedAt": "2026-06-05T16:06:00.111Z",
-    "newestScannedAt": "2026-06-07T22:11:47.897Z",
+    "oldestScannedAt": "2026-06-05T20:05:33.415Z",
+    "newestScannedAt": "2026-06-08T00:17:08.274Z",
     "staleMembers": [
-      {
-        "slug": "gaplik-silvermoon-eu",
-        "name": "Gaplik",
-        "rank": 4,
-        "value": 54.11,
-        "secondary": 0
-      },
-      {
-        "slug": "hlorygole-silvermoon-eu",
-        "name": "Hlorygole",
-        "rank": 4,
-        "value": 54.11,
-        "secondary": 0
-      },
-      {
-        "slug": "inika-silvermoon-eu",
-        "name": "Inika",
-        "rank": 4,
-        "value": 54.11,
-        "secondary": 0
-      },
-      {
-        "slug": "juz-silvermoon-eu",
-        "name": "Juzø",
-        "rank": 4,
-        "value": 50.11,
-        "secondary": 0
-      },
-      {
-        "slug": "kaijuro-silvermoon-eu",
-        "name": "Kaijuro",
-        "rank": 4,
-        "value": 50.11,
-        "secondary": 0
-      },
-      {
-        "slug": "medvedich-silvermoon-eu",
-        "name": "Medvedich",
-        "rank": 4,
-        "value": 50.11,
-        "secondary": 0
-      },
-      {
-        "slug": "nanyy-silvermoon-eu",
-        "name": "Nanyy",
-        "rank": 4,
-        "value": 50.11,
-        "secondary": 0
-      },
       {
         "slug": "panharanir-kazzak-eu",
         "name": "Panharanir",
         "rank": 4,
-        "value": 50.11,
+        "value": 52.2,
         "secondary": 0
       },
       {
         "slug": "ponziani-kazzak-eu",
         "name": "Ponziani",
         "rank": 4,
-        "value": 50.11,
+        "value": 52.2,
         "secondary": 0
       },
       {
         "slug": "slavasalu-silvermoon-eu",
         "name": "Slávásálu",
         "rank": 4,
-        "value": 50.11,
+        "value": 52.2,
         "secondary": 0
       },
       {
         "slug": "teasick-kazzak-eu",
         "name": "Teasick",
         "rank": 4,
-        "value": 50.11,
+        "value": 52.2,
         "secondary": 0
       },
       {
         "slug": "булкрит-gordunni-eu",
         "name": "Булкрит",
         "rank": 1,
-        "value": 48.52,
+        "value": 50.61,
         "secondary": 10
+      },
+      {
+        "slug": "амарак-gordunni-eu",
+        "name": "Амарак",
+        "rank": 3,
+        "value": 50.61,
+        "secondary": 0
+      },
+      {
+        "slug": "графдекот-gordunni-eu",
+        "name": "Графдекот",
+        "rank": 3,
+        "value": 50.61,
+        "secondary": 10
+      },
+      {
+        "slug": "зермонг-gordunni-eu",
+        "name": "Зермонг",
+        "rank": 3,
+        "value": 50.61,
+        "secondary": 0
+      },
+      {
+        "slug": "threataan-silvermoon-eu",
+        "name": "Threataan",
+        "rank": 4,
+        "value": 50.61,
+        "secondary": 0
+      },
+      {
+        "slug": "valemor-silvermoon-eu",
+        "name": "Valemor",
+        "rank": 4,
+        "value": 50.61,
+        "secondary": 0
+      },
+      {
+        "slug": "базрог-gordunni-eu",
+        "name": "Базрог",
+        "rank": 4,
+        "value": 50.61,
+        "secondary": 0
+      },
+      {
+        "slug": "рокталл-soulflayer-eu",
+        "name": "Рокталл",
+        "rank": 4,
+        "value": 50.61,
+        "secondary": 0
       }
     ]
   },
@@ -974,13 +974,13 @@
   "classes": [
     {
       "className": "Unknown",
-      "members": 162,
+      "members": 163,
       "withData": 59,
-      "avgPrimaryRecent3": 22294.68,
-      "avgDpsRecent3": 17630.81,
-      "avgHpsRecent3": 5453.07,
+      "avgPrimaryRecent3": 22157.9,
+      "avgDpsRecent3": 17522.65,
+      "avgHpsRecent3": 5419.61,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 41.7
+      "avgReliabilityScore": 41.63
     }
   ]
 }

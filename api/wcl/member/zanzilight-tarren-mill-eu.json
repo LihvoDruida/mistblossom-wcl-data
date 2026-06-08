@@ -2,10 +2,10 @@
   "schemaVersion": 3,
   "updatedAt": "2026-06-08T00:17:08.274Z",
   "character": {
-    "name": "Nanyy",
-    "realmSlug": "silvermoon",
+    "name": "Zanzilight",
+    "realmSlug": "tarren-mill",
     "region": "eu",
-    "slug": "nanyy-silvermoon-eu",
+    "slug": "zanzilight-tarren-mill-eu",
     "rank": 4,
     "roleHint": "unknown"
   },

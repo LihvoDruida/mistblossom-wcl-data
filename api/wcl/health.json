@@ -1,19 +1,19 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-07T22:11:47.897Z",
+  "updatedAt": "2026-06-08T00:17:08.274Z",
   "mode": "incremental-hourly-budget-aware",
-  "rosterMembers": 162,
+  "rosterMembers": 163,
   "selectedMembers": 8,
   "scannedMembers": 8,
   "changedMembers": 0,
-  "existingSnapshots": 162,
+  "existingSnapshots": 163,
   "reportsScanned": 8,
   "fightsScanned": 8,
   "wclQueriesUsed": 26,
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "guildAnalytics": {
-    "members": 162,
+    "members": 163,
     "membersWithData": 59,
     "pullsStored": 569,
     "distinctFights": 232,
@@ -24,9 +24,9 @@
     "avgRaidDeaths": 17.03,
     "avgTeamDps": 121997.98,
     "avgTeamHps": 34682.47,
-    "avgPerformanceScore": 18.62,
+    "avgPerformanceScore": 18.51,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.7
+    "avgReliabilityScore": 41.63
   },
   "warnings": []
 }
