@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-06T10:12:32.293Z",
+  "updatedAt": "2026-06-08T21:56:18.714Z",
   "character": {
     "name": "Дарадуда",
     "realmSlug": "gordunni",
@@ -16,58 +16,58 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 195,
+    "totalRaidDeaths": 209,
     "deathsPerPull": 0,
-    "stabilityPercent": 84.93,
-    "consistencyPercent": 64.8,
-    "performanceScore": 62.91,
+    "stabilityPercent": 81.39,
+    "consistencyPercent": 55.17,
+    "performanceScore": 58.56,
     "survivalScore": 100,
-    "reliabilityScore": 76.15,
+    "reliabilityScore": 76.61,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 114839.29,
-      "avgPrimary": 114839.29,
-      "avgDurationMs": 291246,
+      "avgHps": 100343.25,
+      "avgPrimary": 100343.25,
+      "avgDurationMs": 169890,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 113523.27,
-      "avgPrimary": 113523.27,
-      "avgDurationMs": 233606,
+      "avgHps": 95357.92,
+      "avgPrimary": 95357.92,
+      "avgDurationMs": 215911,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
       "maxDps": 0,
       "minDps": 0,
-      "maxHps": 135221.19,
-      "minHps": 87624.89,
-      "maxPrimary": 135221.19,
-      "minPrimary": 87624.89,
+      "maxHps": 123288.19,
+      "minHps": 68023.61,
+      "maxPrimary": 123288.19,
+      "minPrimary": 68023.61,
       "maxDurationMs": 407830,
-      "minDurationMs": 108203
+      "minDurationMs": 57141
     },
     "trend": {
-      "direction": "flat",
-      "recentAvg": 114839.29,
-      "previousAvg": 113523.27,
-      "delta": 1316.02,
-      "deltaPercent": 1.16
+      "direction": "up",
+      "recentAvg": 100343.25,
+      "previousAvg": 95357.92,
+      "delta": 4985.33,
+      "deltaPercent": 5.23
     },
     "byRole": {
       "healer": {
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 114839.29,
-        "maxLast10": 135221.19,
-        "minLast10": 87624.89,
+        "avgRecent": 100343.25,
+        "maxLast10": 123288.19,
+        "minLast10": 68023.61,
         "deathsPerPull": 0,
-        "bestPullKey": "8dAPQCWGNMLBjrRg:31:Дарадуда:gordunni:eu",
-        "worstPullKey": "J7drK2qY9hFnRyTD:21:Дарадуда:gordunni:eu"
+        "bestPullKey": "J7drK2qY9hFnRyTD:27:Дарадуда:gordunni:eu",
+        "worstPullKey": "49WFMrR1KNkXtHn8:14:Дарадуда:gordunni:eu"
       },
       "damage": {
         "pulls": 0,
@@ -89,20 +89,1158 @@
       }
     },
     "dataQuality": {
-      "pullsWithMatchedDamage": 10,
+      "pullsWithMatchedDamage": 9,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 8,
+      "pullsWithRoleInferred": 10,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 0,
         "hps": 10,
         "unknown": 0
       },
-      "confidenceAvg": 0.77,
+      "confidenceAvg": 0.96,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "49WFMrR1KNkXtHn8:21:Дарадуда:gordunni:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=21",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:57:02.136Z",
+      "durationMs": 224253,
+      "bossPercentage": 47.03,
+      "fightPercentage": 47.03,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 47,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1054.31,
+        "hps": 91430.76,
+        "primary": 91430.76,
+        "primaryKind": "hps",
+        "fightDps": 1054.31,
+        "fightHps": 91430.76,
+        "activeDps": 6216.5,
+        "activeHps": 97457.62,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 236432,
+        "healingTotal": 20503622,
+        "damageActiveTimeMs": 38033,
+        "healingActiveTimeMs": 210385,
+        "damageTotalTimeMs": 224253,
+        "healingTotalTimeMs": 224253,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 21,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7223335,
+          "endTime": 7447588,
+          "bossPercentage": 47.03,
+          "fightPercentage": 47.03,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 224253,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 236432,
+              "activeTime": 38033,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 224253,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 20503622,
+              "activeTime": 210385,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:20:Дарадуда:gordunni:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=20",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:50:47.571Z",
+      "durationMs": 210953,
+      "bossPercentage": 50.11,
+      "fightPercentage": 50.11,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 47,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 909.06,
+        "hps": 117482.35,
+        "primary": 117482.35,
+        "primaryKind": "hps",
+        "fightDps": 909.06,
+        "fightHps": 117482.35,
+        "activeDps": 5036.48,
+        "activeHps": 121758.11,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 191769,
+        "healingTotal": 24783255,
+        "damageActiveTimeMs": 38076,
+        "healingActiveTimeMs": 203545,
+        "damageTotalTimeMs": 210953,
+        "healingTotalTimeMs": 210953,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 20,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6848770,
+          "endTime": 7059723,
+          "bossPercentage": 50.11,
+          "fightPercentage": 50.11,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 210953,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 191769,
+              "activeTime": 38076,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 210953,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 24783255,
+              "activeTime": 203545,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:19:Дарадуда:gordunni:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=19",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:47:05.617Z",
+      "durationMs": 74463,
+      "bossPercentage": 75.16,
+      "fightPercentage": 75.16,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 47,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 734.16,
+        "hps": 92116.64,
+        "primary": 92116.64,
+        "primaryKind": "hps",
+        "fightDps": 734.16,
+        "fightHps": 92116.64,
+        "activeDps": 16188.33,
+        "activeHps": 93754.7,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 54668,
+        "healingTotal": 6859281,
+        "damageActiveTimeMs": 3377,
+        "healingActiveTimeMs": 73162,
+        "damageTotalTimeMs": 74463,
+        "healingTotalTimeMs": 74463,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 19,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6626816,
+          "endTime": 6701279,
+          "bossPercentage": 75.16,
+          "fightPercentage": 75.16,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 74463,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 54668,
+              "activeTime": 3377,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 74463,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 6859281,
+              "activeTime": 73162,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:18:Дарадуда:gordunni:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=18",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:41:15.040Z",
+      "durationMs": 252606,
+      "bossPercentage": 80.69,
+      "fightPercentage": 80.69,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 47,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 680.06,
+        "hps": 97259.23,
+        "primary": 97259.23,
+        "primaryKind": "hps",
+        "fightDps": 680.06,
+        "fightHps": 97259.23,
+        "activeDps": 4713.36,
+        "activeHps": 102340.05,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 171788,
+        "healingTotal": 24568265,
+        "damageActiveTimeMs": 36447,
+        "healingActiveTimeMs": 240065,
+        "damageTotalTimeMs": 252606,
+        "healingTotalTimeMs": 252606,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 18,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6276239,
+          "endTime": 6528845,
+          "bossPercentage": 80.69,
+          "fightPercentage": 80.69,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 252606,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 171788,
+              "activeTime": 36447,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 252606,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 24568265,
+              "activeTime": 240065,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:17:Дарадуда:gordunni:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=17",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:31:07.859Z",
+      "durationMs": 151592,
+      "bossPercentage": 66.69,
+      "fightPercentage": 66.69,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 47,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 910.61,
+        "hps": 94051.52,
+        "primary": 94051.52,
+        "primaryKind": "hps",
+        "fightDps": 910.61,
+        "fightHps": 94051.52,
+        "activeDps": 7684.74,
+        "activeHps": 110530.64,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 138041,
+        "healingTotal": 14257458,
+        "damageActiveTimeMs": 17963,
+        "healingActiveTimeMs": 128991,
+        "damageTotalTimeMs": 151592,
+        "healingTotalTimeMs": 151592,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 17,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5669058,
+          "endTime": 5820650,
+          "bossPercentage": 66.69,
+          "fightPercentage": 66.69,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 151592,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 138041,
+              "activeTime": 17963,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 151592,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 14257458,
+              "activeTime": 128991,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:16:Дарадуда:gordunni:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=16",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:24:44.760Z",
+      "durationMs": 243536,
+      "bossPercentage": 50.41,
+      "fightPercentage": 50.41,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 47,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 635.35,
+        "hps": 94763,
+        "primary": 94763,
+        "primaryKind": "hps",
+        "fightDps": 635.35,
+        "fightHps": 94763,
+        "activeDps": 4046.6,
+        "activeHps": 106842.05,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 154730,
+        "healingTotal": 23078203,
+        "damageActiveTimeMs": 38237,
+        "healingActiveTimeMs": 216003,
+        "damageTotalTimeMs": 243536,
+        "healingTotalTimeMs": 243536,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 16,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5285959,
+          "endTime": 5529495,
+          "bossPercentage": 50.41,
+          "fightPercentage": 50.41,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 243536,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 154730,
+              "activeTime": 38237,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 243536,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 23078203,
+              "activeTime": 216003,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:15:Дарадуда:gordunni:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=15",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:18:59.925Z",
+      "durationMs": 255428,
+      "bossPercentage": 92.92,
+      "fightPercentage": 92.92,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 47,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1150.92,
+        "hps": 101624.47,
+        "primary": 101624.47,
+        "primaryKind": "hps",
+        "fightDps": 1150.92,
+        "fightHps": 101624.47,
+        "activeDps": 5447.95,
+        "activeHps": 102137.1,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 293977,
+        "healingTotal": 25957735,
+        "damageActiveTimeMs": 53961,
+        "healingActiveTimeMs": 254146,
+        "damageTotalTimeMs": 255428,
+        "healingTotalTimeMs": 255428,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 284,
+        "healingItemLevel": 284,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 15,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4941124,
+          "endTime": 5196552,
+          "bossPercentage": 92.92,
+          "fightPercentage": 92.92,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 255428,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 293977,
+              "activeTime": 53961,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 255428,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 25957735,
+              "activeTime": 254146,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:14:Дарадуда:gordunni:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=14",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:17:03.500Z",
+      "durationMs": 57141,
+      "bossPercentage": 95.2,
+      "fightPercentage": 95.2,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 47,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 0,
+        "hps": 68023.61,
+        "primary": 68023.61,
+        "primaryKind": "hps",
+        "fightDps": 0,
+        "fightHps": 68023.61,
+        "activeDps": 0,
+        "activeHps": 70547.16,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 0,
+        "healingTotal": 3886937,
+        "healingActiveTimeMs": 55097,
+        "damageTotalTimeMs": 57141,
+        "healingTotalTimeMs": 57141,
+        "healingEntryId": 47,
+        "healingItemLevel": 284,
+        "matchedBy": "healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 14,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4824699,
+          "endTime": 4881840,
+          "bossPercentage": 95.2,
+          "fightPercentage": 95.2,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 57141
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 57141,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 3886937,
+              "activeTime": 55097,
+              "itemLevel": 284,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "J7drK2qY9hFnRyTD:28:Дарадуда:gordunni:eu",
       "reportCode": "J7drK2qY9hFnRyTD",
@@ -390,1006 +1528,14 @@
           }
         }
       }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:26:Дарадуда:gordunni:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:43:28.840Z",
-      "durationMs": 211217,
-      "bossPercentage": 44.04,
-      "fightPercentage": 44.04,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 308,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 712.62,
-        "hps": 107719.42,
-        "primary": 107719.42,
-        "primaryKind": "hps",
-        "fightDps": 712.62,
-        "fightHps": 107719.42,
-        "activeDps": 4122.06,
-        "activeHps": 124635.29,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 150517,
-        "healingTotal": 22752173,
-        "damageActiveTimeMs": 36515,
-        "healingActiveTimeMs": 182550,
-        "damageTotalTimeMs": 211217,
-        "healingTotalTimeMs": 211217,
-        "damageEntryId": 308,
-        "healingEntryId": 308,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:308,healing:actor-id:308"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 26,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 15163340,
-          "endTime": 15374557,
-          "bossPercentage": 44.04,
-          "fightPercentage": 44.04,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 211217,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 150517,
-              "activeTime": 36515,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 211217,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 22752173,
-              "activeTime": 182550,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 308,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:24:Дарадуда:gordunni:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 24,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=24",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:34:22.519Z",
-      "durationMs": 225405,
-      "bossPercentage": 48.14,
-      "fightPercentage": 48.14,
-      "averageItemLevel": 287.1499938964844,
-      "actor": {
-        "id": 308,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 655.92,
-        "hps": 120306.28,
-        "primary": 120306.28,
-        "primaryKind": "hps",
-        "fightDps": 655.92,
-        "fightHps": 120306.28,
-        "activeDps": 4485.54,
-        "activeHps": 124060.48,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 147848,
-        "healingTotal": 27117637,
-        "damageActiveTimeMs": 32961,
-        "healingActiveTimeMs": 218584,
-        "damageTotalTimeMs": 225405,
-        "healingTotalTimeMs": 225405,
-        "damageEntryId": 308,
-        "healingEntryId": 308,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:308,healing:actor-id:308"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 24,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 14617019,
-          "endTime": 14842424,
-          "bossPercentage": 48.14,
-          "fightPercentage": 48.14,
-          "averageItemLevel": 287.1499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 225405,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 147848,
-              "activeTime": 32961,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 225405,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 27117637,
-              "activeTime": 218584,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 308,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:23:Дарадуда:gordunni:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 23,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=23",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:28:15.407Z",
-      "durationMs": 244539,
-      "bossPercentage": 43.67,
-      "fightPercentage": 43.67,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 308,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 785.04,
-        "hps": 112798.58,
-        "primary": 112798.58,
-        "primaryKind": "hps",
-        "fightDps": 785.04,
-        "fightHps": 112798.58,
-        "activeDps": 5333.06,
-        "activeHps": 133471.66,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 191974,
-        "healingTotal": 27583653,
-        "damageActiveTimeMs": 35997,
-        "healingActiveTimeMs": 206663,
-        "damageTotalTimeMs": 244539,
-        "healingTotalTimeMs": 244539,
-        "damageEntryId": 308,
-        "healingEntryId": 308,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:308,healing:actor-id:308"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 23,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 14249907,
-          "endTime": 14494446,
-          "bossPercentage": 43.67,
-          "fightPercentage": 43.67,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 244539,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 191974,
-              "activeTime": 35997,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 244539,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 27583653,
-              "activeTime": 206663,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 308,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:22:Дарадуда:gordunni:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 22,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=22",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:22:35.705Z",
-      "durationMs": 230874,
-      "bossPercentage": 45.95,
-      "fightPercentage": 45.95,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 308,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1377.75,
-        "hps": 107464.95,
-        "primary": 107464.95,
-        "primaryKind": "hps",
-        "fightDps": 1377.75,
-        "fightHps": 107464.95,
-        "activeDps": 6200.16,
-        "activeHps": 109202.74,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 318087,
-        "healingTotal": 24810862,
-        "damageActiveTimeMs": 51303,
-        "healingActiveTimeMs": 227200,
-        "damageTotalTimeMs": 230874,
-        "healingTotalTimeMs": 230874,
-        "damageEntryId": 308,
-        "healingEntryId": 308,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:308,healing:actor-id:308"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 22,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13910205,
-          "endTime": 14141079,
-          "bossPercentage": 45.95,
-          "fightPercentage": 45.95,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 230874,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 318087,
-              "activeTime": 51303,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 230874,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 24810862,
-              "activeTime": 227200,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 308,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:21:Дарадуда:gordunni:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=21",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:19:49.269Z",
-      "durationMs": 108203,
-      "bossPercentage": 67.25,
-      "fightPercentage": 67.25,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 308,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1224.32,
-        "hps": 87624.89,
-        "primary": 87624.89,
-        "primaryKind": "hps",
-        "fightDps": 1224.32,
-        "fightHps": 87624.89,
-        "activeDps": 7359.31,
-        "activeHps": 89131.52,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 132475,
-        "healingTotal": 9481276,
-        "damageActiveTimeMs": 18001,
-        "healingActiveTimeMs": 106374,
-        "damageTotalTimeMs": 108203,
-        "healingTotalTimeMs": 108203,
-        "damageEntryId": 308,
-        "healingEntryId": 308,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:308,healing:actor-id:308"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 21,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13743769,
-          "endTime": 13851972,
-          "bossPercentage": 67.25,
-          "fightPercentage": 67.25,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 108203,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 132475,
-              "activeTime": 18001,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 108203,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 9481276,
-              "activeTime": 106374,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 308,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:20:Дарадуда:gordunni:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=20",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:07:41.231Z",
-      "durationMs": 157276,
-      "bossPercentage": 52.9,
-      "fightPercentage": 52.9,
-      "averageItemLevel": 287.1000061035156,
-      "actor": {
-        "id": 308,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 965.7,
-        "hps": 132012.79,
-        "primary": 132012.79,
-        "primaryKind": "hps",
-        "fightDps": 965.7,
-        "fightHps": 132012.79,
-        "activeDps": 5853.51,
-        "activeHps": 132650.42,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 9
-      },
-      "source": {
-        "damageTotal": 151881,
-        "healingTotal": 20762444,
-        "damageActiveTimeMs": 25947,
-        "healingActiveTimeMs": 156520,
-        "damageTotalTimeMs": 157276,
-        "healingTotalTimeMs": 157276,
-        "damageEntryId": 308,
-        "healingEntryId": 308,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:308,healing:actor-id:308"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 20,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13015731,
-          "endTime": 13173007,
-          "bossPercentage": 52.9,
-          "fightPercentage": 52.9,
-          "averageItemLevel": 287.1000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157276,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 151881,
-              "activeTime": 25947,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 157276,
-            "matchedBy": "actor-id:308",
-            "matchedEntry": {
-              "id": 308,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 20762444,
-              "activeTime": 156520,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 9,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 308,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:32:Дарадуда:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 32,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:06:06.764Z",
-      "durationMs": 215983,
-      "bossPercentage": 57.68,
-      "fightPercentage": 57.68,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 113,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 936.85,
-        "hps": 111969.68,
-        "primary": 111969.68,
-        "primaryKind": "hps",
-        "fightDps": 936.85,
-        "fightHps": 111969.68,
-        "activeDps": 936.85,
-        "activeHps": 111969.68,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 202344,
-        "healingTotal": 24183548,
-        "damageActiveTimeMs": 37079,
-        "healingActiveTimeMs": 214168,
-        "damageTotalTimeMs": 215983,
-        "healingTotalTimeMs": 215983,
-        "damageEntryId": 113,
-        "healingEntryId": 113,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:113,healing:actor-id:113"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:31:Дарадуда:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 31,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:00:37.917Z",
-      "durationMs": 226446,
-      "bossPercentage": 57.65,
-      "fightPercentage": 57.65,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 113,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 1127.01,
-        "hps": 135221.19,
-        "primary": 135221.19,
-        "primaryKind": "hps",
-        "fightDps": 1127.01,
-        "fightHps": 135221.19,
-        "activeDps": 1127.01,
-        "activeHps": 135221.19,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 255208,
-        "healingTotal": 30620297,
-        "damageActiveTimeMs": 51746,
-        "healingActiveTimeMs": 222970,
-        "damageTotalTimeMs": 226446,
-        "healingTotalTimeMs": 226446,
-        "damageEntryId": 113,
-        "healingEntryId": 113,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:113,healing:actor-id:113"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-06T10:12:32.293Z",
-    "lastPullAt": "2026-06-04T19:56:22.399Z",
+    "lastScannedAt": "2026-06-08T21:56:18.714Z",
+    "lastPullAt": "2026-06-08T18:57:02.136Z",
     "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }

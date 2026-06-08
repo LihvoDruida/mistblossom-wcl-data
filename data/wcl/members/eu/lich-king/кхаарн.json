@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-06T12:10:18.850Z",
+  "updatedAt": "2026-06-08T21:56:18.714Z",
   "character": {
     "name": "Кхаарн",
     "realmSlug": "lich-king",
@@ -1388,9 +1388,9 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-06T12:10:18.850Z",
+    "lastScannedAt": "2026-06-08T21:56:18.714Z",
     "lastPullAt": "2026-06-04T19:56:22.399Z",
-    "newPullsInLastScan": 8,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-06T10:12:32.293Z",
+  "updatedAt": "2026-06-08T21:56:18.714Z",
   "character": {
     "name": "Шпаргат",
     "realmSlug": "gordunni",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-06T10:12:32.293Z",
+    "lastScannedAt": "2026-06-08T21:56:18.714Z",
     "lastPullAt": "2026-05-28T19:16:20.906Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

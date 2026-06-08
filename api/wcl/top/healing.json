@@ -14,13 +14,6 @@
     "secondary": 0
   },
   {
-    "slug": "дарадуда-gordunni-eu",
-    "name": "Дарадуда",
-    "rank": 4,
-    "value": 114839.29,
-    "secondary": 0
-  },
-  {
     "slug": "khayen-terokkar-eu",
     "name": "Khayen",
     "rank": 0,
@@ -28,10 +21,24 @@
     "secondary": 0
   },
   {
+    "slug": "марлая-gordunni-eu",
+    "name": "Марлая",
+    "rank": 3,
+    "value": 108866.53,
+    "secondary": 0
+  },
+  {
     "slug": "шриладо-gordunni-eu",
     "name": "Шриладо",
     "rank": 1,
     "value": 103494.21,
+    "secondary": 0
+  },
+  {
+    "slug": "дарадуда-gordunni-eu",
+    "name": "Дарадуда",
+    "rank": 4,
+    "value": 100343.25,
     "secondary": 0
   },
   {
@@ -74,13 +81,6 @@
     "name": "Севатар",
     "rank": 3,
     "value": 13387.48,
-    "secondary": 0
-  },
-  {
-    "slug": "shatnyi-terokkar-eu",
-    "name": "Shatnyi",
-    "rank": 4,
-    "value": 12812.84,
     "secondary": 0
   }
 ]

@@ -49,6 +49,13 @@
     "secondary": 0
   },
   {
+    "slug": "душа-blackscar-eu",
+    "name": "Душа",
+    "rank": 3,
+    "value": 89017.35,
+    "secondary": 0
+  },
+  {
     "slug": "oxydenis-silvermoon-eu",
     "name": "Oxydenis",
     "rank": 3,
@@ -74,13 +81,6 @@
     "name": "Skirvir",
     "rank": 3,
     "value": 81687.77,
-    "secondary": 0
-  },
-  {
-    "slug": "otito-draenor-eu",
-    "name": "Otito",
-    "rank": 4,
-    "value": 78385.57,
     "secondary": 0
   }
 ]

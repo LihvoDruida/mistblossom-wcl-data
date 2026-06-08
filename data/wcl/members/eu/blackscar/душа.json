@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-06T12:10:18.850Z",
+  "updatedAt": "2026-06-08T21:56:18.714Z",
   "character": {
     "name": "Душа",
     "realmSlug": "blackscar",
@@ -10,52 +10,52 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 8,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 8,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 166,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
-    "performanceScore": 0,
+    "stabilityPercent": 72.08,
+    "consistencyPercent": 60.8,
+    "performanceScore": 54.84,
     "survivalScore": 100,
-    "reliabilityScore": 30,
+    "reliabilityScore": 73.66,
     "recent3": {
-      "sampleSize": 0,
-      "avgDps": 0,
+      "sampleSize": 3,
+      "avgDps": 89017.35,
       "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgPrimary": 89017.35,
+      "avgDurationMs": 169890,
       "avgDeaths": 0
     },
     "previous3": {
-      "sampleSize": 0,
-      "avgDps": 0,
+      "sampleSize": 3,
+      "avgDps": 82817.7,
       "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgPrimary": 82817.7,
+      "avgDurationMs": 215911,
       "avgDeaths": 0
     },
     "last10": {
-      "sampleSize": 0,
-      "maxDps": 0,
-      "minDps": 0,
+      "sampleSize": 8,
+      "maxDps": 123498.08,
+      "minDps": 75085.41,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxPrimary": 123498.08,
+      "minPrimary": 75085.41,
+      "maxDurationMs": 255428,
+      "minDurationMs": 57141
     },
     "trend": {
-      "direction": "unknown",
-      "recentAvg": 0,
-      "previousAvg": 0,
-      "delta": 0,
-      "deltaPercent": 0
+      "direction": "up",
+      "recentAvg": 89017.35,
+      "previousAvg": 82817.7,
+      "delta": 6199.65,
+      "deltaPercent": 7.49
     },
     "byRole": {
       "healer": {
@@ -68,13 +68,15 @@
         "deathsPerPull": 0
       },
       "damage": {
-        "pulls": 0,
+        "pulls": 8,
         "kills": 0,
-        "wipes": 0,
-        "avgRecent": 0,
-        "maxLast10": 0,
-        "minLast10": 0,
-        "deathsPerPull": 0
+        "wipes": 8,
+        "avgRecent": 89017.35,
+        "maxLast10": 123498.08,
+        "minLast10": 75085.41,
+        "deathsPerPull": 0,
+        "bestPullKey": "49WFMrR1KNkXtHn8:14:Душа:blackscar:eu",
+        "worstPullKey": "49WFMrR1KNkXtHn8:15:Душа:blackscar:eu"
       },
       "unknown": {
         "pulls": 0,
@@ -87,26 +89,1180 @@
       }
     },
     "dataQuality": {
-      "pullsWithMatchedDamage": 0,
-      "pullsWithMatchedHealing": 0,
-      "pullsWithRoleInferred": 0,
+      "pullsWithMatchedDamage": 8,
+      "pullsWithMatchedHealing": 8,
+      "pullsWithRoleInferred": 8,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
-        "dps": 0,
+        "dps": 8,
         "hps": 0,
         "unknown": 0
       },
-      "confidenceAvg": 0,
-      "matchedPullPercent": 0
+      "confidenceAvg": 0.9,
+      "matchedPullPercent": 100
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "49WFMrR1KNkXtHn8:21:Душа:blackscar:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=21",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:57:02.136Z",
+      "durationMs": 224253,
+      "bossPercentage": 47.03,
+      "fightPercentage": 47.03,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 42,
+        "name": "Душа",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Priest-Shadow",
+        "className": "Priest",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 78037.67,
+        "hps": 10136.68,
+        "primary": 78037.67,
+        "primaryKind": "dps",
+        "fightDps": 78037.67,
+        "fightHps": 10136.68,
+        "activeDps": 79139.79,
+        "activeHps": 11064.18,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 17500181,
+        "healingTotal": 2273181,
+        "damageActiveTimeMs": 221130,
+        "healingActiveTimeMs": 205454,
+        "damageTotalTimeMs": 224253,
+        "healingTotalTimeMs": 224253,
+        "damageEntryId": 42,
+        "healingEntryId": 42,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:42,healing:actor-id:42"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 21,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7223335,
+          "endTime": 7447588,
+          "bossPercentage": 47.03,
+          "fightPercentage": 47.03,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 224253,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 17500181,
+              "activeTime": 221130,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 224253,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 2273181,
+              "activeTime": 205454,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 42,
+          "matchedActorName": "Душа",
+          "normalizedKeys": [
+            "душа:blackscar:eu",
+            "душа::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Priest-Shadow",
+            "className": "Priest",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:20:Душа:blackscar:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=20",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:50:47.571Z",
+      "durationMs": 210953,
+      "bossPercentage": 50.11,
+      "fightPercentage": 50.11,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 42,
+        "name": "Душа",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Priest-Shadow",
+        "className": "Priest",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 79620.36,
+        "hps": 10854.29,
+        "primary": 79620.36,
+        "primaryKind": "dps",
+        "fightDps": 79620.36,
+        "fightHps": 10854.29,
+        "activeDps": 80714.65,
+        "activeHps": 11125.74,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 16796153,
+        "healingTotal": 2289744,
+        "damageActiveTimeMs": 208093,
+        "healingActiveTimeMs": 205806,
+        "damageTotalTimeMs": 210953,
+        "healingTotalTimeMs": 210953,
+        "damageEntryId": 42,
+        "healingEntryId": 42,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:42,healing:actor-id:42"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 20,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6848770,
+          "endTime": 7059723,
+          "bossPercentage": 50.11,
+          "fightPercentage": 50.11,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 210953,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 16796153,
+              "activeTime": 208093,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 210953,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 2289744,
+              "activeTime": 205806,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 42,
+          "matchedActorName": "Душа",
+          "normalizedKeys": [
+            "душа:blackscar:eu",
+            "душа::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Priest-Shadow",
+            "className": "Priest",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:19:Душа:blackscar:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=19",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:47:05.617Z",
+      "durationMs": 74463,
+      "bossPercentage": 75.16,
+      "fightPercentage": 75.16,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 42,
+        "name": "Душа",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Priest-Shadow",
+        "className": "Priest",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 109394.03,
+        "hps": 9790.73,
+        "primary": 109394.03,
+        "primaryKind": "dps",
+        "fightDps": 109394.03,
+        "fightHps": 9790.73,
+        "activeDps": 112584.25,
+        "activeHps": 11468.59,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8145808,
+        "healingTotal": 729047,
+        "damageActiveTimeMs": 72353,
+        "healingActiveTimeMs": 63569,
+        "damageTotalTimeMs": 74463,
+        "healingTotalTimeMs": 74463,
+        "damageEntryId": 42,
+        "healingEntryId": 42,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:42,healing:actor-id:42"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 19,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6626816,
+          "endTime": 6701279,
+          "bossPercentage": 75.16,
+          "fightPercentage": 75.16,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 74463,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 8145808,
+              "activeTime": 72353,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 74463,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 729047,
+              "activeTime": 63569,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 42,
+          "matchedActorName": "Душа",
+          "normalizedKeys": [
+            "душа:blackscar:eu",
+            "душа::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Priest-Shadow",
+            "className": "Priest",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:18:Душа:blackscar:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=18",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:41:15.040Z",
+      "durationMs": 252606,
+      "bossPercentage": 80.69,
+      "fightPercentage": 80.69,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 42,
+        "name": "Душа",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Priest-Shadow",
+        "className": "Priest",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 86220.94,
+        "hps": 10294.02,
+        "primary": 86220.94,
+        "primaryKind": "dps",
+        "fightDps": 86220.94,
+        "fightHps": 10294.02,
+        "activeDps": 90507.21,
+        "activeHps": 10422.79,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 21779927,
+        "healingTotal": 2600330,
+        "damageActiveTimeMs": 240643,
+        "healingActiveTimeMs": 249485,
+        "damageTotalTimeMs": 252606,
+        "healingTotalTimeMs": 252606,
+        "damageEntryId": 42,
+        "healingEntryId": 42,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:42,healing:actor-id:42"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 18,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6276239,
+          "endTime": 6528845,
+          "bossPercentage": 80.69,
+          "fightPercentage": 80.69,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 252606,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 21779927,
+              "activeTime": 240643,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 252606,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 2600330,
+              "activeTime": 249485,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 42,
+          "matchedActorName": "Душа",
+          "normalizedKeys": [
+            "душа:blackscar:eu",
+            "душа::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Priest-Shadow",
+            "className": "Priest",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:17:Душа:blackscar:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=17",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:31:07.859Z",
+      "durationMs": 151592,
+      "bossPercentage": 66.69,
+      "fightPercentage": 66.69,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 42,
+        "name": "Душа",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Priest-Shadow",
+        "className": "Priest",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 76736.11,
+        "hps": 7185.06,
+        "primary": 76736.11,
+        "primaryKind": "dps",
+        "fightDps": 76736.11,
+        "fightHps": 7185.06,
+        "activeDps": 101483.79,
+        "activeHps": 10663.35,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 11632580,
+        "healingTotal": 1089197,
+        "damageActiveTimeMs": 114625,
+        "healingActiveTimeMs": 102144,
+        "damageTotalTimeMs": 151592,
+        "healingTotalTimeMs": 151592,
+        "damageEntryId": 42,
+        "healingEntryId": 42,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:42,healing:actor-id:42"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 17,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5669058,
+          "endTime": 5820650,
+          "bossPercentage": 66.69,
+          "fightPercentage": 66.69,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 151592,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 11632580,
+              "activeTime": 114625,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 151592,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 1089197,
+              "activeTime": 102144,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 42,
+          "matchedActorName": "Душа",
+          "normalizedKeys": [
+            "душа:blackscar:eu",
+            "душа::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Priest-Shadow",
+            "className": "Priest",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:16:Душа:blackscar:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=16",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:24:44.760Z",
+      "durationMs": 243536,
+      "bossPercentage": 50.41,
+      "fightPercentage": 50.41,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 42,
+        "name": "Душа",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Priest-Shadow",
+        "className": "Priest",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 85496.04,
+        "hps": 10693.43,
+        "primary": 85496.04,
+        "primaryKind": "dps",
+        "fightDps": 85496.04,
+        "fightHps": 10693.43,
+        "activeDps": 87053.11,
+        "activeHps": 11362.14,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 20821364,
+        "healingTotal": 2604236,
+        "damageActiveTimeMs": 239180,
+        "healingActiveTimeMs": 229203,
+        "damageTotalTimeMs": 243536,
+        "healingTotalTimeMs": 243536,
+        "damageEntryId": 42,
+        "healingEntryId": 42,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:42,healing:actor-id:42"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 16,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5285959,
+          "endTime": 5529495,
+          "bossPercentage": 50.41,
+          "fightPercentage": 50.41,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 243536,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 20821364,
+              "activeTime": 239180,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 243536,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 2604236,
+              "activeTime": 229203,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 42,
+          "matchedActorName": "Душа",
+          "normalizedKeys": [
+            "душа:blackscar:eu",
+            "душа::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Priest-Shadow",
+            "className": "Priest",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:15:Душа:blackscar:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=15",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:18:59.925Z",
+      "durationMs": 255428,
+      "bossPercentage": 92.92,
+      "fightPercentage": 92.92,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 42,
+        "name": "Душа",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Priest-Shadow",
+        "className": "Priest",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 75085.41,
+        "hps": 10427.38,
+        "primary": 75085.41,
+        "primaryKind": "dps",
+        "fightDps": 75085.41,
+        "fightHps": 10427.38,
+        "activeDps": 76690.82,
+        "activeHps": 11574.31,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 19178916,
+        "healingTotal": 2663445,
+        "damageActiveTimeMs": 250081,
+        "healingActiveTimeMs": 230117,
+        "damageTotalTimeMs": 255428,
+        "healingTotalTimeMs": 255428,
+        "damageEntryId": 42,
+        "healingEntryId": 42,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:42,healing:actor-id:42"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 15,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4941124,
+          "endTime": 5196552,
+          "bossPercentage": 92.92,
+          "fightPercentage": 92.92,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 255428,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 19178916,
+              "activeTime": 250081,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 255428,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 2663445,
+              "activeTime": 230117,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 42,
+          "matchedActorName": "Душа",
+          "normalizedKeys": [
+            "душа:blackscar:eu",
+            "душа::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Priest-Shadow",
+            "className": "Priest",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:14:Душа:blackscar:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=14",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:17:03.500Z",
+      "durationMs": 57141,
+      "bossPercentage": 95.2,
+      "fightPercentage": 95.2,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 42,
+        "name": "Душа",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Priest-Shadow",
+        "className": "Priest",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 123498.08,
+        "hps": 9148.16,
+        "primary": 123498.08,
+        "primaryKind": "dps",
+        "fightDps": 123498.08,
+        "fightHps": 9148.16,
+        "activeDps": 127870.77,
+        "activeHps": 12552.77,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 7056804,
+        "healingTotal": 522735,
+        "damageActiveTimeMs": 55187,
+        "healingActiveTimeMs": 41643,
+        "damageTotalTimeMs": 57141,
+        "healingTotalTimeMs": 57141,
+        "damageEntryId": 42,
+        "healingEntryId": 42,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:42,healing:actor-id:42"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 14,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4824699,
+          "endTime": 4881840,
+          "bossPercentage": 95.2,
+          "fightPercentage": 95.2,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 57141,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 7056804,
+              "activeTime": 55187,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 57141,
+            "matchedBy": "actor-id:42",
+            "matchedEntry": {
+              "id": 42,
+              "name": "Душа",
+              "type": "Priest",
+              "icon": "Priest-Shadow",
+              "total": 522735,
+              "activeTime": 41643,
+              "itemLevel": 287,
+              "guid": 266007559
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 42,
+          "matchedActorName": "Душа",
+          "normalizedKeys": [
+            "душа:blackscar:eu",
+            "душа::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Priest-Shadow",
+            "className": "Priest",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-06T12:10:18.850Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-08T21:56:18.714Z",
+    "lastPullAt": "2026-06-08T18:57:02.136Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }
