@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-08T00:17:08.274Z",
+  "updatedAt": "2026-06-08T05:58:54.359Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 163,
   "selectedMembers": 8,
   "scannedMembers": 8,
-  "changedMembers": 0,
+  "changedMembers": 1,
   "existingSnapshots": 163,
   "reportsScanned": 8,
   "fightsScanned": 8,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "zanzilight-tarren-mill-eu": 0,
-    "gaplik-silvermoon-eu": 0,
-    "hlorygole-silvermoon-eu": 0,
-    "inika-silvermoon-eu": 0,
-    "juz-silvermoon-eu": 0,
-    "kaijuro-silvermoon-eu": 0,
-    "medvedich-silvermoon-eu": 0,
-    "nanyy-silvermoon-eu": 0
+    "panharanir-kazzak-eu": 0,
+    "ponziani-kazzak-eu": 0,
+    "slavasalu-silvermoon-eu": 0,
+    "teasick-kazzak-eu": 0,
+    "булкрит-gordunni-eu": 8,
+    "амарак-gordunni-eu": 0,
+    "графдекот-gordunni-eu": 0,
+    "зермонг-gordunni-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,27 +36,6 @@
   },
   "batch": {
     "selected": [
-      "zanzilight-tarren-mill-eu",
-      "gaplik-silvermoon-eu",
-      "hlorygole-silvermoon-eu",
-      "inika-silvermoon-eu",
-      "juz-silvermoon-eu",
-      "kaijuro-silvermoon-eu",
-      "medvedich-silvermoon-eu",
-      "nanyy-silvermoon-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "zanzilight-tarren-mill-eu",
-      "gaplik-silvermoon-eu",
-      "hlorygole-silvermoon-eu",
-      "inika-silvermoon-eu",
-      "juz-silvermoon-eu",
-      "kaijuro-silvermoon-eu",
-      "medvedich-silvermoon-eu",
-      "nanyy-silvermoon-eu"
-    ],
-    "pending": [
       "panharanir-kazzak-eu",
       "ponziani-kazzak-eu",
       "slavasalu-silvermoon-eu",
@@ -64,7 +43,22 @@
       "булкрит-gordunni-eu",
       "амарак-gordunni-eu",
       "графдекот-gordunni-eu",
-      "зермонг-gordunni-eu",
+      "зермонг-gordunni-eu"
+    ],
+    "updated": [
+      "булкрит-gordunni-eu"
+    ],
+    "scanned": [
+      "panharanir-kazzak-eu",
+      "ponziani-kazzak-eu",
+      "slavasalu-silvermoon-eu",
+      "teasick-kazzak-eu",
+      "булкрит-gordunni-eu",
+      "амарак-gordunni-eu",
+      "графдекот-gordunni-eu",
+      "зермонг-gordunni-eu"
+    ],
+    "pending": [
       "threataan-silvermoon-eu",
       "valemor-silvermoon-eu",
       "базрог-gordunni-eu",
@@ -171,9 +165,7 @@
       "regin-doomhammer-eu",
       "rolemodel-burning-legion-eu",
       "twigsnapper-doomhammer-eu",
-      "сумраки-eversong-eu"
-    ],
-    "skippedFresh": [
+      "сумраки-eversong-eu",
       "blackberry-terokkar-eu",
       "straponeero-tarren-mill-eu",
       "travka-terokkar-eu",
@@ -189,7 +181,9 @@
       "pyatochka-terokkar-eu",
       "shatnyideath-terokkar-eu",
       "umbrak-terokkar-eu",
-      "грекулес-gordunni-eu",
+      "грекулес-gordunni-eu"
+    ],
+    "skippedFresh": [
       "thortun-silvermoon-eu",
       "sonechco-silvermoon-eu",
       "bernstorff-kazzak-eu",
@@ -213,11 +207,17 @@
       "нежныилок-eversong-eu",
       "пандашоманко-eversong-eu",
       "bloemfontain-silvermoon-eu",
-      "freddiedredd-silvermoon-eu"
-    ],
-    "missingSnapshots": [
+      "freddiedredd-silvermoon-eu",
+      "gaplik-silvermoon-eu",
+      "hlorygole-silvermoon-eu",
+      "inika-silvermoon-eu",
+      "juz-silvermoon-eu",
+      "kaijuro-silvermoon-eu",
+      "medvedich-silvermoon-eu",
+      "nanyy-silvermoon-eu",
       "zanzilight-tarren-mill-eu"
     ],
+    "missingSnapshots": [],
     "rotatedFresh": []
   },
   "warnings": [],

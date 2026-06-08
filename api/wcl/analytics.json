@@ -9,17 +9,17 @@
     "killRate": 0.1078,
     "avgFightDurationMs": 200273,
     "avgRaidDeaths": 17.03,
-    "avgTeamDps": 121997.98,
+    "avgTeamDps": 122518.08,
     "avgTeamHps": 34682.47,
     "avgPerformanceScore": 18.51,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.63
+    "avgReliabilityScore": 41.65
   },
   "roles": {
     "damage": {
       "members": 51,
       "pulls": 459,
-      "avgRecent": 57327.28,
+      "avgRecent": 57227.8,
       "medianRecent": 60662.06,
       "bestRecent": 100725.11,
       "maxLast10": 207607.12,
@@ -36,7 +36,7 @@
           "slug": "булкрит-gordunni-eu",
           "name": "Булкрит",
           "rank": 1,
-          "value": 99170.99,
+          "value": 94097.47,
           "secondary": 0
         },
         {
@@ -322,6 +322,13 @@
         "secondary": 115873.31
       },
       {
+        "slug": "булкрит-gordunni-eu",
+        "name": "Булкрит",
+        "rank": 1,
+        "value": 79.78,
+        "secondary": 94097.47
+      },
+      {
         "slug": "khayen-terokkar-eu",
         "name": "Khayen",
         "rank": 0,
@@ -364,13 +371,6 @@
         "secondary": 76043.61
       },
       {
-        "slug": "булкрит-gordunni-eu",
-        "name": "Булкрит",
-        "rank": 1,
-        "value": 77.02,
-        "secondary": 99170.99
-      },
-      {
         "slug": "кхаарн-lich-king-eu",
         "name": "Кхаарн",
         "rank": 3,
@@ -394,8 +394,8 @@
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 71.36,
-    "avgConsistencyPercent": 41.01,
+    "avgStabilityPercent": 71.22,
+    "avgConsistencyPercent": 41.33,
     "mostStable": [
       {
         "slug": "arthasright-tarren-mill-eu",
@@ -410,6 +410,13 @@
         "rank": 4,
         "value": 80.13,
         "secondary": 84.62
+      },
+      {
+        "slug": "булкрит-gordunni-eu",
+        "name": "Булкрит",
+        "rank": 1,
+        "value": 79.78,
+        "secondary": 83.51
       },
       {
         "slug": "khayen-terokkar-eu",
@@ -452,13 +459,6 @@
         "rank": 4,
         "value": 77.49,
         "secondary": 93.21
-      },
-      {
-        "slug": "булкрит-gordunni-eu",
-        "name": "Булкрит",
-        "rank": 1,
-        "value": 77.02,
-        "secondary": 91.83
       },
       {
         "slug": "кхаарн-lich-king-eu",
@@ -571,94 +571,94 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 24,
-    "updatedWithin12h": 48,
+    "updatedWithin6h": 16,
+    "updatedWithin12h": 40,
     "updatedWithin24h": 72,
-    "oldestScannedAt": "2026-06-05T20:05:33.415Z",
-    "newestScannedAt": "2026-06-08T00:17:08.274Z",
+    "oldestScannedAt": "2026-06-05T21:41:04.223Z",
+    "newestScannedAt": "2026-06-08T05:58:54.359Z",
     "staleMembers": [
-      {
-        "slug": "panharanir-kazzak-eu",
-        "name": "Panharanir",
-        "rank": 4,
-        "value": 52.2,
-        "secondary": 0
-      },
-      {
-        "slug": "ponziani-kazzak-eu",
-        "name": "Ponziani",
-        "rank": 4,
-        "value": 52.2,
-        "secondary": 0
-      },
-      {
-        "slug": "slavasalu-silvermoon-eu",
-        "name": "Slávásálu",
-        "rank": 4,
-        "value": 52.2,
-        "secondary": 0
-      },
-      {
-        "slug": "teasick-kazzak-eu",
-        "name": "Teasick",
-        "rank": 4,
-        "value": 52.2,
-        "secondary": 0
-      },
-      {
-        "slug": "булкрит-gordunni-eu",
-        "name": "Булкрит",
-        "rank": 1,
-        "value": 50.61,
-        "secondary": 10
-      },
-      {
-        "slug": "амарак-gordunni-eu",
-        "name": "Амарак",
-        "rank": 3,
-        "value": 50.61,
-        "secondary": 0
-      },
-      {
-        "slug": "графдекот-gordunni-eu",
-        "name": "Графдекот",
-        "rank": 3,
-        "value": 50.61,
-        "secondary": 10
-      },
-      {
-        "slug": "зермонг-gordunni-eu",
-        "name": "Зермонг",
-        "rank": 3,
-        "value": 50.61,
-        "secondary": 0
-      },
       {
         "slug": "threataan-silvermoon-eu",
         "name": "Threataan",
         "rank": 4,
-        "value": 50.61,
+        "value": 56.31,
         "secondary": 0
       },
       {
         "slug": "valemor-silvermoon-eu",
         "name": "Valemor",
         "rank": 4,
-        "value": 50.61,
+        "value": 56.31,
         "secondary": 0
       },
       {
         "slug": "базрог-gordunni-eu",
         "name": "Базрог",
         "rank": 4,
-        "value": 50.61,
+        "value": 56.31,
         "secondary": 0
       },
       {
         "slug": "рокталл-soulflayer-eu",
         "name": "Рокталл",
         "rank": 4,
-        "value": 50.61,
+        "value": 56.31,
+        "secondary": 0
+      },
+      {
+        "slug": "пизнаика-gordunni-eu",
+        "name": "Пизнайка",
+        "rank": 1,
+        "value": 54.72,
+        "secondary": 10
+      },
+      {
+        "slug": "тузольд-gordunni-eu",
+        "name": "Тузольд",
+        "rank": 1,
+        "value": 54.72,
+        "secondary": 10
+      },
+      {
+        "slug": "альянсс-gordunni-eu",
+        "name": "Альянсс",
+        "rank": 3,
+        "value": 54.72,
+        "secondary": 0
+      },
+      {
+        "slug": "галазард-eversong-eu",
+        "name": "Галазард",
+        "rank": 3,
+        "value": 54.72,
+        "secondary": 5
+      },
+      {
+        "slug": "кеенди-gordunni-eu",
+        "name": "Кеенди",
+        "rank": 3,
+        "value": 54.72,
+        "secondary": 10
+      },
+      {
+        "slug": "кибароу-soulflayer-eu",
+        "name": "Кибароу",
+        "rank": 3,
+        "value": 54.72,
+        "secondary": 0
+      },
+      {
+        "slug": "моннал-gordunni-eu",
+        "name": "Моннал",
+        "rank": 3,
+        "value": 54.72,
+        "secondary": 10
+      },
+      {
+        "slug": "монэлушка-gordunni-eu",
+        "name": "Монэлушка",
+        "rank": 4,
+        "value": 54.72,
         "secondary": 0
       }
     ]
@@ -676,9 +676,9 @@
       "killRate": 0,
       "avgDurationMs": 180567,
       "avgRaidDeaths": 19.91,
-      "avgTeamDps": 290582.81,
+      "avgTeamDps": 294353.53,
       "avgTeamHps": 162342.53,
-      "bestTeamDps": 632192.1,
+      "bestTeamDps": 600322.37,
       "bestTeamHps": 392165.98,
       "lastPullAt": "2026-06-06T19:13:13.049Z"
     },
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 163,
       "withData": 59,
-      "avgPrimaryRecent3": 22157.9,
-      "avgDpsRecent3": 17522.65,
+      "avgPrimaryRecent3": 22126.78,
+      "avgDpsRecent3": 17491.52,
       "avgHpsRecent3": 5419.61,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 41.63
+      "avgReliabilityScore": 41.65
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-08T00:17:08.274Z",
+  "updatedAt": "2026-06-08T05:58:54.359Z",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 163,
   "selectedMembers": 8,
   "scannedMembers": 8,
-  "changedMembers": 0,
+  "changedMembers": 1,
   "existingSnapshots": 163,
   "reportsScanned": 8,
   "fightsScanned": 8,
@@ -22,11 +22,11 @@
     "killRate": 0.1078,
     "avgFightDurationMs": 200273,
     "avgRaidDeaths": 17.03,
-    "avgTeamDps": 121997.98,
+    "avgTeamDps": 122518.08,
     "avgTeamHps": 34682.47,
     "avgPerformanceScore": 18.51,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.63
+    "avgReliabilityScore": 41.65
   },
   "warnings": []
 }
