@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-06T20:15:28.398Z",
+  "updatedAt": "2026-06-09T16:09:20.231Z",
   "character": {
     "name": "Nebatur",
     "realmSlug": "terokkar",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-06T20:15:28.398Z",
+    "lastScannedAt": "2026-06-09T16:09:20.231Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

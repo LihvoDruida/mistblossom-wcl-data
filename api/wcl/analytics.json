@@ -572,93 +572,93 @@
   "freshness": {
     "updatedWithin1h": 8,
     "updatedWithin6h": 16,
-    "updatedWithin12h": 24,
+    "updatedWithin12h": 32,
     "updatedWithin24h": 56,
-    "oldestScannedAt": "2026-06-06T20:15:28.398Z",
-    "newestScannedAt": "2026-06-09T12:10:58.518Z",
+    "oldestScannedAt": "2026-06-06T22:10:19.207Z",
+    "newestScannedAt": "2026-06-09T16:09:20.231Z",
     "staleMembers": [
-      {
-        "slug": "mistery-draenor-eu",
-        "name": "Mistéry",
-        "rank": 4,
-        "value": 63.93,
-        "secondary": 0
-      },
-      {
-        "slug": "nebatur-terokkar-eu",
-        "name": "Nebatur",
-        "rank": 4,
-        "value": 63.93,
-        "secondary": 0
-      },
-      {
-        "slug": "zanziwolf-tarren-mill-eu",
-        "name": "Zanziwolf",
-        "rank": 4,
-        "value": 63.93,
-        "secondary": 0
-      },
-      {
-        "slug": "azuriel-terokkar-eu",
-        "name": "Azuriel",
-        "rank": 1,
-        "value": 62.02,
-        "secondary": 0
-      },
-      {
-        "slug": "frrtiix-draenor-eu",
-        "name": "Frrtiix",
-        "rank": 1,
-        "value": 62.02,
-        "secondary": 10
-      },
-      {
-        "slug": "ragnarosh-terokkar-eu",
-        "name": "Ragnarosh",
-        "rank": 4,
-        "value": 62.02,
-        "secondary": 0
-      },
-      {
-        "slug": "sangvyn-tarren-mill-eu",
-        "name": "Sangvyn",
-        "rank": 4,
-        "value": 62.02,
-        "secondary": 0
-      },
-      {
-        "slug": "shatnyi-terokkar-eu",
-        "name": "Shatnyi",
-        "rank": 4,
-        "value": 62.02,
-        "secondary": 10
-      },
       {
         "slug": "umbramind-terokkar-eu",
         "name": "Umbramind",
         "rank": 4,
-        "value": 62.02,
+        "value": 65.99,
         "secondary": 0
       },
       {
         "slug": "yokusir-terokkar-eu",
         "name": "Yokusir",
         "rank": 4,
-        "value": 62.02,
+        "value": 65.99,
         "secondary": 3
       },
       {
         "slug": "zanzimon-tarren-mill-eu",
         "name": "Zanzimon",
         "rank": 4,
-        "value": 62.02,
+        "value": 65.99,
         "secondary": 0
       },
       {
         "slug": "kashin-terokkar-eu",
         "name": "Kashin",
         "rank": 1,
-        "value": 59.99,
+        "value": 63.97,
+        "secondary": 0
+      },
+      {
+        "slug": "krouli-terokkar-eu",
+        "name": "Krouli",
+        "rank": 1,
+        "value": 63.97,
+        "secondary": 0
+      },
+      {
+        "slug": "lightass-terokkar-eu",
+        "name": "Lightass",
+        "rank": 1,
+        "value": 63.97,
+        "secondary": 10
+      },
+      {
+        "slug": "mafik-terokkar-eu",
+        "name": "Mafik",
+        "rank": 1,
+        "value": 63.97,
+        "secondary": 10
+      },
+      {
+        "slug": "odeskiy-tarren-mill-eu",
+        "name": "Odeskiy",
+        "rank": 1,
+        "value": 63.97,
+        "secondary": 0
+      },
+      {
+        "slug": "blackdaddy-tarren-mill-eu",
+        "name": "Blackdaddy",
+        "rank": 3,
+        "value": 63.97,
+        "secondary": 0
+      },
+      {
+        "slug": "duszi-terokkar-eu",
+        "name": "Duszi",
+        "rank": 3,
+        "value": 63.97,
+        "secondary": 0
+      },
+      {
+        "slug": "icebloomi-tarren-mill-eu",
+        "name": "Icebloomi",
+        "rank": 3,
+        "value": 63.97,
+        "secondary": 0
+      },
+      {
+        "slug": "komatoznic-tarren-mill-eu",
+        "name": "Komatoznic",
+        "rank": 3,
+        "value": 58.43,
         "secondary": 0
       }
     ]
