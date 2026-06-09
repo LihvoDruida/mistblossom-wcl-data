@@ -1,12 +1,12 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-07T05:44:19.659Z",
+  "updatedAt": "2026-06-09T23:21:58.006Z",
   "character": {
     "name": "Arthasright",
     "realmSlug": "tarren-mill",
     "region": "eu",
     "slug": "arthasright-tarren-mill-eu",
-    "rank": 4,
+    "rank": 3,
     "roleHint": "unknown"
   },
   "stats": {
@@ -1548,9 +1548,9 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-07T05:44:19.659Z",
+    "lastScannedAt": "2026-06-09T23:21:58.006Z",
     "lastPullAt": "2026-06-06T19:13:13.049Z",
-    "newPullsInLastScan": 8,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }
