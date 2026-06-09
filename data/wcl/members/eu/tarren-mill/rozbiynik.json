@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-06T18:13:31.380Z",
+  "updatedAt": "2026-06-09T12:10:58.518Z",
   "character": {
     "name": "Rozbiynik",
     "realmSlug": "tarren-mill",
@@ -11,51 +11,51 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 1,
-    "wipes": 9,
-    "killRate": 0.1,
-    "wipeRate": 0.9,
+    "kills": 0,
+    "wipes": 10,
+    "killRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 186,
+    "totalRaidDeaths": 207,
     "deathsPerPull": 0,
-    "stabilityPercent": 81.56,
-    "consistencyPercent": 68.42,
-    "performanceScore": 63.96,
+    "stabilityPercent": 71.85,
+    "consistencyPercent": 59.73,
+    "performanceScore": 54.45,
     "survivalScore": 100,
-    "reliabilityScore": 78.68,
+    "reliabilityScore": 73.45,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 100725.11,
+      "avgDps": 98180.05,
       "avgHps": 0,
-      "avgPrimary": 100725.11,
-      "avgDurationMs": 176924,
+      "avgPrimary": 98180.05,
+      "avgDurationMs": 169890,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 112583.1,
+      "avgDps": 84874.51,
       "avgHps": 0,
-      "avgPrimary": 112583.1,
-      "avgDurationMs": 142646,
+      "avgPrimary": 84874.51,
+      "avgDurationMs": 215911,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 123493.22,
-      "minDps": 84490.55,
+      "maxDps": 136637.79,
+      "minDps": 81610.35,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 123493.22,
-      "minPrimary": 84490.55,
-      "maxDurationMs": 407830,
+      "maxPrimary": 136637.79,
+      "minPrimary": 81610.35,
+      "maxDurationMs": 255428,
       "minDurationMs": 56497
     },
     "trend": {
-      "direction": "down",
-      "recentAvg": 100725.11,
-      "previousAvg": 112583.1,
-      "delta": -11857.99,
-      "deltaPercent": -10.53
+      "direction": "up",
+      "recentAvg": 98180.05,
+      "previousAvg": 84874.51,
+      "delta": 13305.54,
+      "deltaPercent": 15.68
     },
     "byRole": {
       "healer": {
@@ -69,14 +69,14 @@
       },
       "damage": {
         "pulls": 10,
-        "kills": 1,
-        "wipes": 9,
-        "avgRecent": 100725.11,
-        "maxLast10": 123493.22,
-        "minLast10": 84490.55,
+        "kills": 0,
+        "wipes": 10,
+        "avgRecent": 98180.05,
+        "maxLast10": 136637.79,
+        "minLast10": 81610.35,
         "deathsPerPull": 0,
-        "bestPullKey": "kgwGHZ3DFJr7TVLv:2:Rozbiynik:tarren-mill:eu",
-        "worstPullKey": "8dAPQCWGNMLBjrRg:32:Rozbiynik:tarren-mill:eu"
+        "bestPullKey": "49WFMrR1KNkXtHn8:14:Rozbiynik:tarren-mill:eu",
+        "worstPullKey": "49WFMrR1KNkXtHn8:18:Rozbiynik:tarren-mill:eu"
       },
       "unknown": {
         "pulls": 0,
@@ -103,6 +103,1158 @@
     }
   },
   "pulls": [
+    {
+      "key": "49WFMrR1KNkXtHn8:21:Rozbiynik:tarren-mill:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=21",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:57:02.136Z",
+      "durationMs": 224253,
+      "bossPercentage": 47.03,
+      "fightPercentage": 47.03,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 12,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 89846.32,
+        "hps": 5438.74,
+        "primary": 89846.32,
+        "primaryKind": "dps",
+        "fightDps": 89846.32,
+        "fightHps": 5438.74,
+        "activeDps": 117077.34,
+        "activeHps": 5981.19,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 20148307,
+        "healingTotal": 1219654,
+        "damageActiveTimeMs": 172094,
+        "healingActiveTimeMs": 203915,
+        "damageTotalTimeMs": 224253,
+        "healingTotalTimeMs": 224253,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 21,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7223335,
+          "endTime": 7447588,
+          "bossPercentage": 47.03,
+          "fightPercentage": 47.03,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 224253,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 20148307,
+              "activeTime": 172094,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 224253,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1219654,
+              "activeTime": 203915,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 12,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:20:Rozbiynik:tarren-mill:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=20",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:50:47.571Z",
+      "durationMs": 210953,
+      "bossPercentage": 50.11,
+      "fightPercentage": 50.11,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 12,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 89779.11,
+        "hps": 8040.97,
+        "primary": 89779.11,
+        "primaryKind": "dps",
+        "fightDps": 89779.11,
+        "fightHps": 8040.97,
+        "activeDps": 115408.87,
+        "activeHps": 8822.41,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 18939172,
+        "healingTotal": 1696267,
+        "damageActiveTimeMs": 164105,
+        "healingActiveTimeMs": 192268,
+        "damageTotalTimeMs": 210953,
+        "healingTotalTimeMs": 210953,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 20,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6848770,
+          "endTime": 7059723,
+          "bossPercentage": 50.11,
+          "fightPercentage": 50.11,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 210953,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 18939172,
+              "activeTime": 164105,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 210953,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1696267,
+              "activeTime": 192268,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 12,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:19:Rozbiynik:tarren-mill:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=19",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:47:05.617Z",
+      "durationMs": 74463,
+      "bossPercentage": 75.16,
+      "fightPercentage": 75.16,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 12,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 114914.71,
+        "hps": 6637.52,
+        "primary": 114914.71,
+        "primaryKind": "dps",
+        "fightDps": 114914.71,
+        "fightHps": 6637.52,
+        "activeDps": 135064.78,
+        "activeHps": 7163.35,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8556894,
+        "healingTotal": 494250,
+        "damageActiveTimeMs": 63354,
+        "healingActiveTimeMs": 68997,
+        "damageTotalTimeMs": 74463,
+        "healingTotalTimeMs": 74463,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 19,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6626816,
+          "endTime": 6701279,
+          "bossPercentage": 75.16,
+          "fightPercentage": 75.16,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 74463,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 8556894,
+              "activeTime": 63354,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 74463,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 494250,
+              "activeTime": 68997,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 12,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:18:Rozbiynik:tarren-mill:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=18",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:41:15.040Z",
+      "durationMs": 252606,
+      "bossPercentage": 80.69,
+      "fightPercentage": 80.69,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 12,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 81610.35,
+        "hps": 10179.95,
+        "primary": 81610.35,
+        "primaryKind": "dps",
+        "fightDps": 81610.35,
+        "fightHps": 10179.95,
+        "activeDps": 105987.81,
+        "activeHps": 11688.66,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 20615265,
+        "healingTotal": 2571516,
+        "damageActiveTimeMs": 194506,
+        "healingActiveTimeMs": 220001,
+        "damageTotalTimeMs": 252606,
+        "healingTotalTimeMs": 252606,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 18,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6276239,
+          "endTime": 6528845,
+          "bossPercentage": 80.69,
+          "fightPercentage": 80.69,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 252606,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 20615265,
+              "activeTime": 194506,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 252606,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 2571516,
+              "activeTime": 220001,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 12,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:17:Rozbiynik:tarren-mill:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=17",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:31:07.859Z",
+      "durationMs": 151592,
+      "bossPercentage": 66.69,
+      "fightPercentage": 66.69,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 12,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 88004.25,
+        "hps": 7929.65,
+        "primary": 88004.25,
+        "primaryKind": "dps",
+        "fightDps": 88004.25,
+        "fightHps": 7929.65,
+        "activeDps": 116237.91,
+        "activeHps": 9402.72,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 13340741,
+        "healingTotal": 1202072,
+        "damageActiveTimeMs": 114771,
+        "healingActiveTimeMs": 127843,
+        "damageTotalTimeMs": 151592,
+        "healingTotalTimeMs": 151592,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 17,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5669058,
+          "endTime": 5820650,
+          "bossPercentage": 66.69,
+          "fightPercentage": 66.69,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 151592,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 13340741,
+              "activeTime": 114771,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 151592,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1202072,
+              "activeTime": 127843,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 12,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:16:Rozbiynik:tarren-mill:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=16",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:24:44.760Z",
+      "durationMs": 243536,
+      "bossPercentage": 50.41,
+      "fightPercentage": 50.41,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 12,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 85008.93,
+        "hps": 5832.32,
+        "primary": 85008.93,
+        "primaryKind": "dps",
+        "fightDps": 85008.93,
+        "fightHps": 5832.32,
+        "activeDps": 117254.1,
+        "activeHps": 6930.82,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 20702735,
+        "healingTotal": 1420381,
+        "damageActiveTimeMs": 176563,
+        "healingActiveTimeMs": 204937,
+        "damageTotalTimeMs": 243536,
+        "healingTotalTimeMs": 243536,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 16,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5285959,
+          "endTime": 5529495,
+          "bossPercentage": 50.41,
+          "fightPercentage": 50.41,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 243536,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 20702735,
+              "activeTime": 176563,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 243536,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1420381,
+              "activeTime": 204937,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 12,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:15:Rozbiynik:tarren-mill:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=15",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:18:59.925Z",
+      "durationMs": 255428,
+      "bossPercentage": 92.92,
+      "fightPercentage": 92.92,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 12,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 88622,
+        "hps": 7878.64,
+        "primary": 88622,
+        "primaryKind": "dps",
+        "fightDps": 88622,
+        "fightHps": 7878.64,
+        "activeDps": 101741.83,
+        "activeHps": 8184.78,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 22636540,
+        "healingTotal": 2012425,
+        "damageActiveTimeMs": 222490,
+        "healingActiveTimeMs": 245874,
+        "damageTotalTimeMs": 255428,
+        "healingTotalTimeMs": 255428,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 15,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4941124,
+          "endTime": 5196552,
+          "bossPercentage": 92.92,
+          "fightPercentage": 92.92,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 255428,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 22636540,
+              "activeTime": 222490,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 255428,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 2012425,
+              "activeTime": 245874,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 12,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:14:Rozbiynik:tarren-mill:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=14",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:17:03.500Z",
+      "durationMs": 57141,
+      "bossPercentage": 95.2,
+      "fightPercentage": 95.2,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 12,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 136637.79,
+        "hps": 6236.08,
+        "primary": 136637.79,
+        "primaryKind": "dps",
+        "fightDps": 136637.79,
+        "fightHps": 6236.08,
+        "activeDps": 174242.23,
+        "activeHps": 8299.04,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 7807620,
+        "healingTotal": 356336,
+        "damageActiveTimeMs": 44809,
+        "healingActiveTimeMs": 42937,
+        "damageTotalTimeMs": 57141,
+        "healingTotalTimeMs": 57141,
+        "damageEntryId": 12,
+        "healingEntryId": 12,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 14,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4824699,
+          "endTime": 4881840,
+          "bossPercentage": 95.2,
+          "fightPercentage": 95.2,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 57141,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 7807620,
+              "activeTime": 44809,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 57141,
+            "matchedBy": "actor-id:12",
+            "matchedEntry": {
+              "id": 12,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 356336,
+              "activeTime": 42937,
+              "itemLevel": 289,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 12,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "kgwGHZ3DFJr7TVLv:7:Rozbiynik:tarren-mill:eu",
       "reportCode": "kgwGHZ3DFJr7TVLv",
@@ -390,1166 +1542,14 @@
           }
         }
       }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:5:Rozbiynik:tarren-mill:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T18:09:13.362Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 5,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=5",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T17:51:57.292Z",
-      "durationMs": 238158,
-      "bossPercentage": 52.89,
-      "fightPercentage": 52.89,
-      "averageItemLevel": 285.54998779296875,
-      "actor": {
-        "id": 9,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 97873.97,
-        "hps": 8110.57,
-        "primary": 97873.97,
-        "primaryKind": "dps",
-        "fightDps": 97873.97,
-        "fightHps": 8110.57,
-        "activeDps": 117414.46,
-        "activeHps": 8342.78,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 23309470,
-        "healingTotal": 1931596,
-        "damageActiveTimeMs": 198523,
-        "healingActiveTimeMs": 231529,
-        "damageTotalTimeMs": 238158,
-        "healingTotalTimeMs": 238158,
-        "damageEntryId": 9,
-        "healingEntryId": 9,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780769353362
-        },
-        "fight": {
-          "id": 5,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 2246248,
-          "endTime": 2484406,
-          "bossPercentage": 52.89,
-          "fightPercentage": 52.89,
-          "averageItemLevel": 285.54998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 238158,
-            "matchedBy": "actor-id:9",
-            "matchedEntry": {
-              "id": 9,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 23309470,
-              "activeTime": 198523,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 238158,
-            "matchedBy": "actor-id:9",
-            "matchedEntry": {
-              "id": 9,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 1931596,
-              "activeTime": 231529,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 9,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:4:Rozbiynik:tarren-mill:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T18:09:13.362Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 4,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=4",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T17:49:01.292Z",
-      "durationMs": 79949,
-      "bossPercentage": 86.72,
-      "fightPercentage": 86.72,
-      "averageItemLevel": 285.54998779296875,
-      "actor": {
-        "id": 9,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 120226.17,
-        "hps": 4921.11,
-        "primary": 120226.17,
-        "primaryKind": "dps",
-        "fightDps": 120226.17,
-        "fightHps": 4921.11,
-        "activeDps": 135622.34,
-        "activeHps": 5640.69,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 9611962,
-        "healingTotal": 393438,
-        "damageActiveTimeMs": 70873,
-        "healingActiveTimeMs": 69750,
-        "damageTotalTimeMs": 79949,
-        "healingTotalTimeMs": 79949,
-        "damageEntryId": 9,
-        "healingEntryId": 9,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780769353362
-        },
-        "fight": {
-          "id": 4,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 2070248,
-          "endTime": 2150197,
-          "bossPercentage": 86.72,
-          "fightPercentage": 86.72,
-          "averageItemLevel": 285.54998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 79949,
-            "matchedBy": "actor-id:9",
-            "matchedEntry": {
-              "id": 9,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 9611962,
-              "activeTime": 70873,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 79949,
-            "matchedBy": "actor-id:9",
-            "matchedEntry": {
-              "id": 9,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 393438,
-              "activeTime": 69750,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 9,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:3:Rozbiynik:tarren-mill:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T18:09:13.362Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 3,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=3",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T17:41:39.557Z",
-      "durationMs": 211355,
-      "bossPercentage": 52.16,
-      "fightPercentage": 52.16,
-      "averageItemLevel": 285.54998779296875,
-      "actor": {
-        "id": 9,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 94029.92,
-        "hps": 6172.41,
-        "primary": 94029.92,
-        "primaryKind": "dps",
-        "fightDps": 94029.92,
-        "fightHps": 6172.41,
-        "activeDps": 115500.41,
-        "activeHps": 6398.62,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 19873693,
-        "healingTotal": 1304570,
-        "damageActiveTimeMs": 172066,
-        "healingActiveTimeMs": 203883,
-        "damageTotalTimeMs": 211355,
-        "healingTotalTimeMs": 211355,
-        "damageEntryId": 9,
-        "healingEntryId": 9,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780769353362
-        },
-        "fight": {
-          "id": 3,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 1628513,
-          "endTime": 1839868,
-          "bossPercentage": 52.16,
-          "fightPercentage": 52.16,
-          "averageItemLevel": 285.54998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 211355,
-            "matchedBy": "actor-id:9",
-            "matchedEntry": {
-              "id": 9,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 19873693,
-              "activeTime": 172066,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 211355,
-            "matchedBy": "actor-id:9",
-            "matchedEntry": {
-              "id": 9,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 1304570,
-              "activeTime": 203883,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 9,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:2:Rozbiynik:tarren-mill:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T18:09:13.362Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 2,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=2",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T17:36:29.451Z",
-      "durationMs": 136634,
-      "bossPercentage": 66.94,
-      "fightPercentage": 66.94,
-      "averageItemLevel": 285.54998779296875,
-      "actor": {
-        "id": 9,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 123493.22,
-        "hps": 8867.79,
-        "primary": 123493.22,
-        "primaryKind": "dps",
-        "fightDps": 123493.22,
-        "fightHps": 8867.79,
-        "activeDps": 140793.3,
-        "activeHps": 10310.17,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 16873373,
-        "healingTotal": 1211641,
-        "damageActiveTimeMs": 119845,
-        "healingActiveTimeMs": 117519,
-        "damageTotalTimeMs": 136634,
-        "healingTotalTimeMs": 136634,
-        "damageEntryId": 9,
-        "healingEntryId": 9,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:9,healing:actor-id:9"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780769353362
-        },
-        "fight": {
-          "id": 2,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 1318407,
-          "endTime": 1455041,
-          "bossPercentage": 66.94,
-          "fightPercentage": 66.94,
-          "averageItemLevel": 285.54998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 136634,
-            "matchedBy": "actor-id:9",
-            "matchedEntry": {
-              "id": 9,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 16873373,
-              "activeTime": 119845,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 136634,
-            "matchedBy": "actor-id:9",
-            "matchedEntry": {
-              "id": 9,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 1211641,
-              "activeTime": 117519,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 9,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:28:Rozbiynik:tarren-mill:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:56:22.399Z",
-      "durationMs": 254690,
-      "bossPercentage": 99.99,
-      "fightPercentage": 99.99,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 309,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 100740.06,
-        "hps": 7465.23,
-        "primary": 100740.06,
-        "primaryKind": "dps",
-        "fightDps": 100740.06,
-        "fightHps": 7465.23,
-        "activeDps": 116699.73,
-        "activeHps": 7568.11,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 25657487,
-        "healingTotal": 1901320,
-        "damageActiveTimeMs": 219859,
-        "healingActiveTimeMs": 251228,
-        "damageTotalTimeMs": 254690,
-        "healingTotalTimeMs": 254690,
-        "damageEntryId": 309,
-        "healingEntryId": 309,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:309,healing:actor-id:309"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 28,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 15936899,
-          "endTime": 16191589,
-          "bossPercentage": 99.99,
-          "fightPercentage": 99.99,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 254690,
-            "matchedBy": "actor-id:309",
-            "matchedEntry": {
-              "id": 309,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 25657487,
-              "activeTime": 219859,
-              "itemLevel": 288,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 254690,
-            "matchedBy": "actor-id:309",
-            "matchedEntry": {
-              "id": 309,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 1901320,
-              "activeTime": 251228,
-              "itemLevel": 288,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 309,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:27:Rozbiynik:tarren-mill:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=27",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:48:06.865Z",
-      "durationMs": 407830,
-      "bossPercentage": 87.18,
-      "fightPercentage": 87.18,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 309,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 96512.69,
-        "hps": 8146.49,
-        "primary": 96512.69,
-        "primaryKind": "dps",
-        "fightDps": 96512.69,
-        "fightHps": 8146.49,
-        "activeDps": 105259.02,
-        "activeHps": 8200.5,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 23
-      },
-      "source": {
-        "damageTotal": 39360769,
-        "healingTotal": 3322384,
-        "damageActiveTimeMs": 373942,
-        "healingActiveTimeMs": 405144,
-        "damageTotalTimeMs": 407830,
-        "healingTotalTimeMs": 407830,
-        "damageEntryId": 309,
-        "healingEntryId": 309,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:309,healing:actor-id:309"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 27,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 15441365,
-          "endTime": 15849195,
-          "bossPercentage": 87.18,
-          "fightPercentage": 87.18,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 407830,
-            "matchedBy": "actor-id:309",
-            "matchedEntry": {
-              "id": 309,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 39360769,
-              "activeTime": 373942,
-              "itemLevel": 288,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 407830,
-            "matchedBy": "actor-id:309",
-            "matchedEntry": {
-              "id": 309,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 3322384,
-              "activeTime": 405144,
-              "itemLevel": 288,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 23,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 309,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "rCkJzhm1PDqtNBw3:7:Rozbiynik:tarren-mill:eu",
-      "reportCode": "rCkJzhm1PDqtNBw3",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-03T17:26:18.167Z",
-      "reportEndedAt": "2026-06-03T17:58:09.482Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 7,
-      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=7",
-      "status": "KILL",
-      "bossName": "Imperator Averzian",
-      "encounterId": 3176,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-03T17:42:20.872Z",
-      "durationMs": 293935,
-      "bossPercentage": 0.01,
-      "fightPercentage": 0.01,
-      "averageItemLevel": 286.3999938964844,
-      "actor": {
-        "id": 111,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 120954.27,
-        "hps": 8932.85,
-        "primary": 120954.27,
-        "primaryKind": "dps",
-        "fightDps": 120954.27,
-        "fightHps": 8932.85,
-        "activeDps": 121563.04,
-        "activeHps": 8984.17,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 1
-      },
-      "source": {
-        "damageTotal": 35552692,
-        "healingTotal": 2625677,
-        "damageActiveTimeMs": 292463,
-        "healingActiveTimeMs": 292256,
-        "damageTotalTimeMs": 293935,
-        "healingTotalTimeMs": 293935,
-        "damageEntryId": 111,
-        "healingEntryId": 111,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:111,healing:actor-id:111"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "rCkJzhm1PDqtNBw3",
-          "title": "VS / DR / MQD",
-          "startTime": 1780507578167,
-          "endTime": 1780509489482
-        },
-        "fight": {
-          "id": 7,
-          "name": "Imperator Averzian",
-          "encounterID": 3176,
-          "difficulty": 5,
-          "kill": true,
-          "startTime": 962705,
-          "endTime": 1256640,
-          "bossPercentage": 0.01,
-          "fightPercentage": 0.01,
-          "averageItemLevel": 286.3999938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 293935,
-            "matchedBy": "actor-id:111",
-            "matchedEntry": {
-              "id": 111,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 35552692,
-              "activeTime": 292463,
-              "itemLevel": 288,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 20,
-            "totalTimeMs": 293935,
-            "matchedBy": "actor-id:111",
-            "matchedEntry": {
-              "id": 111,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 2625677,
-              "activeTime": 292256,
-              "itemLevel": 288,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 1,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 111,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:32:Rozbiynik:tarren-mill:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 32,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:06:06.764Z",
-      "durationMs": 215983,
-      "bossPercentage": 57.68,
-      "fightPercentage": 57.68,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 107,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 84490.55,
-        "hps": 7462.06,
-        "primary": 84490.55,
-        "primaryKind": "dps",
-        "fightDps": 84490.55,
-        "fightHps": 7462.06,
-        "activeDps": 108161.82,
-        "activeHps": 8148.97,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 18248522,
-        "healingTotal": 1611678,
-        "damageActiveTimeMs": 168715,
-        "healingActiveTimeMs": 197777,
-        "damageTotalTimeMs": 215983,
-        "healingTotalTimeMs": 215983,
-        "damageEntryId": 107,
-        "healingEntryId": 107,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:107,healing:actor-id:107"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "8dAPQCWGNMLBjrRg",
-          "title": "VS / DR / MQD",
-          "startTime": 1780072479016,
-          "endTime": 1780085415076
-        },
-        "fight": {
-          "id": 32,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 12687748,
-          "endTime": 12903731,
-          "bossPercentage": 57.68,
-          "fightPercentage": 57.68,
-          "averageItemLevel": 284.75
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 215983,
-            "matchedBy": "actor-id:107",
-            "matchedEntry": {
-              "id": 107,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 18248522,
-              "activeTime": 168715,
-              "itemLevel": 288,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 215983,
-            "matchedBy": "actor-id:107",
-            "matchedEntry": {
-              "id": 107,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 1611678,
-              "activeTime": 197777,
-              "itemLevel": 288,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 107,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-06T18:13:31.380Z",
-    "lastPullAt": "2026-06-06T18:08:16.865Z",
+    "lastScannedAt": "2026-06-09T12:10:58.518Z",
+    "lastPullAt": "2026-06-08T18:57:02.136Z",
     "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }

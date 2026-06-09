@@ -10,7 +10,7 @@
     "slug": "rozbiynik-tarren-mill-eu",
     "name": "Rozbiynik",
     "rank": 3,
-    "value": 100725.11,
+    "value": 98180.05,
     "secondary": 0
   },
   {
@@ -70,17 +70,17 @@
     "secondary": 0
   },
   {
+    "slug": "krekor-tarren-mill-eu",
+    "name": "Krekor",
+    "rank": 4,
+    "value": 87451.15,
+    "secondary": 0
+  },
+  {
     "slug": "мавпита-gordunni-eu",
     "name": "Мавпита",
     "rank": 1,
     "value": 87339.48,
-    "secondary": 0
-  },
-  {
-    "slug": "auroliana-ravencrest-eu",
-    "name": "Auroliana",
-    "rank": 3,
-    "value": 86292.08,
     "secondary": 0
   }
 ]
