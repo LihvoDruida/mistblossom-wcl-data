@@ -1,12 +1,12 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-06T16:13:00.986Z",
+  "updatedAt": "2026-06-09T08:36:06.737Z",
   "character": {
     "name": "Silpo",
     "realmSlug": "ravencrest",
     "region": "eu",
     "slug": "silpo-ravencrest-eu",
-    "rank": 4,
+    "rank": 3,
     "roleHint": "unknown"
   },
   "stats": {
@@ -16,58 +16,58 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 195,
+    "totalRaidDeaths": 209,
     "deathsPerPull": 0,
-    "stabilityPercent": 62.76,
-    "consistencyPercent": 31.31,
-    "performanceScore": 42.35,
+    "stabilityPercent": 68.46,
+    "consistencyPercent": 48.67,
+    "performanceScore": 49.82,
     "survivalScore": 100,
-    "reliabilityScore": 67.69,
+    "reliabilityScore": 71.8,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 5205.7,
-      "avgPrimary": 5205.7,
-      "avgDurationMs": 291246,
+      "avgHps": 6210.02,
+      "avgPrimary": 6210.02,
+      "avgDurationMs": 169890,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 4028.85,
-      "avgPrimary": 4028.85,
-      "avgDurationMs": 233606,
+      "avgHps": 6756.74,
+      "avgPrimary": 6756.74,
+      "avgDurationMs": 215911,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
       "maxDps": 0,
       "minDps": 0,
-      "maxHps": 8295.03,
-      "minHps": 2597.44,
-      "maxPrimary": 8295.03,
-      "minPrimary": 2597.44,
+      "maxHps": 9070.72,
+      "minHps": 4414.95,
+      "maxPrimary": 9070.72,
+      "minPrimary": 4414.95,
       "maxDurationMs": 407830,
-      "minDurationMs": 108203
+      "minDurationMs": 57141
     },
     "trend": {
-      "direction": "up",
-      "recentAvg": 5205.7,
-      "previousAvg": 4028.85,
-      "delta": 1176.85,
-      "deltaPercent": 29.21
+      "direction": "down",
+      "recentAvg": 6210.02,
+      "previousAvg": 6756.74,
+      "delta": -546.72,
+      "deltaPercent": -8.09
     },
     "byRole": {
       "healer": {
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 5205.7,
-        "maxLast10": 8295.03,
-        "minLast10": 2597.44,
+        "avgRecent": 6210.02,
+        "maxLast10": 9070.72,
+        "minLast10": 4414.95,
         "deathsPerPull": 0,
-        "bestPullKey": "J7drK2qY9hFnRyTD:27:Silpo:ravencrest:eu",
-        "worstPullKey": "J7drK2qY9hFnRyTD:26:Silpo:ravencrest:eu"
+        "bestPullKey": "49WFMrR1KNkXtHn8:19:Silpo:ravencrest:eu",
+        "worstPullKey": "49WFMrR1KNkXtHn8:20:Silpo:ravencrest:eu"
       },
       "damage": {
         "pulls": 0,
@@ -103,6 +103,1158 @@
     }
   },
   "pulls": [
+    {
+      "key": "49WFMrR1KNkXtHn8:21:Silpo:ravencrest:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 21,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=21",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:57:02.136Z",
+      "durationMs": 224253,
+      "bossPercentage": 47.03,
+      "fightPercentage": 47.03,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 18,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 94467.34,
+        "hps": 5144.38,
+        "primary": 5144.38,
+        "primaryKind": "hps",
+        "fightDps": 94467.34,
+        "fightHps": 5144.38,
+        "activeDps": 95270.28,
+        "activeHps": 5522.84,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 21184585,
+        "healingTotal": 1153643,
+        "damageActiveTimeMs": 222363,
+        "healingActiveTimeMs": 208886,
+        "damageTotalTimeMs": 224253,
+        "healingTotalTimeMs": 224253,
+        "damageEntryId": 18,
+        "healingEntryId": 18,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:18,healing:actor-id:18"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 21,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7223335,
+          "endTime": 7447588,
+          "bossPercentage": 47.03,
+          "fightPercentage": 47.03,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 224253,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 21184585,
+              "activeTime": 222363,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 224253,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 1153643,
+              "activeTime": 208886,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 18,
+          "matchedActorName": "Silpo",
+          "normalizedKeys": [
+            "silpo:ravencrest:eu",
+            "silpo::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:20:Silpo:ravencrest:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 20,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=20",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:50:47.571Z",
+      "durationMs": 210953,
+      "bossPercentage": 50.11,
+      "fightPercentage": 50.11,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 18,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 96820.3,
+        "hps": 4414.95,
+        "primary": 4414.95,
+        "primaryKind": "hps",
+        "fightDps": 96820.3,
+        "fightHps": 4414.95,
+        "activeDps": 97791.95,
+        "activeHps": 4812.52,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 20424533,
+        "healingTotal": 931348,
+        "damageActiveTimeMs": 208857,
+        "healingActiveTimeMs": 193526,
+        "damageTotalTimeMs": 210953,
+        "healingTotalTimeMs": 210953,
+        "damageEntryId": 18,
+        "healingEntryId": 18,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:18,healing:actor-id:18"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 20,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6848770,
+          "endTime": 7059723,
+          "bossPercentage": 50.11,
+          "fightPercentage": 50.11,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 210953,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 20424533,
+              "activeTime": 208857,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 210953,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 931348,
+              "activeTime": 193526,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 18,
+          "matchedActorName": "Silpo",
+          "normalizedKeys": [
+            "silpo:ravencrest:eu",
+            "silpo::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:19:Silpo:ravencrest:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 19,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=19",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:47:05.617Z",
+      "durationMs": 74463,
+      "bossPercentage": 75.16,
+      "fightPercentage": 75.16,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 18,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 140957.32,
+        "hps": 9070.72,
+        "primary": 9070.72,
+        "primaryKind": "hps",
+        "fightDps": 140957.32,
+        "fightHps": 9070.72,
+        "activeDps": 144781.85,
+        "activeHps": 10456.27,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 10496105,
+        "healingTotal": 675433,
+        "damageActiveTimeMs": 72496,
+        "healingActiveTimeMs": 64596,
+        "damageTotalTimeMs": 74463,
+        "healingTotalTimeMs": 74463,
+        "damageEntryId": 18,
+        "healingEntryId": 18,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:18,healing:actor-id:18"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 19,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6626816,
+          "endTime": 6701279,
+          "bossPercentage": 75.16,
+          "fightPercentage": 75.16,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 74463,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 10496105,
+              "activeTime": 72496,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 74463,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 675433,
+              "activeTime": 64596,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 18,
+          "matchedActorName": "Silpo",
+          "normalizedKeys": [
+            "silpo:ravencrest:eu",
+            "silpo::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:18:Silpo:ravencrest:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=18",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:41:15.040Z",
+      "durationMs": 252606,
+      "bossPercentage": 80.69,
+      "fightPercentage": 80.69,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 18,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 109191.04,
+        "hps": 5303.95,
+        "primary": 5303.95,
+        "primaryKind": "hps",
+        "fightDps": 109191.04,
+        "fightHps": 5303.95,
+        "activeDps": 111830.46,
+        "activeHps": 6058.73,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 27582311,
+        "healingTotal": 1339810,
+        "damageActiveTimeMs": 246644,
+        "healingActiveTimeMs": 221137,
+        "damageTotalTimeMs": 252606,
+        "healingTotalTimeMs": 252606,
+        "damageEntryId": 18,
+        "healingEntryId": 18,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:18,healing:actor-id:18"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 18,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6276239,
+          "endTime": 6528845,
+          "bossPercentage": 80.69,
+          "fightPercentage": 80.69,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 252606,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 27582311,
+              "activeTime": 246644,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 252606,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 1339810,
+              "activeTime": 221137,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 18,
+          "matchedActorName": "Silpo",
+          "normalizedKeys": [
+            "silpo:ravencrest:eu",
+            "silpo::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:17:Silpo:ravencrest:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=17",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:31:07.859Z",
+      "durationMs": 151592,
+      "bossPercentage": 66.69,
+      "fightPercentage": 66.69,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 18,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 118522.28,
+        "hps": 7573.2,
+        "primary": 7573.2,
+        "primaryKind": "hps",
+        "fightDps": 118522.28,
+        "fightHps": 7573.2,
+        "activeDps": 120157.49,
+        "activeHps": 8179.17,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 17967030,
+        "healingTotal": 1148037,
+        "damageActiveTimeMs": 149529,
+        "healingActiveTimeMs": 140361,
+        "damageTotalTimeMs": 151592,
+        "healingTotalTimeMs": 151592,
+        "damageEntryId": 18,
+        "healingEntryId": 18,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:18,healing:actor-id:18"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 17,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5669058,
+          "endTime": 5820650,
+          "bossPercentage": 66.69,
+          "fightPercentage": 66.69,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 151592,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 17967030,
+              "activeTime": 149529,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 151592,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 1148037,
+              "activeTime": 140361,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 18,
+          "matchedActorName": "Silpo",
+          "normalizedKeys": [
+            "silpo:ravencrest:eu",
+            "silpo::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:16:Silpo:ravencrest:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=16",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:24:44.760Z",
+      "durationMs": 243536,
+      "bossPercentage": 50.41,
+      "fightPercentage": 50.41,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 18,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 107320.33,
+        "hps": 7393.08,
+        "primary": 7393.08,
+        "primaryKind": "hps",
+        "fightDps": 107320.33,
+        "fightHps": 7393.08,
+        "activeDps": 108110.96,
+        "activeHps": 8962.65,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 26136365,
+        "healingTotal": 1800480,
+        "damageActiveTimeMs": 241755,
+        "healingActiveTimeMs": 200887,
+        "damageTotalTimeMs": 243536,
+        "healingTotalTimeMs": 243536,
+        "damageEntryId": 18,
+        "healingEntryId": 18,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:18,healing:actor-id:18"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 16,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5285959,
+          "endTime": 5529495,
+          "bossPercentage": 50.41,
+          "fightPercentage": 50.41,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 243536,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 26136365,
+              "activeTime": 241755,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 243536,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 1800480,
+              "activeTime": 200887,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 18,
+          "matchedActorName": "Silpo",
+          "normalizedKeys": [
+            "silpo:ravencrest:eu",
+            "silpo::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:15:Silpo:ravencrest:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=15",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:18:59.925Z",
+      "durationMs": 255428,
+      "bossPercentage": 92.92,
+      "fightPercentage": 92.92,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 18,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 119305.82,
+        "hps": 4816.39,
+        "primary": 4816.39,
+        "primaryKind": "hps",
+        "fightDps": 119305.82,
+        "fightHps": 4816.39,
+        "activeDps": 121169.18,
+        "activeHps": 5290.56,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 30474048,
+        "healingTotal": 1230240,
+        "damageActiveTimeMs": 251500,
+        "healingActiveTimeMs": 232535,
+        "damageTotalTimeMs": 255428,
+        "healingTotalTimeMs": 255428,
+        "damageEntryId": 18,
+        "healingEntryId": 18,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:18,healing:actor-id:18"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 15,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4941124,
+          "endTime": 5196552,
+          "bossPercentage": 92.92,
+          "fightPercentage": 92.92,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 255428,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 30474048,
+              "activeTime": 251500,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 255428,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 1230240,
+              "activeTime": 232535,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 18,
+          "matchedActorName": "Silpo",
+          "normalizedKeys": [
+            "silpo:ravencrest:eu",
+            "silpo::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "49WFMrR1KNkXtHn8:14:Silpo:ravencrest:eu",
+      "reportCode": "49WFMrR1KNkXtHn8",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-08T16:56:38.801Z",
+      "reportEndedAt": "2026-06-08T19:12:36.748Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=14",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-08T18:17:03.500Z",
+      "durationMs": 57141,
+      "bossPercentage": 95.2,
+      "fightPercentage": 95.2,
+      "averageItemLevel": 286.25,
+      "actor": {
+        "id": 18,
+        "name": "Silpo",
+        "server": "Ravencrest",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 140506.57,
+        "hps": 4692.2,
+        "primary": 4692.2,
+        "primaryKind": "hps",
+        "fightDps": 140506.57,
+        "fightHps": 4692.2,
+        "activeDps": 148756.5,
+        "activeHps": 7761.83,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8028686,
+        "healingTotal": 268117,
+        "damageActiveTimeMs": 53972,
+        "healingActiveTimeMs": 34543,
+        "damageTotalTimeMs": 57141,
+        "healingTotalTimeMs": 57141,
+        "damageEntryId": 18,
+        "healingEntryId": 18,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:18,healing:actor-id:18"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "49WFMrR1KNkXtHn8",
+          "title": "VS / DR / MQD",
+          "startTime": 1780937798801,
+          "endTime": 1780945956748
+        },
+        "fight": {
+          "id": 14,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4824699,
+          "endTime": 4881840,
+          "bossPercentage": 95.2,
+          "fightPercentage": 95.2,
+          "averageItemLevel": 286.25
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 57141,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 8028686,
+              "activeTime": 53972,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 57141,
+            "matchedBy": "actor-id:18",
+            "matchedEntry": {
+              "id": 18,
+              "name": "Silpo",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 268117,
+              "activeTime": 34543,
+              "itemLevel": 288,
+              "guid": 172370451
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 18,
+          "matchedActorName": "Silpo",
+          "normalizedKeys": [
+            "silpo:ravencrest:eu",
+            "silpo::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "J7drK2qY9hFnRyTD:28:Silpo:ravencrest:eu",
       "reportCode": "J7drK2qY9hFnRyTD",
@@ -390,1166 +1542,14 @@
           }
         }
       }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:26:Silpo:ravencrest:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:43:28.840Z",
-      "durationMs": 211217,
-      "bossPercentage": 44.04,
-      "fightPercentage": 44.04,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 306,
-        "name": "Silpo",
-        "server": "Ravencrest",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 95821,
-        "hps": 2597.44,
-        "primary": 2597.44,
-        "primaryKind": "hps",
-        "fightDps": 95821,
-        "fightHps": 2597.44,
-        "activeDps": 102509.81,
-        "activeHps": 3029.34,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 20239024,
-        "healingTotal": 548623,
-        "damageActiveTimeMs": 197435,
-        "healingActiveTimeMs": 181103,
-        "damageTotalTimeMs": 211217,
-        "healingTotalTimeMs": 211217,
-        "damageEntryId": 306,
-        "healingEntryId": 306,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:306,healing:actor-id:306"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 26,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 15163340,
-          "endTime": 15374557,
-          "bossPercentage": 44.04,
-          "fightPercentage": 44.04,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 211217,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 20239024,
-              "activeTime": 197435,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 211217,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 548623,
-              "activeTime": 181103,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 306,
-          "matchedActorName": "Silpo",
-          "normalizedKeys": [
-            "silpo:ravencrest:eu",
-            "silpo::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:24:Silpo:ravencrest:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 24,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=24",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:34:22.519Z",
-      "durationMs": 225405,
-      "bossPercentage": 48.14,
-      "fightPercentage": 48.14,
-      "averageItemLevel": 287.1499938964844,
-      "actor": {
-        "id": 306,
-        "name": "Silpo",
-        "server": "Ravencrest",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 79130.97,
-        "hps": 3518.17,
-        "primary": 3518.17,
-        "primaryKind": "hps",
-        "fightDps": 79130.97,
-        "fightHps": 3518.17,
-        "activeDps": 91769.1,
-        "activeHps": 4442.54,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 17836517,
-        "healingTotal": 793012,
-        "damageActiveTimeMs": 194363,
-        "healingActiveTimeMs": 178504,
-        "damageTotalTimeMs": 225405,
-        "healingTotalTimeMs": 225405,
-        "damageEntryId": 306,
-        "healingEntryId": 306,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:306,healing:actor-id:306"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 24,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 14617019,
-          "endTime": 14842424,
-          "bossPercentage": 48.14,
-          "fightPercentage": 48.14,
-          "averageItemLevel": 287.1499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 225405,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 17836517,
-              "activeTime": 194363,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 225405,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 793012,
-              "activeTime": 178504,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 306,
-          "matchedActorName": "Silpo",
-          "normalizedKeys": [
-            "silpo:ravencrest:eu",
-            "silpo::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:23:Silpo:ravencrest:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 23,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=23",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:28:15.407Z",
-      "durationMs": 244539,
-      "bossPercentage": 43.67,
-      "fightPercentage": 43.67,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 306,
-        "name": "Silpo",
-        "server": "Ravencrest",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 92170.23,
-        "hps": 3914.05,
-        "primary": 3914.05,
-        "primaryKind": "hps",
-        "fightDps": 92170.23,
-        "fightHps": 3914.05,
-        "activeDps": 93014.64,
-        "activeHps": 4898.1,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 22539215,
-        "healingTotal": 957138,
-        "damageActiveTimeMs": 242319,
-        "healingActiveTimeMs": 195410,
-        "damageTotalTimeMs": 244539,
-        "healingTotalTimeMs": 244539,
-        "damageEntryId": 306,
-        "healingEntryId": 306,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:306,healing:actor-id:306"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 23,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 14249907,
-          "endTime": 14494446,
-          "bossPercentage": 43.67,
-          "fightPercentage": 43.67,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 244539,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 22539215,
-              "activeTime": 242319,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 244539,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 957138,
-              "activeTime": 195410,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 306,
-          "matchedActorName": "Silpo",
-          "normalizedKeys": [
-            "silpo:ravencrest:eu",
-            "silpo::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:22:Silpo:ravencrest:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 22,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=22",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:22:35.705Z",
-      "durationMs": 230874,
-      "bossPercentage": 45.95,
-      "fightPercentage": 45.95,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 306,
-        "name": "Silpo",
-        "server": "Ravencrest",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 73902.12,
-        "hps": 4654.32,
-        "primary": 4654.32,
-        "primaryKind": "hps",
-        "fightDps": 73902.12,
-        "fightHps": 4654.32,
-        "activeDps": 74803.82,
-        "activeHps": 5206.44,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 17062077,
-        "healingTotal": 1074562,
-        "damageActiveTimeMs": 228091,
-        "healingActiveTimeMs": 206391,
-        "damageTotalTimeMs": 230874,
-        "healingTotalTimeMs": 230874,
-        "damageEntryId": 306,
-        "healingEntryId": 306,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:306,healing:actor-id:306"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 22,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13910205,
-          "endTime": 14141079,
-          "bossPercentage": 45.95,
-          "fightPercentage": 45.95,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 230874,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 17062077,
-              "activeTime": 228091,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 230874,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 1074562,
-              "activeTime": 206391,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 306,
-          "matchedActorName": "Silpo",
-          "normalizedKeys": [
-            "silpo:ravencrest:eu",
-            "silpo::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:21:Silpo:ravencrest:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=21",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:19:49.269Z",
-      "durationMs": 108203,
-      "bossPercentage": 67.25,
-      "fightPercentage": 67.25,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 306,
-        "name": "Silpo",
-        "server": "Ravencrest",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 99619.94,
-        "hps": 7903.54,
-        "primary": 7903.54,
-        "primaryKind": "hps",
-        "fightDps": 99619.94,
-        "fightHps": 7903.54,
-        "activeDps": 101540.9,
-        "activeHps": 11777.33,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 10779176,
-        "healingTotal": 855187,
-        "damageActiveTimeMs": 106156,
-        "healingActiveTimeMs": 72613,
-        "damageTotalTimeMs": 108203,
-        "healingTotalTimeMs": 108203,
-        "damageEntryId": 306,
-        "healingEntryId": 306,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:306,healing:actor-id:306"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 21,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13743769,
-          "endTime": 13851972,
-          "bossPercentage": 67.25,
-          "fightPercentage": 67.25,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 108203,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 10779176,
-              "activeTime": 106156,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 108203,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 855187,
-              "activeTime": 72613,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 306,
-          "matchedActorName": "Silpo",
-          "normalizedKeys": [
-            "silpo:ravencrest:eu",
-            "silpo::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:20:Silpo:ravencrest:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=20",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:07:41.231Z",
-      "durationMs": 157276,
-      "bossPercentage": 52.9,
-      "fightPercentage": 52.9,
-      "averageItemLevel": 287.1000061035156,
-      "actor": {
-        "id": 306,
-        "name": "Silpo",
-        "server": "Ravencrest",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 102036.63,
-        "hps": 5986.24,
-        "primary": 5986.24,
-        "primaryKind": "hps",
-        "fightDps": 102036.63,
-        "fightHps": 5986.24,
-        "activeDps": 103553.63,
-        "activeHps": 6388.06,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 9
-      },
-      "source": {
-        "damageTotal": 16047913,
-        "healingTotal": 941492,
-        "damageActiveTimeMs": 154972,
-        "healingActiveTimeMs": 147383,
-        "damageTotalTimeMs": 157276,
-        "healingTotalTimeMs": 157276,
-        "damageEntryId": 306,
-        "healingEntryId": 306,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:306,healing:actor-id:306"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 20,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13015731,
-          "endTime": 13173007,
-          "bossPercentage": 52.9,
-          "fightPercentage": 52.9,
-          "averageItemLevel": 287.1000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157276,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 16047913,
-              "activeTime": 154972,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 157276,
-            "matchedBy": "actor-id:306",
-            "matchedEntry": {
-              "id": 306,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 941492,
-              "activeTime": 147383,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 9,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 306,
-          "matchedActorName": "Silpo",
-          "normalizedKeys": [
-            "silpo:ravencrest:eu",
-            "silpo::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:32:Silpo:ravencrest:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 32,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:06:06.764Z",
-      "durationMs": 215983,
-      "bossPercentage": 57.68,
-      "fightPercentage": 57.68,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 114,
-        "name": "Silpo",
-        "server": "Ravencrest",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 77772.4,
-        "hps": 4352.32,
-        "primary": 4352.32,
-        "primaryKind": "hps",
-        "fightDps": 77772.4,
-        "fightHps": 4352.32,
-        "activeDps": 78511.05,
-        "activeHps": 5323.22,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 16797517,
-        "healingTotal": 940028,
-        "damageActiveTimeMs": 213951,
-        "healingActiveTimeMs": 176590,
-        "damageTotalTimeMs": 215983,
-        "healingTotalTimeMs": 215983,
-        "damageEntryId": 114,
-        "healingEntryId": 114,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "8dAPQCWGNMLBjrRg",
-          "title": "VS / DR / MQD",
-          "startTime": 1780072479016,
-          "endTime": 1780085415076
-        },
-        "fight": {
-          "id": 32,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 12687748,
-          "endTime": 12903731,
-          "bossPercentage": 57.68,
-          "fightPercentage": 57.68,
-          "averageItemLevel": 284.75
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 215983,
-            "matchedBy": "actor-id:114",
-            "matchedEntry": {
-              "id": 114,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 16797517,
-              "activeTime": 213951,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 215983,
-            "matchedBy": "actor-id:114",
-            "matchedEntry": {
-              "id": 114,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 940028,
-              "activeTime": 176590,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 114,
-          "matchedActorName": "Silpo",
-          "normalizedKeys": [
-            "silpo:ravencrest:eu",
-            "silpo::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:31:Silpo:ravencrest:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 31,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:00:37.917Z",
-      "durationMs": 226446,
-      "bossPercentage": 57.65,
-      "fightPercentage": 57.65,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 114,
-        "name": "Silpo",
-        "server": "Ravencrest",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 67895.03,
-        "hps": 5116.28,
-        "primary": 5116.28,
-        "primaryKind": "hps",
-        "fightDps": 67895.03,
-        "fightHps": 5116.28,
-        "activeDps": 74237.72,
-        "activeHps": 7185.81,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 15374558,
-        "healingTotal": 1158561,
-        "damageActiveTimeMs": 207099,
-        "healingActiveTimeMs": 161229,
-        "damageTotalTimeMs": 226446,
-        "healingTotalTimeMs": 226446,
-        "damageEntryId": 114,
-        "healingEntryId": 114,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:114,healing:actor-id:114"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "8dAPQCWGNMLBjrRg",
-          "title": "VS / DR / MQD",
-          "startTime": 1780072479016,
-          "endTime": 1780085415076
-        },
-        "fight": {
-          "id": 31,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 12358901,
-          "endTime": 12585347,
-          "bossPercentage": 57.65,
-          "fightPercentage": 57.65,
-          "averageItemLevel": 284.75
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 226446,
-            "matchedBy": "actor-id:114",
-            "matchedEntry": {
-              "id": 114,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 15374558,
-              "activeTime": 207099,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 226446,
-            "matchedBy": "actor-id:114",
-            "matchedEntry": {
-              "id": 114,
-              "name": "Silpo",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 1158561,
-              "activeTime": 161229,
-              "itemLevel": 288,
-              "guid": 172370451
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 114,
-          "matchedActorName": "Silpo",
-          "normalizedKeys": [
-            "silpo:ravencrest:eu",
-            "silpo::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-06T16:13:00.986Z",
-    "lastPullAt": "2026-06-04T19:56:22.399Z",
+    "lastScannedAt": "2026-06-09T08:36:06.737Z",
+    "lastPullAt": "2026-06-08T18:57:02.136Z",
     "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }

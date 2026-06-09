@@ -10,10 +10,10 @@
     "avgFightDurationMs": 199723,
     "avgRaidDeaths": 17.15,
     "avgTeamDps": 122219.25,
-    "avgTeamHps": 36385.71,
-    "avgPerformanceScore": 18.8,
+    "avgTeamHps": 36428.9,
+    "avgPerformanceScore": 18.85,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 42
+    "avgReliabilityScore": 42.02
   },
   "roles": {
     "damage": {
@@ -114,7 +114,7 @@
     "healer": {
       "members": 20,
       "pulls": 118,
-      "avgRecent": 49555.89,
+      "avgRecent": 49606.11,
       "medianRecent": 15202.1,
       "bestRecent": 115873.31,
       "maxLast10": 136940.45,
@@ -394,8 +394,8 @@
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 71,
-    "avgConsistencyPercent": 41.7,
+    "avgStabilityPercent": 71.09,
+    "avgConsistencyPercent": 41.98,
     "mostStable": [
       {
         "slug": "arthasright-tarren-mill-eu",
@@ -574,92 +574,92 @@
     "updatedWithin6h": 16,
     "updatedWithin12h": 32,
     "updatedWithin24h": 56,
-    "oldestScannedAt": "2026-06-06T16:13:00.986Z",
-    "newestScannedAt": "2026-06-09T04:11:15.366Z",
+    "oldestScannedAt": "2026-06-06T18:13:31.380Z",
+    "newestScannedAt": "2026-06-09T08:36:06.737Z",
     "staleMembers": [
-      {
-        "slug": "darthkenobi-tarren-mill-eu",
-        "name": "Darthkenobi",
-        "rank": 3,
-        "value": 59.98,
-        "secondary": 0
-      },
-      {
-        "slug": "silpo-ravencrest-eu",
-        "name": "Silpo",
-        "rank": 4,
-        "value": 59.98,
-        "secondary": 10
-      },
-      {
-        "slug": "сетария-galakrond-eu",
-        "name": "Сетария",
-        "rank": 4,
-        "value": 59.98,
-        "secondary": 0
-      },
-      {
-        "slug": "elderwizard-terokkar-eu",
-        "name": "Elderwizard",
-        "rank": 3,
-        "value": 57.97,
-        "secondary": 10
-      },
-      {
-        "slug": "es-terokkar-eu",
-        "name": "Es",
-        "rank": 3,
-        "value": 57.97,
-        "secondary": 0
-      },
-      {
-        "slug": "hopeblood-doomhammer-eu",
-        "name": "Hopeblood",
-        "rank": 3,
-        "value": 57.97,
-        "secondary": 0
-      },
-      {
-        "slug": "illidonson-draenor-eu",
-        "name": "Illidonson",
-        "rank": 3,
-        "value": 57.97,
-        "secondary": 10
-      },
-      {
-        "slug": "kavunchyk-terokkar-eu",
-        "name": "Kavunchyk",
-        "rank": 3,
-        "value": 57.97,
-        "secondary": 0
-      },
       {
         "slug": "prayddh-terokkar-eu",
         "name": "Prayddh",
         "rank": 3,
-        "value": 57.97,
+        "value": 62.39,
         "secondary": 0
       },
       {
         "slug": "redray-terokkar-eu",
         "name": "Redray",
         "rank": 3,
-        "value": 57.97,
+        "value": 62.39,
         "secondary": 0
       },
       {
         "slug": "rozbiynik-tarren-mill-eu",
         "name": "Rozbiynik",
         "rank": 3,
-        "value": 57.97,
+        "value": 62.39,
         "secondary": 10
       },
       {
         "slug": "shennai-ravencrest-eu",
         "name": "Shennái",
         "rank": 3,
-        "value": 55.94,
+        "value": 60.35,
         "secondary": 7
+      },
+      {
+        "slug": "алак-goldrinn-eu",
+        "name": "Алак",
+        "rank": 3,
+        "value": 60.35,
+        "secondary": 0
+      },
+      {
+        "slug": "bureviy-doomhammer-eu",
+        "name": "Bureviy",
+        "rank": 4,
+        "value": 60.35,
+        "secondary": 10
+      },
+      {
+        "slug": "katsyt-terokkar-eu",
+        "name": "Katsyt",
+        "rank": 4,
+        "value": 60.35,
+        "secondary": 0
+      },
+      {
+        "slug": "krekor-tarren-mill-eu",
+        "name": "Krekor",
+        "rank": 4,
+        "value": 60.35,
+        "secondary": 10
+      },
+      {
+        "slug": "mistery-draenor-eu",
+        "name": "Mistéry",
+        "rank": 4,
+        "value": 60.35,
+        "secondary": 0
+      },
+      {
+        "slug": "nebatur-terokkar-eu",
+        "name": "Nebatur",
+        "rank": 4,
+        "value": 60.35,
+        "secondary": 0
+      },
+      {
+        "slug": "zanziwolf-tarren-mill-eu",
+        "name": "Zanziwolf",
+        "rank": 4,
+        "value": 60.35,
+        "secondary": 0
+      },
+      {
+        "slug": "azuriel-terokkar-eu",
+        "name": "Azuriel",
+        "rank": 1,
+        "value": 58.44,
+        "secondary": 0
       }
     ]
   },
@@ -677,7 +677,7 @@
       "avgDurationMs": 181203,
       "avgRaidDeaths": 20.08,
       "avgTeamDps": 269729.59,
-      "avgTeamHps": 147029.98,
+      "avgTeamHps": 147289.14,
       "bestTeamDps": 734237.24,
       "bestTeamHps": 392165.98,
       "lastPullAt": "2026-06-08T18:57:02.136Z"
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 163,
       "withData": 60,
-      "avgPrimaryRecent3": 23025.23,
+      "avgPrimaryRecent3": 23031.39,
       "avgDpsRecent3": 17811.02,
-      "avgHpsRecent3": 5998.57,
+      "avgHpsRecent3": 6004.73,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 42
+      "avgReliabilityScore": 42.02
     }
   ]
 }

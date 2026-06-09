@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-09T04:11:15.366Z",
+  "updatedAt": "2026-06-09T08:36:06.737Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 163,
   "selectedMembers": 8,
   "scannedMembers": 8,
-  "changedMembers": 0,
+  "changedMembers": 1,
   "existingSnapshots": 163,
   "reportsScanned": 8,
   "fightsScanned": 8,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "скяльди-howling-fjord-eu": 0,
-    "jakeyo-ravencrest-eu": 0,
-    "nwlck-ravencrest-eu": 0,
-    "characternuk-terokkar-eu": 0,
-    "zanzithor-tarren-mill-eu": 0,
-    "allune-terokkar-eu": 0,
-    "asasinas-terokkar-eu": 0,
-    "bylik-tarren-mill-eu": 0
+    "darthkenobi-tarren-mill-eu": 0,
+    "silpo-ravencrest-eu": 8,
+    "сетария-galakrond-eu": 0,
+    "elderwizard-terokkar-eu": 0,
+    "es-terokkar-eu": 0,
+    "hopeblood-doomhammer-eu": 0,
+    "illidonson-draenor-eu": 0,
+    "kavunchyk-terokkar-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,27 +36,6 @@
   },
   "batch": {
     "selected": [
-      "скяльди-howling-fjord-eu",
-      "jakeyo-ravencrest-eu",
-      "nwlck-ravencrest-eu",
-      "characternuk-terokkar-eu",
-      "zanzithor-tarren-mill-eu",
-      "allune-terokkar-eu",
-      "asasinas-terokkar-eu",
-      "bylik-tarren-mill-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "скяльди-howling-fjord-eu",
-      "jakeyo-ravencrest-eu",
-      "nwlck-ravencrest-eu",
-      "characternuk-terokkar-eu",
-      "zanzithor-tarren-mill-eu",
-      "allune-terokkar-eu",
-      "asasinas-terokkar-eu",
-      "bylik-tarren-mill-eu"
-    ],
-    "pending": [
       "darthkenobi-tarren-mill-eu",
       "silpo-ravencrest-eu",
       "сетария-galakrond-eu",
@@ -64,7 +43,22 @@
       "es-terokkar-eu",
       "hopeblood-doomhammer-eu",
       "illidonson-draenor-eu",
-      "kavunchyk-terokkar-eu",
+      "kavunchyk-terokkar-eu"
+    ],
+    "updated": [
+      "silpo-ravencrest-eu"
+    ],
+    "scanned": [
+      "darthkenobi-tarren-mill-eu",
+      "silpo-ravencrest-eu",
+      "сетария-galakrond-eu",
+      "elderwizard-terokkar-eu",
+      "es-terokkar-eu",
+      "hopeblood-doomhammer-eu",
+      "illidonson-draenor-eu",
+      "kavunchyk-terokkar-eu"
+    ],
+    "pending": [
       "prayddh-terokkar-eu",
       "redray-terokkar-eu",
       "rozbiynik-tarren-mill-eu",
@@ -187,9 +181,7 @@
       "кумбар-gordunni-eu",
       "лилая-grom-eu",
       "моннал-gordunni-eu",
-      "монэлушка-gordunni-eu"
-    ],
-    "skippedFresh": [
+      "монэлушка-gordunni-eu",
       "мавпита-gordunni-eu",
       "мистип-gordunni-eu",
       "древесная-blackscar-eu",
@@ -197,7 +189,9 @@
       "поливалочки-gordunni-eu",
       "севатар-lich-king-eu",
       "щпикачечка-gordunni-eu",
-      "адвокатправа-gordunni-eu",
+      "адвокатправа-gordunni-eu"
+    ],
+    "skippedFresh": [
       "шриладо-gordunni-eu",
       "душа-blackscar-eu",
       "кхаарн-lich-king-eu",
@@ -213,7 +207,15 @@
       "бреинор-galakrond-eu",
       "sandora-doomhammer-eu",
       "бабаияи-eversong-eu",
-      "товстопуз-gordunni-eu"
+      "товстопуз-gordunni-eu",
+      "characternuk-terokkar-eu",
+      "zanzithor-tarren-mill-eu",
+      "allune-terokkar-eu",
+      "asasinas-terokkar-eu",
+      "bylik-tarren-mill-eu",
+      "скяльди-howling-fjord-eu",
+      "jakeyo-ravencrest-eu",
+      "nwlck-ravencrest-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-06T18:13:31.380Z",
+  "updatedAt": "2026-06-09T08:36:06.737Z",
   "character": {
     "name": "Elderwizard",
     "realmSlug": "terokkar",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-06T18:13:31.380Z",
+    "lastScannedAt": "2026-06-09T08:36:06.737Z",
     "lastPullAt": "2026-04-29T20:28:20.858Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
