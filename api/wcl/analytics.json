@@ -3,23 +3,23 @@
     "members": 163,
     "membersWithData": 60,
     "pullsStored": 577,
-    "distinctFights": 235,
+    "distinctFights": 236,
     "kills": 24,
-    "wipes": 211,
-    "killRate": 0.1021,
-    "avgFightDurationMs": 199887,
-    "avgRaidDeaths": 17.17,
-    "avgTeamDps": 125086.93,
-    "avgTeamHps": 37203.99,
-    "avgPerformanceScore": 18.86,
+    "wipes": 212,
+    "killRate": 0.1017,
+    "avgFightDurationMs": 199443,
+    "avgRaidDeaths": 17.18,
+    "avgTeamDps": 124553.85,
+    "avgTeamHps": 37046.34,
+    "avgPerformanceScore": 18.87,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 42.03
+    "avgReliabilityScore": 42.05
   },
   "roles": {
     "damage": {
       "members": 52,
       "pulls": 459,
-      "avgRecent": 58753.43,
+      "avgRecent": 58853.09,
       "medianRecent": 61879.49,
       "bestRecent": 107338.9,
       "maxLast10": 207607.12,
@@ -40,6 +40,13 @@
           "secondary": 0
         },
         {
+          "slug": "mafik-terokkar-eu",
+          "name": "Mafik",
+          "rank": 1,
+          "value": 96913.83,
+          "secondary": 0
+        },
+        {
           "slug": "булкрит-gordunni-eu",
           "name": "Булкрит",
           "rank": 1,
@@ -51,13 +58,6 @@
           "name": "Kokosik",
           "rank": 3,
           "value": 93820.18,
-          "secondary": 0
-        },
-        {
-          "slug": "mafik-terokkar-eu",
-          "name": "Mafik",
-          "rank": 1,
-          "value": 91731.45,
           "secondary": 0
         },
         {
@@ -394,7 +394,7 @@
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 71.26,
+    "avgStabilityPercent": 71.33,
     "avgConsistencyPercent": 42.02,
     "mostStable": [
       {
@@ -573,93 +573,93 @@
     "updatedWithin1h": 8,
     "updatedWithin6h": 16,
     "updatedWithin12h": 32,
-    "updatedWithin24h": 56,
-    "oldestScannedAt": "2026-06-06T22:10:19.207Z",
-    "newestScannedAt": "2026-06-09T16:09:20.231Z",
+    "updatedWithin24h": 64,
+    "oldestScannedAt": "2026-06-07T00:11:56.364Z",
+    "newestScannedAt": "2026-06-09T19:22:13.711Z",
     "staleMembers": [
-      {
-        "slug": "umbramind-terokkar-eu",
-        "name": "Umbramind",
-        "rank": 4,
-        "value": 65.99,
-        "secondary": 0
-      },
-      {
-        "slug": "yokusir-terokkar-eu",
-        "name": "Yokusir",
-        "rank": 4,
-        "value": 65.99,
-        "secondary": 3
-      },
-      {
-        "slug": "zanzimon-tarren-mill-eu",
-        "name": "Zanzimon",
-        "rank": 4,
-        "value": 65.99,
-        "secondary": 0
-      },
-      {
-        "slug": "kashin-terokkar-eu",
-        "name": "Kashin",
-        "rank": 1,
-        "value": 63.97,
-        "secondary": 0
-      },
-      {
-        "slug": "krouli-terokkar-eu",
-        "name": "Krouli",
-        "rank": 1,
-        "value": 63.97,
-        "secondary": 0
-      },
-      {
-        "slug": "lightass-terokkar-eu",
-        "name": "Lightass",
-        "rank": 1,
-        "value": 63.97,
-        "secondary": 10
-      },
-      {
-        "slug": "mafik-terokkar-eu",
-        "name": "Mafik",
-        "rank": 1,
-        "value": 63.97,
-        "secondary": 10
-      },
-      {
-        "slug": "odeskiy-tarren-mill-eu",
-        "name": "Odeskiy",
-        "rank": 1,
-        "value": 63.97,
-        "secondary": 0
-      },
       {
         "slug": "blackdaddy-tarren-mill-eu",
         "name": "Blackdaddy",
         "rank": 3,
-        "value": 63.97,
+        "value": 67.18,
         "secondary": 0
       },
       {
         "slug": "duszi-terokkar-eu",
         "name": "Duszi",
         "rank": 3,
-        "value": 63.97,
+        "value": 67.18,
         "secondary": 0
       },
       {
         "slug": "icebloomi-tarren-mill-eu",
         "name": "Icebloomi",
         "rank": 3,
-        "value": 63.97,
+        "value": 67.18,
         "secondary": 0
       },
       {
         "slug": "komatoznic-tarren-mill-eu",
         "name": "Komatoznic",
         "rank": 3,
-        "value": 58.43,
+        "value": 61.64,
         "secondary": 0
+      },
+      {
+        "slug": "lishiystabb-terokkar-eu",
+        "name": "Lishiystabb",
+        "rank": 3,
+        "value": 61.64,
+        "secondary": 0
+      },
+      {
+        "slug": "monkania-terokkar-eu",
+        "name": "Monkania",
+        "rank": 3,
+        "value": 61.64,
+        "secondary": 0
+      },
+      {
+        "slug": "ragnar-k-burning-legion-eu",
+        "name": "Ragnarøøk",
+        "rank": 3,
+        "value": 61.64,
+        "secondary": 0
+      },
+      {
+        "slug": "sneydilio-doomhammer-eu",
+        "name": "Sneydilio",
+        "rank": 3,
+        "value": 61.64,
+        "secondary": 0
+      },
+      {
+        "slug": "therion-doomhammer-eu",
+        "name": "Thérion",
+        "rank": 3,
+        "value": 61.64,
+        "secondary": 10
+      },
+      {
+        "slug": "vurush-turalyon-eu",
+        "name": "Vurush",
+        "rank": 3,
+        "value": 61.64,
+        "secondary": 10
+      },
+      {
+        "slug": "arthasright-tarren-mill-eu",
+        "name": "Arthasright",
+        "rank": 4,
+        "value": 61.64,
+        "secondary": 10
+      },
+      {
+        "slug": "khayen-terokkar-eu",
+        "name": "Khayen",
+        "rank": 0,
+        "value": 57.93,
+        "secondary": 10
       }
     ]
   },
@@ -670,17 +670,17 @@
       "encounterId": 3306,
       "difficulty": 5,
       "difficultyName": "Mythic",
-      "pulls": 36,
+      "pulls": 37,
       "kills": 0,
-      "wipes": 36,
+      "wipes": 37,
       "killRate": 0,
-      "avgDurationMs": 182834,
-      "avgRaidDeaths": 20.06,
-      "avgTeamDps": 307743.42,
-      "avgTeamHps": 163654.6,
+      "avgDurationMs": 180465,
+      "avgRaidDeaths": 20.05,
+      "avgTeamDps": 299406.58,
+      "avgTeamHps": 159231.51,
       "bestTeamDps": 623734.47,
       "bestTeamHps": 392165.98,
-      "lastPullAt": "2026-06-08T18:57:02.136Z"
+      "lastPullAt": "2026-06-09T17:37:30.932Z"
     },
     {
       "key": "3306:Heroic",
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 163,
       "withData": 60,
-      "avgPrimaryRecent3": 23092.79,
-      "avgDpsRecent3": 17872.41,
+      "avgPrimaryRecent3": 23124.58,
+      "avgDpsRecent3": 17904.2,
       "avgHpsRecent3": 6004.73,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 42.03
+      "avgReliabilityScore": 42.05
     }
   ]
 }

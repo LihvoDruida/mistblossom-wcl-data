@@ -14,6 +14,13 @@
     "secondary": 0
   },
   {
+    "slug": "mafik-terokkar-eu",
+    "name": "Mafik",
+    "rank": 1,
+    "value": 96913.83,
+    "secondary": 0
+  },
+  {
     "slug": "булкрит-gordunni-eu",
     "name": "Булкрит",
     "rank": 1,
@@ -25,13 +32,6 @@
     "name": "Kokosik",
     "rank": 3,
     "value": 93820.18,
-    "secondary": 0
-  },
-  {
-    "slug": "mafik-terokkar-eu",
-    "name": "Mafik",
-    "rank": 1,
-    "value": 91731.45,
     "secondary": 0
   },
   {

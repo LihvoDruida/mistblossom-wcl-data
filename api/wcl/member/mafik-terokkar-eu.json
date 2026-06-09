@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-07T00:11:56.364Z",
+  "updatedAt": "2026-06-09T19:22:13.711Z",
   "character": {
     "name": "Mafik",
     "realmSlug": "terokkar",
@@ -16,27 +16,27 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 207,
+    "totalRaidDeaths": 206,
     "deathsPerPull": 0,
-    "stabilityPercent": 66.11,
+    "stabilityPercent": 69.85,
     "consistencyPercent": 47.78,
-    "performanceScore": 48.31,
+    "performanceScore": 50.36,
     "survivalScore": 100,
-    "reliabilityScore": 67.37,
+    "reliabilityScore": 69.85,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 91731.45,
+      "avgDps": 96913.83,
       "avgHps": 0,
-      "avgPrimary": 91731.45,
-      "avgDurationMs": 207329,
+      "avgPrimary": 96913.83,
+      "avgDurationMs": 160105,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 98541.15,
+      "avgDps": 79259.96,
       "avgHps": 0,
-      "avgPrimary": 98541.15,
-      "avgDurationMs": 141531,
+      "avgPrimary": 79259.96,
+      "avgDurationMs": 197035,
       "avgDeaths": 0
     },
     "last10": {
@@ -51,11 +51,11 @@
       "minDurationMs": 70368
     },
     "trend": {
-      "direction": "down",
-      "recentAvg": 91731.45,
-      "previousAvg": 98541.15,
-      "delta": -6809.7,
-      "deltaPercent": -6.91
+      "direction": "up",
+      "recentAvg": 96913.83,
+      "previousAvg": 79259.96,
+      "delta": 17653.87,
+      "deltaPercent": 22.27
     },
     "byRole": {
       "healer": {
@@ -71,7 +71,7 @@
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 91731.45,
+        "avgRecent": 96913.83,
         "maxLast10": 138754.46,
         "minLast10": 66291.06,
         "deathsPerPull": 0,
@@ -91,18 +91,162 @@
     "dataQuality": {
       "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 8,
+      "pullsWithRoleInferred": 9,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
         "unknown": 0
       },
-      "confidenceAvg": 0.72,
+      "confidenceAvg": 0.81,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "2BM87yGajAR6xm4N:3:Mafik:terokkar:eu",
+      "reportCode": "2BM87yGajAR6xm4N",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-09T17:04:18.711Z",
+      "reportEndedAt": "2026-06-09T18:33:31.135Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 3,
+      "url": "https://www.warcraftlogs.com/reports/2BM87yGajAR6xm4N#fight=3",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-09T17:37:30.932Z",
+      "durationMs": 95208,
+      "bossPercentage": 68.53,
+      "fightPercentage": 68.53,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 78,
+        "name": "Mafik",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Mage"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Mage-Frost",
+        "className": "Mage",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 96458.02,
+        "hps": 3483.39,
+        "primary": 96458.02,
+        "primaryKind": "dps",
+        "fightDps": 96458.02,
+        "fightHps": 3483.39,
+        "activeDps": 120172.4,
+        "activeHps": 8310.29,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 9183575,
+        "healingTotal": 331647,
+        "damageActiveTimeMs": 76420,
+        "healingActiveTimeMs": 39908,
+        "damageTotalTimeMs": 95208,
+        "healingTotalTimeMs": 95208,
+        "damageEntryId": 78,
+        "healingEntryId": 78,
+        "damageItemLevel": 285,
+        "healingItemLevel": 285,
+        "matchedBy": "damage:actor-id:78,healing:actor-id:78"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "2BM87yGajAR6xm4N",
+          "title": "VS / DR / MQD",
+          "startTime": 1781024658711,
+          "endTime": 1781030011135
+        },
+        "fight": {
+          "id": 3,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 1992221,
+          "endTime": 2087429,
+          "bossPercentage": 68.53,
+          "fightPercentage": 68.53,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 95208,
+            "matchedBy": "actor-id:78",
+            "matchedEntry": {
+              "id": 78,
+              "name": "Mafik",
+              "type": "Mage",
+              "icon": "Mage-Frost",
+              "total": 9183575,
+              "activeTime": 76420,
+              "itemLevel": 285,
+              "guid": 188808077
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 95208,
+            "matchedBy": "actor-id:78",
+            "matchedEntry": {
+              "id": 78,
+              "name": "Mafik",
+              "type": "Mage",
+              "icon": "Mage-Frost",
+              "total": 331647,
+              "activeTime": 39908,
+              "itemLevel": 285,
+              "guid": 188808077
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 78,
+          "matchedActorName": "Mafik",
+          "normalizedKeys": [
+            "mafik:terokkar:eu",
+            "mafik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Mage-Frost",
+            "className": "Mage",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "kgwGHZ3DFJr7TVLv:18:Mafik:terokkar:eu",
       "reportCode": "kgwGHZ3DFJr7TVLv",
@@ -1318,79 +1462,15 @@
         "source": "unknown",
         "confidence": 0
       }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:31:Mafik:terokkar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 31,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:00:37.917Z",
-      "durationMs": 226446,
-      "bossPercentage": 57.65,
-      "fightPercentage": 57.65,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 81,
-        "name": "Mafik",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Mage"
-      },
-      "metric": {
-        "dps": 97177.83,
-        "hps": 4680.22,
-        "primary": 97177.83,
-        "primaryKind": "dps",
-        "fightDps": 97177.83,
-        "fightHps": 4680.22,
-        "activeDps": 97177.83,
-        "activeHps": 4680.22,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 22005530,
-        "healingTotal": 1059817,
-        "damageActiveTimeMs": 205635,
-        "healingActiveTimeMs": 184329,
-        "damageTotalTimeMs": 226446,
-        "healingTotalTimeMs": 226446,
-        "damageEntryId": 81,
-        "healingEntryId": 81,
-        "damageItemLevel": 282,
-        "healingItemLevel": 282,
-        "matchedBy": "damage:actor-id:81,healing:actor-id:81"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-07T00:11:56.364Z",
-    "lastPullAt": "2026-06-06T19:13:13.049Z",
-    "newPullsInLastScan": 8,
+    "lastScannedAt": "2026-06-09T19:22:13.711Z",
+    "lastPullAt": "2026-06-09T17:37:30.932Z",
+    "newPullsInLastScan": 1,
     "scanReason": "scheduled"
   }
 }
