@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-10T04:22:21.825Z",
+  "updatedAt": "2026-06-10T08:55:37.617Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 162,
   "selectedMembers": 8,
   "scannedMembers": 8,
-  "changedMembers": 1,
+  "changedMembers": 0,
   "existingSnapshots": 162,
   "reportsScanned": 8,
   "fightsScanned": 8,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "sneydilio-doomhammer-eu": 0,
-    "therion-doomhammer-eu": 0,
-    "vurush-turalyon-eu": 0,
-    "khayen-terokkar-eu": 8,
-    "lishiy-ragnaros-eu": 0,
-    "daslight-terokkar-eu": 0,
-    "demhunt-terokkar-eu": 0,
-    "ionax-draenor-eu": 0
+    "marmozetroly-tarren-mill-eu": 0,
+    "mavika-doomhammer-eu": 0,
+    "mercury-tarren-mill-eu": 0,
+    "lishiyburn-ragnaros-eu": 0,
+    "molfar-terokkar-eu": 0,
+    "skirvir-turalyon-eu": 0,
+    "otito-draenor-eu": 0,
+    "regin-doomhammer-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,29 +36,6 @@
   },
   "batch": {
     "selected": [
-      "sneydilio-doomhammer-eu",
-      "therion-doomhammer-eu",
-      "vurush-turalyon-eu",
-      "khayen-terokkar-eu",
-      "lishiy-ragnaros-eu",
-      "daslight-terokkar-eu",
-      "demhunt-terokkar-eu",
-      "ionax-draenor-eu"
-    ],
-    "updated": [
-      "khayen-terokkar-eu"
-    ],
-    "scanned": [
-      "sneydilio-doomhammer-eu",
-      "therion-doomhammer-eu",
-      "vurush-turalyon-eu",
-      "khayen-terokkar-eu",
-      "lishiy-ragnaros-eu",
-      "daslight-terokkar-eu",
-      "demhunt-terokkar-eu",
-      "ionax-draenor-eu"
-    ],
-    "pending": [
       "marmozetroly-tarren-mill-eu",
       "mavika-doomhammer-eu",
       "mercury-tarren-mill-eu",
@@ -66,7 +43,20 @@
       "molfar-terokkar-eu",
       "skirvir-turalyon-eu",
       "otito-draenor-eu",
-      "regin-doomhammer-eu",
+      "regin-doomhammer-eu"
+    ],
+    "updated": [],
+    "scanned": [
+      "marmozetroly-tarren-mill-eu",
+      "mavika-doomhammer-eu",
+      "mercury-tarren-mill-eu",
+      "lishiyburn-ragnaros-eu",
+      "molfar-terokkar-eu",
+      "skirvir-turalyon-eu",
+      "otito-draenor-eu",
+      "regin-doomhammer-eu"
+    ],
+    "pending": [
       "rolemodel-burning-legion-eu",
       "twigsnapper-doomhammer-eu",
       "сумраки-eversong-eu",
@@ -196,9 +186,7 @@
       "ragnarosh-terokkar-eu",
       "sangvyn-tarren-mill-eu",
       "shatnyi-terokkar-eu",
-      "zanziwolf-tarren-mill-eu"
-    ],
-    "skippedFresh": [
+      "zanziwolf-tarren-mill-eu",
       "kashin-terokkar-eu",
       "krouli-terokkar-eu",
       "lightass-terokkar-eu",
@@ -206,7 +194,9 @@
       "odeskiy-tarren-mill-eu",
       "umbramind-terokkar-eu",
       "yokusir-terokkar-eu",
-      "zanzimon-tarren-mill-eu",
+      "zanzimon-tarren-mill-eu"
+    ],
+    "skippedFresh": [
       "arthasright-tarren-mill-eu",
       "blackdaddy-tarren-mill-eu",
       "duszi-terokkar-eu",
@@ -214,7 +204,15 @@
       "komatoznic-tarren-mill-eu",
       "lishiystabb-terokkar-eu",
       "monkania-terokkar-eu",
-      "ragnar-k-burning-legion-eu"
+      "ragnar-k-burning-legion-eu",
+      "khayen-terokkar-eu",
+      "lishiy-ragnaros-eu",
+      "sneydilio-doomhammer-eu",
+      "therion-doomhammer-eu",
+      "vurush-turalyon-eu",
+      "daslight-terokkar-eu",
+      "demhunt-terokkar-eu",
+      "ionax-draenor-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []

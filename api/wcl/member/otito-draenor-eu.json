@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-07T11:54:36.606Z",
+  "updatedAt": "2026-06-10T08:55:37.617Z",
   "character": {
     "name": "Otito",
     "realmSlug": "draenor",
@@ -1372,9 +1372,9 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-07T11:54:36.606Z",
+    "lastScannedAt": "2026-06-10T08:55:37.617Z",
     "lastPullAt": "2026-06-06T19:13:13.049Z",
-    "newPullsInLastScan": 8,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }

@@ -1,11 +1,11 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-10T04:22:21.825Z",
+  "updatedAt": "2026-06-10T08:55:37.617Z",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 162,
   "selectedMembers": 8,
   "scannedMembers": 8,
-  "changedMembers": 1,
+  "changedMembers": 0,
   "existingSnapshots": 162,
   "reportsScanned": 8,
   "fightsScanned": 8,
