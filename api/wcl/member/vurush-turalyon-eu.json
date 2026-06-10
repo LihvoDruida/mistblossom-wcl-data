@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-07T05:44:19.659Z",
+  "updatedAt": "2026-06-10T04:22:21.825Z",
   "character": {
     "name": "Vurush",
     "realmSlug": "turalyon",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-07T05:44:19.659Z",
+    "lastScannedAt": "2026-06-10T04:22:21.825Z",
     "lastPullAt": "2026-05-15T19:23:56.829Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

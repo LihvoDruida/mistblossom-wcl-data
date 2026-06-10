@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-07T09:27:10.214Z",
+  "updatedAt": "2026-06-10T04:22:21.825Z",
   "character": {
     "name": "Khayen",
     "realmSlug": "terokkar",
@@ -11,74 +11,72 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 1,
-    "wipes": 9,
-    "killRate": 0.1,
-    "wipeRate": 0.9,
+    "kills": 0,
+    "wipes": 10,
+    "killRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 192,
+    "totalRaidDeaths": 206,
     "deathsPerPull": 0,
-    "stabilityPercent": 90.39,
-    "consistencyPercent": 43.95,
-    "performanceScore": 62.7,
+    "stabilityPercent": 75.93,
+    "consistencyPercent": 59.77,
+    "performanceScore": 56.7,
     "survivalScore": 100,
-    "reliabilityScore": 78.74,
+    "reliabilityScore": 75.59,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 108953.55,
-      "avgPrimary": 108953.55,
-      "avgDurationMs": 207329,
+      "avgHps": 116689.56,
+      "avgPrimary": 116689.56,
+      "avgDurationMs": 151185,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 109005.85,
-      "avgPrimary": 109005.85,
-      "avgDurationMs": 141531,
+      "avgHps": 112685.42,
+      "avgPrimary": 112685.42,
+      "avgDurationMs": 238259,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 52979.05,
-      "minDps": 52979.05,
-      "maxHps": 120542.39,
-      "minHps": 89661.54,
-      "maxPrimary": 120542.39,
-      "minPrimary": 52979.05,
-      "maxDurationMs": 265692,
-      "minDurationMs": 70368
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 153686.43,
+      "minHps": 91860.44,
+      "maxPrimary": 153686.43,
+      "minPrimary": 91860.44,
+      "maxDurationMs": 251870,
+      "minDurationMs": 63753
     },
     "trend": {
       "direction": "flat",
-      "recentAvg": 108953.55,
-      "previousAvg": 109005.85,
-      "delta": -52.3,
-      "deltaPercent": -0.05
+      "recentAvg": 116689.56,
+      "previousAvg": 112685.42,
+      "delta": 4004.14,
+      "deltaPercent": 3.55
     },
     "byRole": {
       "healer": {
-        "pulls": 9,
+        "pulls": 10,
         "kills": 0,
-        "wipes": 9,
-        "avgRecent": 108953.55,
-        "maxLast10": 120542.39,
-        "minLast10": 89661.54,
+        "wipes": 10,
+        "avgRecent": 116689.56,
+        "maxLast10": 153686.43,
+        "minLast10": 91860.44,
         "deathsPerPull": 0,
-        "bestPullKey": "kgwGHZ3DFJr7TVLv:17:Khayen:terokkar:eu",
-        "worstPullKey": "kgwGHZ3DFJr7TVLv:11:Khayen:terokkar:eu"
+        "bestPullKey": "2BM87yGajAR6xm4N:3:Khayen:terokkar:eu",
+        "worstPullKey": "2BM87yGajAR6xm4N:10:Khayen:terokkar:eu"
       },
       "damage": {
-        "pulls": 1,
-        "kills": 1,
+        "pulls": 0,
+        "kills": 0,
         "wipes": 0,
-        "avgRecent": 52979.05,
-        "maxLast10": 52979.05,
-        "minLast10": 52979.05,
-        "deathsPerPull": 0,
-        "bestPullKey": "rCkJzhm1PDqtNBw3:27:Khayen:terokkar:eu",
-        "worstPullKey": "rCkJzhm1PDqtNBw3:27:Khayen:terokkar:eu"
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
       },
       "unknown": {
         "pulls": 0,
@@ -96,15 +94,1167 @@
       "pullsWithRoleInferred": 10,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
-        "dps": 1,
-        "hps": 9,
+        "dps": 0,
+        "hps": 10,
         "unknown": 0
       },
-      "confidenceAvg": 0.95,
+      "confidenceAvg": 0.96,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "2BM87yGajAR6xm4N:10:Khayen:terokkar:eu",
+      "reportCode": "2BM87yGajAR6xm4N",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-09T17:04:18.711Z",
+      "reportEndedAt": "2026-06-09T18:33:31.135Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 10,
+      "url": "https://www.warcraftlogs.com/reports/2BM87yGajAR6xm4N#fight=10",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-09T18:29:05.941Z",
+      "durationMs": 216193,
+      "bossPercentage": 49.62,
+      "fightPercentage": 49.62,
+      "averageItemLevel": 287.6000061035156,
+      "actor": {
+        "id": 1,
+        "name": "Khayen",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 2422.6,
+        "hps": 91860.44,
+        "primary": 91860.44,
+        "primaryKind": "hps",
+        "fightDps": 2422.6,
+        "fightHps": 91860.44,
+        "activeDps": 9519.77,
+        "activeHps": 95760.99,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 523749,
+        "healingTotal": 19859584,
+        "damageActiveTimeMs": 55017,
+        "healingActiveTimeMs": 207387,
+        "damageTotalTimeMs": 216193,
+        "healingTotalTimeMs": 216193,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "2BM87yGajAR6xm4N",
+          "title": "VS / DR / MQD",
+          "startTime": 1781024658711,
+          "endTime": 1781030011135
+        },
+        "fight": {
+          "id": 10,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5087230,
+          "endTime": 5303423,
+          "bossPercentage": 49.62,
+          "fightPercentage": 49.62,
+          "averageItemLevel": 287.6000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 216193,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 523749,
+              "activeTime": 55017,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 216193,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 19859584,
+              "activeTime": 207387,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 1,
+          "matchedActorName": "Khayen",
+          "normalizedKeys": [
+            "khayen:terokkar:eu",
+            "khayen::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "2BM87yGajAR6xm4N:9:Khayen:terokkar:eu",
+      "reportCode": "2BM87yGajAR6xm4N",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-09T17:04:18.711Z",
+      "reportEndedAt": "2026-06-09T18:33:31.135Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 9,
+      "url": "https://www.warcraftlogs.com/reports/2BM87yGajAR6xm4N#fight=9",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-09T18:19:59.969Z",
+      "durationMs": 173608,
+      "bossPercentage": 49.59,
+      "fightPercentage": 49.59,
+      "averageItemLevel": 287.5,
+      "actor": {
+        "id": 1,
+        "name": "Khayen",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 2054.25,
+        "hps": 107929.17,
+        "primary": 107929.17,
+        "primaryKind": "hps",
+        "fightDps": 2054.25,
+        "fightHps": 107929.17,
+        "activeDps": 9233.27,
+        "activeHps": 116602.78,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 356635,
+        "healingTotal": 18737367,
+        "damageActiveTimeMs": 38625,
+        "healingActiveTimeMs": 160694,
+        "damageTotalTimeMs": 173608,
+        "healingTotalTimeMs": 173608,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "2BM87yGajAR6xm4N",
+          "title": "VS / DR / MQD",
+          "startTime": 1781024658711,
+          "endTime": 1781030011135
+        },
+        "fight": {
+          "id": 9,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4541258,
+          "endTime": 4714866,
+          "bossPercentage": 49.59,
+          "fightPercentage": 49.59,
+          "averageItemLevel": 287.5
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 173608,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 356635,
+              "activeTime": 38625,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 173608,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 18737367,
+              "activeTime": 160694,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 1,
+          "matchedActorName": "Khayen",
+          "normalizedKeys": [
+            "khayen:terokkar:eu",
+            "khayen::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "2BM87yGajAR6xm4N:8:Khayen:terokkar:eu",
+      "reportCode": "2BM87yGajAR6xm4N",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-09T17:04:18.711Z",
+      "reportEndedAt": "2026-06-09T18:33:31.135Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 8,
+      "url": "https://www.warcraftlogs.com/reports/2BM87yGajAR6xm4N#fight=8",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-09T18:15:08.367Z",
+      "durationMs": 63753,
+      "bossPercentage": 80.82,
+      "fightPercentage": 80.82,
+      "averageItemLevel": 287.29998779296875,
+      "actor": {
+        "id": 1,
+        "name": "Khayen",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 2989.24,
+        "hps": 150279.08,
+        "primary": 150279.08,
+        "primaryKind": "hps",
+        "fightDps": 2989.24,
+        "fightHps": 150279.08,
+        "activeDps": 9777.99,
+        "activeHps": 166853.74,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 190573,
+        "healingTotal": 9580742,
+        "damageActiveTimeMs": 19490,
+        "healingActiveTimeMs": 57420,
+        "damageTotalTimeMs": 63753,
+        "healingTotalTimeMs": 63753,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "2BM87yGajAR6xm4N",
+          "title": "VS / DR / MQD",
+          "startTime": 1781024658711,
+          "endTime": 1781030011135
+        },
+        "fight": {
+          "id": 8,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4249656,
+          "endTime": 4313409,
+          "bossPercentage": 80.82,
+          "fightPercentage": 80.82,
+          "averageItemLevel": 287.29998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 63753,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 190573,
+              "activeTime": 19490,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 63753,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 9580742,
+              "activeTime": 57420,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 1,
+          "matchedActorName": "Khayen",
+          "normalizedKeys": [
+            "khayen:terokkar:eu",
+            "khayen::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "2BM87yGajAR6xm4N:7:Khayen:terokkar:eu",
+      "reportCode": "2BM87yGajAR6xm4N",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-09T17:04:18.711Z",
+      "reportEndedAt": "2026-06-09T18:33:31.135Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 7,
+      "url": "https://www.warcraftlogs.com/reports/2BM87yGajAR6xm4N#fight=7",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-09T18:05:53.242Z",
+      "durationMs": 251870,
+      "bossPercentage": 64.37,
+      "fightPercentage": 64.37,
+      "averageItemLevel": 287.45001220703125,
+      "actor": {
+        "id": 1,
+        "name": "Khayen",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 2257.41,
+        "hps": 118824.53,
+        "primary": 118824.53,
+        "primaryKind": "hps",
+        "fightDps": 2257.41,
+        "fightHps": 118824.53,
+        "activeDps": 8045.82,
+        "activeHps": 119132.92,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 568574,
+        "healingTotal": 29928335,
+        "damageActiveTimeMs": 70667,
+        "healingActiveTimeMs": 251218,
+        "damageTotalTimeMs": 251870,
+        "healingTotalTimeMs": 251870,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "2BM87yGajAR6xm4N",
+          "title": "VS / DR / MQD",
+          "startTime": 1781024658711,
+          "endTime": 1781030011135
+        },
+        "fight": {
+          "id": 7,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3694531,
+          "endTime": 3946401,
+          "bossPercentage": 64.37,
+          "fightPercentage": 64.37,
+          "averageItemLevel": 287.45001220703125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 251870,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 568574,
+              "activeTime": 70667,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 251870,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 29928335,
+              "activeTime": 251218,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 1,
+          "matchedActorName": "Khayen",
+          "normalizedKeys": [
+            "khayen:terokkar:eu",
+            "khayen::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "2BM87yGajAR6xm4N:6:Khayen:terokkar:eu",
+      "reportCode": "2BM87yGajAR6xm4N",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-09T17:04:18.711Z",
+      "reportEndedAt": "2026-06-09T18:33:31.135Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 6,
+      "url": "https://www.warcraftlogs.com/reports/2BM87yGajAR6xm4N#fight=6",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-09T18:01:07.162Z",
+      "durationMs": 218414,
+      "bossPercentage": 39.66,
+      "fightPercentage": 39.66,
+      "averageItemLevel": 287.45001220703125,
+      "actor": {
+        "id": 1,
+        "name": "Khayen",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1774.72,
+        "hps": 115063.59,
+        "primary": 115063.59,
+        "primaryKind": "hps",
+        "fightDps": 1774.72,
+        "fightHps": 115063.59,
+        "activeDps": 7179.42,
+        "activeHps": 115426.65,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 387624,
+        "healingTotal": 25131498,
+        "damageActiveTimeMs": 53991,
+        "healingActiveTimeMs": 217727,
+        "damageTotalTimeMs": 218414,
+        "healingTotalTimeMs": 218414,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "2BM87yGajAR6xm4N",
+          "title": "VS / DR / MQD",
+          "startTime": 1781024658711,
+          "endTime": 1781030011135
+        },
+        "fight": {
+          "id": 6,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3408451,
+          "endTime": 3626865,
+          "bossPercentage": 39.66,
+          "fightPercentage": 39.66,
+          "averageItemLevel": 287.45001220703125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 218414,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 387624,
+              "activeTime": 53991,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 218414,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 25131498,
+              "activeTime": 217727,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 1,
+          "matchedActorName": "Khayen",
+          "normalizedKeys": [
+            "khayen:terokkar:eu",
+            "khayen::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "2BM87yGajAR6xm4N:5:Khayen:terokkar:eu",
+      "reportCode": "2BM87yGajAR6xm4N",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-09T17:04:18.711Z",
+      "reportEndedAt": "2026-06-09T18:33:31.135Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 5,
+      "url": "https://www.warcraftlogs.com/reports/2BM87yGajAR6xm4N#fight=5",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-09T17:56:06.435Z",
+      "durationMs": 244493,
+      "bossPercentage": 44.98,
+      "fightPercentage": 44.98,
+      "averageItemLevel": 287.45001220703125,
+      "actor": {
+        "id": 1,
+        "name": "Khayen",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 2575.28,
+        "hps": 104168.13,
+        "primary": 104168.13,
+        "primaryKind": "hps",
+        "fightDps": 2575.28,
+        "fightHps": 104168.13,
+        "activeDps": 8455.39,
+        "activeHps": 106046.66,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 629639,
+        "healingTotal": 25468378,
+        "damageActiveTimeMs": 74466,
+        "healingActiveTimeMs": 240162,
+        "damageTotalTimeMs": 244493,
+        "healingTotalTimeMs": 244493,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "2BM87yGajAR6xm4N",
+          "title": "VS / DR / MQD",
+          "startTime": 1781024658711,
+          "endTime": 1781030011135
+        },
+        "fight": {
+          "id": 5,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3107724,
+          "endTime": 3352217,
+          "bossPercentage": 44.98,
+          "fightPercentage": 44.98,
+          "averageItemLevel": 287.45001220703125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 244493,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 629639,
+              "activeTime": 74466,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 244493,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 25468378,
+              "activeTime": 240162,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 1,
+          "matchedActorName": "Khayen",
+          "normalizedKeys": [
+            "khayen:terokkar:eu",
+            "khayen::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "2BM87yGajAR6xm4N:4:Khayen:terokkar:eu",
+      "reportCode": "2BM87yGajAR6xm4N",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-09T17:04:18.711Z",
+      "reportEndedAt": "2026-06-09T18:33:31.135Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 4,
+      "url": "https://www.warcraftlogs.com/reports/2BM87yGajAR6xm4N#fight=4",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-09T17:52:08.022Z",
+      "durationMs": 182354,
+      "bossPercentage": 50.05,
+      "fightPercentage": 50.05,
+      "averageItemLevel": 287.45001220703125,
+      "actor": {
+        "id": 1,
+        "name": "Khayen",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 2379.42,
+        "hps": 99299.42,
+        "primary": 99299.42,
+        "primaryKind": "hps",
+        "fightDps": 2379.42,
+        "fightHps": 99299.42,
+        "activeDps": 9546.04,
+        "activeHps": 110948.28,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 433896,
+        "healingTotal": 18107647,
+        "damageActiveTimeMs": 45453,
+        "healingActiveTimeMs": 163208,
+        "damageTotalTimeMs": 182354,
+        "healingTotalTimeMs": 182354,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "2BM87yGajAR6xm4N",
+          "title": "VS / DR / MQD",
+          "startTime": 1781024658711,
+          "endTime": 1781030011135
+        },
+        "fight": {
+          "id": 4,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 2869311,
+          "endTime": 3051665,
+          "bossPercentage": 50.05,
+          "fightPercentage": 50.05,
+          "averageItemLevel": 287.45001220703125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 182354,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 433896,
+              "activeTime": 45453,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 182354,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 18107647,
+              "activeTime": 163208,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 1,
+          "matchedActorName": "Khayen",
+          "normalizedKeys": [
+            "khayen:terokkar:eu",
+            "khayen::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "2BM87yGajAR6xm4N:3:Khayen:terokkar:eu",
+      "reportCode": "2BM87yGajAR6xm4N",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-09T17:04:18.711Z",
+      "reportEndedAt": "2026-06-09T18:33:31.135Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 3,
+      "url": "https://www.warcraftlogs.com/reports/2BM87yGajAR6xm4N#fight=3",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-09T17:37:30.932Z",
+      "durationMs": 95208,
+      "bossPercentage": 68.53,
+      "fightPercentage": 68.53,
+      "averageItemLevel": 287.04998779296875,
+      "actor": {
+        "id": 1,
+        "name": "Khayen",
+        "server": "Terokkar",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1943.22,
+        "hps": 153686.43,
+        "primary": 153686.43,
+        "primaryKind": "hps",
+        "fightDps": 1943.22,
+        "fightHps": 153686.43,
+        "activeDps": 5666.12,
+        "activeHps": 158071.21,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 185010,
+        "healingTotal": 14632178,
+        "damageActiveTimeMs": 32652,
+        "healingActiveTimeMs": 92567,
+        "damageTotalTimeMs": 95208,
+        "healingTotalTimeMs": 95208,
+        "damageEntryId": 1,
+        "healingEntryId": 1,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "2BM87yGajAR6xm4N",
+          "title": "VS / DR / MQD",
+          "startTime": 1781024658711,
+          "endTime": 1781030011135
+        },
+        "fight": {
+          "id": 3,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 1992221,
+          "endTime": 2087429,
+          "bossPercentage": 68.53,
+          "fightPercentage": 68.53,
+          "averageItemLevel": 287.04998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 95208,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 185010,
+              "activeTime": 32652,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 95208,
+            "matchedBy": "actor-id:1",
+            "matchedEntry": {
+              "id": 1,
+              "name": "Khayen",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 14632178,
+              "activeTime": 92567,
+              "itemLevel": 290,
+              "guid": 189029529
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 1,
+          "matchedActorName": "Khayen",
+          "normalizedKeys": [
+            "khayen:terokkar:eu",
+            "khayen::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "kgwGHZ3DFJr7TVLv:18:Khayen:terokkar:eu",
       "reportCode": "kgwGHZ3DFJr7TVLv",
@@ -392,1166 +1542,14 @@
           }
         }
       }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:16:Khayen:terokkar:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T19:19:52.310Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 16,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=16",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T18:56:06.630Z",
-      "durationMs": 236881,
-      "bossPercentage": 49.63,
-      "fightPercentage": 49.63,
-      "averageItemLevel": 285.3500061035156,
-      "actor": {
-        "id": 3,
-        "name": "Khayen",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 2085.9,
-        "hps": 102315.51,
-        "primary": 102315.51,
-        "primaryKind": "hps",
-        "fightDps": 2085.9,
-        "fightHps": 102315.51,
-        "activeDps": 5213.66,
-        "activeHps": 105010.36,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 494109,
-        "healingTotal": 24236600,
-        "damageActiveTimeMs": 94772,
-        "healingActiveTimeMs": 230802,
-        "damageTotalTimeMs": 236881,
-        "healingTotalTimeMs": 236881,
-        "damageEntryId": 3,
-        "healingEntryId": 3,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780773592310
-        },
-        "fight": {
-          "id": 16,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6095586,
-          "endTime": 6332467,
-          "bossPercentage": 49.63,
-          "fightPercentage": 49.63,
-          "averageItemLevel": 285.3500061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 236881,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 494109,
-              "activeTime": 94772,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 236881,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 24236600,
-              "activeTime": 230802,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 3,
-          "matchedActorName": "Khayen",
-          "normalizedKeys": [
-            "khayen:terokkar:eu",
-            "khayen::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:15:Khayen:terokkar:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T19:19:52.310Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 15,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=15",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T18:52:36.882Z",
-      "durationMs": 133683,
-      "bossPercentage": 60.68,
-      "fightPercentage": 60.68,
-      "averageItemLevel": 285.3500061035156,
-      "actor": {
-        "id": 3,
-        "name": "Khayen",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 2143.74,
-        "hps": 120313.3,
-        "primary": 120313.3,
-        "primaryKind": "hps",
-        "fightDps": 2143.74,
-        "fightHps": 120313.3,
-        "activeDps": 7721.46,
-        "activeHps": 121355.44,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 286582,
-        "healingTotal": 16083843,
-        "damageActiveTimeMs": 37115,
-        "healingActiveTimeMs": 132535,
-        "damageTotalTimeMs": 133683,
-        "healingTotalTimeMs": 133683,
-        "damageEntryId": 3,
-        "healingEntryId": 3,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780773592310
-        },
-        "fight": {
-          "id": 15,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 5885838,
-          "endTime": 6019521,
-          "bossPercentage": 60.68,
-          "fightPercentage": 60.68,
-          "averageItemLevel": 285.3500061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 133683,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 286582,
-              "activeTime": 37115,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 133683,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 16083843,
-              "activeTime": 132535,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 3,
-          "matchedActorName": "Khayen",
-          "normalizedKeys": [
-            "khayen:terokkar:eu",
-            "khayen::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:14:Khayen:terokkar:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T19:19:52.310Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 14,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=14",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T18:47:00.495Z",
-      "durationMs": 220542,
-      "bossPercentage": 48.63,
-      "fightPercentage": 48.63,
-      "averageItemLevel": 285.3500061035156,
-      "actor": {
-        "id": 3,
-        "name": "Khayen",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1418.81,
-        "hps": 91448.9,
-        "primary": 91448.9,
-        "primaryKind": "hps",
-        "fightDps": 1418.81,
-        "fightHps": 91448.9,
-        "activeDps": 7445.2,
-        "activeHps": 93068.11,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 312907,
-        "healingTotal": 20168324,
-        "damageActiveTimeMs": 42028,
-        "healingActiveTimeMs": 216705,
-        "damageTotalTimeMs": 220542,
-        "healingTotalTimeMs": 220542,
-        "damageEntryId": 3,
-        "healingEntryId": 3,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780773592310
-        },
-        "fight": {
-          "id": 14,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 5549451,
-          "endTime": 5769993,
-          "bossPercentage": 48.63,
-          "fightPercentage": 48.63,
-          "averageItemLevel": 285.3500061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 220542,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 312907,
-              "activeTime": 42028,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 220542,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 20168324,
-              "activeTime": 216705,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 3,
-          "matchedActorName": "Khayen",
-          "normalizedKeys": [
-            "khayen:terokkar:eu",
-            "khayen::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:13:Khayen:terokkar:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T19:19:52.310Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 13,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=13",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T18:42:44.004Z",
-      "durationMs": 70368,
-      "bossPercentage": 80.29,
-      "fightPercentage": 80.29,
-      "averageItemLevel": 285.3500061035156,
-      "actor": {
-        "id": 3,
-        "name": "Khayen",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 2120.42,
-        "hps": 115255.36,
-        "primary": 115255.36,
-        "primaryKind": "hps",
-        "fightDps": 2120.42,
-        "fightHps": 115255.36,
-        "activeDps": 7935.44,
-        "activeHps": 117080.58,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 149210,
-        "healingTotal": 8110289,
-        "damageActiveTimeMs": 18803,
-        "healingActiveTimeMs": 69271,
-        "damageTotalTimeMs": 70368,
-        "healingTotalTimeMs": 70368,
-        "damageEntryId": 3,
-        "healingEntryId": 3,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780773592310
-        },
-        "fight": {
-          "id": 13,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 5292960,
-          "endTime": 5363328,
-          "bossPercentage": 80.29,
-          "fightPercentage": 80.29,
-          "averageItemLevel": 285.3500061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 19,
-            "totalTimeMs": 70368,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 149210,
-              "activeTime": 18803,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 70368,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 8110289,
-              "activeTime": 69271,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 3,
-          "matchedActorName": "Khayen",
-          "normalizedKeys": [
-            "khayen:terokkar:eu",
-            "khayen::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:12:Khayen:terokkar:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T19:19:52.310Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 12,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=12",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T18:36:00.372Z",
-      "durationMs": 254434,
-      "bossPercentage": 82.41,
-      "fightPercentage": 82.41,
-      "averageItemLevel": 285.3500061035156,
-      "actor": {
-        "id": 3,
-        "name": "Khayen",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1433.84,
-        "hps": 103622.55,
-        "primary": 103622.55,
-        "primaryKind": "hps",
-        "fightDps": 1433.84,
-        "fightHps": 103622.55,
-        "activeDps": 5064.03,
-        "activeHps": 110628.06,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 364818,
-        "healingTotal": 26365100,
-        "damageActiveTimeMs": 72041,
-        "healingActiveTimeMs": 238322,
-        "damageTotalTimeMs": 254434,
-        "healingTotalTimeMs": 254434,
-        "damageEntryId": 3,
-        "healingEntryId": 3,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780773592310
-        },
-        "fight": {
-          "id": 12,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4889328,
-          "endTime": 5143762,
-          "bossPercentage": 82.41,
-          "fightPercentage": 82.41,
-          "averageItemLevel": 285.3500061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 254434,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 364818,
-              "activeTime": 72041,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 254434,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 26365100,
-              "activeTime": 238322,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 3,
-          "matchedActorName": "Khayen",
-          "normalizedKeys": [
-            "khayen:terokkar:eu",
-            "khayen::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:11:Khayen:terokkar:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T19:19:52.310Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 11,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=11",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T18:30:55.815Z",
-      "durationMs": 198070,
-      "bossPercentage": 50.96,
-      "fightPercentage": 50.96,
-      "averageItemLevel": 285.3500061035156,
-      "actor": {
-        "id": 3,
-        "name": "Khayen",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1606.77,
-        "hps": 89661.54,
-        "primary": 89661.54,
-        "primaryKind": "hps",
-        "fightDps": 1606.77,
-        "fightHps": 89661.54,
-        "activeDps": 6913.28,
-        "activeHps": 100708.63,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 318253,
-        "healingTotal": 17759262,
-        "damageActiveTimeMs": 46035,
-        "healingActiveTimeMs": 176343,
-        "damageTotalTimeMs": 198070,
-        "healingTotalTimeMs": 198070,
-        "damageEntryId": 3,
-        "healingEntryId": 3,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780773592310
-        },
-        "fight": {
-          "id": 11,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4584771,
-          "endTime": 4782841,
-          "bossPercentage": 50.96,
-          "fightPercentage": 50.96,
-          "averageItemLevel": 285.3500061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 198070,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 318253,
-              "activeTime": 46035,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 198070,
-            "matchedBy": "actor-id:3",
-            "matchedEntry": {
-              "id": 3,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 17759262,
-              "activeTime": 176343,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 3,
-          "matchedActorName": "Khayen",
-          "normalizedKeys": [
-            "khayen:terokkar:eu",
-            "khayen::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "rCkJzhm1PDqtNBw3:27:Khayen:terokkar:eu",
-      "reportCode": "rCkJzhm1PDqtNBw3",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-03T17:26:18.167Z",
-      "reportEndedAt": "2026-06-03T19:57:01.577Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=27",
-      "status": "KILL",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 4,
-      "difficultyName": "Heroic",
-      "startedAt": "2026-06-03T19:51:07.843Z",
-      "durationMs": 265692,
-      "bossPercentage": 0.01,
-      "fightPercentage": 0.01,
-      "averageItemLevel": 285.29998779296875,
-      "actor": {
-        "id": 1,
-        "name": "Khayen",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Druid-Balance",
-        "className": "Druid",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 52979.05,
-        "hps": 11614.77,
-        "primary": 52979.05,
-        "primaryKind": "dps",
-        "fightDps": 52979.05,
-        "fightHps": 11614.77,
-        "activeDps": 59064.65,
-        "activeHps": 40456.63,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 6
-      },
-      "source": {
-        "damageTotal": 14076111,
-        "healingTotal": 3085951,
-        "damageActiveTimeMs": 238317,
-        "healingActiveTimeMs": 76278,
-        "damageTotalTimeMs": 265692,
-        "healingTotalTimeMs": 265692,
-        "damageEntryId": 1,
-        "healingEntryId": 1,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "rCkJzhm1PDqtNBw3",
-          "title": "VS / DR / MQD",
-          "startTime": 1780507578167,
-          "endTime": 1780516621577
-        },
-        "fight": {
-          "id": 27,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 4,
-          "kill": true,
-          "startTime": 8689676,
-          "endTime": 8955368,
-          "bossPercentage": 0.01,
-          "fightPercentage": 0.01,
-          "averageItemLevel": 285.29998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 265692,
-            "matchedBy": "actor-id:1",
-            "matchedEntry": {
-              "id": 1,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Balance",
-              "total": 14076111,
-              "activeTime": 238317,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 265692,
-            "matchedBy": "actor-id:1",
-            "matchedEntry": {
-              "id": 1,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Balance",
-              "total": 3085951,
-              "activeTime": 76278,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 6,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 1,
-          "matchedActorName": "Khayen",
-          "normalizedKeys": [
-            "khayen:terokkar:eu",
-            "khayen::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Druid-Balance",
-            "className": "Druid",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "rCkJzhm1PDqtNBw3:24:Khayen:terokkar:eu",
-      "reportCode": "rCkJzhm1PDqtNBw3",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-03T17:26:18.167Z",
-      "reportEndedAt": "2026-06-03T19:57:01.577Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 24,
-      "url": "https://www.warcraftlogs.com/reports/rCkJzhm1PDqtNBw3#fight=24",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-03T19:40:39.488Z",
-      "durationMs": 177220,
-      "bossPercentage": 61,
-      "fightPercentage": 61,
-      "averageItemLevel": 286.4210510253906,
-      "actor": {
-        "id": 1,
-        "name": "Khayen",
-        "server": "Terokkar",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 707.09,
-        "hps": 114123.33,
-        "primary": 114123.33,
-        "primaryKind": "hps",
-        "fightDps": 707.09,
-        "fightHps": 114123.33,
-        "activeDps": 2603.52,
-        "activeHps": 115699.33,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 125310,
-        "healingTotal": 20224937,
-        "damageActiveTimeMs": 48131,
-        "healingActiveTimeMs": 174806,
-        "damageTotalTimeMs": 177220,
-        "healingTotalTimeMs": 177220,
-        "damageEntryId": 1,
-        "healingEntryId": 1,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:1,healing:actor-id:1"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "rCkJzhm1PDqtNBw3",
-          "title": "VS / DR / MQD",
-          "startTime": 1780507578167,
-          "endTime": 1780516621577
-        },
-        "fight": {
-          "id": 24,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 8061321,
-          "endTime": 8238541,
-          "bossPercentage": 61,
-          "fightPercentage": 61,
-          "averageItemLevel": 286.4210510253906
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 19,
-            "totalTimeMs": 177220,
-            "matchedBy": "actor-id:1",
-            "matchedEntry": {
-              "id": 1,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 125310,
-              "activeTime": 48131,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 20,
-            "totalTimeMs": 177220,
-            "matchedBy": "actor-id:1",
-            "matchedEntry": {
-              "id": 1,
-              "name": "Khayen",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 20224937,
-              "activeTime": 174806,
-              "itemLevel": 290,
-              "guid": 189029529
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 1,
-          "matchedActorName": "Khayen",
-          "normalizedKeys": [
-            "khayen:terokkar:eu",
-            "khayen::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-07T09:27:10.214Z",
-    "lastPullAt": "2026-06-06T19:13:13.049Z",
+    "lastScannedAt": "2026-06-10T04:22:21.825Z",
+    "lastPullAt": "2026-06-09T18:29:05.941Z",
     "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }

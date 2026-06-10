@@ -3,24 +3,24 @@
     "members": 162,
     "membersWithData": 59,
     "pullsStored": 567,
-    "distinctFights": 236,
+    "distinctFights": 243,
     "kills": 24,
-    "wipes": 212,
-    "killRate": 0.1017,
-    "avgFightDurationMs": 199443,
-    "avgRaidDeaths": 17.18,
-    "avgTeamDps": 121525.32,
-    "avgTeamHps": 37046.34,
-    "avgPerformanceScore": 18.58,
+    "wipes": 219,
+    "killRate": 0.0988,
+    "avgFightDurationMs": 199256,
+    "avgRaidDeaths": 17.28,
+    "avgTeamDps": 117806.57,
+    "avgTeamHps": 36820.19,
+    "avgPerformanceScore": 18.54,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.83
+    "avgReliabilityScore": 41.81
   },
   "roles": {
     "damage": {
-      "members": 51,
-      "pulls": 449,
-      "avgRecent": 58516.02,
-      "medianRecent": 60662.06,
+      "members": 50,
+      "pulls": 448,
+      "avgRecent": 58626.76,
+      "medianRecent": 61879.49,
       "bestRecent": 107338.9,
       "maxLast10": 207607.12,
       "deathsPerPull": 0,
@@ -113,13 +113,20 @@
     },
     "healer": {
       "members": 20,
-      "pulls": 118,
-      "avgRecent": 49606.11,
+      "pulls": 119,
+      "avgRecent": 49992.91,
       "medianRecent": 15202.1,
-      "bestRecent": 115873.31,
-      "maxLast10": 136940.45,
+      "bestRecent": 116689.56,
+      "maxLast10": 153686.43,
       "deathsPerPull": 0,
       "topRecent": [
+        {
+          "slug": "khayen-terokkar-eu",
+          "name": "Khayen",
+          "rank": 0,
+          "value": 116689.56,
+          "secondary": 0
+        },
         {
           "slug": "yokum-terokkar-eu",
           "name": "Yokum",
@@ -132,13 +139,6 @@
           "name": "Древесная",
           "rank": 3,
           "value": 114877.41,
-          "secondary": 0
-        },
-        {
-          "slug": "khayen-terokkar-eu",
-          "name": "Khayen",
-          "rank": 0,
-          "value": 108953.55,
           "secondary": 0
         },
         {
@@ -329,13 +329,6 @@
         "secondary": 94097.47
       },
       {
-        "slug": "khayen-terokkar-eu",
-        "name": "Khayen",
-        "rank": 0,
-        "value": 78.74,
-        "secondary": 108953.55
-      },
-      {
         "slug": "krekor-tarren-mill-eu",
         "name": "Krekor",
         "rank": 4,
@@ -378,6 +371,13 @@
         "secondary": 42980.74
       },
       {
+        "slug": "khayen-terokkar-eu",
+        "name": "Khayen",
+        "rank": 0,
+        "value": 75.59,
+        "secondary": 116689.56
+      },
+      {
         "slug": "душа-blackscar-eu",
         "name": "Душа",
         "rank": 3,
@@ -394,8 +394,8 @@
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 70.96,
-    "avgConsistencyPercent": 41.69,
+    "avgStabilityPercent": 70.71,
+    "avgConsistencyPercent": 41.96,
     "mostStable": [
       {
         "slug": "arthasright-tarren-mill-eu",
@@ -417,13 +417,6 @@
         "rank": 1,
         "value": 79.78,
         "secondary": 83.51
-      },
-      {
-        "slug": "khayen-terokkar-eu",
-        "name": "Khayen",
-        "rank": 0,
-        "value": 78.74,
-        "secondary": 90.39
       },
       {
         "slug": "krekor-tarren-mill-eu",
@@ -466,6 +459,13 @@
         "rank": 3,
         "value": 76.32,
         "secondary": 86.1
+      },
+      {
+        "slug": "khayen-terokkar-eu",
+        "name": "Khayen",
+        "rank": 0,
+        "value": 75.59,
+        "secondary": 75.93
       },
       {
         "slug": "душа-blackscar-eu",
@@ -572,94 +572,94 @@
   "freshness": {
     "updatedWithin1h": 8,
     "updatedWithin6h": 16,
-    "updatedWithin12h": 32,
+    "updatedWithin12h": 24,
     "updatedWithin24h": 48,
-    "oldestScannedAt": "2026-06-07T05:44:19.659Z",
-    "newestScannedAt": "2026-06-09T23:21:58.006Z",
+    "oldestScannedAt": "2026-06-07T09:27:10.214Z",
+    "newestScannedAt": "2026-06-10T04:22:21.825Z",
     "staleMembers": [
-      {
-        "slug": "sneydilio-doomhammer-eu",
-        "name": "Sneydilio",
-        "rank": 3,
-        "value": 65.64,
-        "secondary": 0
-      },
-      {
-        "slug": "therion-doomhammer-eu",
-        "name": "Thérion",
-        "rank": 3,
-        "value": 65.64,
-        "secondary": 10
-      },
-      {
-        "slug": "vurush-turalyon-eu",
-        "name": "Vurush",
-        "rank": 3,
-        "value": 65.64,
-        "secondary": 10
-      },
-      {
-        "slug": "khayen-terokkar-eu",
-        "name": "Khayen",
-        "rank": 0,
-        "value": 61.92,
-        "secondary": 10
-      },
-      {
-        "slug": "lishiy-ragnaros-eu",
-        "name": "Lishiy",
-        "rank": 1,
-        "value": 61.92,
-        "secondary": 0
-      },
-      {
-        "slug": "daslight-terokkar-eu",
-        "name": "Daslight",
-        "rank": 4,
-        "value": 61.92,
-        "secondary": 0
-      },
-      {
-        "slug": "demhunt-terokkar-eu",
-        "name": "Demhunt",
-        "rank": 4,
-        "value": 61.92,
-        "secondary": 0
-      },
-      {
-        "slug": "ionax-draenor-eu",
-        "name": "Ionax",
-        "rank": 4,
-        "value": 61.92,
-        "secondary": 0
-      },
       {
         "slug": "marmozetroly-tarren-mill-eu",
         "name": "Marmozetroly",
         "rank": 4,
-        "value": 61.92,
+        "value": 66.93,
         "secondary": 10
       },
       {
         "slug": "mavika-doomhammer-eu",
         "name": "Mavika",
         "rank": 4,
-        "value": 61.92,
+        "value": 66.93,
         "secondary": 0
       },
       {
         "slug": "mercury-tarren-mill-eu",
         "name": "Mercury",
         "rank": 4,
-        "value": 61.92,
+        "value": 66.93,
         "secondary": 0
       },
       {
         "slug": "lishiyburn-ragnaros-eu",
         "name": "Lishiyburn",
         "rank": 1,
-        "value": 59.47,
+        "value": 64.47,
         "secondary": 10
+      },
+      {
+        "slug": "molfar-terokkar-eu",
+        "name": "Mólfár",
+        "rank": 2,
+        "value": 64.47,
+        "secondary": 8
+      },
+      {
+        "slug": "skirvir-turalyon-eu",
+        "name": "Skirvir",
+        "rank": 3,
+        "value": 64.47,
+        "secondary": 10
+      },
+      {
+        "slug": "otito-draenor-eu",
+        "name": "Otito",
+        "rank": 4,
+        "value": 64.47,
+        "secondary": 10
+      },
+      {
+        "slug": "regin-doomhammer-eu",
+        "name": "Regin",
+        "rank": 4,
+        "value": 64.47,
+        "secondary": 0
+      },
+      {
+        "slug": "rolemodel-burning-legion-eu",
+        "name": "Rolemodel",
+        "rank": 4,
+        "value": 64.47,
+        "secondary": 0
+      },
+      {
+        "slug": "twigsnapper-doomhammer-eu",
+        "name": "Twigsnapper",
+        "rank": 4,
+        "value": 64.47,
+        "secondary": 0
+      },
+      {
+        "slug": "сумраки-eversong-eu",
+        "name": "Сумраки",
+        "rank": 4,
+        "value": 64.47,
+        "secondary": 0
+      },
+      {
+        "slug": "blackberry-terokkar-eu",
+        "name": "Blackberry",
+        "rank": 3,
+        "value": 62.22,
+        "secondary": 0
       }
     ]
   },
@@ -670,17 +670,17 @@
       "encounterId": 3306,
       "difficulty": 5,
       "difficultyName": "Mythic",
-      "pulls": 37,
+      "pulls": 44,
       "kills": 0,
-      "wipes": 37,
+      "wipes": 44,
       "killRate": 0,
-      "avgDurationMs": 180465,
-      "avgRaidDeaths": 20.05,
-      "avgTeamDps": 280089.51,
-      "avgTeamHps": 159231.51,
+      "avgDurationMs": 182452,
+      "avgRaidDeaths": 20.14,
+      "avgTeamDps": 235529.81,
+      "avgTeamHps": 141137.71,
       "bestTeamDps": 623734.47,
       "bestTeamHps": 392165.98,
-      "lastPullAt": "2026-06-09T17:37:30.932Z"
+      "lastPullAt": "2026-06-09T18:29:05.941Z"
     },
     {
       "key": "3306:Heroic",
@@ -694,9 +694,9 @@
       "killRate": 0.4,
       "avgDurationMs": 190841,
       "avgRaidDeaths": 12.8,
-      "avgTeamDps": 73493.31,
+      "avgTeamDps": 62897.5,
       "avgTeamHps": 0,
-      "bestTeamDps": 228104.95,
+      "bestTeamDps": 175125.9,
       "bestTeamHps": 0,
       "lastPullAt": "2026-06-03T19:51:07.843Z"
     },
@@ -713,9 +713,9 @@
       "avgDurationMs": 115286,
       "avgRaidDeaths": 19.5,
       "avgTeamDps": 220023.17,
-      "avgTeamHps": 19020.56,
+      "avgTeamHps": 0,
       "bestTeamDps": 349169.7,
-      "bestTeamHps": 114123.33,
+      "bestTeamHps": 0,
       "lastPullAt": "2026-06-03T19:40:39.488Z"
     },
     {
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 162,
       "withData": 59,
-      "avgPrimaryRecent3": 22797.92,
+      "avgPrimaryRecent3": 22845.67,
       "avgDpsRecent3": 17545.32,
-      "avgHpsRecent3": 6041.8,
+      "avgHpsRecent3": 6089.55,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 41.83
+      "avgReliabilityScore": 41.81
     }
   ]
 }
