@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-10T19:41:03.984Z",
+  "updatedAt": "2026-06-10T22:10:43.590Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 162,
   "selectedMembers": 8,
   "scannedMembers": 8,
-  "changedMembers": 2,
+  "changedMembers": 0,
   "existingSnapshots": 162,
   "reportsScanned": 8,
   "fightsScanned": 8,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "зулпот-howling-fjord-eu": 0,
-    "клеосса-eversong-eu": 0,
-    "котто-gordunni-eu": 0,
-    "forchun-silvermoon-eu": 8,
-    "ironbelly-silvermoon-eu": 0,
-    "yokum-terokkar-eu": 4,
-    "darkleaf-burning-steppes-eu": 0,
-    "pyatochka-terokkar-eu": 0
+    "shatnyideath-terokkar-eu": 0,
+    "umbrak-terokkar-eu": 0,
+    "грекулес-gordunni-eu": 0,
+    "thortun-silvermoon-eu": 0,
+    "sonechco-silvermoon-eu": 0,
+    "bernstorff-kazzak-eu": 0,
+    "bierdestroer-silvermoon-eu": 0,
+    "hexxoffender-silvermoon-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,30 +36,6 @@
   },
   "batch": {
     "selected": [
-      "зулпот-howling-fjord-eu",
-      "клеосса-eversong-eu",
-      "котто-gordunni-eu",
-      "forchun-silvermoon-eu",
-      "ironbelly-silvermoon-eu",
-      "yokum-terokkar-eu",
-      "darkleaf-burning-steppes-eu",
-      "pyatochka-terokkar-eu"
-    ],
-    "updated": [
-      "forchun-silvermoon-eu",
-      "yokum-terokkar-eu"
-    ],
-    "scanned": [
-      "зулпот-howling-fjord-eu",
-      "клеосса-eversong-eu",
-      "котто-gordunni-eu",
-      "forchun-silvermoon-eu",
-      "ironbelly-silvermoon-eu",
-      "yokum-terokkar-eu",
-      "darkleaf-burning-steppes-eu",
-      "pyatochka-terokkar-eu"
-    ],
-    "pending": [
       "shatnyideath-terokkar-eu",
       "umbrak-terokkar-eu",
       "грекулес-gordunni-eu",
@@ -67,7 +43,20 @@
       "sonechco-silvermoon-eu",
       "bernstorff-kazzak-eu",
       "bierdestroer-silvermoon-eu",
-      "hexxoffender-silvermoon-eu",
+      "hexxoffender-silvermoon-eu"
+    ],
+    "updated": [],
+    "scanned": [
+      "shatnyideath-terokkar-eu",
+      "umbrak-terokkar-eu",
+      "грекулес-gordunni-eu",
+      "thortun-silvermoon-eu",
+      "sonechco-silvermoon-eu",
+      "bernstorff-kazzak-eu",
+      "bierdestroer-silvermoon-eu",
+      "hexxoffender-silvermoon-eu"
+    ],
+    "pending": [
       "k-silvermoon-eu",
       "kensshi-silvermoon-eu",
       "kokosik-silvermoon-eu",
@@ -197,9 +186,7 @@
       "vurush-turalyon-eu",
       "daslight-terokkar-eu",
       "demhunt-terokkar-eu",
-      "ionax-draenor-eu"
-    ],
-    "skippedFresh": [
+      "ionax-draenor-eu",
       "lishiyburn-ragnaros-eu",
       "molfar-terokkar-eu",
       "skirvir-turalyon-eu",
@@ -207,7 +194,9 @@
       "mavika-doomhammer-eu",
       "mercury-tarren-mill-eu",
       "otito-draenor-eu",
-      "regin-doomhammer-eu",
+      "regin-doomhammer-eu"
+    ],
+    "skippedFresh": [
       "blackberry-terokkar-eu",
       "straponeero-tarren-mill-eu",
       "travka-terokkar-eu",
@@ -215,7 +204,15 @@
       "дедика-eversong-eu",
       "rolemodel-burning-legion-eu",
       "twigsnapper-doomhammer-eu",
-      "сумраки-eversong-eu"
+      "сумраки-eversong-eu",
+      "forchun-silvermoon-eu",
+      "ironbelly-silvermoon-eu",
+      "yokum-terokkar-eu",
+      "зулпот-howling-fjord-eu",
+      "клеосса-eversong-eu",
+      "котто-gordunni-eu",
+      "darkleaf-burning-steppes-eu",
+      "pyatochka-terokkar-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []

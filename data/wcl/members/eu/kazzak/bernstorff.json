@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-07T18:10:36.394Z",
+  "updatedAt": "2026-06-10T22:10:43.590Z",
   "character": {
     "name": "Bernstorff",
     "realmSlug": "kazzak",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-07T18:10:36.394Z",
+    "lastScannedAt": "2026-06-10T22:10:43.590Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
