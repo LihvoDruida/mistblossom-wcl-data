@@ -11,7 +11,7 @@
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "azuriel-terokkar-eu",
@@ -47,13 +47,13 @@
     "realmSlug": "silvermoon",
     "region": "eu",
     "rank": 1,
-    "lastUpdatedAt": "2026-06-07T16:23:13.717Z",
-    "lastScannedAt": "2026-06-07T16:23:13.717Z",
-    "nextEligibleAt": "2026-06-08T04:23:13.717Z",
+    "lastUpdatedAt": "2026-06-10T19:41:03.984Z",
+    "lastScannedAt": "2026-06-10T19:41:03.984Z",
+    "nextEligibleAt": "2026-06-11T07:41:03.984Z",
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "pending"
+    "status": "updated"
   },
   {
     "slug": "frrtiix-draenor-eu",
@@ -75,13 +75,13 @@
     "realmSlug": "silvermoon",
     "region": "eu",
     "rank": 1,
-    "lastUpdatedAt": "2026-06-07T16:23:13.717Z",
-    "lastScannedAt": "2026-06-07T16:23:13.717Z",
-    "nextEligibleAt": "2026-06-08T04:23:13.717Z",
+    "lastUpdatedAt": "2026-06-10T19:41:03.984Z",
+    "lastScannedAt": "2026-06-10T19:41:03.984Z",
+    "nextEligibleAt": "2026-06-11T07:41:03.984Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "kashin-terokkar-eu",
@@ -137,7 +137,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "lishiyburn-ragnaros-eu",
@@ -445,7 +445,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "blackdaddy-tarren-mill-eu",
@@ -879,7 +879,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "straponeero-tarren-mill-eu",
@@ -893,7 +893,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "technoihor-silvermoon-eu",
@@ -921,7 +921,7 @@
     "pullsStored": 10,
     "kills": 3,
     "wipes": 7,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "travka-terokkar-eu",
@@ -935,7 +935,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "vertyxa-silvermoon-eu",
@@ -977,7 +977,7 @@
     "pullsStored": 10,
     "kills": 4,
     "wipes": 6,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "yokuha-terokkar-eu",
@@ -991,7 +991,7 @@
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "yokum-terokkar-eu",
@@ -999,13 +999,13 @@
     "realmSlug": "terokkar",
     "region": "eu",
     "rank": 3,
-    "lastUpdatedAt": "2026-06-07T16:23:13.717Z",
-    "lastScannedAt": "2026-06-07T16:23:13.717Z",
-    "nextEligibleAt": "2026-06-08T04:23:13.717Z",
+    "lastUpdatedAt": "2026-06-10T19:41:03.984Z",
+    "lastScannedAt": "2026-06-10T19:41:03.984Z",
+    "nextEligibleAt": "2026-06-11T07:41:03.984Z",
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "pending"
+    "status": "updated"
   },
   {
     "slug": "алак-goldrinn-eu",
@@ -1103,7 +1103,7 @@
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "древесная-blackscar-eu",
@@ -1167,13 +1167,13 @@
     "realmSlug": "howling-fjord",
     "region": "eu",
     "rank": 3,
-    "lastUpdatedAt": "2026-06-07T14:09:59.590Z",
-    "lastScannedAt": "2026-06-07T14:09:59.590Z",
-    "nextEligibleAt": "2026-06-08T02:09:59.590Z",
+    "lastUpdatedAt": "2026-06-10T19:41:03.984Z",
+    "lastScannedAt": "2026-06-10T19:41:03.984Z",
+    "nextEligibleAt": "2026-06-11T07:41:03.984Z",
     "pullsStored": 10,
     "kills": 2,
     "wipes": 8,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "кеенди-gordunni-eu",
@@ -1209,13 +1209,13 @@
     "realmSlug": "eversong",
     "region": "eu",
     "rank": 3,
-    "lastUpdatedAt": "2026-06-07T14:09:59.590Z",
-    "lastScannedAt": "2026-06-07T14:09:59.590Z",
-    "nextEligibleAt": "2026-06-08T02:09:59.590Z",
+    "lastUpdatedAt": "2026-06-10T19:41:03.984Z",
+    "lastScannedAt": "2026-06-10T19:41:03.984Z",
+    "nextEligibleAt": "2026-06-11T07:41:03.984Z",
     "pullsStored": 10,
     "kills": 0,
     "wipes": 10,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "корукк-eversong-eu",
@@ -1237,13 +1237,13 @@
     "realmSlug": "gordunni",
     "region": "eu",
     "rank": 3,
-    "lastUpdatedAt": "2026-06-07T14:09:59.590Z",
-    "lastScannedAt": "2026-06-07T14:09:59.590Z",
-    "nextEligibleAt": "2026-06-08T02:09:59.590Z",
+    "lastUpdatedAt": "2026-06-10T19:41:03.984Z",
+    "lastScannedAt": "2026-06-10T19:41:03.984Z",
+    "nextEligibleAt": "2026-06-11T07:41:03.984Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "кумбар-gordunni-eu",
@@ -1461,13 +1461,13 @@
     "realmSlug": "burning-steppes",
     "region": "eu",
     "rank": 4,
-    "lastUpdatedAt": "2026-06-07T16:23:13.717Z",
-    "lastScannedAt": "2026-06-07T16:23:13.717Z",
-    "nextEligibleAt": "2026-06-08T04:23:13.717Z",
+    "lastUpdatedAt": "2026-06-10T19:41:03.984Z",
+    "lastScannedAt": "2026-06-10T19:41:03.984Z",
+    "nextEligibleAt": "2026-06-11T07:41:03.984Z",
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "daslight-terokkar-eu",
@@ -1481,7 +1481,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "demhunt-terokkar-eu",
@@ -1495,7 +1495,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "freddiedredd-silvermoon-eu",
@@ -1565,7 +1565,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "fresh"
+    "status": "pending"
   },
   {
     "slug": "jakeyo-ravencrest-eu",
@@ -1797,13 +1797,13 @@
     "realmSlug": "terokkar",
     "region": "eu",
     "rank": 4,
-    "lastUpdatedAt": "2026-06-07T16:23:13.717Z",
-    "lastScannedAt": "2026-06-07T16:23:13.717Z",
-    "nextEligibleAt": "2026-06-08T04:23:13.717Z",
+    "lastUpdatedAt": "2026-06-10T19:41:03.984Z",
+    "lastScannedAt": "2026-06-10T19:41:03.984Z",
+    "nextEligibleAt": "2026-06-11T07:41:03.984Z",
     "pullsStored": 10,
     "kills": 3,
     "wipes": 7,
-    "status": "pending"
+    "status": "scanned"
   },
   {
     "slug": "ragnarosh-terokkar-eu",
@@ -1845,7 +1845,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "sandora-doomhammer-eu",
@@ -1957,7 +1957,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "umbrak-terokkar-eu",
@@ -2237,7 +2237,7 @@
     "pullsStored": 0,
     "kills": 0,
     "wipes": 0,
-    "status": "scanned"
+    "status": "fresh"
   },
   {
     "slug": "товстопуз-gordunni-eu",

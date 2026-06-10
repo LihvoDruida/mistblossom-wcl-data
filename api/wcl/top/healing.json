@@ -1,16 +1,16 @@
 [
   {
+    "slug": "yokum-terokkar-eu",
+    "name": "Yokum",
+    "rank": 3,
+    "value": 126555.86,
+    "secondary": 0
+  },
+  {
     "slug": "khayen-terokkar-eu",
     "name": "Khayen",
     "rank": 0,
     "value": 116689.56,
-    "secondary": 0
-  },
-  {
-    "slug": "yokum-terokkar-eu",
-    "name": "Yokum",
-    "rank": 4,
-    "value": 115873.31,
     "secondary": 0
   },
   {
