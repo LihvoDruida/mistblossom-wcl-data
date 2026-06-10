@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-10T08:55:37.617Z",
+  "updatedAt": "2026-06-10T12:30:51.758Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 162,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "marmozetroly-tarren-mill-eu": 0,
-    "mavika-doomhammer-eu": 0,
-    "mercury-tarren-mill-eu": 0,
-    "lishiyburn-ragnaros-eu": 0,
-    "molfar-terokkar-eu": 0,
-    "skirvir-turalyon-eu": 0,
-    "otito-draenor-eu": 0,
-    "regin-doomhammer-eu": 0
+    "rolemodel-burning-legion-eu": 0,
+    "twigsnapper-doomhammer-eu": 0,
+    "сумраки-eversong-eu": 0,
+    "blackberry-terokkar-eu": 0,
+    "straponeero-tarren-mill-eu": 0,
+    "travka-terokkar-eu": 0,
+    "yokuha-terokkar-eu": 0,
+    "дедика-eversong-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,27 +36,6 @@
   },
   "batch": {
     "selected": [
-      "marmozetroly-tarren-mill-eu",
-      "mavika-doomhammer-eu",
-      "mercury-tarren-mill-eu",
-      "lishiyburn-ragnaros-eu",
-      "molfar-terokkar-eu",
-      "skirvir-turalyon-eu",
-      "otito-draenor-eu",
-      "regin-doomhammer-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "marmozetroly-tarren-mill-eu",
-      "mavika-doomhammer-eu",
-      "mercury-tarren-mill-eu",
-      "lishiyburn-ragnaros-eu",
-      "molfar-terokkar-eu",
-      "skirvir-turalyon-eu",
-      "otito-draenor-eu",
-      "regin-doomhammer-eu"
-    ],
-    "pending": [
       "rolemodel-burning-legion-eu",
       "twigsnapper-doomhammer-eu",
       "сумраки-eversong-eu",
@@ -64,7 +43,20 @@
       "straponeero-tarren-mill-eu",
       "travka-terokkar-eu",
       "yokuha-terokkar-eu",
-      "дедика-eversong-eu",
+      "дедика-eversong-eu"
+    ],
+    "updated": [],
+    "scanned": [
+      "rolemodel-burning-legion-eu",
+      "twigsnapper-doomhammer-eu",
+      "сумраки-eversong-eu",
+      "blackberry-terokkar-eu",
+      "straponeero-tarren-mill-eu",
+      "travka-terokkar-eu",
+      "yokuha-terokkar-eu",
+      "дедика-eversong-eu"
+    ],
+    "pending": [
       "зулпот-howling-fjord-eu",
       "клеосса-eversong-eu",
       "котто-gordunni-eu",
@@ -194,9 +186,7 @@
       "odeskiy-tarren-mill-eu",
       "umbramind-terokkar-eu",
       "yokusir-terokkar-eu",
-      "zanzimon-tarren-mill-eu"
-    ],
-    "skippedFresh": [
+      "zanzimon-tarren-mill-eu",
       "arthasright-tarren-mill-eu",
       "blackdaddy-tarren-mill-eu",
       "duszi-terokkar-eu",
@@ -204,7 +194,9 @@
       "komatoznic-tarren-mill-eu",
       "lishiystabb-terokkar-eu",
       "monkania-terokkar-eu",
-      "ragnar-k-burning-legion-eu",
+      "ragnar-k-burning-legion-eu"
+    ],
+    "skippedFresh": [
       "khayen-terokkar-eu",
       "lishiy-ragnaros-eu",
       "sneydilio-doomhammer-eu",
@@ -212,7 +204,15 @@
       "vurush-turalyon-eu",
       "daslight-terokkar-eu",
       "demhunt-terokkar-eu",
-      "ionax-draenor-eu"
+      "ionax-draenor-eu",
+      "lishiyburn-ragnaros-eu",
+      "molfar-terokkar-eu",
+      "skirvir-turalyon-eu",
+      "marmozetroly-tarren-mill-eu",
+      "mavika-doomhammer-eu",
+      "mercury-tarren-mill-eu",
+      "otito-draenor-eu",
+      "regin-doomhammer-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []
