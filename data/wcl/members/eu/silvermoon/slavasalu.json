@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T05:58:54.359Z",
+  "updatedAt": "2026-06-11T18:22:14.562Z",
   "character": {
     "name": "Slávásálu",
     "realmSlug": "silvermoon",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T05:58:54.359Z",
+    "lastScannedAt": "2026-06-11T18:22:14.562Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T11:11:21.816Z",
+  "updatedAt": "2026-06-11T18:22:14.562Z",
   "character": {
     "name": "Галазард",
     "realmSlug": "eversong",
@@ -427,7 +427,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T11:11:21.816Z",
+    "lastScannedAt": "2026-06-11T18:22:14.562Z",
     "lastPullAt": "2026-04-22T18:20:38.878Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
