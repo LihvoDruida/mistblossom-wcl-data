@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T19:26:36.733Z",
+  "updatedAt": "2026-06-11T23:43:09.005Z",
   "character": {
     "name": "Древесная",
     "realmSlug": "blackscar",
@@ -1388,7 +1388,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T19:26:36.733Z",
+    "lastScannedAt": "2026-06-11T23:43:09.005Z",
     "lastPullAt": "2026-06-04T19:56:22.399Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

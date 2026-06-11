@@ -9,17 +9,17 @@
     "killRate": 0.0956,
     "avgFightDurationMs": 197564,
     "avgRaidDeaths": 17.36,
-    "avgTeamDps": 115408.31,
+    "avgTeamDps": 115416.8,
     "avgTeamHps": 35682.04,
-    "avgPerformanceScore": 18.46,
+    "avgPerformanceScore": 18.52,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.78
+    "avgReliabilityScore": 41.88
   },
   "roles": {
     "damage": {
       "members": 50,
       "pulls": 448,
-      "avgRecent": 59710.88,
+      "avgRecent": 59887.97,
       "medianRecent": 63378.86,
       "bestRecent": 107338.9,
       "maxLast10": 207607.12,
@@ -364,6 +364,13 @@
         "secondary": 100343.25
       },
       {
+        "slug": "моннал-gordunni-eu",
+        "name": "Моннал",
+        "rank": 3,
+        "value": 76.35,
+        "secondary": 35568.9
+      },
+      {
         "slug": "кхаарн-lich-king-eu",
         "name": "Кхаарн",
         "rank": 3,
@@ -383,19 +390,12 @@
         "rank": 3,
         "value": 73.66,
         "secondary": 89017.35
-      },
-      {
-        "slug": "rozbiynik-tarren-mill-eu",
-        "name": "Rozbiynik",
-        "rank": 3,
-        "value": 73.45,
-        "secondary": 98180.05
       }
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 70.6,
-    "avgConsistencyPercent": 41.27,
+    "avgStabilityPercent": 71,
+    "avgConsistencyPercent": 41.29,
     "mostStable": [
       {
         "slug": "arthasright-tarren-mill-eu",
@@ -454,6 +454,13 @@
         "secondary": 81.39
       },
       {
+        "slug": "моннал-gordunni-eu",
+        "name": "Моннал",
+        "rank": 3,
+        "value": 76.35,
+        "secondary": 89.15
+      },
+      {
         "slug": "кхаарн-lich-king-eu",
         "name": "Кхаарн",
         "rank": 3,
@@ -473,13 +480,6 @@
         "rank": 3,
         "value": 73.66,
         "secondary": 72.08
-      },
-      {
-        "slug": "rozbiynik-tarren-mill-eu",
-        "name": "Rozbiynik",
-        "rank": 3,
-        "value": 73.45,
-        "secondary": 71.85
       }
     ],
     "needsAttention": [
@@ -571,95 +571,95 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 16,
+    "updatedWithin6h": 24,
     "updatedWithin12h": 32,
     "updatedWithin24h": 56,
-    "oldestScannedAt": "2026-06-08T16:08:40.094Z",
-    "newestScannedAt": "2026-06-11T21:26:48.074Z",
+    "oldestScannedAt": "2026-06-08T19:26:36.733Z",
+    "newestScannedAt": "2026-06-11T23:43:09.005Z",
     "staleMembers": [
-      {
-        "slug": "моннал-gordunni-eu",
-        "name": "Моннал",
-        "rank": 3,
-        "value": 77.31,
-        "secondary": 10
-      },
-      {
-        "slug": "монэлушка-gordunni-eu",
-        "name": "Монэлушка",
-        "rank": 4,
-        "value": 77.31,
-        "secondary": 0
-      },
-      {
-        "slug": "мавпита-gordunni-eu",
-        "name": "Мавпита",
-        "rank": 1,
-        "value": 74.01,
-        "secondary": 10
-      },
-      {
-        "slug": "мистип-gordunni-eu",
-        "name": "Мистип",
-        "rank": 1,
-        "value": 74.01,
-        "secondary": 0
-      },
-      {
-        "slug": "древесная-blackscar-eu",
-        "name": "Древесная",
-        "rank": 3,
-        "value": 74.01,
-        "secondary": 10
-      },
-      {
-        "slug": "мелиодас-gordunni-eu",
-        "name": "Мелиодас",
-        "rank": 3,
-        "value": 74.01,
-        "secondary": 0
-      },
-      {
-        "slug": "поливалочки-gordunni-eu",
-        "name": "Поливалочки",
-        "rank": 3,
-        "value": 74.01,
-        "secondary": 0
-      },
-      {
-        "slug": "севатар-lich-king-eu",
-        "name": "Севатар",
-        "rank": 3,
-        "value": 74.01,
-        "secondary": 10
-      },
       {
         "slug": "щпикачечка-gordunni-eu",
         "name": "Щпикачечка",
         "rank": 3,
-        "value": 74.01,
+        "value": 76.28,
         "secondary": 8
       },
       {
         "slug": "адвокатправа-gordunni-eu",
         "name": "Адвокатправа",
         "rank": 4,
-        "value": 74.01,
+        "value": 76.28,
         "secondary": 10
       },
       {
         "slug": "шриладо-gordunni-eu",
         "name": "Шриладо",
         "rank": 1,
-        "value": 71.52,
+        "value": 73.79,
         "secondary": 10
       },
       {
         "slug": "душа-blackscar-eu",
         "name": "Душа",
         "rank": 3,
-        "value": 71.52,
+        "value": 73.79,
         "secondary": 8
+      },
+      {
+        "slug": "кхаарн-lich-king-eu",
+        "name": "Кхаарн",
+        "rank": 3,
+        "value": 73.79,
+        "secondary": 10
+      },
+      {
+        "slug": "марлая-gordunni-eu",
+        "name": "Марлая",
+        "rank": 3,
+        "value": 73.79,
+        "secondary": 10
+      },
+      {
+        "slug": "бафометище-eversong-eu",
+        "name": "Бафометище",
+        "rank": 4,
+        "value": 73.79,
+        "secondary": 0
+      },
+      {
+        "slug": "дарадуда-gordunni-eu",
+        "name": "Дарадуда",
+        "rank": 4,
+        "value": 73.79,
+        "secondary": 10
+      },
+      {
+        "slug": "корбус-gordunni-eu",
+        "name": "Корбус",
+        "rank": 4,
+        "value": 73.79,
+        "secondary": 0
+      },
+      {
+        "slug": "шпаргат-gordunni-eu",
+        "name": "Шпаргат",
+        "rank": 4,
+        "value": 73.79,
+        "secondary": 10
+      },
+      {
+        "slug": "senig-r-ravencrest-eu",
+        "name": "Senigør",
+        "rank": 1,
+        "value": 72.45,
+        "secondary": 0
+      },
+      {
+        "slug": "auroliana-ravencrest-eu",
+        "name": "Auroliana",
+        "rank": 3,
+        "value": 72.45,
+        "secondary": 10
       }
     ]
   },
@@ -676,7 +676,7 @@
       "killRate": 0,
       "avgDurationMs": 180476,
       "avgRaidDeaths": 20.04,
-      "avgTeamDps": 207152.44,
+      "avgTeamDps": 206562.92,
       "avgTeamHps": 118252.5,
       "bestTeamDps": 611813.27,
       "bestTeamHps": 255225.53,
@@ -694,7 +694,7 @@
       "killRate": 0,
       "avgDurationMs": 116190,
       "avgRaidDeaths": 20,
-      "avgTeamDps": 208163.32,
+      "avgTeamDps": 219058.62,
       "avgTeamHps": 47174.6,
       "bestTeamDps": 349169.7,
       "bestTeamHps": 152920.91,
@@ -730,7 +730,7 @@
       "killRate": 0.0833,
       "avgDurationMs": 234932,
       "avgRaidDeaths": 19.54,
-      "avgTeamDps": 76141.77,
+      "avgTeamDps": 73348.41,
       "avgTeamHps": 10672.51,
       "bestTeamDps": 188714.69,
       "bestTeamHps": 127235.58,
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 162,
       "withData": 59,
-      "avgPrimaryRecent3": 23252.73,
-      "avgDpsRecent3": 17879.92,
+      "avgPrimaryRecent3": 23307.38,
+      "avgDpsRecent3": 17934.58,
       "avgHpsRecent3": 6162,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 41.78
+      "avgReliabilityScore": 41.88
     }
   ]
 }
