@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T16:08:40.094Z",
+  "updatedAt": "2026-06-11T21:26:48.074Z",
   "character": {
     "name": "Кеенди",
     "realmSlug": "gordunni",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T16:08:40.094Z",
+    "lastScannedAt": "2026-06-11T21:26:48.074Z",
     "lastPullAt": "2026-04-05T19:06:02.427Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

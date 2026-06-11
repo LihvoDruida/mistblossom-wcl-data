@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T11:11:21.816Z",
+  "updatedAt": "2026-06-11T21:26:48.074Z",
   "character": {
     "name": "Рокталл",
     "realmSlug": "soulflayer",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T11:11:21.816Z",
+    "lastScannedAt": "2026-06-11T21:26:48.074Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

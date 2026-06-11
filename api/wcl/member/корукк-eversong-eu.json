@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T16:08:40.094Z",
+  "updatedAt": "2026-06-11T21:26:48.074Z",
   "character": {
     "name": "Корукк",
     "realmSlug": "eversong",
@@ -745,7 +745,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T16:08:40.094Z",
+    "lastScannedAt": "2026-06-11T21:26:48.074Z",
     "lastPullAt": "2026-05-27T17:53:50.471Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

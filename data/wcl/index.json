@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-11T18:22:47.028Z",
+  "updatedAt": "2026-06-11T21:27:20.653Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -590,94 +590,94 @@
     "freshness": {
       "updatedWithin1h": 8,
       "updatedWithin6h": 16,
-      "updatedWithin12h": 24,
+      "updatedWithin12h": 32,
       "updatedWithin24h": 56,
-      "oldestScannedAt": "2026-06-08T11:11:21.816Z",
-      "newestScannedAt": "2026-06-11T18:22:14.562Z",
+      "oldestScannedAt": "2026-06-08T16:08:40.094Z",
+      "newestScannedAt": "2026-06-11T21:26:48.074Z",
       "staleMembers": [
-        {
-          "slug": "базрог-gordunni-eu",
-          "name": "Базрог",
-          "rank": 4,
-          "value": 79.19,
-          "secondary": 0
-        },
-        {
-          "slug": "рокталл-soulflayer-eu",
-          "name": "Рокталл",
-          "rank": 4,
-          "value": 79.19,
-          "secondary": 0
-        },
-        {
-          "slug": "дятелэлуны-soulflayer-eu",
-          "name": "Дятелэлуны",
-          "rank": 3,
-          "value": 74.24,
-          "secondary": 0
-        },
-        {
-          "slug": "кеенди-gordunni-eu",
-          "name": "Кеенди",
-          "rank": 3,
-          "value": 74.24,
-          "secondary": 10
-        },
-        {
-          "slug": "кибароу-soulflayer-eu",
-          "name": "Кибароу",
-          "rank": 3,
-          "value": 74.24,
-          "secondary": 0
-        },
-        {
-          "slug": "корукк-eversong-eu",
-          "name": "Корукк",
-          "rank": 3,
-          "value": 74.24,
-          "secondary": 10
-        },
-        {
-          "slug": "кумбар-gordunni-eu",
-          "name": "Кумбар",
-          "rank": 3,
-          "value": 74.24,
-          "secondary": 0
-        },
-        {
-          "slug": "лилая-grom-eu",
-          "name": "Лилая",
-          "rank": 3,
-          "value": 74.24,
-          "secondary": 10
-        },
         {
           "slug": "моннал-gordunni-eu",
           "name": "Моннал",
           "rank": 3,
-          "value": 74.24,
+          "value": 77.31,
           "secondary": 10
         },
         {
           "slug": "монэлушка-gordunni-eu",
           "name": "Монэлушка",
           "rank": 4,
-          "value": 74.24,
+          "value": 77.31,
           "secondary": 0
         },
         {
           "slug": "мавпита-gordunni-eu",
           "name": "Мавпита",
           "rank": 1,
-          "value": 70.94,
+          "value": 74.01,
           "secondary": 10
         },
         {
           "slug": "мистип-gordunni-eu",
           "name": "Мистип",
           "rank": 1,
-          "value": 70.94,
+          "value": 74.01,
           "secondary": 0
+        },
+        {
+          "slug": "древесная-blackscar-eu",
+          "name": "Древесная",
+          "rank": 3,
+          "value": 74.01,
+          "secondary": 10
+        },
+        {
+          "slug": "мелиодас-gordunni-eu",
+          "name": "Мелиодас",
+          "rank": 3,
+          "value": 74.01,
+          "secondary": 0
+        },
+        {
+          "slug": "поливалочки-gordunni-eu",
+          "name": "Поливалочки",
+          "rank": 3,
+          "value": 74.01,
+          "secondary": 0
+        },
+        {
+          "slug": "севатар-lich-king-eu",
+          "name": "Севатар",
+          "rank": 3,
+          "value": 74.01,
+          "secondary": 10
+        },
+        {
+          "slug": "щпикачечка-gordunni-eu",
+          "name": "Щпикачечка",
+          "rank": 3,
+          "value": 74.01,
+          "secondary": 8
+        },
+        {
+          "slug": "адвокатправа-gordunni-eu",
+          "name": "Адвокатправа",
+          "rank": 4,
+          "value": 74.01,
+          "secondary": 10
+        },
+        {
+          "slug": "шриладо-gordunni-eu",
+          "name": "Шриладо",
+          "rank": 1,
+          "value": 71.52,
+          "secondary": 10
+        },
+        {
+          "slug": "душа-blackscar-eu",
+          "name": "Душа",
+          "rank": 3,
+          "value": 71.52,
+          "secondary": 8
         }
       ]
     },
@@ -3556,8 +3556,8 @@
       "realmSlug": "soulflayer",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-08T16:08:40.094Z",
-      "lastScannedAt": "2026-06-08T16:08:40.094Z",
+      "updatedAt": "2026-06-11T21:26:48.074Z",
+      "lastScannedAt": "2026-06-11T21:26:48.074Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -3650,8 +3650,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-08T16:08:40.094Z",
-      "lastScannedAt": "2026-06-08T16:08:40.094Z",
+      "updatedAt": "2026-06-11T21:26:48.074Z",
+      "lastScannedAt": "2026-06-11T21:26:48.074Z",
       "lastPullAt": "2026-04-05T19:06:02.427Z",
       "pullsStored": 10,
       "kills": 2,
@@ -3682,8 +3682,8 @@
       "realmSlug": "soulflayer",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-08T16:08:40.094Z",
-      "lastScannedAt": "2026-06-08T16:08:40.094Z",
+      "updatedAt": "2026-06-11T21:26:48.074Z",
+      "lastScannedAt": "2026-06-11T21:26:48.074Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -3745,8 +3745,8 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-08T16:08:40.094Z",
-      "lastScannedAt": "2026-06-08T16:08:40.094Z",
+      "updatedAt": "2026-06-11T21:26:48.074Z",
+      "lastScannedAt": "2026-06-11T21:26:48.074Z",
       "lastPullAt": "2026-05-27T17:53:50.471Z",
       "pullsStored": 10,
       "kills": 0,
@@ -3808,8 +3808,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-08T16:08:40.094Z",
-      "lastScannedAt": "2026-06-08T16:08:40.094Z",
+      "updatedAt": "2026-06-11T21:26:48.074Z",
+      "lastScannedAt": "2026-06-11T21:26:48.074Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -3871,8 +3871,8 @@
       "realmSlug": "grom",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-08T16:08:40.094Z",
-      "lastScannedAt": "2026-06-08T16:08:40.094Z",
+      "updatedAt": "2026-06-11T21:26:48.074Z",
+      "lastScannedAt": "2026-06-11T21:26:48.074Z",
       "lastPullAt": "2026-04-22T19:27:46.928Z",
       "pullsStored": 10,
       "kills": 3,
@@ -5747,8 +5747,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-08T11:11:21.816Z",
-      "lastScannedAt": "2026-06-08T11:11:21.816Z",
+      "updatedAt": "2026-06-11T21:26:48.074Z",
+      "lastScannedAt": "2026-06-11T21:26:48.074Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5934,8 +5934,8 @@
       "realmSlug": "soulflayer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-08T11:11:21.816Z",
-      "lastScannedAt": "2026-06-08T11:11:21.816Z",
+      "updatedAt": "2026-06-11T21:26:48.074Z",
+      "lastScannedAt": "2026-06-11T21:26:48.074Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
