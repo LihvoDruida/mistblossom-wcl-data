@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-07T18:10:36.394Z",
+  "updatedAt": "2026-06-11T00:23:04.319Z",
   "character": {
     "name": "ßøßk",
     "realmSlug": "silvermoon",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-07T18:10:36.394Z",
+    "lastScannedAt": "2026-06-11T00:23:04.319Z",
     "lastPullAt": "2026-04-11T18:44:31.978Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

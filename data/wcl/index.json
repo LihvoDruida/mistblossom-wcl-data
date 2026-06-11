@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-10T22:11:15.850Z",
+  "updatedAt": "2026-06-11T00:23:37.128Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -589,94 +589,94 @@
     },
     "freshness": {
       "updatedWithin1h": 8,
-      "updatedWithin6h": 16,
-      "updatedWithin12h": 24,
+      "updatedWithin6h": 24,
+      "updatedWithin12h": 32,
       "updatedWithin24h": 48,
-      "oldestScannedAt": "2026-06-07T18:10:36.394Z",
-      "newestScannedAt": "2026-06-10T22:10:43.590Z",
+      "oldestScannedAt": "2026-06-07T20:19:02.127Z",
+      "newestScannedAt": "2026-06-11T00:23:04.319Z",
       "staleMembers": [
-        {
-          "slug": "kensshi-silvermoon-eu",
-          "name": "Kensshi",
-          "rank": 3,
-          "value": 76.01,
-          "secondary": 0
-        },
-        {
-          "slug": "k-silvermoon-eu",
-          "name": "ßøßk",
-          "rank": 3,
-          "value": 76.01,
-          "secondary": 10
-        },
-        {
-          "slug": "kokosik-silvermoon-eu",
-          "name": "Kokosik",
-          "rank": 3,
-          "value": 73.87,
-          "secondary": 10
-        },
-        {
-          "slug": "mexamer-silvermoon-eu",
-          "name": "Mexamer",
-          "rank": 3,
-          "value": 73.87,
-          "secondary": 0
-        },
-        {
-          "slug": "ohhchetos-kazzak-eu",
-          "name": "Ohhchetos",
-          "rank": 3,
-          "value": 73.87,
-          "secondary": 0
-        },
-        {
-          "slug": "oxydenis-silvermoon-eu",
-          "name": "Oxydenis",
-          "rank": 3,
-          "value": 73.87,
-          "secondary": 10
-        },
-        {
-          "slug": "plaguenjoyer-silvermoon-eu",
-          "name": "Plaguenjoyer",
-          "rank": 3,
-          "value": 73.87,
-          "secondary": 0
-        },
-        {
-          "slug": "pwndy-urface-silvermoon-eu",
-          "name": "Pwndyøurface",
-          "rank": 3,
-          "value": 73.87,
-          "secondary": 0
-        },
         {
           "slug": "zanziholic-tarren-mill-eu",
           "name": "Zanziholic",
           "rank": 4,
-          "value": 73.87,
+          "value": 76.08,
           "secondary": 0
         },
         {
           "slug": "zanzimond-tarren-mill-eu",
           "name": "Zanzimond",
           "rank": 4,
-          "value": 73.87,
+          "value": 76.08,
           "secondary": 0
         },
         {
           "slug": "technoihor-silvermoon-eu",
           "name": "Technoihor",
           "rank": 3,
-          "value": 71.99,
+          "value": 74.2,
           "secondary": 0
         },
         {
           "slug": "vertyxa-silvermoon-eu",
           "name": "Vertyxa",
           "rank": 3,
-          "value": 71.99,
+          "value": 74.2,
+          "secondary": 0
+        },
+        {
+          "slug": "vi-n-silvermoon-eu",
+          "name": "Vîøn",
+          "rank": 3,
+          "value": 74.2,
+          "secondary": 0
+        },
+        {
+          "slug": "нежнаяпулька-eversong-eu",
+          "name": "Нежнаяпулька",
+          "rank": 3,
+          "value": 74.2,
+          "secondary": 10
+        },
+        {
+          "slug": "нежныилок-eversong-eu",
+          "name": "Нежныйлок",
+          "rank": 3,
+          "value": 74.2,
+          "secondary": 0
+        },
+        {
+          "slug": "пандашоманко-eversong-eu",
+          "name": "Пандашоманко",
+          "rank": 3,
+          "value": 74.2,
+          "secondary": 10
+        },
+        {
+          "slug": "bloemfontain-silvermoon-eu",
+          "name": "Bloemfontain",
+          "rank": 4,
+          "value": 74.2,
+          "secondary": 0
+        },
+        {
+          "slug": "freddiedredd-silvermoon-eu",
+          "name": "Freddiedredd",
+          "rank": 4,
+          "value": 74.2,
+          "secondary": 8
+        },
+        {
+          "slug": "gaplik-silvermoon-eu",
+          "name": "Gaplik",
+          "rank": 4,
+          "value": 72.11,
+          "secondary": 0
+        },
+        {
+          "slug": "hlorygole-silvermoon-eu",
+          "name": "Hlorygole",
+          "rank": 4,
+          "value": 72.11,
           "secondary": 0
         }
       ]
@@ -2393,8 +2393,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T18:10:36.394Z",
-      "lastScannedAt": "2026-06-07T18:10:36.394Z",
+      "updatedAt": "2026-06-11T00:23:04.319Z",
+      "lastScannedAt": "2026-06-11T00:23:04.319Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -2424,8 +2424,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T20:19:02.127Z",
-      "lastScannedAt": "2026-06-07T20:19:02.127Z",
+      "updatedAt": "2026-06-11T00:23:04.319Z",
+      "lastScannedAt": "2026-06-11T00:23:04.319Z",
       "lastPullAt": "2026-04-29T20:28:20.858Z",
       "pullsStored": 10,
       "kills": 1,
@@ -2518,8 +2518,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T20:19:02.127Z",
-      "lastScannedAt": "2026-06-07T20:19:02.127Z",
+      "updatedAt": "2026-06-11T00:23:04.319Z",
+      "lastScannedAt": "2026-06-11T00:23:04.319Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -2580,8 +2580,8 @@
       "realmSlug": "kazzak",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T20:19:02.127Z",
-      "lastScannedAt": "2026-06-07T20:19:02.127Z",
+      "updatedAt": "2026-06-11T00:23:04.319Z",
+      "lastScannedAt": "2026-06-11T00:23:04.319Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -2611,8 +2611,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T20:19:02.127Z",
-      "lastScannedAt": "2026-06-07T20:19:02.127Z",
+      "updatedAt": "2026-06-11T00:23:04.319Z",
+      "lastScannedAt": "2026-06-11T00:23:04.319Z",
       "lastPullAt": "2026-05-10T18:26:07.701Z",
       "pullsStored": 10,
       "kills": 1,
@@ -2643,8 +2643,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T20:19:02.127Z",
-      "lastScannedAt": "2026-06-07T20:19:02.127Z",
+      "updatedAt": "2026-06-11T00:23:04.319Z",
+      "lastScannedAt": "2026-06-11T00:23:04.319Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -2705,8 +2705,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T20:19:02.127Z",
-      "lastScannedAt": "2026-06-07T20:19:02.127Z",
+      "updatedAt": "2026-06-11T00:23:04.319Z",
+      "lastScannedAt": "2026-06-11T00:23:04.319Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -2957,8 +2957,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T18:10:36.394Z",
-      "lastScannedAt": "2026-06-07T18:10:36.394Z",
+      "updatedAt": "2026-06-11T00:23:04.319Z",
+      "lastScannedAt": "2026-06-11T00:23:04.319Z",
       "lastPullAt": "2026-04-11T18:44:31.978Z",
       "pullsStored": 10,
       "kills": 0,
