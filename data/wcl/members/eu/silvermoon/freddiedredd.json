@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-07T22:11:47.897Z",
+  "updatedAt": "2026-06-11T10:50:26.036Z",
   "character": {
     "name": "Freddiedredd",
     "realmSlug": "silvermoon",
@@ -10,64 +10,64 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 8,
+    "pullsStored": 10,
     "kills": 0,
-    "wipes": 8,
+    "wipes": 10,
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 154,
+    "totalRaidDeaths": 202,
     "deathsPerPull": 0,
-    "stabilityPercent": 68.78,
-    "consistencyPercent": 37.48,
-    "performanceScore": 47.2,
+    "stabilityPercent": 55.94,
+    "consistencyPercent": 34.04,
+    "performanceScore": 39.28,
     "survivalScore": 100,
-    "reliabilityScore": 70.36,
+    "reliabilityScore": 66,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 4475.04,
-      "avgPrimary": 4475.04,
-      "avgDurationMs": 291246,
+      "avgHps": 5529.39,
+      "avgPrimary": 5529.39,
+      "avgDurationMs": 183301,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 3848.18,
-      "avgPrimary": 3848.18,
-      "avgDurationMs": 233606,
+      "avgHps": 6531.57,
+      "avgPrimary": 6531.57,
+      "avgDurationMs": 142552,
       "avgDeaths": 0
     },
     "last10": {
-      "sampleSize": 8,
+      "sampleSize": 10,
       "maxDps": 0,
       "minDps": 0,
-      "maxHps": 6506.33,
-      "minHps": 2438.88,
-      "maxPrimary": 6506.33,
-      "minPrimary": 2438.88,
+      "maxHps": 9884.52,
+      "minHps": 3364.98,
+      "maxPrimary": 9884.52,
+      "minPrimary": 3364.98,
       "maxDurationMs": 407830,
-      "minDurationMs": 108203
+      "minDurationMs": 90883
     },
     "trend": {
-      "direction": "up",
-      "recentAvg": 4475.04,
-      "previousAvg": 3848.18,
-      "delta": 626.86,
-      "deltaPercent": 16.29
+      "direction": "down",
+      "recentAvg": 5529.39,
+      "previousAvg": 6531.57,
+      "delta": -1002.18,
+      "deltaPercent": -15.34
     },
     "byRole": {
       "healer": {
-        "pulls": 8,
+        "pulls": 10,
         "kills": 0,
-        "wipes": 8,
-        "avgRecent": 4475.04,
-        "maxLast10": 6506.33,
-        "minLast10": 2438.88,
+        "wipes": 10,
+        "avgRecent": 5529.39,
+        "maxLast10": 9884.52,
+        "minLast10": 3364.98,
         "deathsPerPull": 0,
-        "bestPullKey": "J7drK2qY9hFnRyTD:27:Freddiedredd:silvermoon:eu",
-        "worstPullKey": "J7drK2qY9hFnRyTD:24:Freddiedredd:silvermoon:eu"
+        "bestPullKey": "RL79bk4gWVYtjAC2:27:Freddiedredd:silvermoon:eu",
+        "worstPullKey": "J7drK2qY9hFnRyTD:28:Freddiedredd:silvermoon:eu"
       },
       "damage": {
         "pulls": 0,
@@ -89,13 +89,13 @@
       }
     },
     "dataQuality": {
-      "pullsWithMatchedDamage": 8,
-      "pullsWithMatchedHealing": 8,
-      "pullsWithRoleInferred": 8,
+      "pullsWithMatchedDamage": 10,
+      "pullsWithMatchedHealing": 10,
+      "pullsWithRoleInferred": 10,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 0,
-        "hps": 8,
+        "hps": 10,
         "unknown": 0
       },
       "confidenceAvg": 0.96,
@@ -103,6 +103,1158 @@
     }
   },
   "pulls": [
+    {
+      "key": "RL79bk4gWVYtjAC2:32:Freddiedredd:silvermoon:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=32",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T19:15:28.694Z",
+      "durationMs": 180803,
+      "bossPercentage": 50.39,
+      "fightPercentage": 50.39,
+      "averageItemLevel": 287.95001220703125,
+      "actor": {
+        "id": 3,
+        "name": "Freddiedredd",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 86214.75,
+        "hps": 7902.85,
+        "primary": 7902.85,
+        "primaryKind": "hps",
+        "fightDps": 86214.75,
+        "fightHps": 7902.85,
+        "activeDps": 87566.98,
+        "activeHps": 10903.41,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 15587885,
+        "healingTotal": 1428859,
+        "damageActiveTimeMs": 178011,
+        "healingActiveTimeMs": 131047,
+        "damageTotalTimeMs": 180803,
+        "healingTotalTimeMs": 180803,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 32,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7583836,
+          "endTime": 7764639,
+          "bossPercentage": 50.39,
+          "fightPercentage": 50.39,
+          "averageItemLevel": 287.95001220703125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 180803,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 15587885,
+              "activeTime": 178011,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 180803,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 1428859,
+              "activeTime": 131047,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 3,
+          "matchedActorName": "Freddiedredd",
+          "normalizedKeys": [
+            "freddiedredd:silvermoon:eu",
+            "freddiedredd::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:31:Freddiedredd:silvermoon:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 31,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=31",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T19:08:48.337Z",
+      "durationMs": 211411,
+      "bossPercentage": 44.84,
+      "fightPercentage": 44.84,
+      "averageItemLevel": 287.6499938964844,
+      "actor": {
+        "id": 3,
+        "name": "Freddiedredd",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 72878.9,
+        "hps": 4595.58,
+        "primary": 4595.58,
+        "primaryKind": "hps",
+        "fightDps": 72878.9,
+        "fightHps": 4595.58,
+        "activeDps": 86727.99,
+        "activeHps": 5921.92,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 15407401,
+        "healingTotal": 971556,
+        "damageActiveTimeMs": 177652,
+        "healingActiveTimeMs": 164061,
+        "damageTotalTimeMs": 211411,
+        "healingTotalTimeMs": 211411,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 31,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7183479,
+          "endTime": 7394890,
+          "bossPercentage": 44.84,
+          "fightPercentage": 44.84,
+          "averageItemLevel": 287.6499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 211411,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 15407401,
+              "activeTime": 177652,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 211411,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 971556,
+              "activeTime": 164061,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 3,
+          "matchedActorName": "Freddiedredd",
+          "normalizedKeys": [
+            "freddiedredd:silvermoon:eu",
+            "freddiedredd::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:30:Freddiedredd:silvermoon:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=30",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T19:05:05.526Z",
+      "durationMs": 157690,
+      "bossPercentage": 47.28,
+      "fightPercentage": 47.28,
+      "averageItemLevel": 287.6499938964844,
+      "actor": {
+        "id": 3,
+        "name": "Freddiedredd",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 94381.12,
+        "hps": 4089.75,
+        "primary": 4089.75,
+        "primaryKind": "hps",
+        "fightDps": 94381.12,
+        "fightHps": 4089.75,
+        "activeDps": 96098.45,
+        "activeHps": 4557.3,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 13
+      },
+      "source": {
+        "damageTotal": 14882959,
+        "healingTotal": 644912,
+        "damageActiveTimeMs": 154872,
+        "healingActiveTimeMs": 141512,
+        "damageTotalTimeMs": 157690,
+        "healingTotalTimeMs": 157690,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 30,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6960668,
+          "endTime": 7118358,
+          "bossPercentage": 47.28,
+          "fightPercentage": 47.28,
+          "averageItemLevel": 287.6499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 157690,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 14882959,
+              "activeTime": 154872,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 157690,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 644912,
+              "activeTime": 141512,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 13,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 3,
+          "matchedActorName": "Freddiedredd",
+          "normalizedKeys": [
+            "freddiedredd:silvermoon:eu",
+            "freddiedredd::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:29:Freddiedredd:silvermoon:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 29,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=29",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:58:57.564Z",
+      "durationMs": 172779,
+      "bossPercentage": 46.53,
+      "fightPercentage": 46.53,
+      "averageItemLevel": 287.6000061035156,
+      "actor": {
+        "id": 3,
+        "name": "Freddiedredd",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 101277.36,
+        "hps": 5535.41,
+        "primary": 5535.41,
+        "primaryKind": "hps",
+        "fightDps": 101277.36,
+        "fightHps": 5535.41,
+        "activeDps": 102190.56,
+        "activeHps": 6157.58,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 17498601,
+        "healingTotal": 956402,
+        "damageActiveTimeMs": 171235,
+        "healingActiveTimeMs": 155321,
+        "damageTotalTimeMs": 172779,
+        "healingTotalTimeMs": 172779,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 29,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6592706,
+          "endTime": 6765485,
+          "bossPercentage": 46.53,
+          "fightPercentage": 46.53,
+          "averageItemLevel": 287.6000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 172779,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 17498601,
+              "activeTime": 171235,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 172779,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 956402,
+              "activeTime": 155321,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 3,
+          "matchedActorName": "Freddiedredd",
+          "normalizedKeys": [
+            "freddiedredd:silvermoon:eu",
+            "freddiedredd::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:28:Freddiedredd:silvermoon:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=28",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:46:37.242Z",
+      "durationMs": 92715,
+      "bossPercentage": 78.58,
+      "fightPercentage": 78.58,
+      "averageItemLevel": 287.6499938964844,
+      "actor": {
+        "id": 3,
+        "name": "Freddiedredd",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 91525.62,
+        "hps": 4174.78,
+        "primary": 4174.78,
+        "primaryKind": "hps",
+        "fightDps": 91525.62,
+        "fightHps": 4174.78,
+        "activeDps": 93455.93,
+        "activeHps": 5586.32,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 8485798,
+        "healingTotal": 387065,
+        "damageActiveTimeMs": 90800,
+        "healingActiveTimeMs": 69288,
+        "damageTotalTimeMs": 92715,
+        "healingTotalTimeMs": 92715,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 28,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5852384,
+          "endTime": 5945099,
+          "bossPercentage": 78.58,
+          "fightPercentage": 78.58,
+          "averageItemLevel": 287.6499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 92715,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 8485798,
+              "activeTime": 90800,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 92715,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 387065,
+              "activeTime": 69288,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 3,
+          "matchedActorName": "Freddiedredd",
+          "normalizedKeys": [
+            "freddiedredd:silvermoon:eu",
+            "freddiedredd::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:27:Freddiedredd:silvermoon:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=27",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:27:31.482Z",
+      "durationMs": 162162,
+      "bossPercentage": 57.42,
+      "fightPercentage": 57.42,
+      "averageItemLevel": 287.6000061035156,
+      "actor": {
+        "id": 3,
+        "name": "Freddiedredd",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 109000.7,
+        "hps": 9884.52,
+        "primary": 9884.52,
+        "primaryKind": "hps",
+        "fightDps": 109000.7,
+        "fightHps": 9884.52,
+        "activeDps": 109902.08,
+        "activeHps": 10607.18,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 17675771,
+        "healingTotal": 1602893,
+        "damageActiveTimeMs": 160832,
+        "healingActiveTimeMs": 151114,
+        "damageTotalTimeMs": 162162,
+        "healingTotalTimeMs": 162162,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 27,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4706624,
+          "endTime": 4868786,
+          "bossPercentage": 57.42,
+          "fightPercentage": 57.42,
+          "averageItemLevel": 287.6000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 162162,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 17675771,
+              "activeTime": 160832,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 162162,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 1602893,
+              "activeTime": 151114,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 3,
+          "matchedActorName": "Freddiedredd",
+          "normalizedKeys": [
+            "freddiedredd:silvermoon:eu",
+            "freddiedredd::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:26:Freddiedredd:silvermoon:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=26",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:23:01.641Z",
+      "durationMs": 100948,
+      "bossPercentage": 72.73,
+      "fightPercentage": 72.73,
+      "averageItemLevel": 287.54998779296875,
+      "actor": {
+        "id": 3,
+        "name": "Freddiedredd",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 96416.92,
+        "hps": 4944.11,
+        "primary": 4944.11,
+        "primaryKind": "hps",
+        "fightDps": 96416.92,
+        "fightHps": 4944.11,
+        "activeDps": 98936.69,
+        "activeHps": 5757.94,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 9733095,
+        "healingTotal": 499098,
+        "damageActiveTimeMs": 98377,
+        "healingActiveTimeMs": 86680,
+        "damageTotalTimeMs": 100948,
+        "healingTotalTimeMs": 100948,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 26,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4436783,
+          "endTime": 4537731,
+          "bossPercentage": 72.73,
+          "fightPercentage": 72.73,
+          "averageItemLevel": 287.54998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 100948,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 9733095,
+              "activeTime": 98377,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 100948,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 499098,
+              "activeTime": 86680,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 3,
+          "matchedActorName": "Freddiedredd",
+          "normalizedKeys": [
+            "freddiedredd:silvermoon:eu",
+            "freddiedredd::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:25:Freddiedredd:silvermoon:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=25",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:11:38.181Z",
+      "durationMs": 90883,
+      "bossPercentage": 71.27,
+      "fightPercentage": 71.27,
+      "averageItemLevel": 287.6000061035156,
+      "actor": {
+        "id": 3,
+        "name": "Freddiedredd",
+        "server": "Silvermoon",
+        "type": "Player",
+        "subType": "DeathKnight"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "DeathKnight-Unholy",
+        "className": "DeathKnight",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 97181,
+        "hps": 4425.1,
+        "primary": 4425.1,
+        "primaryKind": "hps",
+        "fightDps": 97181,
+        "fightHps": 4425.1,
+        "activeDps": 98567.06,
+        "activeHps": 6384.09,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 8832101,
+        "healingTotal": 402166,
+        "damageActiveTimeMs": 89605,
+        "healingActiveTimeMs": 62995,
+        "damageTotalTimeMs": 90883,
+        "healingTotalTimeMs": 90883,
+        "damageEntryId": 3,
+        "healingEntryId": 3,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:3,healing:actor-id:3"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 25,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3753323,
+          "endTime": 3844206,
+          "bossPercentage": 71.27,
+          "fightPercentage": 71.27,
+          "averageItemLevel": 287.6000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 90883,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 8832101,
+              "activeTime": 89605,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 90883,
+            "matchedBy": "actor-id:3",
+            "matchedEntry": {
+              "id": 3,
+              "name": "Freddiedredd",
+              "type": "DeathKnight",
+              "icon": "DeathKnight-Unholy",
+              "total": 402166,
+              "activeTime": 62995,
+              "itemLevel": 290,
+              "guid": 224651580
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 22,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 3,
+          "matchedActorName": "Freddiedredd",
+          "normalizedKeys": [
+            "freddiedredd:silvermoon:eu",
+            "freddiedredd::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "DeathKnight-Unholy",
+            "className": "DeathKnight",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "J7drK2qY9hFnRyTD:28:Freddiedredd:silvermoon:eu",
       "reportCode": "J7drK2qY9hFnRyTD",
@@ -390,879 +1542,15 @@
           }
         }
       }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:26:Freddiedredd:silvermoon:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:43:28.840Z",
-      "durationMs": 211217,
-      "bossPercentage": 44.04,
-      "fightPercentage": 44.04,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 311,
-        "name": "Freddiedredd",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 75670.64,
-        "hps": 3553.8,
-        "primary": 3553.8,
-        "primaryKind": "hps",
-        "fightDps": 75670.64,
-        "fightHps": 3553.8,
-        "activeDps": 81572.59,
-        "activeHps": 4546.34,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 15982926,
-        "healingTotal": 750624,
-        "damageActiveTimeMs": 195935,
-        "healingActiveTimeMs": 165105,
-        "damageTotalTimeMs": 211217,
-        "healingTotalTimeMs": 211217,
-        "damageEntryId": 311,
-        "healingEntryId": 311,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:311,healing:actor-id:311"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 26,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 15163340,
-          "endTime": 15374557,
-          "bossPercentage": 44.04,
-          "fightPercentage": 44.04,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 211217,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 15982926,
-              "activeTime": 195935,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 211217,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 750624,
-              "activeTime": 165105,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 311,
-          "matchedActorName": "Freddiedredd",
-          "normalizedKeys": [
-            "freddiedredd:silvermoon:eu",
-            "freddiedredd::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:24:Freddiedredd:silvermoon:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 24,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=24",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:34:22.519Z",
-      "durationMs": 225405,
-      "bossPercentage": 48.14,
-      "fightPercentage": 48.14,
-      "averageItemLevel": 287.1499938964844,
-      "actor": {
-        "id": 311,
-        "name": "Freddiedredd",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 70300.78,
-        "hps": 2438.88,
-        "primary": 2438.88,
-        "primaryKind": "hps",
-        "fightDps": 70300.78,
-        "fightHps": 2438.88,
-        "activeDps": 75444.55,
-        "activeHps": 3122.67,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 15846147,
-        "healingTotal": 549736,
-        "damageActiveTimeMs": 210037,
-        "healingActiveTimeMs": 176047,
-        "damageTotalTimeMs": 225405,
-        "healingTotalTimeMs": 225405,
-        "damageEntryId": 311,
-        "healingEntryId": 311,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:311,healing:actor-id:311"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 24,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 14617019,
-          "endTime": 14842424,
-          "bossPercentage": 48.14,
-          "fightPercentage": 48.14,
-          "averageItemLevel": 287.1499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 225405,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 15846147,
-              "activeTime": 210037,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 225405,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 549736,
-              "activeTime": 176047,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 311,
-          "matchedActorName": "Freddiedredd",
-          "normalizedKeys": [
-            "freddiedredd:silvermoon:eu",
-            "freddiedredd::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:23:Freddiedredd:silvermoon:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 23,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=23",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:28:15.407Z",
-      "durationMs": 244539,
-      "bossPercentage": 43.67,
-      "fightPercentage": 43.67,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 311,
-        "name": "Freddiedredd",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 63194.77,
-        "hps": 4999.44,
-        "primary": 4999.44,
-        "primaryKind": "hps",
-        "fightDps": 63194.77,
-        "fightHps": 4999.44,
-        "activeDps": 71535.11,
-        "activeHps": 6114.96,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 15453586,
-        "healingTotal": 1222557,
-        "damageActiveTimeMs": 216028,
-        "healingActiveTimeMs": 199929,
-        "damageTotalTimeMs": 244539,
-        "healingTotalTimeMs": 244539,
-        "damageEntryId": 311,
-        "healingEntryId": 311,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:311,healing:actor-id:311"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 23,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 14249907,
-          "endTime": 14494446,
-          "bossPercentage": 43.67,
-          "fightPercentage": 43.67,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 244539,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 15453586,
-              "activeTime": 216028,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 244539,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 1222557,
-              "activeTime": 199929,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 311,
-          "matchedActorName": "Freddiedredd",
-          "normalizedKeys": [
-            "freddiedredd:silvermoon:eu",
-            "freddiedredd::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:22:Freddiedredd:silvermoon:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 22,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=22",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:22:35.705Z",
-      "durationMs": 230874,
-      "bossPercentage": 45.95,
-      "fightPercentage": 45.95,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 311,
-        "name": "Freddiedredd",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 87827.03,
-        "hps": 4106.21,
-        "primary": 4106.21,
-        "primaryKind": "hps",
-        "fightDps": 87827.03,
-        "fightHps": 4106.21,
-        "activeDps": 88387.51,
-        "activeHps": 5016.73,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 20276978,
-        "healingTotal": 948016,
-        "damageActiveTimeMs": 229410,
-        "healingActiveTimeMs": 188971,
-        "damageTotalTimeMs": 230874,
-        "healingTotalTimeMs": 230874,
-        "damageEntryId": 311,
-        "healingEntryId": 311,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:311,healing:actor-id:311"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 22,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13910205,
-          "endTime": 14141079,
-          "bossPercentage": 45.95,
-          "fightPercentage": 45.95,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 230874,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 20276978,
-              "activeTime": 229410,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 230874,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 948016,
-              "activeTime": 188971,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 311,
-          "matchedActorName": "Freddiedredd",
-          "normalizedKeys": [
-            "freddiedredd:silvermoon:eu",
-            "freddiedredd::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:21:Freddiedredd:silvermoon:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=21",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:19:49.269Z",
-      "durationMs": 108203,
-      "bossPercentage": 67.25,
-      "fightPercentage": 67.25,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 311,
-        "name": "Freddiedredd",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 83237.82,
-        "hps": 6254.77,
-        "primary": 6254.77,
-        "primaryKind": "hps",
-        "fightDps": 83237.82,
-        "fightHps": 6254.77,
-        "activeDps": 95455.22,
-        "activeHps": 8665.07,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 9006582,
-        "healingTotal": 676785,
-        "damageActiveTimeMs": 94354,
-        "healingActiveTimeMs": 78105,
-        "damageTotalTimeMs": 108203,
-        "healingTotalTimeMs": 108203,
-        "damageEntryId": 311,
-        "healingEntryId": 311,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:311,healing:actor-id:311"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 21,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13743769,
-          "endTime": 13851972,
-          "bossPercentage": 67.25,
-          "fightPercentage": 67.25,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 108203,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 9006582,
-              "activeTime": 94354,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 108203,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 676785,
-              "activeTime": 78105,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 311,
-          "matchedActorName": "Freddiedredd",
-          "normalizedKeys": [
-            "freddiedredd:silvermoon:eu",
-            "freddiedredd::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:20:Freddiedredd:silvermoon:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=20",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:07:41.231Z",
-      "durationMs": 157276,
-      "bossPercentage": 52.9,
-      "fightPercentage": 52.9,
-      "averageItemLevel": 287.1000061035156,
-      "actor": {
-        "id": 311,
-        "name": "Freddiedredd",
-        "server": "Silvermoon",
-        "type": "Player",
-        "subType": "DeathKnight"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "DeathKnight-Unholy",
-        "className": "DeathKnight",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 84747.13,
-        "hps": 5235.85,
-        "primary": 5235.85,
-        "primaryKind": "hps",
-        "fightDps": 84747.13,
-        "fightHps": 5235.85,
-        "activeDps": 85262.14,
-        "activeHps": 5601.37,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 9
-      },
-      "source": {
-        "damageTotal": 13328690,
-        "healingTotal": 823474,
-        "damageActiveTimeMs": 156326,
-        "healingActiveTimeMs": 147013,
-        "damageTotalTimeMs": 157276,
-        "healingTotalTimeMs": 157276,
-        "damageEntryId": 311,
-        "healingEntryId": 311,
-        "damageItemLevel": 290,
-        "healingItemLevel": 290,
-        "matchedBy": "damage:actor-id:311,healing:actor-id:311"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 20,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13015731,
-          "endTime": 13173007,
-          "bossPercentage": 52.9,
-          "fightPercentage": 52.9,
-          "averageItemLevel": 287.1000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157276,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 13328690,
-              "activeTime": 156326,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 157276,
-            "matchedBy": "actor-id:311",
-            "matchedEntry": {
-              "id": 311,
-              "name": "Freddiedredd",
-              "type": "DeathKnight",
-              "icon": "DeathKnight-Unholy",
-              "total": 823474,
-              "activeTime": 147013,
-              "itemLevel": 290,
-              "guid": 224651580
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 9,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 311,
-          "matchedActorName": "Freddiedredd",
-          "normalizedKeys": [
-            "freddiedredd:silvermoon:eu",
-            "freddiedredd::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "DeathKnight-Unholy",
-            "className": "DeathKnight",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-07T22:11:47.897Z",
-    "lastPullAt": "2026-06-04T19:56:22.399Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-11T10:50:26.036Z",
+    "lastPullAt": "2026-06-10T19:15:28.694Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }

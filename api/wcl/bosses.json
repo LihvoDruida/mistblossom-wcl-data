@@ -12,7 +12,7 @@
     "avgDurationMs": 180476,
     "avgRaidDeaths": 20.04,
     "avgTeamDps": 214031.52,
-    "avgTeamHps": 118258.43,
+    "avgTeamHps": 118252.5,
     "bestTeamDps": 623734.47,
     "bestTeamHps": 255225.53,
     "lastPullAt": "2026-06-10T19:15:28.694Z"
@@ -30,9 +30,9 @@
     "avgDurationMs": 116190,
     "avgRaidDeaths": 20,
     "avgTeamDps": 173642.06,
-    "avgTeamHps": 45035.3,
+    "avgTeamHps": 47174.6,
     "bestTeamDps": 349169.7,
-    "bestTeamHps": 143036.39,
+    "bestTeamHps": 152920.91,
     "lastPullAt": "2026-06-10T18:27:31.482Z"
   },
   {
