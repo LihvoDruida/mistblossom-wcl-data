@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-11T00:23:37.128Z",
+  "updatedAt": "2026-06-11T05:58:04.698Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -589,94 +589,94 @@
     },
     "freshness": {
       "updatedWithin1h": 8,
-      "updatedWithin6h": 24,
+      "updatedWithin6h": 16,
       "updatedWithin12h": 32,
       "updatedWithin24h": 48,
-      "oldestScannedAt": "2026-06-07T20:19:02.127Z",
-      "newestScannedAt": "2026-06-11T00:23:04.319Z",
+      "oldestScannedAt": "2026-06-07T22:11:47.897Z",
+      "newestScannedAt": "2026-06-11T05:57:32.474Z",
       "staleMembers": [
-        {
-          "slug": "zanziholic-tarren-mill-eu",
-          "name": "Zanziholic",
-          "rank": 4,
-          "value": 76.08,
-          "secondary": 0
-        },
-        {
-          "slug": "zanzimond-tarren-mill-eu",
-          "name": "Zanzimond",
-          "rank": 4,
-          "value": 76.08,
-          "secondary": 0
-        },
-        {
-          "slug": "technoihor-silvermoon-eu",
-          "name": "Technoihor",
-          "rank": 3,
-          "value": 74.2,
-          "secondary": 0
-        },
-        {
-          "slug": "vertyxa-silvermoon-eu",
-          "name": "Vertyxa",
-          "rank": 3,
-          "value": 74.2,
-          "secondary": 0
-        },
-        {
-          "slug": "vi-n-silvermoon-eu",
-          "name": "Vîøn",
-          "rank": 3,
-          "value": 74.2,
-          "secondary": 0
-        },
-        {
-          "slug": "нежнаяпулька-eversong-eu",
-          "name": "Нежнаяпулька",
-          "rank": 3,
-          "value": 74.2,
-          "secondary": 10
-        },
-        {
-          "slug": "нежныилок-eversong-eu",
-          "name": "Нежныйлок",
-          "rank": 3,
-          "value": 74.2,
-          "secondary": 0
-        },
-        {
-          "slug": "пандашоманко-eversong-eu",
-          "name": "Пандашоманко",
-          "rank": 3,
-          "value": 74.2,
-          "secondary": 10
-        },
         {
           "slug": "bloemfontain-silvermoon-eu",
           "name": "Bloemfontain",
           "rank": 4,
-          "value": 74.2,
+          "value": 79.77,
           "secondary": 0
         },
         {
           "slug": "freddiedredd-silvermoon-eu",
           "name": "Freddiedredd",
           "rank": 4,
-          "value": 74.2,
+          "value": 79.77,
           "secondary": 8
         },
         {
           "slug": "gaplik-silvermoon-eu",
           "name": "Gaplik",
           "rank": 4,
-          "value": 72.11,
+          "value": 77.68,
           "secondary": 0
         },
         {
           "slug": "hlorygole-silvermoon-eu",
           "name": "Hlorygole",
           "rank": 4,
-          "value": 72.11,
+          "value": 77.68,
+          "secondary": 0
+        },
+        {
+          "slug": "inika-silvermoon-eu",
+          "name": "Inika",
+          "rank": 4,
+          "value": 77.68,
+          "secondary": 0
+        },
+        {
+          "slug": "juz-silvermoon-eu",
+          "name": "Juzø",
+          "rank": 4,
+          "value": 77.68,
+          "secondary": 0
+        },
+        {
+          "slug": "kaijuro-silvermoon-eu",
+          "name": "Kaijuro",
+          "rank": 4,
+          "value": 77.68,
+          "secondary": 0
+        },
+        {
+          "slug": "medvedich-silvermoon-eu",
+          "name": "Medvedich",
+          "rank": 4,
+          "value": 77.68,
+          "secondary": 0
+        },
+        {
+          "slug": "nanyy-silvermoon-eu",
+          "name": "Nanyy",
+          "rank": 4,
+          "value": 77.68,
+          "secondary": 0
+        },
+        {
+          "slug": "zanzilight-tarren-mill-eu",
+          "name": "Zanzilight",
+          "rank": 4,
+          "value": 77.68,
+          "secondary": 0
+        },
+        {
+          "slug": "булкрит-gordunni-eu",
+          "name": "Булкрит",
+          "rank": 1,
+          "value": 71.99,
+          "secondary": 10
+        },
+        {
+          "slug": "амарак-gordunni-eu",
+          "name": "Амарак",
+          "rank": 3,
+          "value": 71.99,
           "secondary": 0
         }
       ]
@@ -3020,8 +3020,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T22:11:47.897Z",
-      "lastScannedAt": "2026-06-07T22:11:47.897Z",
+      "updatedAt": "2026-06-11T05:57:32.474Z",
+      "lastScannedAt": "2026-06-11T05:57:32.474Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -3114,8 +3114,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T22:11:47.897Z",
-      "lastScannedAt": "2026-06-07T22:11:47.897Z",
+      "updatedAt": "2026-06-11T05:57:32.474Z",
+      "lastScannedAt": "2026-06-11T05:57:32.474Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -3145,8 +3145,8 @@
       "realmSlug": "silvermoon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T22:11:47.897Z",
-      "lastScannedAt": "2026-06-07T22:11:47.897Z",
+      "updatedAt": "2026-06-11T05:57:32.474Z",
+      "lastScannedAt": "2026-06-11T05:57:32.474Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -3998,8 +3998,8 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T22:11:47.897Z",
-      "lastScannedAt": "2026-06-07T22:11:47.897Z",
+      "updatedAt": "2026-06-11T05:57:32.474Z",
+      "lastScannedAt": "2026-06-11T05:57:32.474Z",
       "lastPullAt": "2026-05-01T19:03:40.900Z",
       "pullsStored": 10,
       "kills": 0,
@@ -4030,8 +4030,8 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T22:11:47.897Z",
-      "lastScannedAt": "2026-06-07T22:11:47.897Z",
+      "updatedAt": "2026-06-11T05:57:32.474Z",
+      "lastScannedAt": "2026-06-11T05:57:32.474Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -4061,8 +4061,8 @@
       "realmSlug": "eversong",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-07T22:11:47.897Z",
-      "lastScannedAt": "2026-06-07T22:11:47.897Z",
+      "updatedAt": "2026-06-11T05:57:32.474Z",
+      "lastScannedAt": "2026-06-11T05:57:32.474Z",
       "lastPullAt": "2026-05-17T19:09:27.100Z",
       "pullsStored": 10,
       "kills": 0,
@@ -5529,8 +5529,8 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-07T20:19:02.127Z",
-      "lastScannedAt": "2026-06-07T20:19:02.127Z",
+      "updatedAt": "2026-06-11T05:57:32.474Z",
+      "lastScannedAt": "2026-06-11T05:57:32.474Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5622,8 +5622,8 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-07T20:19:02.127Z",
-      "lastScannedAt": "2026-06-07T20:19:02.127Z",
+      "updatedAt": "2026-06-11T05:57:32.474Z",
+      "lastScannedAt": "2026-06-11T05:57:32.474Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
