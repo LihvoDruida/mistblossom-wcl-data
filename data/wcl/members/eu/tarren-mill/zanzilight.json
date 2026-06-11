@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T00:17:08.274Z",
+  "updatedAt": "2026-06-11T14:46:08.180Z",
   "character": {
     "name": "Zanzilight",
     "realmSlug": "tarren-mill",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T00:17:08.274Z",
+    "lastScannedAt": "2026-06-11T14:46:08.180Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

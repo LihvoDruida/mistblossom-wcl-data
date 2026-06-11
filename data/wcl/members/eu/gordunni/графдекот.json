@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T05:58:54.359Z",
+  "updatedAt": "2026-06-11T14:46:08.180Z",
   "character": {
     "name": "Графдекот",
     "realmSlug": "gordunni",
@@ -1388,7 +1388,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T05:58:54.359Z",
+    "lastScannedAt": "2026-06-11T14:46:08.180Z",
     "lastPullAt": "2026-06-04T19:56:22.399Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
