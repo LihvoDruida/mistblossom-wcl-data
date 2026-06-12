@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-09T04:11:15.366Z",
+  "updatedAt": "2026-06-12T12:27:24.871Z",
   "character": {
     "name": "Allune",
     "realmSlug": "terokkar",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-09T04:11:15.366Z",
+    "lastScannedAt": "2026-06-12T12:27:24.871Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
