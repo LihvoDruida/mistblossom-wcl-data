@@ -56,13 +56,6 @@
     "secondary": 0
   },
   {
-    "slug": "душа-blackscar-eu",
-    "name": "Душа",
-    "rank": 3,
-    "value": 89017.35,
-    "secondary": 0
-  },
-  {
     "slug": "oxydenis-silvermoon-eu",
     "name": "Oxydenis",
     "rank": 3,
@@ -81,6 +74,13 @@
     "name": "Krekor",
     "rank": 4,
     "value": 87451.15,
+    "secondary": 0
+  },
+  {
+    "slug": "мавпита-gordunni-eu",
+    "name": "Мавпита",
+    "rank": 1,
+    "value": 87339.48,
     "secondary": 0
   }
 ]

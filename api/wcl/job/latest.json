@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-11T23:43:09.005Z",
+  "updatedAt": "2026-06-12T04:47:20.202Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 162,
   "selectedMembers": 8,
   "scannedMembers": 8,
-  "changedMembers": 1,
+  "changedMembers": 4,
   "existingSnapshots": 162,
   "reportsScanned": 8,
   "fightsScanned": 8,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "моннал-gordunni-eu": 8,
-    "монэлушка-gordunni-eu": 0,
-    "мавпита-gordunni-eu": 0,
-    "мистип-gordunni-eu": 0,
-    "древесная-blackscar-eu": 0,
-    "мелиодас-gordunni-eu": 0,
-    "поливалочки-gordunni-eu": 0,
-    "севатар-lich-king-eu": 0
+    "щпикачечка-gordunni-eu": 0,
+    "адвокатправа-gordunni-eu": 0,
+    "шриладо-gordunni-eu": 0,
+    "душа-blackscar-eu": 8,
+    "кхаарн-lich-king-eu": 8,
+    "марлая-gordunni-eu": 8,
+    "бафометище-eversong-eu": 0,
+    "дарадуда-gordunni-eu": 8
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,29 +36,6 @@
   },
   "batch": {
     "selected": [
-      "моннал-gordunni-eu",
-      "монэлушка-gordunni-eu",
-      "мавпита-gordunni-eu",
-      "мистип-gordunni-eu",
-      "древесная-blackscar-eu",
-      "мелиодас-gordunni-eu",
-      "поливалочки-gordunni-eu",
-      "севатар-lich-king-eu"
-    ],
-    "updated": [
-      "моннал-gordunni-eu"
-    ],
-    "scanned": [
-      "моннал-gordunni-eu",
-      "монэлушка-gordunni-eu",
-      "мавпита-gordunni-eu",
-      "мистип-gordunni-eu",
-      "древесная-blackscar-eu",
-      "мелиодас-gordunni-eu",
-      "поливалочки-gordunni-eu",
-      "севатар-lich-king-eu"
-    ],
-    "pending": [
       "щпикачечка-gordunni-eu",
       "адвокатправа-gordunni-eu",
       "шриладо-gordunni-eu",
@@ -66,7 +43,25 @@
       "кхаарн-lich-king-eu",
       "марлая-gordunni-eu",
       "бафометище-eversong-eu",
-      "дарадуда-gordunni-eu",
+      "дарадуда-gordunni-eu"
+    ],
+    "updated": [
+      "душа-blackscar-eu",
+      "кхаарн-lich-king-eu",
+      "марлая-gordunni-eu",
+      "дарадуда-gordunni-eu"
+    ],
+    "scanned": [
+      "щпикачечка-gordunni-eu",
+      "адвокатправа-gordunni-eu",
+      "шриладо-gordunni-eu",
+      "душа-blackscar-eu",
+      "кхаарн-lich-king-eu",
+      "марлая-gordunni-eu",
+      "бафометище-eversong-eu",
+      "дарадуда-gordunni-eu"
+    ],
+    "pending": [
       "корбус-gordunni-eu",
       "шпаргат-gordunni-eu",
       "senig-r-ravencrest-eu",
@@ -188,9 +183,7 @@
       "inika-silvermoon-eu",
       "juz-silvermoon-eu",
       "kaijuro-silvermoon-eu",
-      "medvedich-silvermoon-eu"
-    ],
-    "skippedFresh": [
+      "medvedich-silvermoon-eu",
       "булкрит-gordunni-eu",
       "амарак-gordunni-eu",
       "графдекот-gordunni-eu",
@@ -198,7 +191,9 @@
       "nanyy-silvermoon-eu",
       "panharanir-kazzak-eu",
       "ponziani-kazzak-eu",
-      "zanzilight-tarren-mill-eu",
+      "zanzilight-tarren-mill-eu"
+    ],
+    "skippedFresh": [
       "пизнаика-gordunni-eu",
       "тузольд-gordunni-eu",
       "альянсс-gordunni-eu",
@@ -214,7 +209,15 @@
       "кумбар-gordunni-eu",
       "лилая-grom-eu",
       "базрог-gordunni-eu",
-      "рокталл-soulflayer-eu"
+      "рокталл-soulflayer-eu",
+      "мавпита-gordunni-eu",
+      "мистип-gordunni-eu",
+      "древесная-blackscar-eu",
+      "мелиодас-gordunni-eu",
+      "моннал-gordunni-eu",
+      "поливалочки-gordunni-eu",
+      "севатар-lich-king-eu",
+      "монэлушка-gordunni-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []

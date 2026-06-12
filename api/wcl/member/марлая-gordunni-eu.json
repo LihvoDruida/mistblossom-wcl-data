@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T21:56:18.714Z",
+  "updatedAt": "2026-06-12T04:47:20.202Z",
   "character": {
     "name": "Марлая",
     "realmSlug": "gordunni",
@@ -16,69 +16,67 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 209,
+    "totalRaidDeaths": 201,
     "deathsPerPull": 0,
-    "stabilityPercent": 85.67,
-    "consistencyPercent": 46.85,
-    "performanceScore": 58.83,
+    "stabilityPercent": 80.79,
+    "consistencyPercent": 37.64,
+    "performanceScore": 53.84,
     "survivalScore": 100,
-    "reliabilityScore": 76.61,
+    "reliabilityScore": 74.01,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 108866.53,
-      "avgPrimary": 108866.53,
-      "avgDurationMs": 169890,
+      "avgHps": 99686.31,
+      "avgPrimary": 99686.31,
+      "avgDurationMs": 183301,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 97096.27,
-      "avgPrimary": 97096.27,
-      "avgDurationMs": 215911,
+      "avgHps": 77555.9,
+      "avgPrimary": 77555.9,
+      "avgDurationMs": 142552,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 89419.51,
-      "minDps": 59532.28,
-      "maxHps": 127083.29,
-      "minHps": 82728.88,
-      "maxPrimary": 127083.29,
-      "minPrimary": 59532.28,
-      "maxDurationMs": 407830,
-      "minDurationMs": 57141
+      "maxDps": 0,
+      "minDps": 0,
+      "maxHps": 123386.26,
+      "minHps": 46441.49,
+      "maxPrimary": 123386.26,
+      "minPrimary": 46441.49,
+      "maxDurationMs": 224253,
+      "minDurationMs": 90883
     },
     "trend": {
       "direction": "up",
-      "recentAvg": 108866.53,
-      "previousAvg": 97096.27,
-      "delta": 11770.26,
-      "deltaPercent": 12.12
+      "recentAvg": 99686.31,
+      "previousAvg": 77555.9,
+      "delta": 22130.41,
+      "deltaPercent": 28.53
     },
     "byRole": {
       "healer": {
-        "pulls": 8,
+        "pulls": 10,
         "kills": 0,
-        "wipes": 8,
-        "avgRecent": 108866.53,
-        "maxLast10": 127083.29,
-        "minLast10": 82728.88,
+        "wipes": 10,
+        "avgRecent": 99686.31,
+        "maxLast10": 123386.26,
+        "minLast10": 46441.49,
         "deathsPerPull": 0,
-        "bestPullKey": "49WFMrR1KNkXtHn8:19:Марлая:gordunni:eu",
-        "worstPullKey": "49WFMrR1KNkXtHn8:20:Марлая:gordunni:eu"
+        "bestPullKey": "RL79bk4gWVYtjAC2:32:Марлая:gordunni:eu",
+        "worstPullKey": "RL79bk4gWVYtjAC2:27:Марлая:gordunni:eu"
       },
       "damage": {
-        "pulls": 2,
+        "pulls": 0,
         "kills": 0,
-        "wipes": 2,
-        "avgRecent": 74475.89,
-        "maxLast10": 89419.51,
-        "minLast10": 59532.28,
-        "deathsPerPull": 0,
-        "bestPullKey": "J7drK2qY9hFnRyTD:28:Марлая:gordunni:eu",
-        "worstPullKey": "J7drK2qY9hFnRyTD:27:Марлая:gordunni:eu"
+        "wipes": 0,
+        "avgRecent": 0,
+        "maxLast10": 0,
+        "minLast10": 0,
+        "deathsPerPull": 0
       },
       "unknown": {
         "pulls": 0,
@@ -96,15 +94,1167 @@
       "pullsWithRoleInferred": 10,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
-        "dps": 2,
-        "hps": 8,
+        "dps": 0,
+        "hps": 10,
         "unknown": 0
       },
-      "confidenceAvg": 0.95,
+      "confidenceAvg": 0.96,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "RL79bk4gWVYtjAC2:32:Марлая:gordunni:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 32,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=32",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T19:15:28.694Z",
+      "durationMs": 180803,
+      "bossPercentage": 50.39,
+      "fightPercentage": 50.39,
+      "averageItemLevel": 287.95001220703125,
+      "actor": {
+        "id": 23,
+        "name": "Марлая",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Priest-Discipline",
+        "className": "Priest",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 19251.32,
+        "hps": 123386.26,
+        "primary": 123386.26,
+        "primaryKind": "hps",
+        "fightDps": 19251.32,
+        "fightHps": 123386.26,
+        "activeDps": 20841.62,
+        "activeHps": 132381.93,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 3480697,
+        "healingTotal": 22308606,
+        "damageActiveTimeMs": 167007,
+        "healingActiveTimeMs": 168517,
+        "damageTotalTimeMs": 180803,
+        "healingTotalTimeMs": 180803,
+        "damageEntryId": 23,
+        "healingEntryId": 23,
+        "damageItemLevel": 286,
+        "healingItemLevel": 286,
+        "matchedBy": "damage:actor-id:23,healing:actor-id:23"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 32,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7583836,
+          "endTime": 7764639,
+          "bossPercentage": 50.39,
+          "fightPercentage": 50.39,
+          "averageItemLevel": 287.95001220703125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 180803,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 3480697,
+              "activeTime": 167007,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 180803,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 22308606,
+              "activeTime": 168517,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 23,
+          "matchedActorName": "Марлая",
+          "normalizedKeys": [
+            "марлая:gordunni:eu",
+            "марлая::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Priest-Discipline",
+            "className": "Priest",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:31:Марлая:gordunni:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 31,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=31",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T19:08:48.337Z",
+      "durationMs": 211411,
+      "bossPercentage": 44.84,
+      "fightPercentage": 44.84,
+      "averageItemLevel": 287.6499938964844,
+      "actor": {
+        "id": 23,
+        "name": "Марлая",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Priest-Discipline",
+        "className": "Priest",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 13169.16,
+        "hps": 84521.99,
+        "primary": 84521.99,
+        "primaryKind": "hps",
+        "fightDps": 13169.16,
+        "fightHps": 84521.99,
+        "activeDps": 17558.47,
+        "activeHps": 96921.74,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 2784106,
+        "healingTotal": 17868879,
+        "damageActiveTimeMs": 158562,
+        "healingActiveTimeMs": 184364,
+        "damageTotalTimeMs": 211411,
+        "healingTotalTimeMs": 211411,
+        "damageEntryId": 23,
+        "healingEntryId": 23,
+        "damageItemLevel": 286,
+        "healingItemLevel": 286,
+        "matchedBy": "damage:actor-id:23,healing:actor-id:23"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 31,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 7183479,
+          "endTime": 7394890,
+          "bossPercentage": 44.84,
+          "fightPercentage": 44.84,
+          "averageItemLevel": 287.6499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 211411,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 2784106,
+              "activeTime": 158562,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 211411,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 17868879,
+              "activeTime": 184364,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 23,
+          "matchedActorName": "Марлая",
+          "normalizedKeys": [
+            "марлая:gordunni:eu",
+            "марлая::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Priest-Discipline",
+            "className": "Priest",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:30:Марлая:gordunni:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 30,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=30",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T19:05:05.526Z",
+      "durationMs": 157690,
+      "bossPercentage": 47.28,
+      "fightPercentage": 47.28,
+      "averageItemLevel": 287.6499938964844,
+      "actor": {
+        "id": 23,
+        "name": "Марлая",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Priest-Discipline",
+        "className": "Priest",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 25334.44,
+        "hps": 91150.69,
+        "primary": 91150.69,
+        "primaryKind": "hps",
+        "fightDps": 25334.44,
+        "fightHps": 91150.69,
+        "activeDps": 25556.8,
+        "activeHps": 95977.89,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 13
+      },
+      "source": {
+        "damageTotal": 3994988,
+        "healingTotal": 14373553,
+        "damageActiveTimeMs": 156318,
+        "healingActiveTimeMs": 149759,
+        "damageTotalTimeMs": 157690,
+        "healingTotalTimeMs": 157690,
+        "damageEntryId": 23,
+        "healingEntryId": 23,
+        "damageItemLevel": 286,
+        "healingItemLevel": 286,
+        "matchedBy": "damage:actor-id:23,healing:actor-id:23"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 30,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6960668,
+          "endTime": 7118358,
+          "bossPercentage": 47.28,
+          "fightPercentage": 47.28,
+          "averageItemLevel": 287.6499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 157690,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 3994988,
+              "activeTime": 156318,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 157690,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 14373553,
+              "activeTime": 149759,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 13,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 23,
+          "matchedActorName": "Марлая",
+          "normalizedKeys": [
+            "марлая:gordunni:eu",
+            "марлая::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Priest-Discipline",
+            "className": "Priest",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:29:Марлая:gordunni:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 29,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=29",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:58:57.564Z",
+      "durationMs": 172779,
+      "bossPercentage": 46.53,
+      "fightPercentage": 46.53,
+      "averageItemLevel": 287.6000061035156,
+      "actor": {
+        "id": 23,
+        "name": "Марлая",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Priest-Discipline",
+        "className": "Priest",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 23817.51,
+        "hps": 81764.8,
+        "primary": 81764.8,
+        "primaryKind": "hps",
+        "fightDps": 23817.51,
+        "fightHps": 81764.8,
+        "activeDps": 26887.54,
+        "activeHps": 97764.34,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 4115165,
+        "healingTotal": 14127241,
+        "damageActiveTimeMs": 153051,
+        "healingActiveTimeMs": 144503,
+        "damageTotalTimeMs": 172779,
+        "healingTotalTimeMs": 172779,
+        "damageEntryId": 23,
+        "healingEntryId": 23,
+        "damageItemLevel": 286,
+        "healingItemLevel": 286,
+        "matchedBy": "damage:actor-id:23,healing:actor-id:23"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 29,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6592706,
+          "endTime": 6765485,
+          "bossPercentage": 46.53,
+          "fightPercentage": 46.53,
+          "averageItemLevel": 287.6000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 172779,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 4115165,
+              "activeTime": 153051,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 172779,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 14127241,
+              "activeTime": 144503,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 23,
+          "matchedActorName": "Марлая",
+          "normalizedKeys": [
+            "марлая:gordunni:eu",
+            "марлая::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Priest-Discipline",
+            "className": "Priest",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:28:Марлая:gordunni:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 28,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=28",
+      "status": "WIPE",
+      "bossName": "Chimaerus, the Undreamt God",
+      "encounterId": 3306,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:46:37.242Z",
+      "durationMs": 92715,
+      "bossPercentage": 78.58,
+      "fightPercentage": 78.58,
+      "averageItemLevel": 287.6499938964844,
+      "actor": {
+        "id": 23,
+        "name": "Марлая",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Priest-Discipline",
+        "className": "Priest",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 22644.16,
+        "hps": 104461.41,
+        "primary": 104461.41,
+        "primaryKind": "hps",
+        "fightDps": 22644.16,
+        "fightHps": 104461.41,
+        "activeDps": 23338.41,
+        "activeHps": 127662.82,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2099453,
+        "healingTotal": 9685140,
+        "damageActiveTimeMs": 89957,
+        "healingActiveTimeMs": 75865,
+        "damageTotalTimeMs": 92715,
+        "healingTotalTimeMs": 92715,
+        "damageEntryId": 23,
+        "healingEntryId": 23,
+        "damageItemLevel": 286,
+        "healingItemLevel": 286,
+        "matchedBy": "damage:actor-id:23,healing:actor-id:23"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 28,
+          "name": "Chimaerus, the Undreamt God",
+          "encounterID": 3306,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5852384,
+          "endTime": 5945099,
+          "bossPercentage": 78.58,
+          "fightPercentage": 78.58,
+          "averageItemLevel": 287.6499938964844
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 21,
+            "totalTimeMs": 92715,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 2099453,
+              "activeTime": 89957,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 22,
+            "totalTimeMs": 92715,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 9685140,
+              "activeTime": 75865,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 23,
+          "matchedActorName": "Марлая",
+          "normalizedKeys": [
+            "марлая:gordunni:eu",
+            "марлая::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Priest-Discipline",
+            "className": "Priest",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:27:Марлая:gordunni:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=27",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:27:31.482Z",
+      "durationMs": 162162,
+      "bossPercentage": 57.42,
+      "fightPercentage": 57.42,
+      "averageItemLevel": 287.6000061035156,
+      "actor": {
+        "id": 23,
+        "name": "Марлая",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Priest-Discipline",
+        "className": "Priest",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 8895.97,
+        "hps": 46441.49,
+        "primary": 46441.49,
+        "primaryKind": "hps",
+        "fightDps": 8895.97,
+        "fightHps": 46441.49,
+        "activeDps": 20210.82,
+        "activeHps": 123595.51,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 1442588,
+        "healingTotal": 7531045,
+        "damageActiveTimeMs": 71377,
+        "healingActiveTimeMs": 60933,
+        "damageTotalTimeMs": 162162,
+        "healingTotalTimeMs": 162162,
+        "damageEntryId": 23,
+        "healingEntryId": 23,
+        "damageItemLevel": 286,
+        "healingItemLevel": 286,
+        "matchedBy": "damage:actor-id:23,healing:actor-id:23"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 27,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4706624,
+          "endTime": 4868786,
+          "bossPercentage": 57.42,
+          "fightPercentage": 57.42,
+          "averageItemLevel": 287.6000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 162162,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 1442588,
+              "activeTime": 71377,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 162162,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 7531045,
+              "activeTime": 60933,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 23,
+          "matchedActorName": "Марлая",
+          "normalizedKeys": [
+            "марлая:gordunni:eu",
+            "марлая::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Priest-Discipline",
+            "className": "Priest",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:26:Марлая:gordunni:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=26",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:23:01.641Z",
+      "durationMs": 100948,
+      "bossPercentage": 72.73,
+      "fightPercentage": 72.73,
+      "averageItemLevel": 287.54998779296875,
+      "actor": {
+        "id": 23,
+        "name": "Марлая",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Priest-Discipline",
+        "className": "Priest",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 25421.04,
+        "hps": 108303.34,
+        "primary": 108303.34,
+        "primaryKind": "hps",
+        "fightDps": 25421.04,
+        "fightHps": 108303.34,
+        "activeDps": 26447.79,
+        "activeHps": 116571.48,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 2566203,
+        "healingTotal": 10933006,
+        "damageActiveTimeMs": 97029,
+        "healingActiveTimeMs": 93788,
+        "damageTotalTimeMs": 100948,
+        "healingTotalTimeMs": 100948,
+        "damageEntryId": 23,
+        "healingEntryId": 23,
+        "damageItemLevel": 286,
+        "healingItemLevel": 286,
+        "matchedBy": "damage:actor-id:23,healing:actor-id:23"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 26,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4436783,
+          "endTime": 4537731,
+          "bossPercentage": 72.73,
+          "fightPercentage": 72.73,
+          "averageItemLevel": 287.54998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 100948,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 2566203,
+              "activeTime": 97029,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 100948,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 10933006,
+              "activeTime": 93788,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 23,
+          "matchedActorName": "Марлая",
+          "normalizedKeys": [
+            "марлая:gordunni:eu",
+            "марлая::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Priest-Discipline",
+            "className": "Priest",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:25:Марлая:gordunni:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=25",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:11:38.181Z",
+      "durationMs": 90883,
+      "bossPercentage": 71.27,
+      "fightPercentage": 71.27,
+      "averageItemLevel": 287.6000061035156,
+      "actor": {
+        "id": 23,
+        "name": "Марлая",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Priest"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Priest-Discipline",
+        "className": "Priest",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 27814.51,
+        "hps": 99806.95,
+        "primary": 99806.95,
+        "primaryKind": "hps",
+        "fightDps": 27814.51,
+        "fightHps": 99806.95,
+        "activeDps": 28224.76,
+        "activeHps": 104623.53,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 2527866,
+        "healingTotal": 9070755,
+        "damageActiveTimeMs": 89562,
+        "healingActiveTimeMs": 86699,
+        "damageTotalTimeMs": 90883,
+        "healingTotalTimeMs": 90883,
+        "damageEntryId": 23,
+        "healingEntryId": 23,
+        "damageItemLevel": 286,
+        "healingItemLevel": 286,
+        "matchedBy": "damage:actor-id:23,healing:actor-id:23"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 25,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3753323,
+          "endTime": 3844206,
+          "bossPercentage": 71.27,
+          "fightPercentage": 71.27,
+          "averageItemLevel": 287.6000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 90883,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 2527866,
+              "activeTime": 89562,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 90883,
+            "matchedBy": "actor-id:23",
+            "matchedEntry": {
+              "id": 23,
+              "name": "Марлая",
+              "type": "Priest",
+              "icon": "Priest-Discipline",
+              "total": 9070755,
+              "activeTime": 86699,
+              "itemLevel": 286,
+              "guid": 265853063
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 22,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 23,
+          "matchedActorName": "Марлая",
+          "normalizedKeys": [
+            "марлая:gordunni:eu",
+            "марлая::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Priest-Discipline",
+            "className": "Priest",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "49WFMrR1KNkXtHn8:21:Марлая:gordunni:eu",
       "reportCode": "49WFMrR1KNkXtHn8",
@@ -392,1166 +1542,14 @@
           }
         }
       }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:19:Марлая:gordunni:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 19,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=19",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:47:05.617Z",
-      "durationMs": 74463,
-      "bossPercentage": 75.16,
-      "fightPercentage": 75.16,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 6,
-        "name": "Марлая",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Priest"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Priest-Discipline",
-        "className": "Priest",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 27110.98,
-        "hps": 127083.29,
-        "primary": 127083.29,
-        "primaryKind": "hps",
-        "fightDps": 27110.98,
-        "fightHps": 127083.29,
-        "activeDps": 28051.65,
-        "activeHps": 139894.2,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 2018765,
-        "healingTotal": 9463003,
-        "damageActiveTimeMs": 71966,
-        "healingActiveTimeMs": 67644,
-        "damageTotalTimeMs": 74463,
-        "healingTotalTimeMs": 74463,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 19,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6626816,
-          "endTime": 6701279,
-          "bossPercentage": 75.16,
-          "fightPercentage": 75.16,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 74463,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 2018765,
-              "activeTime": 71966,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 74463,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 9463003,
-              "activeTime": 67644,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 6,
-          "matchedActorName": "Марлая",
-          "normalizedKeys": [
-            "марлая:gordunni:eu",
-            "марлая::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Priest-Discipline",
-            "className": "Priest",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:18:Марлая:gordunni:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 18,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=18",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:41:15.040Z",
-      "durationMs": 252606,
-      "bossPercentage": 80.69,
-      "fightPercentage": 80.69,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 6,
-        "name": "Марлая",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Priest"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Priest-Discipline",
-        "className": "Priest",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 13821.77,
-        "hps": 94344.92,
-        "primary": 94344.92,
-        "primaryKind": "hps",
-        "fightDps": 13821.77,
-        "fightHps": 94344.92,
-        "activeDps": 17495.27,
-        "activeHps": 111734.59,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 3491462,
-        "healingTotal": 23832094,
-        "damageActiveTimeMs": 199566,
-        "healingActiveTimeMs": 213292,
-        "damageTotalTimeMs": 252606,
-        "healingTotalTimeMs": 252606,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 18,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6276239,
-          "endTime": 6528845,
-          "bossPercentage": 80.69,
-          "fightPercentage": 80.69,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 252606,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 3491462,
-              "activeTime": 199566,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 252606,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 23832094,
-              "activeTime": 213292,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 6,
-          "matchedActorName": "Марлая",
-          "normalizedKeys": [
-            "марлая:gordunni:eu",
-            "марлая::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Priest-Discipline",
-            "className": "Priest",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:17:Марлая:gordunni:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 17,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=17",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:31:07.859Z",
-      "durationMs": 151592,
-      "bossPercentage": 66.69,
-      "fightPercentage": 66.69,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 6,
-        "name": "Марлая",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Priest"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Priest-Discipline",
-        "className": "Priest",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 20497.26,
-        "hps": 99578.48,
-        "primary": 99578.48,
-        "primaryKind": "hps",
-        "fightDps": 20497.26,
-        "fightHps": 99578.48,
-        "activeDps": 24671.05,
-        "activeHps": 130130.78,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 3107220,
-        "healingTotal": 15095301,
-        "damageActiveTimeMs": 125946,
-        "healingActiveTimeMs": 116001,
-        "damageTotalTimeMs": 151592,
-        "healingTotalTimeMs": 151592,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 17,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 5669058,
-          "endTime": 5820650,
-          "bossPercentage": 66.69,
-          "fightPercentage": 66.69,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 151592,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 3107220,
-              "activeTime": 125946,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 151592,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 15095301,
-              "activeTime": 116001,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 6,
-          "matchedActorName": "Марлая",
-          "normalizedKeys": [
-            "марлая:gordunni:eu",
-            "марлая::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Priest-Discipline",
-            "className": "Priest",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:16:Марлая:gordunni:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 16,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=16",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:24:44.760Z",
-      "durationMs": 243536,
-      "bossPercentage": 50.41,
-      "fightPercentage": 50.41,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 6,
-        "name": "Марлая",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Priest"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Priest-Discipline",
-        "className": "Priest",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 15316.18,
-        "hps": 97365.42,
-        "primary": 97365.42,
-        "primaryKind": "hps",
-        "fightDps": 15316.18,
-        "fightHps": 97365.42,
-        "activeDps": 18925.29,
-        "activeHps": 119871.92,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 3730042,
-        "healingTotal": 23711985,
-        "damageActiveTimeMs": 197093,
-        "healingActiveTimeMs": 197811,
-        "damageTotalTimeMs": 243536,
-        "healingTotalTimeMs": 243536,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 16,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 5285959,
-          "endTime": 5529495,
-          "bossPercentage": 50.41,
-          "fightPercentage": 50.41,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 243536,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 3730042,
-              "activeTime": 197093,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 243536,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 23711985,
-              "activeTime": 197811,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 6,
-          "matchedActorName": "Марлая",
-          "normalizedKeys": [
-            "марлая:gordunni:eu",
-            "марлая::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Priest-Discipline",
-            "className": "Priest",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:15:Марлая:gordunni:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 15,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=15",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:18:59.925Z",
-      "durationMs": 255428,
-      "bossPercentage": 92.92,
-      "fightPercentage": 92.92,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 6,
-        "name": "Марлая",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Priest"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Priest-Discipline",
-        "className": "Priest",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 21656.53,
-        "hps": 117723.99,
-        "primary": 117723.99,
-        "primaryKind": "hps",
-        "fightDps": 21656.53,
-        "fightHps": 117723.99,
-        "activeDps": 22701.53,
-        "activeHps": 122810.9,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 5531683,
-        "healingTotal": 30070004,
-        "damageActiveTimeMs": 243670,
-        "healingActiveTimeMs": 244848,
-        "damageTotalTimeMs": 255428,
-        "healingTotalTimeMs": 255428,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 15,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4941124,
-          "endTime": 5196552,
-          "bossPercentage": 92.92,
-          "fightPercentage": 92.92,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 255428,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 5531683,
-              "activeTime": 243670,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 255428,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 30070004,
-              "activeTime": 244848,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 6,
-          "matchedActorName": "Марлая",
-          "normalizedKeys": [
-            "марлая:gordunni:eu",
-            "марлая::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Priest-Discipline",
-            "className": "Priest",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:14:Марлая:gordunni:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 14,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=14",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:17:03.500Z",
-      "durationMs": 57141,
-      "bossPercentage": 95.2,
-      "fightPercentage": 95.2,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 6,
-        "name": "Марлая",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Priest"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Priest-Discipline",
-        "className": "Priest",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 37823.19,
-        "hps": 108991.97,
-        "primary": 108991.97,
-        "primaryKind": "hps",
-        "fightDps": 37823.19,
-        "fightHps": 108991.97,
-        "activeDps": 38399.78,
-        "activeHps": 121776.82,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 2161255,
-        "healingTotal": 6227910,
-        "damageActiveTimeMs": 56283,
-        "healingActiveTimeMs": 51142,
-        "damageTotalTimeMs": 57141,
-        "healingTotalTimeMs": 57141,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 14,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4824699,
-          "endTime": 4881840,
-          "bossPercentage": 95.2,
-          "fightPercentage": 95.2,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 57141,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 2161255,
-              "activeTime": 56283,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 57141,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Discipline",
-              "total": 6227910,
-              "activeTime": 51142,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 6,
-          "matchedActorName": "Марлая",
-          "normalizedKeys": [
-            "марлая:gordunni:eu",
-            "марлая::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Priest-Discipline",
-            "className": "Priest",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:28:Марлая:gordunni:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:56:22.399Z",
-      "durationMs": 254690,
-      "bossPercentage": 99.99,
-      "fightPercentage": 99.99,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 474,
-        "name": "Марлая",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Priest"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Priest-Shadow",
-        "className": "Priest",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 89419.51,
-        "hps": 15130.87,
-        "primary": 89419.51,
-        "primaryKind": "dps",
-        "fightDps": 89419.51,
-        "fightHps": 15130.87,
-        "activeDps": 90886.89,
-        "activeHps": 15379.23,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 22774254,
-        "healingTotal": 3853682,
-        "damageActiveTimeMs": 250578,
-        "healingActiveTimeMs": 250577,
-        "damageTotalTimeMs": 254690,
-        "healingTotalTimeMs": 254690,
-        "damageEntryId": 474,
-        "healingEntryId": 474,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:474,healing:actor-id:474"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 28,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 15936899,
-          "endTime": 16191589,
-          "bossPercentage": 99.99,
-          "fightPercentage": 99.99,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 254690,
-            "matchedBy": "actor-id:474",
-            "matchedEntry": {
-              "id": 474,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Shadow",
-              "total": 22774254,
-              "activeTime": 250578,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 254690,
-            "matchedBy": "actor-id:474",
-            "matchedEntry": {
-              "id": 474,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Shadow",
-              "total": 3853682,
-              "activeTime": 250577,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 474,
-          "matchedActorName": "Марлая",
-          "normalizedKeys": [
-            "марлая:gordunni:eu",
-            "марлая::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Priest-Shadow",
-            "className": "Priest",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:27:Марлая:gordunni:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=27",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:48:06.865Z",
-      "durationMs": 407830,
-      "bossPercentage": 87.18,
-      "fightPercentage": 87.18,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 474,
-        "name": "Марлая",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Priest"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Priest-Shadow",
-        "className": "Priest",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 59532.28,
-        "hps": 13077.41,
-        "primary": 59532.28,
-        "primaryKind": "dps",
-        "fightDps": 59532.28,
-        "fightHps": 13077.41,
-        "activeDps": 65034.97,
-        "activeHps": 15464.26,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 23
-      },
-      "source": {
-        "damageTotal": 24279051,
-        "healingTotal": 5333361,
-        "damageActiveTimeMs": 373323,
-        "healingActiveTimeMs": 344883,
-        "damageTotalTimeMs": 407830,
-        "healingTotalTimeMs": 407830,
-        "damageEntryId": 474,
-        "healingEntryId": 474,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:474,healing:actor-id:474"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 27,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 15441365,
-          "endTime": 15849195,
-          "bossPercentage": 87.18,
-          "fightPercentage": 87.18,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 407830,
-            "matchedBy": "actor-id:474",
-            "matchedEntry": {
-              "id": 474,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Shadow",
-              "total": 24279051,
-              "activeTime": 373323,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 407830,
-            "matchedBy": "actor-id:474",
-            "matchedEntry": {
-              "id": 474,
-              "name": "Марлая",
-              "type": "Priest",
-              "icon": "Priest-Shadow",
-              "total": 5333361,
-              "activeTime": 344883,
-              "itemLevel": 286,
-              "guid": 265853063
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 23,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 474,
-          "matchedActorName": "Марлая",
-          "normalizedKeys": [
-            "марлая:gordunni:eu",
-            "марлая::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Priest-Shadow",
-            "className": "Priest",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T21:56:18.714Z",
-    "lastPullAt": "2026-06-08T18:57:02.136Z",
+    "lastScannedAt": "2026-06-12T04:47:20.202Z",
+    "lastPullAt": "2026-06-10T19:15:28.694Z",
     "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T19:26:36.733Z",
+  "updatedAt": "2026-06-12T04:47:20.202Z",
   "character": {
     "name": "Щпикачечка",
     "realmSlug": "gordunni",
@@ -620,7 +620,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T19:26:36.733Z",
+    "lastScannedAt": "2026-06-12T04:47:20.202Z",
     "lastPullAt": "2026-04-05T18:12:43.110Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

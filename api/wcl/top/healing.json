@@ -21,13 +21,6 @@
     "secondary": 0
   },
   {
-    "slug": "марлая-gordunni-eu",
-    "name": "Марлая",
-    "rank": 3,
-    "value": 108866.53,
-    "secondary": 0
-  },
-  {
     "slug": "шриладо-gordunni-eu",
     "name": "Шриладо",
     "rank": 1,
@@ -38,7 +31,14 @@
     "slug": "дарадуда-gordunni-eu",
     "name": "Дарадуда",
     "rank": 4,
-    "value": 100343.25,
+    "value": 103479.61,
+    "secondary": 0
+  },
+  {
+    "slug": "марлая-gordunni-eu",
+    "name": "Марлая",
+    "rank": 3,
+    "value": 99686.31,
     "secondary": 0
   },
   {
