@@ -1,5 +1,12 @@
 [
   {
+    "slug": "rozbiynik-tarren-mill-eu",
+    "name": "Rozbiynik",
+    "rank": 3,
+    "value": 127465.48,
+    "secondary": 0
+  },
+  {
     "slug": "пизнаика-gordunni-eu",
     "name": "Пизнайка",
     "rank": 1,
@@ -11,13 +18,6 @@
     "name": "Forchun",
     "rank": 1,
     "value": 102814.15,
-    "secondary": 0
-  },
-  {
-    "slug": "rozbiynik-tarren-mill-eu",
-    "name": "Rozbiynik",
-    "rank": 3,
-    "value": 98180.05,
     "secondary": 0
   },
   {

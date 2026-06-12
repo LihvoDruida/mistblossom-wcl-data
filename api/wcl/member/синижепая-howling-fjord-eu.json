@@ -2,11 +2,11 @@
   "schemaVersion": 3,
   "updatedAt": "2026-06-12T19:12:36.279Z",
   "character": {
-    "name": "Redray",
-    "realmSlug": "terokkar",
+    "name": "Синижёпая",
+    "realmSlug": "howling-fjord",
     "region": "eu",
-    "slug": "redray-terokkar-eu",
-    "rank": 3,
+    "slug": "синижепая-howling-fjord-eu",
+    "rank": 2,
     "roleHint": "unknown"
   },
   "stats": {
