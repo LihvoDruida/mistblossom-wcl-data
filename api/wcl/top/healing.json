@@ -21,6 +21,13 @@
     "secondary": 0
   },
   {
+    "slug": "auroliana-ravencrest-eu",
+    "name": "Auroliana",
+    "rank": 3,
+    "value": 109872.63,
+    "secondary": 0
+  },
+  {
     "slug": "шриладо-gordunni-eu",
     "name": "Шриладо",
     "rank": 1,
@@ -74,13 +81,6 @@
     "name": "Thérion",
     "rank": 3,
     "value": 14080.63,
-    "secondary": 0
-  },
-  {
-    "slug": "севатар-lich-king-eu",
-    "name": "Севатар",
-    "rank": 3,
-    "value": 13387.48,
     "secondary": 0
   }
 ]

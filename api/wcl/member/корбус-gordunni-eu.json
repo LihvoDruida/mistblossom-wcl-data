@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T21:56:18.714Z",
+  "updatedAt": "2026-06-12T09:05:16.894Z",
   "character": {
     "name": "Корбус",
     "realmSlug": "gordunni",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T21:56:18.714Z",
+    "lastScannedAt": "2026-06-12T09:05:16.894Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

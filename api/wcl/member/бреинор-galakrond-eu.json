@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-08T23:16:53.326Z",
+  "updatedAt": "2026-06-12T09:05:16.894Z",
   "character": {
     "name": "Бреинор",
     "realmSlug": "galakrond",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-08T23:16:53.326Z",
+    "lastScannedAt": "2026-06-12T09:05:16.894Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

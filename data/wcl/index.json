@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-12T04:47:53.230Z",
+  "updatedAt": "2026-06-12T09:05:49.258Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -10,8 +10,8 @@
     "members": 162,
     "reportsScanned": 8,
     "fightsScanned": 8,
-    "healerPulls": 123,
-    "damagePulls": 448,
+    "healerPulls": 126,
+    "damagePulls": 445,
     "unknownPulls": 0,
     "distinctFights": 249,
     "membersWithData": 59
@@ -27,18 +27,18 @@
       "killRate": 0.0964,
       "avgFightDurationMs": 196318,
       "avgRaidDeaths": 17.32,
-      "avgTeamDps": 115654.04,
-      "avgTeamHps": 36508.88,
-      "avgPerformanceScore": 18.39,
+      "avgTeamDps": 114089.92,
+      "avgTeamHps": 37832.64,
+      "avgPerformanceScore": 18.48,
       "avgSurvivalScore": 100,
-      "avgReliabilityScore": 41.83
+      "avgReliabilityScore": 41.88
     },
     "roles": {
       "damage": {
         "members": 49,
-        "pulls": 448,
-        "avgRecent": 59137.63,
-        "medianRecent": 63096.91,
+        "pulls": 445,
+        "avgRecent": 58653.66,
+        "medianRecent": 62577.76,
         "bestRecent": 107338.9,
         "maxLast10": 207607.12,
         "deathsPerPull": 0,
@@ -130,10 +130,10 @@
         ]
       },
       "healer": {
-        "members": 20,
-        "pulls": 123,
-        "avgRecent": 50277.56,
-        "medianRecent": 15202.1,
+        "members": 21,
+        "pulls": 126,
+        "avgRecent": 53115.42,
+        "medianRecent": 16323.57,
         "bestRecent": 126555.86,
         "maxLast10": 153686.43,
         "deathsPerPull": 0,
@@ -157,6 +157,13 @@
             "name": "Древесная",
             "rank": 3,
             "value": 114877.41,
+            "secondary": 0
+          },
+          {
+            "slug": "auroliana-ravencrest-eu",
+            "name": "Auroliana",
+            "rank": 3,
+            "value": 109872.63,
             "secondary": 0
           },
           {
@@ -213,13 +220,6 @@
             "name": "Thérion",
             "rank": 3,
             "value": 14080.63,
-            "secondary": 0
-          },
-          {
-            "slug": "севатар-lich-king-eu",
-            "name": "Севатар",
-            "rank": 3,
-            "value": 13387.48,
             "secondary": 0
           }
         ]
@@ -347,6 +347,13 @@
           "secondary": 96418.96
         },
         {
+          "slug": "auroliana-ravencrest-eu",
+          "name": "Auroliana",
+          "rank": 3,
+          "value": 78.37,
+          "secondary": 109872.63
+        },
+        {
           "slug": "krekor-tarren-mill-eu",
           "name": "Krekor",
           "rank": 4,
@@ -401,19 +408,12 @@
           "rank": 3,
           "value": 73.45,
           "secondary": 98180.05
-        },
-        {
-          "slug": "кхаарн-lich-king-eu",
-          "name": "Кхаарн",
-          "rank": 3,
-          "value": 73.39,
-          "secondary": 36409.54
         }
       ]
     },
     "consistency": {
-      "avgStabilityPercent": 70.72,
-      "avgConsistencyPercent": 40.46,
+      "avgStabilityPercent": 71.16,
+      "avgConsistencyPercent": 40.43,
       "mostStable": [
         {
           "slug": "arthasright-tarren-mill-eu",
@@ -435,6 +435,13 @@
           "rank": 1,
           "value": 78.44,
           "secondary": 84.18
+        },
+        {
+          "slug": "auroliana-ravencrest-eu",
+          "name": "Auroliana",
+          "rank": 3,
+          "value": 78.37,
+          "secondary": 92.49
         },
         {
           "slug": "krekor-tarren-mill-eu",
@@ -491,13 +498,6 @@
           "rank": 3,
           "value": 73.45,
           "secondary": 71.85
-        },
-        {
-          "slug": "кхаарн-lich-king-eu",
-          "name": "Кхаарн",
-          "rank": 3,
-          "value": 73.39,
-          "secondary": 73.09
         }
       ],
       "needsAttention": [
@@ -592,91 +592,91 @@
       "updatedWithin6h": 16,
       "updatedWithin12h": 32,
       "updatedWithin24h": 56,
-      "oldestScannedAt": "2026-06-08T21:56:18.714Z",
-      "newestScannedAt": "2026-06-12T04:47:20.202Z",
+      "oldestScannedAt": "2026-06-08T23:16:53.326Z",
+      "newestScannedAt": "2026-06-12T09:05:16.894Z",
       "staleMembers": [
-        {
-          "slug": "корбус-gordunni-eu",
-          "name": "Корбус",
-          "rank": 4,
-          "value": 78.86,
-          "secondary": 0
-        },
-        {
-          "slug": "шпаргат-gordunni-eu",
-          "name": "Шпаргат",
-          "rank": 4,
-          "value": 78.86,
-          "secondary": 10
-        },
-        {
-          "slug": "senig-r-ravencrest-eu",
-          "name": "Senigør",
-          "rank": 1,
-          "value": 77.52,
-          "secondary": 0
-        },
-        {
-          "slug": "auroliana-ravencrest-eu",
-          "name": "Auroliana",
-          "rank": 3,
-          "value": 77.52,
-          "secondary": 10
-        },
-        {
-          "slug": "berkinzee-ravencrest-eu",
-          "name": "Berkinzee",
-          "rank": 3,
-          "value": 77.52,
-          "secondary": 0
-        },
-        {
-          "slug": "bullimonk-tarren-mill-eu",
-          "name": "Bullimonk",
-          "rank": 3,
-          "value": 77.52,
-          "secondary": 10
-        },
-        {
-          "slug": "бреинор-galakrond-eu",
-          "name": "Бреинор",
-          "rank": 3,
-          "value": 77.52,
-          "secondary": 0
-        },
-        {
-          "slug": "sandora-doomhammer-eu",
-          "name": "Sandora",
-          "rank": 4,
-          "value": 77.52,
-          "secondary": 0
-        },
         {
           "slug": "бабаияи-eversong-eu",
           "name": "Бабайяй",
           "rank": 4,
-          "value": 77.52,
+          "value": 81.82,
           "secondary": 0
         },
         {
           "slug": "товстопуз-gordunni-eu",
           "name": "Товстопуз",
           "rank": 4,
-          "value": 77.52,
+          "value": 81.82,
           "secondary": 0
         },
         {
           "slug": "characternuk-terokkar-eu",
           "name": "Characternuk",
           "rank": 1,
-          "value": 72.61,
+          "value": 76.91,
           "secondary": 0
         },
         {
           "slug": "zanzithor-tarren-mill-eu",
           "name": "Zanzithor",
           "rank": 2,
-          "value": 72.61,
+          "value": 76.91,
+          "secondary": 10
+        },
+        {
+          "slug": "allune-terokkar-eu",
+          "name": "Allune",
+          "rank": 3,
+          "value": 76.91,
+          "secondary": 0
+        },
+        {
+          "slug": "asasinas-terokkar-eu",
+          "name": "Asasinas",
+          "rank": 3,
+          "value": 76.91,
+          "secondary": 0
+        },
+        {
+          "slug": "bylik-tarren-mill-eu",
+          "name": "Bylik",
+          "rank": 3,
+          "value": 76.91,
+          "secondary": 10
+        },
+        {
+          "slug": "скяльди-howling-fjord-eu",
+          "name": "Скяльди",
+          "rank": 3,
+          "value": 76.91,
+          "secondary": 0
+        },
+        {
+          "slug": "jakeyo-ravencrest-eu",
+          "name": "Jakeyo",
+          "rank": 4,
+          "value": 76.91,
+          "secondary": 0
+        },
+        {
+          "slug": "nwlck-ravencrest-eu",
+          "name": "Nwlck",
+          "rank": 4,
+          "value": 76.91,
+          "secondary": 0
+        },
+        {
+          "slug": "darthkenobi-tarren-mill-eu",
+          "name": "Darthkenobi",
+          "rank": 3,
+          "value": 72.5,
+          "secondary": 0
+        },
+        {
+          "slug": "elderwizard-terokkar-eu",
+          "name": "Elderwizard",
+          "rank": 3,
+          "value": 72.5,
           "secondary": 10
         }
       ]
@@ -694,10 +694,10 @@
         "killRate": 0,
         "avgDurationMs": 180476,
         "avgRaidDeaths": 20.04,
-        "avgTeamDps": 198656.47,
-        "avgTeamHps": 109682.7,
+        "avgTeamDps": 186028.07,
+        "avgTeamHps": 116409.6,
         "bestTeamDps": 611813.27,
-        "bestTeamHps": 320558.03,
+        "bestTeamHps": 341066.39,
         "lastPullAt": "2026-06-10T19:15:28.694Z"
       },
       {
@@ -712,9 +712,9 @@
         "killRate": 0,
         "avgDurationMs": 116190,
         "avgRaidDeaths": 20,
-        "avgTeamDps": 253030.42,
+        "avgTeamDps": 278511,
         "avgTeamHps": 108778.87,
-        "bestTeamDps": 361593.1,
+        "bestTeamDps": 446012.76,
         "bestTeamHps": 357413.5,
         "lastPullAt": "2026-06-10T18:27:31.482Z"
       },
@@ -994,11 +994,11 @@
         "className": "Unknown",
         "members": 162,
         "withData": 59,
-        "avgPrimaryRecent3": 23133.17,
-        "avgDpsRecent3": 17797.68,
-        "avgHpsRecent3": 6124.69,
+        "avgPrimaryRecent3": 23278.73,
+        "avgDpsRecent3": 17265.01,
+        "avgHpsRecent3": 6802.92,
         "deathsPerPull": 0,
-        "avgReliabilityScore": 41.83
+        "avgReliabilityScore": 41.88
       }
     ]
   },
@@ -1418,8 +1418,8 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-08T23:16:53.326Z",
-      "lastScannedAt": "2026-06-08T23:16:53.326Z",
+      "updatedAt": "2026-06-12T09:05:16.894Z",
+      "lastScannedAt": "2026-06-12T09:05:16.894Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -1861,29 +1861,29 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-08T23:16:53.326Z",
-      "lastScannedAt": "2026-06-08T23:16:53.326Z",
-      "lastPullAt": "2026-06-08T18:57:02.136Z",
+      "updatedAt": "2026-06-12T09:05:16.894Z",
+      "lastScannedAt": "2026-06-12T09:05:16.894Z",
+      "lastPullAt": "2026-06-10T19:15:28.694Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 86292.08,
-      "maxPrimaryLast10": 129491.07,
-      "avgDpsRecent3": 86292.08,
-      "maxDpsLast10": 129491.07,
-      "avgHpsRecent3": 0,
-      "maxHpsLast10": 0,
+      "avgPrimaryRecent3": 109872.63,
+      "maxPrimaryLast10": 118797.49,
+      "avgDpsRecent3": 0,
+      "maxDpsLast10": 85995.87,
+      "avgHpsRecent3": 109872.63,
+      "maxHpsLast10": 118797.49,
       "deathsPerPull": 0,
-      "stabilityPercent": 66.64,
-      "consistencyPercent": 49.77,
-      "performanceScore": 49.09,
+      "stabilityPercent": 92.49,
+      "consistencyPercent": 47.93,
+      "performanceScore": 62.85,
       "survivalScore": 100,
-      "reliabilityScore": 70.5,
-      "trendDirection": "flat",
-      "trendDeltaPercent": 2.38,
+      "reliabilityScore": 78.37,
+      "trendDirection": "up",
+      "trendDeltaPercent": 75.58,
       "primaryKindCounts": {
-        "dps": 10,
-        "hps": 0,
+        "dps": 7,
+        "hps": 3,
         "unknown": 0
       }
     },
@@ -1893,8 +1893,8 @@
       "realmSlug": "ravencrest",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-08T23:16:53.326Z",
-      "lastScannedAt": "2026-06-08T23:16:53.326Z",
+      "updatedAt": "2026-06-12T09:05:16.894Z",
+      "lastScannedAt": "2026-06-12T09:05:16.894Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -2048,8 +2048,8 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-08T23:16:53.326Z",
-      "lastScannedAt": "2026-06-08T23:16:53.326Z",
+      "updatedAt": "2026-06-12T09:05:16.894Z",
+      "lastScannedAt": "2026-06-12T09:05:16.894Z",
       "lastPullAt": "2026-05-03T18:49:42.388Z",
       "pullsStored": 10,
       "kills": 0,
@@ -3365,8 +3365,8 @@
       "realmSlug": "galakrond",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-08T23:16:53.326Z",
-      "lastScannedAt": "2026-06-08T23:16:53.326Z",
+      "updatedAt": "2026-06-12T09:05:16.894Z",
+      "lastScannedAt": "2026-06-12T09:05:16.894Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5155,8 +5155,8 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-08T23:16:53.326Z",
-      "lastScannedAt": "2026-06-08T23:16:53.326Z",
+      "updatedAt": "2026-06-12T09:05:16.894Z",
+      "lastScannedAt": "2026-06-12T09:05:16.894Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5872,8 +5872,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-08T21:56:18.714Z",
-      "lastScannedAt": "2026-06-08T21:56:18.714Z",
+      "updatedAt": "2026-06-12T09:05:16.894Z",
+      "lastScannedAt": "2026-06-12T09:05:16.894Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -6058,8 +6058,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-08T21:56:18.714Z",
-      "lastScannedAt": "2026-06-08T21:56:18.714Z",
+      "updatedAt": "2026-06-12T09:05:16.894Z",
+      "lastScannedAt": "2026-06-12T09:05:16.894Z",
       "lastPullAt": "2026-05-28T19:16:20.906Z",
       "pullsStored": 10,
       "kills": 0,
