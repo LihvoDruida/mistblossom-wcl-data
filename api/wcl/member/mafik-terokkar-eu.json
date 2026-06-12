@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-09T19:22:13.711Z",
+  "updatedAt": "2026-06-12T23:24:40.181Z",
   "character": {
     "name": "Mafik",
     "realmSlug": "terokkar",
@@ -1468,9 +1468,9 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-09T19:22:13.711Z",
+    "lastScannedAt": "2026-06-12T23:24:40.181Z",
     "lastPullAt": "2026-06-09T17:37:30.932Z",
-    "newPullsInLastScan": 1,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }
