@@ -21,6 +21,13 @@
     "secondary": 0
   },
   {
+    "slug": "marmozetroly-tarren-mill-eu",
+    "name": "Marmozetroly",
+    "rank": 4,
+    "value": 99361.7,
+    "secondary": 0
+  },
+  {
     "slug": "arthasright-tarren-mill-eu",
     "name": "Arthasright",
     "rank": 3,
@@ -63,13 +70,6 @@
     "secondary": 0
   },
   {
-    "slug": "marmozetroly-tarren-mill-eu",
-    "name": "Marmozetroly",
-    "rank": 4,
-    "value": 87923.27,
-    "secondary": 0
-  },
-  {
     "slug": "мавпита-gordunni-eu",
     "name": "Мавпита",
     "rank": 1,
@@ -80,7 +80,7 @@
     "slug": "skirvir-turalyon-eu",
     "name": "Skirvir",
     "rank": 3,
-    "value": 81687.77,
+    "value": 79663.29,
     "secondary": 0
   }
 ]

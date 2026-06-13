@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-13T08:28:02.639Z",
+  "updatedAt": "2026-06-13T11:22:04.759Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -27,17 +27,17 @@
       "killRate": 0.0996,
       "avgFightDurationMs": 197396,
       "avgRaidDeaths": 17.22,
-      "avgTeamDps": 117570.35,
+      "avgTeamDps": 117725.55,
       "avgTeamHps": 39144.76,
-      "avgPerformanceScore": 18.33,
+      "avgPerformanceScore": 18.32,
       "avgSurvivalScore": 100,
-      "avgReliabilityScore": 41.78
+      "avgReliabilityScore": 41.82
     },
     "roles": {
       "damage": {
         "members": 49,
         "pulls": 445,
-        "avgRecent": 59108.1,
+        "avgRecent": 59300.23,
         "medianRecent": 62577.76,
         "bestRecent": 127465.48,
         "maxLast10": 207607.12,
@@ -62,6 +62,13 @@
             "name": "Forchun",
             "rank": 1,
             "value": 102814.15,
+            "secondary": 0
+          },
+          {
+            "slug": "marmozetroly-tarren-mill-eu",
+            "name": "Marmozetroly",
+            "rank": 4,
+            "value": 99361.7,
             "secondary": 0
           },
           {
@@ -107,13 +114,6 @@
             "secondary": 0
           },
           {
-            "slug": "marmozetroly-tarren-mill-eu",
-            "name": "Marmozetroly",
-            "rank": 4,
-            "value": 87923.27,
-            "secondary": 0
-          },
-          {
             "slug": "мавпита-gordunni-eu",
             "name": "Мавпита",
             "rank": 1,
@@ -124,7 +124,7 @@
             "slug": "skirvir-turalyon-eu",
             "name": "Skirvir",
             "rank": 3,
-            "value": 81687.77,
+            "value": 79663.29,
             "secondary": 0
           }
         ]
@@ -412,8 +412,8 @@
       ]
     },
     "consistency": {
-      "avgStabilityPercent": 71.26,
-      "avgConsistencyPercent": 39.9,
+      "avgStabilityPercent": 71.33,
+      "avgConsistencyPercent": 39.87,
       "mostStable": [
         {
           "slug": "yokum-terokkar-eu",
@@ -592,92 +592,92 @@
       "updatedWithin6h": 16,
       "updatedWithin12h": 32,
       "updatedWithin24h": 64,
-      "oldestScannedAt": "2026-06-10T04:22:21.825Z",
-      "newestScannedAt": "2026-06-13T08:27:29.877Z",
+      "oldestScannedAt": "2026-06-10T08:55:37.617Z",
+      "newestScannedAt": "2026-06-13T11:21:31.616Z",
       "staleMembers": [
-        {
-          "slug": "daslight-terokkar-eu",
-          "name": "Daslight",
-          "rank": 4,
-          "value": 76.09,
-          "secondary": 0
-        },
-        {
-          "slug": "demhunt-terokkar-eu",
-          "name": "Demhunt",
-          "rank": 4,
-          "value": 76.09,
-          "secondary": 0
-        },
-        {
-          "slug": "ionax-draenor-eu",
-          "name": "Ionax",
-          "rank": 4,
-          "value": 76.09,
-          "secondary": 0
-        },
-        {
-          "slug": "lishiyburn-ragnaros-eu",
-          "name": "Lishiyburn",
-          "rank": 1,
-          "value": 71.54,
-          "secondary": 10
-        },
-        {
-          "slug": "molfar-terokkar-eu",
-          "name": "Mólfár",
-          "rank": 2,
-          "value": 71.54,
-          "secondary": 8
-        },
-        {
-          "slug": "skirvir-turalyon-eu",
-          "name": "Skirvir",
-          "rank": 3,
-          "value": 71.54,
-          "secondary": 10
-        },
-        {
-          "slug": "marmozetroly-tarren-mill-eu",
-          "name": "Marmozetroly",
-          "rank": 4,
-          "value": 71.54,
-          "secondary": 10
-        },
-        {
-          "slug": "mavika-doomhammer-eu",
-          "name": "Mavika",
-          "rank": 4,
-          "value": 71.54,
-          "secondary": 0
-        },
         {
           "slug": "mercury-tarren-mill-eu",
           "name": "Mercury",
           "rank": 4,
-          "value": 71.54,
+          "value": 74.44,
           "secondary": 0
         },
         {
           "slug": "otito-draenor-eu",
           "name": "Otito",
           "rank": 4,
-          "value": 71.54,
+          "value": 74.44,
           "secondary": 10
         },
         {
           "slug": "regin-doomhammer-eu",
           "name": "Regin",
           "rank": 4,
-          "value": 71.54,
+          "value": 74.44,
           "secondary": 0
         },
         {
           "slug": "blackberry-terokkar-eu",
           "name": "Blackberry",
           "rank": 3,
-          "value": 67.95,
+          "value": 70.85,
           "secondary": 0
+        },
+        {
+          "slug": "straponeero-tarren-mill-eu",
+          "name": "Straponeero",
+          "rank": 3,
+          "value": 70.85,
+          "secondary": 0
+        },
+        {
+          "slug": "travka-terokkar-eu",
+          "name": "Travka",
+          "rank": 3,
+          "value": 70.85,
+          "secondary": 0
+        },
+        {
+          "slug": "yokuha-terokkar-eu",
+          "name": "Yokuha",
+          "rank": 3,
+          "value": 70.85,
+          "secondary": 10
+        },
+        {
+          "slug": "дедика-eversong-eu",
+          "name": "Дедика",
+          "rank": 3,
+          "value": 70.85,
+          "secondary": 10
+        },
+        {
+          "slug": "rolemodel-burning-legion-eu",
+          "name": "Rolemodel",
+          "rank": 4,
+          "value": 70.85,
+          "secondary": 0
+        },
+        {
+          "slug": "twigsnapper-doomhammer-eu",
+          "name": "Twigsnapper",
+          "rank": 4,
+          "value": 70.85,
+          "secondary": 0
+        },
+        {
+          "slug": "сумраки-eversong-eu",
+          "name": "Сумраки",
+          "rank": 4,
+          "value": 70.85,
+          "secondary": 0
+        },
+        {
+          "slug": "forchun-silvermoon-eu",
+          "name": "Forchun",
+          "rank": 1,
+          "value": 63.68,
+          "secondary": 10
         }
       ]
     },
@@ -694,7 +694,7 @@
         "killRate": 0,
         "avgDurationMs": 183724,
         "avgRaidDeaths": 19.98,
-        "avgTeamDps": 205568.65,
+        "avgTeamDps": 202085.09,
         "avgTeamHps": 129193.37,
         "bestTeamDps": 623882.18,
         "bestTeamHps": 476391.4,
@@ -712,9 +712,9 @@
         "killRate": 0,
         "avgDurationMs": 116190,
         "avgRaidDeaths": 20,
-        "avgTeamDps": 357696.11,
+        "avgTeamDps": 417371.11,
         "avgTeamHps": 155523.35,
-        "bestTeamDps": 789190.67,
+        "bestTeamDps": 982834.99,
         "bestTeamHps": 510170.45,
         "lastPullAt": "2026-06-10T18:27:31.482Z"
       },
@@ -748,9 +748,9 @@
         "killRate": 0.0909,
         "avgDurationMs": 224221,
         "avgRaidDeaths": 19.32,
-        "avgTeamDps": 75921.47,
+        "avgTeamDps": 59701.21,
         "avgTeamHps": 11642.74,
-        "bestTeamDps": 188714.69,
+        "bestTeamDps": 133964.32,
         "bestTeamHps": 127235.58,
         "lastPullAt": "2026-06-03T18:55:26.254Z"
       },
@@ -994,11 +994,11 @@
         "className": "Unknown",
         "members": 163,
         "withData": 59,
-        "avgPrimaryRecent3": 23297.75,
-        "avgDpsRecent3": 17295.7,
+        "avgPrimaryRecent3": 23355.51,
+        "avgDpsRecent3": 17353.45,
         "avgHpsRecent3": 6786.41,
         "deathsPerPull": 0,
-        "avgReliabilityScore": 41.78
+        "avgReliabilityScore": 41.82
       }
     ]
   },
@@ -1323,8 +1323,8 @@
       "realmSlug": "ragnaros",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-10T08:55:37.617Z",
-      "lastScannedAt": "2026-06-10T08:55:37.617Z",
+      "updatedAt": "2026-06-13T11:21:31.616Z",
+      "lastScannedAt": "2026-06-13T11:21:31.616Z",
       "lastPullAt": "2026-04-10T19:52:42.330Z",
       "pullsStored": 10,
       "kills": 2,
@@ -1671,8 +1671,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 2,
-      "updatedAt": "2026-06-10T08:55:37.617Z",
-      "lastScannedAt": "2026-06-10T08:55:37.617Z",
+      "updatedAt": "2026-06-13T11:21:31.616Z",
+      "lastScannedAt": "2026-06-13T11:21:31.616Z",
       "lastPullAt": "2026-04-05T18:12:43.110Z",
       "pullsStored": 8,
       "kills": 0,
@@ -2925,26 +2925,26 @@
       "realmSlug": "turalyon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-10T08:55:37.617Z",
-      "lastScannedAt": "2026-06-10T08:55:37.617Z",
-      "lastPullAt": "2026-06-03T19:51:07.843Z",
+      "updatedAt": "2026-06-13T11:21:31.616Z",
+      "lastScannedAt": "2026-06-13T11:21:31.616Z",
+      "lastPullAt": "2026-06-10T18:27:31.482Z",
       "pullsStored": 10,
-      "kills": 2,
-      "wipes": 8,
-      "avgPrimaryRecent3": 81687.77,
+      "kills": 1,
+      "wipes": 9,
+      "avgPrimaryRecent3": 79663.29,
       "maxPrimaryLast10": 141562.58,
-      "avgDpsRecent3": 81687.77,
+      "avgDpsRecent3": 79663.29,
       "maxDpsLast10": 141562.58,
       "avgHpsRecent3": 0,
       "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 57.7,
-      "consistencyPercent": 49.72,
-      "performanceScore": 48.17,
+      "stabilityPercent": 56.27,
+      "consistencyPercent": 48.11,
+      "performanceScore": 44.98,
       "survivalScore": 100,
-      "reliabilityScore": 64.29,
+      "reliabilityScore": 64.49,
       "trendDirection": "flat",
-      "trendDeltaPercent": -2.78,
+      "trendDeltaPercent": -2.48,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
@@ -4344,8 +4344,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-10T04:22:21.825Z",
-      "lastScannedAt": "2026-06-10T04:22:21.825Z",
+      "updatedAt": "2026-06-13T11:21:31.616Z",
+      "lastScannedAt": "2026-06-13T11:21:31.616Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -4375,8 +4375,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-10T04:22:21.825Z",
-      "lastScannedAt": "2026-06-10T04:22:21.825Z",
+      "updatedAt": "2026-06-13T11:21:31.616Z",
+      "lastScannedAt": "2026-06-13T11:21:31.616Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -4531,8 +4531,8 @@
       "realmSlug": "draenor",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-10T04:22:21.825Z",
-      "lastScannedAt": "2026-06-10T04:22:21.825Z",
+      "updatedAt": "2026-06-13T11:21:31.616Z",
+      "lastScannedAt": "2026-06-13T11:21:31.616Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -4718,26 +4718,26 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-10T08:55:37.617Z",
-      "lastScannedAt": "2026-06-10T08:55:37.617Z",
-      "lastPullAt": "2026-06-03T19:40:39.488Z",
+      "updatedAt": "2026-06-13T11:21:31.616Z",
+      "lastScannedAt": "2026-06-13T11:21:31.616Z",
+      "lastPullAt": "2026-06-10T18:27:31.482Z",
       "pullsStored": 10,
       "kills": 1,
       "wipes": 9,
-      "avgPrimaryRecent3": 87923.27,
+      "avgPrimaryRecent3": 99361.7,
       "maxPrimaryLast10": 207607.12,
-      "avgDpsRecent3": 87923.27,
+      "avgDpsRecent3": 99361.7,
       "maxDpsLast10": 207607.12,
       "avgHpsRecent3": 0,
       "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 42.35,
+      "stabilityPercent": 47.86,
       "consistencyPercent": 35.64,
-      "performanceScore": 34.2,
+      "performanceScore": 37.23,
       "survivalScore": 100,
-      "reliabilityScore": 58.26,
-      "trendDirection": "down",
-      "trendDeltaPercent": -34.28,
+      "reliabilityScore": 63.98,
+      "trendDirection": "up",
+      "trendDeltaPercent": 13.01,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
@@ -4750,8 +4750,8 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-10T08:55:37.617Z",
-      "lastScannedAt": "2026-06-10T08:55:37.617Z",
+      "updatedAt": "2026-06-13T11:21:31.616Z",
+      "lastScannedAt": "2026-06-13T11:21:31.616Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,

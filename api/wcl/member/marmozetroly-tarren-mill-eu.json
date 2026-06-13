@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-10T08:55:37.617Z",
+  "updatedAt": "2026-06-13T11:21:31.616Z",
   "character": {
     "name": "Marmozetroly",
     "realmSlug": "tarren-mill",
@@ -16,27 +16,27 @@
     "killRate": 0.1,
     "wipeRate": 0.9,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 188,
+    "totalRaidDeaths": 189,
     "deathsPerPull": 0,
-    "stabilityPercent": 42.35,
+    "stabilityPercent": 47.86,
     "consistencyPercent": 35.64,
-    "performanceScore": 34.2,
+    "performanceScore": 37.23,
     "survivalScore": 100,
-    "reliabilityScore": 58.26,
+    "reliabilityScore": 63.98,
     "recent3": {
+      "sampleSize": 3,
+      "avgDps": 99361.7,
+      "avgHps": 0,
+      "avgPrimary": 99361.7,
+      "avgDurationMs": 117998,
+      "avgDeaths": 0
+    },
+    "previous3": {
       "sampleSize": 3,
       "avgDps": 87923.27,
       "avgHps": 0,
       "avgPrimary": 87923.27,
       "avgDurationMs": 139127,
-      "avgDeaths": 0
-    },
-    "previous3": {
-      "sampleSize": 3,
-      "avgDps": 133777.88,
-      "avgHps": 0,
-      "avgPrimary": 133777.88,
-      "avgDurationMs": 91445,
       "avgDeaths": 0
     },
     "last10": {
@@ -47,15 +47,15 @@
       "minHps": 0,
       "maxPrimary": 207607.12,
       "minPrimary": 73993.52,
-      "maxDurationMs": 376490,
+      "maxDurationMs": 337228,
       "minDurationMs": 41491
     },
     "trend": {
-      "direction": "down",
-      "recentAvg": 87923.27,
-      "previousAvg": 133777.88,
-      "delta": -45854.61,
-      "deltaPercent": -34.28
+      "direction": "up",
+      "recentAvg": 99361.7,
+      "previousAvg": 87923.27,
+      "delta": 11438.43,
+      "deltaPercent": 13.01
     },
     "byRole": {
       "healer": {
@@ -71,7 +71,7 @@
         "pulls": 10,
         "kills": 1,
         "wipes": 9,
-        "avgRecent": 87923.27,
+        "avgRecent": 99361.7,
         "maxLast10": 207607.12,
         "minLast10": 73993.52,
         "deathsPerPull": 0,
@@ -91,18 +91,450 @@
     "dataQuality": {
       "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 7,
+      "pullsWithRoleInferred": 10,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
         "unknown": 0
       },
-      "confidenceAvg": 0.63,
+      "confidenceAvg": 0.9,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "RL79bk4gWVYtjAC2:27:Marmozetroly:tarren-mill:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 27,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=27",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:27:31.482Z",
+      "durationMs": 162162,
+      "bossPercentage": 57.42,
+      "fightPercentage": 57.42,
+      "averageItemLevel": 287.6000061035156,
+      "actor": {
+        "id": 13,
+        "name": "Marmozetroly",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Shaman-Elemental",
+        "className": "Shaman",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 81914.05,
+        "hps": 8290.75,
+        "primary": 81914.05,
+        "primaryKind": "dps",
+        "fightDps": 81914.05,
+        "fightHps": 8290.75,
+        "activeDps": 120412.87,
+        "activeHps": 11953.6,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 21
+      },
+      "source": {
+        "damageTotal": 13283346,
+        "healingTotal": 1344445,
+        "damageActiveTimeMs": 110315,
+        "healingActiveTimeMs": 112472,
+        "damageTotalTimeMs": 162162,
+        "healingTotalTimeMs": 162162,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 27,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4706624,
+          "endTime": 4868786,
+          "bossPercentage": 57.42,
+          "fightPercentage": 57.42,
+          "averageItemLevel": 287.6000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 20,
+            "totalTimeMs": 162162,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Marmozetroly",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 13283346,
+              "activeTime": 110315,
+              "itemLevel": 288,
+              "guid": 186824700
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 162162,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Marmozetroly",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 1344445,
+              "activeTime": 112472,
+              "itemLevel": 288,
+              "guid": 186824700
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 21,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 13,
+          "matchedActorName": "Marmozetroly",
+          "normalizedKeys": [
+            "marmozetroly:tarren-mill:eu",
+            "marmozetroly::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Shaman-Elemental",
+            "className": "Shaman",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:26:Marmozetroly:tarren-mill:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 26,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=26",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:23:01.641Z",
+      "durationMs": 100948,
+      "bossPercentage": 72.73,
+      "fightPercentage": 72.73,
+      "averageItemLevel": 287.54998779296875,
+      "actor": {
+        "id": 13,
+        "name": "Marmozetroly",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Shaman-Elemental",
+        "className": "Shaman",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 101581.18,
+        "hps": 3333.85,
+        "primary": 101581.18,
+        "primaryKind": "dps",
+        "fightDps": 101581.18,
+        "fightHps": 3333.85,
+        "activeDps": 110522.81,
+        "activeHps": 3582.55,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 20
+      },
+      "source": {
+        "damageTotal": 10254417,
+        "healingTotal": 336545,
+        "damageActiveTimeMs": 92781,
+        "healingActiveTimeMs": 93940,
+        "damageTotalTimeMs": 100948,
+        "healingTotalTimeMs": 100948,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 26,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4436783,
+          "endTime": 4537731,
+          "bossPercentage": 72.73,
+          "fightPercentage": 72.73,
+          "averageItemLevel": 287.54998779296875
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 100948,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Marmozetroly",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 10254417,
+              "activeTime": 92781,
+              "itemLevel": 288,
+              "guid": 186824700
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 100948,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Marmozetroly",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 336545,
+              "activeTime": 93940,
+              "itemLevel": 288,
+              "guid": 186824700
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 20,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 13,
+          "matchedActorName": "Marmozetroly",
+          "normalizedKeys": [
+            "marmozetroly:tarren-mill:eu",
+            "marmozetroly::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Shaman-Elemental",
+            "className": "Shaman",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "RL79bk4gWVYtjAC2:25:Marmozetroly:tarren-mill:eu",
+      "reportCode": "RL79bk4gWVYtjAC2",
+      "reportTitle": "VS / DR / MQD",
+      "reportStartedAt": "2026-06-10T17:09:04.858Z",
+      "reportEndedAt": "2026-06-10T19:20:59.065Z",
+      "zone": {
+        "id": 46,
+        "name": "VS / DR / MQD"
+      },
+      "fightId": 25,
+      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=25",
+      "status": "WIPE",
+      "bossName": "Fallen-King Salhadaar",
+      "encounterId": 3179,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-10T18:11:38.181Z",
+      "durationMs": 90883,
+      "bossPercentage": 71.27,
+      "fightPercentage": 71.27,
+      "averageItemLevel": 287.6000061035156,
+      "actor": {
+        "id": 13,
+        "name": "Marmozetroly",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Shaman-Elemental",
+        "className": "Shaman",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 114589.88,
+        "hps": 8880.27,
+        "primary": 114589.88,
+        "primaryKind": "dps",
+        "fightDps": 114589.88,
+        "fightHps": 8880.27,
+        "activeDps": 120511.84,
+        "activeHps": 9218.55,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 22
+      },
+      "source": {
+        "damageTotal": 10414272,
+        "healingTotal": 807066,
+        "damageActiveTimeMs": 86417,
+        "healingActiveTimeMs": 87548,
+        "damageTotalTimeMs": 90883,
+        "healingTotalTimeMs": 90883,
+        "damageEntryId": 13,
+        "healingEntryId": 13,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:13,healing:actor-id:13"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "RL79bk4gWVYtjAC2",
+          "title": "VS / DR / MQD",
+          "startTime": 1781111344858,
+          "endTime": 1781119259065
+        },
+        "fight": {
+          "id": 25,
+          "name": "Fallen-King Salhadaar",
+          "encounterID": 3179,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3753323,
+          "endTime": 3844206,
+          "bossPercentage": 71.27,
+          "fightPercentage": 71.27,
+          "averageItemLevel": 287.6000061035156
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 19,
+            "totalTimeMs": 90883,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Marmozetroly",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 10414272,
+              "activeTime": 86417,
+              "itemLevel": 288,
+              "guid": 186824700
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 21,
+            "totalTimeMs": 90883,
+            "matchedBy": "actor-id:13",
+            "matchedEntry": {
+              "id": 13,
+              "name": "Marmozetroly",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 807066,
+              "activeTime": 87548,
+              "itemLevel": 288,
+              "guid": 186824700
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 22,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 13,
+          "matchedActorName": "Marmozetroly",
+          "normalizedKeys": [
+            "marmozetroly:tarren-mill:eu",
+            "marmozetroly::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Shaman-Elemental",
+            "className": "Shaman",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "rCkJzhm1PDqtNBw3:24:Marmozetroly:tarren-mill:eu",
       "reportCode": "rCkJzhm1PDqtNBw3",
@@ -1110,207 +1542,15 @@
           }
         }
       }
-    },
-    {
-      "key": "xMVazpchm1G7LHCB:13:Marmozetroly:tarren-mill:eu",
-      "reportCode": "xMVazpchm1G7LHCB",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 13,
-      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=13",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T18:43:34.534Z",
-      "durationMs": 376490,
-      "bossPercentage": 19.35,
-      "fightPercentage": 19.35,
-      "averageItemLevel": 284.95001220703125,
-      "actor": {
-        "id": 12,
-        "name": "Marmozetroly",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Shaman"
-      },
-      "metric": {
-        "dps": 84716.03,
-        "hps": 6824.81,
-        "primary": 84716.03,
-        "primaryKind": "dps",
-        "fightDps": 84716.03,
-        "fightHps": 6824.81,
-        "activeDps": 84716.03,
-        "activeHps": 6824.81,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 31894737,
-        "healingTotal": 2569472,
-        "damageActiveTimeMs": 361733,
-        "healingActiveTimeMs": 353509,
-        "damageTotalTimeMs": 376490,
-        "healingTotalTimeMs": 376490,
-        "damageEntryId": 12,
-        "healingEntryId": 12,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "v9g64fGF7BZNXJx3:14:Marmozetroly:tarren-mill:eu",
-      "reportCode": "v9g64fGF7BZNXJx3",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 14,
-      "url": "https://www.warcraftlogs.com/reports/v9g64fGF7BZNXJx3#fight=14",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T18:43:34.534Z",
-      "durationMs": 376490,
-      "bossPercentage": 19.35,
-      "fightPercentage": 19.35,
-      "averageItemLevel": 284.95001220703125,
-      "actor": {
-        "id": 7,
-        "name": "Marmozetroly",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Shaman"
-      },
-      "metric": {
-        "dps": 84716.03,
-        "hps": 6824.81,
-        "primary": 84716.03,
-        "primaryKind": "dps",
-        "fightDps": 84716.03,
-        "fightHps": 6824.81,
-        "activeDps": 84716.03,
-        "activeHps": 6824.81,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 31894737,
-        "healingTotal": 2569472,
-        "damageActiveTimeMs": 361733,
-        "healingActiveTimeMs": 353509,
-        "damageTotalTimeMs": 376490,
-        "healingTotalTimeMs": 376490,
-        "damageEntryId": 7,
-        "healingEntryId": 7,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:7,healing:actor-id:7"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "xMVazpchm1G7LHCB:12:Marmozetroly:tarren-mill:eu",
-      "reportCode": "xMVazpchm1G7LHCB",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-28T17:11:07.127Z",
-      "reportEndedAt": "2026-05-28T19:41:24.572Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 12,
-      "url": "https://www.warcraftlogs.com/reports/xMVazpchm1G7LHCB#fight=12",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-28T18:40:04.096Z",
-      "durationMs": 116951,
-      "bossPercentage": 71.94,
-      "fightPercentage": 71.94,
-      "averageItemLevel": 284.95001220703125,
-      "actor": {
-        "id": 12,
-        "name": "Marmozetroly",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Shaman"
-      },
-      "metric": {
-        "dps": 92094.72,
-        "hps": 5833.94,
-        "primary": 92094.72,
-        "primaryKind": "dps",
-        "fightDps": 92094.72,
-        "fightHps": 5833.94,
-        "activeDps": 92094.72,
-        "activeHps": 5833.94,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 10770570,
-        "healingTotal": 682285,
-        "damageActiveTimeMs": 103844,
-        "healingActiveTimeMs": 94944,
-        "damageTotalTimeMs": 116951,
-        "healingTotalTimeMs": 116951,
-        "damageEntryId": 12,
-        "healingEntryId": 12,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-10T08:55:37.617Z",
-    "lastPullAt": "2026-06-03T19:40:39.488Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-13T11:21:31.616Z",
+    "lastPullAt": "2026-06-10T18:27:31.482Z",
+    "newPullsInLastScan": 3,
     "scanReason": "scheduled"
   }
 }
