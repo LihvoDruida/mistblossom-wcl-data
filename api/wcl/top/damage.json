@@ -21,6 +21,13 @@
     "secondary": 0
   },
   {
+    "slug": "arthasright-tarren-mill-eu",
+    "name": "Arthasright",
+    "rank": 3,
+    "value": 98810.07,
+    "secondary": 0
+  },
+  {
     "slug": "mafik-terokkar-eu",
     "name": "Mafik",
     "rank": 1,
@@ -46,13 +53,6 @@
     "name": "Elderwizard",
     "rank": 3,
     "value": 91081.48,
-    "secondary": 0
-  },
-  {
-    "slug": "arthasright-tarren-mill-eu",
-    "name": "Arthasright",
-    "rank": 3,
-    "value": 90097.99,
     "secondary": 0
   },
   {

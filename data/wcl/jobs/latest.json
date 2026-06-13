@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-12T23:24:40.181Z",
+  "updatedAt": "2026-06-13T04:25:59.927Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 163,
   "selectedMembers": 8,
   "scannedMembers": 8,
-  "changedMembers": 0,
+  "changedMembers": 1,
   "existingSnapshots": 163,
   "reportsScanned": 8,
   "fightsScanned": 8,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "sangvyn-tarren-mill-eu": 0,
-    "shatnyi-terokkar-eu": 0,
-    "zanziwolf-tarren-mill-eu": 0,
-    "kashin-terokkar-eu": 0,
-    "krouli-terokkar-eu": 0,
-    "lightass-terokkar-eu": 0,
-    "mafik-terokkar-eu": 0,
-    "odeskiy-tarren-mill-eu": 0
+    "umbramind-terokkar-eu": 0,
+    "yokusir-terokkar-eu": 0,
+    "zanzimon-tarren-mill-eu": 0,
+    "arthasright-tarren-mill-eu": 8,
+    "blackdaddy-tarren-mill-eu": 0,
+    "duszi-terokkar-eu": 0,
+    "icebloomi-tarren-mill-eu": 0,
+    "komatoznic-tarren-mill-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,27 +36,6 @@
   },
   "batch": {
     "selected": [
-      "sangvyn-tarren-mill-eu",
-      "shatnyi-terokkar-eu",
-      "zanziwolf-tarren-mill-eu",
-      "kashin-terokkar-eu",
-      "krouli-terokkar-eu",
-      "lightass-terokkar-eu",
-      "mafik-terokkar-eu",
-      "odeskiy-tarren-mill-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "sangvyn-tarren-mill-eu",
-      "shatnyi-terokkar-eu",
-      "zanziwolf-tarren-mill-eu",
-      "kashin-terokkar-eu",
-      "krouli-terokkar-eu",
-      "lightass-terokkar-eu",
-      "mafik-terokkar-eu",
-      "odeskiy-tarren-mill-eu"
-    ],
-    "pending": [
       "umbramind-terokkar-eu",
       "yokusir-terokkar-eu",
       "zanzimon-tarren-mill-eu",
@@ -64,7 +43,22 @@
       "blackdaddy-tarren-mill-eu",
       "duszi-terokkar-eu",
       "icebloomi-tarren-mill-eu",
-      "komatoznic-tarren-mill-eu",
+      "komatoznic-tarren-mill-eu"
+    ],
+    "updated": [
+      "arthasright-tarren-mill-eu"
+    ],
+    "scanned": [
+      "umbramind-terokkar-eu",
+      "yokusir-terokkar-eu",
+      "zanzimon-tarren-mill-eu",
+      "arthasright-tarren-mill-eu",
+      "blackdaddy-tarren-mill-eu",
+      "duszi-terokkar-eu",
+      "icebloomi-tarren-mill-eu",
+      "komatoznic-tarren-mill-eu"
+    ],
+    "pending": [
       "lishiystabb-terokkar-eu",
       "monkania-terokkar-eu",
       "ragnar-k-burning-legion-eu",
@@ -179,9 +173,7 @@
       "бреинор-galakrond-eu",
       "sandora-doomhammer-eu",
       "корбус-gordunni-eu",
-      "шпаргат-gordunni-eu"
-    ],
-    "skippedFresh": [
+      "шпаргат-gordunni-eu",
       "characternuk-terokkar-eu",
       "zanzithor-tarren-mill-eu",
       "allune-terokkar-eu",
@@ -197,7 +189,9 @@
       "illidonson-draenor-eu",
       "kavunchyk-terokkar-eu",
       "jakeyo-ravencrest-eu",
-      "nwlck-ravencrest-eu",
+      "nwlck-ravencrest-eu"
+    ],
+    "skippedFresh": [
       "синижепая-howling-fjord-eu",
       "prayddh-terokkar-eu",
       "redray-terokkar-eu",
@@ -213,7 +207,15 @@
       "krekor-tarren-mill-eu",
       "mistery-draenor-eu",
       "nebatur-terokkar-eu",
-      "ragnarosh-terokkar-eu"
+      "ragnarosh-terokkar-eu",
+      "kashin-terokkar-eu",
+      "krouli-terokkar-eu",
+      "lightass-terokkar-eu",
+      "mafik-terokkar-eu",
+      "odeskiy-tarren-mill-eu",
+      "sangvyn-tarren-mill-eu",
+      "shatnyi-terokkar-eu",
+      "zanziwolf-tarren-mill-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []
