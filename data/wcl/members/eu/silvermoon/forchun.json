@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-10T19:41:03.984Z",
+  "updatedAt": "2026-06-13T18:15:40.228Z",
   "character": {
     "name": "Forchun",
     "realmSlug": "silvermoon",
@@ -1548,9 +1548,9 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-10T19:41:03.984Z",
+    "lastScannedAt": "2026-06-13T18:15:40.228Z",
     "lastPullAt": "2026-06-10T19:15:28.694Z",
-    "newPullsInLastScan": 8,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }
