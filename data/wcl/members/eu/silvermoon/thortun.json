@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-10T22:10:43.590Z",
+  "updatedAt": "2026-06-13T20:21:32.285Z",
   "character": {
     "name": "Thortun",
     "realmSlug": "silvermoon",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-10T22:10:43.590Z",
+    "lastScannedAt": "2026-06-13T20:21:32.285Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

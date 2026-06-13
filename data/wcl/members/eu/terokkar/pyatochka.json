@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-10T19:41:03.984Z",
+  "updatedAt": "2026-06-13T20:21:32.285Z",
   "character": {
     "name": "Pyatochka",
     "realmSlug": "terokkar",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-10T19:41:03.984Z",
+    "lastScannedAt": "2026-06-13T20:21:32.285Z",
     "lastPullAt": "2026-05-09T19:39:37.808Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

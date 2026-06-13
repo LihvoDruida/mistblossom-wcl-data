@@ -572,93 +572,93 @@
   "freshness": {
     "updatedWithin1h": 8,
     "updatedWithin6h": 16,
-    "updatedWithin12h": 32,
+    "updatedWithin12h": 40,
     "updatedWithin24h": 64,
-    "oldestScannedAt": "2026-06-10T19:41:03.984Z",
-    "newestScannedAt": "2026-06-13T18:15:40.228Z",
+    "oldestScannedAt": "2026-06-10T22:10:43.590Z",
+    "newestScannedAt": "2026-06-13T20:21:32.285Z",
     "staleMembers": [
-      {
-        "slug": "котто-gordunni-eu",
-        "name": "Котто",
-        "rank": 3,
-        "value": 70.59,
-        "secondary": 0
-      },
-      {
-        "slug": "darkleaf-burning-steppes-eu",
-        "name": "Darkleaf",
-        "rank": 4,
-        "value": 70.59,
-        "secondary": 0
-      },
-      {
-        "slug": "pyatochka-terokkar-eu",
-        "name": "Pyatochka",
-        "rank": 4,
-        "value": 70.59,
-        "secondary": 10
-      },
-      {
-        "slug": "thortun-silvermoon-eu",
-        "name": "Thortun",
-        "rank": 1,
-        "value": 68.09,
-        "secondary": 0
-      },
-      {
-        "slug": "sonechco-silvermoon-eu",
-        "name": "Sonechco",
-        "rank": 2,
-        "value": 68.09,
-        "secondary": 10
-      },
-      {
-        "slug": "bernstorff-kazzak-eu",
-        "name": "Bernstorff",
-        "rank": 3,
-        "value": 68.09,
-        "secondary": 0
-      },
-      {
-        "slug": "bierdestroer-silvermoon-eu",
-        "name": "Bierdestroer",
-        "rank": 3,
-        "value": 68.09,
-        "secondary": 0
-      },
-      {
-        "slug": "hexxoffender-silvermoon-eu",
-        "name": "Hexxoffender",
-        "rank": 3,
-        "value": 68.09,
-        "secondary": 0
-      },
       {
         "slug": "shatnyideath-terokkar-eu",
         "name": "Shatnyideath",
         "rank": 4,
-        "value": 68.09,
+        "value": 70.19,
         "secondary": 0
       },
       {
         "slug": "umbrak-terokkar-eu",
         "name": "Umbrak",
         "rank": 4,
-        "value": 68.09,
+        "value": 70.19,
         "secondary": 0
       },
       {
         "slug": "грекулес-gordunni-eu",
         "name": "Грекулес",
         "rank": 4,
-        "value": 68.09,
+        "value": 70.19,
         "secondary": 0
       },
       {
         "slug": "kensshi-silvermoon-eu",
         "name": "Kensshi",
         "rank": 3,
-        "value": 65.89,
+        "value": 67.98,
+        "secondary": 0
+      },
+      {
+        "slug": "kokosik-silvermoon-eu",
+        "name": "Kokosik",
+        "rank": 3,
+        "value": 67.98,
+        "secondary": 10
+      },
+      {
+        "slug": "mexamer-silvermoon-eu",
+        "name": "Mexamer",
+        "rank": 3,
+        "value": 67.98,
+        "secondary": 0
+      },
+      {
+        "slug": "ohhchetos-kazzak-eu",
+        "name": "Ohhchetos",
+        "rank": 3,
+        "value": 67.98,
+        "secondary": 0
+      },
+      {
+        "slug": "oxydenis-silvermoon-eu",
+        "name": "Oxydenis",
+        "rank": 3,
+        "value": 67.98,
+        "secondary": 10
+      },
+      {
+        "slug": "plaguenjoyer-silvermoon-eu",
+        "name": "Plaguenjoyer",
+        "rank": 3,
+        "value": 67.98,
+        "secondary": 0
+      },
+      {
+        "slug": "pwndy-urface-silvermoon-eu",
+        "name": "Pwndyøurface",
+        "rank": 3,
+        "value": 67.98,
+        "secondary": 0
+      },
+      {
+        "slug": "k-silvermoon-eu",
+        "name": "ßøßk",
+        "rank": 3,
+        "value": 67.98,
+        "secondary": 10
+      },
+      {
+        "slug": "technoihor-silvermoon-eu",
+        "name": "Technoihor",
+        "rank": 3,
+        "value": 62.41,
         "secondary": 0
       }
     ]
