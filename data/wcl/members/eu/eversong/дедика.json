@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-10T12:30:51.758Z",
+  "updatedAt": "2026-06-13T14:16:11.038Z",
   "character": {
     "name": "Дедика",
     "realmSlug": "eversong",
@@ -750,7 +750,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-10T12:30:51.758Z",
+    "lastScannedAt": "2026-06-13T14:16:11.038Z",
     "lastPullAt": "2026-04-18T18:59:09.146Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
