@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-09T23:21:58.006Z",
+  "updatedAt": "2026-06-13T08:27:29.877Z",
   "character": {
     "name": "Ragnarøøk",
     "realmSlug": "burning-legion",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-09T23:21:58.006Z",
+    "lastScannedAt": "2026-06-13T08:27:29.877Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

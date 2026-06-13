@@ -3,17 +3,17 @@
     "members": 163,
     "membersWithData": 59,
     "pullsStored": 571,
-    "distinctFights": 246,
+    "distinctFights": 241,
     "kills": 24,
-    "wipes": 222,
-    "killRate": 0.0976,
-    "avgFightDurationMs": 197290,
-    "avgRaidDeaths": 17.28,
-    "avgTeamDps": 115180.71,
-    "avgTeamHps": 38327.64,
-    "avgPerformanceScore": 18.3,
+    "wipes": 217,
+    "killRate": 0.0996,
+    "avgFightDurationMs": 197396,
+    "avgRaidDeaths": 17.22,
+    "avgTeamDps": 117570.35,
+    "avgTeamHps": 39144.76,
+    "avgPerformanceScore": 18.33,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.77
+    "avgReliabilityScore": 41.78
   },
   "roles": {
     "damage": {
@@ -114,10 +114,10 @@
     "healer": {
       "members": 21,
       "pulls": 126,
-      "avgRecent": 53161.12,
+      "avgRecent": 53311.23,
       "medianRecent": 16323.57,
       "bestRecent": 126555.86,
-      "maxLast10": 153686.43,
+      "maxLast10": 147400.16,
       "deathsPerPull": 0,
       "topRecent": [
         {
@@ -131,7 +131,7 @@
           "slug": "khayen-terokkar-eu",
           "name": "Khayen",
           "rank": 0,
-          "value": 116689.56,
+          "value": 119841.9,
           "secondary": 0
         },
         {
@@ -357,18 +357,18 @@
         "secondary": 102814.15
       },
       {
+        "slug": "khayen-terokkar-eu",
+        "name": "Khayen",
+        "rank": 0,
+        "value": 77.57,
+        "secondary": 119841.9
+      },
+      {
         "slug": "моннал-gordunni-eu",
         "name": "Моннал",
         "rank": 3,
         "value": 76.35,
         "secondary": 35568.9
-      },
-      {
-        "slug": "khayen-terokkar-eu",
-        "name": "Khayen",
-        "rank": 0,
-        "value": 75.59,
-        "secondary": 116689.56
       },
       {
         "slug": "krekor-tarren-mill-eu",
@@ -394,8 +394,8 @@
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 71.17,
-    "avgConsistencyPercent": 39.85,
+    "avgStabilityPercent": 71.26,
+    "avgConsistencyPercent": 39.9,
     "mostStable": [
       {
         "slug": "yokum-terokkar-eu",
@@ -447,18 +447,18 @@
         "secondary": 93.42
       },
       {
+        "slug": "khayen-terokkar-eu",
+        "name": "Khayen",
+        "rank": 0,
+        "value": 77.57,
+        "secondary": 81.3
+      },
+      {
         "slug": "моннал-gordunni-eu",
         "name": "Моннал",
         "rank": 3,
         "value": 76.35,
         "secondary": 89.15
-      },
-      {
-        "slug": "khayen-terokkar-eu",
-        "name": "Khayen",
-        "rank": 0,
-        "value": 75.59,
-        "secondary": 75.93
       },
       {
         "slug": "krekor-tarren-mill-eu",
@@ -574,92 +574,92 @@
     "updatedWithin6h": 16,
     "updatedWithin12h": 32,
     "updatedWithin24h": 64,
-    "oldestScannedAt": "2026-06-09T23:21:58.006Z",
-    "newestScannedAt": "2026-06-13T04:25:59.927Z",
+    "oldestScannedAt": "2026-06-10T04:22:21.825Z",
+    "newestScannedAt": "2026-06-13T08:27:29.877Z",
     "staleMembers": [
-      {
-        "slug": "lishiystabb-terokkar-eu",
-        "name": "Lishiystabb",
-        "rank": 3,
-        "value": 77.08,
-        "secondary": 0
-      },
-      {
-        "slug": "monkania-terokkar-eu",
-        "name": "Monkania",
-        "rank": 3,
-        "value": 77.08,
-        "secondary": 0
-      },
-      {
-        "slug": "ragnar-k-burning-legion-eu",
-        "name": "Ragnarøøk",
-        "rank": 3,
-        "value": 77.08,
-        "secondary": 0
-      },
-      {
-        "slug": "khayen-terokkar-eu",
-        "name": "Khayen",
-        "rank": 0,
-        "value": 72.07,
-        "secondary": 10
-      },
-      {
-        "slug": "lishiy-ragnaros-eu",
-        "name": "Lishiy",
-        "rank": 1,
-        "value": 72.07,
-        "secondary": 0
-      },
-      {
-        "slug": "sneydilio-doomhammer-eu",
-        "name": "Sneydilio",
-        "rank": 3,
-        "value": 72.07,
-        "secondary": 0
-      },
-      {
-        "slug": "therion-doomhammer-eu",
-        "name": "Thérion",
-        "rank": 3,
-        "value": 72.07,
-        "secondary": 10
-      },
-      {
-        "slug": "vurush-turalyon-eu",
-        "name": "Vurush",
-        "rank": 3,
-        "value": 72.07,
-        "secondary": 10
-      },
       {
         "slug": "daslight-terokkar-eu",
         "name": "Daslight",
         "rank": 4,
-        "value": 72.07,
+        "value": 76.09,
         "secondary": 0
       },
       {
         "slug": "demhunt-terokkar-eu",
         "name": "Demhunt",
         "rank": 4,
-        "value": 72.07,
+        "value": 76.09,
         "secondary": 0
       },
       {
         "slug": "ionax-draenor-eu",
         "name": "Ionax",
         "rank": 4,
-        "value": 72.07,
+        "value": 76.09,
         "secondary": 0
       },
       {
         "slug": "lishiyburn-ragnaros-eu",
         "name": "Lishiyburn",
         "rank": 1,
-        "value": 67.52,
+        "value": 71.54,
         "secondary": 10
+      },
+      {
+        "slug": "molfar-terokkar-eu",
+        "name": "Mólfár",
+        "rank": 2,
+        "value": 71.54,
+        "secondary": 8
+      },
+      {
+        "slug": "skirvir-turalyon-eu",
+        "name": "Skirvir",
+        "rank": 3,
+        "value": 71.54,
+        "secondary": 10
+      },
+      {
+        "slug": "marmozetroly-tarren-mill-eu",
+        "name": "Marmozetroly",
+        "rank": 4,
+        "value": 71.54,
+        "secondary": 10
+      },
+      {
+        "slug": "mavika-doomhammer-eu",
+        "name": "Mavika",
+        "rank": 4,
+        "value": 71.54,
+        "secondary": 0
+      },
+      {
+        "slug": "mercury-tarren-mill-eu",
+        "name": "Mercury",
+        "rank": 4,
+        "value": 71.54,
+        "secondary": 0
+      },
+      {
+        "slug": "otito-draenor-eu",
+        "name": "Otito",
+        "rank": 4,
+        "value": 71.54,
+        "secondary": 10
+      },
+      {
+        "slug": "regin-doomhammer-eu",
+        "name": "Regin",
+        "rank": 4,
+        "value": 71.54,
+        "secondary": 0
+      },
+      {
+        "slug": "blackberry-terokkar-eu",
+        "name": "Blackberry",
+        "rank": 3,
+        "value": 67.95,
+        "secondary": 0
       }
     ]
   },
@@ -670,16 +670,16 @@
       "encounterId": 3306,
       "difficulty": 5,
       "difficultyName": "Mythic",
-      "pulls": 46,
+      "pulls": 41,
       "kills": 0,
-      "wipes": 46,
+      "wipes": 41,
       "killRate": 0,
-      "avgDurationMs": 184642,
-      "avgRaidDeaths": 20.02,
-      "avgTeamDps": 183224.24,
-      "avgTeamHps": 123605.04,
+      "avgDurationMs": 183724,
+      "avgRaidDeaths": 19.98,
+      "avgTeamDps": 205568.65,
+      "avgTeamHps": 129193.37,
       "bestTeamDps": 623882.18,
-      "bestTeamHps": 349162.76,
+      "bestTeamHps": 476391.4,
       "lastPullAt": "2026-06-10T19:15:28.694Z"
     },
     {
@@ -695,9 +695,9 @@
       "avgDurationMs": 116190,
       "avgRaidDeaths": 20,
       "avgTeamDps": 357696.11,
-      "avgTeamHps": 111724.48,
+      "avgTeamHps": 155523.35,
       "bestTeamDps": 789190.67,
-      "bestTeamHps": 362770.29,
+      "bestTeamHps": 510170.45,
       "lastPullAt": "2026-06-10T18:27:31.482Z"
     },
     {
@@ -976,11 +976,11 @@
       "className": "Unknown",
       "members": 163,
       "withData": 59,
-      "avgPrimaryRecent3": 23278.41,
+      "avgPrimaryRecent3": 23297.75,
       "avgDpsRecent3": 17295.7,
-      "avgHpsRecent3": 6767.07,
+      "avgHpsRecent3": 6786.41,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 41.77
+      "avgReliabilityScore": 41.78
     }
   ]
 }
