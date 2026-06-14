@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-12T04:47:20.202Z",
+  "updatedAt": "2026-06-14T22:18:15.342Z",
   "character": {
     "name": "Адвокатправа",
     "realmSlug": "gordunni",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-12T04:47:20.202Z",
+    "lastScannedAt": "2026-06-14T22:18:15.342Z",
     "lastPullAt": "2026-05-24T18:55:47.471Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

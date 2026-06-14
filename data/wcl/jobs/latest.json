@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-14T20:22:20.848Z",
+  "updatedAt": "2026-06-14T22:18:15.342Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 163,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "поливалочки-gordunni-eu": 0,
-    "севатар-lich-king-eu": 0,
-    "монэлушка-gordunni-eu": 0,
-    "шриладо-gordunni-eu": 0,
-    "душа-blackscar-eu": 0,
-    "кхаарн-lich-king-eu": 0,
-    "марлая-gordunni-eu": 0,
-    "щпикачечка-gordunni-eu": 0
+    "адвокатправа-gordunni-eu": 0,
+    "бафометище-eversong-eu": 0,
+    "дарадуда-gordunni-eu": 0,
+    "senig-r-ravencrest-eu": 0,
+    "auroliana-ravencrest-eu": 0,
+    "berkinzee-ravencrest-eu": 0,
+    "bullimonk-tarren-mill-eu": 0,
+    "бреинор-galakrond-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,27 +36,6 @@
   },
   "batch": {
     "selected": [
-      "поливалочки-gordunni-eu",
-      "севатар-lich-king-eu",
-      "монэлушка-gordunni-eu",
-      "шриладо-gordunni-eu",
-      "душа-blackscar-eu",
-      "кхаарн-lich-king-eu",
-      "марлая-gordunni-eu",
-      "щпикачечка-gordunni-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "поливалочки-gordunni-eu",
-      "севатар-lich-king-eu",
-      "монэлушка-gordunni-eu",
-      "шриладо-gordunni-eu",
-      "душа-blackscar-eu",
-      "кхаарн-lich-king-eu",
-      "марлая-gordunni-eu",
-      "щпикачечка-gordunni-eu"
-    ],
-    "pending": [
       "адвокатправа-gordunni-eu",
       "бафометище-eversong-eu",
       "дарадуда-gordunni-eu",
@@ -64,7 +43,20 @@
       "auroliana-ravencrest-eu",
       "berkinzee-ravencrest-eu",
       "bullimonk-tarren-mill-eu",
-      "бреинор-galakrond-eu",
+      "бреинор-galakrond-eu"
+    ],
+    "updated": [],
+    "scanned": [
+      "адвокатправа-gordunni-eu",
+      "бафометище-eversong-eu",
+      "дарадуда-gordunni-eu",
+      "senig-r-ravencrest-eu",
+      "auroliana-ravencrest-eu",
+      "berkinzee-ravencrest-eu",
+      "bullimonk-tarren-mill-eu",
+      "бреинор-galakrond-eu"
+    ],
+    "pending": [
       "sandora-doomhammer-eu",
       "корбус-gordunni-eu",
       "шпаргат-gordunni-eu",
@@ -179,9 +171,7 @@
       "hlorygole-silvermoon-eu",
       "inika-silvermoon-eu",
       "zanziholic-tarren-mill-eu",
-      "zanzimond-tarren-mill-eu"
-    ],
-    "skippedFresh": [
+      "zanzimond-tarren-mill-eu",
       "булкрит-gordunni-eu",
       "амарак-gordunni-eu",
       "графдекот-gordunni-eu",
@@ -189,7 +179,9 @@
       "juz-silvermoon-eu",
       "kaijuro-silvermoon-eu",
       "medvedich-silvermoon-eu",
-      "nanyy-silvermoon-eu",
+      "nanyy-silvermoon-eu"
+    ],
+    "skippedFresh": [
       "пизнаика-gordunni-eu",
       "тузольд-gordunni-eu",
       "альянсс-gordunni-eu",
@@ -213,7 +205,15 @@
       "мелиодас-gordunni-eu",
       "моннал-gordunni-eu",
       "базрог-gordunni-eu",
-      "рокталл-soulflayer-eu"
+      "рокталл-soulflayer-eu",
+      "шриладо-gordunni-eu",
+      "душа-blackscar-eu",
+      "кхаарн-lich-king-eu",
+      "марлая-gordunni-eu",
+      "поливалочки-gordunni-eu",
+      "севатар-lich-king-eu",
+      "щпикачечка-gordunni-eu",
+      "монэлушка-gordunni-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []
