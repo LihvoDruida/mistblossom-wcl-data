@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-11T18:22:14.562Z",
+  "updatedAt": "2026-06-14T12:04:09.897Z",
   "character": {
     "name": "Пизнайка",
     "realmSlug": "gordunni",
@@ -1468,7 +1468,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-11T18:22:14.562Z",
+    "lastScannedAt": "2026-06-14T12:04:09.897Z",
     "lastPullAt": "2026-06-06T19:13:13.049Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
