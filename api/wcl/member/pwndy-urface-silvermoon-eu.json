@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-11T00:23:04.319Z",
+  "updatedAt": "2026-06-14T00:15:32.512Z",
   "character": {
     "name": "Pwndyøurface",
     "realmSlug": "silvermoon",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-11T00:23:04.319Z",
+    "lastScannedAt": "2026-06-14T00:15:32.512Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
