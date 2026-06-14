@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-11T18:22:14.562Z",
+  "updatedAt": "2026-06-14T16:42:23.531Z",
   "character": {
     "name": "Threataan",
     "realmSlug": "silvermoon",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-11T18:22:14.562Z",
+    "lastScannedAt": "2026-06-14T16:42:23.531Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
