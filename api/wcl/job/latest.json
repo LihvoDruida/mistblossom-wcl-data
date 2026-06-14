@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-14T18:17:48.521Z",
+  "updatedAt": "2026-06-14T20:22:20.848Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 163,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "лилая-grom-eu": 0,
-    "базрог-gordunni-eu": 0,
-    "рокталл-soulflayer-eu": 0,
-    "мавпита-gordunni-eu": 0,
-    "мистип-gordunni-eu": 0,
-    "древесная-blackscar-eu": 0,
-    "мелиодас-gordunni-eu": 0,
-    "моннал-gordunni-eu": 0
+    "поливалочки-gordunni-eu": 0,
+    "севатар-lich-king-eu": 0,
+    "монэлушка-gordunni-eu": 0,
+    "шриладо-gordunni-eu": 0,
+    "душа-blackscar-eu": 0,
+    "кхаарн-lich-king-eu": 0,
+    "марлая-gordunni-eu": 0,
+    "щпикачечка-gordunni-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,27 +36,6 @@
   },
   "batch": {
     "selected": [
-      "лилая-grom-eu",
-      "базрог-gordunni-eu",
-      "рокталл-soulflayer-eu",
-      "мавпита-gordunni-eu",
-      "мистип-gordunni-eu",
-      "древесная-blackscar-eu",
-      "мелиодас-gordunni-eu",
-      "моннал-gordunni-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "лилая-grom-eu",
-      "базрог-gordunni-eu",
-      "рокталл-soulflayer-eu",
-      "мавпита-gordunni-eu",
-      "мистип-gordunni-eu",
-      "древесная-blackscar-eu",
-      "мелиодас-gordunni-eu",
-      "моннал-gordunni-eu"
-    ],
-    "pending": [
       "поливалочки-gordunni-eu",
       "севатар-lich-king-eu",
       "монэлушка-gordunni-eu",
@@ -64,7 +43,20 @@
       "душа-blackscar-eu",
       "кхаарн-lich-king-eu",
       "марлая-gordunni-eu",
-      "щпикачечка-gordunni-eu",
+      "щпикачечка-gordunni-eu"
+    ],
+    "updated": [],
+    "scanned": [
+      "поливалочки-gordunni-eu",
+      "севатар-lich-king-eu",
+      "монэлушка-gordunni-eu",
+      "шриладо-gordunni-eu",
+      "душа-blackscar-eu",
+      "кхаарн-lich-king-eu",
+      "марлая-gordunni-eu",
+      "щпикачечка-gordunni-eu"
+    ],
+    "pending": [
       "адвокатправа-gordunni-eu",
       "бафометище-eversong-eu",
       "дарадуда-gordunni-eu",
@@ -213,7 +205,15 @@
       "кумбар-gordunni-eu",
       "teasick-kazzak-eu",
       "threataan-silvermoon-eu",
-      "valemor-silvermoon-eu"
+      "valemor-silvermoon-eu",
+      "мавпита-gordunni-eu",
+      "мистип-gordunni-eu",
+      "древесная-blackscar-eu",
+      "лилая-grom-eu",
+      "мелиодас-gordunni-eu",
+      "моннал-gordunni-eu",
+      "базрог-gordunni-eu",
+      "рокталл-soulflayer-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []

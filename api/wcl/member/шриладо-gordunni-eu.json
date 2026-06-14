@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-12T04:47:20.202Z",
+  "updatedAt": "2026-06-14T20:22:20.848Z",
   "character": {
     "name": "Шриладо",
     "realmSlug": "gordunni",
@@ -745,7 +745,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-12T04:47:20.202Z",
+    "lastScannedAt": "2026-06-14T20:22:20.848Z",
     "lastPullAt": "2026-05-29T20:06:06.764Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T18:18:22.373Z",
+  "updatedAt": "2026-06-14T20:22:53.203Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -589,94 +589,94 @@
     },
     "freshness": {
       "updatedWithin1h": 8,
-      "updatedWithin6h": 16,
-      "updatedWithin12h": 32,
+      "updatedWithin6h": 24,
+      "updatedWithin12h": 40,
       "updatedWithin24h": 64,
-      "oldestScannedAt": "2026-06-11T23:43:09.005Z",
-      "newestScannedAt": "2026-06-14T18:17:48.521Z",
+      "oldestScannedAt": "2026-06-12T04:47:20.202Z",
+      "newestScannedAt": "2026-06-14T20:22:20.848Z",
       "staleMembers": [
-        {
-          "slug": "поливалочки-gordunni-eu",
-          "name": "Поливалочки",
-          "rank": 3,
-          "value": 66.59,
-          "secondary": 0
-        },
-        {
-          "slug": "севатар-lich-king-eu",
-          "name": "Севатар",
-          "rank": 3,
-          "value": 66.59,
-          "secondary": 10
-        },
-        {
-          "slug": "монэлушка-gordunni-eu",
-          "name": "Монэлушка",
-          "rank": 4,
-          "value": 66.59,
-          "secondary": 0
-        },
-        {
-          "slug": "шриладо-gordunni-eu",
-          "name": "Шриладо",
-          "rank": 1,
-          "value": 61.52,
-          "secondary": 10
-        },
-        {
-          "slug": "душа-blackscar-eu",
-          "name": "Душа",
-          "rank": 3,
-          "value": 61.52,
-          "secondary": 10
-        },
-        {
-          "slug": "кхаарн-lich-king-eu",
-          "name": "Кхаарн",
-          "rank": 3,
-          "value": 61.52,
-          "secondary": 10
-        },
-        {
-          "slug": "марлая-gordunni-eu",
-          "name": "Марлая",
-          "rank": 3,
-          "value": 61.52,
-          "secondary": 10
-        },
-        {
-          "slug": "щпикачечка-gordunni-eu",
-          "name": "Щпикачечка",
-          "rank": 3,
-          "value": 61.52,
-          "secondary": 8
-        },
         {
           "slug": "адвокатправа-gordunni-eu",
           "name": "Адвокатправа",
           "rank": 4,
-          "value": 61.52,
+          "value": 63.59,
           "secondary": 10
         },
         {
           "slug": "бафометище-eversong-eu",
           "name": "Бафометище",
           "rank": 4,
-          "value": 61.52,
+          "value": 63.59,
           "secondary": 0
         },
         {
           "slug": "дарадуда-gordunni-eu",
           "name": "Дарадуда",
           "rank": 4,
-          "value": 61.52,
+          "value": 63.59,
           "secondary": 10
         },
         {
           "slug": "senig-r-ravencrest-eu",
           "name": "Senigør",
           "rank": 1,
-          "value": 57.22,
+          "value": 59.29,
+          "secondary": 0
+        },
+        {
+          "slug": "auroliana-ravencrest-eu",
+          "name": "Auroliana",
+          "rank": 3,
+          "value": 59.29,
+          "secondary": 10
+        },
+        {
+          "slug": "berkinzee-ravencrest-eu",
+          "name": "Berkinzee",
+          "rank": 3,
+          "value": 59.29,
+          "secondary": 0
+        },
+        {
+          "slug": "bullimonk-tarren-mill-eu",
+          "name": "Bullimonk",
+          "rank": 3,
+          "value": 59.29,
+          "secondary": 10
+        },
+        {
+          "slug": "бреинор-galakrond-eu",
+          "name": "Бреинор",
+          "rank": 3,
+          "value": 59.29,
+          "secondary": 0
+        },
+        {
+          "slug": "sandora-doomhammer-eu",
+          "name": "Sandora",
+          "rank": 4,
+          "value": 59.29,
+          "secondary": 0
+        },
+        {
+          "slug": "корбус-gordunni-eu",
+          "name": "Корбус",
+          "rank": 4,
+          "value": 59.29,
+          "secondary": 0
+        },
+        {
+          "slug": "шпаргат-gordunni-eu",
+          "name": "Шпаргат",
+          "rank": 4,
+          "value": 59.29,
+          "secondary": 10
+        },
+        {
+          "slug": "characternuk-terokkar-eu",
+          "name": "Characternuk",
+          "rank": 1,
+          "value": 55.92,
           "secondary": 0
         }
       ]
@@ -1639,8 +1639,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-12T04:47:20.202Z",
-      "lastScannedAt": "2026-06-12T04:47:20.202Z",
+      "updatedAt": "2026-06-14T20:22:20.848Z",
+      "lastScannedAt": "2026-06-14T20:22:20.848Z",
       "lastPullAt": "2026-05-29T20:06:06.764Z",
       "pullsStored": 10,
       "kills": 1,
@@ -3555,8 +3555,8 @@
       "realmSlug": "blackscar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-12T04:47:20.202Z",
-      "lastScannedAt": "2026-06-12T04:47:20.202Z",
+      "updatedAt": "2026-06-14T20:22:20.848Z",
+      "lastScannedAt": "2026-06-14T20:22:20.848Z",
       "lastPullAt": "2026-06-10T19:15:28.694Z",
       "pullsStored": 10,
       "kills": 0,
@@ -3870,8 +3870,8 @@
       "realmSlug": "lich-king",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-12T04:47:20.202Z",
-      "lastScannedAt": "2026-06-12T04:47:20.202Z",
+      "updatedAt": "2026-06-14T20:22:20.848Z",
+      "lastScannedAt": "2026-06-14T20:22:20.848Z",
       "lastPullAt": "2026-06-10T19:15:28.694Z",
       "pullsStored": 10,
       "kills": 0,
@@ -3934,8 +3934,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-12T04:47:20.202Z",
-      "lastScannedAt": "2026-06-12T04:47:20.202Z",
+      "updatedAt": "2026-06-14T20:22:20.848Z",
+      "lastScannedAt": "2026-06-14T20:22:20.848Z",
       "lastPullAt": "2026-06-10T19:15:28.694Z",
       "pullsStored": 10,
       "kills": 0,
@@ -4124,8 +4124,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-11T23:43:09.005Z",
-      "lastScannedAt": "2026-06-11T23:43:09.005Z",
+      "updatedAt": "2026-06-14T20:22:20.848Z",
+      "lastScannedAt": "2026-06-14T20:22:20.848Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -4155,8 +4155,8 @@
       "realmSlug": "lich-king",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-11T23:43:09.005Z",
-      "lastScannedAt": "2026-06-11T23:43:09.005Z",
+      "updatedAt": "2026-06-14T20:22:20.848Z",
+      "lastScannedAt": "2026-06-14T20:22:20.848Z",
       "lastPullAt": "2026-04-22T18:36:35.480Z",
       "pullsStored": 10,
       "kills": 3,
@@ -4218,8 +4218,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-12T04:47:20.202Z",
-      "lastScannedAt": "2026-06-12T04:47:20.202Z",
+      "updatedAt": "2026-06-14T20:22:20.848Z",
+      "lastScannedAt": "2026-06-14T20:22:20.848Z",
       "lastPullAt": "2026-04-05T18:12:43.110Z",
       "pullsStored": 8,
       "kills": 0,
@@ -5934,8 +5934,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-11T23:43:09.005Z",
-      "lastScannedAt": "2026-06-11T23:43:09.005Z",
+      "updatedAt": "2026-06-14T20:22:20.848Z",
+      "lastScannedAt": "2026-06-14T20:22:20.848Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
