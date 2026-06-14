@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-11T10:50:26.036Z",
+  "updatedAt": "2026-06-14T09:48:52.327Z",
   "character": {
     "name": "Kaijuro",
     "realmSlug": "silvermoon",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-11T10:50:26.036Z",
+    "lastScannedAt": "2026-06-14T09:48:52.327Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
