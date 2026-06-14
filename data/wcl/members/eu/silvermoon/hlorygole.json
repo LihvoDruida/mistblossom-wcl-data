@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-11T10:50:26.036Z",
+  "updatedAt": "2026-06-14T05:57:37.295Z",
   "character": {
     "name": "Hlorygole",
     "realmSlug": "silvermoon",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-11T10:50:26.036Z",
+    "lastScannedAt": "2026-06-14T05:57:37.295Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
