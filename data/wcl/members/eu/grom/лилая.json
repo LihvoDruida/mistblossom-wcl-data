@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-11T21:26:48.074Z",
+  "updatedAt": "2026-06-14T18:17:48.521Z",
   "character": {
     "name": "Лилая",
     "realmSlug": "grom",
@@ -747,7 +747,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-11T21:26:48.074Z",
+    "lastScannedAt": "2026-06-14T18:17:48.521Z",
     "lastPullAt": "2026-04-22T19:27:46.928Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

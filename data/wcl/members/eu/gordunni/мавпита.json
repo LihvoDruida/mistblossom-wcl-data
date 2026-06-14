@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-11T23:43:09.005Z",
+  "updatedAt": "2026-06-14T18:17:48.521Z",
   "character": {
     "name": "Мавпита",
     "realmSlug": "gordunni",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-11T23:43:09.005Z",
+    "lastScannedAt": "2026-06-14T18:17:48.521Z",
     "lastPullAt": "2026-04-29T20:19:19.595Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
