@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-12T12:27:24.871Z",
+  "updatedAt": "2026-06-15T00:19:32.874Z",
   "character": {
     "name": "Characternuk",
     "realmSlug": "terokkar",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-12T12:27:24.871Z",
+    "lastScannedAt": "2026-06-15T00:19:32.874Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

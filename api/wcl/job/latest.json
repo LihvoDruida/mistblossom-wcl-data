@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-14T22:18:15.342Z",
+  "updatedAt": "2026-06-15T00:19:32.874Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 163,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "адвокатправа-gordunni-eu": 0,
-    "бафометище-eversong-eu": 0,
-    "дарадуда-gordunni-eu": 0,
-    "senig-r-ravencrest-eu": 0,
-    "auroliana-ravencrest-eu": 0,
-    "berkinzee-ravencrest-eu": 0,
-    "bullimonk-tarren-mill-eu": 0,
-    "бреинор-galakrond-eu": 0
+    "sandora-doomhammer-eu": 0,
+    "корбус-gordunni-eu": 0,
+    "шпаргат-gordunni-eu": 0,
+    "characternuk-terokkar-eu": 0,
+    "zanzithor-tarren-mill-eu": 0,
+    "allune-terokkar-eu": 0,
+    "asasinas-terokkar-eu": 0,
+    "bylik-tarren-mill-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,27 +36,6 @@
   },
   "batch": {
     "selected": [
-      "адвокатправа-gordunni-eu",
-      "бафометище-eversong-eu",
-      "дарадуда-gordunni-eu",
-      "senig-r-ravencrest-eu",
-      "auroliana-ravencrest-eu",
-      "berkinzee-ravencrest-eu",
-      "bullimonk-tarren-mill-eu",
-      "бреинор-galakrond-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "адвокатправа-gordunni-eu",
-      "бафометище-eversong-eu",
-      "дарадуда-gordunni-eu",
-      "senig-r-ravencrest-eu",
-      "auroliana-ravencrest-eu",
-      "berkinzee-ravencrest-eu",
-      "bullimonk-tarren-mill-eu",
-      "бреинор-galakrond-eu"
-    ],
-    "pending": [
       "sandora-doomhammer-eu",
       "корбус-gordunni-eu",
       "шпаргат-gordunni-eu",
@@ -64,7 +43,20 @@
       "zanzithor-tarren-mill-eu",
       "allune-terokkar-eu",
       "asasinas-terokkar-eu",
-      "bylik-tarren-mill-eu",
+      "bylik-tarren-mill-eu"
+    ],
+    "updated": [],
+    "scanned": [
+      "sandora-doomhammer-eu",
+      "корбус-gordunni-eu",
+      "шпаргат-gordunni-eu",
+      "characternuk-terokkar-eu",
+      "zanzithor-tarren-mill-eu",
+      "allune-terokkar-eu",
+      "asasinas-terokkar-eu",
+      "bylik-tarren-mill-eu"
+    ],
+    "pending": [
       "скяльди-howling-fjord-eu",
       "бабаияи-eversong-eu",
       "товстопуз-gordunni-eu",
@@ -179,9 +171,7 @@
       "juz-silvermoon-eu",
       "kaijuro-silvermoon-eu",
       "medvedich-silvermoon-eu",
-      "nanyy-silvermoon-eu"
-    ],
-    "skippedFresh": [
+      "nanyy-silvermoon-eu",
       "пизнаика-gordunni-eu",
       "тузольд-gordunni-eu",
       "альянсс-gordunni-eu",
@@ -189,7 +179,9 @@
       "panharanir-kazzak-eu",
       "ponziani-kazzak-eu",
       "slavasalu-silvermoon-eu",
-      "zanzilight-tarren-mill-eu",
+      "zanzilight-tarren-mill-eu"
+    ],
+    "skippedFresh": [
       "дятелэлуны-soulflayer-eu",
       "кеенди-gordunni-eu",
       "кибароу-soulflayer-eu",
@@ -213,7 +205,15 @@
       "поливалочки-gordunni-eu",
       "севатар-lich-king-eu",
       "щпикачечка-gordunni-eu",
-      "монэлушка-gordunni-eu"
+      "монэлушка-gordunni-eu",
+      "senig-r-ravencrest-eu",
+      "auroliana-ravencrest-eu",
+      "berkinzee-ravencrest-eu",
+      "bullimonk-tarren-mill-eu",
+      "бреинор-galakrond-eu",
+      "адвокатправа-gordunni-eu",
+      "бафометище-eversong-eu",
+      "дарадуда-gordunni-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []

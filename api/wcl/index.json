@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T22:18:48.395Z",
+  "updatedAt": "2026-06-15T00:20:06.198Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -589,94 +589,94 @@
     },
     "freshness": {
       "updatedWithin1h": 8,
-      "updatedWithin6h": 32,
+      "updatedWithin6h": 24,
       "updatedWithin12h": 40,
       "updatedWithin24h": 64,
-      "oldestScannedAt": "2026-06-12T09:05:16.894Z",
-      "newestScannedAt": "2026-06-14T22:18:15.342Z",
+      "oldestScannedAt": "2026-06-12T12:27:24.871Z",
+      "newestScannedAt": "2026-06-15T00:19:32.874Z",
       "staleMembers": [
-        {
-          "slug": "sandora-doomhammer-eu",
-          "name": "Sandora",
-          "rank": 4,
-          "value": 61.23,
-          "secondary": 0
-        },
-        {
-          "slug": "корбус-gordunni-eu",
-          "name": "Корбус",
-          "rank": 4,
-          "value": 61.23,
-          "secondary": 0
-        },
-        {
-          "slug": "шпаргат-gordunni-eu",
-          "name": "Шпаргат",
-          "rank": 4,
-          "value": 61.23,
-          "secondary": 10
-        },
-        {
-          "slug": "characternuk-terokkar-eu",
-          "name": "Characternuk",
-          "rank": 1,
-          "value": 57.86,
-          "secondary": 0
-        },
-        {
-          "slug": "zanzithor-tarren-mill-eu",
-          "name": "Zanzithor",
-          "rank": 2,
-          "value": 57.86,
-          "secondary": 10
-        },
-        {
-          "slug": "allune-terokkar-eu",
-          "name": "Allune",
-          "rank": 3,
-          "value": 57.86,
-          "secondary": 0
-        },
-        {
-          "slug": "asasinas-terokkar-eu",
-          "name": "Asasinas",
-          "rank": 3,
-          "value": 57.86,
-          "secondary": 0
-        },
-        {
-          "slug": "bylik-tarren-mill-eu",
-          "name": "Bylik",
-          "rank": 3,
-          "value": 57.86,
-          "secondary": 10
-        },
         {
           "slug": "скяльди-howling-fjord-eu",
           "name": "Скяльди",
           "rank": 3,
-          "value": 57.86,
+          "value": 59.88,
           "secondary": 0
         },
         {
           "slug": "бабаияи-eversong-eu",
           "name": "Бабайяй",
           "rank": 4,
-          "value": 57.86,
+          "value": 59.88,
           "secondary": 0
         },
         {
           "slug": "товстопуз-gordunni-eu",
           "name": "Товстопуз",
           "rank": 4,
-          "value": 57.86,
+          "value": 59.88,
           "secondary": 0
         },
         {
           "slug": "darthkenobi-tarren-mill-eu",
           "name": "Darthkenobi",
           "rank": 3,
-          "value": 53.9,
+          "value": 55.93,
+          "secondary": 0
+        },
+        {
+          "slug": "elderwizard-terokkar-eu",
+          "name": "Elderwizard",
+          "rank": 3,
+          "value": 55.93,
+          "secondary": 10
+        },
+        {
+          "slug": "es-terokkar-eu",
+          "name": "Es",
+          "rank": 3,
+          "value": 55.93,
+          "secondary": 0
+        },
+        {
+          "slug": "hopeblood-doomhammer-eu",
+          "name": "Hopeblood",
+          "rank": 3,
+          "value": 55.93,
+          "secondary": 0
+        },
+        {
+          "slug": "illidonson-draenor-eu",
+          "name": "Illidonson",
+          "rank": 3,
+          "value": 55.93,
+          "secondary": 10
+        },
+        {
+          "slug": "kavunchyk-terokkar-eu",
+          "name": "Kavunchyk",
+          "rank": 3,
+          "value": 55.93,
+          "secondary": 0
+        },
+        {
+          "slug": "jakeyo-ravencrest-eu",
+          "name": "Jakeyo",
+          "rank": 4,
+          "value": 55.93,
+          "secondary": 0
+        },
+        {
+          "slug": "nwlck-ravencrest-eu",
+          "name": "Nwlck",
+          "rank": 4,
+          "value": 55.93,
+          "secondary": 0
+        },
+        {
+          "slug": "синижепая-howling-fjord-eu",
+          "name": "Синижёпая",
+          "rank": 2,
+          "value": 53.12,
           "secondary": 0
         }
       ]
@@ -1072,8 +1072,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-12T12:27:24.871Z",
-      "lastScannedAt": "2026-06-12T12:27:24.871Z",
+      "updatedAt": "2026-06-15T00:19:32.874Z",
+      "lastScannedAt": "2026-06-15T00:19:32.874Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -1735,8 +1735,8 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 2,
-      "updatedAt": "2026-06-12T12:27:24.871Z",
-      "lastScannedAt": "2026-06-12T12:27:24.871Z",
+      "updatedAt": "2026-06-15T00:19:32.874Z",
+      "lastScannedAt": "2026-06-15T00:19:32.874Z",
       "lastPullAt": "2026-05-29T18:27:30.004Z",
       "pullsStored": 10,
       "kills": 1,
@@ -1798,8 +1798,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-12T12:27:24.871Z",
-      "lastScannedAt": "2026-06-12T12:27:24.871Z",
+      "updatedAt": "2026-06-15T00:19:32.874Z",
+      "lastScannedAt": "2026-06-15T00:19:32.874Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -1861,8 +1861,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-12T12:27:24.871Z",
-      "lastScannedAt": "2026-06-12T12:27:24.871Z",
+      "updatedAt": "2026-06-15T00:19:32.874Z",
+      "lastScannedAt": "2026-06-15T00:19:32.874Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -2111,8 +2111,8 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-12T12:27:24.871Z",
-      "lastScannedAt": "2026-06-12T12:27:24.871Z",
+      "updatedAt": "2026-06-15T00:19:32.874Z",
+      "lastScannedAt": "2026-06-15T00:19:32.874Z",
       "lastPullAt": "2026-05-16T20:09:47.034Z",
       "pullsStored": 10,
       "kills": 1,
@@ -5186,8 +5186,8 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-12T09:05:16.894Z",
-      "lastScannedAt": "2026-06-12T09:05:16.894Z",
+      "updatedAt": "2026-06-15T00:19:32.874Z",
+      "lastScannedAt": "2026-06-15T00:19:32.874Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5903,8 +5903,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-12T09:05:16.894Z",
-      "lastScannedAt": "2026-06-12T09:05:16.894Z",
+      "updatedAt": "2026-06-15T00:19:32.874Z",
+      "lastScannedAt": "2026-06-15T00:19:32.874Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -6089,8 +6089,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-12T09:05:16.894Z",
-      "lastScannedAt": "2026-06-12T09:05:16.894Z",
+      "updatedAt": "2026-06-15T00:19:32.874Z",
+      "lastScannedAt": "2026-06-15T00:19:32.874Z",
       "lastPullAt": "2026-05-28T19:16:20.906Z",
       "pullsStored": 10,
       "kills": 0,
