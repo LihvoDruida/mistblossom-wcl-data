@@ -572,93 +572,93 @@
   "freshness": {
     "updatedWithin1h": 8,
     "updatedWithin6h": 8,
-    "updatedWithin12h": 32,
-    "updatedWithin24h": 64,
-    "oldestScannedAt": "2026-06-12T16:24:32.410Z",
-    "newestScannedAt": "2026-06-15T06:31:09.921Z",
+    "updatedWithin12h": 16,
+    "updatedWithin24h": 56,
+    "oldestScannedAt": "2026-06-12T19:12:36.279Z",
+    "newestScannedAt": "2026-06-15T13:22:03.163Z",
     "staleMembers": [
-      {
-        "slug": "kavunchyk-terokkar-eu",
-        "name": "Kavunchyk",
-        "rank": 3,
-        "value": 62.12,
-        "secondary": 0
-      },
-      {
-        "slug": "jakeyo-ravencrest-eu",
-        "name": "Jakeyo",
-        "rank": 4,
-        "value": 62.12,
-        "secondary": 0
-      },
-      {
-        "slug": "nwlck-ravencrest-eu",
-        "name": "Nwlck",
-        "rank": 4,
-        "value": 62.12,
-        "secondary": 0
-      },
-      {
-        "slug": "синижепая-howling-fjord-eu",
-        "name": "Синижёпая",
-        "rank": 2,
-        "value": 59.32,
-        "secondary": 0
-      },
-      {
-        "slug": "prayddh-terokkar-eu",
-        "name": "Prayddh",
-        "rank": 3,
-        "value": 59.32,
-        "secondary": 0
-      },
-      {
-        "slug": "redray-terokkar-eu",
-        "name": "Redray",
-        "rank": 3,
-        "value": 59.32,
-        "secondary": 0
-      },
-      {
-        "slug": "rozbiynik-tarren-mill-eu",
-        "name": "Rozbiynik",
-        "rank": 3,
-        "value": 59.32,
-        "secondary": 10
-      },
-      {
-        "slug": "shennai-ravencrest-eu",
-        "name": "Shennái",
-        "rank": 3,
-        "value": 59.32,
-        "secondary": 7
-      },
       {
         "slug": "silpo-ravencrest-eu",
         "name": "Silpo",
         "rank": 3,
-        "value": 59.32,
+        "value": 66.17,
         "secondary": 10
       },
       {
         "slug": "алак-goldrinn-eu",
         "name": "Алак",
         "rank": 3,
-        "value": 59.32,
+        "value": 66.17,
         "secondary": 0
       },
       {
         "slug": "сетария-galakrond-eu",
         "name": "Сетария",
         "rank": 4,
-        "value": 59.32,
+        "value": 66.17,
         "secondary": 0
       },
       {
         "slug": "azuriel-terokkar-eu",
         "name": "Azuriel",
         "rank": 1,
-        "value": 56.59,
+        "value": 63.44,
+        "secondary": 0
+      },
+      {
+        "slug": "frrtiix-draenor-eu",
+        "name": "Frrtiix",
+        "rank": 1,
+        "value": 63.44,
+        "secondary": 10
+      },
+      {
+        "slug": "bureviy-doomhammer-eu",
+        "name": "Bureviy",
+        "rank": 4,
+        "value": 63.44,
+        "secondary": 10
+      },
+      {
+        "slug": "katsyt-terokkar-eu",
+        "name": "Katsyt",
+        "rank": 4,
+        "value": 63.44,
+        "secondary": 0
+      },
+      {
+        "slug": "krekor-tarren-mill-eu",
+        "name": "Krekor",
+        "rank": 4,
+        "value": 63.44,
+        "secondary": 10
+      },
+      {
+        "slug": "mistery-draenor-eu",
+        "name": "Mistéry",
+        "rank": 4,
+        "value": 63.44,
+        "secondary": 0
+      },
+      {
+        "slug": "nebatur-terokkar-eu",
+        "name": "Nebatur",
+        "rank": 4,
+        "value": 63.44,
+        "secondary": 0
+      },
+      {
+        "slug": "ragnarosh-terokkar-eu",
+        "name": "Ragnarosh",
+        "rank": 4,
+        "value": 63.44,
+        "secondary": 0
+      },
+      {
+        "slug": "kashin-terokkar-eu",
+        "name": "Kashin",
+        "rank": 1,
+        "value": 61.97,
         "secondary": 0
       }
     ]
