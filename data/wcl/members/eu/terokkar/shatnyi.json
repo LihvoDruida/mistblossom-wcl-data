@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-12T23:24:40.181Z",
+  "updatedAt": "2026-06-15T23:52:21.650Z",
   "character": {
     "name": "Shatnyi",
     "realmSlug": "terokkar",
@@ -750,7 +750,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-12T23:24:40.181Z",
+    "lastScannedAt": "2026-06-15T23:52:21.650Z",
     "lastPullAt": "2026-05-24T18:55:47.471Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

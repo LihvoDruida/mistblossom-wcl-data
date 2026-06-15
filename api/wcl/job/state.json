@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-15T21:47:04.238Z",
+  "updatedAt": "2026-06-15T23:52:21.650Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -20,27 +20,6 @@
   },
   "batch": {
     "selected": [
-      "trypoid-silvermoon-eu",
-      "mistery-draenor-eu",
-      "nebatur-terokkar-eu",
-      "ragnarosh-terokkar-eu",
-      "kashin-terokkar-eu",
-      "krouli-terokkar-eu",
-      "lightass-terokkar-eu",
-      "mafik-terokkar-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "trypoid-silvermoon-eu",
-      "mistery-draenor-eu",
-      "nebatur-terokkar-eu",
-      "ragnarosh-terokkar-eu",
-      "kashin-terokkar-eu",
-      "krouli-terokkar-eu",
-      "lightass-terokkar-eu",
-      "mafik-terokkar-eu"
-    ],
-    "pending": [
       "odeskiy-tarren-mill-eu",
       "sangvyn-tarren-mill-eu",
       "shatnyi-terokkar-eu",
@@ -48,7 +27,20 @@
       "arthasright-tarren-mill-eu",
       "blackdaddy-tarren-mill-eu",
       "duszi-terokkar-eu",
-      "icebloomi-tarren-mill-eu",
+      "icebloomi-tarren-mill-eu"
+    ],
+    "updated": [],
+    "scanned": [
+      "odeskiy-tarren-mill-eu",
+      "sangvyn-tarren-mill-eu",
+      "shatnyi-terokkar-eu",
+      "zanziwolf-tarren-mill-eu",
+      "arthasright-tarren-mill-eu",
+      "blackdaddy-tarren-mill-eu",
+      "duszi-terokkar-eu",
+      "icebloomi-tarren-mill-eu"
+    ],
+    "pending": [
       "komatoznic-tarren-mill-eu",
       "umbramind-terokkar-eu",
       "yokusir-terokkar-eu",
@@ -197,18 +189,24 @@
       "bureviy-doomhammer-eu",
       "katsyt-terokkar-eu",
       "krekor-tarren-mill-eu",
-      "сетария-galakrond-eu"
-    ],
-    "missingSnapshots": [
+      "сетария-galakrond-eu",
+      "kashin-terokkar-eu",
+      "krouli-terokkar-eu",
+      "lightass-terokkar-eu",
+      "mafik-terokkar-eu",
+      "mistery-draenor-eu",
+      "nebatur-terokkar-eu",
+      "ragnarosh-terokkar-eu",
       "trypoid-silvermoon-eu"
     ],
+    "missingSnapshots": [],
     "rotatedFresh": []
   },
   "roster": {
     "total": 163,
     "withSnapshots": 163,
-    "pending": 139,
-    "skippedFresh": 16,
+    "pending": 131,
+    "skippedFresh": 24,
     "coveragePercent": 100
   },
   "members": [
@@ -308,7 +306,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "krouli-terokkar-eu",
@@ -322,7 +320,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "lightass-terokkar-eu",
@@ -336,7 +334,7 @@
       "pullsStored": 10,
       "kills": 3,
       "wipes": 7,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "lishiy-ragnaros-eu",
@@ -378,7 +376,7 @@
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "odeskiy-tarren-mill-eu",
@@ -386,13 +384,13 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 1,
-      "lastUpdatedAt": "2026-06-12T23:24:40.181Z",
-      "lastScannedAt": "2026-06-12T23:24:40.181Z",
-      "nextEligibleAt": "2026-06-13T11:24:40.181Z",
+      "lastUpdatedAt": "2026-06-15T23:52:21.650Z",
+      "lastScannedAt": "2026-06-15T23:52:21.650Z",
+      "nextEligibleAt": "2026-06-16T11:52:21.650Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "senig-r-ravencrest-eu",
@@ -582,13 +580,13 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "lastUpdatedAt": "2026-06-13T04:25:59.927Z",
-      "lastScannedAt": "2026-06-13T04:25:59.927Z",
-      "nextEligibleAt": "2026-06-13T16:25:59.927Z",
+      "lastUpdatedAt": "2026-06-15T23:52:21.650Z",
+      "lastScannedAt": "2026-06-15T23:52:21.650Z",
+      "nextEligibleAt": "2026-06-16T11:52:21.650Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "asasinas-terokkar-eu",
@@ -680,13 +678,13 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "lastUpdatedAt": "2026-06-13T04:25:59.927Z",
-      "lastScannedAt": "2026-06-13T04:25:59.927Z",
-      "nextEligibleAt": "2026-06-13T16:25:59.927Z",
+      "lastUpdatedAt": "2026-06-15T23:52:21.650Z",
+      "lastScannedAt": "2026-06-15T23:52:21.650Z",
+      "nextEligibleAt": "2026-06-16T11:52:21.650Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "bullimonk-tarren-mill-eu",
@@ -736,13 +734,13 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "lastUpdatedAt": "2026-06-13T04:25:59.927Z",
-      "lastScannedAt": "2026-06-13T04:25:59.927Z",
-      "nextEligibleAt": "2026-06-13T16:25:59.927Z",
+      "lastUpdatedAt": "2026-06-15T23:52:21.650Z",
+      "lastScannedAt": "2026-06-15T23:52:21.650Z",
+      "nextEligibleAt": "2026-06-16T11:52:21.650Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "elderwizard-terokkar-eu",
@@ -806,13 +804,13 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "lastUpdatedAt": "2026-06-13T04:25:59.927Z",
-      "lastScannedAt": "2026-06-13T04:25:59.927Z",
-      "nextEligibleAt": "2026-06-13T16:25:59.927Z",
+      "lastUpdatedAt": "2026-06-15T23:52:21.650Z",
+      "lastScannedAt": "2026-06-15T23:52:21.650Z",
+      "nextEligibleAt": "2026-06-16T11:52:21.650Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "illidonson-draenor-eu",
@@ -1932,7 +1930,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "nanyy-silvermoon-eu",
@@ -1960,7 +1958,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "nwlck-ravencrest-eu",
@@ -2044,7 +2042,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "regin-doomhammer-eu",
@@ -2094,13 +2092,13 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "lastUpdatedAt": "2026-06-12T23:24:40.181Z",
-      "lastScannedAt": "2026-06-12T23:24:40.181Z",
-      "nextEligibleAt": "2026-06-13T11:24:40.181Z",
+      "lastUpdatedAt": "2026-06-15T23:52:21.650Z",
+      "lastScannedAt": "2026-06-15T23:52:21.650Z",
+      "nextEligibleAt": "2026-06-16T11:52:21.650Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "shatnyi-terokkar-eu",
@@ -2108,13 +2106,13 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "lastUpdatedAt": "2026-06-12T23:24:40.181Z",
-      "lastScannedAt": "2026-06-12T23:24:40.181Z",
-      "nextEligibleAt": "2026-06-13T11:24:40.181Z",
+      "lastUpdatedAt": "2026-06-15T23:52:21.650Z",
+      "lastScannedAt": "2026-06-15T23:52:21.650Z",
+      "nextEligibleAt": "2026-06-16T11:52:21.650Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "shatnyideath-terokkar-eu",
@@ -2184,7 +2182,7 @@
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "scanned"
+      "status": "fresh"
     },
     {
       "slug": "twigsnapper-doomhammer-eu",
@@ -2318,13 +2316,13 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "lastUpdatedAt": "2026-06-12T23:24:40.181Z",
-      "lastScannedAt": "2026-06-12T23:24:40.181Z",
-      "nextEligibleAt": "2026-06-13T11:24:40.181Z",
+      "lastUpdatedAt": "2026-06-15T23:52:21.650Z",
+      "lastScannedAt": "2026-06-15T23:52:21.650Z",
+      "nextEligibleAt": "2026-06-16T11:52:21.650Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
-      "status": "pending"
+      "status": "scanned"
     },
     {
       "slug": "адвокатправа-gordunni-eu",

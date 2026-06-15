@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-15T21:47:04.238Z",
+  "updatedAt": "2026-06-15T23:52:21.650Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 163,
@@ -14,14 +14,14 @@
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "trypoid-silvermoon-eu": 0,
-    "mistery-draenor-eu": 0,
-    "nebatur-terokkar-eu": 0,
-    "ragnarosh-terokkar-eu": 0,
-    "kashin-terokkar-eu": 0,
-    "krouli-terokkar-eu": 0,
-    "lightass-terokkar-eu": 0,
-    "mafik-terokkar-eu": 0
+    "odeskiy-tarren-mill-eu": 0,
+    "sangvyn-tarren-mill-eu": 0,
+    "shatnyi-terokkar-eu": 0,
+    "zanziwolf-tarren-mill-eu": 0,
+    "arthasright-tarren-mill-eu": 0,
+    "blackdaddy-tarren-mill-eu": 0,
+    "duszi-terokkar-eu": 0,
+    "icebloomi-tarren-mill-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,27 +36,6 @@
   },
   "batch": {
     "selected": [
-      "trypoid-silvermoon-eu",
-      "mistery-draenor-eu",
-      "nebatur-terokkar-eu",
-      "ragnarosh-terokkar-eu",
-      "kashin-terokkar-eu",
-      "krouli-terokkar-eu",
-      "lightass-terokkar-eu",
-      "mafik-terokkar-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "trypoid-silvermoon-eu",
-      "mistery-draenor-eu",
-      "nebatur-terokkar-eu",
-      "ragnarosh-terokkar-eu",
-      "kashin-terokkar-eu",
-      "krouli-terokkar-eu",
-      "lightass-terokkar-eu",
-      "mafik-terokkar-eu"
-    ],
-    "pending": [
       "odeskiy-tarren-mill-eu",
       "sangvyn-tarren-mill-eu",
       "shatnyi-terokkar-eu",
@@ -64,7 +43,20 @@
       "arthasright-tarren-mill-eu",
       "blackdaddy-tarren-mill-eu",
       "duszi-terokkar-eu",
-      "icebloomi-tarren-mill-eu",
+      "icebloomi-tarren-mill-eu"
+    ],
+    "updated": [],
+    "scanned": [
+      "odeskiy-tarren-mill-eu",
+      "sangvyn-tarren-mill-eu",
+      "shatnyi-terokkar-eu",
+      "zanziwolf-tarren-mill-eu",
+      "arthasright-tarren-mill-eu",
+      "blackdaddy-tarren-mill-eu",
+      "duszi-terokkar-eu",
+      "icebloomi-tarren-mill-eu"
+    ],
+    "pending": [
       "komatoznic-tarren-mill-eu",
       "umbramind-terokkar-eu",
       "yokusir-terokkar-eu",
@@ -213,11 +205,17 @@
       "bureviy-doomhammer-eu",
       "katsyt-terokkar-eu",
       "krekor-tarren-mill-eu",
-      "сетария-galakrond-eu"
-    ],
-    "missingSnapshots": [
+      "сетария-galakrond-eu",
+      "kashin-terokkar-eu",
+      "krouli-terokkar-eu",
+      "lightass-terokkar-eu",
+      "mafik-terokkar-eu",
+      "mistery-draenor-eu",
+      "nebatur-terokkar-eu",
+      "ragnarosh-terokkar-eu",
       "trypoid-silvermoon-eu"
     ],
+    "missingSnapshots": [],
     "rotatedFresh": []
   },
   "warnings": [],
