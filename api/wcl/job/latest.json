@@ -1,27 +1,27 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-15T18:46:08.567Z",
+  "updatedAt": "2026-06-15T21:47:04.238Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
-  "rosterMembers": 162,
+  "rosterMembers": 163,
   "selectedMembers": 8,
   "scannedMembers": 8,
   "changedMembers": 0,
-  "existingSnapshots": 162,
+  "existingSnapshots": 163,
   "reportsScanned": 8,
   "fightsScanned": 8,
   "wclQueriesUsed": 26,
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "silpo-ravencrest-eu": 0,
-    "алак-goldrinn-eu": 0,
-    "сетария-galakrond-eu": 0,
-    "azuriel-terokkar-eu": 0,
-    "frrtiix-draenor-eu": 0,
-    "bureviy-doomhammer-eu": 0,
-    "katsyt-terokkar-eu": 0,
-    "krekor-tarren-mill-eu": 0
+    "trypoid-silvermoon-eu": 0,
+    "mistery-draenor-eu": 0,
+    "nebatur-terokkar-eu": 0,
+    "ragnarosh-terokkar-eu": 0,
+    "kashin-terokkar-eu": 0,
+    "krouli-terokkar-eu": 0,
+    "lightass-terokkar-eu": 0,
+    "mafik-terokkar-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,34 +36,27 @@
   },
   "batch": {
     "selected": [
-      "silpo-ravencrest-eu",
-      "алак-goldrinn-eu",
-      "сетария-galakrond-eu",
-      "azuriel-terokkar-eu",
-      "frrtiix-draenor-eu",
-      "bureviy-doomhammer-eu",
-      "katsyt-terokkar-eu",
-      "krekor-tarren-mill-eu"
-    ],
-    "updated": [],
-    "scanned": [
-      "silpo-ravencrest-eu",
-      "алак-goldrinn-eu",
-      "сетария-galakrond-eu",
-      "azuriel-terokkar-eu",
-      "frrtiix-draenor-eu",
-      "bureviy-doomhammer-eu",
-      "katsyt-terokkar-eu",
-      "krekor-tarren-mill-eu"
-    ],
-    "pending": [
+      "trypoid-silvermoon-eu",
       "mistery-draenor-eu",
       "nebatur-terokkar-eu",
       "ragnarosh-terokkar-eu",
       "kashin-terokkar-eu",
       "krouli-terokkar-eu",
       "lightass-terokkar-eu",
-      "mafik-terokkar-eu",
+      "mafik-terokkar-eu"
+    ],
+    "updated": [],
+    "scanned": [
+      "trypoid-silvermoon-eu",
+      "mistery-draenor-eu",
+      "nebatur-terokkar-eu",
+      "ragnarosh-terokkar-eu",
+      "kashin-terokkar-eu",
+      "krouli-terokkar-eu",
+      "lightass-terokkar-eu",
+      "mafik-terokkar-eu"
+    ],
+    "pending": [
       "odeskiy-tarren-mill-eu",
       "sangvyn-tarren-mill-eu",
       "shatnyi-terokkar-eu",
@@ -212,9 +205,19 @@
       "rozbiynik-tarren-mill-eu",
       "shennai-ravencrest-eu",
       "jakeyo-ravencrest-eu",
-      "nwlck-ravencrest-eu"
+      "nwlck-ravencrest-eu",
+      "azuriel-terokkar-eu",
+      "frrtiix-draenor-eu",
+      "silpo-ravencrest-eu",
+      "алак-goldrinn-eu",
+      "bureviy-doomhammer-eu",
+      "katsyt-terokkar-eu",
+      "krekor-tarren-mill-eu",
+      "сетария-galakrond-eu"
     ],
-    "missingSnapshots": [],
+    "missingSnapshots": [
+      "trypoid-silvermoon-eu"
+    ],
     "rotatedFresh": []
   },
   "warnings": [],

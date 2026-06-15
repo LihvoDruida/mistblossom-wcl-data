@@ -2,11 +2,11 @@
   "schemaVersion": 3,
   "updatedAt": "2026-06-15T21:47:04.238Z",
   "character": {
-    "name": "Kashin",
-    "realmSlug": "terokkar",
+    "name": "Trypoid",
+    "realmSlug": "silvermoon",
     "region": "eu",
-    "slug": "kashin-terokkar-eu",
-    "rank": 1,
+    "slug": "trypoid-silvermoon-eu",
+    "rank": 4,
     "roleHint": "unknown"
   },
   "stats": {
