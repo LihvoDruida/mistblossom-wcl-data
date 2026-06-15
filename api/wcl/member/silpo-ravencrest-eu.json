@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-12T19:12:36.279Z",
+  "updatedAt": "2026-06-15T18:46:08.567Z",
   "character": {
     "name": "Silpo",
     "realmSlug": "ravencrest",
@@ -1548,9 +1548,9 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-12T19:12:36.279Z",
+    "lastScannedAt": "2026-06-15T18:46:08.567Z",
     "lastPullAt": "2026-06-10T19:15:28.694Z",
-    "newPullsInLastScan": 8,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-12T21:56:07.924Z",
+  "updatedAt": "2026-06-15T18:46:08.567Z",
   "character": {
     "name": "Frrtiix",
     "realmSlug": "draenor",
@@ -742,7 +742,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-12T21:56:07.924Z",
+    "lastScannedAt": "2026-06-15T18:46:08.567Z",
     "lastPullAt": "2026-05-15T17:47:05.903Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
