@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-13T08:27:29.877Z",
+  "updatedAt": "2026-06-16T17:10:21.958Z",
   "character": {
     "name": "Thérion",
     "realmSlug": "doomhammer",
@@ -750,7 +750,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-13T08:27:29.877Z",
+    "lastScannedAt": "2026-06-16T17:10:21.958Z",
     "lastPullAt": "2026-05-09T19:39:37.808Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

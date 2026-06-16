@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-13T11:21:31.616Z",
+  "updatedAt": "2026-06-16T17:10:21.958Z",
   "character": {
     "name": "Skirvir",
     "realmSlug": "turalyon",
@@ -1528,9 +1528,9 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-13T11:21:31.616Z",
+    "lastScannedAt": "2026-06-16T17:10:21.958Z",
     "lastPullAt": "2026-06-10T18:27:31.482Z",
-    "newPullsInLastScan": 3,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-16T11:26:28.482Z",
+  "updatedAt": "2026-06-16T17:10:55.775Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -589,94 +589,94 @@
     },
     "freshness": {
       "updatedWithin1h": 8,
-      "updatedWithin6h": 8,
+      "updatedWithin6h": 16,
       "updatedWithin12h": 16,
       "updatedWithin24h": 40,
-      "oldestScannedAt": "2026-06-13T08:27:29.877Z",
-      "newestScannedAt": "2026-06-16T11:25:55.489Z",
+      "oldestScannedAt": "2026-06-13T11:21:31.616Z",
+      "newestScannedAt": "2026-06-16T17:10:21.958Z",
       "staleMembers": [
-        {
-          "slug": "ragnar-k-burning-legion-eu",
-          "name": "Ragnarøøk",
-          "rank": 3,
-          "value": 74.98,
-          "secondary": 0
-        },
-        {
-          "slug": "sneydilio-doomhammer-eu",
-          "name": "Sneydilio",
-          "rank": 3,
-          "value": 74.98,
-          "secondary": 0
-        },
-        {
-          "slug": "therion-doomhammer-eu",
-          "name": "Thérion",
-          "rank": 3,
-          "value": 74.98,
-          "secondary": 10
-        },
-        {
-          "slug": "vurush-turalyon-eu",
-          "name": "Vurush",
-          "rank": 3,
-          "value": 74.98,
-          "secondary": 10
-        },
-        {
-          "slug": "lishiyburn-ragnaros-eu",
-          "name": "Lishiyburn",
-          "rank": 1,
-          "value": 72.08,
-          "secondary": 10
-        },
-        {
-          "slug": "molfar-terokkar-eu",
-          "name": "Mólfár",
-          "rank": 2,
-          "value": 72.08,
-          "secondary": 8
-        },
-        {
-          "slug": "skirvir-turalyon-eu",
-          "name": "Skirvir",
-          "rank": 3,
-          "value": 72.08,
-          "secondary": 10
-        },
-        {
-          "slug": "daslight-terokkar-eu",
-          "name": "Daslight",
-          "rank": 4,
-          "value": 72.08,
-          "secondary": 0
-        },
         {
           "slug": "demhunt-terokkar-eu",
           "name": "Demhunt",
           "rank": 4,
-          "value": 72.08,
+          "value": 77.82,
           "secondary": 0
         },
         {
           "slug": "ionax-draenor-eu",
           "name": "Ionax",
           "rank": 4,
-          "value": 72.08,
+          "value": 77.82,
           "secondary": 0
         },
         {
           "slug": "marmozetroly-tarren-mill-eu",
           "name": "Marmozetroly",
           "rank": 4,
-          "value": 72.08,
+          "value": 77.82,
           "secondary": 10
         },
         {
           "slug": "mavika-doomhammer-eu",
           "name": "Mavika",
           "rank": 4,
-          "value": 72.08,
+          "value": 77.82,
+          "secondary": 0
+        },
+        {
+          "slug": "blackberry-terokkar-eu",
+          "name": "Blackberry",
+          "rank": 3,
+          "value": 74.91,
+          "secondary": 0
+        },
+        {
+          "slug": "straponeero-tarren-mill-eu",
+          "name": "Straponeero",
+          "rank": 3,
+          "value": 74.91,
+          "secondary": 0
+        },
+        {
+          "slug": "travka-terokkar-eu",
+          "name": "Travka",
+          "rank": 3,
+          "value": 74.91,
+          "secondary": 0
+        },
+        {
+          "slug": "yokuha-terokkar-eu",
+          "name": "Yokuha",
+          "rank": 3,
+          "value": 74.91,
+          "secondary": 10
+        },
+        {
+          "slug": "дедика-eversong-eu",
+          "name": "Дедика",
+          "rank": 3,
+          "value": 74.91,
+          "secondary": 10
+        },
+        {
+          "slug": "mercury-tarren-mill-eu",
+          "name": "Mercury",
+          "rank": 4,
+          "value": 74.91,
+          "secondary": 0
+        },
+        {
+          "slug": "otito-draenor-eu",
+          "name": "Otito",
+          "rank": 4,
+          "value": 74.91,
+          "secondary": 10
+        },
+        {
+          "slug": "regin-doomhammer-eu",
+          "name": "Regin",
+          "rank": 4,
+          "value": 74.91,
           "secondary": 0
         }
       ]
@@ -1323,8 +1323,8 @@
       "realmSlug": "ragnaros",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-13T11:21:31.616Z",
-      "lastScannedAt": "2026-06-13T11:21:31.616Z",
+      "updatedAt": "2026-06-16T17:10:21.958Z",
+      "lastScannedAt": "2026-06-16T17:10:21.958Z",
       "lastPullAt": "2026-04-10T19:52:42.330Z",
       "pullsStored": 10,
       "kills": 2,
@@ -1671,8 +1671,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 2,
-      "updatedAt": "2026-06-13T11:21:31.616Z",
-      "lastScannedAt": "2026-06-13T11:21:31.616Z",
+      "updatedAt": "2026-06-16T17:10:21.958Z",
+      "lastScannedAt": "2026-06-16T17:10:21.958Z",
       "lastPullAt": "2026-04-05T18:12:43.110Z",
       "pullsStored": 8,
       "kills": 0,
@@ -2767,8 +2767,8 @@
       "realmSlug": "burning-legion",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-13T08:27:29.877Z",
-      "lastScannedAt": "2026-06-13T08:27:29.877Z",
+      "updatedAt": "2026-06-16T17:10:21.958Z",
+      "lastScannedAt": "2026-06-16T17:10:21.958Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -2925,8 +2925,8 @@
       "realmSlug": "turalyon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-13T11:21:31.616Z",
-      "lastScannedAt": "2026-06-13T11:21:31.616Z",
+      "updatedAt": "2026-06-16T17:10:21.958Z",
+      "lastScannedAt": "2026-06-16T17:10:21.958Z",
       "lastPullAt": "2026-06-10T18:27:31.482Z",
       "pullsStored": 10,
       "kills": 1,
@@ -2957,8 +2957,8 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-13T08:27:29.877Z",
-      "lastScannedAt": "2026-06-13T08:27:29.877Z",
+      "updatedAt": "2026-06-16T17:10:21.958Z",
+      "lastScannedAt": "2026-06-16T17:10:21.958Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -3082,8 +3082,8 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-13T08:27:29.877Z",
-      "lastScannedAt": "2026-06-13T08:27:29.877Z",
+      "updatedAt": "2026-06-16T17:10:21.958Z",
+      "lastScannedAt": "2026-06-16T17:10:21.958Z",
       "lastPullAt": "2026-05-09T19:39:37.808Z",
       "pullsStored": 10,
       "kills": 3,
@@ -3207,8 +3207,8 @@
       "realmSlug": "turalyon",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-13T08:27:29.877Z",
-      "lastScannedAt": "2026-06-13T08:27:29.877Z",
+      "updatedAt": "2026-06-16T17:10:21.958Z",
+      "lastScannedAt": "2026-06-16T17:10:21.958Z",
       "lastPullAt": "2026-05-15T19:23:56.829Z",
       "pullsStored": 10,
       "kills": 4,
@@ -4344,8 +4344,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-13T11:21:31.616Z",
-      "lastScannedAt": "2026-06-13T11:21:31.616Z",
+      "updatedAt": "2026-06-16T17:10:21.958Z",
+      "lastScannedAt": "2026-06-16T17:10:21.958Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
