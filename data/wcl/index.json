@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-16T17:10:55.775Z",
+  "updatedAt": "2026-06-16T21:13:00.148Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -590,93 +590,93 @@
     "freshness": {
       "updatedWithin1h": 8,
       "updatedWithin6h": 16,
-      "updatedWithin12h": 16,
+      "updatedWithin12h": 24,
       "updatedWithin24h": 40,
-      "oldestScannedAt": "2026-06-13T11:21:31.616Z",
-      "newestScannedAt": "2026-06-16T17:10:21.958Z",
+      "oldestScannedAt": "2026-06-13T14:16:11.038Z",
+      "newestScannedAt": "2026-06-16T21:12:27.658Z",
       "staleMembers": [
-        {
-          "slug": "demhunt-terokkar-eu",
-          "name": "Demhunt",
-          "rank": 4,
-          "value": 77.82,
-          "secondary": 0
-        },
-        {
-          "slug": "ionax-draenor-eu",
-          "name": "Ionax",
-          "rank": 4,
-          "value": 77.82,
-          "secondary": 0
-        },
-        {
-          "slug": "marmozetroly-tarren-mill-eu",
-          "name": "Marmozetroly",
-          "rank": 4,
-          "value": 77.82,
-          "secondary": 10
-        },
-        {
-          "slug": "mavika-doomhammer-eu",
-          "name": "Mavika",
-          "rank": 4,
-          "value": 77.82,
-          "secondary": 0
-        },
-        {
-          "slug": "blackberry-terokkar-eu",
-          "name": "Blackberry",
-          "rank": 3,
-          "value": 74.91,
-          "secondary": 0
-        },
-        {
-          "slug": "straponeero-tarren-mill-eu",
-          "name": "Straponeero",
-          "rank": 3,
-          "value": 74.91,
-          "secondary": 0
-        },
-        {
-          "slug": "travka-terokkar-eu",
-          "name": "Travka",
-          "rank": 3,
-          "value": 74.91,
-          "secondary": 0
-        },
-        {
-          "slug": "yokuha-terokkar-eu",
-          "name": "Yokuha",
-          "rank": 3,
-          "value": 74.91,
-          "secondary": 10
-        },
         {
           "slug": "дедика-eversong-eu",
           "name": "Дедика",
           "rank": 3,
-          "value": 74.91,
+          "value": 78.95,
           "secondary": 10
         },
         {
           "slug": "mercury-tarren-mill-eu",
           "name": "Mercury",
           "rank": 4,
-          "value": 74.91,
+          "value": 78.95,
           "secondary": 0
         },
         {
           "slug": "otito-draenor-eu",
           "name": "Otito",
           "rank": 4,
-          "value": 74.91,
+          "value": 78.95,
           "secondary": 10
         },
         {
           "slug": "regin-doomhammer-eu",
           "name": "Regin",
           "rank": 4,
-          "value": 74.91,
+          "value": 78.95,
+          "secondary": 0
+        },
+        {
+          "slug": "forchun-silvermoon-eu",
+          "name": "Forchun",
+          "rank": 1,
+          "value": 74.96,
+          "secondary": 10
+        },
+        {
+          "slug": "ironbelly-silvermoon-eu",
+          "name": "Ironbelly",
+          "rank": 1,
+          "value": 74.96,
+          "secondary": 0
+        },
+        {
+          "slug": "yokum-terokkar-eu",
+          "name": "Yokum",
+          "rank": 3,
+          "value": 74.96,
+          "secondary": 10
+        },
+        {
+          "slug": "зулпот-howling-fjord-eu",
+          "name": "Зулпот",
+          "rank": 3,
+          "value": 74.96,
+          "secondary": 10
+        },
+        {
+          "slug": "клеосса-eversong-eu",
+          "name": "Клеосса",
+          "rank": 3,
+          "value": 74.96,
+          "secondary": 10
+        },
+        {
+          "slug": "rolemodel-burning-legion-eu",
+          "name": "Rolemodel",
+          "rank": 4,
+          "value": 74.96,
+          "secondary": 0
+        },
+        {
+          "slug": "twigsnapper-doomhammer-eu",
+          "name": "Twigsnapper",
+          "rank": 4,
+          "value": 74.96,
+          "secondary": 0
+        },
+        {
+          "slug": "thortun-silvermoon-eu",
+          "name": "Thortun",
+          "rank": 1,
+          "value": 72.86,
           "secondary": 0
         }
       ]
@@ -2017,8 +2017,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-13T14:16:11.038Z",
-      "lastScannedAt": "2026-06-13T14:16:11.038Z",
+      "updatedAt": "2026-06-16T21:12:27.658Z",
+      "lastScannedAt": "2026-06-16T21:12:27.658Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -3020,8 +3020,8 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-13T14:16:11.038Z",
-      "lastScannedAt": "2026-06-13T14:16:11.038Z",
+      "updatedAt": "2026-06-16T21:12:27.658Z",
+      "lastScannedAt": "2026-06-16T21:12:27.658Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -3114,8 +3114,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-13T14:16:11.038Z",
-      "lastScannedAt": "2026-06-13T14:16:11.038Z",
+      "updatedAt": "2026-06-16T21:12:27.658Z",
+      "lastScannedAt": "2026-06-16T21:12:27.658Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -3239,8 +3239,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-13T14:16:11.038Z",
-      "lastScannedAt": "2026-06-13T14:16:11.038Z",
+      "updatedAt": "2026-06-16T21:12:27.658Z",
+      "lastScannedAt": "2026-06-16T21:12:27.658Z",
       "lastPullAt": "2026-04-18T18:59:09.146Z",
       "pullsStored": 10,
       "kills": 0,
@@ -4375,8 +4375,8 @@
       "realmSlug": "terokkar",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-13T11:21:31.616Z",
-      "lastScannedAt": "2026-06-13T11:21:31.616Z",
+      "updatedAt": "2026-06-16T21:12:27.658Z",
+      "lastScannedAt": "2026-06-16T21:12:27.658Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -4531,8 +4531,8 @@
       "realmSlug": "draenor",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-13T11:21:31.616Z",
-      "lastScannedAt": "2026-06-13T11:21:31.616Z",
+      "updatedAt": "2026-06-16T21:12:27.658Z",
+      "lastScannedAt": "2026-06-16T21:12:27.658Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -4718,8 +4718,8 @@
       "realmSlug": "tarren-mill",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-13T11:21:31.616Z",
-      "lastScannedAt": "2026-06-13T11:21:31.616Z",
+      "updatedAt": "2026-06-16T21:12:27.658Z",
+      "lastScannedAt": "2026-06-16T21:12:27.658Z",
       "lastPullAt": "2026-06-10T18:27:31.482Z",
       "pullsStored": 10,
       "kills": 1,
@@ -4750,8 +4750,8 @@
       "realmSlug": "doomhammer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-13T11:21:31.616Z",
-      "lastScannedAt": "2026-06-13T11:21:31.616Z",
+      "updatedAt": "2026-06-16T21:12:27.658Z",
+      "lastScannedAt": "2026-06-16T21:12:27.658Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
