@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-13T14:16:11.038Z",
+  "updatedAt": "2026-06-16T23:40:24.886Z",
   "character": {
     "name": "Regin",
     "realmSlug": "doomhammer",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-13T14:16:11.038Z",
+    "lastScannedAt": "2026-06-16T23:40:24.886Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

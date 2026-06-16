@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-13T18:15:40.228Z",
+  "updatedAt": "2026-06-16T23:40:24.886Z",
   "character": {
     "name": "Зулпот",
     "realmSlug": "howling-fjord",
@@ -745,7 +745,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-13T18:15:40.228Z",
+    "lastScannedAt": "2026-06-16T23:40:24.886Z",
     "lastPullAt": "2026-04-29T19:58:22.554Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
