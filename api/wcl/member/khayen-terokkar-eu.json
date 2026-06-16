@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-13T08:27:29.877Z",
+  "updatedAt": "2026-06-16T11:25:55.489Z",
   "character": {
     "name": "Khayen",
     "realmSlug": "terokkar",
@@ -1548,9 +1548,9 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-13T08:27:29.877Z",
+    "lastScannedAt": "2026-06-16T11:25:55.489Z",
     "lastPullAt": "2026-06-10T19:15:28.694Z",
-    "newPullsInLastScan": 8,
+    "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
 }

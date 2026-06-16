@@ -571,95 +571,95 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 24,
-    "updatedWithin12h": 32,
-    "updatedWithin24h": 48,
-    "oldestScannedAt": "2026-06-13T04:25:59.927Z",
-    "newestScannedAt": "2026-06-15T23:52:21.650Z",
+    "updatedWithin6h": 8,
+    "updatedWithin12h": 16,
+    "updatedWithin24h": 40,
+    "oldestScannedAt": "2026-06-13T08:27:29.877Z",
+    "newestScannedAt": "2026-06-16T11:25:55.489Z",
     "staleMembers": [
-      {
-        "slug": "komatoznic-tarren-mill-eu",
-        "name": "Komatoznic",
-        "rank": 3,
-        "value": 67.45,
-        "secondary": 0
-      },
-      {
-        "slug": "umbramind-terokkar-eu",
-        "name": "Umbramind",
-        "rank": 4,
-        "value": 67.45,
-        "secondary": 0
-      },
-      {
-        "slug": "yokusir-terokkar-eu",
-        "name": "Yokusir",
-        "rank": 4,
-        "value": 67.45,
-        "secondary": 3
-      },
-      {
-        "slug": "zanzimon-tarren-mill-eu",
-        "name": "Zanzimon",
-        "rank": 4,
-        "value": 67.45,
-        "secondary": 0
-      },
-      {
-        "slug": "khayen-terokkar-eu",
-        "name": "Khayen",
-        "rank": 0,
-        "value": 63.42,
-        "secondary": 10
-      },
-      {
-        "slug": "lishiy-ragnaros-eu",
-        "name": "Lishiy",
-        "rank": 1,
-        "value": 63.42,
-        "secondary": 0
-      },
-      {
-        "slug": "lishiystabb-terokkar-eu",
-        "name": "Lishiystabb",
-        "rank": 3,
-        "value": 63.42,
-        "secondary": 0
-      },
-      {
-        "slug": "monkania-terokkar-eu",
-        "name": "Monkania",
-        "rank": 3,
-        "value": 63.42,
-        "secondary": 0
-      },
       {
         "slug": "ragnar-k-burning-legion-eu",
         "name": "Ragnarøøk",
         "rank": 3,
-        "value": 63.42,
+        "value": 74.98,
         "secondary": 0
       },
       {
         "slug": "sneydilio-doomhammer-eu",
         "name": "Sneydilio",
         "rank": 3,
-        "value": 63.42,
+        "value": 74.98,
         "secondary": 0
       },
       {
         "slug": "therion-doomhammer-eu",
         "name": "Thérion",
         "rank": 3,
-        "value": 63.42,
+        "value": 74.98,
         "secondary": 10
       },
       {
         "slug": "vurush-turalyon-eu",
         "name": "Vurush",
         "rank": 3,
-        "value": 63.42,
+        "value": 74.98,
         "secondary": 10
+      },
+      {
+        "slug": "lishiyburn-ragnaros-eu",
+        "name": "Lishiyburn",
+        "rank": 1,
+        "value": 72.08,
+        "secondary": 10
+      },
+      {
+        "slug": "molfar-terokkar-eu",
+        "name": "Mólfár",
+        "rank": 2,
+        "value": 72.08,
+        "secondary": 8
+      },
+      {
+        "slug": "skirvir-turalyon-eu",
+        "name": "Skirvir",
+        "rank": 3,
+        "value": 72.08,
+        "secondary": 10
+      },
+      {
+        "slug": "daslight-terokkar-eu",
+        "name": "Daslight",
+        "rank": 4,
+        "value": 72.08,
+        "secondary": 0
+      },
+      {
+        "slug": "demhunt-terokkar-eu",
+        "name": "Demhunt",
+        "rank": 4,
+        "value": 72.08,
+        "secondary": 0
+      },
+      {
+        "slug": "ionax-draenor-eu",
+        "name": "Ionax",
+        "rank": 4,
+        "value": 72.08,
+        "secondary": 0
+      },
+      {
+        "slug": "marmozetroly-tarren-mill-eu",
+        "name": "Marmozetroly",
+        "rank": 4,
+        "value": 72.08,
+        "secondary": 10
+      },
+      {
+        "slug": "mavika-doomhammer-eu",
+        "name": "Mavika",
+        "rank": 4,
+        "value": 72.08,
+        "secondary": 0
       }
     ]
   },
