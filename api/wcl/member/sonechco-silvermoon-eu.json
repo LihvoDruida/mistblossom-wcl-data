@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-13T20:21:32.285Z",
+  "updatedAt": "2026-06-17T04:55:44.255Z",
   "character": {
     "name": "Sonechco",
     "realmSlug": "silvermoon",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-13T20:21:32.285Z",
+    "lastScannedAt": "2026-06-17T04:55:44.255Z",
     "lastPullAt": "2026-04-05T19:06:02.427Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

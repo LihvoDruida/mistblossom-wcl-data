@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-13T20:21:32.285Z",
+  "updatedAt": "2026-06-17T04:55:44.255Z",
   "character": {
     "name": "Bierdestroer",
     "realmSlug": "silvermoon",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-13T20:21:32.285Z",
+    "lastScannedAt": "2026-06-17T04:55:44.255Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
