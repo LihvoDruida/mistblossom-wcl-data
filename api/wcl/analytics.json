@@ -1,26 +1,26 @@
 {
   "overview": {
-    "members": 163,
-    "membersWithData": 59,
-    "pullsStored": 571,
+    "members": 162,
+    "membersWithData": 58,
+    "pullsStored": 561,
     "distinctFights": 249,
     "kills": 24,
     "wipes": 225,
     "killRate": 0.0964,
     "avgFightDurationMs": 195610,
     "avgRaidDeaths": 17.19,
-    "avgTeamDps": 114364.29,
+    "avgTeamDps": 111260.97,
     "avgTeamHps": 37887.09,
-    "avgPerformanceScore": 18.32,
+    "avgPerformanceScore": 18.15,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.82
+    "avgReliabilityScore": 41.68
   },
   "roles": {
     "damage": {
-      "members": 49,
-      "pulls": 445,
-      "avgRecent": 59593.92,
-      "medianRecent": 62577.76,
+      "members": 48,
+      "pulls": 435,
+      "avgRecent": 59327.43,
+      "medianRecent": 61619.91,
       "bestRecent": 127465.48,
       "maxLast10": 207607.12,
       "deathsPerPull": 0,
@@ -43,7 +43,7 @@
           "slug": "пизнаика-gordunni-eu",
           "name": "Пизнайка",
           "rank": 1,
-          "value": 107338.9,
+          "value": 110698.94,
           "secondary": 0
         },
         {
@@ -394,8 +394,8 @@
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 71.38,
-    "avgConsistencyPercent": 39.75,
+    "avgStabilityPercent": 71.43,
+    "avgConsistencyPercent": 39.87,
     "mostStable": [
       {
         "slug": "yokum-terokkar-eu",
@@ -571,95 +571,95 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 16,
-    "updatedWithin12h": 32,
-    "updatedWithin24h": 56,
-    "oldestScannedAt": "2026-06-14T09:48:52.327Z",
-    "newestScannedAt": "2026-06-17T20:24:00.753Z",
+    "updatedWithin6h": 23,
+    "updatedWithin12h": 31,
+    "updatedWithin24h": 55,
+    "oldestScannedAt": "2026-06-14T12:04:09.897Z",
+    "newestScannedAt": "2026-06-17T22:48:32.630Z",
     "staleMembers": [
-      {
-        "slug": "kaijuro-silvermoon-eu",
-        "name": "Kaijuro",
-        "rank": 4,
-        "value": 82.59,
-        "secondary": 0
-      },
-      {
-        "slug": "medvedich-silvermoon-eu",
-        "name": "Medvedich",
-        "rank": 4,
-        "value": 82.59,
-        "secondary": 0
-      },
-      {
-        "slug": "nanyy-silvermoon-eu",
-        "name": "Nanyy",
-        "rank": 4,
-        "value": 82.59,
-        "secondary": 0
-      },
-      {
-        "slug": "пизнаика-gordunni-eu",
-        "name": "Пизнайка",
-        "rank": 1,
-        "value": 80.34,
-        "secondary": 10
-      },
-      {
-        "slug": "тузольд-gordunni-eu",
-        "name": "Тузольд",
-        "rank": 1,
-        "value": 80.34,
-        "secondary": 10
-      },
-      {
-        "slug": "альянсс-gordunni-eu",
-        "name": "Альянсс",
-        "rank": 3,
-        "value": 80.34,
-        "secondary": 0
-      },
-      {
-        "slug": "галазард-eversong-eu",
-        "name": "Галазард",
-        "rank": 3,
-        "value": 80.34,
-        "secondary": 5
-      },
-      {
-        "slug": "panharanir-kazzak-eu",
-        "name": "Panharanir",
-        "rank": 4,
-        "value": 80.34,
-        "secondary": 0
-      },
       {
         "slug": "ponziani-kazzak-eu",
         "name": "Ponziani",
         "rank": 4,
-        "value": 80.34,
+        "value": 82.75,
         "secondary": 0
       },
       {
         "slug": "slavasalu-silvermoon-eu",
         "name": "Slávásálu",
         "rank": 4,
-        "value": 80.34,
+        "value": 82.75,
         "secondary": 0
       },
       {
         "slug": "zanzilight-tarren-mill-eu",
         "name": "Zanzilight",
         "rank": 4,
-        "value": 80.34,
+        "value": 82.75,
         "secondary": 0
       },
       {
         "slug": "дятелэлуны-soulflayer-eu",
         "name": "Дятелэлуны",
         "rank": 3,
-        "value": 75.7,
+        "value": 78.11,
         "secondary": 0
+      },
+      {
+        "slug": "кеенди-gordunni-eu",
+        "name": "Кеенди",
+        "rank": 3,
+        "value": 78.11,
+        "secondary": 10
+      },
+      {
+        "slug": "кибароу-soulflayer-eu",
+        "name": "Кибароу",
+        "rank": 3,
+        "value": 78.11,
+        "secondary": 0
+      },
+      {
+        "slug": "корукк-eversong-eu",
+        "name": "Корукк",
+        "rank": 3,
+        "value": 78.11,
+        "secondary": 10
+      },
+      {
+        "slug": "кумбар-gordunni-eu",
+        "name": "Кумбар",
+        "rank": 3,
+        "value": 78.11,
+        "secondary": 0
+      },
+      {
+        "slug": "teasick-kazzak-eu",
+        "name": "Teasick",
+        "rank": 4,
+        "value": 78.11,
+        "secondary": 0
+      },
+      {
+        "slug": "threataan-silvermoon-eu",
+        "name": "Threataan",
+        "rank": 4,
+        "value": 78.11,
+        "secondary": 0
+      },
+      {
+        "slug": "valemor-silvermoon-eu",
+        "name": "Valemor",
+        "rank": 4,
+        "value": 78.11,
+        "secondary": 0
+      },
+      {
+        "slug": "мавпита-gordunni-eu",
+        "name": "Мавпита",
+        "rank": 1,
+        "value": 76.52,
+        "secondary": 10
       }
     ]
   },
@@ -676,9 +676,9 @@
       "killRate": 0,
       "avgDurationMs": 141803,
       "avgRaidDeaths": 16.25,
-      "avgTeamDps": 113251.69,
+      "avgTeamDps": 142550.74,
       "avgTeamHps": 0,
-      "bestTeamDps": 127742.41,
+      "bestTeamDps": 235421.07,
       "bestTeamHps": 0,
       "lastPullAt": "2026-06-17T18:57:46.744Z"
     },
@@ -694,7 +694,7 @@
       "killRate": 0,
       "avgDurationMs": 183724,
       "avgRaidDeaths": 19.98,
-      "avgTeamDps": 190122.39,
+      "avgTeamDps": 170541.67,
       "avgTeamHps": 129193.37,
       "bestTeamDps": 527308.89,
       "bestTeamHps": 476391.4,
@@ -784,7 +784,7 @@
       "killRate": 0,
       "avgDurationMs": 194607,
       "avgRaidDeaths": 16.73,
-      "avgTeamDps": 59098.59,
+      "avgTeamDps": 53556.03,
       "avgTeamHps": 36410.1,
       "bestTeamDps": 161690.54,
       "bestTeamHps": 102417.3,
@@ -802,7 +802,7 @@
       "killRate": 0.0278,
       "avgDurationMs": 175340,
       "avgRaidDeaths": 19.53,
-      "avgTeamDps": 75764.95,
+      "avgTeamDps": 74092.64,
       "avgTeamHps": 17064.59,
       "bestTeamDps": 184771.12,
       "bestTeamHps": 84512.88,
@@ -992,13 +992,13 @@
   "classes": [
     {
       "className": "Unknown",
-      "members": 163,
-      "withData": 59,
-      "avgPrimaryRecent3": 23443.8,
-      "avgDpsRecent3": 17441.74,
-      "avgHpsRecent3": 6786.41,
+      "members": 162,
+      "withData": 58,
+      "avgPrimaryRecent3": 23141.69,
+      "avgDpsRecent3": 17102.58,
+      "avgHpsRecent3": 6828.3,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 41.82
+      "avgReliabilityScore": 41.68
     }
   ]
 }

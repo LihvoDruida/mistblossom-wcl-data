@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T12:04:09.897Z",
+  "updatedAt": "2026-06-17T22:48:32.630Z",
   "character": {
     "name": "Panharanir",
     "realmSlug": "kazzak",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T12:04:09.897Z",
+    "lastScannedAt": "2026-06-17T22:48:32.630Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
