@@ -7,6 +7,13 @@
     "secondary": 0
   },
   {
+    "slug": "булкрит-gordunni-eu",
+    "name": "Булкрит",
+    "rank": 1,
+    "value": 110809.99,
+    "secondary": 0
+  },
+  {
     "slug": "пизнаика-gordunni-eu",
     "name": "Пизнайка",
     "rank": 1,
@@ -39,13 +46,6 @@
     "name": "Mafik",
     "rank": 1,
     "value": 96913.83,
-    "secondary": 0
-  },
-  {
-    "slug": "булкрит-gordunni-eu",
-    "name": "Булкрит",
-    "rank": 1,
-    "value": 96418.96,
     "secondary": 0
   },
   {

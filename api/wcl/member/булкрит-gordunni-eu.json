@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T09:48:52.327Z",
+  "updatedAt": "2026-06-17T20:24:00.753Z",
   "character": {
     "name": "Булкрит",
     "realmSlug": "gordunni",
@@ -16,46 +16,46 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 201,
+    "totalRaidDeaths": 172,
     "deathsPerPull": 0,
-    "stabilityPercent": 84.18,
-    "consistencyPercent": 68.87,
-    "performanceScore": 63.52,
+    "stabilityPercent": 86.74,
+    "consistencyPercent": 61.75,
+    "performanceScore": 63.14,
     "survivalScore": 100,
-    "reliabilityScore": 78.44,
+    "reliabilityScore": 78.23,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 96418.96,
+      "avgDps": 110809.99,
       "avgHps": 0,
-      "avgPrimary": 96418.96,
-      "avgDurationMs": 183301,
+      "avgPrimary": 110809.99,
+      "avgDurationMs": 163307,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 94050.77,
+      "avgDps": 109989.1,
       "avgHps": 0,
-      "avgPrimary": 94050.77,
-      "avgDurationMs": 142552,
+      "avgPrimary": 109989.1,
+      "avgDurationMs": 133583,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 114535.47,
+      "maxDps": 127742.41,
       "minDps": 78886.01,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 114535.47,
+      "maxPrimary": 127742.41,
       "minPrimary": 78886.01,
-      "maxDurationMs": 250245,
-      "minDurationMs": 90883
+      "maxDurationMs": 211411,
+      "minDurationMs": 94067
     },
     "trend": {
       "direction": "flat",
-      "recentAvg": 96418.96,
-      "previousAvg": 94050.77,
-      "delta": 2368.19,
-      "deltaPercent": 2.52
+      "recentAvg": 110809.99,
+      "previousAvg": 109989.1,
+      "delta": 820.89,
+      "deltaPercent": 0.75
     },
     "byRole": {
       "healer": {
@@ -71,11 +71,11 @@
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 96418.96,
-        "maxLast10": 114535.47,
+        "avgRecent": 110809.99,
+        "maxLast10": 127742.41,
         "minLast10": 78886.01,
         "deathsPerPull": 0,
-        "bestPullKey": "RL79bk4gWVYtjAC2:25:Булкрит:gordunni:eu",
+        "bestPullKey": "YmMXVLgCwzT6j2cr:12:Булкрит:gordunni:eu",
         "worstPullKey": "RL79bk4gWVYtjAC2:31:Булкрит:gordunni:eu"
       },
       "unknown": {
@@ -103,6 +103,1158 @@
     }
   },
   "pulls": [
+    {
+      "key": "YmMXVLgCwzT6j2cr:18:Булкрит:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=18",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:57:46.744Z",
+      "durationMs": 194721,
+      "bossPercentage": 70.85,
+      "fightPercentage": 70.85,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 47,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 122907.84,
+        "hps": 10784.13,
+        "primary": 122907.84,
+        "primaryKind": "dps",
+        "fightDps": 122907.84,
+        "fightHps": 10784.13,
+        "activeDps": 124314.29,
+        "activeHps": 11350.55,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 23932738,
+        "healingTotal": 2099897,
+        "damageActiveTimeMs": 192518,
+        "healingActiveTimeMs": 185004,
+        "damageTotalTimeMs": 194721,
+        "healingTotalTimeMs": 194721,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 18,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6472787,
+          "endTime": 6667508,
+          "bossPercentage": 70.85,
+          "fightPercentage": 70.85,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 23932738,
+              "activeTime": 192518,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 2099897,
+              "activeTime": 185004,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:17:Булкрит:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=17",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:53:14.132Z",
+      "durationMs": 159209,
+      "bossPercentage": 78.19,
+      "fightPercentage": 78.19,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 47,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 96802.73,
+        "hps": 8073.99,
+        "primary": 96802.73,
+        "primaryKind": "dps",
+        "fightDps": 96802.73,
+        "fightHps": 8073.99,
+        "activeDps": 102993.64,
+        "activeHps": 9457.28,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 15411866,
+        "healingTotal": 1285452,
+        "damageActiveTimeMs": 149639,
+        "healingActiveTimeMs": 135922,
+        "damageTotalTimeMs": 159209,
+        "healingTotalTimeMs": 159209,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 17,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6200175,
+          "endTime": 6359384,
+          "bossPercentage": 78.19,
+          "fightPercentage": 78.19,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 15411866,
+              "activeTime": 149639,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 1285452,
+              "activeTime": 135922,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:16:Булкрит:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=16",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:41:51.760Z",
+      "durationMs": 135992,
+      "bossPercentage": 76.74,
+      "fightPercentage": 76.74,
+      "averageItemLevel": 287.5,
+      "actor": {
+        "id": 47,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 112719.4,
+        "hps": 9526.49,
+        "primary": 112719.4,
+        "primaryKind": "dps",
+        "fightDps": 112719.4,
+        "fightHps": 9526.49,
+        "activeDps": 119474.49,
+        "activeHps": 10534.36,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 15328936,
+        "healingTotal": 1295526,
+        "damageActiveTimeMs": 128303,
+        "healingActiveTimeMs": 122981,
+        "damageTotalTimeMs": 135992,
+        "healingTotalTimeMs": 135992,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 16,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5517803,
+          "endTime": 5653795,
+          "bossPercentage": 76.74,
+          "fightPercentage": 76.74,
+          "averageItemLevel": 287.5
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 15328936,
+              "activeTime": 128303,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 1295526,
+              "activeTime": 122981,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:15:Булкрит:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=15",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:31:20.098Z",
+      "durationMs": 168405,
+      "bossPercentage": 75.75,
+      "fightPercentage": 75.75,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 47,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 105613.49,
+        "hps": 7060.24,
+        "primary": 105613.49,
+        "primaryKind": "dps",
+        "fightDps": 105613.49,
+        "fightHps": 7060.24,
+        "activeDps": 123024.95,
+        "activeHps": 8728.64,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 17785840,
+        "healingTotal": 1188980,
+        "damageActiveTimeMs": 144571,
+        "healingActiveTimeMs": 136216,
+        "damageTotalTimeMs": 168405,
+        "healingTotalTimeMs": 168405,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 15,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4886141,
+          "endTime": 5054546,
+          "bossPercentage": 75.75,
+          "fightPercentage": 75.75,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 17785840,
+              "activeTime": 144571,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 1188980,
+              "activeTime": 136216,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:14:Булкрит:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=14",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:25:08.620Z",
+      "durationMs": 94067,
+      "bossPercentage": 83.63,
+      "fightPercentage": 83.63,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 47,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 100708.75,
+        "hps": 7790.8,
+        "primary": 100708.75,
+        "primaryKind": "dps",
+        "fightDps": 100708.75,
+        "fightHps": 7790.8,
+        "activeDps": 115902.05,
+        "activeHps": 9163.58,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 9473370,
+        "healingTotal": 732857,
+        "damageActiveTimeMs": 81736,
+        "healingActiveTimeMs": 79975,
+        "damageTotalTimeMs": 94067,
+        "healingTotalTimeMs": 94067,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 14,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4514663,
+          "endTime": 4608730,
+          "bossPercentage": 83.63,
+          "fightPercentage": 83.63,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 9473370,
+              "activeTime": 81736,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 732857,
+              "activeTime": 79975,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:13:Булкрит:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=13",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:20:14.101Z",
+      "durationMs": 138277,
+      "bossPercentage": 78.4,
+      "fightPercentage": 78.4,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 47,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 123645.05,
+        "hps": 10988.75,
+        "primary": 123645.05,
+        "primaryKind": "dps",
+        "fightDps": 123645.05,
+        "fightHps": 10988.75,
+        "activeDps": 124571.15,
+        "activeHps": 11173.56,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 17097266,
+        "healingTotal": 1519492,
+        "damageActiveTimeMs": 137249,
+        "healingActiveTimeMs": 135990,
+        "damageTotalTimeMs": 138277,
+        "healingTotalTimeMs": 138277,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 13,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4220144,
+          "endTime": 4358421,
+          "bossPercentage": 78.4,
+          "fightPercentage": 78.4,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 17097266,
+              "activeTime": 137249,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 1519492,
+              "activeTime": 135990,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:12:Булкрит:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=12",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:16:41.498Z",
+      "durationMs": 145229,
+      "bossPercentage": 78.53,
+      "fightPercentage": 78.53,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 47,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 127742.41,
+        "hps": 10281.73,
+        "primary": 127742.41,
+        "primaryKind": "dps",
+        "fightDps": 127742.41,
+        "fightHps": 10281.73,
+        "activeDps": 128547.88,
+        "activeHps": 10600.71,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 18551902,
+        "healingTotal": 1493206,
+        "damageActiveTimeMs": 144319,
+        "healingActiveTimeMs": 140859,
+        "damageTotalTimeMs": 145229,
+        "healingTotalTimeMs": 145229,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 12,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4007541,
+          "endTime": 4152770,
+          "bossPercentage": 78.53,
+          "fightPercentage": 78.53,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 18551902,
+              "activeTime": 144319,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 1493206,
+              "activeTime": 140859,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:11:Булкрит:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=11",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:12:37.893Z",
+      "durationMs": 98520,
+      "bossPercentage": 83.55,
+      "fightPercentage": 83.55,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 47,
+        "name": "Булкрит",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Paladin"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Paladin-Retribution",
+        "className": "Paladin",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 115873.88,
+        "hps": 9847.89,
+        "primary": 115873.88,
+        "primaryKind": "dps",
+        "fightDps": 115873.88,
+        "fightHps": 9847.89,
+        "activeDps": 121252.2,
+        "activeHps": 11413.75,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 11415895,
+        "healingTotal": 970214,
+        "damageActiveTimeMs": 94150,
+        "healingActiveTimeMs": 85004,
+        "damageTotalTimeMs": 98520,
+        "healingTotalTimeMs": 98520,
+        "damageEntryId": 47,
+        "healingEntryId": 47,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 11,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3763936,
+          "endTime": 3862456,
+          "bossPercentage": 83.55,
+          "fightPercentage": 83.55,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 11415895,
+              "activeTime": 94150,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:47",
+            "matchedEntry": {
+              "id": 47,
+              "name": "Булкрит",
+              "type": "Paladin",
+              "icon": "Paladin-Retribution",
+              "total": 970214,
+              "activeTime": 85004,
+              "itemLevel": 288,
+              "guid": 261438688
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 47,
+          "matchedActorName": "Булкрит",
+          "normalizedKeys": [
+            "булкрит:gordunni:eu",
+            "булкрит::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Paladin-Retribution",
+            "className": "Paladin",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "RL79bk4gWVYtjAC2:32:Булкрит:gordunni:eu",
       "reportCode": "RL79bk4gWVYtjAC2",
@@ -390,1167 +1542,15 @@
           }
         }
       }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:30:Булкрит:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 30,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=30",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T19:05:05.526Z",
-      "durationMs": 157690,
-      "bossPercentage": 47.28,
-      "fightPercentage": 47.28,
-      "averageItemLevel": 287.6499938964844,
-      "actor": {
-        "id": 11,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Paladin-Retribution",
-        "className": "Paladin",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 105717.71,
-        "hps": 10007.38,
-        "primary": 105717.71,
-        "primaryKind": "dps",
-        "fightDps": 105717.71,
-        "fightHps": 10007.38,
-        "activeDps": 111930.72,
-        "activeHps": 10518.74,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 13
-      },
-      "source": {
-        "damageTotal": 16670625,
-        "healingTotal": 1578064,
-        "damageActiveTimeMs": 148937,
-        "healingActiveTimeMs": 150024,
-        "damageTotalTimeMs": 157690,
-        "healingTotalTimeMs": 157690,
-        "damageEntryId": 11,
-        "healingEntryId": 11,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 30,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6960668,
-          "endTime": 7118358,
-          "bossPercentage": 47.28,
-          "fightPercentage": 47.28,
-          "averageItemLevel": 287.6499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157690,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 16670625,
-              "activeTime": 148937,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157690,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 1578064,
-              "activeTime": 150024,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 13,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 11,
-          "matchedActorName": "Булкрит",
-          "normalizedKeys": [
-            "булкрит:gordunni:eu",
-            "булкрит::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Paladin-Retribution",
-            "className": "Paladin",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:29:Булкрит:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 29,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=29",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:58:57.564Z",
-      "durationMs": 172779,
-      "bossPercentage": 46.53,
-      "fightPercentage": 46.53,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 11,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Paladin-Retribution",
-        "className": "Paladin",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 96573.29,
-        "hps": 8995.29,
-        "primary": 96573.29,
-        "primaryKind": "dps",
-        "fightDps": 96573.29,
-        "fightHps": 8995.29,
-        "activeDps": 101798.77,
-        "activeHps": 10777.47,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 16685837,
-        "healingTotal": 1554198,
-        "damageActiveTimeMs": 163910,
-        "healingActiveTimeMs": 144208,
-        "damageTotalTimeMs": 172779,
-        "healingTotalTimeMs": 172779,
-        "damageEntryId": 11,
-        "healingEntryId": 11,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 29,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6592706,
-          "endTime": 6765485,
-          "bossPercentage": 46.53,
-          "fightPercentage": 46.53,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 172779,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 16685837,
-              "activeTime": 163910,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 172779,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 1554198,
-              "activeTime": 144208,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 11,
-          "matchedActorName": "Булкрит",
-          "normalizedKeys": [
-            "булкрит:gordunni:eu",
-            "булкрит::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Paladin-Retribution",
-            "className": "Paladin",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:28:Булкрит:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:46:37.242Z",
-      "durationMs": 92715,
-      "bossPercentage": 78.58,
-      "fightPercentage": 78.58,
-      "averageItemLevel": 287.6499938964844,
-      "actor": {
-        "id": 11,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Paladin-Retribution",
-        "className": "Paladin",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 96176.35,
-        "hps": 9821.19,
-        "primary": 96176.35,
-        "primaryKind": "dps",
-        "fightDps": 96176.35,
-        "fightHps": 9821.19,
-        "activeDps": 97871.67,
-        "activeHps": 14205.27,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 8916990,
-        "healingTotal": 910572,
-        "damageActiveTimeMs": 91109,
-        "healingActiveTimeMs": 64101,
-        "damageTotalTimeMs": 92715,
-        "healingTotalTimeMs": 92715,
-        "damageEntryId": 11,
-        "healingEntryId": 11,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 28,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 5852384,
-          "endTime": 5945099,
-          "bossPercentage": 78.58,
-          "fightPercentage": 78.58,
-          "averageItemLevel": 287.6499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 92715,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 8916990,
-              "activeTime": 91109,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 92715,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 910572,
-              "activeTime": 64101,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 11,
-          "matchedActorName": "Булкрит",
-          "normalizedKeys": [
-            "булкрит:gordunni:eu",
-            "булкрит::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Paladin-Retribution",
-            "className": "Paladin",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:27:Булкрит:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=27",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:27:31.482Z",
-      "durationMs": 162162,
-      "bossPercentage": 57.42,
-      "fightPercentage": 57.42,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 11,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Paladin-Retribution",
-        "className": "Paladin",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 89402.67,
-        "hps": 7178.4,
-        "primary": 89402.67,
-        "primaryKind": "dps",
-        "fightDps": 89402.67,
-        "fightHps": 7178.4,
-        "activeDps": 114632.72,
-        "activeHps": 9952.06,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 14497715,
-        "healingTotal": 1164063,
-        "damageActiveTimeMs": 126471,
-        "healingActiveTimeMs": 116967,
-        "damageTotalTimeMs": 162162,
-        "healingTotalTimeMs": 162162,
-        "damageEntryId": 11,
-        "healingEntryId": 11,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 27,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4706624,
-          "endTime": 4868786,
-          "bossPercentage": 57.42,
-          "fightPercentage": 57.42,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 162162,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 14497715,
-              "activeTime": 126471,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 162162,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 1164063,
-              "activeTime": 116967,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 11,
-          "matchedActorName": "Булкрит",
-          "normalizedKeys": [
-            "булкрит:gordunni:eu",
-            "булкрит::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Paladin-Retribution",
-            "className": "Paladin",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:26:Булкрит:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=26",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:23:01.641Z",
-      "durationMs": 100948,
-      "bossPercentage": 72.73,
-      "fightPercentage": 72.73,
-      "averageItemLevel": 287.54998779296875,
-      "actor": {
-        "id": 11,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Paladin-Retribution",
-        "className": "Paladin",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 106753.17,
-        "hps": 5882.65,
-        "primary": 106753.17,
-        "primaryKind": "dps",
-        "fightDps": 106753.17,
-        "fightHps": 5882.65,
-        "activeDps": 109861.34,
-        "activeHps": 6118.87,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 10776519,
-        "healingTotal": 593842,
-        "damageActiveTimeMs": 98092,
-        "healingActiveTimeMs": 97051,
-        "damageTotalTimeMs": 100948,
-        "healingTotalTimeMs": 100948,
-        "damageEntryId": 11,
-        "healingEntryId": 11,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 26,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4436783,
-          "endTime": 4537731,
-          "bossPercentage": 72.73,
-          "fightPercentage": 72.73,
-          "averageItemLevel": 287.54998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 19,
-            "totalTimeMs": 100948,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 10776519,
-              "activeTime": 98092,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 100948,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 593842,
-              "activeTime": 97051,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 11,
-          "matchedActorName": "Булкрит",
-          "normalizedKeys": [
-            "булкрит:gordunni:eu",
-            "булкрит::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Paladin-Retribution",
-            "className": "Paladin",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:25:Булкрит:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=25",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:11:38.181Z",
-      "durationMs": 90883,
-      "bossPercentage": 71.27,
-      "fightPercentage": 71.27,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 11,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Paladin-Retribution",
-        "className": "Paladin",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 114535.47,
-        "hps": 6861.65,
-        "primary": 114535.47,
-        "primaryKind": "dps",
-        "fightDps": 114535.47,
-        "fightHps": 6861.65,
-        "activeDps": 118268.99,
-        "activeHps": 7088.38,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 22
-      },
-      "source": {
-        "damageTotal": 10409327,
-        "healingTotal": 623607,
-        "damageActiveTimeMs": 88014,
-        "healingActiveTimeMs": 87976,
-        "damageTotalTimeMs": 90883,
-        "healingTotalTimeMs": 90883,
-        "damageEntryId": 11,
-        "healingEntryId": 11,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:11,healing:actor-id:11"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 25,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 3753323,
-          "endTime": 3844206,
-          "bossPercentage": 71.27,
-          "fightPercentage": 71.27,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 19,
-            "totalTimeMs": 90883,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 10409327,
-              "activeTime": 88014,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 90883,
-            "matchedBy": "actor-id:11",
-            "matchedEntry": {
-              "id": 11,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 623607,
-              "activeTime": 87976,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 22,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 11,
-          "matchedActorName": "Булкрит",
-          "normalizedKeys": [
-            "булкрит:gordunni:eu",
-            "булкрит::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Paladin-Retribution",
-            "className": "Paladin",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:18:Булкрит:gordunni:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T19:19:52.310Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 18,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=18",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T19:13:13.049Z",
-      "durationMs": 250245,
-      "bossPercentage": 86.45,
-      "fightPercentage": 86.45,
-      "averageItemLevel": 285.3500061035156,
-      "actor": {
-        "id": 6,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Paladin-Retribution",
-        "className": "Paladin",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 90617,
-        "hps": 8182.15,
-        "primary": 90617,
-        "primaryKind": "dps",
-        "fightDps": 90617,
-        "fightHps": 8182.15,
-        "activeDps": 102483.64,
-        "activeHps": 8785.92,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 22676452,
-        "healingTotal": 2047541,
-        "damageActiveTimeMs": 221269,
-        "healingActiveTimeMs": 233048,
-        "damageTotalTimeMs": 250245,
-        "healingTotalTimeMs": 250245,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780773592310
-        },
-        "fight": {
-          "id": 18,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 7122005,
-          "endTime": 7372250,
-          "bossPercentage": 86.45,
-          "fightPercentage": 86.45,
-          "averageItemLevel": 285.3500061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 250245,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 22676452,
-              "activeTime": 221269,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 250245,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 2047541,
-              "activeTime": 233048,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 6,
-          "matchedActorName": "Булкрит",
-          "normalizedKeys": [
-            "булкрит:gordunni:eu",
-            "булкрит::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Paladin-Retribution",
-            "className": "Paladin",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "kgwGHZ3DFJr7TVLv:17:Булкрит:gordunni:eu",
-      "reportCode": "kgwGHZ3DFJr7TVLv",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-06T17:14:31.044Z",
-      "reportEndedAt": "2026-06-06T19:19:52.310Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 17,
-      "url": "https://www.warcraftlogs.com/reports/kgwGHZ3DFJr7TVLv#fight=17",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-06T19:01:51.678Z",
-      "durationMs": 134861,
-      "bossPercentage": 58.84,
-      "fightPercentage": 58.84,
-      "averageItemLevel": 285.3500061035156,
-      "actor": {
-        "id": 6,
-        "name": "Булкрит",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Paladin"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Paladin-Retribution",
-        "className": "Paladin",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 101386.29,
-        "hps": 8593,
-        "primary": 101386.29,
-        "primaryKind": "dps",
-        "fightDps": 101386.29,
-        "fightHps": 8593,
-        "activeDps": 102921.02,
-        "activeHps": 10707.88,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 13673057,
-        "healingTotal": 1158860,
-        "damageActiveTimeMs": 132850,
-        "healingActiveTimeMs": 108225,
-        "damageTotalTimeMs": 134861,
-        "healingTotalTimeMs": 134861,
-        "damageEntryId": 6,
-        "healingEntryId": 6,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:6,healing:actor-id:6"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "kgwGHZ3DFJr7TVLv",
-          "title": "VS / DR / MQD",
-          "startTime": 1780766071044,
-          "endTime": 1780773592310
-        },
-        "fight": {
-          "id": 17,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6440634,
-          "endTime": 6575495,
-          "bossPercentage": 58.84,
-          "fightPercentage": 58.84,
-          "averageItemLevel": 285.3500061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 134861,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 13673057,
-              "activeTime": 132850,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 134861,
-            "matchedBy": "actor-id:6",
-            "matchedEntry": {
-              "id": 6,
-              "name": "Булкрит",
-              "type": "Paladin",
-              "icon": "Paladin-Retribution",
-              "total": 1158860,
-              "activeTime": 108225,
-              "itemLevel": 288,
-              "guid": 261438688
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 6,
-          "matchedActorName": "Булкрит",
-          "normalizedKeys": [
-            "булкрит:gordunni:eu",
-            "булкрит::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Paladin-Retribution",
-            "className": "Paladin",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T09:48:52.327Z",
-    "lastPullAt": "2026-06-10T19:15:28.694Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-17T20:24:00.753Z",
+    "lastPullAt": "2026-06-17T18:57:46.744Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }

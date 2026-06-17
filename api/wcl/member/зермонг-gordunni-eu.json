@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T09:48:52.327Z",
+  "updatedAt": "2026-06-17T20:24:00.753Z",
   "character": {
     "name": "Зермонг",
     "realmSlug": "gordunni",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T09:48:52.327Z",
+    "lastScannedAt": "2026-06-17T20:24:00.753Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
