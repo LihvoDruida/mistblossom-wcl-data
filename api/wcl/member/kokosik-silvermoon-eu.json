@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-13T22:12:04.695Z",
+  "updatedAt": "2026-06-17T09:56:37.005Z",
   "character": {
     "name": "Kokosik",
     "realmSlug": "silvermoon",
@@ -748,7 +748,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-13T22:12:04.695Z",
+    "lastScannedAt": "2026-06-17T09:56:37.005Z",
     "lastPullAt": "2026-04-29T20:28:20.858Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
