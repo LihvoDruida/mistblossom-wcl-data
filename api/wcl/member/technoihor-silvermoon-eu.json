@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T00:15:32.512Z",
+  "updatedAt": "2026-06-17T13:48:33.186Z",
   "character": {
     "name": "Technoihor",
     "realmSlug": "silvermoon",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T00:15:32.512Z",
+    "lastScannedAt": "2026-06-17T13:48:33.186Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
