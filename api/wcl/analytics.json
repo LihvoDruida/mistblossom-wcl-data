@@ -574,91 +574,91 @@
     "updatedWithin6h": 16,
     "updatedWithin12h": 24,
     "updatedWithin24h": 48,
-    "oldestScannedAt": "2026-06-14T00:15:32.512Z",
-    "newestScannedAt": "2026-06-17T13:48:33.186Z",
+    "oldestScannedAt": "2026-06-14T05:57:37.295Z",
+    "newestScannedAt": "2026-06-17T17:12:18.597Z",
     "staleMembers": [
-      {
-        "slug": "vi-n-silvermoon-eu",
-        "name": "Vîøn",
-        "rank": 3,
-        "value": 85.56,
-        "secondary": 0
-      },
-      {
-        "slug": "нежнаяпулька-eversong-eu",
-        "name": "Нежнаяпулька",
-        "rank": 3,
-        "value": 85.56,
-        "secondary": 10
-      },
-      {
-        "slug": "нежныилок-eversong-eu",
-        "name": "Нежныйлок",
-        "rank": 3,
-        "value": 85.56,
-        "secondary": 0
-      },
-      {
-        "slug": "пандашоманко-eversong-eu",
-        "name": "Пандашоманко",
-        "rank": 3,
-        "value": 79.86,
-        "secondary": 10
-      },
-      {
-        "slug": "bloemfontain-silvermoon-eu",
-        "name": "Bloemfontain",
-        "rank": 4,
-        "value": 79.86,
-        "secondary": 0
-      },
-      {
-        "slug": "freddiedredd-silvermoon-eu",
-        "name": "Freddiedredd",
-        "rank": 4,
-        "value": 79.86,
-        "secondary": 10
-      },
-      {
-        "slug": "gaplik-silvermoon-eu",
-        "name": "Gaplik",
-        "rank": 4,
-        "value": 79.86,
-        "secondary": 0
-      },
-      {
-        "slug": "hlorygole-silvermoon-eu",
-        "name": "Hlorygole",
-        "rank": 4,
-        "value": 79.86,
-        "secondary": 0
-      },
       {
         "slug": "inika-silvermoon-eu",
         "name": "Inika",
         "rank": 4,
-        "value": 79.86,
+        "value": 83.25,
         "secondary": 0
       },
       {
         "slug": "zanziholic-tarren-mill-eu",
         "name": "Zanziholic",
         "rank": 4,
-        "value": 79.86,
+        "value": 83.25,
         "secondary": 0
       },
       {
         "slug": "zanzimond-tarren-mill-eu",
         "name": "Zanzimond",
         "rank": 4,
-        "value": 79.86,
+        "value": 83.25,
         "secondary": 0
       },
       {
         "slug": "булкрит-gordunni-eu",
         "name": "Булкрит",
         "rank": 1,
-        "value": 76,
+        "value": 79.4,
+        "secondary": 10
+      },
+      {
+        "slug": "амарак-gordunni-eu",
+        "name": "Амарак",
+        "rank": 3,
+        "value": 79.4,
+        "secondary": 0
+      },
+      {
+        "slug": "графдекот-gordunni-eu",
+        "name": "Графдекот",
+        "rank": 3,
+        "value": 79.4,
+        "secondary": 10
+      },
+      {
+        "slug": "зермонг-gordunni-eu",
+        "name": "Зермонг",
+        "rank": 3,
+        "value": 79.4,
+        "secondary": 0
+      },
+      {
+        "slug": "juz-silvermoon-eu",
+        "name": "Juzø",
+        "rank": 4,
+        "value": 79.4,
+        "secondary": 0
+      },
+      {
+        "slug": "kaijuro-silvermoon-eu",
+        "name": "Kaijuro",
+        "rank": 4,
+        "value": 79.4,
+        "secondary": 0
+      },
+      {
+        "slug": "medvedich-silvermoon-eu",
+        "name": "Medvedich",
+        "rank": 4,
+        "value": 79.4,
+        "secondary": 0
+      },
+      {
+        "slug": "nanyy-silvermoon-eu",
+        "name": "Nanyy",
+        "rank": 4,
+        "value": 79.4,
+        "secondary": 0
+      },
+      {
+        "slug": "пизнаика-gordunni-eu",
+        "name": "Пизнайка",
+        "rank": 1,
+        "value": 77.15,
         "secondary": 10
       }
     ]

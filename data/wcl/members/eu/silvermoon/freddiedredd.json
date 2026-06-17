@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T05:57:37.295Z",
+  "updatedAt": "2026-06-17T17:12:18.597Z",
   "character": {
     "name": "Freddiedredd",
     "realmSlug": "silvermoon",
@@ -1548,7 +1548,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T05:57:37.295Z",
+    "lastScannedAt": "2026-06-17T17:12:18.597Z",
     "lastPullAt": "2026-06-10T19:15:28.694Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

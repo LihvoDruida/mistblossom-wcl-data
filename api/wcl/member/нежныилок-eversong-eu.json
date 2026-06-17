@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T00:15:32.512Z",
+  "updatedAt": "2026-06-17T17:12:18.597Z",
   "character": {
     "name": "Нежныйлок",
     "realmSlug": "eversong",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T00:15:32.512Z",
+    "lastScannedAt": "2026-06-17T17:12:18.597Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
