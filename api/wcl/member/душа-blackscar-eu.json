@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T20:22:20.848Z",
+  "updatedAt": "2026-06-18T10:41:19.251Z",
   "character": {
     "name": "Душа",
     "realmSlug": "blackscar",
@@ -1548,7 +1548,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T20:22:20.848Z",
+    "lastScannedAt": "2026-06-18T10:41:19.251Z",
     "lastPullAt": "2026-06-10T19:15:28.694Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"

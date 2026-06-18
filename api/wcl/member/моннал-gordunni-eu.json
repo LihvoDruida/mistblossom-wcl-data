@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T18:17:48.521Z",
+  "updatedAt": "2026-06-18T10:41:19.251Z",
   "character": {
     "name": "Моннал",
     "realmSlug": "gordunni",
@@ -16,46 +16,46 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 200,
+    "totalRaidDeaths": 172,
     "deathsPerPull": 0,
-    "stabilityPercent": 89.15,
-    "consistencyPercent": 60.22,
-    "performanceScore": 64.09,
+    "stabilityPercent": 83.23,
+    "consistencyPercent": 53.22,
+    "performanceScore": 59.08,
     "survivalScore": 100,
-    "reliabilityScore": 76.35,
+    "reliabilityScore": 76.29,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 35568.9,
+      "avgDps": 47437.2,
       "avgHps": 0,
-      "avgPrimary": 35568.9,
-      "avgDurationMs": 183301,
+      "avgPrimary": 47437.2,
+      "avgDurationMs": 163307,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 30921.01,
+      "avgDps": 53420.73,
       "avgHps": 0,
-      "avgPrimary": 30921.01,
-      "avgDurationMs": 142552,
+      "avgPrimary": 53420.73,
+      "avgDurationMs": 133583,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 39897.03,
-      "minDps": 24026.71,
+      "maxDps": 56997.38,
+      "minDps": 30336.11,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 39897.03,
-      "minPrimary": 24026.71,
-      "maxDurationMs": 226446,
-      "minDurationMs": 90883
+      "maxPrimary": 56997.38,
+      "minPrimary": 30336.11,
+      "maxDurationMs": 211411,
+      "minDurationMs": 94067
     },
     "trend": {
-      "direction": "up",
-      "recentAvg": 35568.9,
-      "previousAvg": 30921.01,
-      "delta": 4647.89,
-      "deltaPercent": 15.03
+      "direction": "down",
+      "recentAvg": 47437.2,
+      "previousAvg": 53420.73,
+      "delta": -5983.53,
+      "deltaPercent": -11.2
     },
     "byRole": {
       "healer": {
@@ -71,12 +71,12 @@
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 35568.9,
-        "maxLast10": 39897.03,
-        "minLast10": 24026.71,
+        "avgRecent": 47437.2,
+        "maxLast10": 56997.38,
+        "minLast10": 30336.11,
         "deathsPerPull": 0,
-        "bestPullKey": "RL79bk4gWVYtjAC2:30:Моннал:gordunni:eu",
-        "worstPullKey": "8dAPQCWGNMLBjrRg:31:Моннал:gordunni:eu"
+        "bestPullKey": "YmMXVLgCwzT6j2cr:13:Моннал:gordunni:eu",
+        "worstPullKey": "YmMXVLgCwzT6j2cr:11:Моннал:gordunni:eu"
       },
       "unknown": {
         "pulls": 0,
@@ -91,18 +91,1170 @@
     "dataQuality": {
       "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 8,
+      "pullsWithRoleInferred": 10,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
         "unknown": 0
       },
-      "confidenceAvg": 0.74,
+      "confidenceAvg": 0.92,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "YmMXVLgCwzT6j2cr:18:Моннал:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=18",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:57:46.744Z",
+      "durationMs": 194721,
+      "bossPercentage": 70.85,
+      "fightPercentage": 70.85,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 20,
+        "name": "Моннал",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Druid-Guardian",
+        "className": "Druid",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 46450.28,
+        "hps": 19846.31,
+        "primary": 46450.28,
+        "primaryKind": "dps",
+        "fightDps": 46450.28,
+        "fightHps": 19846.31,
+        "activeDps": 47047.55,
+        "activeHps": 22482.24,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 9044844,
+        "healingTotal": 3864494,
+        "damageActiveTimeMs": 192249,
+        "healingActiveTimeMs": 171891,
+        "damageTotalTimeMs": 194721,
+        "healingTotalTimeMs": 194721,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 18,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6472787,
+          "endTime": 6667508,
+          "bossPercentage": 70.85,
+          "fightPercentage": 70.85,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 9044844,
+              "activeTime": 192249,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 3864494,
+              "activeTime": 171891,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 20,
+          "matchedActorName": "Моннал",
+          "normalizedKeys": [
+            "моннал:gordunni:eu",
+            "моннал::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Druid-Guardian",
+            "className": "Druid",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:17:Моннал:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=17",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:53:14.132Z",
+      "durationMs": 159209,
+      "bossPercentage": 78.19,
+      "fightPercentage": 78.19,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 20,
+        "name": "Моннал",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Druid-Guardian",
+        "className": "Druid",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 46371.5,
+        "hps": 26491.29,
+        "primary": 46371.5,
+        "primaryKind": "dps",
+        "fightDps": 46371.5,
+        "fightHps": 26491.29,
+        "activeDps": 46771.03,
+        "activeHps": 31279.4,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 7382760,
+        "healingTotal": 4217652,
+        "damageActiveTimeMs": 157849,
+        "healingActiveTimeMs": 134838,
+        "damageTotalTimeMs": 159209,
+        "healingTotalTimeMs": 159209,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 17,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6200175,
+          "endTime": 6359384,
+          "bossPercentage": 78.19,
+          "fightPercentage": 78.19,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 7382760,
+              "activeTime": 157849,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 4217652,
+              "activeTime": 134838,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 20,
+          "matchedActorName": "Моннал",
+          "normalizedKeys": [
+            "моннал:gordunni:eu",
+            "моннал::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Druid-Guardian",
+            "className": "Druid",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:16:Моннал:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=16",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:41:51.760Z",
+      "durationMs": 135992,
+      "bossPercentage": 76.74,
+      "fightPercentage": 76.74,
+      "averageItemLevel": 287.5,
+      "actor": {
+        "id": 20,
+        "name": "Моннал",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Druid-Guardian",
+        "className": "Druid",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 49489.81,
+        "hps": 25753.01,
+        "primary": 49489.81,
+        "primaryKind": "dps",
+        "fightDps": 49489.81,
+        "fightHps": 25753.01,
+        "activeDps": 51810.76,
+        "activeHps": 32416.11,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 6730218,
+        "healingTotal": 3502204,
+        "damageActiveTimeMs": 129900,
+        "healingActiveTimeMs": 108039,
+        "damageTotalTimeMs": 135992,
+        "healingTotalTimeMs": 135992,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 16,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5517803,
+          "endTime": 5653795,
+          "bossPercentage": 76.74,
+          "fightPercentage": 76.74,
+          "averageItemLevel": 287.5
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 6730218,
+              "activeTime": 129900,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 3502204,
+              "activeTime": 108039,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 20,
+          "matchedActorName": "Моннал",
+          "normalizedKeys": [
+            "моннал:gordunni:eu",
+            "моннал::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Druid-Guardian",
+            "className": "Druid",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:15:Моннал:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=15",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:31:20.098Z",
+      "durationMs": 168405,
+      "bossPercentage": 75.75,
+      "fightPercentage": 75.75,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 20,
+        "name": "Моннал",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Druid-Guardian",
+        "className": "Druid",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 47653.72,
+        "hps": 30687.85,
+        "primary": 47653.72,
+        "primaryKind": "dps",
+        "fightDps": 47653.72,
+        "fightHps": 30687.85,
+        "activeDps": 47906.62,
+        "activeHps": 35650.39,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 8025125,
+        "healingTotal": 5167987,
+        "damageActiveTimeMs": 167516,
+        "healingActiveTimeMs": 144963,
+        "damageTotalTimeMs": 168405,
+        "healingTotalTimeMs": 168405,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 15,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4886141,
+          "endTime": 5054546,
+          "bossPercentage": 75.75,
+          "fightPercentage": 75.75,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 8025125,
+              "activeTime": 167516,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 5167987,
+              "activeTime": 144963,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 20,
+          "matchedActorName": "Моннал",
+          "normalizedKeys": [
+            "моннал:gordunni:eu",
+            "моннал::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Druid-Guardian",
+            "className": "Druid",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:14:Моннал:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=14",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:25:08.620Z",
+      "durationMs": 94067,
+      "bossPercentage": 83.63,
+      "fightPercentage": 83.63,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 20,
+        "name": "Моннал",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Druid-Guardian",
+        "className": "Druid",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 55611.1,
+        "hps": 33664.14,
+        "primary": 55611.1,
+        "primaryKind": "dps",
+        "fightDps": 55611.1,
+        "fightHps": 33664.14,
+        "activeDps": 56154.33,
+        "activeHps": 35699.86,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 5231169,
+        "healingTotal": 3166685,
+        "damageActiveTimeMs": 93157,
+        "healingActiveTimeMs": 88703,
+        "damageTotalTimeMs": 94067,
+        "healingTotalTimeMs": 94067,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 14,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4514663,
+          "endTime": 4608730,
+          "bossPercentage": 83.63,
+          "fightPercentage": 83.63,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 5231169,
+              "activeTime": 93157,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 3166685,
+              "activeTime": 88703,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 20,
+          "matchedActorName": "Моннал",
+          "normalizedKeys": [
+            "моннал:gordunni:eu",
+            "моннал::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Druid-Guardian",
+            "className": "Druid",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:13:Моннал:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=13",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:20:14.101Z",
+      "durationMs": 138277,
+      "bossPercentage": 78.4,
+      "fightPercentage": 78.4,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 20,
+        "name": "Моннал",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Druid-Guardian",
+        "className": "Druid",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 56997.38,
+        "hps": 36654.94,
+        "primary": 56997.38,
+        "primaryKind": "dps",
+        "fightDps": 56997.38,
+        "fightHps": 36654.94,
+        "activeDps": 57430.15,
+        "activeHps": 37644.53,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 7881427,
+        "healingTotal": 5068535,
+        "damageActiveTimeMs": 137235,
+        "healingActiveTimeMs": 134642,
+        "damageTotalTimeMs": 138277,
+        "healingTotalTimeMs": 138277,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 13,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4220144,
+          "endTime": 4358421,
+          "bossPercentage": 78.4,
+          "fightPercentage": 78.4,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 7881427,
+              "activeTime": 137235,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 5068535,
+              "activeTime": 134642,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 20,
+          "matchedActorName": "Моннал",
+          "normalizedKeys": [
+            "моннал:gordunni:eu",
+            "моннал::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Druid-Guardian",
+            "className": "Druid",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:12:Моннал:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=12",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:16:41.498Z",
+      "durationMs": 145229,
+      "bossPercentage": 78.53,
+      "fightPercentage": 78.53,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 20,
+        "name": "Моннал",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Druid-Guardian",
+        "className": "Druid",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 52730.05,
+        "hps": 22730.84,
+        "primary": 52730.05,
+        "primaryKind": "dps",
+        "fightDps": 52730.05,
+        "fightHps": 22730.84,
+        "activeDps": 53478.3,
+        "activeHps": 24510.72,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 7657932,
+        "healingTotal": 3301177,
+        "damageActiveTimeMs": 143197,
+        "healingActiveTimeMs": 134683,
+        "damageTotalTimeMs": 145229,
+        "healingTotalTimeMs": 145229,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 12,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4007541,
+          "endTime": 4152770,
+          "bossPercentage": 78.53,
+          "fightPercentage": 78.53,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 7657932,
+              "activeTime": 143197,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 3301177,
+              "activeTime": 134683,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 20,
+          "matchedActorName": "Моннал",
+          "normalizedKeys": [
+            "моннал:gordunni:eu",
+            "моннал::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Druid-Guardian",
+            "className": "Druid",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:11:Моннал:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=11",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:12:37.893Z",
+      "durationMs": 98520,
+      "bossPercentage": 83.55,
+      "fightPercentage": 83.55,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 20,
+        "name": "Моннал",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Druid-Guardian",
+        "className": "Druid",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 30336.11,
+        "hps": 31162.44,
+        "primary": 30336.11,
+        "primaryKind": "dps",
+        "fightDps": 30336.11,
+        "fightHps": 31162.44,
+        "activeDps": 36091.22,
+        "activeHps": 50690.55,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 2988714,
+        "healingTotal": 3070124,
+        "damageActiveTimeMs": 82810,
+        "healingActiveTimeMs": 60566,
+        "damageTotalTimeMs": 98520,
+        "healingTotalTimeMs": 98520,
+        "damageEntryId": 20,
+        "healingEntryId": 20,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:20,healing:actor-id:20"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 11,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3763936,
+          "endTime": 3862456,
+          "bossPercentage": 83.55,
+          "fightPercentage": 83.55,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 2988714,
+              "activeTime": 82810,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:20",
+            "matchedEntry": {
+              "id": 20,
+              "name": "Моннал",
+              "type": "Druid",
+              "icon": "Druid-Guardian",
+              "total": 3070124,
+              "activeTime": 60566,
+              "itemLevel": 289,
+              "guid": 261329003
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 20,
+          "matchedActorName": "Моннал",
+          "normalizedKeys": [
+            "моннал:gordunni:eu",
+            "моннал::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Druid-Guardian",
+            "className": "Druid",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "RL79bk4gWVYtjAC2:32:Моннал:gordunni:eu",
       "reportCode": "RL79bk4gWVYtjAC2",
@@ -390,1007 +1542,15 @@
           }
         }
       }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:30:Моннал:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 30,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=30",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T19:05:05.526Z",
-      "durationMs": 157690,
-      "bossPercentage": 47.28,
-      "fightPercentage": 47.28,
-      "averageItemLevel": 287.6499938964844,
-      "actor": {
-        "id": 5,
-        "name": "Моннал",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Druid-Guardian",
-        "className": "Druid",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 39897.03,
-        "hps": 22749.04,
-        "primary": 39897.03,
-        "primaryKind": "dps",
-        "fightDps": 39897.03,
-        "fightHps": 22749.04,
-        "activeDps": 40558.82,
-        "activeHps": 22970.01,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 13
-      },
-      "source": {
-        "damageTotal": 6291362,
-        "healingTotal": 3587296,
-        "damageActiveTimeMs": 155117,
-        "healingActiveTimeMs": 156173,
-        "damageTotalTimeMs": 157690,
-        "healingTotalTimeMs": 157690,
-        "damageEntryId": 5,
-        "healingEntryId": 5,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 30,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6960668,
-          "endTime": 7118358,
-          "bossPercentage": 47.28,
-          "fightPercentage": 47.28,
-          "averageItemLevel": 287.6499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157690,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 6291362,
-              "activeTime": 155117,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157690,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 3587296,
-              "activeTime": 156173,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 13,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 5,
-          "matchedActorName": "Моннал",
-          "normalizedKeys": [
-            "моннал:gordunni:eu",
-            "моннал::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Druid-Guardian",
-            "className": "Druid",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:29:Моннал:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 29,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=29",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:58:57.564Z",
-      "durationMs": 172779,
-      "bossPercentage": 46.53,
-      "fightPercentage": 46.53,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 5,
-        "name": "Моннал",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Druid-Guardian",
-        "className": "Druid",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 34726.95,
-        "hps": 16390.2,
-        "primary": 34726.95,
-        "primaryKind": "dps",
-        "fightDps": 34726.95,
-        "fightHps": 16390.2,
-        "activeDps": 36460.74,
-        "activeHps": 18155.07,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 6000088,
-        "healingTotal": 2831882,
-        "damageActiveTimeMs": 164563,
-        "healingActiveTimeMs": 155983,
-        "damageTotalTimeMs": 172779,
-        "healingTotalTimeMs": 172779,
-        "damageEntryId": 5,
-        "healingEntryId": 5,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 29,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6592706,
-          "endTime": 6765485,
-          "bossPercentage": 46.53,
-          "fightPercentage": 46.53,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 172779,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 6000088,
-              "activeTime": 164563,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 172779,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 2831882,
-              "activeTime": 155983,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 5,
-          "matchedActorName": "Моннал",
-          "normalizedKeys": [
-            "моннал:gordunni:eu",
-            "моннал::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Druid-Guardian",
-            "className": "Druid",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:28:Моннал:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:46:37.242Z",
-      "durationMs": 92715,
-      "bossPercentage": 78.58,
-      "fightPercentage": 78.58,
-      "averageItemLevel": 287.6499938964844,
-      "actor": {
-        "id": 5,
-        "name": "Моннал",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Druid-Guardian",
-        "className": "Druid",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 24238.28,
-        "hps": 20669.24,
-        "primary": 24238.28,
-        "primaryKind": "dps",
-        "fightDps": 24238.28,
-        "fightHps": 20669.24,
-        "activeDps": 29123.44,
-        "activeHps": 23176.22,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 2247252,
-        "healingTotal": 1916349,
-        "damageActiveTimeMs": 77163,
-        "healingActiveTimeMs": 82686,
-        "damageTotalTimeMs": 92715,
-        "healingTotalTimeMs": 92715,
-        "damageEntryId": 5,
-        "healingEntryId": 5,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 28,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 5852384,
-          "endTime": 5945099,
-          "bossPercentage": 78.58,
-          "fightPercentage": 78.58,
-          "averageItemLevel": 287.6499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 92715,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 2247252,
-              "activeTime": 77163,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 92715,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 1916349,
-              "activeTime": 82686,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 5,
-          "matchedActorName": "Моннал",
-          "normalizedKeys": [
-            "моннал:gordunni:eu",
-            "моннал::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Druid-Guardian",
-            "className": "Druid",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:27:Моннал:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=27",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:27:31.482Z",
-      "durationMs": 162162,
-      "bossPercentage": 57.42,
-      "fightPercentage": 57.42,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 5,
-        "name": "Моннал",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Druid-Guardian",
-        "className": "Druid",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 33797.81,
-        "hps": 42755.02,
-        "primary": 33797.81,
-        "primaryKind": "dps",
-        "fightDps": 33797.81,
-        "fightHps": 42755.02,
-        "activeDps": 33900.67,
-        "activeHps": 43139.43,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 5480721,
-        "healingTotal": 6933239,
-        "damageActiveTimeMs": 161670,
-        "healingActiveTimeMs": 160717,
-        "damageTotalTimeMs": 162162,
-        "healingTotalTimeMs": 162162,
-        "damageEntryId": 5,
-        "healingEntryId": 5,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 27,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4706624,
-          "endTime": 4868786,
-          "bossPercentage": 57.42,
-          "fightPercentage": 57.42,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 162162,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 5480721,
-              "activeTime": 161670,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 162162,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 6933239,
-              "activeTime": 160717,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 5,
-          "matchedActorName": "Моннал",
-          "normalizedKeys": [
-            "моннал:gordunni:eu",
-            "моннал::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Druid-Guardian",
-            "className": "Druid",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:26:Моннал:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=26",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:23:01.641Z",
-      "durationMs": 100948,
-      "bossPercentage": 72.73,
-      "fightPercentage": 72.73,
-      "averageItemLevel": 287.54998779296875,
-      "actor": {
-        "id": 5,
-        "name": "Моннал",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Druid-Guardian",
-        "className": "Druid",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 30960.74,
-        "hps": 36428.29,
-        "primary": 30960.74,
-        "primaryKind": "dps",
-        "fightDps": 30960.74,
-        "fightHps": 36428.29,
-        "activeDps": 31389.85,
-        "activeHps": 37258.36,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 3125425,
-        "healingTotal": 3677363,
-        "damageActiveTimeMs": 99568,
-        "healingActiveTimeMs": 98699,
-        "damageTotalTimeMs": 100948,
-        "healingTotalTimeMs": 100948,
-        "damageEntryId": 5,
-        "healingEntryId": 5,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 26,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4436783,
-          "endTime": 4537731,
-          "bossPercentage": 72.73,
-          "fightPercentage": 72.73,
-          "averageItemLevel": 287.54998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 19,
-            "totalTimeMs": 100948,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 3125425,
-              "activeTime": 99568,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 100948,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 3677363,
-              "activeTime": 98699,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 5,
-          "matchedActorName": "Моннал",
-          "normalizedKeys": [
-            "моннал:gordunni:eu",
-            "моннал::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Druid-Guardian",
-            "className": "Druid",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:25:Моннал:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=25",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:11:38.181Z",
-      "durationMs": 90883,
-      "bossPercentage": 71.27,
-      "fightPercentage": 71.27,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 5,
-        "name": "Моннал",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Druid-Guardian",
-        "className": "Druid",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 33299.19,
-        "hps": 45122.31,
-        "primary": 33299.19,
-        "primaryKind": "dps",
-        "fightDps": 33299.19,
-        "fightHps": 45122.31,
-        "activeDps": 33536.09,
-        "activeHps": 45785.8,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 22
-      },
-      "source": {
-        "damageTotal": 3026330,
-        "healingTotal": 4100851,
-        "damageActiveTimeMs": 90241,
-        "healingActiveTimeMs": 89566,
-        "damageTotalTimeMs": 90883,
-        "healingTotalTimeMs": 90883,
-        "damageEntryId": 5,
-        "healingEntryId": 5,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 25,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 3753323,
-          "endTime": 3844206,
-          "bossPercentage": 71.27,
-          "fightPercentage": 71.27,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 19,
-            "totalTimeMs": 90883,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 3026330,
-              "activeTime": 90241,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 90883,
-            "matchedBy": "actor-id:5",
-            "matchedEntry": {
-              "id": 5,
-              "name": "Моннал",
-              "type": "Druid",
-              "icon": "Druid-Guardian",
-              "total": 4100851,
-              "activeTime": 89566,
-              "itemLevel": 289,
-              "guid": 261329003
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 22,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 5,
-          "matchedActorName": "Моннал",
-          "normalizedKeys": [
-            "моннал:gordunni:eu",
-            "моннал::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Druid-Guardian",
-            "className": "Druid",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:32:Моннал:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 32,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:06:06.764Z",
-      "durationMs": 215983,
-      "bossPercentage": 57.68,
-      "fightPercentage": 57.68,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 123,
-        "name": "Моннал",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 28612.5,
-        "hps": 22978.23,
-        "primary": 28612.5,
-        "primaryKind": "dps",
-        "fightDps": 28612.5,
-        "fightHps": 22978.23,
-        "activeDps": 28612.5,
-        "activeHps": 22978.23,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 6179813,
-        "healingTotal": 4962907,
-        "damageActiveTimeMs": 215084,
-        "healingActiveTimeMs": 210059,
-        "damageTotalTimeMs": 215983,
-        "healingTotalTimeMs": 215983,
-        "damageEntryId": 123,
-        "healingEntryId": 123,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:123,healing:actor-id:123"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:31:Моннал:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 31,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:00:37.917Z",
-      "durationMs": 226446,
-      "bossPercentage": 57.65,
-      "fightPercentage": 57.65,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 123,
-        "name": "Моннал",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 24026.71,
-        "hps": 20577.66,
-        "primary": 24026.71,
-        "primaryKind": "dps",
-        "fightDps": 24026.71,
-        "fightHps": 20577.66,
-        "activeDps": 24026.71,
-        "activeHps": 20577.66,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 5440753,
-        "healingTotal": 4659729,
-        "damageActiveTimeMs": 181448,
-        "healingActiveTimeMs": 173380,
-        "damageTotalTimeMs": 226446,
-        "healingTotalTimeMs": 226446,
-        "damageEntryId": 123,
-        "healingEntryId": 123,
-        "damageItemLevel": 286,
-        "healingItemLevel": 286,
-        "matchedBy": "damage:actor-id:123,healing:actor-id:123"
-      },
-      "role": {
-        "role": "dps",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T18:17:48.521Z",
-    "lastPullAt": "2026-06-10T19:15:28.694Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-18T10:41:19.251Z",
+    "lastPullAt": "2026-06-17T18:57:46.744Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }

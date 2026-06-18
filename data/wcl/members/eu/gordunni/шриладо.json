@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T20:22:20.848Z",
+  "updatedAt": "2026-06-18T10:41:19.251Z",
   "character": {
     "name": "Шриладо",
     "realmSlug": "gordunni",
@@ -11,72 +11,74 @@
   },
   "stats": {
     "pullsStored": 10,
-    "kills": 1,
-    "wipes": 9,
-    "killRate": 0.1,
-    "wipeRate": 0.9,
+    "kills": 0,
+    "wipes": 10,
+    "killRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 186,
+    "totalRaidDeaths": 179,
     "deathsPerPull": 0,
-    "stabilityPercent": 81.34,
-    "consistencyPercent": 60.04,
-    "performanceScore": 61.75,
+    "stabilityPercent": 79.6,
+    "consistencyPercent": 59.23,
+    "performanceScore": 58.59,
     "survivalScore": 100,
-    "reliabilityScore": 63.96,
+    "reliabilityScore": 70.32,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 0,
-      "avgHps": 103494.21,
-      "avgPrimary": 103494.21,
-      "avgDurationMs": 213419,
+      "avgDps": 87965.25,
+      "avgHps": 0,
+      "avgPrimary": 87965.25,
+      "avgDurationMs": 132821,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 0,
-      "avgHps": 95526.94,
-      "avgPrimary": 95526.94,
-      "avgDurationMs": 200282,
+      "avgDps": 86516.35,
+      "avgHps": 0,
+      "avgPrimary": 86516.35,
+      "avgDurationMs": 127342,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 0,
-      "minDps": 0,
-      "maxHps": 127235.58,
-      "minHps": 76388.45,
-      "maxPrimary": 127235.58,
-      "minPrimary": 76388.45,
-      "maxDurationMs": 335868,
-      "minDurationMs": 50176
+      "maxDps": 103191.43,
+      "minDps": 65454.64,
+      "maxHps": 110512.42,
+      "minHps": 96289.51,
+      "maxPrimary": 110512.42,
+      "minPrimary": 65454.64,
+      "maxDurationMs": 226446,
+      "minDurationMs": 94067
     },
     "trend": {
-      "direction": "up",
-      "recentAvg": 103494.21,
-      "previousAvg": 95526.94,
-      "delta": 7967.27,
-      "deltaPercent": 8.34
+      "direction": "flat",
+      "recentAvg": 87965.25,
+      "previousAvg": 86516.35,
+      "delta": 1448.9,
+      "deltaPercent": 1.67
     },
     "byRole": {
       "healer": {
-        "pulls": 10,
-        "kills": 1,
-        "wipes": 9,
+        "pulls": 4,
+        "kills": 0,
+        "wipes": 4,
         "avgRecent": 103494.21,
-        "maxLast10": 127235.58,
-        "minLast10": 76388.45,
+        "maxLast10": 110512.42,
+        "minLast10": 96289.51,
         "deathsPerPull": 0,
-        "bestPullKey": "8dAPQCWGNMLBjrRg:21:Шриладо:gordunni:eu",
-        "worstPullKey": "8dAPQCWGNMLBjrRg:25:Шриладо:gordunni:eu"
+        "bestPullKey": "8dAPQCWGNMLBjrRg:32:Шриладо:gordunni:eu",
+        "worstPullKey": "8dAPQCWGNMLBjrRg:31:Шриладо:gordunni:eu"
       },
       "damage": {
-        "pulls": 0,
+        "pulls": 6,
         "kills": 0,
-        "wipes": 0,
-        "avgRecent": 0,
-        "maxLast10": 0,
-        "minLast10": 0,
-        "deathsPerPull": 0
+        "wipes": 6,
+        "avgRecent": 87965.25,
+        "maxLast10": 103191.43,
+        "minLast10": 65454.64,
+        "deathsPerPull": 0,
+        "bestPullKey": "YmMXVLgCwzT6j2cr:13:Шриладо:gordunni:eu",
+        "worstPullKey": "YmMXVLgCwzT6j2cr:11:Шриладо:gordunni:eu"
       },
       "unknown": {
         "pulls": 0,
@@ -91,18 +93,882 @@
     "dataQuality": {
       "pullsWithMatchedDamage": 9,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 0,
+      "pullsWithRoleInferred": 6,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
-        "dps": 0,
-        "hps": 10,
+        "dps": 6,
+        "hps": 4,
         "unknown": 0
       },
-      "confidenceAvg": 0,
+      "confidenceAvg": 0.54,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "YmMXVLgCwzT6j2cr:16:Шриладо:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=16",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:41:51.760Z",
+      "durationMs": 135992,
+      "bossPercentage": 76.74,
+      "fightPercentage": 76.74,
+      "averageItemLevel": 287.5,
+      "actor": {
+        "id": 17,
+        "name": "Шриладо",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Shaman-Elemental",
+        "className": "Shaman",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 76027.77,
+        "hps": 3110.58,
+        "primary": 76027.77,
+        "primaryKind": "dps",
+        "fightDps": 76027.77,
+        "fightHps": 3110.58,
+        "activeDps": 79823.11,
+        "activeHps": 4428.4,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 10339168,
+        "healingTotal": 423014,
+        "damageActiveTimeMs": 129526,
+        "healingActiveTimeMs": 95523,
+        "damageTotalTimeMs": 135992,
+        "healingTotalTimeMs": 135992,
+        "damageEntryId": 17,
+        "healingEntryId": 17,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:17,healing:actor-id:17"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 16,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5517803,
+          "endTime": 5653795,
+          "bossPercentage": 76.74,
+          "fightPercentage": 76.74,
+          "averageItemLevel": 287.5
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 10339168,
+              "activeTime": 129526,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 423014,
+              "activeTime": 95523,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 17,
+          "matchedActorName": "Шриладо",
+          "normalizedKeys": [
+            "шриладо:gordunni:eu",
+            "шриладо::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Shaman-Elemental",
+            "className": "Shaman",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:15:Шриладо:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=15",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:31:20.098Z",
+      "durationMs": 168405,
+      "bossPercentage": 75.75,
+      "fightPercentage": 75.75,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 17,
+        "name": "Шриладо",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Shaman-Elemental",
+        "className": "Shaman",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 85084.22,
+        "hps": 3769.6,
+        "primary": 85084.22,
+        "primaryKind": "dps",
+        "fightDps": 85084.22,
+        "fightHps": 3769.6,
+        "activeDps": 86569.32,
+        "activeHps": 6170.9,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 14328608,
+        "healingTotal": 634819,
+        "damageActiveTimeMs": 165516,
+        "healingActiveTimeMs": 102873,
+        "damageTotalTimeMs": 168405,
+        "healingTotalTimeMs": 168405,
+        "damageEntryId": 17,
+        "healingEntryId": 17,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:17,healing:actor-id:17"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 15,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4886141,
+          "endTime": 5054546,
+          "bossPercentage": 75.75,
+          "fightPercentage": 75.75,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 14328608,
+              "activeTime": 165516,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 634819,
+              "activeTime": 102873,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 17,
+          "matchedActorName": "Шриладо",
+          "normalizedKeys": [
+            "шриладо:gordunni:eu",
+            "шриладо::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Shaman-Elemental",
+            "className": "Shaman",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:14:Шриладо:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=14",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:25:08.620Z",
+      "durationMs": 94067,
+      "bossPercentage": 83.63,
+      "fightPercentage": 83.63,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 17,
+        "name": "Шриладо",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Shaman-Elemental",
+        "className": "Shaman",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 102783.76,
+        "hps": 4618.55,
+        "primary": 102783.76,
+        "primaryKind": "dps",
+        "fightDps": 102783.76,
+        "fightHps": 4618.55,
+        "activeDps": 134644.61,
+        "activeHps": 9398.25,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 9668560,
+        "healingTotal": 434453,
+        "damageActiveTimeMs": 71808,
+        "healingActiveTimeMs": 46227,
+        "damageTotalTimeMs": 94067,
+        "healingTotalTimeMs": 94067,
+        "damageEntryId": 17,
+        "healingEntryId": 17,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:17,healing:actor-id:17"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 14,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4514663,
+          "endTime": 4608730,
+          "bossPercentage": 83.63,
+          "fightPercentage": 83.63,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 9668560,
+              "activeTime": 71808,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 434453,
+              "activeTime": 46227,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 17,
+          "matchedActorName": "Шриладо",
+          "normalizedKeys": [
+            "шриладо:gordunni:eu",
+            "шриладо::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Shaman-Elemental",
+            "className": "Shaman",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:13:Шриладо:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=13",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:20:14.101Z",
+      "durationMs": 138277,
+      "bossPercentage": 78.4,
+      "fightPercentage": 78.4,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 17,
+        "name": "Шриладо",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Shaman-Elemental",
+        "className": "Shaman",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 103191.43,
+        "hps": 3951.19,
+        "primary": 103191.43,
+        "primaryKind": "dps",
+        "fightDps": 103191.43,
+        "fightHps": 3951.19,
+        "activeDps": 114215.06,
+        "activeHps": 6817.81,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 14269002,
+        "healingTotal": 546359,
+        "damageActiveTimeMs": 124931,
+        "healingActiveTimeMs": 80137,
+        "damageTotalTimeMs": 138277,
+        "healingTotalTimeMs": 138277,
+        "damageEntryId": 17,
+        "healingEntryId": 17,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:17,healing:actor-id:17"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 13,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4220144,
+          "endTime": 4358421,
+          "bossPercentage": 78.4,
+          "fightPercentage": 78.4,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 14269002,
+              "activeTime": 124931,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 546359,
+              "activeTime": 80137,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 17,
+          "matchedActorName": "Шриладо",
+          "normalizedKeys": [
+            "шриладо:gordunni:eu",
+            "шриладо::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Shaman-Elemental",
+            "className": "Shaman",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:12:Шриладо:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=12",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:16:41.498Z",
+      "durationMs": 145229,
+      "bossPercentage": 78.53,
+      "fightPercentage": 78.53,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 17,
+        "name": "Шриладо",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Shaman-Elemental",
+        "className": "Shaman",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 90902.97,
+        "hps": 4560.71,
+        "primary": 90902.97,
+        "primaryKind": "dps",
+        "fightDps": 90902.97,
+        "fightHps": 4560.71,
+        "activeDps": 92322.5,
+        "activeHps": 5276.62,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 13201748,
+        "healingTotal": 662348,
+        "damageActiveTimeMs": 142996,
+        "healingActiveTimeMs": 125525,
+        "damageTotalTimeMs": 145229,
+        "healingTotalTimeMs": 145229,
+        "damageEntryId": 17,
+        "healingEntryId": 17,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:17,healing:actor-id:17"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 12,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4007541,
+          "endTime": 4152770,
+          "bossPercentage": 78.53,
+          "fightPercentage": 78.53,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 13201748,
+              "activeTime": 142996,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 662348,
+              "activeTime": 125525,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 17,
+          "matchedActorName": "Шриладо",
+          "normalizedKeys": [
+            "шриладо:gordunni:eu",
+            "шриладо::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Shaman-Elemental",
+            "className": "Shaman",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:11:Шриладо:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=11",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:12:37.893Z",
+      "durationMs": 98520,
+      "bossPercentage": 83.55,
+      "fightPercentage": 83.55,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 17,
+        "name": "Шриладо",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Shaman"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Shaman-Elemental",
+        "className": "Shaman",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 65454.64,
+        "hps": 3455.71,
+        "primary": 65454.64,
+        "primaryKind": "dps",
+        "fightDps": 65454.64,
+        "fightHps": 3455.71,
+        "activeDps": 142431.61,
+        "activeHps": 15563.04,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 6448591,
+        "healingTotal": 340457,
+        "damageActiveTimeMs": 45275,
+        "healingActiveTimeMs": 21876,
+        "damageTotalTimeMs": 98520,
+        "healingTotalTimeMs": 98520,
+        "damageEntryId": 17,
+        "healingEntryId": 17,
+        "damageItemLevel": 282,
+        "healingItemLevel": 282,
+        "matchedBy": "damage:actor-id:17,healing:actor-id:17"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 11,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3763936,
+          "endTime": 3862456,
+          "bossPercentage": 83.55,
+          "fightPercentage": 83.55,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 6448591,
+              "activeTime": 45275,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:17",
+            "matchedEntry": {
+              "id": 17,
+              "name": "Шриладо",
+              "type": "Shaman",
+              "icon": "Shaman-Elemental",
+              "total": 340457,
+              "activeTime": 21876,
+              "itemLevel": 282,
+              "guid": 266200699
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 17,
+          "matchedActorName": "Шриладо",
+          "normalizedKeys": [
+            "шриладо:gordunni:eu",
+            "шриладо::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Shaman-Elemental",
+            "className": "Shaman",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "8dAPQCWGNMLBjrRg:32:Шриладо:gordunni:eu",
       "reportCode": "8dAPQCWGNMLBjrRg",
@@ -355,399 +1221,15 @@
         "source": "unknown",
         "confidence": 0
       }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:28:Шриладо:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:38:12.252Z",
-      "durationMs": 209169,
-      "bossPercentage": 58.86,
-      "fightPercentage": 58.86,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 217,
-        "name": "Шриладо",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Shaman"
-      },
-      "metric": {
-        "dps": 4480.72,
-        "hps": 77270.12,
-        "primary": 77270.12,
-        "primaryKind": "hps",
-        "fightDps": 4480.72,
-        "fightHps": 77270.12,
-        "activeDps": 4480.72,
-        "activeHps": 77270.12,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 937227,
-        "healingTotal": 16162514,
-        "damageActiveTimeMs": 41175,
-        "healingActiveTimeMs": 181362,
-        "damageTotalTimeMs": 209169,
-        "healingTotalTimeMs": 209169,
-        "damageEntryId": 217,
-        "healingEntryId": 217,
-        "damageItemLevel": 276,
-        "healingItemLevel": 276,
-        "matchedBy": "damage:actor-id:217,healing:actor-id:217"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:27:Шриладо:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=27",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:29:44.846Z",
-      "durationMs": 169519,
-      "bossPercentage": 62.33,
-      "fightPercentage": 62.33,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 217,
-        "name": "Шриладо",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Shaman"
-      },
-      "metric": {
-        "dps": 400.66,
-        "hps": 111711.67,
-        "primary": 111711.67,
-        "primaryKind": "hps",
-        "fightDps": 400.66,
-        "fightHps": 111711.67,
-        "activeDps": 400.66,
-        "activeHps": 111711.67,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 67920,
-        "healingTotal": 18937250,
-        "damageActiveTimeMs": 21780,
-        "healingActiveTimeMs": 151411,
-        "damageTotalTimeMs": 169519,
-        "healingTotalTimeMs": 169519,
-        "damageEntryId": 217,
-        "healingEntryId": 217,
-        "damageItemLevel": 276,
-        "healingItemLevel": 276,
-        "matchedBy": "damage:actor-id:217,healing:actor-id:217"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:26:Шриладо:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:27:07.695Z",
-      "durationMs": 50885,
-      "bossPercentage": 80.53,
-      "fightPercentage": 80.53,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 217,
-        "name": "Шриладо",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Shaman"
-      },
-      "metric": {
-        "dps": 2479.71,
-        "hps": 98330.63,
-        "primary": 98330.63,
-        "primaryKind": "hps",
-        "fightDps": 2479.71,
-        "fightHps": 98330.63,
-        "activeDps": 2479.71,
-        "activeHps": 98330.63,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 126180,
-        "healingTotal": 5003554,
-        "damageActiveTimeMs": 18052,
-        "healingActiveTimeMs": 44973,
-        "damageTotalTimeMs": 50885,
-        "healingTotalTimeMs": 50885,
-        "damageEntryId": 217,
-        "healingEntryId": 217,
-        "damageItemLevel": 276,
-        "healingItemLevel": 276,
-        "matchedBy": "damage:actor-id:217,healing:actor-id:217"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:25:Шриладо:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=25",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:23:53.731Z",
-      "durationMs": 50176,
-      "bossPercentage": 79.76,
-      "fightPercentage": 79.76,
-      "averageItemLevel": 284.70001220703125,
-      "actor": {
-        "id": 217,
-        "name": "Шриладо",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Shaman"
-      },
-      "metric": {
-        "dps": 4169.62,
-        "hps": 76388.45,
-        "primary": 76388.45,
-        "primaryKind": "hps",
-        "fightDps": 4169.62,
-        "fightHps": 76388.45,
-        "activeDps": 4169.62,
-        "activeHps": 76388.45,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 209215,
-        "healingTotal": 3832867,
-        "damageActiveTimeMs": 46368,
-        "healingActiveTimeMs": 45231,
-        "damageTotalTimeMs": 50176,
-        "healingTotalTimeMs": 50176,
-        "damageEntryId": 217,
-        "healingEntryId": 217,
-        "damageItemLevel": 276,
-        "healingItemLevel": 276,
-        "matchedBy": "damage:actor-id:217,healing:actor-id:217"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:21:Шриладо:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=21",
-      "status": "KILL",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T19:04:24.189Z",
-      "durationMs": 335868,
-      "bossPercentage": 0.01,
-      "fightPercentage": 0.01,
-      "averageItemLevel": 284.8500061035156,
-      "actor": {
-        "id": 217,
-        "name": "Шриладо",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Shaman"
-      },
-      "metric": {
-        "dps": 5516.02,
-        "hps": 127235.58,
-        "primary": 127235.58,
-        "primaryKind": "hps",
-        "fightDps": 5516.02,
-        "fightHps": 127235.58,
-        "activeDps": 5516.02,
-        "activeHps": 127235.58,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 3
-      },
-      "source": {
-        "damageTotal": 1852656,
-        "healingTotal": 42734359,
-        "damageActiveTimeMs": 206528,
-        "healingActiveTimeMs": 333684,
-        "damageTotalTimeMs": 335868,
-        "healingTotalTimeMs": 335868,
-        "damageEntryId": 217,
-        "healingEntryId": 217,
-        "damageItemLevel": 276,
-        "healingItemLevel": 276,
-        "matchedBy": "damage:actor-id:217,healing:actor-id:217"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:20:Шриладо:gordunni:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=20",
-      "status": "WIPE",
-      "bossName": "Vorasius",
-      "encounterId": 3177,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T18:57:55.893Z",
-      "durationMs": 285958,
-      "bossPercentage": 27.56,
-      "fightPercentage": 27.56,
-      "averageItemLevel": 284.8500061035156,
-      "actor": {
-        "id": 217,
-        "name": "Шриладо",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Shaman"
-      },
-      "metric": {
-        "dps": 4788.4,
-        "hps": 124227.21,
-        "primary": 124227.21,
-        "primaryKind": "hps",
-        "fightDps": 4788.4,
-        "fightHps": 124227.21,
-        "activeDps": 4788.4,
-        "activeHps": 124227.21,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 1369282,
-        "healingTotal": 35523765,
-        "damageActiveTimeMs": 134366,
-        "healingActiveTimeMs": 280771,
-        "damageTotalTimeMs": 285958,
-        "healingTotalTimeMs": 285958,
-        "damageEntryId": 217,
-        "healingEntryId": 217,
-        "damageItemLevel": 276,
-        "healingItemLevel": 276,
-        "matchedBy": "damage:actor-id:217,healing:actor-id:217"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T20:22:20.848Z",
-    "lastPullAt": "2026-05-29T20:06:06.764Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-18T10:41:19.251Z",
+    "lastPullAt": "2026-06-17T18:41:51.760Z",
+    "newPullsInLastScan": 6,
     "scanReason": "scheduled"
   }
 }

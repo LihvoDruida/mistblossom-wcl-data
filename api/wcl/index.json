@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-18T06:02:06.896Z",
+  "updatedAt": "2026-06-18T10:41:51.588Z",
   "guild": {
     "name": "Mistblossom Vanguard",
     "realmSlug": "terokkar",
@@ -10,8 +10,8 @@
     "members": 162,
     "reportsScanned": 8,
     "fightsScanned": 8,
-    "healerPulls": 126,
-    "damagePulls": 435,
+    "healerPulls": 120,
+    "damagePulls": 441,
     "unknownPulls": 0,
     "distinctFights": 243,
     "membersWithData": 58
@@ -27,18 +27,18 @@
       "killRate": 0.0988,
       "avgFightDurationMs": 195594,
       "avgRaidDeaths": 17.16,
-      "avgTeamDps": 114008.16,
-      "avgTeamHps": 38027.36,
-      "avgPerformanceScore": 18.07,
+      "avgTeamDps": 116936.98,
+      "avgTeamHps": 35324.7,
+      "avgPerformanceScore": 18.04,
       "avgSurvivalScore": 100,
-      "avgReliabilityScore": 41.65
+      "avgReliabilityScore": 41.7
     },
     "roles": {
       "damage": {
-        "members": 48,
-        "pulls": 435,
-        "avgRecent": 59327.43,
-        "medianRecent": 61619.91,
+        "members": 49,
+        "pulls": 441,
+        "avgRecent": 60336.2,
+        "medianRecent": 62577.76,
         "bestRecent": 127465.48,
         "maxLast10": 207607.12,
         "deathsPerPull": 0,
@@ -107,6 +107,13 @@
             "secondary": 0
           },
           {
+            "slug": "шриладо-gordunni-eu",
+            "name": "Шриладо",
+            "rank": 1,
+            "value": 87965.25,
+            "secondary": 0
+          },
+          {
             "slug": "oxydenis-silvermoon-eu",
             "name": "Oxydenis",
             "rank": 3,
@@ -119,20 +126,13 @@
             "rank": 1,
             "value": 87339.48,
             "secondary": 0
-          },
-          {
-            "slug": "skirvir-turalyon-eu",
-            "name": "Skirvir",
-            "rank": 3,
-            "value": 79663.29,
-            "secondary": 0
           }
         ]
       },
       "healer": {
         "members": 21,
-        "pulls": 126,
-        "avgRecent": 51835.27,
+        "pulls": 120,
+        "avgRecent": 51519.21,
         "medianRecent": 16323.57,
         "bestRecent": 126555.86,
         "maxLast10": 147400.16,
@@ -174,17 +174,17 @@
             "secondary": 0
           },
           {
-            "slug": "марлая-gordunni-eu",
-            "name": "Марлая",
-            "rank": 3,
-            "value": 99686.31,
-            "secondary": 0
-          },
-          {
             "slug": "пандашоманко-eversong-eu",
             "name": "Пандашоманко",
             "rank": 3,
             "value": 97502.94,
+            "secondary": 0
+          },
+          {
+            "slug": "марлая-gordunni-eu",
+            "name": "Марлая",
+            "rank": 3,
+            "value": 93049.14,
             "secondary": 0
           },
           {
@@ -378,8 +378,15 @@
           "slug": "моннал-gordunni-eu",
           "name": "Моннал",
           "rank": 3,
-          "value": 76.35,
-          "secondary": 35568.9
+          "value": 76.29,
+          "secondary": 47437.2
+        },
+        {
+          "slug": "кхаарн-lich-king-eu",
+          "name": "Кхаарн",
+          "rank": 3,
+          "value": 76.1,
+          "secondary": 45333.29
         },
         {
           "slug": "krekor-tarren-mill-eu",
@@ -389,13 +396,6 @@
           "secondary": 71721.18
         },
         {
-          "slug": "марлая-gordunni-eu",
-          "name": "Марлая",
-          "rank": 3,
-          "value": 74.01,
-          "secondary": 99686.31
-        },
-        {
           "slug": "дарадуда-gordunni-eu",
           "name": "Дарадуда",
           "rank": 4,
@@ -403,17 +403,17 @@
           "secondary": 103479.61
         },
         {
-          "slug": "кхаарн-lich-king-eu",
-          "name": "Кхаарн",
+          "slug": "марлая-gordunni-eu",
+          "name": "Марлая",
           "rank": 3,
-          "value": 73.39,
-          "secondary": 36409.54
+          "value": 73.24,
+          "secondary": 93049.14
         }
       ]
     },
     "consistency": {
-      "avgStabilityPercent": 71.03,
-      "avgConsistencyPercent": 39.82,
+      "avgStabilityPercent": 70.91,
+      "avgConsistencyPercent": 39.9,
       "mostStable": [
         {
           "slug": "yokum-terokkar-eu",
@@ -468,8 +468,15 @@
           "slug": "моннал-gordunni-eu",
           "name": "Моннал",
           "rank": 3,
-          "value": 76.35,
-          "secondary": 89.15
+          "value": 76.29,
+          "secondary": 83.23
+        },
+        {
+          "slug": "кхаарн-lich-king-eu",
+          "name": "Кхаарн",
+          "rank": 3,
+          "value": 76.1,
+          "secondary": 79.11
         },
         {
           "slug": "krekor-tarren-mill-eu",
@@ -479,13 +486,6 @@
           "secondary": 84.17
         },
         {
-          "slug": "марлая-gordunni-eu",
-          "name": "Марлая",
-          "rank": 3,
-          "value": 74.01,
-          "secondary": 80.79
-        },
-        {
           "slug": "дарадуда-gordunni-eu",
           "name": "Дарадуда",
           "rank": 4,
@@ -493,11 +493,11 @@
           "secondary": 75.49
         },
         {
-          "slug": "кхаарн-lich-king-eu",
-          "name": "Кхаарн",
+          "slug": "марлая-gordunni-eu",
+          "name": "Марлая",
           "rank": 3,
-          "value": 73.39,
-          "secondary": 73.09
+          "value": 73.24,
+          "secondary": 75.41
         }
       ],
       "needsAttention": [
@@ -590,93 +590,93 @@
     "freshness": {
       "updatedWithin1h": 8,
       "updatedWithin6h": 16,
-      "updatedWithin12h": 31,
+      "updatedWithin12h": 32,
       "updatedWithin24h": 55,
-      "oldestScannedAt": "2026-06-14T18:17:48.521Z",
-      "newestScannedAt": "2026-06-18T06:01:34.065Z",
+      "oldestScannedAt": "2026-06-14T20:22:20.848Z",
+      "newestScannedAt": "2026-06-18T10:41:19.251Z",
       "staleMembers": [
-        {
-          "slug": "моннал-gordunni-eu",
-          "name": "Моннал",
-          "rank": 3,
-          "value": 83.74,
-          "secondary": 10
-        },
-        {
-          "slug": "базрог-gordunni-eu",
-          "name": "Базрог",
-          "rank": 4,
-          "value": 83.74,
-          "secondary": 0
-        },
-        {
-          "slug": "рокталл-soulflayer-eu",
-          "name": "Рокталл",
-          "rank": 4,
-          "value": 83.74,
-          "secondary": 0
-        },
-        {
-          "slug": "шриладо-gordunni-eu",
-          "name": "Шриладо",
-          "rank": 1,
-          "value": 81.66,
-          "secondary": 10
-        },
-        {
-          "slug": "душа-blackscar-eu",
-          "name": "Душа",
-          "rank": 3,
-          "value": 81.66,
-          "secondary": 10
-        },
-        {
-          "slug": "кхаарн-lich-king-eu",
-          "name": "Кхаарн",
-          "rank": 3,
-          "value": 81.66,
-          "secondary": 10
-        },
-        {
-          "slug": "марлая-gordunni-eu",
-          "name": "Марлая",
-          "rank": 3,
-          "value": 81.66,
-          "secondary": 10
-        },
-        {
-          "slug": "поливалочки-gordunni-eu",
-          "name": "Поливалочки",
-          "rank": 3,
-          "value": 81.66,
-          "secondary": 0
-        },
         {
           "slug": "севатар-lich-king-eu",
           "name": "Севатар",
           "rank": 3,
-          "value": 81.66,
+          "value": 86.33,
           "secondary": 10
         },
         {
           "slug": "щпикачечка-gordunni-eu",
           "name": "Щпикачечка",
           "rank": 3,
-          "value": 81.66,
+          "value": 86.33,
           "secondary": 8
         },
         {
           "slug": "монэлушка-gordunni-eu",
           "name": "Монэлушка",
           "rank": 4,
-          "value": 81.66,
+          "value": 86.33,
           "secondary": 0
         },
         {
           "slug": "senig-r-ravencrest-eu",
           "name": "Senigør",
           "rank": 1,
-          "value": 79.73,
+          "value": 84.39,
+          "secondary": 0
+        },
+        {
+          "slug": "auroliana-ravencrest-eu",
+          "name": "Auroliana",
+          "rank": 3,
+          "value": 84.39,
+          "secondary": 10
+        },
+        {
+          "slug": "berkinzee-ravencrest-eu",
+          "name": "Berkinzee",
+          "rank": 3,
+          "value": 84.39,
+          "secondary": 0
+        },
+        {
+          "slug": "bullimonk-tarren-mill-eu",
+          "name": "Bullimonk",
+          "rank": 3,
+          "value": 84.39,
+          "secondary": 10
+        },
+        {
+          "slug": "бреинор-galakrond-eu",
+          "name": "Бреинор",
+          "rank": 3,
+          "value": 84.39,
+          "secondary": 0
+        },
+        {
+          "slug": "адвокатправа-gordunni-eu",
+          "name": "Адвокатправа",
+          "rank": 4,
+          "value": 84.39,
+          "secondary": 10
+        },
+        {
+          "slug": "бафометище-eversong-eu",
+          "name": "Бафометище",
+          "rank": 4,
+          "value": 84.39,
+          "secondary": 0
+        },
+        {
+          "slug": "дарадуда-gordunni-eu",
+          "name": "Дарадуда",
+          "rank": 4,
+          "value": 84.39,
+          "secondary": 10
+        },
+        {
+          "slug": "characternuk-terokkar-eu",
+          "name": "Characternuk",
+          "rank": 1,
+          "value": 82.37,
           "secondary": 0
         }
       ]
@@ -694,10 +694,10 @@
         "killRate": 0,
         "avgDurationMs": 141803,
         "avgRaidDeaths": 16.25,
-        "avgTeamDps": 142550.74,
-        "avgTeamHps": 80347.65,
-        "bestTeamDps": 235421.07,
-        "bestTeamHps": 94211.09,
+        "avgTeamDps": 302214.07,
+        "avgTeamHps": 166580.54,
+        "bestTeamDps": 341141.06,
+        "bestTeamHps": 194944.88,
         "lastPullAt": "2026-06-17T18:57:46.744Z"
       },
       {
@@ -712,10 +712,10 @@
         "killRate": 0,
         "avgDurationMs": 181576,
         "avgRaidDeaths": 20.23,
-        "avgTeamDps": 199777.38,
-        "avgTeamHps": 127454.55,
-        "bestTeamDps": 527308.89,
-        "bestTeamHps": 476391.4,
+        "avgTeamDps": 189948.48,
+        "avgTeamHps": 103437.58,
+        "bestTeamDps": 503512.11,
+        "bestTeamHps": 443451.54,
         "lastPullAt": "2026-06-10T19:15:28.694Z"
       },
       {
@@ -730,10 +730,10 @@
         "killRate": 0,
         "avgDurationMs": 116190,
         "avgRaidDeaths": 20,
-        "avgTeamDps": 382849.85,
-        "avgTeamHps": 155523.35,
-        "bestTeamDps": 868299.52,
-        "bestTeamHps": 510170.45,
+        "avgTeamDps": 358228.54,
+        "avgTeamHps": 127239.82,
+        "bestTeamDps": 803723.66,
+        "bestTeamHps": 401867.11,
         "lastPullAt": "2026-06-10T18:27:31.482Z"
       },
       {
@@ -767,9 +767,9 @@
         "avgDurationMs": 224221,
         "avgRaidDeaths": 19.32,
         "avgTeamDps": 59701.21,
-        "avgTeamHps": 11642.74,
+        "avgTeamHps": 212.61,
         "bestTeamDps": 133964.32,
-        "bestTeamHps": 127235.58,
+        "bestTeamHps": 4677.47,
         "lastPullAt": "2026-06-03T18:55:26.254Z"
       },
       {
@@ -1012,11 +1012,11 @@
         "className": "Unknown",
         "members": 162,
         "withData": 58,
-        "avgPrimaryRecent3": 22950.36,
-        "avgDpsRecent3": 17102.58,
-        "avgHpsRecent3": 6636.98,
+        "avgPrimaryRecent3": 22941.88,
+        "avgDpsRecent3": 17773.92,
+        "avgHpsRecent3": 5957.15,
         "deathsPerPull": 0,
-        "avgReliabilityScore": 41.65
+        "avgReliabilityScore": 41.7
       }
     ]
   },
@@ -1657,29 +1657,29 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 1,
-      "updatedAt": "2026-06-14T20:22:20.848Z",
-      "lastScannedAt": "2026-06-14T20:22:20.848Z",
-      "lastPullAt": "2026-05-29T20:06:06.764Z",
+      "updatedAt": "2026-06-18T10:41:19.251Z",
+      "lastScannedAt": "2026-06-18T10:41:19.251Z",
+      "lastPullAt": "2026-06-17T18:41:51.760Z",
       "pullsStored": 10,
-      "kills": 1,
-      "wipes": 9,
-      "avgPrimaryRecent3": 103494.21,
-      "maxPrimaryLast10": 127235.58,
-      "avgDpsRecent3": 0,
-      "maxDpsLast10": 0,
-      "avgHpsRecent3": 103494.21,
-      "maxHpsLast10": 127235.58,
+      "kills": 0,
+      "wipes": 10,
+      "avgPrimaryRecent3": 87965.25,
+      "maxPrimaryLast10": 110512.42,
+      "avgDpsRecent3": 87965.25,
+      "maxDpsLast10": 103191.43,
+      "avgHpsRecent3": 0,
+      "maxHpsLast10": 110512.42,
       "deathsPerPull": 0,
-      "stabilityPercent": 81.34,
-      "consistencyPercent": 60.04,
-      "performanceScore": 61.75,
+      "stabilityPercent": 79.6,
+      "consistencyPercent": 59.23,
+      "performanceScore": 58.59,
       "survivalScore": 100,
-      "reliabilityScore": 63.96,
-      "trendDirection": "up",
-      "trendDeltaPercent": 8.34,
+      "reliabilityScore": 70.32,
+      "trendDirection": "flat",
+      "trendDeltaPercent": 1.67,
       "primaryKindCounts": {
-        "dps": 0,
-        "hps": 10,
+        "dps": 6,
+        "hps": 4,
         "unknown": 0
       }
     },
@@ -3541,8 +3541,8 @@
       "realmSlug": "blackscar",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-14T20:22:20.848Z",
-      "lastScannedAt": "2026-06-14T20:22:20.848Z",
+      "updatedAt": "2026-06-18T10:41:19.251Z",
+      "lastScannedAt": "2026-06-18T10:41:19.251Z",
       "lastPullAt": "2026-06-10T19:15:28.694Z",
       "pullsStored": 10,
       "kills": 0,
@@ -3856,26 +3856,26 @@
       "realmSlug": "lich-king",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-14T20:22:20.848Z",
-      "lastScannedAt": "2026-06-14T20:22:20.848Z",
-      "lastPullAt": "2026-06-10T19:15:28.694Z",
+      "updatedAt": "2026-06-18T10:41:19.251Z",
+      "lastScannedAt": "2026-06-18T10:41:19.251Z",
+      "lastPullAt": "2026-06-17T18:57:46.744Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 36409.54,
-      "maxPrimaryLast10": 49814.25,
-      "avgDpsRecent3": 36409.54,
-      "maxDpsLast10": 49814.25,
+      "avgPrimaryRecent3": 45333.29,
+      "maxPrimaryLast10": 57307.2,
+      "avgDpsRecent3": 45333.29,
+      "maxDpsLast10": 57307.2,
       "avgHpsRecent3": 0,
       "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 73.09,
-      "consistencyPercent": 54.4,
-      "performanceScore": 53.8,
+      "stabilityPercent": 79.11,
+      "consistencyPercent": 60.88,
+      "performanceScore": 58.73,
       "survivalScore": 100,
-      "reliabilityScore": 73.39,
+      "reliabilityScore": 76.1,
       "trendDirection": "flat",
-      "trendDeltaPercent": -2.95,
+      "trendDeltaPercent": -0.8,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
@@ -3920,26 +3920,26 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-14T20:22:20.848Z",
-      "lastScannedAt": "2026-06-14T20:22:20.848Z",
-      "lastPullAt": "2026-06-10T19:15:28.694Z",
+      "updatedAt": "2026-06-18T10:41:19.251Z",
+      "lastScannedAt": "2026-06-18T10:41:19.251Z",
+      "lastPullAt": "2026-06-17T18:57:46.744Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 99686.31,
+      "avgPrimaryRecent3": 93049.14,
       "maxPrimaryLast10": 123386.26,
       "avgDpsRecent3": 0,
       "maxDpsLast10": 0,
-      "avgHpsRecent3": 99686.31,
+      "avgHpsRecent3": 93049.14,
       "maxHpsLast10": 123386.26,
       "deathsPerPull": 0,
-      "stabilityPercent": 80.79,
-      "consistencyPercent": 37.64,
-      "performanceScore": 53.84,
+      "stabilityPercent": 75.41,
+      "consistencyPercent": 43.83,
+      "performanceScore": 52.43,
       "survivalScore": 100,
-      "reliabilityScore": 74.01,
+      "reliabilityScore": 73.24,
       "trendDirection": "up",
-      "trendDeltaPercent": 28.53,
+      "trendDeltaPercent": 15.12,
       "primaryKindCounts": {
         "dps": 0,
         "hps": 10,
@@ -3983,26 +3983,26 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-14T18:17:48.521Z",
-      "lastScannedAt": "2026-06-14T18:17:48.521Z",
-      "lastPullAt": "2026-06-10T19:15:28.694Z",
+      "updatedAt": "2026-06-18T10:41:19.251Z",
+      "lastScannedAt": "2026-06-18T10:41:19.251Z",
+      "lastPullAt": "2026-06-17T18:57:46.744Z",
       "pullsStored": 10,
       "kills": 0,
       "wipes": 10,
-      "avgPrimaryRecent3": 35568.9,
-      "maxPrimaryLast10": 39897.03,
-      "avgDpsRecent3": 35568.9,
-      "maxDpsLast10": 39897.03,
+      "avgPrimaryRecent3": 47437.2,
+      "maxPrimaryLast10": 56997.38,
+      "avgDpsRecent3": 47437.2,
+      "maxDpsLast10": 56997.38,
       "avgHpsRecent3": 0,
       "maxHpsLast10": 0,
       "deathsPerPull": 0,
-      "stabilityPercent": 89.15,
-      "consistencyPercent": 60.22,
-      "performanceScore": 64.09,
+      "stabilityPercent": 83.23,
+      "consistencyPercent": 53.22,
+      "performanceScore": 59.08,
       "survivalScore": 100,
-      "reliabilityScore": 76.35,
-      "trendDirection": "up",
-      "trendDeltaPercent": 15.03,
+      "reliabilityScore": 76.29,
+      "trendDirection": "down",
+      "trendDeltaPercent": -11.2,
       "primaryKindCounts": {
         "dps": 10,
         "hps": 0,
@@ -4110,8 +4110,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 3,
-      "updatedAt": "2026-06-14T20:22:20.848Z",
-      "lastScannedAt": "2026-06-14T20:22:20.848Z",
+      "updatedAt": "2026-06-18T10:41:19.251Z",
+      "lastScannedAt": "2026-06-18T10:41:19.251Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5795,8 +5795,8 @@
       "realmSlug": "gordunni",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-14T18:17:48.521Z",
-      "lastScannedAt": "2026-06-14T18:17:48.521Z",
+      "updatedAt": "2026-06-18T10:41:19.251Z",
+      "lastScannedAt": "2026-06-18T10:41:19.251Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,
@@ -5982,8 +5982,8 @@
       "realmSlug": "soulflayer",
       "region": "eu",
       "rank": 4,
-      "updatedAt": "2026-06-14T18:17:48.521Z",
-      "lastScannedAt": "2026-06-14T18:17:48.521Z",
+      "updatedAt": "2026-06-18T10:41:19.251Z",
+      "lastScannedAt": "2026-06-18T10:41:19.251Z",
       "pullsStored": 0,
       "kills": 0,
       "wipes": 0,

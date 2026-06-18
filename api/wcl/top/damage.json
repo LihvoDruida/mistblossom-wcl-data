@@ -63,6 +63,13 @@
     "secondary": 0
   },
   {
+    "slug": "шриладо-gordunni-eu",
+    "name": "Шриладо",
+    "rank": 1,
+    "value": 87965.25,
+    "secondary": 0
+  },
+  {
     "slug": "oxydenis-silvermoon-eu",
     "name": "Oxydenis",
     "rank": 3,
@@ -74,13 +81,6 @@
     "name": "Мавпита",
     "rank": 1,
     "value": 87339.48,
-    "secondary": 0
-  },
-  {
-    "slug": "skirvir-turalyon-eu",
-    "name": "Skirvir",
-    "rank": 3,
-    "value": 79663.29,
     "secondary": 0
   }
 ]

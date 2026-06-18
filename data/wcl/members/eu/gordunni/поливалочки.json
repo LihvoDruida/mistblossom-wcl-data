@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T20:22:20.848Z",
+  "updatedAt": "2026-06-18T10:41:19.251Z",
   "character": {
     "name": "Поливалочки",
     "realmSlug": "gordunni",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T20:22:20.848Z",
+    "lastScannedAt": "2026-06-18T10:41:19.251Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

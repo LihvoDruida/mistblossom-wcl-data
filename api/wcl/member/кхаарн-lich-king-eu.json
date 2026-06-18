@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T20:22:20.848Z",
+  "updatedAt": "2026-06-18T10:41:19.251Z",
   "character": {
     "name": "Кхаарн",
     "realmSlug": "lich-king",
@@ -16,46 +16,46 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 202,
+    "totalRaidDeaths": 172,
     "deathsPerPull": 0,
-    "stabilityPercent": 73.09,
-    "consistencyPercent": 54.4,
-    "performanceScore": 53.8,
+    "stabilityPercent": 79.11,
+    "consistencyPercent": 60.88,
+    "performanceScore": 58.73,
     "survivalScore": 100,
-    "reliabilityScore": 73.39,
+    "reliabilityScore": 76.1,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 36409.54,
+      "avgDps": 45333.29,
       "avgHps": 0,
-      "avgPrimary": 36409.54,
-      "avgDurationMs": 183301,
+      "avgPrimary": 45333.29,
+      "avgDurationMs": 163307,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 37517.78,
+      "avgDps": 45700.61,
       "avgHps": 0,
-      "avgPrimary": 37517.78,
-      "avgDurationMs": 142552,
+      "avgPrimary": 45700.61,
+      "avgDurationMs": 133583,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 49814.25,
-      "minDps": 27096.62,
+      "maxDps": 57307.2,
+      "minDps": 34888.45,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 49814.25,
-      "minPrimary": 27096.62,
-      "maxDurationMs": 407830,
-      "minDurationMs": 90883
+      "maxPrimary": 57307.2,
+      "minPrimary": 34888.45,
+      "maxDurationMs": 211411,
+      "minDurationMs": 94067
     },
     "trend": {
       "direction": "flat",
-      "recentAvg": 36409.54,
-      "previousAvg": 37517.78,
-      "delta": -1108.24,
-      "deltaPercent": -2.95
+      "recentAvg": 45333.29,
+      "previousAvg": 45700.61,
+      "delta": -367.32,
+      "deltaPercent": -0.8
     },
     "byRole": {
       "healer": {
@@ -71,12 +71,12 @@
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 36409.54,
-        "maxLast10": 49814.25,
-        "minLast10": 27096.62,
+        "avgRecent": 45333.29,
+        "maxLast10": 57307.2,
+        "minLast10": 34888.45,
         "deathsPerPull": 0,
-        "bestPullKey": "J7drK2qY9hFnRyTD:27:Кхаарн:lich-king:eu",
-        "worstPullKey": "RL79bk4gWVYtjAC2:28:Кхаарн:lich-king:eu"
+        "bestPullKey": "YmMXVLgCwzT6j2cr:13:Кхаарн:lich-king:eu",
+        "worstPullKey": "RL79bk4gWVYtjAC2:32:Кхаарн:lich-king:eu"
       },
       "unknown": {
         "pulls": 0,
@@ -103,6 +103,1158 @@
     }
   },
   "pulls": [
+    {
+      "key": "YmMXVLgCwzT6j2cr:18:Кхаарн:lich-king:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=18",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:57:46.744Z",
+      "durationMs": 194721,
+      "bossPercentage": 70.85,
+      "fightPercentage": 70.85,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 32,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 42191.47,
+        "hps": 16058.68,
+        "primary": 42191.47,
+        "primaryKind": "dps",
+        "fightDps": 42191.47,
+        "fightHps": 16058.68,
+        "activeDps": 42633.08,
+        "activeHps": 16458.48,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 8215565,
+        "healingTotal": 3126963,
+        "damageActiveTimeMs": 192704,
+        "healingActiveTimeMs": 189991,
+        "damageTotalTimeMs": 194721,
+        "healingTotalTimeMs": 194721,
+        "damageEntryId": 32,
+        "healingEntryId": 32,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:32,healing:actor-id:32"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 18,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6472787,
+          "endTime": 6667508,
+          "bossPercentage": 70.85,
+          "fightPercentage": 70.85,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 8215565,
+              "activeTime": 192704,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 3126963,
+              "activeTime": 189991,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 32,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:17:Кхаарн:lich-king:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=17",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:53:14.132Z",
+      "durationMs": 159209,
+      "bossPercentage": 78.19,
+      "fightPercentage": 78.19,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 32,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 40821.9,
+        "hps": 17366.24,
+        "primary": 40821.9,
+        "primaryKind": "dps",
+        "fightDps": 40821.9,
+        "fightHps": 17366.24,
+        "activeDps": 41387.04,
+        "activeHps": 18737.33,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 6499214,
+        "healingTotal": 2764862,
+        "damageActiveTimeMs": 157035,
+        "healingActiveTimeMs": 147559,
+        "damageTotalTimeMs": 159209,
+        "healingTotalTimeMs": 159209,
+        "damageEntryId": 32,
+        "healingEntryId": 32,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:32,healing:actor-id:32"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 17,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6200175,
+          "endTime": 6359384,
+          "bossPercentage": 78.19,
+          "fightPercentage": 78.19,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 6499214,
+              "activeTime": 157035,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 2764862,
+              "activeTime": 147559,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 32,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:16:Кхаарн:lich-king:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=16",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:41:51.760Z",
+      "durationMs": 135992,
+      "bossPercentage": 76.74,
+      "fightPercentage": 76.74,
+      "averageItemLevel": 287.5,
+      "actor": {
+        "id": 32,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 52986.51,
+        "hps": 17438.64,
+        "primary": 52986.51,
+        "primaryKind": "dps",
+        "fightDps": 52986.51,
+        "fightHps": 17438.64,
+        "activeDps": 53443.95,
+        "activeHps": 17601.59,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 7205741,
+        "healingTotal": 2371515,
+        "damageActiveTimeMs": 134828,
+        "healingActiveTimeMs": 134733,
+        "damageTotalTimeMs": 135992,
+        "healingTotalTimeMs": 135992,
+        "damageEntryId": 32,
+        "healingEntryId": 32,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:32,healing:actor-id:32"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 16,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5517803,
+          "endTime": 5653795,
+          "bossPercentage": 76.74,
+          "fightPercentage": 76.74,
+          "averageItemLevel": 287.5
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 7205741,
+              "activeTime": 134828,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 2371515,
+              "activeTime": 134733,
+              "itemLevel": 289,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 32,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:15:Кхаарн:lich-king:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=15",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:31:20.098Z",
+      "durationMs": 168405,
+      "bossPercentage": 75.75,
+      "fightPercentage": 75.75,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 32,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 42271.29,
+        "hps": 15247.96,
+        "primary": 42271.29,
+        "primaryKind": "dps",
+        "fightDps": 42271.29,
+        "fightHps": 15247.96,
+        "activeDps": 42506.54,
+        "activeHps": 15901.77,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 7118697,
+        "healingTotal": 2567833,
+        "damageActiveTimeMs": 167473,
+        "healingActiveTimeMs": 161481,
+        "damageTotalTimeMs": 168405,
+        "healingTotalTimeMs": 168405,
+        "damageEntryId": 32,
+        "healingEntryId": 32,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:32,healing:actor-id:32"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 15,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4886141,
+          "endTime": 5054546,
+          "bossPercentage": 75.75,
+          "fightPercentage": 75.75,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 7118697,
+              "activeTime": 167473,
+              "itemLevel": 288,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 2567833,
+              "activeTime": 161481,
+              "itemLevel": 288,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 32,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:14:Кхаарн:lich-king:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=14",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:25:08.620Z",
+      "durationMs": 94067,
+      "bossPercentage": 83.63,
+      "fightPercentage": 83.63,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 32,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 37523.35,
+        "hps": 11953.78,
+        "primary": 37523.35,
+        "primaryKind": "dps",
+        "fightDps": 37523.35,
+        "fightHps": 11953.78,
+        "activeDps": 38073.81,
+        "activeHps": 13014.99,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 3529709,
+        "healingTotal": 1124456,
+        "damageActiveTimeMs": 92707,
+        "healingActiveTimeMs": 86397,
+        "damageTotalTimeMs": 94067,
+        "healingTotalTimeMs": 94067,
+        "damageEntryId": 32,
+        "healingEntryId": 32,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:32,healing:actor-id:32"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 14,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4514663,
+          "endTime": 4608730,
+          "bossPercentage": 83.63,
+          "fightPercentage": 83.63,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 3529709,
+              "activeTime": 92707,
+              "itemLevel": 288,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 1124456,
+              "activeTime": 86397,
+              "itemLevel": 288,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 32,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:13:Кхаарн:lich-king:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=13",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:20:14.101Z",
+      "durationMs": 138277,
+      "bossPercentage": 78.4,
+      "fightPercentage": 78.4,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 32,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 57307.2,
+        "hps": 13538.47,
+        "primary": 57307.2,
+        "primaryKind": "dps",
+        "fightDps": 57307.2,
+        "fightHps": 13538.47,
+        "activeDps": 57766.74,
+        "activeHps": 15488.33,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 7924268,
+        "healingTotal": 1872059,
+        "damageActiveTimeMs": 137177,
+        "healingActiveTimeMs": 120869,
+        "damageTotalTimeMs": 138277,
+        "healingTotalTimeMs": 138277,
+        "damageEntryId": 32,
+        "healingEntryId": 32,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:32,healing:actor-id:32"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 13,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4220144,
+          "endTime": 4358421,
+          "bossPercentage": 78.4,
+          "fightPercentage": 78.4,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 7924268,
+              "activeTime": 137177,
+              "itemLevel": 288,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 1872059,
+              "activeTime": 120869,
+              "itemLevel": 288,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 32,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:12:Кхаарн:lich-king:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=12",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:16:41.498Z",
+      "durationMs": 145229,
+      "bossPercentage": 78.53,
+      "fightPercentage": 78.53,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 32,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 50351.28,
+        "hps": 13716.82,
+        "primary": 50351.28,
+        "primaryKind": "dps",
+        "fightDps": 50351.28,
+        "fightHps": 13716.82,
+        "activeDps": 50978.91,
+        "activeHps": 14668.68,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 7312466,
+        "healingTotal": 1992080,
+        "damageActiveTimeMs": 143441,
+        "healingActiveTimeMs": 135805,
+        "damageTotalTimeMs": 145229,
+        "healingTotalTimeMs": 145229,
+        "damageEntryId": 32,
+        "healingEntryId": 32,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:32,healing:actor-id:32"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 12,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4007541,
+          "endTime": 4152770,
+          "bossPercentage": 78.53,
+          "fightPercentage": 78.53,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 7312466,
+              "activeTime": 143441,
+              "itemLevel": 288,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 1992080,
+              "activeTime": 135805,
+              "itemLevel": 288,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 32,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:11:Кхаарн:lich-king:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=11",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:12:37.893Z",
+      "durationMs": 98520,
+      "bossPercentage": 83.55,
+      "fightPercentage": 83.55,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 32,
+        "name": "Кхаарн",
+        "server": "Корольлич",
+        "type": "Player",
+        "subType": "Warrior"
+      },
+      "role": {
+        "role": "tank",
+        "source": "wcl-spec",
+        "spec": "Warrior-Protection",
+        "className": "Warrior",
+        "confidence": 0.92
+      },
+      "metric": {
+        "dps": 44768.89,
+        "hps": 16665.39,
+        "primary": 44768.89,
+        "primaryKind": "dps",
+        "fightDps": 44768.89,
+        "fightHps": 16665.39,
+        "activeDps": 45173.77,
+        "activeHps": 19029.6,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 4410631,
+        "healingTotal": 1641874,
+        "damageActiveTimeMs": 97637,
+        "healingActiveTimeMs": 86280,
+        "damageTotalTimeMs": 98520,
+        "healingTotalTimeMs": 98520,
+        "damageEntryId": 32,
+        "healingEntryId": 32,
+        "damageItemLevel": 288,
+        "healingItemLevel": 288,
+        "matchedBy": "damage:actor-id:32,healing:actor-id:32"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 11,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3763936,
+          "endTime": 3862456,
+          "bossPercentage": 83.55,
+          "fightPercentage": 83.55,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 4410631,
+              "activeTime": 97637,
+              "itemLevel": 288,
+              "guid": 265879817
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:32",
+            "matchedEntry": {
+              "id": 32,
+              "name": "Кхаарн",
+              "type": "Warrior",
+              "icon": "Warrior-Protection",
+              "total": 1641874,
+              "activeTime": 86280,
+              "itemLevel": 288,
+              "guid": 265879817
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 32,
+          "matchedActorName": "Кхаарн",
+          "normalizedKeys": [
+            "кхаарн:lich-king:eu",
+            "кхаарн::eu"
+          ],
+          "role": {
+            "role": "tank",
+            "source": "wcl-spec",
+            "spec": "Warrior-Protection",
+            "className": "Warrior",
+            "confidence": 0.92
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "RL79bk4gWVYtjAC2:32:Кхаарн:lich-king:eu",
       "reportCode": "RL79bk4gWVYtjAC2",
@@ -390,1167 +1542,15 @@
           }
         }
       }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:30:Кхаарн:lich-king:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 30,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=30",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T19:05:05.526Z",
-      "durationMs": 157690,
-      "bossPercentage": 47.28,
-      "fightPercentage": 47.28,
-      "averageItemLevel": 287.6499938964844,
-      "actor": {
-        "id": 14,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Warrior-Protection",
-        "className": "Warrior",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 39366.66,
-        "hps": 12273.33,
-        "primary": 39366.66,
-        "primaryKind": "dps",
-        "fightDps": 39366.66,
-        "fightHps": 12273.33,
-        "activeDps": 39844.47,
-        "activeHps": 12696.61,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 13
-      },
-      "source": {
-        "damageTotal": 6207729,
-        "healingTotal": 1935382,
-        "damageActiveTimeMs": 155799,
-        "healingActiveTimeMs": 152433,
-        "damageTotalTimeMs": 157690,
-        "healingTotalTimeMs": 157690,
-        "damageEntryId": 14,
-        "healingEntryId": 14,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 30,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6960668,
-          "endTime": 7118358,
-          "bossPercentage": 47.28,
-          "fightPercentage": 47.28,
-          "averageItemLevel": 287.6499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157690,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 6207729,
-              "activeTime": 155799,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157690,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 1935382,
-              "activeTime": 152433,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 13,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 14,
-          "matchedActorName": "Кхаарн",
-          "normalizedKeys": [
-            "кхаарн:lich-king:eu",
-            "кхаарн::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Warrior-Protection",
-            "className": "Warrior",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:29:Кхаарн:lich-king:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 29,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=29",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:58:57.564Z",
-      "durationMs": 172779,
-      "bossPercentage": 46.53,
-      "fightPercentage": 46.53,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 14,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Warrior-Protection",
-        "className": "Warrior",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 39673.46,
-        "hps": 11565.87,
-        "primary": 39673.46,
-        "primaryKind": "dps",
-        "fightDps": 39673.46,
-        "fightHps": 11565.87,
-        "activeDps": 44115.7,
-        "activeHps": 12944.04,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 6854741,
-        "healingTotal": 1998340,
-        "damageActiveTimeMs": 155381,
-        "healingActiveTimeMs": 154383,
-        "damageTotalTimeMs": 172779,
-        "healingTotalTimeMs": 172779,
-        "damageEntryId": 14,
-        "healingEntryId": 14,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 29,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6592706,
-          "endTime": 6765485,
-          "bossPercentage": 46.53,
-          "fightPercentage": 46.53,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 172779,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 6854741,
-              "activeTime": 155381,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 172779,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 1998340,
-              "activeTime": 154383,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 14,
-          "matchedActorName": "Кхаарн",
-          "normalizedKeys": [
-            "кхаарн:lich-king:eu",
-            "кхаарн::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Warrior-Protection",
-            "className": "Warrior",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:28:Кхаарн:lich-king:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:46:37.242Z",
-      "durationMs": 92715,
-      "bossPercentage": 78.58,
-      "fightPercentage": 78.58,
-      "averageItemLevel": 287.6499938964844,
-      "actor": {
-        "id": 14,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Warrior-Protection",
-        "className": "Warrior",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 27096.62,
-        "hps": 4353.42,
-        "primary": 27096.62,
-        "primaryKind": "dps",
-        "fightDps": 27096.62,
-        "fightHps": 4353.42,
-        "activeDps": 31797.18,
-        "activeHps": 6605.57,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 2512263,
-        "healingTotal": 403627,
-        "damageActiveTimeMs": 79009,
-        "healingActiveTimeMs": 61104,
-        "damageTotalTimeMs": 92715,
-        "healingTotalTimeMs": 92715,
-        "damageEntryId": 14,
-        "healingEntryId": 14,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 28,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 5852384,
-          "endTime": 5945099,
-          "bossPercentage": 78.58,
-          "fightPercentage": 78.58,
-          "averageItemLevel": 287.6499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 92715,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 2512263,
-              "activeTime": 79009,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 92715,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 403627,
-              "activeTime": 61104,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 14,
-          "matchedActorName": "Кхаарн",
-          "normalizedKeys": [
-            "кхаарн:lich-king:eu",
-            "кхаарн::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Warrior-Protection",
-            "className": "Warrior",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:27:Кхаарн:lich-king:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=27",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:27:31.482Z",
-      "durationMs": 162162,
-      "bossPercentage": 57.42,
-      "fightPercentage": 57.42,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 14,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Warrior-Protection",
-        "className": "Warrior",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 45783.25,
-        "hps": 21170.02,
-        "primary": 45783.25,
-        "primaryKind": "dps",
-        "fightDps": 45783.25,
-        "fightHps": 21170.02,
-        "activeDps": 46266.86,
-        "activeHps": 23538.99,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 7424304,
-        "healingTotal": 3432973,
-        "damageActiveTimeMs": 160467,
-        "healingActiveTimeMs": 145842,
-        "damageTotalTimeMs": 162162,
-        "healingTotalTimeMs": 162162,
-        "damageEntryId": 14,
-        "healingEntryId": 14,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 27,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4706624,
-          "endTime": 4868786,
-          "bossPercentage": 57.42,
-          "fightPercentage": 57.42,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 162162,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 7424304,
-              "activeTime": 160467,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 162162,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 3432973,
-              "activeTime": 145842,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 14,
-          "matchedActorName": "Кхаарн",
-          "normalizedKeys": [
-            "кхаарн:lich-king:eu",
-            "кхаарн::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Warrior-Protection",
-            "className": "Warrior",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:26:Кхаарн:lich-king:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=26",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:23:01.641Z",
-      "durationMs": 100948,
-      "bossPercentage": 72.73,
-      "fightPercentage": 72.73,
-      "averageItemLevel": 287.54998779296875,
-      "actor": {
-        "id": 14,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Warrior-Protection",
-        "className": "Warrior",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 46474.13,
-        "hps": 12564.23,
-        "primary": 46474.13,
-        "primaryKind": "dps",
-        "fightDps": 46474.13,
-        "fightHps": 12564.23,
-        "activeDps": 47270.17,
-        "activeHps": 16563.94,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 4691470,
-        "healingTotal": 1268334,
-        "damageActiveTimeMs": 99248,
-        "healingActiveTimeMs": 76572,
-        "damageTotalTimeMs": 100948,
-        "healingTotalTimeMs": 100948,
-        "damageEntryId": 14,
-        "healingEntryId": 14,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 26,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4436783,
-          "endTime": 4537731,
-          "bossPercentage": 72.73,
-          "fightPercentage": 72.73,
-          "averageItemLevel": 287.54998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 19,
-            "totalTimeMs": 100948,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 4691470,
-              "activeTime": 99248,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 100948,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 1268334,
-              "activeTime": 76572,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 14,
-          "matchedActorName": "Кхаарн",
-          "normalizedKeys": [
-            "кхаарн:lich-king:eu",
-            "кхаарн::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Warrior-Protection",
-            "className": "Warrior",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:25:Кхаарн:lich-king:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=25",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:11:38.181Z",
-      "durationMs": 90883,
-      "bossPercentage": 71.27,
-      "fightPercentage": 71.27,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 14,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Warrior-Protection",
-        "className": "Warrior",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 31276.67,
-        "hps": 9526.24,
-        "primary": 31276.67,
-        "primaryKind": "dps",
-        "fightDps": 31276.67,
-        "fightHps": 9526.24,
-        "activeDps": 44012.05,
-        "activeHps": 25192.72,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 22
-      },
-      "source": {
-        "damageTotal": 2842518,
-        "healingTotal": 865773,
-        "damageActiveTimeMs": 64585,
-        "healingActiveTimeMs": 34366,
-        "damageTotalTimeMs": 90883,
-        "healingTotalTimeMs": 90883,
-        "damageEntryId": 14,
-        "healingEntryId": 14,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:14,healing:actor-id:14"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 25,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 3753323,
-          "endTime": 3844206,
-          "bossPercentage": 71.27,
-          "fightPercentage": 71.27,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 19,
-            "totalTimeMs": 90883,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 2842518,
-              "activeTime": 64585,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 90883,
-            "matchedBy": "actor-id:14",
-            "matchedEntry": {
-              "id": 14,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 865773,
-              "activeTime": 34366,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 22,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 14,
-          "matchedActorName": "Кхаарн",
-          "normalizedKeys": [
-            "кхаарн:lich-king:eu",
-            "кхаарн::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Warrior-Protection",
-            "className": "Warrior",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:28:Кхаарн:lich-king:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:56:22.399Z",
-      "durationMs": 254690,
-      "bossPercentage": 99.99,
-      "fightPercentage": 99.99,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 356,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Warrior-Protection",
-        "className": "Warrior",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 36559.02,
-        "hps": 9901.9,
-        "primary": 36559.02,
-        "primaryKind": "dps",
-        "fightDps": 36559.02,
-        "fightHps": 9901.9,
-        "activeDps": 39018.5,
-        "activeHps": 11358.69,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 9311218,
-        "healingTotal": 2521914,
-        "damageActiveTimeMs": 238636,
-        "healingActiveTimeMs": 222025,
-        "damageTotalTimeMs": 254690,
-        "healingTotalTimeMs": 254690,
-        "damageEntryId": 356,
-        "healingEntryId": 356,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:356,healing:actor-id:356"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 28,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 15936899,
-          "endTime": 16191589,
-          "bossPercentage": 99.99,
-          "fightPercentage": 99.99,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 254690,
-            "matchedBy": "actor-id:356",
-            "matchedEntry": {
-              "id": 356,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 9311218,
-              "activeTime": 238636,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 254690,
-            "matchedBy": "actor-id:356",
-            "matchedEntry": {
-              "id": 356,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 2521914,
-              "activeTime": 222025,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 356,
-          "matchedActorName": "Кхаарн",
-          "normalizedKeys": [
-            "кхаарн:lich-king:eu",
-            "кхаарн::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Warrior-Protection",
-            "className": "Warrior",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:27:Кхаарн:lich-king:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=27",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:48:06.865Z",
-      "durationMs": 407830,
-      "bossPercentage": 87.18,
-      "fightPercentage": 87.18,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 356,
-        "name": "Кхаарн",
-        "server": "Корольлич",
-        "type": "Player",
-        "subType": "Warrior"
-      },
-      "role": {
-        "role": "tank",
-        "source": "wcl-spec",
-        "spec": "Warrior-Protection",
-        "className": "Warrior",
-        "confidence": 0.92
-      },
-      "metric": {
-        "dps": 49814.25,
-        "hps": 13335.84,
-        "primary": 49814.25,
-        "primaryKind": "dps",
-        "fightDps": 49814.25,
-        "fightHps": 13335.84,
-        "activeDps": 50082.45,
-        "activeHps": 14262.48,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 23
-      },
-      "source": {
-        "damageTotal": 20315745,
-        "healingTotal": 5438756,
-        "damageActiveTimeMs": 405646,
-        "healingActiveTimeMs": 381333,
-        "damageTotalTimeMs": 407830,
-        "healingTotalTimeMs": 407830,
-        "damageEntryId": 356,
-        "healingEntryId": 356,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:356,healing:actor-id:356"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 27,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 15441365,
-          "endTime": 15849195,
-          "bossPercentage": 87.18,
-          "fightPercentage": 87.18,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 407830,
-            "matchedBy": "actor-id:356",
-            "matchedEntry": {
-              "id": 356,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 20315745,
-              "activeTime": 405646,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 407830,
-            "matchedBy": "actor-id:356",
-            "matchedEntry": {
-              "id": 356,
-              "name": "Кхаарн",
-              "type": "Warrior",
-              "icon": "Warrior-Protection",
-              "total": 5438756,
-              "activeTime": 381333,
-              "itemLevel": 289,
-              "guid": 265879817
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 23,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 356,
-          "matchedActorName": "Кхаарн",
-          "normalizedKeys": [
-            "кхаарн:lich-king:eu",
-            "кхаарн::eu"
-          ],
-          "role": {
-            "role": "tank",
-            "source": "wcl-spec",
-            "spec": "Warrior-Protection",
-            "className": "Warrior",
-            "confidence": 0.92
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T20:22:20.848Z",
-    "lastPullAt": "2026-06-10T19:15:28.694Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-18T10:41:19.251Z",
+    "lastPullAt": "2026-06-17T18:57:46.744Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }
