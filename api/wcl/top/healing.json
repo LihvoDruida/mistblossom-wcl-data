@@ -14,13 +14,6 @@
     "secondary": 0
   },
   {
-    "slug": "древесная-blackscar-eu",
-    "name": "Древесная",
-    "rank": 3,
-    "value": 114877.41,
-    "secondary": 0
-  },
-  {
     "slug": "auroliana-ravencrest-eu",
     "name": "Auroliana",
     "rank": 3,
@@ -60,6 +53,13 @@
     "name": "Lightass",
     "rank": 1,
     "value": 87836.99,
+    "secondary": 0
+  },
+  {
+    "slug": "древесная-blackscar-eu",
+    "name": "Древесная",
+    "rank": 3,
+    "value": 83882.29,
     "secondary": 0
   },
   {

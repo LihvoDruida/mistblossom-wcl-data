@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T18:17:48.521Z",
+  "updatedAt": "2026-06-18T06:01:34.065Z",
   "character": {
     "name": "Древесная",
     "realmSlug": "blackscar",
@@ -16,58 +16,58 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 195,
+    "totalRaidDeaths": 173,
     "deathsPerPull": 0,
-    "stabilityPercent": 92.4,
-    "consistencyPercent": 59.37,
-    "performanceScore": 65.66,
+    "stabilityPercent": 69.64,
+    "consistencyPercent": 56.19,
+    "performanceScore": 52.35,
     "survivalScore": 100,
-    "reliabilityScore": 77.66,
+    "reliabilityScore": 73.19,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 114877.41,
-      "avgPrimary": 114877.41,
-      "avgDurationMs": 291246,
+      "avgHps": 83882.29,
+      "avgPrimary": 83882.29,
+      "avgDurationMs": 163307,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 107068.16,
-      "avgPrimary": 107068.16,
-      "avgDurationMs": 233606,
+      "avgHps": 77542.92,
+      "avgPrimary": 77542.92,
+      "avgDurationMs": 133583,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
       "maxDps": 0,
       "minDps": 0,
-      "maxHps": 124319.52,
-      "minHps": 73813.23,
-      "maxPrimary": 124319.52,
-      "minPrimary": 73813.23,
+      "maxHps": 120443.16,
+      "minHps": 67678.75,
+      "maxPrimary": 120443.16,
+      "minPrimary": 67678.75,
       "maxDurationMs": 407830,
-      "minDurationMs": 108203
+      "minDurationMs": 94067
     },
     "trend": {
       "direction": "up",
-      "recentAvg": 114877.41,
-      "previousAvg": 107068.16,
-      "delta": 7809.25,
-      "deltaPercent": 7.29
+      "recentAvg": 83882.29,
+      "previousAvg": 77542.92,
+      "delta": 6339.37,
+      "deltaPercent": 8.18
     },
     "byRole": {
       "healer": {
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 114877.41,
-        "maxLast10": 124319.52,
-        "minLast10": 73813.23,
+        "avgRecent": 83882.29,
+        "maxLast10": 120443.16,
+        "minLast10": 67678.75,
         "deathsPerPull": 0,
-        "bestPullKey": "8dAPQCWGNMLBjrRg:32:Древесная:blackscar:eu",
-        "worstPullKey": "J7drK2qY9hFnRyTD:21:Древесная:blackscar:eu"
+        "bestPullKey": "J7drK2qY9hFnRyTD:28:Древесная:blackscar:eu",
+        "worstPullKey": "YmMXVLgCwzT6j2cr:17:Древесная:blackscar:eu"
       },
       "damage": {
         "pulls": 0,
@@ -91,18 +91,1170 @@
     "dataQuality": {
       "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
-      "pullsWithRoleInferred": 8,
+      "pullsWithRoleInferred": 10,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
         "dps": 0,
         "hps": 10,
         "unknown": 0
       },
-      "confidenceAvg": 0.77,
+      "confidenceAvg": 0.96,
       "matchedPullPercent": 100
     }
   },
   "pulls": [
+    {
+      "key": "YmMXVLgCwzT6j2cr:18:Древесная:blackscar:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=18",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:57:46.744Z",
+      "durationMs": 194721,
+      "bossPercentage": 70.85,
+      "fightPercentage": 70.85,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 10,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1551.99,
+        "hps": 94211.09,
+        "primary": 94211.09,
+        "primaryKind": "hps",
+        "fightDps": 1551.99,
+        "fightHps": 94211.09,
+        "activeDps": 5950.44,
+        "activeHps": 97280.57,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 302205,
+        "healingTotal": 18344878,
+        "damageActiveTimeMs": 50787,
+        "healingActiveTimeMs": 188577,
+        "damageTotalTimeMs": 194721,
+        "healingTotalTimeMs": 194721,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 18,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6472787,
+          "endTime": 6667508,
+          "bossPercentage": 70.85,
+          "fightPercentage": 70.85,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 302205,
+              "activeTime": 50787,
+              "itemLevel": 289,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 18344878,
+              "activeTime": 188577,
+              "itemLevel": 289,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:17:Древесная:blackscar:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=17",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:53:14.132Z",
+      "durationMs": 159209,
+      "bossPercentage": 78.19,
+      "fightPercentage": 78.19,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 10,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 431.93,
+        "hps": 67678.75,
+        "primary": 67678.75,
+        "primaryKind": "hps",
+        "fightDps": 431.93,
+        "fightHps": 67678.75,
+        "activeDps": 4767.87,
+        "activeHps": 76433.54,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 68767,
+        "healingTotal": 10775066,
+        "damageActiveTimeMs": 14423,
+        "healingActiveTimeMs": 140973,
+        "damageTotalTimeMs": 159209,
+        "healingTotalTimeMs": 159209,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 289,
+        "healingItemLevel": 289,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 17,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6200175,
+          "endTime": 6359384,
+          "bossPercentage": 78.19,
+          "fightPercentage": 78.19,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 68767,
+              "activeTime": 14423,
+              "itemLevel": 289,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 10775066,
+              "activeTime": 140973,
+              "itemLevel": 289,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:16:Древесная:blackscar:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=16",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:41:51.760Z",
+      "durationMs": 135992,
+      "bossPercentage": 76.74,
+      "fightPercentage": 76.74,
+      "averageItemLevel": 287.5,
+      "actor": {
+        "id": 10,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1522.49,
+        "hps": 89757.03,
+        "primary": 89757.03,
+        "primaryKind": "hps",
+        "fightDps": 1522.49,
+        "fightHps": 89757.03,
+        "activeDps": 9064.66,
+        "activeHps": 95044.17,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 207046,
+        "healingTotal": 12206238,
+        "damageActiveTimeMs": 22841,
+        "healingActiveTimeMs": 128427,
+        "damageTotalTimeMs": 135992,
+        "healingTotalTimeMs": 135992,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 16,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5517803,
+          "endTime": 5653795,
+          "bossPercentage": 76.74,
+          "fightPercentage": 76.74,
+          "averageItemLevel": 287.5
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 207046,
+              "activeTime": 22841,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 12206238,
+              "activeTime": 128427,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:15:Древесная:blackscar:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=15",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:31:20.098Z",
+      "durationMs": 168405,
+      "bossPercentage": 75.75,
+      "fightPercentage": 75.75,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 10,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1104.47,
+        "hps": 69015.88,
+        "primary": 69015.88,
+        "primaryKind": "hps",
+        "fightDps": 1104.47,
+        "fightHps": 69015.88,
+        "activeDps": 4990.85,
+        "activeHps": 73110.19,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 185999,
+        "healingTotal": 11622619,
+        "damageActiveTimeMs": 37268,
+        "healingActiveTimeMs": 158974,
+        "damageTotalTimeMs": 168405,
+        "healingTotalTimeMs": 168405,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 15,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4886141,
+          "endTime": 5054546,
+          "bossPercentage": 75.75,
+          "fightPercentage": 75.75,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 185999,
+              "activeTime": 37268,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 11622619,
+              "activeTime": 158974,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:14:Древесная:blackscar:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=14",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:25:08.620Z",
+      "durationMs": 94067,
+      "bossPercentage": 83.63,
+      "fightPercentage": 83.63,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 10,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1131.1,
+        "hps": 91900.2,
+        "primary": 91900.2,
+        "primaryKind": "hps",
+        "fightDps": 1131.1,
+        "fightHps": 91900.2,
+        "activeDps": 5839.36,
+        "activeHps": 96653.39,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 106399,
+        "healingTotal": 8644776,
+        "damageActiveTimeMs": 18221,
+        "healingActiveTimeMs": 89441,
+        "damageTotalTimeMs": 94067,
+        "healingTotalTimeMs": 94067,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 14,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4514663,
+          "endTime": 4608730,
+          "bossPercentage": 83.63,
+          "fightPercentage": 83.63,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 106399,
+              "activeTime": 18221,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 8644776,
+              "activeTime": 89441,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:13:Древесная:blackscar:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=13",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:20:14.101Z",
+      "durationMs": 138277,
+      "bossPercentage": 78.4,
+      "fightPercentage": 78.4,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 10,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1666.29,
+        "hps": 71712.67,
+        "primary": 71712.67,
+        "primaryKind": "hps",
+        "fightDps": 1666.29,
+        "fightHps": 71712.67,
+        "activeDps": 6398.5,
+        "activeHps": 72712.84,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 230410,
+        "healingTotal": 9916213,
+        "damageActiveTimeMs": 36010,
+        "healingActiveTimeMs": 136375,
+        "damageTotalTimeMs": 138277,
+        "healingTotalTimeMs": 138277,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 13,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4220144,
+          "endTime": 4358421,
+          "bossPercentage": 78.4,
+          "fightPercentage": 78.4,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 230410,
+              "activeTime": 36010,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 9916213,
+              "activeTime": 136375,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:12:Древесная:blackscar:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=12",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:16:41.498Z",
+      "durationMs": 145229,
+      "bossPercentage": 78.53,
+      "fightPercentage": 78.53,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 10,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 424.89,
+        "hps": 87065.38,
+        "primary": 87065.38,
+        "primaryKind": "hps",
+        "fightDps": 424.89,
+        "fightHps": 87065.38,
+        "activeDps": 3493.52,
+        "activeHps": 88299.62,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 61706,
+        "healingTotal": 12644418,
+        "damageActiveTimeMs": 17663,
+        "healingActiveTimeMs": 143199,
+        "damageTotalTimeMs": 145229,
+        "healingTotalTimeMs": 145229,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 12,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4007541,
+          "endTime": 4152770,
+          "bossPercentage": 78.53,
+          "fightPercentage": 78.53,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 61706,
+              "activeTime": 17663,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 12644418,
+              "activeTime": 143199,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:11:Древесная:blackscar:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=11",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:12:37.893Z",
+      "durationMs": 98520,
+      "bossPercentage": 83.55,
+      "fightPercentage": 83.55,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 10,
+        "name": "Древесная",
+        "server": "ЧерныйШрам",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 667.18,
+        "hps": 71440.16,
+        "primary": 71440.16,
+        "primaryKind": "hps",
+        "fightDps": 667.18,
+        "fightHps": 71440.16,
+        "activeDps": 3327.14,
+        "activeHps": 71818.5,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 65731,
+        "healingTotal": 7038285,
+        "damageActiveTimeMs": 19756,
+        "healingActiveTimeMs": 98001,
+        "damageTotalTimeMs": 98520,
+        "healingTotalTimeMs": 98520,
+        "damageEntryId": 10,
+        "healingEntryId": 10,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:10,healing:actor-id:10"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 11,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3763936,
+          "endTime": 3862456,
+          "bossPercentage": 83.55,
+          "fightPercentage": 83.55,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 65731,
+              "activeTime": 19756,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:10",
+            "matchedEntry": {
+              "id": 10,
+              "name": "Древесная",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 7038285,
+              "activeTime": 98001,
+              "itemLevel": 290,
+              "guid": 265764293
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 10,
+          "matchedActorName": "Древесная",
+          "normalizedKeys": [
+            "древесная:blackscar:eu",
+            "древесная::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "J7drK2qY9hFnRyTD:28:Древесная:blackscar:eu",
       "reportCode": "J7drK2qY9hFnRyTD",
@@ -390,1007 +1542,15 @@
           }
         }
       }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:26:Древесная:blackscar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=26",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:43:28.840Z",
-      "durationMs": 211217,
-      "bossPercentage": 44.04,
-      "fightPercentage": 44.04,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 489,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 324.21,
-        "hps": 107053.09,
-        "primary": 107053.09,
-        "primaryKind": "hps",
-        "fightDps": 324.21,
-        "fightHps": 107053.09,
-        "activeDps": 3425.66,
-        "activeHps": 109331.69,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 68479,
-        "healingTotal": 22611433,
-        "damageActiveTimeMs": 19990,
-        "healingActiveTimeMs": 206815,
-        "damageTotalTimeMs": 211217,
-        "healingTotalTimeMs": 211217,
-        "damageEntryId": 489,
-        "healingEntryId": 489,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 26,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 15163340,
-          "endTime": 15374557,
-          "bossPercentage": 44.04,
-          "fightPercentage": 44.04,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 211217,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 68479,
-              "activeTime": 19990,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 211217,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 22611433,
-              "activeTime": 206815,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 489,
-          "matchedActorName": "Древесная",
-          "normalizedKeys": [
-            "древесная:blackscar:eu",
-            "древесная::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:24:Древесная:blackscar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 24,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=24",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:34:22.519Z",
-      "durationMs": 225405,
-      "bossPercentage": 48.14,
-      "fightPercentage": 48.14,
-      "averageItemLevel": 287.1499938964844,
-      "actor": {
-        "id": 489,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1055.58,
-        "hps": 100079,
-        "primary": 100079,
-        "primaryKind": "hps",
-        "fightDps": 1055.58,
-        "fightHps": 100079,
-        "activeDps": 8169.37,
-        "activeHps": 116184.11,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 237933,
-        "healingTotal": 22558306,
-        "damageActiveTimeMs": 29125,
-        "healingActiveTimeMs": 194160,
-        "damageTotalTimeMs": 225405,
-        "healingTotalTimeMs": 225405,
-        "damageEntryId": 489,
-        "healingEntryId": 489,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 24,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 14617019,
-          "endTime": 14842424,
-          "bossPercentage": 48.14,
-          "fightPercentage": 48.14,
-          "averageItemLevel": 287.1499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 225405,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 237933,
-              "activeTime": 29125,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 225405,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 22558306,
-              "activeTime": 194160,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 489,
-          "matchedActorName": "Древесная",
-          "normalizedKeys": [
-            "древесная:blackscar:eu",
-            "древесная::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:23:Древесная:blackscar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 23,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=23",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:28:15.407Z",
-      "durationMs": 244539,
-      "bossPercentage": 43.67,
-      "fightPercentage": 43.67,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 489,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 883.94,
-        "hps": 103620.38,
-        "primary": 103620.38,
-        "primaryKind": "hps",
-        "fightDps": 883.94,
-        "fightHps": 103620.38,
-        "activeDps": 6523.92,
-        "activeHps": 107989.15,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 216157,
-        "healingTotal": 25339223,
-        "damageActiveTimeMs": 33133,
-        "healingActiveTimeMs": 234646,
-        "damageTotalTimeMs": 244539,
-        "healingTotalTimeMs": 244539,
-        "damageEntryId": 489,
-        "healingEntryId": 489,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 23,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 14249907,
-          "endTime": 14494446,
-          "bossPercentage": 43.67,
-          "fightPercentage": 43.67,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 244539,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 216157,
-              "activeTime": 33133,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 244539,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 25339223,
-              "activeTime": 234646,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 489,
-          "matchedActorName": "Древесная",
-          "normalizedKeys": [
-            "древесная:blackscar:eu",
-            "древесная::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:22:Древесная:blackscar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 22,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=22",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:22:35.705Z",
-      "durationMs": 230874,
-      "bossPercentage": 45.95,
-      "fightPercentage": 45.95,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 489,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1313.41,
-        "hps": 117505.1,
-        "primary": 117505.1,
-        "primaryKind": "hps",
-        "fightDps": 1313.41,
-        "fightHps": 117505.1,
-        "activeDps": 5827.35,
-        "activeHps": 118325.63,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 303232,
-        "healingTotal": 27128873,
-        "damageActiveTimeMs": 52036,
-        "healingActiveTimeMs": 229273,
-        "damageTotalTimeMs": 230874,
-        "healingTotalTimeMs": 230874,
-        "damageEntryId": 489,
-        "healingEntryId": 489,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 22,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13910205,
-          "endTime": 14141079,
-          "bossPercentage": 45.95,
-          "fightPercentage": 45.95,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 230874,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 303232,
-              "activeTime": 52036,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 230874,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 27128873,
-              "activeTime": 229273,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 489,
-          "matchedActorName": "Древесная",
-          "normalizedKeys": [
-            "древесная:blackscar:eu",
-            "древесная::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:21:Древесная:blackscar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=21",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:19:49.269Z",
-      "durationMs": 108203,
-      "bossPercentage": 67.25,
-      "fightPercentage": 67.25,
-      "averageItemLevel": 287.04998779296875,
-      "actor": {
-        "id": 489,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 784.19,
-        "hps": 73813.23,
-        "primary": 73813.23,
-        "primaryKind": "hps",
-        "fightDps": 784.19,
-        "fightHps": 73813.23,
-        "activeDps": 4712.69,
-        "activeHps": 85233.58,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 84852,
-        "healingTotal": 7986813,
-        "damageActiveTimeMs": 18005,
-        "healingActiveTimeMs": 93705,
-        "damageTotalTimeMs": 108203,
-        "healingTotalTimeMs": 108203,
-        "damageEntryId": 489,
-        "healingEntryId": 489,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 21,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13743769,
-          "endTime": 13851972,
-          "bossPercentage": 67.25,
-          "fightPercentage": 67.25,
-          "averageItemLevel": 287.04998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 108203,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 84852,
-              "activeTime": 18005,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 108203,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 7986813,
-              "activeTime": 93705,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 489,
-          "matchedActorName": "Древесная",
-          "normalizedKeys": [
-            "древесная:blackscar:eu",
-            "древесная::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "J7drK2qY9hFnRyTD:20:Древесная:blackscar:eu",
-      "reportCode": "J7drK2qY9hFnRyTD",
-      "reportTitle": "Mythic+ Season 1",
-      "reportStartedAt": "2026-06-04T15:30:45.500Z",
-      "reportEndedAt": "2026-06-04T20:04:36.742Z",
-      "zone": {
-        "id": 47,
-        "name": "Mythic+ Season 1"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/J7drK2qY9hFnRyTD#fight=20",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-04T19:07:41.231Z",
-      "durationMs": 157276,
-      "bossPercentage": 52.9,
-      "fightPercentage": 52.9,
-      "averageItemLevel": 287.1000061035156,
-      "actor": {
-        "id": 489,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1285.34,
-        "hps": 108659.94,
-        "primary": 108659.94,
-        "primaryKind": "hps",
-        "fightDps": 1285.34,
-        "fightHps": 108659.94,
-        "activeDps": 6202.72,
-        "activeHps": 108847.49,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 9
-      },
-      "source": {
-        "damageTotal": 202153,
-        "healingTotal": 17089600,
-        "damageActiveTimeMs": 32591,
-        "healingActiveTimeMs": 157005,
-        "damageTotalTimeMs": 157276,
-        "healingTotalTimeMs": 157276,
-        "damageEntryId": 489,
-        "healingEntryId": 489,
-        "damageItemLevel": 288,
-        "healingItemLevel": 288,
-        "matchedBy": "damage:actor-id:489,healing:actor-id:489"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "J7drK2qY9hFnRyTD",
-          "title": "Mythic+ Season 1",
-          "startTime": 1780587045500,
-          "endTime": 1780603476742
-        },
-        "fight": {
-          "id": 20,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 13015731,
-          "endTime": 13173007,
-          "bossPercentage": 52.9,
-          "fightPercentage": 52.9,
-          "averageItemLevel": 287.1000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157276,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 202153,
-              "activeTime": 32591,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 157276,
-            "matchedBy": "actor-id:489",
-            "matchedEntry": {
-              "id": 489,
-              "name": "Древесная",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 17089600,
-              "activeTime": 157005,
-              "itemLevel": 288,
-              "guid": 265764293
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 9,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 489,
-          "matchedActorName": "Древесная",
-          "normalizedKeys": [
-            "древесная:blackscar:eu",
-            "древесная::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:32:Древесная:blackscar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 32,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=32",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:06:06.764Z",
-      "durationMs": 215983,
-      "bossPercentage": 57.68,
-      "fightPercentage": 57.68,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 170,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 982.2,
-        "hps": 124319.52,
-        "primary": 124319.52,
-        "primaryKind": "hps",
-        "fightDps": 982.2,
-        "fightHps": 124319.52,
-        "activeDps": 982.2,
-        "activeHps": 124319.52,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 212139,
-        "healingTotal": 26850903,
-        "damageActiveTimeMs": 37924,
-        "healingActiveTimeMs": 205879,
-        "damageTotalTimeMs": 215983,
-        "healingTotalTimeMs": 215983,
-        "damageEntryId": 170,
-        "healingEntryId": 170,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:170,healing:actor-id:170"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
-    },
-    {
-      "key": "8dAPQCWGNMLBjrRg:31:Древесная:blackscar:eu",
-      "reportCode": "8dAPQCWGNMLBjrRg",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-05-29T16:34:39.016Z",
-      "reportEndedAt": "2026-05-29T20:10:15.076Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 31,
-      "url": "https://www.warcraftlogs.com/reports/8dAPQCWGNMLBjrRg#fight=31",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-05-29T20:00:37.917Z",
-      "durationMs": 226446,
-      "bossPercentage": 57.65,
-      "fightPercentage": 57.65,
-      "averageItemLevel": 284.75,
-      "actor": {
-        "id": 170,
-        "name": "Древесная",
-        "server": "ЧерныйШрам",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "metric": {
-        "dps": 581.18,
-        "hps": 100968.62,
-        "primary": 100968.62,
-        "primaryKind": "hps",
-        "fightDps": 581.18,
-        "fightHps": 100968.62,
-        "activeDps": 581.18,
-        "activeHps": 100968.62,
-        "damageRateSource": "none",
-        "healingRateSource": "none"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 131605,
-        "healingTotal": 22863939,
-        "damageActiveTimeMs": 12973,
-        "healingActiveTimeMs": 190485,
-        "damageTotalTimeMs": 226446,
-        "healingTotalTimeMs": 226446,
-        "damageEntryId": 170,
-        "healingEntryId": 170,
-        "damageItemLevel": 287,
-        "healingItemLevel": 287,
-        "matchedBy": "damage:actor-id:170,healing:actor-id:170"
-      },
-      "role": {
-        "role": "healer",
-        "source": "unknown",
-        "confidence": 0
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T18:17:48.521Z",
-    "lastPullAt": "2026-06-04T19:56:22.399Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-18T06:01:34.065Z",
+    "lastPullAt": "2026-06-17T18:57:46.744Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }

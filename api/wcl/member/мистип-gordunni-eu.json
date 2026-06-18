@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T18:17:48.521Z",
+  "updatedAt": "2026-06-18T06:01:34.065Z",
   "character": {
     "name": "Мистип",
     "realmSlug": "gordunni",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T18:17:48.521Z",
+    "lastScannedAt": "2026-06-18T06:01:34.065Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
