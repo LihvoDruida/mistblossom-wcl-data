@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T16:42:23.531Z",
+  "updatedAt": "2026-06-18T00:21:03.947Z",
   "character": {
     "name": "Дятелэлуны",
     "realmSlug": "soulflayer",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T16:42:23.531Z",
+    "lastScannedAt": "2026-06-18T00:21:03.947Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }
