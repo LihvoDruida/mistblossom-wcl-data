@@ -3,25 +3,25 @@
     "members": 161,
     "membersWithData": 59,
     "pullsStored": 569,
-    "distinctFights": 243,
+    "distinctFights": 238,
     "kills": 24,
-    "wipes": 219,
-    "killRate": 0.0988,
-    "avgFightDurationMs": 195594,
-    "avgRaidDeaths": 17.16,
-    "avgTeamDps": 120054.68,
-    "avgTeamHps": 33998.86,
-    "avgPerformanceScore": 18.48,
+    "wipes": 214,
+    "killRate": 0.1008,
+    "avgFightDurationMs": 195596,
+    "avgRaidDeaths": 17.08,
+    "avgTeamDps": 123521.87,
+    "avgTeamHps": 34713.12,
+    "avgPerformanceScore": 18.44,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 42.04
+    "avgReliabilityScore": 42.01
   },
   "roles": {
     "damage": {
       "members": 50,
       "pulls": 450,
-      "avgRecent": 61203.97,
+      "avgRecent": 61110.59,
       "medianRecent": 63378.86,
-      "bestRecent": 127465.48,
+      "bestRecent": 122796.41,
       "maxLast10": 207607.12,
       "deathsPerPull": 0,
       "topRecent": [
@@ -29,7 +29,7 @@
           "slug": "rozbiynik-tarren-mill-eu",
           "name": "Rozbiynik",
           "rank": 3,
-          "value": 127465.48,
+          "value": 122796.41,
           "secondary": 0
         },
         {
@@ -322,13 +322,6 @@
         "secondary": 72086.69
       },
       {
-        "slug": "rozbiynik-tarren-mill-eu",
-        "name": "Rozbiynik",
-        "rank": 3,
-        "value": 79.37,
-        "secondary": 127465.48
-      },
-      {
         "slug": "булкрит-gordunni-eu",
         "name": "Булкрит",
         "rank": 1,
@@ -378,6 +371,13 @@
         "secondary": 71721.18
       },
       {
+        "slug": "rozbiynik-tarren-mill-eu",
+        "name": "Rozbiynik",
+        "rank": 3,
+        "value": 75.28,
+        "secondary": 122796.41
+      },
+      {
         "slug": "дарадуда-gordunni-eu",
         "name": "Дарадуда",
         "rank": 4,
@@ -394,8 +394,8 @@
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 70.98,
-    "avgConsistencyPercent": 40.03,
+    "avgStabilityPercent": 70.77,
+    "avgConsistencyPercent": 40,
     "mostStable": [
       {
         "slug": "yokum-terokkar-eu",
@@ -410,13 +410,6 @@
         "rank": 4,
         "value": 80.25,
         "secondary": 89.4
-      },
-      {
-        "slug": "rozbiynik-tarren-mill-eu",
-        "name": "Rozbiynik",
-        "rank": 3,
-        "value": 79.37,
-        "secondary": 91.85
       },
       {
         "slug": "булкрит-gordunni-eu",
@@ -466,6 +459,13 @@
         "rank": 4,
         "value": 75.43,
         "secondary": 84.17
+      },
+      {
+        "slug": "rozbiynik-tarren-mill-eu",
+        "name": "Rozbiynik",
+        "rank": 3,
+        "value": 75.28,
+        "secondary": 79.25
       },
       {
         "slug": "дарадуда-gordunni-eu",
@@ -571,94 +571,94 @@
   },
   "freshness": {
     "updatedWithin1h": 8,
-    "updatedWithin6h": 16,
+    "updatedWithin6h": 24,
     "updatedWithin12h": 32,
     "updatedWithin24h": 56,
-    "oldestScannedAt": "2026-06-15T06:31:09.921Z",
-    "newestScannedAt": "2026-06-18T21:24:45.919Z",
+    "oldestScannedAt": "2026-06-15T13:22:03.163Z",
+    "newestScannedAt": "2026-06-18T23:51:17.442Z",
     "staleMembers": [
-      {
-        "slug": "скяльди-howling-fjord-eu",
-        "name": "Скяльди",
-        "rank": 3,
-        "value": 86.9,
-        "secondary": 0
-      },
-      {
-        "slug": "бабаияи-eversong-eu",
-        "name": "Бабайяй",
-        "rank": 4,
-        "value": 86.9,
-        "secondary": 0
-      },
-      {
-        "slug": "товстопуз-gordunni-eu",
-        "name": "Товстопуз",
-        "rank": 4,
-        "value": 86.9,
-        "secondary": 0
-      },
-      {
-        "slug": "синижепая-howling-fjord-eu",
-        "name": "Синижёпая",
-        "rank": 2,
-        "value": 80.05,
-        "secondary": 0
-      },
-      {
-        "slug": "kavunchyk-terokkar-eu",
-        "name": "Kavunchyk",
-        "rank": 3,
-        "value": 80.05,
-        "secondary": 0
-      },
-      {
-        "slug": "prayddh-terokkar-eu",
-        "name": "Prayddh",
-        "rank": 3,
-        "value": 80.05,
-        "secondary": 0
-      },
-      {
-        "slug": "redray-terokkar-eu",
-        "name": "Redray",
-        "rank": 3,
-        "value": 80.05,
-        "secondary": 0
-      },
-      {
-        "slug": "rozbiynik-tarren-mill-eu",
-        "name": "Rozbiynik",
-        "rank": 3,
-        "value": 80.05,
-        "secondary": 10
-      },
       {
         "slug": "shennai-ravencrest-eu",
         "name": "Shennái",
         "rank": 3,
-        "value": 80.05,
+        "value": 82.5,
         "secondary": 7
       },
       {
         "slug": "jakeyo-ravencrest-eu",
         "name": "Jakeyo",
         "rank": 4,
-        "value": 80.05,
+        "value": 82.5,
         "secondary": 0
       },
       {
         "slug": "nwlck-ravencrest-eu",
         "name": "Nwlck",
         "rank": 4,
-        "value": 80.05,
+        "value": 82.5,
         "secondary": 0
       },
       {
         "slug": "azuriel-terokkar-eu",
         "name": "Azuriel",
         "rank": 1,
-        "value": 74.65,
+        "value": 77.09,
+        "secondary": 0
+      },
+      {
+        "slug": "frrtiix-draenor-eu",
+        "name": "Frrtiix",
+        "rank": 1,
+        "value": 77.09,
+        "secondary": 10
+      },
+      {
+        "slug": "silpo-ravencrest-eu",
+        "name": "Silpo",
+        "rank": 3,
+        "value": 77.09,
+        "secondary": 10
+      },
+      {
+        "slug": "алак-goldrinn-eu",
+        "name": "Алак",
+        "rank": 3,
+        "value": 77.09,
+        "secondary": 0
+      },
+      {
+        "slug": "bureviy-doomhammer-eu",
+        "name": "Bureviy",
+        "rank": 4,
+        "value": 77.09,
+        "secondary": 10
+      },
+      {
+        "slug": "katsyt-terokkar-eu",
+        "name": "Katsyt",
+        "rank": 4,
+        "value": 77.09,
+        "secondary": 0
+      },
+      {
+        "slug": "krekor-tarren-mill-eu",
+        "name": "Krekor",
+        "rank": 4,
+        "value": 77.09,
+        "secondary": 10
+      },
+      {
+        "slug": "сетария-galakrond-eu",
+        "name": "Сетария",
+        "rank": 4,
+        "value": 77.09,
+        "secondary": 0
+      },
+      {
+        "slug": "kashin-terokkar-eu",
+        "name": "Kashin",
+        "rank": 1,
+        "value": 74.08,
         "secondary": 0
       }
     ]
@@ -676,9 +676,9 @@
       "killRate": 0,
       "avgDurationMs": 141803,
       "avgRaidDeaths": 16.25,
-      "avgTeamDps": 458697.25,
+      "avgTeamDps": 583881.5,
       "avgTeamHps": 247396.38,
-      "bestTeamDps": 507599.45,
+      "bestTeamDps": 628095.28,
       "bestTeamHps": 284722.36,
       "lastPullAt": "2026-06-17T18:57:46.744Z"
     },
@@ -688,14 +688,14 @@
       "encounterId": 3306,
       "difficulty": 5,
       "difficultyName": "Mythic",
-      "pulls": 35,
+      "pulls": 30,
       "kills": 0,
-      "wipes": 35,
+      "wipes": 30,
       "killRate": 0,
-      "avgDurationMs": 181576,
-      "avgRaidDeaths": 20.23,
-      "avgTeamDps": 182378.8,
-      "avgTeamHps": 84328.43,
+      "avgDurationMs": 179251,
+      "avgRaidDeaths": 20.13,
+      "avgTeamDps": 191515.75,
+      "avgTeamHps": 98383.17,
       "bestTeamDps": 503512.11,
       "bestTeamHps": 443451.54,
       "lastPullAt": "2026-06-10T19:15:28.694Z"
@@ -712,9 +712,9 @@
       "killRate": 0,
       "avgDurationMs": 116190,
       "avgRaidDeaths": 20,
-      "avgTeamDps": 332747.96,
+      "avgTeamDps": 317328.99,
       "avgTeamHps": 93919.08,
-      "bestTeamDps": 719304,
+      "bestTeamDps": 580533.31,
       "bestTeamHps": 291684.11,
       "lastPullAt": "2026-06-10T18:27:31.482Z"
     },
@@ -994,11 +994,11 @@
       "className": "Unknown",
       "members": 161,
       "withData": 59,
-      "avgPrimaryRecent3": 23290.16,
-      "avgDpsRecent3": 18917.26,
+      "avgPrimaryRecent3": 23261.16,
+      "avgDpsRecent3": 18888.26,
       "avgHpsRecent3": 5167.01,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 42.04
+      "avgReliabilityScore": 42.01
     }
   ]
 }

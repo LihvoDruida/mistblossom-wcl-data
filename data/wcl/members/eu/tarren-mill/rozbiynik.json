@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-15T13:22:03.163Z",
+  "updatedAt": "2026-06-18T23:51:17.442Z",
   "character": {
     "name": "Rozbiynik",
     "realmSlug": "tarren-mill",
@@ -16,46 +16,46 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 209,
+    "totalRaidDeaths": 171,
     "deathsPerPull": 0,
-    "stabilityPercent": 91.85,
-    "consistencyPercent": 58.81,
-    "performanceScore": 65.22,
+    "stabilityPercent": 79.25,
+    "consistencyPercent": 56.76,
+    "performanceScore": 57.78,
     "survivalScore": 100,
-    "reliabilityScore": 79.37,
+    "reliabilityScore": 75.28,
     "recent3": {
       "sampleSize": 3,
-      "avgDps": 127465.48,
+      "avgDps": 122796.41,
       "avgHps": 0,
-      "avgPrimary": 127465.48,
-      "avgDurationMs": 117998,
+      "avgPrimary": 122796.41,
+      "avgDurationMs": 163307,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
-      "avgDps": 98180.05,
+      "avgDps": 126130.72,
       "avgHps": 0,
-      "avgPrimary": 98180.05,
-      "avgDurationMs": 169890,
+      "avgPrimary": 126130.72,
+      "avgDurationMs": 133583,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
-      "maxDps": 138770.69,
-      "minDps": 81610.35,
+      "maxDps": 154949.93,
+      "minDps": 87944.04,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 138770.69,
-      "minPrimary": 81610.35,
-      "maxDurationMs": 255428,
-      "minDurationMs": 74463
+      "maxPrimary": 154949.93,
+      "minPrimary": 87944.04,
+      "maxDurationMs": 194721,
+      "minDurationMs": 94067
     },
     "trend": {
-      "direction": "up",
-      "recentAvg": 127465.48,
-      "previousAvg": 98180.05,
-      "delta": 29285.43,
-      "deltaPercent": 29.83
+      "direction": "flat",
+      "recentAvg": 122796.41,
+      "previousAvg": 126130.72,
+      "delta": -3334.31,
+      "deltaPercent": -2.64
     },
     "byRole": {
       "healer": {
@@ -71,12 +71,12 @@
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 127465.48,
-        "maxLast10": 138770.69,
-        "minLast10": 81610.35,
+        "avgRecent": 122796.41,
+        "maxLast10": 154949.93,
+        "minLast10": 87944.04,
         "deathsPerPull": 0,
-        "bestPullKey": "RL79bk4gWVYtjAC2:25:Rozbiynik:tarren-mill:eu",
-        "worstPullKey": "49WFMrR1KNkXtHn8:18:Rozbiynik:tarren-mill:eu"
+        "bestPullKey": "YmMXVLgCwzT6j2cr:15:Rozbiynik:tarren-mill:eu",
+        "worstPullKey": "YmMXVLgCwzT6j2cr:14:Rozbiynik:tarren-mill:eu"
       },
       "unknown": {
         "pulls": 0,
@@ -103,6 +103,1158 @@
     }
   },
   "pulls": [
+    {
+      "key": "YmMXVLgCwzT6j2cr:18:Rozbiynik:tarren-mill:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=18",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:57:46.744Z",
+      "durationMs": 194721,
+      "bossPercentage": 70.85,
+      "fightPercentage": 70.85,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 5,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 120495.83,
+        "hps": 10359.79,
+        "primary": 120495.83,
+        "primaryKind": "dps",
+        "fightDps": 120495.83,
+        "fightHps": 10359.79,
+        "activeDps": 126963.29,
+        "activeHps": 10992.15,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 23463069,
+        "healingTotal": 2017269,
+        "damageActiveTimeMs": 184802,
+        "healingActiveTimeMs": 183519,
+        "damageTotalTimeMs": 194721,
+        "healingTotalTimeMs": 194721,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 18,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6472787,
+          "endTime": 6667508,
+          "bossPercentage": 70.85,
+          "fightPercentage": 70.85,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 23463069,
+              "activeTime": 184802,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 2017269,
+              "activeTime": 183519,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:17:Rozbiynik:tarren-mill:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=17",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:53:14.132Z",
+      "durationMs": 159209,
+      "bossPercentage": 78.19,
+      "fightPercentage": 78.19,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 5,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 123856.53,
+        "hps": 10459.92,
+        "primary": 123856.53,
+        "primaryKind": "dps",
+        "fightDps": 123856.53,
+        "fightHps": 10459.92,
+        "activeDps": 136981.78,
+        "activeHps": 11653.7,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 19719075,
+        "healingTotal": 1665314,
+        "damageActiveTimeMs": 143954,
+        "healingActiveTimeMs": 142900,
+        "damageTotalTimeMs": 159209,
+        "healingTotalTimeMs": 159209,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 17,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6200175,
+          "endTime": 6359384,
+          "bossPercentage": 78.19,
+          "fightPercentage": 78.19,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 19719075,
+              "activeTime": 143954,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1665314,
+              "activeTime": 142900,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:16:Rozbiynik:tarren-mill:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=16",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:41:51.760Z",
+      "durationMs": 135992,
+      "bossPercentage": 76.74,
+      "fightPercentage": 76.74,
+      "averageItemLevel": 287.5,
+      "actor": {
+        "id": 5,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 124036.88,
+        "hps": 10623.32,
+        "primary": 124036.88,
+        "primaryKind": "dps",
+        "fightDps": 124036.88,
+        "fightHps": 10623.32,
+        "activeDps": 138271.55,
+        "activeHps": 11867.08,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 16868023,
+        "healingTotal": 1444687,
+        "damageActiveTimeMs": 121992,
+        "healingActiveTimeMs": 121739,
+        "damageTotalTimeMs": 135992,
+        "healingTotalTimeMs": 135992,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 16,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5517803,
+          "endTime": 5653795,
+          "bossPercentage": 76.74,
+          "fightPercentage": 76.74,
+          "averageItemLevel": 287.5
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 16868023,
+              "activeTime": 121992,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1444687,
+              "activeTime": 121739,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:15:Rozbiynik:tarren-mill:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=15",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:31:20.098Z",
+      "durationMs": 168405,
+      "bossPercentage": 75.75,
+      "fightPercentage": 75.75,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 5,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 154949.93,
+        "hps": 11051.01,
+        "primary": 154949.93,
+        "primaryKind": "dps",
+        "fightDps": 154949.93,
+        "fightHps": 11051.01,
+        "activeDps": 156763.27,
+        "activeHps": 11192.98,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 26094343,
+        "healingTotal": 1861046,
+        "damageActiveTimeMs": 166457,
+        "healingActiveTimeMs": 166269,
+        "damageTotalTimeMs": 168405,
+        "healingTotalTimeMs": 168405,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 15,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4886141,
+          "endTime": 5054546,
+          "bossPercentage": 75.75,
+          "fightPercentage": 75.75,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 26094343,
+              "activeTime": 166457,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1861046,
+              "activeTime": 166269,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:14:Rozbiynik:tarren-mill:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=14",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:25:08.620Z",
+      "durationMs": 94067,
+      "bossPercentage": 83.63,
+      "fightPercentage": 83.63,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 5,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 87944.04,
+        "hps": 10768.73,
+        "primary": 87944.04,
+        "primaryKind": "dps",
+        "fightDps": 87944.04,
+        "fightHps": 10768.73,
+        "activeDps": 137410.01,
+        "activeHps": 13062.48,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 8272632,
+        "healingTotal": 1012982,
+        "damageActiveTimeMs": 60204,
+        "healingActiveTimeMs": 77549,
+        "damageTotalTimeMs": 94067,
+        "healingTotalTimeMs": 94067,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 14,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4514663,
+          "endTime": 4608730,
+          "bossPercentage": 83.63,
+          "fightPercentage": 83.63,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 8272632,
+              "activeTime": 60204,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1012982,
+              "activeTime": 77549,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:13:Rozbiynik:tarren-mill:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=13",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:20:14.101Z",
+      "durationMs": 138277,
+      "bossPercentage": 78.4,
+      "fightPercentage": 78.4,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 5,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 135498.19,
+        "hps": 12162.17,
+        "primary": 135498.19,
+        "primaryKind": "dps",
+        "fightDps": 135498.19,
+        "fightHps": 12162.17,
+        "activeDps": 138146.69,
+        "activeHps": 12393.5,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 18736283,
+        "healingTotal": 1681748,
+        "damageActiveTimeMs": 135626,
+        "healingActiveTimeMs": 135696,
+        "damageTotalTimeMs": 138277,
+        "healingTotalTimeMs": 138277,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 13,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4220144,
+          "endTime": 4358421,
+          "bossPercentage": 78.4,
+          "fightPercentage": 78.4,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 18736283,
+              "activeTime": 135626,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1681748,
+              "activeTime": 135696,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:12:Rozbiynik:tarren-mill:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=12",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:16:41.498Z",
+      "durationMs": 145229,
+      "bossPercentage": 78.53,
+      "fightPercentage": 78.53,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 5,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 127704.17,
+        "hps": 11368.78,
+        "primary": 127704.17,
+        "primaryKind": "dps",
+        "fightDps": 127704.17,
+        "fightHps": 11368.78,
+        "activeDps": 137029.16,
+        "activeHps": 12463.87,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 18546349,
+        "healingTotal": 1651077,
+        "damageActiveTimeMs": 135346,
+        "healingActiveTimeMs": 132469,
+        "damageTotalTimeMs": 145229,
+        "healingTotalTimeMs": 145229,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 12,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4007541,
+          "endTime": 4152770,
+          "bossPercentage": 78.53,
+          "fightPercentage": 78.53,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 18546349,
+              "activeTime": 135346,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 1651077,
+              "activeTime": 132469,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:11:Rozbiynik:tarren-mill:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=11",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:12:37.893Z",
+      "durationMs": 98520,
+      "bossPercentage": 83.55,
+      "fightPercentage": 83.55,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 5,
+        "name": "Rozbiynik",
+        "server": "TarrenMill",
+        "type": "Player",
+        "subType": "Rogue"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Rogue-Subtlety",
+        "className": "Rogue",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 126988.49,
+        "hps": 6096.19,
+        "primary": 126988.49,
+        "primaryKind": "dps",
+        "fightDps": 126988.49,
+        "fightHps": 6096.19,
+        "activeDps": 163916.23,
+        "activeHps": 6498.35,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 12510906,
+        "healingTotal": 600597,
+        "damageActiveTimeMs": 76325,
+        "healingActiveTimeMs": 92423,
+        "damageTotalTimeMs": 98520,
+        "healingTotalTimeMs": 98520,
+        "damageEntryId": 5,
+        "healingEntryId": 5,
+        "damageItemLevel": 290,
+        "healingItemLevel": 290,
+        "matchedBy": "damage:actor-id:5,healing:actor-id:5"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 11,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3763936,
+          "endTime": 3862456,
+          "bossPercentage": 83.55,
+          "fightPercentage": 83.55,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 12510906,
+              "activeTime": 76325,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:5",
+            "matchedEntry": {
+              "id": 5,
+              "name": "Rozbiynik",
+              "type": "Rogue",
+              "icon": "Rogue-Subtlety",
+              "total": 600597,
+              "activeTime": 92423,
+              "itemLevel": 290,
+              "guid": 176857060
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 5,
+          "matchedActorName": "Rozbiynik",
+          "normalizedKeys": [
+            "rozbiynik:tarren-mill:eu",
+            "rozbiynik::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Rogue-Subtlety",
+            "className": "Rogue",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "RL79bk4gWVYtjAC2:27:Rozbiynik:tarren-mill:eu",
       "reportCode": "RL79bk4gWVYtjAC2",
@@ -390,1167 +1542,15 @@
           }
         }
       }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:25:Rozbiynik:tarren-mill:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=25",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:11:38.181Z",
-      "durationMs": 90883,
-      "bossPercentage": 71.27,
-      "fightPercentage": 71.27,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 12,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 138770.69,
-        "hps": 18744.88,
-        "primary": 138770.69,
-        "primaryKind": "dps",
-        "fightDps": 138770.69,
-        "fightHps": 18744.88,
-        "activeDps": 161100.29,
-        "activeHps": 19188.69,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 22
-      },
-      "source": {
-        "damageTotal": 12611897,
-        "healingTotal": 1703591,
-        "damageActiveTimeMs": 78286,
-        "healingActiveTimeMs": 88781,
-        "damageTotalTimeMs": 90883,
-        "healingTotalTimeMs": 90883,
-        "damageEntryId": 12,
-        "healingEntryId": 12,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 25,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 3753323,
-          "endTime": 3844206,
-          "bossPercentage": 71.27,
-          "fightPercentage": 71.27,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 19,
-            "totalTimeMs": 90883,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 12611897,
-              "activeTime": 78286,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 90883,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 1703591,
-              "activeTime": 88781,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 22,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 12,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:21:Rozbiynik:tarren-mill:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=21",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:57:02.136Z",
-      "durationMs": 224253,
-      "bossPercentage": 47.03,
-      "fightPercentage": 47.03,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 12,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 89846.32,
-        "hps": 5438.74,
-        "primary": 89846.32,
-        "primaryKind": "dps",
-        "fightDps": 89846.32,
-        "fightHps": 5438.74,
-        "activeDps": 117077.34,
-        "activeHps": 5981.19,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 20148307,
-        "healingTotal": 1219654,
-        "damageActiveTimeMs": 172094,
-        "healingActiveTimeMs": 203915,
-        "damageTotalTimeMs": 224253,
-        "healingTotalTimeMs": 224253,
-        "damageEntryId": 12,
-        "healingEntryId": 12,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 21,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 7223335,
-          "endTime": 7447588,
-          "bossPercentage": 47.03,
-          "fightPercentage": 47.03,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 224253,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 20148307,
-              "activeTime": 172094,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 224253,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 1219654,
-              "activeTime": 203915,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 12,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:20:Rozbiynik:tarren-mill:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=20",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:50:47.571Z",
-      "durationMs": 210953,
-      "bossPercentage": 50.11,
-      "fightPercentage": 50.11,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 12,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 89779.11,
-        "hps": 8040.97,
-        "primary": 89779.11,
-        "primaryKind": "dps",
-        "fightDps": 89779.11,
-        "fightHps": 8040.97,
-        "activeDps": 115408.87,
-        "activeHps": 8822.41,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 18939172,
-        "healingTotal": 1696267,
-        "damageActiveTimeMs": 164105,
-        "healingActiveTimeMs": 192268,
-        "damageTotalTimeMs": 210953,
-        "healingTotalTimeMs": 210953,
-        "damageEntryId": 12,
-        "healingEntryId": 12,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 20,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6848770,
-          "endTime": 7059723,
-          "bossPercentage": 50.11,
-          "fightPercentage": 50.11,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 210953,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 18939172,
-              "activeTime": 164105,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 210953,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 1696267,
-              "activeTime": 192268,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 12,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:19:Rozbiynik:tarren-mill:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 19,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=19",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:47:05.617Z",
-      "durationMs": 74463,
-      "bossPercentage": 75.16,
-      "fightPercentage": 75.16,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 12,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 114914.71,
-        "hps": 6637.52,
-        "primary": 114914.71,
-        "primaryKind": "dps",
-        "fightDps": 114914.71,
-        "fightHps": 6637.52,
-        "activeDps": 135064.78,
-        "activeHps": 7163.35,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 8556894,
-        "healingTotal": 494250,
-        "damageActiveTimeMs": 63354,
-        "healingActiveTimeMs": 68997,
-        "damageTotalTimeMs": 74463,
-        "healingTotalTimeMs": 74463,
-        "damageEntryId": 12,
-        "healingEntryId": 12,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 19,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6626816,
-          "endTime": 6701279,
-          "bossPercentage": 75.16,
-          "fightPercentage": 75.16,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 74463,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 8556894,
-              "activeTime": 63354,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 74463,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 494250,
-              "activeTime": 68997,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 12,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:18:Rozbiynik:tarren-mill:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 18,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=18",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:41:15.040Z",
-      "durationMs": 252606,
-      "bossPercentage": 80.69,
-      "fightPercentage": 80.69,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 12,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 81610.35,
-        "hps": 10179.95,
-        "primary": 81610.35,
-        "primaryKind": "dps",
-        "fightDps": 81610.35,
-        "fightHps": 10179.95,
-        "activeDps": 105987.81,
-        "activeHps": 11688.66,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 20615265,
-        "healingTotal": 2571516,
-        "damageActiveTimeMs": 194506,
-        "healingActiveTimeMs": 220001,
-        "damageTotalTimeMs": 252606,
-        "healingTotalTimeMs": 252606,
-        "damageEntryId": 12,
-        "healingEntryId": 12,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 18,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6276239,
-          "endTime": 6528845,
-          "bossPercentage": 80.69,
-          "fightPercentage": 80.69,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 252606,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 20615265,
-              "activeTime": 194506,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 252606,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 2571516,
-              "activeTime": 220001,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 12,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:17:Rozbiynik:tarren-mill:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 17,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=17",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:31:07.859Z",
-      "durationMs": 151592,
-      "bossPercentage": 66.69,
-      "fightPercentage": 66.69,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 12,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 88004.25,
-        "hps": 7929.65,
-        "primary": 88004.25,
-        "primaryKind": "dps",
-        "fightDps": 88004.25,
-        "fightHps": 7929.65,
-        "activeDps": 116237.91,
-        "activeHps": 9402.72,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 13340741,
-        "healingTotal": 1202072,
-        "damageActiveTimeMs": 114771,
-        "healingActiveTimeMs": 127843,
-        "damageTotalTimeMs": 151592,
-        "healingTotalTimeMs": 151592,
-        "damageEntryId": 12,
-        "healingEntryId": 12,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 17,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 5669058,
-          "endTime": 5820650,
-          "bossPercentage": 66.69,
-          "fightPercentage": 66.69,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 151592,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 13340741,
-              "activeTime": 114771,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 151592,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 1202072,
-              "activeTime": 127843,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 12,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:16:Rozbiynik:tarren-mill:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 16,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=16",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:24:44.760Z",
-      "durationMs": 243536,
-      "bossPercentage": 50.41,
-      "fightPercentage": 50.41,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 12,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 85008.93,
-        "hps": 5832.32,
-        "primary": 85008.93,
-        "primaryKind": "dps",
-        "fightDps": 85008.93,
-        "fightHps": 5832.32,
-        "activeDps": 117254.1,
-        "activeHps": 6930.82,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 20702735,
-        "healingTotal": 1420381,
-        "damageActiveTimeMs": 176563,
-        "healingActiveTimeMs": 204937,
-        "damageTotalTimeMs": 243536,
-        "healingTotalTimeMs": 243536,
-        "damageEntryId": 12,
-        "healingEntryId": 12,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 16,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 5285959,
-          "endTime": 5529495,
-          "bossPercentage": 50.41,
-          "fightPercentage": 50.41,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 243536,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 20702735,
-              "activeTime": 176563,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 243536,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 1420381,
-              "activeTime": 204937,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 12,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:15:Rozbiynik:tarren-mill:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 15,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=15",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:18:59.925Z",
-      "durationMs": 255428,
-      "bossPercentage": 92.92,
-      "fightPercentage": 92.92,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 12,
-        "name": "Rozbiynik",
-        "server": "TarrenMill",
-        "type": "Player",
-        "subType": "Rogue"
-      },
-      "role": {
-        "role": "dps",
-        "source": "wcl-spec",
-        "spec": "Rogue-Subtlety",
-        "className": "Rogue",
-        "confidence": 0.9
-      },
-      "metric": {
-        "dps": 88622,
-        "hps": 7878.64,
-        "primary": 88622,
-        "primaryKind": "dps",
-        "fightDps": 88622,
-        "fightHps": 7878.64,
-        "activeDps": 101741.83,
-        "activeHps": 8184.78,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 22636540,
-        "healingTotal": 2012425,
-        "damageActiveTimeMs": 222490,
-        "healingActiveTimeMs": 245874,
-        "damageTotalTimeMs": 255428,
-        "healingTotalTimeMs": 255428,
-        "damageEntryId": 12,
-        "healingEntryId": 12,
-        "damageItemLevel": 289,
-        "healingItemLevel": 289,
-        "matchedBy": "damage:actor-id:12,healing:actor-id:12"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 15,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4941124,
-          "endTime": 5196552,
-          "bossPercentage": 92.92,
-          "fightPercentage": 92.92,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 255428,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 22636540,
-              "activeTime": 222490,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 255428,
-            "matchedBy": "actor-id:12",
-            "matchedEntry": {
-              "id": 12,
-              "name": "Rozbiynik",
-              "type": "Rogue",
-              "icon": "Rogue-Subtlety",
-              "total": 2012425,
-              "activeTime": 245874,
-              "itemLevel": 289,
-              "guid": 176857060
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 12,
-          "matchedActorName": "Rozbiynik",
-          "normalizedKeys": [
-            "rozbiynik:tarren-mill:eu",
-            "rozbiynik::eu"
-          ],
-          "role": {
-            "role": "dps",
-            "source": "wcl-spec",
-            "spec": "Rogue-Subtlety",
-            "className": "Rogue",
-            "confidence": 0.9
-          },
-          "primaryKind": "dps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-15T13:22:03.163Z",
-    "lastPullAt": "2026-06-10T18:27:31.482Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-18T23:51:17.442Z",
+    "lastPullAt": "2026-06-17T18:57:46.744Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }
