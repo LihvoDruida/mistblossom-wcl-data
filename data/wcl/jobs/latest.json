@@ -1,27 +1,27 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-18T18:09:10.748Z",
+  "updatedAt": "2026-06-18T21:24:45.919Z",
   "generatedInside": "github-actions",
   "mode": "incremental-hourly-budget-aware",
-  "rosterMembers": 162,
+  "rosterMembers": 161,
   "selectedMembers": 8,
   "scannedMembers": 8,
   "changedMembers": 1,
-  "existingSnapshots": 162,
+  "existingSnapshots": 161,
   "reportsScanned": 8,
   "fightsScanned": 8,
   "wclQueriesUsed": 26,
   "wclQueriesRemaining": 2,
   "budgetStopped": false,
   "newPullsBySlug": {
-    "адвокатправа-gordunni-eu": 0,
-    "бафометище-eversong-eu": 0,
-    "дарадуда-gordunni-eu": 8,
-    "characternuk-terokkar-eu": 0,
-    "zanzithor-tarren-mill-eu": 0,
-    "allune-terokkar-eu": 0,
-    "asasinas-terokkar-eu": 0,
-    "bylik-tarren-mill-eu": 0
+    "sandora-doomhammer-eu": 8,
+    "корбус-gordunni-eu": 0,
+    "шпаргат-gordunni-eu": 0,
+    "darthkenobi-tarren-mill-eu": 0,
+    "elderwizard-terokkar-eu": 0,
+    "es-terokkar-eu": 0,
+    "hopeblood-doomhammer-eu": 0,
+    "illidonson-draenor-eu": 0
   },
   "limits": {
     "memberBatchSize": 8,
@@ -36,29 +36,6 @@
   },
   "batch": {
     "selected": [
-      "адвокатправа-gordunni-eu",
-      "бафометище-eversong-eu",
-      "дарадуда-gordunni-eu",
-      "characternuk-terokkar-eu",
-      "zanzithor-tarren-mill-eu",
-      "allune-terokkar-eu",
-      "asasinas-terokkar-eu",
-      "bylik-tarren-mill-eu"
-    ],
-    "updated": [
-      "дарадуда-gordunni-eu"
-    ],
-    "scanned": [
-      "адвокатправа-gordunni-eu",
-      "бафометище-eversong-eu",
-      "дарадуда-gordunni-eu",
-      "characternuk-terokkar-eu",
-      "zanzithor-tarren-mill-eu",
-      "allune-terokkar-eu",
-      "asasinas-terokkar-eu",
-      "bylik-tarren-mill-eu"
-    ],
-    "pending": [
       "sandora-doomhammer-eu",
       "корбус-gordunni-eu",
       "шпаргат-gordunni-eu",
@@ -66,7 +43,22 @@
       "elderwizard-terokkar-eu",
       "es-terokkar-eu",
       "hopeblood-doomhammer-eu",
-      "illidonson-draenor-eu",
+      "illidonson-draenor-eu"
+    ],
+    "updated": [
+      "sandora-doomhammer-eu"
+    ],
+    "scanned": [
+      "sandora-doomhammer-eu",
+      "корбус-gordunni-eu",
+      "шпаргат-gordunni-eu",
+      "darthkenobi-tarren-mill-eu",
+      "elderwizard-terokkar-eu",
+      "es-terokkar-eu",
+      "hopeblood-doomhammer-eu",
+      "illidonson-draenor-eu"
+    ],
+    "pending": [
       "скяльди-howling-fjord-eu",
       "бабаияи-eversong-eu",
       "товстопуз-gordunni-eu",
@@ -165,7 +157,6 @@
       "bloemfontain-silvermoon-eu",
       "freddiedredd-silvermoon-eu",
       "gaplik-silvermoon-eu",
-      "hlorygole-silvermoon-eu",
       "булкрит-gordunni-eu",
       "амарак-gordunni-eu",
       "зермонг-gordunni-eu",
@@ -214,7 +205,15 @@
       "бреинор-galakrond-eu",
       "севатар-lich-king-eu",
       "щпикачечка-gordunni-eu",
-      "монэлушка-gordunni-eu"
+      "монэлушка-gordunni-eu",
+      "characternuk-terokkar-eu",
+      "zanzithor-tarren-mill-eu",
+      "allune-terokkar-eu",
+      "asasinas-terokkar-eu",
+      "bylik-tarren-mill-eu",
+      "адвокатправа-gordunni-eu",
+      "бафометище-eversong-eu",
+      "дарадуда-gordunni-eu"
     ],
     "missingSnapshots": [],
     "rotatedFresh": []

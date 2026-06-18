@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-15T00:19:32.874Z",
+  "updatedAt": "2026-06-18T21:24:45.919Z",
   "character": {
     "name": "Sandora",
     "realmSlug": "doomhammer",
@@ -10,52 +10,52 @@
     "roleHint": "unknown"
   },
   "stats": {
-    "pullsStored": 0,
+    "pullsStored": 8,
     "kills": 0,
-    "wipes": 0,
+    "wipes": 8,
     "killRate": 0,
-    "wipeRate": 0,
+    "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 0,
+    "totalRaidDeaths": 130,
     "deathsPerPull": 0,
-    "stabilityPercent": 0,
-    "consistencyPercent": 0,
-    "performanceScore": 0,
+    "stabilityPercent": 89.4,
+    "consistencyPercent": 70.61,
+    "performanceScore": 66.82,
     "survivalScore": 100,
-    "reliabilityScore": 30,
+    "reliabilityScore": 80.25,
     "recent3": {
-      "sampleSize": 0,
-      "avgDps": 0,
+      "sampleSize": 3,
+      "avgDps": 72086.69,
       "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgPrimary": 72086.69,
+      "avgDurationMs": 163307,
       "avgDeaths": 0
     },
     "previous3": {
-      "sampleSize": 0,
-      "avgDps": 0,
+      "sampleSize": 3,
+      "avgDps": 75369.95,
       "avgHps": 0,
-      "avgPrimary": 0,
-      "avgDurationMs": 0,
+      "avgPrimary": 75369.95,
+      "avgDurationMs": 133583,
       "avgDeaths": 0
     },
     "last10": {
-      "sampleSize": 0,
-      "maxDps": 0,
-      "minDps": 0,
+      "sampleSize": 8,
+      "maxDps": 80630.23,
+      "minDps": 56936.05,
       "maxHps": 0,
       "minHps": 0,
-      "maxPrimary": 0,
-      "minPrimary": 0,
-      "maxDurationMs": 0,
-      "minDurationMs": 0
+      "maxPrimary": 80630.23,
+      "minPrimary": 56936.05,
+      "maxDurationMs": 194721,
+      "minDurationMs": 94067
     },
     "trend": {
-      "direction": "unknown",
-      "recentAvg": 0,
-      "previousAvg": 0,
-      "delta": 0,
-      "deltaPercent": 0
+      "direction": "flat",
+      "recentAvg": 72086.69,
+      "previousAvg": 75369.95,
+      "delta": -3283.26,
+      "deltaPercent": -4.36
     },
     "byRole": {
       "healer": {
@@ -68,13 +68,15 @@
         "deathsPerPull": 0
       },
       "damage": {
-        "pulls": 0,
+        "pulls": 8,
         "kills": 0,
-        "wipes": 0,
-        "avgRecent": 0,
-        "maxLast10": 0,
-        "minLast10": 0,
-        "deathsPerPull": 0
+        "wipes": 8,
+        "avgRecent": 72086.69,
+        "maxLast10": 80630.23,
+        "minLast10": 56936.05,
+        "deathsPerPull": 0,
+        "bestPullKey": "YmMXVLgCwzT6j2cr:17:Sandora:doomhammer:eu",
+        "worstPullKey": "YmMXVLgCwzT6j2cr:16:Sandora:doomhammer:eu"
       },
       "unknown": {
         "pulls": 0,
@@ -87,26 +89,1180 @@
       }
     },
     "dataQuality": {
-      "pullsWithMatchedDamage": 0,
-      "pullsWithMatchedHealing": 0,
-      "pullsWithRoleInferred": 0,
+      "pullsWithMatchedDamage": 8,
+      "pullsWithMatchedHealing": 8,
+      "pullsWithRoleInferred": 8,
       "pullsWithDeaths": 0,
       "primaryKindCounts": {
-        "dps": 0,
+        "dps": 8,
         "hps": 0,
         "unknown": 0
       },
-      "confidenceAvg": 0,
-      "matchedPullPercent": 0
+      "confidenceAvg": 0.9,
+      "matchedPullPercent": 100
     }
   },
-  "pulls": [],
+  "pulls": [
+    {
+      "key": "YmMXVLgCwzT6j2cr:18:Sandora:doomhammer:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=18",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:57:46.744Z",
+      "durationMs": 194721,
+      "bossPercentage": 70.85,
+      "fightPercentage": 70.85,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 2,
+        "name": "Sandora",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Warlock-Destruction",
+        "className": "Warlock",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 78693.78,
+        "hps": 11996.31,
+        "primary": 78693.78,
+        "primaryKind": "dps",
+        "fightDps": 78693.78,
+        "fightHps": 11996.31,
+        "activeDps": 79675.39,
+        "activeHps": 13521.89,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 15323331,
+        "healingTotal": 2335934,
+        "damageActiveTimeMs": 192322,
+        "healingActiveTimeMs": 172752,
+        "damageTotalTimeMs": 194721,
+        "healingTotalTimeMs": 194721,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 18,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6472787,
+          "endTime": 6667508,
+          "bossPercentage": 70.85,
+          "fightPercentage": 70.85,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 15323331,
+              "activeTime": 192322,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 2335934,
+              "activeTime": 172752,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 2,
+          "matchedActorName": "Sandora",
+          "normalizedKeys": [
+            "sandora:doomhammer:eu",
+            "sandora::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Warlock-Destruction",
+            "className": "Warlock",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:17:Sandora:doomhammer:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=17",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:53:14.132Z",
+      "durationMs": 159209,
+      "bossPercentage": 78.19,
+      "fightPercentage": 78.19,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 2,
+        "name": "Sandora",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Warlock-Destruction",
+        "className": "Warlock",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 80630.23,
+        "hps": 9897.15,
+        "primary": 80630.23,
+        "primaryKind": "dps",
+        "fightDps": 80630.23,
+        "fightHps": 9897.15,
+        "activeDps": 85725.55,
+        "activeHps": 12496.05,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 12837058,
+        "healingTotal": 1575715,
+        "damageActiveTimeMs": 149746,
+        "healingActiveTimeMs": 126097,
+        "damageTotalTimeMs": 159209,
+        "healingTotalTimeMs": 159209,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 17,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6200175,
+          "endTime": 6359384,
+          "bossPercentage": 78.19,
+          "fightPercentage": 78.19,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 12837058,
+              "activeTime": 149746,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 1575715,
+              "activeTime": 126097,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 2,
+          "matchedActorName": "Sandora",
+          "normalizedKeys": [
+            "sandora:doomhammer:eu",
+            "sandora::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Warlock-Destruction",
+            "className": "Warlock",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:16:Sandora:doomhammer:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=16",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:41:51.760Z",
+      "durationMs": 135992,
+      "bossPercentage": 76.74,
+      "fightPercentage": 76.74,
+      "averageItemLevel": 287.5,
+      "actor": {
+        "id": 2,
+        "name": "Sandora",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Warlock-Destruction",
+        "className": "Warlock",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 56936.05,
+        "hps": 3993.77,
+        "primary": 56936.05,
+        "primaryKind": "dps",
+        "fightDps": 56936.05,
+        "fightHps": 3993.77,
+        "activeDps": 71396.2,
+        "activeHps": 6896.34,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 7742847,
+        "healingTotal": 543121,
+        "damageActiveTimeMs": 108449,
+        "healingActiveTimeMs": 78755,
+        "damageTotalTimeMs": 135992,
+        "healingTotalTimeMs": 135992,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 16,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5517803,
+          "endTime": 5653795,
+          "bossPercentage": 76.74,
+          "fightPercentage": 76.74,
+          "averageItemLevel": 287.5
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 7742847,
+              "activeTime": 108449,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 543121,
+              "activeTime": 78755,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 2,
+          "matchedActorName": "Sandora",
+          "normalizedKeys": [
+            "sandora:doomhammer:eu",
+            "sandora::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Warlock-Destruction",
+            "className": "Warlock",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:15:Sandora:doomhammer:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=15",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:31:20.098Z",
+      "durationMs": 168405,
+      "bossPercentage": 75.75,
+      "fightPercentage": 75.75,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 2,
+        "name": "Sandora",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Warlock-Destruction",
+        "className": "Warlock",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 68466.11,
+        "hps": 6718.69,
+        "primary": 68466.11,
+        "primaryKind": "dps",
+        "fightDps": 68466.11,
+        "fightHps": 6718.69,
+        "activeDps": 82791.46,
+        "activeHps": 8943.15,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 11530036,
+        "healingTotal": 1131461,
+        "damageActiveTimeMs": 139266,
+        "healingActiveTimeMs": 126517,
+        "damageTotalTimeMs": 168405,
+        "healingTotalTimeMs": 168405,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 15,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4886141,
+          "endTime": 5054546,
+          "bossPercentage": 75.75,
+          "fightPercentage": 75.75,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 11530036,
+              "activeTime": 139266,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 1131461,
+              "activeTime": 126517,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 2,
+          "matchedActorName": "Sandora",
+          "normalizedKeys": [
+            "sandora:doomhammer:eu",
+            "sandora::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Warlock-Destruction",
+            "className": "Warlock",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:14:Sandora:doomhammer:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=14",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:25:08.620Z",
+      "durationMs": 94067,
+      "bossPercentage": 83.63,
+      "fightPercentage": 83.63,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 2,
+        "name": "Sandora",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Warlock-Destruction",
+        "className": "Warlock",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 79804.73,
+        "hps": 9715.37,
+        "primary": 79804.73,
+        "primaryKind": "dps",
+        "fightDps": 79804.73,
+        "fightHps": 9715.37,
+        "activeDps": 83927.64,
+        "activeHps": 12872.86,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 7506992,
+        "healingTotal": 913896,
+        "damageActiveTimeMs": 89446,
+        "healingActiveTimeMs": 70994,
+        "damageTotalTimeMs": 94067,
+        "healingTotalTimeMs": 94067,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 14,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4514663,
+          "endTime": 4608730,
+          "bossPercentage": 83.63,
+          "fightPercentage": 83.63,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 7506992,
+              "activeTime": 89446,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 913896,
+              "activeTime": 70994,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 2,
+          "matchedActorName": "Sandora",
+          "normalizedKeys": [
+            "sandora:doomhammer:eu",
+            "sandora::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Warlock-Destruction",
+            "className": "Warlock",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:13:Sandora:doomhammer:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=13",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:20:14.101Z",
+      "durationMs": 138277,
+      "bossPercentage": 78.4,
+      "fightPercentage": 78.4,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 2,
+        "name": "Sandora",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Warlock-Destruction",
+        "className": "Warlock",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 77839,
+        "hps": 5981.75,
+        "primary": 77839,
+        "primaryKind": "dps",
+        "fightDps": 77839,
+        "fightHps": 5981.75,
+        "activeDps": 79857.42,
+        "activeHps": 7250.38,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 10763343,
+        "healingTotal": 827138,
+        "damageActiveTimeMs": 134782,
+        "healingActiveTimeMs": 114082,
+        "damageTotalTimeMs": 138277,
+        "healingTotalTimeMs": 138277,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 13,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4220144,
+          "endTime": 4358421,
+          "bossPercentage": 78.4,
+          "fightPercentage": 78.4,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 10763343,
+              "activeTime": 134782,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 827138,
+              "activeTime": 114082,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 2,
+          "matchedActorName": "Sandora",
+          "normalizedKeys": [
+            "sandora:doomhammer:eu",
+            "sandora::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Warlock-Destruction",
+            "className": "Warlock",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:12:Sandora:doomhammer:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=12",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:16:41.498Z",
+      "durationMs": 145229,
+      "bossPercentage": 78.53,
+      "fightPercentage": 78.53,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 2,
+        "name": "Sandora",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Warlock-Destruction",
+        "className": "Warlock",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 66743.1,
+        "hps": 5835.87,
+        "primary": 66743.1,
+        "primaryKind": "dps",
+        "fightDps": 66743.1,
+        "fightHps": 5835.87,
+        "activeDps": 68212.77,
+        "activeHps": 6704.2,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 9693034,
+        "healingTotal": 847538,
+        "damageActiveTimeMs": 142100,
+        "healingActiveTimeMs": 126419,
+        "damageTotalTimeMs": 145229,
+        "healingTotalTimeMs": 145229,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 12,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4007541,
+          "endTime": 4152770,
+          "bossPercentage": 78.53,
+          "fightPercentage": 78.53,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 9693034,
+              "activeTime": 142100,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 847538,
+              "activeTime": 126419,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 2,
+          "matchedActorName": "Sandora",
+          "normalizedKeys": [
+            "sandora:doomhammer:eu",
+            "sandora::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Warlock-Destruction",
+            "className": "Warlock",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:11:Sandora:doomhammer:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=11",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:12:37.893Z",
+      "durationMs": 98520,
+      "bossPercentage": 83.55,
+      "fightPercentage": 83.55,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 2,
+        "name": "Sandora",
+        "server": "Doomhammer",
+        "type": "Player",
+        "subType": "Warlock"
+      },
+      "role": {
+        "role": "dps",
+        "source": "wcl-spec",
+        "spec": "Warlock-Destruction",
+        "className": "Warlock",
+        "confidence": 0.9
+      },
+      "metric": {
+        "dps": 74733.51,
+        "hps": 9029.85,
+        "primary": 74733.51,
+        "primaryKind": "dps",
+        "fightDps": 74733.51,
+        "fightHps": 9029.85,
+        "activeDps": 76756.03,
+        "activeHps": 11618.7,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 7362745,
+        "healingTotal": 889621,
+        "damageActiveTimeMs": 95924,
+        "healingActiveTimeMs": 76568,
+        "damageTotalTimeMs": 98520,
+        "healingTotalTimeMs": 98520,
+        "damageEntryId": 2,
+        "healingEntryId": 2,
+        "damageItemLevel": 279,
+        "healingItemLevel": 279,
+        "matchedBy": "damage:actor-id:2,healing:actor-id:2"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 11,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3763936,
+          "endTime": 3862456,
+          "bossPercentage": 83.55,
+          "fightPercentage": 83.55,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 7362745,
+              "activeTime": 95924,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:2",
+            "matchedEntry": {
+              "id": 2,
+              "name": "Sandora",
+              "type": "Warlock",
+              "icon": "Warlock-Destruction",
+              "total": 889621,
+              "activeTime": 76568,
+              "itemLevel": 279,
+              "guid": 184935322
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 2,
+          "matchedActorName": "Sandora",
+          "normalizedKeys": [
+            "sandora:doomhammer:eu",
+            "sandora::eu"
+          ],
+          "role": {
+            "role": "dps",
+            "source": "wcl-spec",
+            "spec": "Warlock-Destruction",
+            "className": "Warlock",
+            "confidence": 0.9
+          },
+          "primaryKind": "dps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    }
+  ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-15T00:19:32.874Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-18T21:24:45.919Z",
+    "lastPullAt": "2026-06-17T18:57:46.744Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }
