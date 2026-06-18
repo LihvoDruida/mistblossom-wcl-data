@@ -9,18 +9,18 @@
     "killRate": 0.0988,
     "avgFightDurationMs": 195594,
     "avgRaidDeaths": 17.16,
-    "avgTeamDps": 116936.98,
-    "avgTeamHps": 35324.7,
-    "avgPerformanceScore": 18.04,
+    "avgTeamDps": 117652.02,
+    "avgTeamHps": 34877.18,
+    "avgPerformanceScore": 17.95,
     "avgSurvivalScore": 100,
-    "avgReliabilityScore": 41.7
+    "avgReliabilityScore": 41.65
   },
   "roles": {
     "damage": {
       "members": 49,
-      "pulls": 441,
-      "avgRecent": 60336.2,
-      "medianRecent": 62577.76,
+      "pulls": 442,
+      "avgRecent": 60981.88,
+      "medianRecent": 63096.91,
       "bestRecent": 127465.48,
       "maxLast10": 207607.12,
       "deathsPerPull": 0,
@@ -75,6 +75,13 @@
           "secondary": 0
         },
         {
+          "slug": "auroliana-ravencrest-eu",
+          "name": "Auroliana",
+          "rank": 3,
+          "value": 94215.92,
+          "secondary": 0
+        },
+        {
           "slug": "kokosik-silvermoon-eu",
           "name": "Kokosik",
           "rank": 3,
@@ -101,20 +108,13 @@
           "rank": 3,
           "value": 87936.57,
           "secondary": 0
-        },
-        {
-          "slug": "мавпита-gordunni-eu",
-          "name": "Мавпита",
-          "rank": 1,
-          "value": 87339.48,
-          "secondary": 0
         }
       ]
     },
     "healer": {
       "members": 21,
-      "pulls": 120,
-      "avgRecent": 51519.21,
+      "pulls": 119,
+      "avgRecent": 51546,
       "medianRecent": 16323.57,
       "bestRecent": 126555.86,
       "maxLast10": 147400.16,
@@ -138,7 +138,7 @@
           "slug": "auroliana-ravencrest-eu",
           "name": "Auroliana",
           "rank": 3,
-          "value": 109872.63,
+          "value": 110435.1,
           "secondary": 0
         },
         {
@@ -322,13 +322,6 @@
         "secondary": 127465.48
       },
       {
-        "slug": "auroliana-ravencrest-eu",
-        "name": "Auroliana",
-        "rank": 3,
-        "value": 78.37,
-        "secondary": 109872.63
-      },
-      {
         "slug": "булкрит-gordunni-eu",
         "name": "Булкрит",
         "rank": 1,
@@ -390,12 +383,19 @@
         "rank": 3,
         "value": 73.24,
         "secondary": 93049.14
+      },
+      {
+        "slug": "душа-blackscar-eu",
+        "name": "Душа",
+        "rank": 3,
+        "value": 73.23,
+        "secondary": 73409.84
       }
     ]
   },
   "consistency": {
-    "avgStabilityPercent": 70.91,
-    "avgConsistencyPercent": 39.9,
+    "avgStabilityPercent": 70.69,
+    "avgConsistencyPercent": 39.41,
     "mostStable": [
       {
         "slug": "yokum-terokkar-eu",
@@ -410,13 +410,6 @@
         "rank": 3,
         "value": 79.37,
         "secondary": 91.85
-      },
-      {
-        "slug": "auroliana-ravencrest-eu",
-        "name": "Auroliana",
-        "rank": 3,
-        "value": 78.37,
-        "secondary": 92.49
       },
       {
         "slug": "булкрит-gordunni-eu",
@@ -480,6 +473,13 @@
         "rank": 3,
         "value": 73.24,
         "secondary": 75.41
+      },
+      {
+        "slug": "душа-blackscar-eu",
+        "name": "Душа",
+        "rank": 3,
+        "value": 73.23,
+        "secondary": 79.76
       }
     ],
     "needsAttention": [
@@ -572,93 +572,93 @@
   "freshness": {
     "updatedWithin1h": 8,
     "updatedWithin6h": 16,
-    "updatedWithin12h": 32,
+    "updatedWithin12h": 24,
     "updatedWithin24h": 55,
-    "oldestScannedAt": "2026-06-14T20:22:20.848Z",
-    "newestScannedAt": "2026-06-18T10:41:19.251Z",
+    "oldestScannedAt": "2026-06-14T22:18:15.342Z",
+    "newestScannedAt": "2026-06-18T14:15:40.701Z",
     "staleMembers": [
-      {
-        "slug": "севатар-lich-king-eu",
-        "name": "Севатар",
-        "rank": 3,
-        "value": 86.33,
-        "secondary": 10
-      },
-      {
-        "slug": "щпикачечка-gordunni-eu",
-        "name": "Щпикачечка",
-        "rank": 3,
-        "value": 86.33,
-        "secondary": 8
-      },
-      {
-        "slug": "монэлушка-gordunni-eu",
-        "name": "Монэлушка",
-        "rank": 4,
-        "value": 86.33,
-        "secondary": 0
-      },
-      {
-        "slug": "senig-r-ravencrest-eu",
-        "name": "Senigør",
-        "rank": 1,
-        "value": 84.39,
-        "secondary": 0
-      },
-      {
-        "slug": "auroliana-ravencrest-eu",
-        "name": "Auroliana",
-        "rank": 3,
-        "value": 84.39,
-        "secondary": 10
-      },
-      {
-        "slug": "berkinzee-ravencrest-eu",
-        "name": "Berkinzee",
-        "rank": 3,
-        "value": 84.39,
-        "secondary": 0
-      },
-      {
-        "slug": "bullimonk-tarren-mill-eu",
-        "name": "Bullimonk",
-        "rank": 3,
-        "value": 84.39,
-        "secondary": 10
-      },
-      {
-        "slug": "бреинор-galakrond-eu",
-        "name": "Бреинор",
-        "rank": 3,
-        "value": 84.39,
-        "secondary": 0
-      },
       {
         "slug": "адвокатправа-gordunni-eu",
         "name": "Адвокатправа",
         "rank": 4,
-        "value": 84.39,
+        "value": 87.97,
         "secondary": 10
       },
       {
         "slug": "бафометище-eversong-eu",
         "name": "Бафометище",
         "rank": 4,
-        "value": 84.39,
+        "value": 87.97,
         "secondary": 0
       },
       {
         "slug": "дарадуда-gordunni-eu",
         "name": "Дарадуда",
         "rank": 4,
-        "value": 84.39,
+        "value": 87.97,
         "secondary": 10
       },
       {
         "slug": "characternuk-terokkar-eu",
         "name": "Characternuk",
         "rank": 1,
-        "value": 82.37,
+        "value": 85.94,
+        "secondary": 0
+      },
+      {
+        "slug": "zanzithor-tarren-mill-eu",
+        "name": "Zanzithor",
+        "rank": 2,
+        "value": 85.94,
+        "secondary": 10
+      },
+      {
+        "slug": "allune-terokkar-eu",
+        "name": "Allune",
+        "rank": 3,
+        "value": 85.94,
+        "secondary": 0
+      },
+      {
+        "slug": "asasinas-terokkar-eu",
+        "name": "Asasinas",
+        "rank": 3,
+        "value": 85.94,
+        "secondary": 0
+      },
+      {
+        "slug": "bylik-tarren-mill-eu",
+        "name": "Bylik",
+        "rank": 3,
+        "value": 85.94,
+        "secondary": 10
+      },
+      {
+        "slug": "sandora-doomhammer-eu",
+        "name": "Sandora",
+        "rank": 4,
+        "value": 85.94,
+        "secondary": 0
+      },
+      {
+        "slug": "корбус-gordunni-eu",
+        "name": "Корбус",
+        "rank": 4,
+        "value": 85.94,
+        "secondary": 0
+      },
+      {
+        "slug": "шпаргат-gordunni-eu",
+        "name": "Шпаргат",
+        "rank": 4,
+        "value": 85.94,
+        "secondary": 10
+      },
+      {
+        "slug": "darthkenobi-tarren-mill-eu",
+        "name": "Darthkenobi",
+        "rank": 3,
+        "value": 79.75,
         "secondary": 0
       }
     ]
@@ -676,9 +676,9 @@
       "killRate": 0,
       "avgDurationMs": 141803,
       "avgRaidDeaths": 16.25,
-      "avgTeamDps": 302214.07,
+      "avgTeamDps": 385716.43,
       "avgTeamHps": 166580.54,
-      "bestTeamDps": 341141.06,
+      "bestTeamDps": 428905.67,
       "bestTeamHps": 194944.88,
       "lastPullAt": "2026-06-17T18:57:46.744Z"
     },
@@ -694,8 +694,8 @@
       "killRate": 0,
       "avgDurationMs": 181576,
       "avgRaidDeaths": 20.23,
-      "avgTeamDps": 189948.48,
-      "avgTeamHps": 103437.58,
+      "avgTeamDps": 182378.8,
+      "avgTeamHps": 100330.5,
       "bestTeamDps": 503512.11,
       "bestTeamHps": 443451.54,
       "lastPullAt": "2026-06-10T19:15:28.694Z"
@@ -712,9 +712,9 @@
       "killRate": 0,
       "avgDurationMs": 116190,
       "avgRaidDeaths": 20,
-      "avgTeamDps": 358228.54,
+      "avgTeamDps": 332747.96,
       "avgTeamHps": 127239.82,
-      "bestTeamDps": 803723.66,
+      "bestTeamDps": 719304,
       "bestTeamHps": 401867.11,
       "lastPullAt": "2026-06-10T18:27:31.482Z"
     },
@@ -994,11 +994,11 @@
       "className": "Unknown",
       "members": 162,
       "withData": 58,
-      "avgPrimaryRecent3": 22941.88,
-      "avgDpsRecent3": 17773.92,
-      "avgHpsRecent3": 5957.15,
+      "avgPrimaryRecent3": 22845.23,
+      "avgDpsRecent3": 18355.5,
+      "avgHpsRecent3": 5278.93,
       "deathsPerPull": 0,
-      "avgReliabilityScore": 41.7
+      "avgReliabilityScore": 41.65
     }
   ]
 }

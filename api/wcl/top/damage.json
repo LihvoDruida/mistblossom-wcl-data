@@ -49,6 +49,13 @@
     "secondary": 0
   },
   {
+    "slug": "auroliana-ravencrest-eu",
+    "name": "Auroliana",
+    "rank": 3,
+    "value": 94215.92,
+    "secondary": 0
+  },
+  {
     "slug": "kokosik-silvermoon-eu",
     "name": "Kokosik",
     "rank": 3,
@@ -74,13 +81,6 @@
     "name": "Oxydenis",
     "rank": 3,
     "value": 87936.57,
-    "secondary": 0
-  },
-  {
-    "slug": "мавпита-gordunni-eu",
-    "name": "Мавпита",
-    "rank": 1,
-    "value": 87339.48,
     "secondary": 0
   }
 ]
