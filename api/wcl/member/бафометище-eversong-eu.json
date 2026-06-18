@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T22:18:15.342Z",
+  "updatedAt": "2026-06-18T18:09:10.748Z",
   "character": {
     "name": "Бафометище",
     "realmSlug": "eversong",
@@ -105,7 +105,7 @@
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T22:18:15.342Z",
+    "lastScannedAt": "2026-06-18T18:09:10.748Z",
     "newPullsInLastScan": 0,
     "scanReason": "scheduled"
   }

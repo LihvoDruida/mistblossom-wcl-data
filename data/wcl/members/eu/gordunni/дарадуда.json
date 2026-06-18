@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-06-14T22:18:15.342Z",
+  "updatedAt": "2026-06-18T18:09:10.748Z",
   "character": {
     "name": "Дарадуда",
     "realmSlug": "gordunni",
@@ -16,58 +16,58 @@
     "killRate": 0,
     "wipeRate": 1,
     "totalCharacterDeaths": 0,
-    "totalRaidDeaths": 201,
+    "totalRaidDeaths": 172,
     "deathsPerPull": 0,
-    "stabilityPercent": 75.49,
-    "consistencyPercent": 47.78,
-    "performanceScore": 53.46,
+    "stabilityPercent": 74.33,
+    "consistencyPercent": 53.67,
+    "performanceScore": 54.3,
     "survivalScore": 100,
-    "reliabilityScore": 73.8,
+    "reliabilityScore": 74.27,
     "recent3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 103479.61,
-      "avgPrimary": 103479.61,
-      "avgDurationMs": 183301,
+      "avgHps": 80181.93,
+      "avgPrimary": 80181.93,
+      "avgDurationMs": 163307,
       "avgDeaths": 0
     },
     "previous3": {
       "sampleSize": 3,
       "avgDps": 0,
-      "avgHps": 107592.82,
-      "avgPrimary": 107592.82,
-      "avgDurationMs": 142552,
+      "avgHps": 78392.13,
+      "avgPrimary": 78392.13,
+      "avgDurationMs": 133583,
       "avgDeaths": 0
     },
     "last10": {
       "sampleSize": 10,
       "maxDps": 0,
       "minDps": 0,
-      "maxHps": 137078.26,
-      "minHps": 65490.56,
-      "maxPrimary": 137078.26,
-      "minPrimary": 65490.56,
-      "maxDurationMs": 224253,
-      "minDurationMs": 90883
+      "maxHps": 107870.02,
+      "minHps": 57894.36,
+      "maxPrimary": 107870.02,
+      "minPrimary": 57894.36,
+      "maxDurationMs": 211411,
+      "minDurationMs": 94067
     },
     "trend": {
       "direction": "flat",
-      "recentAvg": 103479.61,
-      "previousAvg": 107592.82,
-      "delta": -4113.21,
-      "deltaPercent": -3.82
+      "recentAvg": 80181.93,
+      "previousAvg": 78392.13,
+      "delta": 1789.8,
+      "deltaPercent": 2.28
     },
     "byRole": {
       "healer": {
         "pulls": 10,
         "kills": 0,
         "wipes": 10,
-        "avgRecent": 103479.61,
-        "maxLast10": 137078.26,
-        "minLast10": 65490.56,
+        "avgRecent": 80181.93,
+        "maxLast10": 107870.02,
+        "minLast10": 57894.36,
         "deathsPerPull": 0,
-        "bestPullKey": "RL79bk4gWVYtjAC2:30:Дарадуда:gordunni:eu",
-        "worstPullKey": "RL79bk4gWVYtjAC2:32:Дарадуда:gordunni:eu"
+        "bestPullKey": "RL79bk4gWVYtjAC2:31:Дарадуда:gordunni:eu",
+        "worstPullKey": "YmMXVLgCwzT6j2cr:16:Дарадуда:gordunni:eu"
       },
       "damage": {
         "pulls": 0,
@@ -89,7 +89,7 @@
       }
     },
     "dataQuality": {
-      "pullsWithMatchedDamage": 9,
+      "pullsWithMatchedDamage": 10,
       "pullsWithMatchedHealing": 10,
       "pullsWithRoleInferred": 10,
       "pullsWithDeaths": 0,
@@ -103,6 +103,1158 @@
     }
   },
   "pulls": [
+    {
+      "key": "YmMXVLgCwzT6j2cr:18:Дарадуда:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 18,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=18",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:57:46.744Z",
+      "durationMs": 194721,
+      "bossPercentage": 70.85,
+      "fightPercentage": 70.85,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 4,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1042.49,
+        "hps": 97412.08,
+        "primary": 97412.08,
+        "primaryKind": "hps",
+        "fightDps": 1042.49,
+        "fightHps": 97412.08,
+        "activeDps": 9040.84,
+        "activeHps": 99579.37,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 202994,
+        "healingTotal": 18968177,
+        "damageActiveTimeMs": 22453,
+        "healingActiveTimeMs": 190483,
+        "damageTotalTimeMs": 194721,
+        "healingTotalTimeMs": 194721,
+        "damageEntryId": 4,
+        "healingEntryId": 4,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:4,healing:actor-id:4"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 18,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6472787,
+          "endTime": 6667508,
+          "bossPercentage": 70.85,
+          "fightPercentage": 70.85,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 202994,
+              "activeTime": 22453,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 194721,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 18968177,
+              "activeTime": 190483,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 4,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:17:Дарадуда:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 17,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=17",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:53:14.132Z",
+      "durationMs": 159209,
+      "bossPercentage": 78.19,
+      "fightPercentage": 78.19,
+      "averageItemLevel": 287.8125,
+      "actor": {
+        "id": 4,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 916.91,
+        "hps": 85239.36,
+        "primary": 85239.36,
+        "primaryKind": "hps",
+        "fightDps": 916.91,
+        "fightHps": 85239.36,
+        "activeDps": 4512.55,
+        "activeHps": 90385.12,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 145981,
+        "healingTotal": 13570874,
+        "damageActiveTimeMs": 32350,
+        "healingActiveTimeMs": 150145,
+        "damageTotalTimeMs": 159209,
+        "healingTotalTimeMs": 159209,
+        "damageEntryId": 4,
+        "healingEntryId": 4,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:4,healing:actor-id:4"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 17,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 6200175,
+          "endTime": 6359384,
+          "bossPercentage": 78.19,
+          "fightPercentage": 78.19,
+          "averageItemLevel": 287.8125
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 145981,
+              "activeTime": 32350,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 159209,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 13570874,
+              "activeTime": 150145,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 4,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:16:Дарадуда:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 16,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=16",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:41:51.760Z",
+      "durationMs": 135992,
+      "bossPercentage": 76.74,
+      "fightPercentage": 76.74,
+      "averageItemLevel": 287.5,
+      "actor": {
+        "id": 4,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 2136.99,
+        "hps": 57894.36,
+        "primary": 57894.36,
+        "primaryKind": "hps",
+        "fightDps": 2136.99,
+        "fightHps": 57894.36,
+        "activeDps": 7255.92,
+        "activeHps": 65761.55,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 290614,
+        "healingTotal": 7873170,
+        "damageActiveTimeMs": 40052,
+        "healingActiveTimeMs": 119723,
+        "damageTotalTimeMs": 135992,
+        "healingTotalTimeMs": 135992,
+        "damageEntryId": 4,
+        "healingEntryId": 4,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:4,healing:actor-id:4"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 16,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 5517803,
+          "endTime": 5653795,
+          "bossPercentage": 76.74,
+          "fightPercentage": 76.74,
+          "averageItemLevel": 287.5
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 290614,
+              "activeTime": 40052,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 135992,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 7873170,
+              "activeTime": 119723,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 4,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:15:Дарадуда:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 15,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=15",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:31:20.098Z",
+      "durationMs": 168405,
+      "bossPercentage": 75.75,
+      "fightPercentage": 75.75,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 4,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 720.29,
+        "hps": 79136.25,
+        "primary": 79136.25,
+        "primaryKind": "hps",
+        "fightDps": 720.29,
+        "fightHps": 79136.25,
+        "activeDps": 6156.74,
+        "activeHps": 82908.89,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 17
+      },
+      "source": {
+        "damageTotal": 121300,
+        "healingTotal": 13326940,
+        "damageActiveTimeMs": 19702,
+        "healingActiveTimeMs": 160742,
+        "damageTotalTimeMs": 168405,
+        "healingTotalTimeMs": 168405,
+        "damageEntryId": 4,
+        "healingEntryId": 4,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:4,healing:actor-id:4"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 15,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4886141,
+          "endTime": 5054546,
+          "bossPercentage": 75.75,
+          "fightPercentage": 75.75,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 121300,
+              "activeTime": 19702,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 168405,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 13326940,
+              "activeTime": 160742,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 17,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 4,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:14:Дарадуда:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 14,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=14",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:25:08.620Z",
+      "durationMs": 94067,
+      "bossPercentage": 83.63,
+      "fightPercentage": 83.63,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 4,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1075.77,
+        "hps": 71002.16,
+        "primary": 71002.16,
+        "primaryKind": "hps",
+        "fightDps": 1075.77,
+        "fightHps": 71002.16,
+        "activeDps": 5623.45,
+        "activeHps": 100977.58,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 101194,
+        "healingTotal": 6678960,
+        "damageActiveTimeMs": 17995,
+        "healingActiveTimeMs": 66143,
+        "damageTotalTimeMs": 94067,
+        "healingTotalTimeMs": 94067,
+        "damageEntryId": 4,
+        "healingEntryId": 4,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:4,healing:actor-id:4"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 14,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4514663,
+          "endTime": 4608730,
+          "bossPercentage": 83.63,
+          "fightPercentage": 83.63,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 101194,
+              "activeTime": 17995,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 94067,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 6678960,
+              "activeTime": 66143,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 4,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:13:Дарадуда:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 13,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=13",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:20:14.101Z",
+      "durationMs": 138277,
+      "bossPercentage": 78.4,
+      "fightPercentage": 78.4,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 4,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 1583.93,
+        "hps": 85037.97,
+        "primary": 85037.97,
+        "primaryKind": "hps",
+        "fightDps": 1583.93,
+        "fightHps": 85037.97,
+        "activeDps": 6127.49,
+        "activeHps": 86355.7,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 219021,
+        "healingTotal": 11758796,
+        "damageActiveTimeMs": 35744,
+        "healingActiveTimeMs": 136167,
+        "damageTotalTimeMs": 138277,
+        "healingTotalTimeMs": 138277,
+        "damageEntryId": 4,
+        "healingEntryId": 4,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:4,healing:actor-id:4"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 13,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4220144,
+          "endTime": 4358421,
+          "bossPercentage": 78.4,
+          "fightPercentage": 78.4,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 219021,
+              "activeTime": 35744,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 138277,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 11758796,
+              "activeTime": 136167,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 4,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:12:Дарадуда:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 12,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=12",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:16:41.498Z",
+      "durationMs": 145229,
+      "bossPercentage": 78.53,
+      "fightPercentage": 78.53,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 4,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 971.98,
+        "hps": 84370.84,
+        "primary": 84370.84,
+        "primaryKind": "hps",
+        "fightDps": 971.98,
+        "fightHps": 84370.84,
+        "activeDps": 8531.88,
+        "activeHps": 88459.77,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 141160,
+        "healingTotal": 12253093,
+        "damageActiveTimeMs": 16545,
+        "healingActiveTimeMs": 138516,
+        "damageTotalTimeMs": 145229,
+        "healingTotalTimeMs": 145229,
+        "damageEntryId": 4,
+        "healingEntryId": 4,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:4,healing:actor-id:4"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 12,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 4007541,
+          "endTime": 4152770,
+          "bossPercentage": 78.53,
+          "fightPercentage": 78.53,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 141160,
+              "activeTime": 16545,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 145229,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 12253093,
+              "activeTime": 138516,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 4,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
+    {
+      "key": "YmMXVLgCwzT6j2cr:11:Дарадуда:gordunni:eu",
+      "reportCode": "YmMXVLgCwzT6j2cr",
+      "reportTitle": "Sporefall",
+      "reportStartedAt": "2026-06-17T17:09:53.957Z",
+      "reportEndedAt": "2026-06-17T19:04:18.232Z",
+      "zone": {
+        "id": 50,
+        "name": "Sporefall"
+      },
+      "fightId": 11,
+      "url": "https://www.warcraftlogs.com/reports/YmMXVLgCwzT6j2cr#fight=11",
+      "status": "WIPE",
+      "bossName": "Rotmire",
+      "encounterId": 3159,
+      "difficulty": 5,
+      "difficultyName": "Mythic",
+      "startedAt": "2026-06-17T18:12:37.893Z",
+      "durationMs": 98520,
+      "bossPercentage": 83.55,
+      "fightPercentage": 83.55,
+      "averageItemLevel": 287.4375,
+      "actor": {
+        "id": 4,
+        "name": "Дарадуда",
+        "server": "Гордунни",
+        "type": "Player",
+        "subType": "Druid"
+      },
+      "role": {
+        "role": "healer",
+        "source": "wcl-spec",
+        "spec": "Druid-Restoration",
+        "className": "Druid",
+        "confidence": 0.96
+      },
+      "metric": {
+        "dps": 739.41,
+        "hps": 86433.72,
+        "primary": 86433.72,
+        "primaryKind": "hps",
+        "fightDps": 739.41,
+        "fightHps": 86433.72,
+        "activeDps": 4046.38,
+        "activeHps": 108987.99,
+        "damageRateSource": "table-total-time",
+        "healingRateSource": "table-total-time"
+      },
+      "deaths": {
+        "character": 0,
+        "raid": 16
+      },
+      "source": {
+        "damageTotal": 72847,
+        "healingTotal": 8515450,
+        "damageActiveTimeMs": 18003,
+        "healingActiveTimeMs": 78132,
+        "damageTotalTimeMs": 98520,
+        "healingTotalTimeMs": 98520,
+        "damageEntryId": 4,
+        "healingEntryId": 4,
+        "damageItemLevel": 287,
+        "healingItemLevel": 287,
+        "matchedBy": "damage:actor-id:4,healing:actor-id:4"
+      },
+      "wclRaw": {
+        "report": {
+          "code": "YmMXVLgCwzT6j2cr",
+          "title": "Sporefall",
+          "startTime": 1781716193957,
+          "endTime": 1781723058232
+        },
+        "fight": {
+          "id": 11,
+          "name": "Rotmire",
+          "encounterID": 3159,
+          "difficulty": 5,
+          "kill": false,
+          "startTime": 3763936,
+          "endTime": 3862456,
+          "bossPercentage": 83.55,
+          "fightPercentage": 83.55,
+          "averageItemLevel": 287.4375
+        },
+        "tables": {
+          "damage": {
+            "dataType": "DamageDone",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 72847,
+              "activeTime": 18003,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          },
+          "healing": {
+            "dataType": "Healing",
+            "rawEntryCount": 16,
+            "totalTimeMs": 98520,
+            "matchedBy": "actor-id:4",
+            "matchedEntry": {
+              "id": 4,
+              "name": "Дарадуда",
+              "type": "Druid",
+              "icon": "Druid-Restoration",
+              "total": 8515450,
+              "activeTime": 78132,
+              "itemLevel": 287,
+              "guid": 265784049
+            }
+          }
+        },
+        "deaths": {
+          "rawEventCount": 16,
+          "matchedEvents": []
+        },
+        "processing": {
+          "matchedActorId": 4,
+          "matchedActorName": "Дарадуда",
+          "normalizedKeys": [
+            "дарадуда:gordunni:eu",
+            "дарадуда::eu"
+          ],
+          "role": {
+            "role": "healer",
+            "source": "wcl-spec",
+            "spec": "Druid-Restoration",
+            "className": "Druid",
+            "confidence": 0.96
+          },
+          "primaryKind": "hps",
+          "rateSources": {
+            "damage": "table-total-time",
+            "healing": "table-total-time"
+          }
+        }
+      }
+    },
     {
       "key": "RL79bk4gWVYtjAC2:32:Дарадуда:gordunni:eu",
       "reportCode": "RL79bk4gWVYtjAC2",
@@ -390,1153 +1542,15 @@
           }
         }
       }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:30:Дарадуда:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 30,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=30",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T19:05:05.526Z",
-      "durationMs": 157690,
-      "bossPercentage": 47.28,
-      "fightPercentage": 47.28,
-      "averageItemLevel": 287.6499938964844,
-      "actor": {
-        "id": 24,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1241.28,
-        "hps": 137078.26,
-        "primary": 137078.26,
-        "primaryKind": "hps",
-        "fightDps": 1241.28,
-        "fightHps": 137078.26,
-        "activeDps": 4602.68,
-        "activeHps": 137252.34,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 13
-      },
-      "source": {
-        "damageTotal": 195738,
-        "healingTotal": 21615871,
-        "damageActiveTimeMs": 42527,
-        "healingActiveTimeMs": 157490,
-        "damageTotalTimeMs": 157690,
-        "healingTotalTimeMs": 157690,
-        "damageEntryId": 24,
-        "healingEntryId": 24,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:24,healing:actor-id:24"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 30,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6960668,
-          "endTime": 7118358,
-          "bossPercentage": 47.28,
-          "fightPercentage": 47.28,
-          "averageItemLevel": 287.6499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157690,
-            "matchedBy": "actor-id:24",
-            "matchedEntry": {
-              "id": 24,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 195738,
-              "activeTime": 42527,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 157690,
-            "matchedBy": "actor-id:24",
-            "matchedEntry": {
-              "id": 24,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 21615871,
-              "activeTime": 157490,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 13,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 24,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:29:Дарадуда:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 29,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=29",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:58:57.564Z",
-      "durationMs": 172779,
-      "bossPercentage": 46.53,
-      "fightPercentage": 46.53,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 24,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 749.67,
-        "hps": 104807.44,
-        "primary": 104807.44,
-        "primaryKind": "hps",
-        "fightDps": 749.67,
-        "fightHps": 104807.44,
-        "activeDps": 7184.43,
-        "activeHps": 129799.04,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 129528,
-        "healingTotal": 18108524,
-        "damageActiveTimeMs": 18029,
-        "healingActiveTimeMs": 139512,
-        "damageTotalTimeMs": 172779,
-        "healingTotalTimeMs": 172779,
-        "damageEntryId": 24,
-        "healingEntryId": 24,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:24,healing:actor-id:24"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 29,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6592706,
-          "endTime": 6765485,
-          "bossPercentage": 46.53,
-          "fightPercentage": 46.53,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 172779,
-            "matchedBy": "actor-id:24",
-            "matchedEntry": {
-              "id": 24,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 129528,
-              "activeTime": 18029,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 172779,
-            "matchedBy": "actor-id:24",
-            "matchedEntry": {
-              "id": 24,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 18108524,
-              "activeTime": 139512,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 24,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:28:Дарадуда:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 28,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=28",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:46:37.242Z",
-      "durationMs": 92715,
-      "bossPercentage": 78.58,
-      "fightPercentage": 78.58,
-      "averageItemLevel": 287.6499938964844,
-      "actor": {
-        "id": 24,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1317.94,
-        "hps": 109273.69,
-        "primary": 109273.69,
-        "primaryKind": "hps",
-        "fightDps": 1317.94,
-        "fightHps": 109273.69,
-        "activeDps": 6797.94,
-        "activeHps": 110145.68,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 122193,
-        "healingTotal": 10131310,
-        "damageActiveTimeMs": 17975,
-        "healingActiveTimeMs": 91981,
-        "damageTotalTimeMs": 92715,
-        "healingTotalTimeMs": 92715,
-        "damageEntryId": 24,
-        "healingEntryId": 24,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:24,healing:actor-id:24"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 28,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 5852384,
-          "endTime": 5945099,
-          "bossPercentage": 78.58,
-          "fightPercentage": 78.58,
-          "averageItemLevel": 287.6499938964844
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 92715,
-            "matchedBy": "actor-id:24",
-            "matchedEntry": {
-              "id": 24,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 122193,
-              "activeTime": 17975,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 92715,
-            "matchedBy": "actor-id:24",
-            "matchedEntry": {
-              "id": 24,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 10131310,
-              "activeTime": 91981,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 24,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:27:Дарадуда:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 27,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=27",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:27:31.482Z",
-      "durationMs": 162162,
-      "bossPercentage": 57.42,
-      "fightPercentage": 57.42,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 24,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1613.51,
-        "hps": 108697.32,
-        "primary": 108697.32,
-        "primaryKind": "hps",
-        "fightDps": 1613.51,
-        "fightHps": 108697.32,
-        "activeDps": 6641.2,
-        "activeHps": 137078.98,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 261650,
-        "healingTotal": 17626575,
-        "damageActiveTimeMs": 39398,
-        "healingActiveTimeMs": 128587,
-        "damageTotalTimeMs": 162162,
-        "healingTotalTimeMs": 162162,
-        "damageEntryId": 24,
-        "healingEntryId": 24,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:24,healing:actor-id:24"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 27,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4706624,
-          "endTime": 4868786,
-          "bossPercentage": 57.42,
-          "fightPercentage": 57.42,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 20,
-            "totalTimeMs": 162162,
-            "matchedBy": "actor-id:24",
-            "matchedEntry": {
-              "id": 24,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 261650,
-              "activeTime": 39398,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 162162,
-            "matchedBy": "actor-id:24",
-            "matchedEntry": {
-              "id": 24,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 17626575,
-              "activeTime": 128587,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 24,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:26:Дарадуда:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 26,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=26",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:23:01.641Z",
-      "durationMs": 100948,
-      "bossPercentage": 72.73,
-      "fightPercentage": 72.73,
-      "averageItemLevel": 287.54998779296875,
-      "actor": {
-        "id": 24,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 957.77,
-        "hps": 110183,
-        "primary": 110183,
-        "primaryKind": "hps",
-        "fightDps": 957.77,
-        "fightHps": 110183,
-        "activeDps": 19469.39,
-        "activeHps": 111955.24,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 20
-      },
-      "source": {
-        "damageTotal": 96685,
-        "healingTotal": 11122753,
-        "damageActiveTimeMs": 4966,
-        "healingActiveTimeMs": 99350,
-        "damageTotalTimeMs": 100948,
-        "healingTotalTimeMs": 100948,
-        "damageEntryId": 24,
-        "healingEntryId": 24,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:24,healing:actor-id:24"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 26,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 4436783,
-          "endTime": 4537731,
-          "bossPercentage": 72.73,
-          "fightPercentage": 72.73,
-          "averageItemLevel": 287.54998779296875
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 19,
-            "totalTimeMs": 100948,
-            "matchedBy": "actor-id:24",
-            "matchedEntry": {
-              "id": 24,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 96685,
-              "activeTime": 4966,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 100948,
-            "matchedBy": "actor-id:24",
-            "matchedEntry": {
-              "id": 24,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 11122753,
-              "activeTime": 99350,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 20,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 24,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "RL79bk4gWVYtjAC2:25:Дарадуда:gordunni:eu",
-      "reportCode": "RL79bk4gWVYtjAC2",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-10T17:09:04.858Z",
-      "reportEndedAt": "2026-06-10T19:20:59.065Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 25,
-      "url": "https://www.warcraftlogs.com/reports/RL79bk4gWVYtjAC2#fight=25",
-      "status": "WIPE",
-      "bossName": "Fallen-King Salhadaar",
-      "encounterId": 3179,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-10T18:11:38.181Z",
-      "durationMs": 90883,
-      "bossPercentage": 71.27,
-      "fightPercentage": 71.27,
-      "averageItemLevel": 287.6000061035156,
-      "actor": {
-        "id": 24,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 0,
-        "hps": 81006.33,
-        "primary": 81006.33,
-        "primaryKind": "hps",
-        "fightDps": 0,
-        "fightHps": 81006.33,
-        "activeDps": 0,
-        "activeHps": 81779.28,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 22
-      },
-      "source": {
-        "damageTotal": 0,
-        "healingTotal": 7362098,
-        "healingActiveTimeMs": 90024,
-        "damageTotalTimeMs": 90883,
-        "healingTotalTimeMs": 90883,
-        "healingEntryId": 24,
-        "healingItemLevel": 284,
-        "matchedBy": "healing:actor-id:24"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "RL79bk4gWVYtjAC2",
-          "title": "VS / DR / MQD",
-          "startTime": 1781111344858,
-          "endTime": 1781119259065
-        },
-        "fight": {
-          "id": 25,
-          "name": "Fallen-King Salhadaar",
-          "encounterID": 3179,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 3753323,
-          "endTime": 3844206,
-          "bossPercentage": 71.27,
-          "fightPercentage": 71.27,
-          "averageItemLevel": 287.6000061035156
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 19,
-            "totalTimeMs": 90883
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 21,
-            "totalTimeMs": 90883,
-            "matchedBy": "actor-id:24",
-            "matchedEntry": {
-              "id": 24,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 7362098,
-              "activeTime": 90024,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 22,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 24,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:21:Дарадуда:gordunni:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 21,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=21",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:57:02.136Z",
-      "durationMs": 224253,
-      "bossPercentage": 47.03,
-      "fightPercentage": 47.03,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 47,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 1054.31,
-        "hps": 91430.76,
-        "primary": 91430.76,
-        "primaryKind": "hps",
-        "fightDps": 1054.31,
-        "fightHps": 91430.76,
-        "activeDps": 6216.5,
-        "activeHps": 97457.62,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 236432,
-        "healingTotal": 20503622,
-        "damageActiveTimeMs": 38033,
-        "healingActiveTimeMs": 210385,
-        "damageTotalTimeMs": 224253,
-        "healingTotalTimeMs": 224253,
-        "damageEntryId": 47,
-        "healingEntryId": 47,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 21,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 7223335,
-          "endTime": 7447588,
-          "bossPercentage": 47.03,
-          "fightPercentage": 47.03,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 224253,
-            "matchedBy": "actor-id:47",
-            "matchedEntry": {
-              "id": 47,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 236432,
-              "activeTime": 38033,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 224253,
-            "matchedBy": "actor-id:47",
-            "matchedEntry": {
-              "id": 47,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 20503622,
-              "activeTime": 210385,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 47,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
-    },
-    {
-      "key": "49WFMrR1KNkXtHn8:20:Дарадуда:gordunni:eu",
-      "reportCode": "49WFMrR1KNkXtHn8",
-      "reportTitle": "VS / DR / MQD",
-      "reportStartedAt": "2026-06-08T16:56:38.801Z",
-      "reportEndedAt": "2026-06-08T19:12:36.748Z",
-      "zone": {
-        "id": 46,
-        "name": "VS / DR / MQD"
-      },
-      "fightId": 20,
-      "url": "https://www.warcraftlogs.com/reports/49WFMrR1KNkXtHn8#fight=20",
-      "status": "WIPE",
-      "bossName": "Chimaerus, the Undreamt God",
-      "encounterId": 3306,
-      "difficulty": 5,
-      "difficultyName": "Mythic",
-      "startedAt": "2026-06-08T18:50:47.571Z",
-      "durationMs": 210953,
-      "bossPercentage": 50.11,
-      "fightPercentage": 50.11,
-      "averageItemLevel": 286.25,
-      "actor": {
-        "id": 47,
-        "name": "Дарадуда",
-        "server": "Гордунни",
-        "type": "Player",
-        "subType": "Druid"
-      },
-      "role": {
-        "role": "healer",
-        "source": "wcl-spec",
-        "spec": "Druid-Restoration",
-        "className": "Druid",
-        "confidence": 0.96
-      },
-      "metric": {
-        "dps": 909.06,
-        "hps": 117482.35,
-        "primary": 117482.35,
-        "primaryKind": "hps",
-        "fightDps": 909.06,
-        "fightHps": 117482.35,
-        "activeDps": 5036.48,
-        "activeHps": 121758.11,
-        "damageRateSource": "table-total-time",
-        "healingRateSource": "table-total-time"
-      },
-      "deaths": {
-        "character": 0,
-        "raid": 21
-      },
-      "source": {
-        "damageTotal": 191769,
-        "healingTotal": 24783255,
-        "damageActiveTimeMs": 38076,
-        "healingActiveTimeMs": 203545,
-        "damageTotalTimeMs": 210953,
-        "healingTotalTimeMs": 210953,
-        "damageEntryId": 47,
-        "healingEntryId": 47,
-        "damageItemLevel": 284,
-        "healingItemLevel": 284,
-        "matchedBy": "damage:actor-id:47,healing:actor-id:47"
-      },
-      "wclRaw": {
-        "report": {
-          "code": "49WFMrR1KNkXtHn8",
-          "title": "VS / DR / MQD",
-          "startTime": 1780937798801,
-          "endTime": 1780945956748
-        },
-        "fight": {
-          "id": 20,
-          "name": "Chimaerus, the Undreamt God",
-          "encounterID": 3306,
-          "difficulty": 5,
-          "kill": false,
-          "startTime": 6848770,
-          "endTime": 7059723,
-          "bossPercentage": 50.11,
-          "fightPercentage": 50.11,
-          "averageItemLevel": 286.25
-        },
-        "tables": {
-          "damage": {
-            "dataType": "DamageDone",
-            "rawEntryCount": 21,
-            "totalTimeMs": 210953,
-            "matchedBy": "actor-id:47",
-            "matchedEntry": {
-              "id": 47,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 191769,
-              "activeTime": 38076,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          },
-          "healing": {
-            "dataType": "Healing",
-            "rawEntryCount": 22,
-            "totalTimeMs": 210953,
-            "matchedBy": "actor-id:47",
-            "matchedEntry": {
-              "id": 47,
-              "name": "Дарадуда",
-              "type": "Druid",
-              "icon": "Druid-Restoration",
-              "total": 24783255,
-              "activeTime": 203545,
-              "itemLevel": 284,
-              "guid": 265784049
-            }
-          }
-        },
-        "deaths": {
-          "rawEventCount": 21,
-          "matchedEvents": []
-        },
-        "processing": {
-          "matchedActorId": 47,
-          "matchedActorName": "Дарадуда",
-          "normalizedKeys": [
-            "дарадуда:gordunni:eu",
-            "дарадуда::eu"
-          ],
-          "role": {
-            "role": "healer",
-            "source": "wcl-spec",
-            "spec": "Druid-Restoration",
-            "className": "Druid",
-            "confidence": 0.96
-          },
-          "primaryKind": "hps",
-          "rateSources": {
-            "damage": "table-total-time",
-            "healing": "table-total-time"
-          }
-        }
-      }
     }
   ],
   "source": {
     "reportsScanned": 8,
     "fightsScanned": 8,
     "generatedBy": "wcl-github-api",
-    "lastScannedAt": "2026-06-14T22:18:15.342Z",
-    "lastPullAt": "2026-06-10T19:15:28.694Z",
-    "newPullsInLastScan": 0,
+    "lastScannedAt": "2026-06-18T18:09:10.748Z",
+    "lastPullAt": "2026-06-17T18:57:46.744Z",
+    "newPullsInLastScan": 8,
     "scanReason": "scheduled"
   }
 }

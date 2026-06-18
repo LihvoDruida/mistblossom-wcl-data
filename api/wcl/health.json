@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "updatedAt": "2026-06-18T14:15:40.701Z",
+  "updatedAt": "2026-06-18T18:09:10.748Z",
   "mode": "incremental-hourly-budget-aware",
   "rosterMembers": 162,
   "selectedMembers": 8,
@@ -23,8 +23,8 @@
     "avgFightDurationMs": 195594,
     "avgRaidDeaths": 17.16,
     "avgTeamDps": 117652.02,
-    "avgTeamHps": 34877.18,
-    "avgPerformanceScore": 17.95,
+    "avgTeamHps": 33998.86,
+    "avgPerformanceScore": 17.96,
     "avgSurvivalScore": 100,
     "avgReliabilityScore": 41.65
   },
